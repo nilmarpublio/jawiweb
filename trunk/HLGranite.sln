@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "JawiWeb", "JawiWeb\", "{35684E30-6F62-4EC2-A63D-E8BE21A58274}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "2.0"
+		ProjectReferences = "{3C4F33C8-BE84-4733-8ECE-D6A86C4778DC}|HLGranite.BusinessLogic.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/JawiWeb"
+		Debug.AspNetCompiler.PhysicalPath = "F:\MyProjects2\HLGranite\JawiWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\JawiWeb\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/JawiWeb"
+		Release.AspNetCompiler.PhysicalPath = "F:\MyProjects2\HLGranite\JawiWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\JawiWeb\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1061"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HLGranite.BusinessLogic", "HLGranite.BusinessLogic\HLGranite.BusinessLogic.csproj", "{3C4F33C8-BE84-4733-8ECE-D6A86C4778DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35684E30-6F62-4EC2-A63D-E8BE21A58274}.Debug|.NET.ActiveCfg = Debug|.NET
+		{35684E30-6F62-4EC2-A63D-E8BE21A58274}.Debug|.NET.Build.0 = Debug|.NET
+		{35684E30-6F62-4EC2-A63D-E8BE21A58274}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{35684E30-6F62-4EC2-A63D-E8BE21A58274}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{35684E30-6F62-4EC2-A63D-E8BE21A58274}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{35684E30-6F62-4EC2-A63D-E8BE21A58274}.Release|.NET.ActiveCfg = Debug|.NET
+		{35684E30-6F62-4EC2-A63D-E8BE21A58274}.Release|.NET.Build.0 = Debug|.NET
+		{35684E30-6F62-4EC2-A63D-E8BE21A58274}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{35684E30-6F62-4EC2-A63D-E8BE21A58274}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{35684E30-6F62-4EC2-A63D-E8BE21A58274}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{3C4F33C8-BE84-4733-8ECE-D6A86C4778DC}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{3C4F33C8-BE84-4733-8ECE-D6A86C4778DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4F33C8-BE84-4733-8ECE-D6A86C4778DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4F33C8-BE84-4733-8ECE-D6A86C4778DC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3C4F33C8-BE84-4733-8ECE-D6A86C4778DC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3C4F33C8-BE84-4733-8ECE-D6A86C4778DC}.Release|.NET.ActiveCfg = Release|Any CPU
+		{3C4F33C8-BE84-4733-8ECE-D6A86C4778DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4F33C8-BE84-4733-8ECE-D6A86C4778DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4F33C8-BE84-4733-8ECE-D6A86C4778DC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3C4F33C8-BE84-4733-8ECE-D6A86C4778DC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
