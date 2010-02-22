@@ -36,11 +36,13 @@
   </rootname>
   <rootname>
     <rumi>a'ashriah</rumi>
-    <jawi />
+    <jawi>عاشره</jawi>
     <sex>0</sex>
   </rootname>
   <rootname>
     <rumi>aazik</rumi>
+	<jawi>ازيك</jawi>
+	<sex/>
   </rootname>
   <rootname>
     <rumi>ab</rumi>
@@ -1286,7 +1288,7 @@
   </rootname>
   <rootname>
     <rumi>arshad</rumi>
-    <jawi>ارشد</jawi>
+    <jawi>أرشد</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
@@ -16719,6 +16721,11 @@
     <sex>0</sex>
   </rootname>
   <rootname>
+    <rumi>zainidi</rumi>
+    <jawi>زاينيدي</jawi>
+    <sex>1</sex>
+  </rootname>
+  <rootname>
     <rumi>zainol</rumi>
     <jawi>زاينول</jawi>
     <sex>1</sex>
@@ -16735,7 +16742,7 @@
   </rootname>
   <rootname>
     <rumi>zainor</rumi>
-    <jawi />
+    <jawi>زاينور</jawi>
     <sex>0</sex>
   </rootname>
   <rootname>

@@ -14705,12 +14705,14 @@
   </order>
   <order soldto="ADI" date="2010-02-22" delivered="" price="35">
     <name>Jusoh bin Harun</name>
+	<jawi>جوسوه بن هارون</jawi>
     <death>2009-09-22</death>
     <deathm>1430-10-02</deathm>
     <item>PA</item>
   </order>
   <order soldto="ADI" date="2010-02-22" delivered="" price="35">
     <name>Zainidi bin Yacob</name>
+	<jawi>زاينيدي بن يعقوب</jawi>
     <death>2009-12-24</death>
     <deathm>1431-01-07</deathm>
     <item>PA</item>
