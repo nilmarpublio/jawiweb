@@ -12,13 +12,13 @@
           body > .header {position:fixed;}
           .rumi {padding-right:10px;}
           .header {
-          background:#DDDDDD none repeat scroll 0 0;
-          height:8em;
-          left:0;
-          overflow:auto;
-          position:absolute;
-          top:0;
-          width:100%;
+            background:#DDDDDD none repeat scroll 0 0;
+            /*height:8em;*/
+            left:0;
+            overflow:auto;
+            position:absolute;
+            top:0;
+            width:100%;
           }
           .content {margin-top:150px;}
           /*.tab {width:10px;}*/
