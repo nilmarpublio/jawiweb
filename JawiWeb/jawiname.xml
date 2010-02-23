@@ -3,32 +3,110 @@
 <!-- 0=uni sex, 1=male, 2=female -->
 <!-- 3,711 entries for 547 unique jawi only -->
 <jawiname>
-  <character>a</character>
-  <character>b</character>
-  <character>c</character>
-  <character>d</character>
-  <character>e</character>
-  <character>f</character>
-  <character>g</character>
-  <character>h</character>
-  <character>i</character>
-  <character>j</character>
-  <character>k</character>
-  <character>l</character>
-  <character>m</character>
-  <character>n</character>
-  <character>o</character>
-  <character>p</character>
-  <character>q</character>
-  <character>r</character>
-  <character>s</character>
-  <character>t</character>
-  <character>u</character>
-  <character>v</character>
-  <character>w</character>
-  <character>x</character>
-  <character>y</character>
-  <character>z</character>
+  <character>
+    <english>a</english>
+    <arabic>ا</arabic>
+    </character>
+  <character>
+    <english>b</english>
+    <arabic>ب</arabic>
+  </character>
+  <character>
+    <english>c</english>
+    <arabic>چ</arabic>
+  </character>
+  <character>
+    <english>d</english>
+    <arabic>د</arabic>
+  </character>
+  <character>
+    <english>e</english>
+    <arabic>ي</arabic>
+  </character>
+  <character>
+    <english>f</english>
+    <arabic>ف</arabic>
+  </character>
+  <character>
+    <english>g</english>
+    <arabic>ڬ</arabic>
+  </character>
+  <character>
+    <english>h</english>
+    <arabic>ه</arabic>
+  </character>
+  <character>
+    <english>i</english>
+    <arabic>ي</arabic>
+  </character>
+  <character>
+    <english>j</english>
+    <arabic>ج</arabic>
+  </character>
+  <character>
+    <english>k</english>
+    <arabic>ك</arabic>
+  </character>
+  <character>
+    <english>l</english>
+    <arabic>ل</arabic>
+  </character>
+  <character>
+    <english>m</english>
+    <arabic>م</arabic>
+  </character>
+  <character>
+    <english>n</english>
+    <arabic>ن</arabic>
+  </character>
+  <character>
+    <english>o</english>
+    <arabic>و</arabic>
+  </character>
+  <character>
+    <english>p</english>
+    <arabic>ف</arabic>
+  </character>
+  <character>
+    <english>q</english>
+    <arabic>ق</arabic>
+  </character>
+  <character>
+    <english>r</english>
+    <arabic>ر</arabic>
+  </character>
+  <character>
+    <english>s</english>
+    <arabic>س</arabic>
+  </character>
+  <character>
+    <english>t</english>
+    <arabic>ت</arabic>
+  </character>
+  <character>
+    <english>u</english>
+    <arabic>و</arabic>
+  </character>
+  <character>
+    <english>v</english>
+    <arabic>ۏ</arabic>
+  </character>
+  <character>
+    <english>w</english>
+    <arabic>و</arabic>
+  </character>
+  <character>
+    <english>x</english>
+    <arabic></arabic>
+  </character>
+  <character>
+    <english>y</english>
+    <arabic>ي</arabic>
+  </character>
+  <character>
+    <english>z</english>
+    <arabic>ز</arabic>
+  </character>
   <rootname>
     <rumi>a</rumi>
     <jawi>ا</jawi>
@@ -17194,7 +17272,7 @@
   </rootname>
   <rootname>
     <rumi>zun</rumi>
-    <jawi />
+    <jawi>زون</jawi>
     <sex>0</sex>
   </rootname>
   <rootname>

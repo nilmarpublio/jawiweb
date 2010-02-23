@@ -26,7 +26,7 @@
           li {list-style:none;display:inline-block;padding-right:20px;}
           h3 a {text-transform:uppercase;}
           h4 {float:left;width:30px;padding:0;margin:0;text-transform:uppercase;}
-          .count{float:left;font-size:smaller;padding:0;margin:0;}
+          .count{float:left;font-size:smaller;margin-left:10px;}
           .block {background:gainsboro;margin:0 0 20px 0;}
         </style>
       </head>
@@ -38,14 +38,15 @@
             <xsl:for-each select="jawiname/character">
               <a>
                 <xsl:attribute name="href">
-                  #<xsl:value-of select="."/>
+                  #<xsl:value-of select="english"/>
                 </xsl:attribute>
-                <xsl:value-of select="."/>
+                <xsl:value-of select="english"/>
               </a> |
             </xsl:for-each>
           </h3>
           <div class="legend">
-            name - share
+            Total <xsl:value-of select="count(//rumi)"/>
+            names - share
             <span style="color:blue"> male</span>
             <span style="color:orangered"> female</span>
           </div>
@@ -53,14 +54,17 @@
 
         <div class="content">
           <xsl:for-each select="jawiname/character">
-            <xsl:variable name="character" select="."/>
+            <xsl:variable name="character" select="english"/>
             <div class="block">
               <xsl:variable name="count" select="count(//rumi[starts-with(.,$character)])"></xsl:variable>
               <h4>
                 <xsl:attribute name="id">
                   <xsl:value-of select="$character"/>
                 </xsl:attribute>
-                <xsl:value-of select="$character"/>
+                <span class="rumi">
+                  <xsl:value-of select="$character"/>
+                </span>
+                <xsl:value-of select="arabic"/>
               </h4>
               <span class="count">
                 <xsl:value-of select="$count"/> count
