@@ -1,7 +1,5 @@
 <!--
-  @todo: tab width fail under firefox misambigous rumi and jawi
-  view nice under IE7 and above
-  @todo: float the lookup bar on top
+  @todo: view problem under IE
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" omit-xml-declaration="yes"/>
@@ -11,11 +9,21 @@
         <title>Jawi Name Index</title>
         <style type="text/css">
           html {font-family:Tahoma,Verdana,Arial;}
-          body {}
-          .rumi {}
-          .tab {width=10px;}
+          body > .header {position:fixed;}
+          .rumi {padding-right:10px;}
+          .header {
+          background:#DDDDDD none repeat scroll 0 0;
+          height:8em;
+          left:0;
+          overflow:auto;
+          position:absolute;
+          top:0;
+          width:100%;
+          }
+          .content {margin-top:150px;}
+          /*.tab {width:10px;}*/
           /*.jawi{text-align:right;float:right;}*/
-          li {list-style:none;display:inline;padding-right:20px;}
+          li {list-style:none;display:inline-block;padding-right:20px;}
           h3 a {text-transform:uppercase;}
           h4 {float:left;width:30px;padding:0;margin:0;text-transform:uppercase;}
           .count{float:left;font-size:smaller;padding:0;margin:0;}
@@ -23,7 +31,7 @@
         </style>
       </head>
       <body>
-        <div class="content">
+        <div class="header">
           <h3>JAWI NAME INDEX</h3>
           <h3>
             back to
@@ -34,14 +42,16 @@
                 </xsl:attribute>
                 <xsl:value-of select="."/>
               </a> |
-          </xsl:for-each>
+            </xsl:for-each>
           </h3>
           <div class="legend">
             name - share
             <span style="color:blue"> male</span>
             <span style="color:orangered"> female</span>
           </div>
+        </div>
 
+        <div class="content">
           <xsl:for-each select="jawiname/character">
             <xsl:variable name="character" select="."/>
             <div class="block">
@@ -84,10 +94,8 @@
               </ol>
             </div>
           </xsl:for-each>
-          
         </div>
       </body>
     </html>
   </xsl:template>
-
 </xsl:stylesheet>
