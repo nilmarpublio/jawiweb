@@ -14724,4 +14724,12 @@
     <deathm>1431-02-06</deathm>
     <item>2' Batu Hitam(L)</item>
   </order>
+    <order soldto="ADI" date="2010-02-23" delivered="" price="35">
+    <name>Mazanah bt Md Saari</name>
+	<jawi>مازانه بنت مد سعاري</jawi>
+	<born>1955-01-31</born>
+    <death>2009-12-11</death>
+    <deathm>1430-12-23</deathm>
+    <item>PA</item>
+  </order>
 </nisan>
