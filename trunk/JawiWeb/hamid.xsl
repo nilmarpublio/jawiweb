@@ -43,8 +43,8 @@
           * @example 31-12-2007
           */
           function todayStr() {
-          var today=new Date();
-          return today.getDate()+"-"+(today.getMonth()+1)+"-"+today.getYear();
+            var today=new Date();
+            return today.getDate()+"-"+(today.getMonth()+1)+"-"+today.getFullYear();
           }
         </script>
       </head>
@@ -66,7 +66,7 @@
           Fax: 04-283 7729<br/>
         </div>
         <div class="headerRight">
-          Date: <!--script>document.write(todayStr())</script-->
+          <!--Date: <script>document.write(todayStr());</script>-->
         </div>
         <div class="content">
           <h3>STICKER LIST</h3>
@@ -75,7 +75,7 @@
           <!--span class="deliver">Delivered</span-->
           <span class="name">Description</span>
           <hr></hr>
-          <xsl:variable name="last">2010-01-21</xsl:variable>
+          <xsl:variable name="last">2010-02-21</xsl:variable>
           <ol>
             <xsl:for-each select="nisan/order">
               <xsl:sort select="@date" data-type="text" order="ascending" />
