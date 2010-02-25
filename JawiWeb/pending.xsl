@@ -97,12 +97,14 @@
                     <xsl:choose>
                       <xsl:when test="born != ''">
                         (<xsl:value-of select="born"/>~<xsl:value-of select="death" />
-                        <xsl:if test="deathm != ''">=<xsl:value-of select="deathm" />
+                        <xsl:if test="deathm != ''">
+                          =<xsl:value-of select="deathm" />
                         </xsl:if>)
                       </xsl:when>
                       <xsl:otherwise>
                         (<xsl:value-of select="death" />
-                        <xsl:if test="deathm != ''">=<xsl:value-of select="deathm" />
+                        <xsl:if test="deathm != ''">
+                          =<xsl:value-of select="deathm" />
                         </xsl:if>)
                       </xsl:otherwise>
                     </xsl:choose>
@@ -123,7 +125,7 @@
           <ul>
             <li>ADI - Addin | </li>
             <li>HAM - Hamid | </li>
-			<li>JEF - Sekinchan Jeffri | </li>
+            <li>JEF - Sekinchan Jeffri | </li>
             <li>KEN - Tmn Kenari | </li>
             <!--li>KIL - Kilang Lama | </li-->
             <li>SEL - Selama | </li>
