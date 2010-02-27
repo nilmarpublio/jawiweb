@@ -14469,6 +14469,7 @@
     <death>2009-07-09</death>
     <deathm>1430-07-16</deathm>
     <item>2' Batu Hitam(P)</item>
+    <remarks>060301199382745</remarks>
   </order>
   <order soldto="ADI" date="2010-02-10" delivered="2010-02-13" price="35">
     <name>Don bin Ja'afar</name>
@@ -14566,6 +14567,7 @@
     <death>1989-03-29</death>
     <deathm>1409-08-22</deathm>
     <item>1½' Batu Batik(P)</item>
+    <remarks>060301199382745</remarks>
   </order>
   <order soldto="ADI" date="2010-02-17" delivered="" price="260">
     <name>Hj Mohd Sidek bin Hj Arshad</name>
@@ -14573,6 +14575,7 @@
     <death>2009-11-14</death>
     <deathm>1430-11-26</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>060301199382745</remarks>
   </order>
   <order soldto="JEF" date="2010-02-18" delivered="2010-02-21" price="35">
     <name>Mohamed Shaari bin Hj Kassim</name>
@@ -14630,7 +14633,7 @@
     <old>55</old>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SHA" date="2010-02-16" delivered="" price="160">
+  <order soldto="SHA" date="2010-02-16" delivered="2010-02-28" price="160">
     <name>Muhammad Nur Azyana Syazwan bin Suryana</name>
     <jawi></jawi>
     <death>2009-12-09</death>
@@ -14647,7 +14650,7 @@
   </order>
   <order soldto="HAM" date="2010-02-21" delivered="2010-02-25" price="10">
     <name>Zainub bt Mohd Noor</name>
-	<jawi>زاينوب بنت محمد نور</jawi>
+    <jawi>زاينوب بنت محمد نور</jawi>
     <death>2009-10-18</death>
     <deathm>1430-10-29</deathm>
     <old>74</old>
@@ -14711,21 +14714,21 @@
     <item>2' sticker</item>
     <remarks>rumi only</remarks>
   </order>
-  <order soldto="ADI" date="2010-02-22" delivered="" price="35">
+  <order soldto="ADI" date="2010-02-22" delivered="2010-02-27" price="35">
     <name>Jusoh bin Harun</name>
     <jawi>جوسوه بن هارون</jawi>
     <death>2009-09-22</death>
     <deathm>1430-10-02</deathm>
     <item>PA</item>
   </order>
-  <order soldto="ADI" date="2010-02-22" delivered="" price="35">
+  <order soldto="ADI" date="2010-02-22" delivered="2010-02-27" price="35">
     <name>Zainidi bin Yacob</name>
     <jawi>زاينيدي بن يعقوب</jawi>
     <death>2009-12-24</death>
     <deathm>1431-01-07</deathm>
     <item>PA</item>
   </order>
-  <order soldto="LUN" date="2010-02-22" delivered="" price="320">
+  <order soldto="LUN" date="2010-02-22" delivered="2010-02-27" price="320">
     <name>Hj Mydine bin Kasim</name>
     <jawi>حاج مَيدين بن قاسيم</jawi>
     <born>1951-03-07</born>
@@ -14733,12 +14736,104 @@
     <deathm>1431-02-06</deathm>
     <item>2' Batu Hitam(L)</item>
   </order>
-  <order soldto="ADI" date="2010-02-23" delivered="" price="35">
+  <order soldto="ADI" date="2010-02-23" delivered="2010-02-27" price="35">
     <name>Mazanah bt Md Saari</name>
     <jawi>مازانه بنت مد سعاري</jawi>
     <born>1955-01-31</born>
     <death>2009-12-11</death>
     <deathm>1430-12-23</deathm>
     <item>PA</item>
+  </order>
+  <order soldto="JEF" date="2010-02-25" delivered="2010-02-27" price="35">
+    <name>Mohd Najib bin Hj Mohd Safuan</name>
+    <jawi>محمد نجيب بن حاج محمد سافوان</jawi>
+    <death>2009-01-18</death>
+    <deathm>1430-01-21</deathm>
+    <item>BA</item>
+  </order>
+  <order soldto="JEF" date="2010-02-25" delivered="2010-02-27" price="35">
+    <name>Hj Md Darmiah bin Hj Mursad</name>
+    <jawi>حاج مد دارمياه بن حاج مورصد</jawi>
+    <item>BA</item>
+    <remarks>بسم الله الرحمن الرحيم الفاتحة الهم اغفرله أمين</remarks>
+  </order>
+  <order soldto="HAM" date="2010-02-26" delivered="2010-02-27" price="10">
+    <name>Hatijah bt Kassim</name>
+    <jawi>حاتيجه بنت قاسيم</jawi>
+    <death>2010-02-05</death>
+    <deathm>1431-02-20</deathm>
+    <old>59</old>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-02-26" delivered="2010-02-27" price="10">
+    <name>Hj Othman bin Ibrahim</name>
+    <jawi>حاج عثمان بن إبراهيم</jawi>
+    <death>2010-01-17</death>
+    <deathm>1431-02-01</deathm>
+    <old>81</old>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-02-26" delivered="2010-02-27" price="10">
+    <name>Hjh Miah bt Ahmad</name>
+    <jawi>حجه مياه بنت أحمد</jawi>
+    <death>2010-02-19</death>
+    <deathm>1431-03-15</deathm>
+    <old>78</old>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-02-26" delivered="" price="10">
+    <name>Nik Hazwani Hawa bt Nik Shamrul Zaimi</name>
+    <jawi></jawi>
+    <death>2010-02-06</death>
+    <deathm>1431-02-21</deathm>
+    <old>4</old>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-02-26" delivered="" price="10">
+    <name>Nik Zawiah Zahida bt Nik Shamrul Zaimi</name>
+    <jawi></jawi>
+    <death>2010-02-07</death>
+    <deathm>1431-02-22</deathm>
+    <old>3</old>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-02-26" delivered="2010-02-27" price="10">
+    <name>Hasan bin Yaakob</name>
+    <jawi>حسن بن يعقوب</jawi>
+    <death>2010-01-11</death>
+    <deathm>1431-01-25</deathm>
+    <old>74</old>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-02-26" delivered="2010-02-27" price="10">
+    <name>Laila bt Ibrahim</name>
+    <jawi>ليلا  بنت إبراهيم</jawi>
+    <death>1995-03-12</death>
+    <deathm>1415-10-10</deathm>
+    <old>51</old>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-02-26" delivered="" price="10">
+    <name>Salam Kesejahteraan Keselamatan Kami Ucapkan Kepada Perkampungang Orang Mukmin Insyaallah Kami Jua Akan Menyusuli Kamu Tidak Berapa Lama Lagi</name>
+    <jawi></jawi>
+    <death></death>
+    <deathm></deathm>
+    <old></old>
+    <item>24"x30" sticker</item>
+  </order>
+  <order soldto="ADI" date="2010-02-26" delivered="2010-02-27" price="35">
+    <name>Che Pah@Mariam bt Othman</name>
+    <jawi>چئ فه/ماريم بنت عثمان</jawi>
+    <death>2009-12-29</death>
+    <deathm>1431-01-12</deathm>
+    <item>PA</item>
+  </order>
+  <order soldto="ADI" date="2010-02-27" delivered="" price="35">
+    <name>Osman Ghani bin Abd Kadir</name>
+    <jawi>عسمن غنى بن عبدول كادير</jawi>
+    <death>2009-11-17</death>
+    <deathm>1430-11-29</deathm>
+    <item>PA</item>
+    <remarks></remarks>
   </order>
 </nisan>

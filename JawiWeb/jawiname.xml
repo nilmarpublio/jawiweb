@@ -1,7 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <!-- 0=uni sex, 1=male, 2=female -->
-<!-- 3,711 entries for 547 unique jawi only -->
 <jawiname>
   <character>
     <english>a</english>
@@ -3126,6 +3125,11 @@
     <jawi />
     <sex>0</sex>
   </rootname>
+    <rootname>
+    <rumi>darmiah</rumi>
+    <jawi>دارمياه</jawi>
+    <sex>1</sex>
+  </rootname>
   <rootname>
     <rumi>daru</rumi>
     <jawi />
@@ -5069,7 +5073,7 @@
   <rootname>
     <rumi>hasan</rumi>
     <jawi>حسن</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>hasana</rumi>
@@ -7712,6 +7716,11 @@
     <sex>0</sex>
   </rootname>
   <rootname>
+    <rumi>laila</rumi>
+    <jawi>ليلا</jawi>
+    <sex>2</sex>
+  </rootname>
+  <rootname>
     <rumi>lailah</rumi>
   </rootname>
   <rootname>
@@ -8657,7 +8666,7 @@
   <rootname>
     <rumi>mariam</rumi>
     <jawi>ماريم</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>mariana</rumi>
@@ -9175,8 +9184,8 @@
   </rootname>
   <rootname>
     <rumi>miah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مياه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>michael</rumi>
@@ -9681,6 +9690,11 @@
     <sex>0</sex>
   </rootname>
   <rootname>
+    <rumi>mursad</rumi>
+    <jawi>مورصد</jawi>
+    <sex>1</sex>
+  </rootname>
+  <rootname>
     <rumi>musa</rumi>
     <jawi>موسا</jawi>
     <sex>1</sex>
@@ -9974,8 +9988,8 @@
   </rootname>
   <rootname>
     <rumi>najib</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>نجيب</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>najibah</rumi>
@@ -11031,8 +11045,8 @@
   </rootname>
   <rootname>
     <rumi>pah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>فه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>pahang</rumi>
@@ -12915,6 +12929,11 @@
     <rumi>safiya</rumi>
     <jawi />
     <sex>0</sex>
+  </rootname>
+  <rootname>
+  <rumi>safuan</rumi>
+  <jawi>سافوان</jawi>
+  <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>safwan</rumi>
@@ -16165,6 +16184,8 @@
   </rootname>
   <rootname>
     <rumi>yaakkub</rumi>
+    <jawi>يعقوب</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>yaakob</rumi>
@@ -16178,7 +16199,7 @@
   </rootname>
   <rootname>
     <rumi>yaakop</rumi>
-    <jawi>يعقوب</jawi>
+    <jawi>يعقوف</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
@@ -16188,6 +16209,8 @@
   </rootname>
   <rootname>
     <rumi>yaakup</rumi>
+    <jawi>يعقوف</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>yab</rumi>
