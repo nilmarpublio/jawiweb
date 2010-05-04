@@ -108,8 +108,8 @@
                         </xsl:if>)
                       </xsl:otherwise>
                     </xsl:choose>
-                    <xsl:if test="old != ''">
-                      <xsl:value-of select="old" /> thn
+                    <xsl:if test="age != ''">
+                      <xsl:value-of select="age" /> thn
                     </xsl:if>
                   </span>
                   <span class="item">
@@ -125,7 +125,7 @@
           <ul>
             <li>ADI - Addin | </li>
             <li>HAM - Hamid | </li>
-            <li>JEF - Sekinchan Jeffri | </li>
+            <li>JEF - Sabak Bernam Jeffri | </li>
             <li>KEN - Tmn Kenari | </li>
             <!--li>KIL - Kilang Lama | </li-->
             <li>SEL - Selama | </li>
