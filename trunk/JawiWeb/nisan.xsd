@@ -13,7 +13,7 @@
               <xs:element name="bornm" type="xs:string" minOccurs="0" />
               <xs:element name="death" type="xs:string" minOccurs="0" />
               <xs:element name="deathm" type="xs:string" minOccurs="0" />
-              <xs:element name="old" type="xs:string" minOccurs="0" />
+              <xs:element name="age" type="xs:string" minOccurs="0" />
               <xs:element name="item" type="xs:string" minOccurs="0" />
               <xs:element name="remarks" type="xs:string" minOccurs="0" />
             </xs:sequence>
