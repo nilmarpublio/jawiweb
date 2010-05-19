@@ -59,37 +59,37 @@ namespace HLGranite.BusinessLogic
         #region Methods
         public void GetDate(DateTime sender)
         {
-            if ((this.DataSource != null) && (this.DataSource.Rows.Count != 0))
+            if (this.DataSource == null) return;
+            if (this.DataSource.Rows.Count == 0) return;
+
+            try
             {
-                try
+                DateTime time = sender;
+                TimeSpan span = new TimeSpan(30, 0, 0, 0);
+                TimeSpan span2 = span;
+                DateTime time2 = sender.Subtract(span);
+                DateTime time3 = sender.Add(span);
+                for (int i = this.DataSource.Rows.Count - 1; i >= 0; i--)
                 {
-                    DateTime time = sender;
-                    TimeSpan span = new TimeSpan(30, 0, 0, 0);
-                    TimeSpan span2 = span;
-                    DateTime time2 = sender.Subtract(span);
-                    DateTime time3 = sender.Add(span);
-                    for (int i = this.DataSource.Rows.Count - 1; i >= 0; i--)
+                    if (sender.CompareTo(Convert.ToDateTime(this.DataSource.Rows[i]["sun"])) >= 0)
                     {
-                        if (sender.CompareTo(Convert.ToDateTime(this.DataSource.Rows[i]["sun"])) >= 0)
-                        {
-                            this.Index = i;
-                            DateTime time4 = new DateTime(sender.Year, sender.Month, sender.Day);
-                            span2 = (TimeSpan)(time4 - Convert.ToDateTime(this.DataSource.Rows[this.Index]["sun"]));
-                            time = Convert.ToDateTime(this.DataSource.Rows[this.Index]["date"]);
-                            break;
-                        }
-                    }
-                    this.year = time.Year;
-                    if (span2.Days <= 30)
-                    {
-                        this.month = time.Month;
-                        this.day = span2.Days + 1;
+                        this.Index = i;
+                        DateTime time4 = new DateTime(sender.Year, sender.Month, sender.Day);
+                        span2 = (TimeSpan)(time4 - Convert.ToDateTime(this.DataSource.Rows[this.Index]["sun"]));
+                        time = Convert.ToDateTime(this.DataSource.Rows[this.Index]["date"]);
+                        break;
                     }
                 }
-                catch (Exception exception)
+                this.year = time.Year;
+                if (span2.Days <= 30)
                 {
-                    Debug.WriteLine(exception);
+                    this.month = time.Month;
+                    this.day = span2.Days + 1;
                 }
+            }
+            catch (Exception exception)
+            {
+                Debug.WriteLine(exception);
             }
         }
         public static string GetMuslimMonth(int i)

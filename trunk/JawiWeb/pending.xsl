@@ -11,6 +11,7 @@
           .headerRight {float:right;margin: 0 0 10px 80px;font-size:10px;text-align:right;}
           .content { clear:both;font-size:9pt;}
           .content h3 { text-align:center;}
+          .content ol li {text-transform: capitalize;}
           .headline { background-color: lightgrey; clear: both;font-size:12px;}
 
           .numbering {display:inline-table;width:30px;padding:0 6px 0 0;}
@@ -60,6 +61,11 @@
               <xsl:sort select="@soldto" data-type="text" order="ascending" />
               <xsl:if test="@delivered='' and name != ''">
                 <li>
+				          <xsl:if test="contains(tags,'w')='true'">
+                    <xsl:attribute name="style">
+                      <xsl:text>color:red</xsl:text>
+                    </xsl:attribute>
+                  </xsl:if>
                   <xsl:if test="contains(item,'Hijau') or contains(item,'G')='true'">
                     <xsl:attribute name="style">
                       <xsl:text>color:green</xsl:text>
