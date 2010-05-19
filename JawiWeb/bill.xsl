@@ -43,8 +43,8 @@
           * @example 31-12-2007
           */
           function todayStr() {
-            var today=new Date();
-            return today.getDate()+"-"+(today.getMonth()+1)+"-"+today.getFullYear();
+          var today=new Date();
+          return today.getDate()+"-"+(today.getMonth()+1)+"-"+today.getFullYear();
           }
         </script>
       </head>
@@ -72,10 +72,11 @@
           <h3>STICKER LIST</h3>
           <hr></hr>
           <span class="orderHead">Order</span>
-          <!--span class="deliver">Delivered</span-->
+          <span class="deliver">Delivered</span>
           <span class="name">Description</span>
           <hr></hr>
-          <xsl:variable name="last">2010-02-21</xsl:variable>
+          <xsl:variable name="last">2010-02-26</xsl:variable>
+          <xsl:variable name="today">2010-03-01</xsl:variable>
           <ol>
             <xsl:for-each select="nisan/order">
               <xsl:sort select="@date" data-type="text" order="ascending" />
@@ -114,19 +115,19 @@
                     <span class="order">
                       <xsl:value-of select="@date" />
                     </span>
-                    <!--span class="deliver">
-                  <xsl:choose>
-                    <xsl:when test="@delivered = ''">
-                      -<span class="tab"></span>
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <xsl:value-of select="@delivered" />
-                    </xsl:otherwise>
-                  </xsl:choose>
-                </span-->
+                    <span class="deliver">
+                      <xsl:choose>
+                        <xsl:when test="@delivered = ''">
+                          -<span class="tab"></span>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="@delivered" />
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </span>
                     <span class="name">
                       <xsl:if test="remarks != ''">
-                        *
+                      *
                       </xsl:if>
                       <xsl:value-of select="name" />
                       (
@@ -153,16 +154,7 @@
           <div style="float:right;font-weight:bold;">
             Total RM
             <xsl:value-of select="sum(nisan/order/@price
-                      [../@soldto='HAM'
-                      and (../@delivered=$last or ../@delivered=''
-                      or
-                      (substring(../@date,1,4) >= substring($last,1,4)
-                      and substring(../@date,6,2) >= substring($last,6,2)
-                      and substring(../@date,9,2) >= substring($last,9,2))
-                      or
-                      (substring(../@date,1,4) >= substring($last,1,4)
-                      and substring(../@date,6,2) > substring($last,6,2))
-                      )])"/>
+                      [../@soldto='HAM' and (../@delivered=$today)])"/>
           </div>
           Cari bulan Melayu di
           <a href="http://www.hlgranite.com/nisan/calendar.aspx">http://www.hlgranite.com/nisan/calendar.aspx</a>
