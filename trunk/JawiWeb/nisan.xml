@@ -15766,8 +15766,8 @@
     <age>55</age>
     <item>2' sticker</item>
   </order>
-  <order soldto="HAM" date="2010-05-03" delivered="2010-05-11" price="10">
-    <name>Mohamed Haseenullah bin Wahibu Ameen</name>
+  <order soldto="HAM" date="2010-05-03" delivered="" price="10">
+    <name>Mohamed Haseenullah bin Wahibul Ameen</name>
     <death>2010-04-23</death>
     <deathm>1431-05-08</deathm>
     <item>2' sticker</item>
@@ -15873,7 +15873,7 @@
     <age>61</age>
     <item>2' sticker</item>
   </order>
-  <order soldto="SHA" date="2010-05-15" delivered="" price="220">
+  <order soldto="SHA" date="2010-05-15" delivered="2010-05-23" price="220">
     <name>mohd saleh bin abdullah@tan kim hock</name>
     <born>1942-03-15</born>
     <death>2009-12-25</death>
@@ -15908,41 +15908,214 @@
     <name>mohd rejab bin mat isa</name>
     <born>1961-01-16</born>
     <death>2010-04-16</death>
+    <deathm>1431-05-01</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2010-05-18" delivered="" price="35">
-    <name>muhammad syahmi naqiuddin bin shahrul nizam</name>
-    <jawi>محمد سيحمي بن سهرول نيزام</jawi>
+  <order soldto="ADI" date="2010-05-18" delivered="2010-05-23" price="35">
+    <name>muhammad syahmi naqiuddin bin sahrul nizam</name>
+    <jawi>محمد سيحمي نقيضين بن سهرول نيزام</jawi>
     <death>2010-05-15</death>
     <deathm>1431-06-01</deathm>
     <item>PV budak</item>
+    <remarks>EN277169683MY</remarks>
   </order>
-  <order soldto="ADI" date="2010-05-18" delivered="" price="35">
+  <order soldto="ADI" date="2010-05-18" delivered="2010-05-23" price="35">
     <name>muhammad shafie bin sahrul nizam</name>
     <jawi>محمد شافعي بن سهرول نيزام</jawi>
     <death>2005-12-03</death>
     <deathm>1426-11-01</deathm>
     <item>PV budak</item>
+    <remarks>EN277169683MY</remarks>
   </order>
-  <order soldto="ADI" date="2010-05-18" delivered="" price="35">
+  <order soldto="ADI" date="2010-05-18" delivered="2010-05-23" price="35">
     <name>muhammad shafuan bin sahrul nizam</name>
     <jawi>محمد شافوان بن سهرول نيزام</jawi>
     <death>2000-12-02</death>
     <deathm>1421-09-06</deathm>
     <item>PV budak</item>
+    <remarks>EN277169683MY</remarks>
   </order>
-  <order soldto="ADI" date="2010-05-18" delivered="" price="35">
+  <order soldto="ADI" date="2010-05-18" delivered="2010-05-23" price="35">
     <name>timah bt rejab</name>
     <jawi>تيمه بنت رجب</jawi>
     <death>2010-02-22</death>
     <deathm>1431-03-08</deathm>
     <item>PV</item>
+    <remarks>EN277169683MY</remarks>
   </order>
-   <order soldto="SHA" date="2010-05-19" delivered="" price="220">
+  <order soldto="SHA" date="2010-05-19" delivered="2010-05-23" price="220">
     <name>hjh halimah bt abdullah</name>
     <born>1926-10-14</born>
     <death>2010-05-08</death>
     <deathm>1431-05-23</deathm>
     <item>2' Batu Putih(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-05-21" delivered="" price="10">
+    <name>hjh doyah bt ismail</name>
+    <death>2010-02-26</death>
+    <deathm>1431-03-12</deathm>
+    <age>78</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-05-21" delivered="" price="10">
+    <name>marina bt kadir baba</name>
+    <death>2010-05-12</death>
+    <deathm>1431-05-27</deathm>
+    <age>63</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-05-21" delivered="" price="10">
+    <name>hamidah bt kassim</name>
+    <death>1944-01-06</death>
+    <deathm>1414-07-24</deathm>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-05-21" delivered="" price="10">
+    <name>aminah bt awang</name>
+    <death>2010-04-20</death>
+    <deathm>1431-05-05</deathm>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-05-21" delivered="" price="10">
+    <name>hj harun bin ismail</name>
+    <death>2010-03-05</death>
+    <deathm>1431-05-19</deathm>
+    <age>79</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-05-21" delivered="" price="10">
+    <name>azizah bt budin</name>
+    <death>2006-12-28</death>
+    <deathm>1427-12-07</deathm>
+    <age>51</age>
+    <item>2½' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-05-21" delivered="" price="10">
+    <name>omar bin pawan</name>
+    <born>1934</born>
+    <death>2010-01-20 14:50</death>
+    <deathm>1431-02-04 rabu</deathm>
+    <item>2' sticker</item>
+    <remarks>rumi sahaja</remarks>
+  </order>
+  <order soldto="ADI" date="2010-05-22" delivered="" price="35">
+    <name>dewi marhamah bt jamal</name>
+    <jawi></jawi>
+    <death>2010-05-19</death>
+    <deathm></deathm>
+    <item>PV egg</item>
+  </order>
+  <order soldto="ADI" date="2010-05-22" delivered="" price="350">
+    <name>hafiza bt sariah</name>
+    <jawi></jawi>
+    <death>2009-06-12</death>
+    <deathm></deathm>
+    <item>2' Batu Hitam(P)</item>
+  </order>
+  <order soldto="ADI" date="2010-05-22" delivered="" price="35">
+    <name>aminah bt abdullah</name>
+    <jawi></jawi>
+    <death>1970-05-16 Selasa</death>
+    <deathm></deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-05-22" delivered="" price="35">
+    <name>kiayai hj mohamad asif bin hj kariani</name>
+    <jawi></jawi>
+    <death>1959-12-25 Jumaat</death>
+    <deathm>1379-04-27</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-05-22" delivered="" price="35">
+    <name>hashim bin abd karim</name>
+    <jawi></jawi>
+    <death>2009-12-30</death>
+    <deathm></deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="JEF" date="2010-05-24" delivered="" price="35">
+    <name>shahul hameed bin hawa</name>
+    <jawi></jawi>
+    <death>1987-08-27</death>
+    <deathm>1408-01-02</deathm>
+    <item>PA</item>
+  </order>
+  <order soldto="JEF" date="2010-05-24" delivered="" price="35">
+    <name>siti rofifah bt hj habib</name>
+    <jawi></jawi>
+    <death>2010-05-17 Isnin</death>
+    <deathm>1431-06-03</deathm>
+    <item>PA</item>
+  </order>
+  <order soldto="JEF" date="2010-05-24" delivered="" price="35">
+    <name>mohtar bin kabu</name>
+    <jawi></jawi>
+    <born>1949-08-19</born>
+    <death>2005-01-23</death>
+    <deathm>1425-12-12</deathm>
+    <item>PA</item>
+  </order>
+  <order soldto="JEF" date="2010-05-24" delivered="" price="35">
+    <name>mohd hafis bin mohtar</name>
+    <jawi></jawi>
+    <born>1988-07-19</born>
+    <death>2010-04-10</death>
+    <deathm>1431-04-25</deathm>
+    <item>PA</item>
+  </order>
+  <order soldto="JEF" date="2010-05-24" delivered="" price="35">
+    <name></name>
+    <jawi></jawi>
+    <death></death>
+    <deathm></deathm>
+    <item>PA</item>
+  </order>
+  <order soldto="JEF" date="2010-05-24" delivered="" price="35">
+    <name></name>
+    <jawi></jawi>
+    <death></death>
+    <deathm></deathm>
+    <item>PA</item>
+  </order>
+  <order soldto="HAM" date="2010-05-25" delivered="" price="10">
+    <name>md sheriff bin ibrahim</name>
+    <death>1954-11-27</death>
+    <deathm></deathm>
+    <age>51</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-05-25" delivered="" price="10">
+    <name>hasmunira bt badrol shah</name>
+    <death>2010-03-10</death>
+    <deathm>1431-03-24</deathm>
+    <age>22</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-05-25" delivered="" price="10">
+    <name>che yah bt yacob</name>
+    <death>2009-11-02</death>
+    <deathm>1430-11-14</deathm>
+    <age>86</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-05-25" delivered="" price="10">
+    <name>abu bakar bin rejab</name>
+    <death>2010-05-03</death>
+    <deathm>1431-05-18</deathm>
+    <age>70</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-05-25" delivered="" price="10">
+    <name>hashim bin che wan</name>
+    <death>2010-05-10</death>
+    <deathm>1431-05-25</deathm>
+    <age>48</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-05-25" delivered="" price="10">
+    <name>siti fatimah bt zakaria</name>
+    <death>1979-08-01</death>
+    <deathm>1399-09-08</deathm>
+    <item>2' sticker</item>
   </order>
 </nisan>
