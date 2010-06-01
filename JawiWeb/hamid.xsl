@@ -76,14 +76,13 @@
           <span class="deliver">Delivered</span>
           <span class="name">Description</span>
           <hr></hr>
-          <xsl:variable name="last">2010-05-12</xsl:variable>
-          <xsl:variable name="today">2010-05-18</xsl:variable>
+          <xsl:variable name="last">2010-05-21</xsl:variable>
+          <xsl:variable name="today">2010-05-31</xsl:variable>
           <ol>
             <xsl:for-each select="nisan/order">
               <xsl:sort select="@date" data-type="text" order="ascending" />
               <xsl:if test="@soldto='HAM'
-                      and @date=$last
-                      or @delivered=$today">
+                      and (@delivered=$today or @delivered='')">
                 <div>
                   <li>
                     <xsl:if test="contains(item,'Hijau')='true'">
@@ -149,9 +148,8 @@
           <div style="float:right;font-weight:bold;">
             Total RM
             <xsl:value-of select="sum(nisan/order/@price
-                      [../@soldto='HAM'
-                      and ../@date=$last
-                      or ../@delivered=$today])"/>
+                      [../@soldto='HAM' 
+					  and (@delivered=$today or ../@delivered='')])"/>
           </div>
           Cari bulan Melayu di
           <a href="http://www.hlgranite.com/nisan/calendar.aspx">http://www.hlgranite.com/nisan/calendar.aspx</a>
