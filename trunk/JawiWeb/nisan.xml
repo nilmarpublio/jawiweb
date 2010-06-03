@@ -16139,12 +16139,14 @@
   </order>
   <order soldto="ADI" date="2010-06-01" delivered="" price="35">
     <name>jamilah bt lego</name>
+    <jawi>جميله بنت لغو</jawi>
     <death>1995-12-06</death>
     <deathm>1416-07-14</deathm>
     <item>PV</item>
   </order>
   <order soldto="ADI" date="2010-06-01" delivered="" price="35">
     <name>tajuddin bin kamsah</name>
+    <jawi>تجدين بن كامسه</jawi>
     <death>2010-05-21</death>
     <deathm>1431-06-07</deathm>
     <item>PV</item>
@@ -16154,5 +16156,60 @@
     <death>2010-04-30</death>
     <deathm>1431-05-14</deathm>
     <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-06-02" delivered="" price="10">
+    <name>hj abdul rahim bin gani</name>
+    <death>2010-05-19</death>
+    <deathm>131-06-05</deathm>
+	<age>65</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-06-02" delivered="" price="10">
+    <name>laila bt itam</name>
+    <death>2010-05-23</death>
+    <deathm>1431-06-09</deathm>
+	<age>65</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-06-02" delivered="" price="10">
+    <name>hj aboo bakar bin abdullah</name>
+    <death>2010-05-05</death>
+    <deathm>1431-05-20</deathm>
+	<age>76</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-06-02" delivered="" price="10">
+    <name>hjh jahara bee bt saied batcha</name>
+    <death>2010-04-13</death>
+    <deathm>1431-04-28</deathm>
+	<age>79</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-06-02" delivered="" price="10">
+    <name>wan bt idris</name>
+    <death>1987-06-29</death>
+    <deathm>1407</deathm>
+    <item>2' sticker</item>
+  </order>  
+  <order soldto="ADI" date="2010-06-03" delivered="" price="35">
+    <name>hj hasan bin ali menawi</name>
+    <jawi>حاج حسن بن علي مناوي</jawi>
+    <death>2010-05-05</death>
+    <deathm>1431-05-20</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-06-03" delivered="" price="35">
+    <name>rabiah bt conong</name>
+    <jawi>رابيعه بنت چونوڠ</jawi>
+    <death>2003-02-08</death>
+    <deathm>1423-12-07</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-06-03" delivered="" price="35">
+    <name>siti bt musa</name>
+    <jawi>ستي بنت موسا</jawi>
+    <death>2009-11-02</death>
+    <deathm>1430-11-14</deathm>
+    <item>PV</item>
   </order>
 </nisan>
