@@ -61,9 +61,14 @@
               <xsl:sort select="@soldto" data-type="text" order="ascending" />
               <xsl:if test="@delivered='' and name != ''">
                 <li>
-				          <xsl:if test="contains(tags,'w')='true'">
+                  <xsl:if test="contains(tags,'w')='true'">
                     <xsl:attribute name="style">
                       <xsl:text>color:red</xsl:text>
+                    </xsl:attribute>
+                  </xsl:if>
+                  <xsl:if test="contains(item,'½')='true'">
+                    <xsl:attribute name="style">
+                      <xsl:text>font-style:italic</xsl:text>
                     </xsl:attribute>
                   </xsl:if>
                   <xsl:if test="contains(item,'Hijau') or contains(item,'G')='true'">
@@ -84,11 +89,6 @@
                   <xsl:if test="contains(item,'emas')='true'">
                     <xsl:attribute name="style">
                       <xsl:text>color:goldenrod</xsl:text>
-                    </xsl:attribute>
-                  </xsl:if>
-                  <xsl:if test="contains(item,'½')='true'">
-                    <xsl:attribute name="style">
-                      <xsl:text>font-style:italic</xsl:text>
                     </xsl:attribute>
                   </xsl:if>
                   <span class="soldto">
