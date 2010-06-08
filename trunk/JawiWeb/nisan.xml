@@ -16262,4 +16262,40 @@
     <item>1½' Batu Hijau(L)</item>
     <remarks>due 2010-06-12</remarks>
   </order>
+  <order soldto="HAM" date="2010-06-07" delivered="" price="10">
+    <name>rushdi bin hj sulaiman</name>
+    <death>2010-04-25</death>
+    <deathm>1431-05-10</deathm>
+    <age>52</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-06-07" delivered="" price="10">
+    <name>zainoon bin naina mohd</name>
+    <death>2010-05-29</death>
+    <deathm>1431-06-15</deathm>
+    <age>76</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-06-07" delivered="" price="10">
+    <name>zarimah bt saad</name>
+    <death>2010-03-06</death>
+    <deathm>1431-03-20</deathm>
+    <age>51</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="ADI" date="2010-06-07" delivered="" price="260">
+    <name>mariam bt kasim</name>
+    <death>1989-10-02</death>
+    <deathm></deathm>
+    <age>58</age>
+    <item>2' Batu Batik(L)</item>
+    <remarks>21:26pm</remarks>
+  </order>
+  <order soldto="ADI" date="2010-06-07" delivered="" price="35">
+    <name>hj aliman bin hj abd wahab</name>
+    <death>2010-04-20</death>
+    <deathm></deathm>
+    <age>76</age>
+    <item>PV egg</item>
+  </order>
 </nisan>
