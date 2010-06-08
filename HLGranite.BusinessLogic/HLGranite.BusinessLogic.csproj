@@ -32,16 +32,37 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accounting.cs" />
     <Compile Include="Arabic.cs" />
+    <Compile Include="Contact.cs" />
+    <Compile Include="Core.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="JawiTranslator.cs" />
+    <Compile Include="Ledger.cs" />
     <Compile Include="MuslimCalendar.cs" />
     <Compile Include="Nisan.cs" />
+    <Compile Include="Pricing.cs" />
+    <Compile Include="Profile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stock.cs" />
+    <Compile Include="Supplier.cs" />
+    <Compile Include="SvgWriter.cs" />
+    <Compile Include="Transaction.cs" />
+    <Compile Include="TransactionItem.cs" />
+    <Compile Include="Warehouse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HLGranite.DataAccess\HLGranite.DataAccess.csproj">
+      <Project>{41C4B8B9-FA16-4503-86B0-AC5432350434}</Project>
+      <Name>HLGranite.DataAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
