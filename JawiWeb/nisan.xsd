@@ -16,7 +16,7 @@
               <xs:element name="age" type="xs:string" minOccurs="0" />
               <xs:element name="item" type="xs:string" minOccurs="0" />
               <xs:element name="remarks" type="xs:string" minOccurs="0" />
-			  <xs:element name="tags" type="xs:string" minOccurs="0" />
+              <xs:element name="tags" type="xs:string" minOccurs="0" />
             </xs:sequence>
             <xs:attribute name="soldto" type="xs:string" />
             <xs:attribute name="date" type="xs:string" />
