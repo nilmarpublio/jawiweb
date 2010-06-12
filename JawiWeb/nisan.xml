@@ -16127,8 +16127,8 @@
     <deathm>1431-03-18</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2010-05-26" delivered="2010-05-29" price="220">
-    <name>dayah bt yusof</name>
+  <order soldto="SEM" date="2010-05-26" delivered="" price="220">
+    <name>doyah bt yusof</name>
     <death>2010-05-23</death>
     <deathm>1431-06-09</deathm>
     <item>2' Batu Batik(P)</item>
@@ -16258,7 +16258,7 @@
   </order>
   <order soldto="JEF" date="2010-06-06" delivered="" price="220">
     <name>muhammad haqimi bin norazehan</name>
-    <jawi />
+    <jawi></jawi>
     <death>2009-12-18</death>
     <remarks>due 2010-06-12</remarks>
     <deathm>1431-01-01</deathm>
@@ -16289,15 +16289,52 @@
     <name>mariam bt kasim</name>
     <death>1989-10-02</death>
     <remarks>21:26pm</remarks>
-    <deathm />
+    <deathm></deathm>
     <age>58</age>
     <item>2' Batu Batik(L)</item>
   </order>
   <order soldto="ADI" date="2010-06-07" delivered="" price="35">
     <name>hj aliman bin hj abd wahab</name>
+	<jawi>حاج أليمن بن حاج عبدول واهب</jawi>
     <death>2010-04-20</death>
-    <deathm />
+    <deathm>1431-05-05</deathm>
     <age>76</age>
     <item>PV egg</item>
+  </order>
+    <order soldto="JEF" date="2010-06-11" delivered="" price="35">
+    <name>muspah bt subran</name>
+	<jawi>موسفه بنت سوبران</jawi>
+    <death>2010-04-06</death>
+    <deathm>1431-04-21</deathm>
+    <item>BA</item>
+  </order>
+  <order soldto="JEF" date="2010-06-11" delivered="" price="35">
+    <name>hj yusop bin dahalan</name>
+	<jawi>حاج يوسوف بن دحلان</jawi>
+	<born>1938-05-24</born>
+    <death>2010-05-22</death>
+    <deathm>1431-06-08</deathm>
+    <item>BA</item>
+  </order>
+  <order soldto="ADI" date="2010-06-09" delivered="" price="260">
+    <name>paiman bin hasbullah</name>
+	<jawi>فايمن بن هاسبوللاه</jawi>
+    <death>2006-01-06</death>
+    <deathm>1426-12-16</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+    <order soldto="ADI" date="2010-06-09" delivered="" price="260">
+    <name>hj mohd osman bin hj dasuki</name>
+	<jawi>حاج محمد عسمن بن حاج دسوقي</jawi>
+    <death>2010-06-02</death>
+    <deathm>1431-06-19</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+    <order soldto="ADI" date="2010-06-09" delivered="" price="35">
+    <name>maimunah bt leman</name>
+	<jawi>مايمونه بنت لمن</jawi>
+    <death>2000-12-13</death>
+    <deathm>1421-09-17</deathm>
+    <item>PV</item>
   </order>
 </nisan>
