@@ -497,6 +497,11 @@
     <jawi>عينا</jawi>
     <sex>2</sex>
   </rootname>
+    <rootname>
+    <rumi>ainal</rumi>
+    <jawi>عينل</jawi>
+    <sex>2</sex>
+  </rootname>
   <rootname>
     <rumi>ainaizati</rumi>
     <jawi />
@@ -1195,14 +1200,6 @@
     <sex>0</sex>
   </rootname>
   <rootname>
-    <rumi>arahman</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>a-rahman</rumi>
-  </rootname>
-  <rootname>
     <rumi>arapah</rumi>
     <jawi />
     <sex>0</sex>
@@ -1531,7 +1528,7 @@
   <rootname>
     <rumi>asni</rumi>
     <jawi>اسني</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>asraf</rumi>
@@ -2464,8 +2461,8 @@
   </rootname>
   <rootname>
     <rumi>basri</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>بصري</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>basyeer</rumi>
@@ -3657,7 +3654,7 @@
   <rootname>
     <rumi>endut</rumi>
     <jawi>اندوت</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>engku</rumi>
@@ -3899,8 +3896,8 @@
   </rootname>
   <rootname>
     <rumi>faizul</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>faizullah</rumi>
@@ -7007,13 +7004,8 @@
   </rootname>
   <rootname>
     <rumi>kamaruddin</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>kamarudin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>قمرلدين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>kamarul</rumi>
@@ -9394,8 +9386,8 @@
   </rootname>
   <rootname>
     <rumi>mokhtar</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مختار</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>mokti</rumi>
@@ -13427,8 +13419,8 @@
   </rootname>
   <rootname>
     <rumi>sanusi</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سنوسي</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>saod</rumi>
@@ -14175,8 +14167,8 @@
   </rootname>
   <rootname>
     <rumi>shahrizal</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شاهريزال</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shahrizan</rumi>
@@ -14838,8 +14830,8 @@
   </rootname>
   <rootname>
     <rumi>soleh</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>soleha</rumi>
@@ -16991,7 +16983,7 @@
   <rootname>
     <rumi>zamri</rumi>
     <jawi>زامري</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>zamry</rumi>
