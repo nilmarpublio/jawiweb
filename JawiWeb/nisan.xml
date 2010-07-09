@@ -16523,48 +16523,48 @@
     <deathm>1429-09-11</deathm>
     <item>PV</item>
   </order>
-  <order soldto="HAM" date="2010-06-27" delivered="" price="10">
+  <order soldto="HAM" date="2010-06-27" delivered="2010-07-09" price="10">
     <name>hjh fatimah bt mohd</name>
     <death>2010-05-28</death>
     <deathm>1431-06-14</deathm>
     <age>73</age>
     <item>2' sticker</item>
   </order>
-  <order soldto="HAM" date="2010-06-27" delivered="" price="10">
+  <order soldto="HAM" date="2010-06-27" delivered="2010-07-09" price="10">
     <name>hj a.k. naina mohd bin kassim pakeer</name>
     <death>1992-09-01</death>
     <deathm>1413-03-04</deathm>
     <age>68</age>
     <item>2' sticker</item>
   </order>
-  <order soldto="HAM" date="2010-06-27" delivered="" price="10">
+  <order soldto="HAM" date="2010-06-27" delivered="2010-07-09" price="10">
     <name>md hamid bin embi</name>
     <death>2010-04-18</death>
     <deathm>1431-05-03</deathm>
     <age>70</age>
     <item>2' sticker</item>
   </order>
-  <order soldto="HAM" date="2010-06-27" delivered="" price="10">
+  <order soldto="HAM" date="2010-06-27" delivered="2010-07-09" price="10">
     <name>mazlifah bt noordin</name>
     <death>2009-12-26</death>
     <deathm>1431-01-09</deathm>
     <age>48</age>
     <item>2' sticker</item>
   </order>
-  <order soldto="HAM" date="2010-06-27" delivered="" price="10">
+  <order soldto="HAM" date="2010-06-27" delivered="2010-07-09" price="10">
     <name>habibah bt mohamed</name>
     <death>2009-08-02</death>
     <deathm>1430-08-11</deathm>
     <age>76</age>
     <item>2' sticker</item>
   </order>
-  <order soldto="HAM" date="2010-06-27" delivered="" price="10">
+  <order soldto="HAM" date="2010-06-27" delivered="2010-07-09" price="10">
     <name>rokiah bt omar</name>
     <death>2010-02-25</death>
     <deathm>1431-03-11</deathm>
     <item>2' sticker</item>
   </order>
-  <order soldto="HAM" date="2010-06-27" delivered="" price="10">
+  <order soldto="HAM" date="2010-06-27" delivered="2010-07-09" price="10">
     <name>saadiah bt hussain</name>
     <death>2010-06-03</death>
     <deathm>1431-06-20</deathm>
@@ -16702,7 +16702,7 @@
     <name>roslina bt abd karim</name>
     <death>2010-05-04</death>
     <deathm>1431-05-19</deathm>
-    <item>2' Batu Hiam(P)</item>
+    <item>2' Batu Hitam(P)</item>
   </order>
   <order soldto="JEF" date="2010-07-06" delivered="" price="35">
     <name>muhammad hannan bin mohd shahrizal</name>
@@ -16779,5 +16779,11 @@
     <deathm>1431-07-07</deathm>
     <age>74</age>
     <item>2½' sticker</item>
+  </order>
+  <order soldto="ADI" date="2010-07-08" delivered="" price="35">
+    <name>mohd nor bin asminan</name>
+    <death>2010-04-27</death>
+    <deathm>1431-05-12</deathm>
+    <item>PV</item>
   </order>
 </nisan>
