@@ -59,6 +59,7 @@
           <ol>
             <xsl:for-each select="nisan/order" >
               <xsl:sort select="@soldto" data-type="text" order="ascending" />
+              <xsl:sort select="item" data-type="text" order="ascending" />
               <xsl:if test="@delivered='' and name != ''">
                 <li>
                   <xsl:if test="contains(tags,'w')='true'">
