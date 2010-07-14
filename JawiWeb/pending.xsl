@@ -100,23 +100,23 @@
                   </span>
                   <span class="name">
                     <xsl:if test="remarks != ''">*</xsl:if>
-                    <xsl:value-of select="name" />
+                    <xsl:value-of select="name"/>
                     <xsl:choose>
                       <xsl:when test="born != ''">
-                        (<xsl:value-of select="born"/>~<xsl:value-of select="death" />
+                        (<xsl:value-of select="born"/>~<xsl:value-of select="death"/>
                         <xsl:if test="deathm != ''">
-                          =<xsl:value-of select="deathm" />
+                          =<xsl:value-of select="deathm"/>
                         </xsl:if>)
                       </xsl:when>
                       <xsl:otherwise>
-                        (<xsl:value-of select="death" />
+                        (<xsl:value-of select="death"/>
                         <xsl:if test="deathm != ''">
-                          =<xsl:value-of select="deathm" />
+                          =<xsl:value-of select="deathm"/>
                         </xsl:if>)
                       </xsl:otherwise>
                     </xsl:choose>
                     <xsl:if test="age != ''">
-                      <xsl:value-of select="age" /> thn
+                      <xsl:value-of select="age"/> thn
                     </xsl:if>
                   </span>
                   <span class="item">
