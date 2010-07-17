@@ -16795,12 +16795,13 @@
     <deathm>1431-05-12</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2010-07-11" delivered="" price="260">
+  <order soldto="ADI" date="2010-07-11" delivered="2010-07-17" price="260">
     <name>hj amat@bujang bin ismail</name>
     <born>1933-07-22</born>
     <death>2010-04-14 5.30 ptg</death>
     <deathm>1431-04-29</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>060301198757335</remarks>
   </order>
   <order soldto="HAM" date="2010-07-14" delivered="2010-07-14" price="10">
     <name>mohd kassim bin pakeer mohd</name>
@@ -16871,5 +16872,34 @@
     <deathm>1431-07-20</deathm>
     <age>75</age>
     <item>2' sticker</item>
+  </order>
+  <order soldto="ADI" date="2010-07-14" delivered="" price="35">
+    <name>tujad bin hj tahir</name>
+    <jawi>توجد بن حاج طاهر</jawi>
+    <death>1981-03-24</death>
+    <deathm>1401-05-19</deathm>
+    <item>PV egg</item>
+  </order>
+  <order soldto="JEF" date="2010-07-17" delivered="" price="35">
+    <name>muhammad danieal aqiff bin musa</name>
+    <jawi>محمد دانيل اقيف بن موسا</jawi>
+    <born>1997-06-07</born>
+    <death>2010-06-28</death>
+    <deathm>1431-07-16</deathm>
+    <item>BA</item>
+  </order>
+  <order soldto="JEF" date="2010-07-17" delivered="" price="35">
+    <name>mariam bibi bt muthu muhammad</name>
+    <jawi>ماريم بيبي بنت موڽو محمد</jawi>
+    <death>2010-07-06</death>
+    <deathm>1431-07-24</deathm>
+    <item>BA</item>
+  </order>
+  <order soldto="JEF" date="2010-07-17" delivered="" price="35">
+    <name>ahmad kamal bin ariffin</name>
+    <jawi>أحمد كامل بن عريفين</jawi>
+    <death>2010-03-01</death>
+    <deathm>1431-03-15</deathm>
+    <item>BA</item>
   </order>
 </nisan>

@@ -1251,14 +1251,9 @@
     <sex>0</sex>
   </rootname>
   <rootname>
-    <rumi>ariffin</rumi>
-    <jawi>عريفين</jawi>
-    <sex>0</sex>
-  </rootname>
-  <rootname>
     <rumi>arifin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>عريفين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>arip</rumi>
@@ -3088,6 +3083,8 @@
   </rootname>
   <rootname>
     <rumi>daniel</rumi>
+    <jawi>دانيل</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>danish</rumi>
@@ -8196,36 +8193,6 @@
     <sex>0</sex>
   </rootname>
   <rootname>
-    <rumi>mahamed</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>mahammad</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>mahammud</rumi>
-    <jawi>محمد</jawi>
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>mahamod</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>mahamood</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>mahamoud</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
     <rumi>mahamud</rumi>
     <jawi>محمود</jawi>
     <sex>0</sex>
@@ -9308,42 +9275,7 @@
     <sex>0</sex>
   </rootname>
   <rootname>
-    <rumi>mohamad</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
     <rumi>mohamadan</rumi>
-  </rootname>
-  <rootname>
-    <rumi>mohamed</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>mohammad</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>mohammed</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>mohammodd</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>mohamood</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>mohamud</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>mohd</rumi>
@@ -9352,29 +9284,6 @@
   </rootname>
   <rootname>
     <rumi>mohiddeen</rumi>
-  </rootname>
-  <rootname>
-    <rumi>mohideen</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>mohidin</rumi>
-  </rootname>
-  <rootname>
-    <rumi>mohmad</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>mohmood</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>moideen</rumi>
-    <jawi />
-    <sex>0</sex>
   </rootname>
   <rootname>
     <rumi>mojit</rumi>
@@ -9489,52 +9398,9 @@
     <sex>0</sex>
   </rootname>
   <rootname>
-    <rumi>muhamad</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>muhamed</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>muhammad</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>muhammadsiraj</rumi>
-  </rootname>
-  <rootname>
-    <rumi>muhammed</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>muhammmad</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>muhamud</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
     <rumi>muhanad</rumi>
     <jawi />
     <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>muhd</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>muhhamad</rumi>
-    <jawi>محمد</jawi>
-    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>muhmad</rumi>
@@ -9763,7 +9629,7 @@
   <rootname>
     <rumi>muthu</rumi>
     <jawi>موڽو</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>muzafar</rumi>
@@ -15465,8 +15331,8 @@
   </rootname>
   <rootname>
     <rumi>tahir</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>طاهر</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>tai</rumi>
@@ -15476,7 +15342,7 @@
   <rootname>
     <rumi>taib</rumi>
     <jawi>طيب</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>tain</rumi>
