@@ -16902,4 +16902,33 @@
     <deathm>1431-03-15</deathm>
     <item>BA</item>
   </order>
+  <order soldto="KEN" date="2010-07-18" delivered="" price="220">
+    <name>bakar@che mat bin saad</name>
+    <death>2008-12-19</death>
+    <deathm>1429-12-21</deathm>
+    <age>61</age>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2010-07-19" delivered="" price="35">
+    <name>mohd bin din</name>
+    <jawi>محمد بن دين</jawi>
+    <born>1953-10-05</born>
+    <death>2010-01-05</death>
+    <deathm>1431-01-19</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="JEF" date="2010-07-21" delivered="" price="35">
+    <name>mutmatinah bt jafar</name>
+    <jawi>موتماتينه بنت جعفر</jawi>
+    <death>2000-07-04</death>
+    <deathm>1421-04-02</deathm>
+    <item>BA</item>
+  </order>
+  <order soldto="JEF" date="2010-07-21" delivered="" price="35">
+    <name>mohd taib bin mohd mori</name>
+    <jawi>محمد طيب بن محمد موري</jawi>
+    <death>2000-07-02</death>
+    <deathm>1421-03-29</deathm>
+    <item>BA</item>
+  </order>
 </nisan>
