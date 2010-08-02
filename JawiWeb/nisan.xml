@@ -12207,9 +12207,9 @@
     <name>ramlah bt karim</name>
     <born>1932-12-10</born>
     <death>2009-06-27</death>
-    <remarks>3.25"x4.5"Hx2.375"B</remarks>
     <deathm>1430-07-04</deathm>
     <item>CK</item>
+    <remarks>3.25"x4.5"Hx2.375"B</remarks>
   </order>
   <order soldto="ADI" date="2009-07-10" delivered="2009-07-20" price="260">
     <name>mat silah bin razali</name>
@@ -16943,7 +16943,7 @@
     <deathm>1431-06-22</deathm>
     <item>2' Batu Putih(P)</item>
   </order>
-  <order soldto="ADI" date="2010-07-23" delivered="2010-07-25" price="35">
+  <order soldto="ADI" date="2010-07-23" delivered="" price="35">
     <name>pirdayus bin abdul rahman</name>
     <death>2009-12-26</death>
     <deathm>1431-01-09</deathm>
@@ -17066,32 +17066,148 @@
     <deathm>1431-07-01</deathm>
     <item>2' sticker</item>
   </order>
-  <order soldto="JEF" date="2010-07-25" delivered="" price="35">
+  <order soldto="JEF" date="2010-07-25" delivered="2010-07-28" price="35">
     <name>hjh jariah bt hj jarkasi</name>
     <jawi>حجه جرياح بنت حاج جاركاسي</jawi>
     <death>2010-06-22</death>
     <deathm>1431-07-10</deathm>
     <item>BA</item>
+    <remarks>EN290959712MY</remarks>
   </order>
-  <order soldto="JEF" date="2010-07-25" delivered="" price="35">
+  <order soldto="JEF" date="2010-07-25" delivered="2010-07-28" price="35">
     <name>kalsom bt deris</name>
     <jawi>كلسوم بنت دريس</jawi>
     <death>2010-07-16</death>
     <deathm>1431-08-04</deathm>
     <item>BA</item>
+    <remarks>EN290959712MY</remarks>
   </order>
-  <order soldto="JEF" date="2010-07-25" delivered="" price="35">
+  <order soldto="JEF" date="2010-07-25" delivered="2010-07-28" price="35">
     <name>suliah bt ros</name>
     <jawi>سولعياه بنت روس</jawi>
     <death>2008-02-23</death>
     <deathm>1429-02-15</deathm>
     <item>BA</item>
+    <remarks>EN290959712MY</remarks>
   </order>
-  <order soldto="JEF" date="2010-07-25" delivered="" price="35">
+  <order soldto="JEF" date="2010-07-25" delivered="2010-07-28" price="35">
     <name>damanhuri bin hasan</name>
     <jawi>دمنهوري بن حسن</jawi>
     <death>1980-11-05</death>
     <deathm>1400-12-27</deathm>
     <item>BA</item>
+    <remarks>EN290959712MY</remarks>
   </order>
+  <order soldto="ADI" date="2010-07-27" delivered="2010-07-28" price="35">
+    <name>aminah bt hasan</name>
+    <jawi>أمينة بنت حسن</jawi>
+    <death>1988-03-24</death>
+    <deathm>1408-08-06</deathm>
+    <item>PV</item>
+    <remarks>EN290959709MY</remarks>
+  </order>
+  <order soldto="ADI" date="2010-07-27" delivered="2010-07-28" price="35">
+    <name>sarum bt mohd amin</name>
+    <jawi>صاروم بنت محمد أمين</jawi>
+    <death>2010-07-20</death>
+    <deathm>1431-08-08</deathm>
+    <item>PV</item>
+    <remarks>EN290959709MY</remarks>
+  </order>
+  <order soldto="KEN" date="2010-07-27" delivered="" price="220">
+    <name>hj hamid bin ali</name>
+    <death>2010-06-05</death>
+    <deathm>1431-06-22</deathm>
+    <age>71</age>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="KEN" date="2010-07-27" delivered="" price="220">
+    <name>hawa bt saad</name>
+    <death>2010-07-02</death>
+    <deathm>1431-07-19</deathm>
+    <age>74</age>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="KEN" date="2010-07-27" delivered="" price="220">
+    <name>awang bin ishak</name>
+    <death>2010-07-13</death>
+    <deathm>1431-08-01</deathm>
+    <age>68</age>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-07-28" delivered="" price="10">
+    <name>hasan bin hashim</name>
+    <death>1999-09-21</death>
+    <deathm>1420-06-10</deathm>
+    <age>63</age>
+    <item>2' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-07-28" delivered="" price="10">
+    <name>hj mohd noor bin mohd hussain</name>
+    <death>2009-12-06</death>
+    <deathm>1430-12-19</deathm>
+    <age>82</age>
+    <item>2½' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-07-28" delivered="" price="10">
+    <name>aini bt hj omar</name>
+    <death>2010-07-19</death>
+    <deathm>1431-08-07</deathm>
+    <age>53</age>
+    <item>2½' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-07-28" delivered="" price="10">
+    <name>hussein bin kasim</name>
+    <death>1990-04-25</death>
+    <deathm>1410-09-30</deathm>
+    <age>95</age>
+    <item>2½' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-07-28" delivered="" price="10">
+    <name>makhdom bee bt tambi</name>
+    <death>1987-10-06</death>
+    <deathm>1408-02-13</deathm>
+    <age>83</age>
+    <item>2½' sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-07-28" delivered="" price="10">
+    <name>fatimah bt hussein</name>
+    <death>1991-01-08</death>
+    <deathm>1411-06-22</deathm>
+    <age>67</age>
+    <item>2½' sticker</item>
+  </order>
+  <order soldto="ADI" date="2010-07-27" delivered="" price="35">
+    <name>aminah bt hasan</name>
+    <death>1988-03-24</death>
+    <deathm>1408-08-06</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-07-27" delivered="" price="35">
+    <name>sarum bt mohd amin</name>
+    <death>2010-07-20</death>
+    <deathm>1431-08-08</deathm>
+    <item>PV</item>
+  </order>
+  <!--<order soldto="KEN" date="2010-07-27" delivered="" price="220">
+    <name>hj hamid bin ali</name>
+    <death>2010-06-05</death>
+    <deathm>1431-06-22</deathm>
+    <age>71</age>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="KEN" date="2010-07-27" delivered="" price="220">
+    <name>hawa bt saad</name>
+    <death>2010-07-02</death>
+    <deathm>1431-07-19</deathm>
+    <age>74</age>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="KEN" date="2010-07-27" delivered="" price="220">
+    <name>awang bin ishak</name>
+    <death>2010-07-13</death>
+    <deathm>1431-08-01</deathm>
+    <age>68</age>
+    <item>2' Batu Batik(L)</item>
+  </order>-->
 </nisan>
