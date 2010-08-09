@@ -125,7 +125,7 @@
   <rootname>
     <rumi>ab</rumi>
     <jawi>عبد</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>aba</rumi>
@@ -153,7 +153,7 @@
   <rootname>
     <rumi>abbas</rumi>
     <jawi>عابس</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>abd</rumi>
@@ -167,16 +167,6 @@
   </rootname>
   <rootname>
     <rumi>abdul</rumi>
-    <jawi>عبدول</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>abdulah</rumi>
-    <jawi>عبدالله</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>abdull</rumi>
     <jawi>عبدول</jawi>
     <sex>1</sex>
   </rootname>
@@ -808,8 +798,8 @@
     <sex>1</sex>
   </rootname>
   <rootname>
-    <rumi>allahyarhamah</rumi>
-    <jawi />
+    <rumi>allahyarham</rumi>
+    <jawi>الله يرحم</jawi>
     <sex>0</sex>
   </rootname>
   <rootname>
@@ -1423,6 +1413,7 @@
   </rootname>
   <rootname>
     <rumi>ashaari</rumi>
+    <jawi>أشار</jawi>
   </rootname>
   <rootname>
     <rumi>ashamuddin</rumi>
@@ -2201,13 +2192,8 @@
   </rootname>
   <rootname>
     <rumi>baharuddin</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>baharudin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>باهاروددين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>baharum</rumi>
@@ -4518,8 +4504,8 @@
   </rootname>
   <rootname>
     <rumi>haikal</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>هيكل</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>hailallah</rumi>
@@ -16598,8 +16584,8 @@
   </rootname>
   <rootname>
     <rumi>zaim</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>زعيم</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>zaimah</rumi>

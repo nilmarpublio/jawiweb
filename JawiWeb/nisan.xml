@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
+<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <purchase>
     <buyfrom>hlgranite</buyfrom>
@@ -16902,7 +16902,7 @@
     <deathm>1431-03-15</deathm>
     <item>BA</item>
   </order>
-  <order soldto="KEN" date="2010-07-18" delivered="" price="220">
+  <order soldto="KEN" date="2010-07-18" delivered="2010-08-08" price="220">
     <name>bakar@che mat bin saad</name>
     <death>2008-12-19</death>
     <deathm>1429-12-21</deathm>
@@ -16943,11 +16943,12 @@
     <deathm>1431-06-22</deathm>
     <item>2' Batu Putih(P)</item>
   </order>
-  <order soldto="ADI" date="2010-07-23" delivered="" price="35">
+  <order soldto="ADI" date="2010-07-23" delivered="2010-08-05" price="260">
     <name>pirdayus bin abdul rahman</name>
     <death>2009-12-26</death>
     <deathm>1431-01-09</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>060301198757323</remarks>
   </order>
   <order soldto="ADI" date="2010-07-23" delivered="2010-07-25" price="35">
     <name>hjh zaharah bt abdullah@ariffin</name>
@@ -16970,10 +16971,10 @@
     <age>66</age>
     <item>2' sticker</item>
   </order>
-  <order soldto="HAM" date="2010-07-23" delivered="2010-07-27" price="10">
+  <order soldto="HAM" date="2010-07-23" delivered="" price="10">
     <name>wan bt idris</name>
     <death>1987-06-29</death>
-    <deathm>1407</deathm>
+    <deathm>1407-11-03</deathm>
     <item>2' sticker</item>
   </order>
   <order soldto="HAM" date="2010-07-23" delivered="2010-08-04" price="10">
@@ -17046,8 +17047,8 @@
     <age>60</age>
     <item>2' sticker</item>
   </order>
-  <order soldto="HAM" date="2010-07-23" delivered="2010-08-04" price="10">
-    <name>mohamedali bin abdullah</name>
+  <order soldto="HAM" date="2010-07-23" delivered="" price="10">
+    <name>mohamed ali bin abdullah</name>
     <death>2009-11-26</death>
     <deathm>1430-11-09</deathm>
     <age>72</age>
@@ -17114,21 +17115,21 @@
     <item>PV</item>
     <remarks>EN290959709MY</remarks>
   </order>
-  <order soldto="KEN" date="2010-07-27" delivered="" price="220">
+  <order soldto="KEN" date="2010-07-27" delivered="2010-08-08" price="220">
     <name>hj hamid bin ali</name>
     <death>2010-06-05</death>
     <deathm>1431-06-22</deathm>
     <age>71</age>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="KEN" date="2010-07-27" delivered="" price="220">
+  <order soldto="KEN" date="2010-07-27" delivered="2010-08-08" price="220">
     <name>hawa bt saad</name>
     <death>2010-07-02</death>
     <deathm>1431-07-19</deathm>
     <age>74</age>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="KEN" date="2010-07-27" delivered="" price="220">
+  <order soldto="KEN" date="2010-07-27" delivered="2010-08-08" price="220">
     <name>awang bin ishak</name>
     <death>2010-07-13</death>
     <deathm>1431-08-01</deathm>
@@ -17177,59 +17178,30 @@
     <age>67</age>
     <item>2½' sticker</item>
   </order>
-  <order soldto="ADI" date="2010-07-27" delivered="" price="35">
-    <name>aminah bt hasan</name>
-    <death>1988-03-24</death>
-    <deathm>1408-08-06</deathm>
-    <item>PV</item>
-  </order>
-  <order soldto="ADI" date="2010-07-27" delivered="" price="35">
-    <name>sarum bt mohd amin</name>
-    <death>2010-07-20</death>
-    <deathm>1431-08-08</deathm>
-    <item>PV</item>
-  </order>
-  <!--<order soldto="KEN" date="2010-07-27" delivered="" price="220">
-    <name>hj hamid bin ali</name>
-    <death>2010-06-05</death>
-    <deathm>1431-06-22</deathm>
-    <age>71</age>
-    <item>2' Batu Batik(L)</item>
-  </order>
-  <order soldto="KEN" date="2010-07-27" delivered="" price="220">
-    <name>hawa bt saad</name>
-    <death>2010-07-02</death>
-    <deathm>1431-07-19</deathm>
-    <age>74</age>
-    <item>2' Batu Batik(L)</item>
-  </order>
-  <order soldto="KEN" date="2010-07-27" delivered="" price="220">
-    <name>awang bin ishak</name>
-    <death>2010-07-13</death>
-    <deathm>1431-08-01</deathm>
-    <age>68</age>
-    <item>2' Batu Batik(L)</item>
-  </order>-->
-  <order soldto="JEF" date="2010-07-31" delivered="" price="35">
+  <order soldto="JEF" date="2010-07-31" delivered="2010-08-08" price="35">
     <name>mariam bt lamikin</name>
+    <jawi>ماريم بنت لأمكن</jawi>
     <death>2005-07-02</death>
     <deathm>1426-05-25</deathm>
     <item>BA</item>
   </order>
-  <order soldto="JEF" date="2010-07-31" delivered="" price="35">
+  <order soldto="JEF" date="2010-07-31" delivered="2010-08-08" price="35">
     <name>siti asmah bt hj ismail</name>
+    <jawi>ستي اسمه بنت حاج إسماعيل</jawi>
     <death>2010-04-12 isnin</death>
     <deathm>1431-04-27</deathm>
     <item>BA</item>
   </order>
-  <order soldto="JEF" date="2010-07-31" delivered="" price="35">
+  <order soldto="JEF" date="2010-07-31" delivered="2010-08-08" price="35">
     <name>hj gimin bin yasi</name>
+    <jawi>حاج گيمين بن ياسي</jawi>
     <death>1995-08-24</death>
     <deathm>1416-03-27</deathm>
     <item>BA</item>
   </order>
-  <order soldto="JEF" date="2010-07-31" delivered="" price="35">
+  <order soldto="JEF" date="2010-07-31" delivered="2010-08-08" price="35">
     <name>hjh jariah bt hj othman</name>
+    <jawi>حجه جرياح بنت حاج عثمان</jawi>
     <death>2006-11-27</death>
     <deathm>1427-11-06</deathm>
     <item>BA</item>
@@ -17255,7 +17227,7 @@
     <age>75</age>
     <item>2' sticker</item>
   </order>
-  <order soldto="HAM" date="2010-08-02" delivered="2010-08-04" price="10">
+  <order soldto="HAM" date="2010-08-02" delivered="" price="10">
     <name>hj harun bin othman</name>
     <death>2010-07-15</death>
     <deathm>1431-08-03</deathm>
@@ -17297,50 +17269,81 @@
     <age>85</age>
     <item>2' sticker</item>
   </order>
-  <order soldto="ADI" date="2010-07-28" delivered="" price="35">
+  <order soldto="ADI" date="2010-07-28" delivered="2010-08-08" price="35">
     <name>allahyarham mohd ashaari bin hj baharuddin</name>
+    <jawi>الله يرحم محمد أشار بن حاج باهاروددين</jawi>
     <death>1987-12-10</death>
     <deathm>1408-04-19</deathm>
     <item>PV shield</item>
   </order>
-  <order soldto="ADI" date="2010-07-28" delivered="" price="35">
+  <order soldto="ADI" date="2010-07-28" delivered="2010-08-08" price="35">
     <name>allahyarham mohd ashaari bin hj baharuddin</name>
+    <jawi>الله يرحم محمد أشار بن حاج باهاروددين</jawi>
     <death>1987-12-10</death>
     <deathm>1408-04-19</deathm>
     <item>PV shield</item>
     <remarks>rumi sahaja</remarks>
   </order>
-  <order soldto="ADI" date="2010-07-28" delivered="" price="35">
+  <order soldto="ADI" date="2010-07-28" delivered="2010-08-08" price="35">
     <name>maimoon bt abdullah</name>
+    <jawi>مايمون بنت عبدالله</jawi>
     <death>2010-04-24</death>
     <deathm>1431-05-09</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2010-07-28" delivered="" price="35">
+  <order soldto="ADI" date="2010-07-28" delivered="2010-08-08" price="35">
     <name>mohd zaim haikal bin sarifudin</name>
+    <jawi>محمد زعيم هيكل بن ساريفودين</jawi>
     <death>2004-04-15</death>
     <deathm>1425-02-25</deathm>
     <item>PV budak</item>
   </order>
-  <order soldto="ADI" date="2010-08-03" delivered="" price="35">
+  <order soldto="ADI" date="2010-08-03" delivered="2010-08-08" price="35">
     <name>musliha bt hj saidi</name>
+    <jawi>مصلحة بنت حاج سيدي</jawi>
     <death>2010-03-23</death>
     <deathm>1431-04-07</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2010-08-03" delivered="" price="35">
+  <order soldto="ADI" date="2010-08-03" delivered="2010-08-05" price="35">
     <name>halimah bt mohd bashah</name>
     <death>2010-07-01 12:45</death>
     <deathm>1431-07-18 khamis</deathm>
     <age>76</age>
     <item>2' Batu Batik(P)</item>
-    <remarks>ibu 76 tahun</remarks>
+    <remarks>060301198757323 ibu 76 tahun</remarks>
   </order>
-  <order soldto="ADI" date="2010-08-03" delivered="" price="35">
+  <order soldto="ADI" date="2010-08-03" delivered="2010-08-05" price="35">
     <name>md noor bin hassan</name>
     <death>1980 14:00</death>
     <age>50</age>
     <item>2' Batu Batik(L)</item>
-    <remarks>ayah 50 tahun</remarks>
+    <remarks>060301198757323 ayah 50 tahun</remarks>
+  </order>
+  <order soldto="ADI" date="2010-08-07" delivered="2010-08-08" price="35">
+    <name>juminah bt sulaiman</name>
+    <jawi>جومينه بنت سُليمان</jawi>
+    <death>2010-05-26</death>
+    <deathm>1431-06-12</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-08-08" delivered="" price="35">
+    <name>latifah bt badrul</name>
+    <jawi>لطيفه بنت بادرول</jawi>
+    <death>2010-08-04</death>
+    <deathm>1431-08-23</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="KEN" date="2010-08-08" delivered="" price="220">
+    <name>sowiyah bt saud</name>
+    <death>2010-07-21</death>
+    <deathm>1431-08-09</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="KEN" date="2010-08-08" delivered="" price="220">
+    <name>abu bakar bin md ariffin</name>
+    <death>2010-07-19</death>
+    <deathm>1431-08-07</deathm>
+    <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
