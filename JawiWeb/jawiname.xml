@@ -987,6 +987,7 @@
   </rootname>
   <rootname>
     <rumi>amirah</rumi>
+    <jawi>أميره</jawi>
   </rootname>
   <rootname>
     <rumi>amirol</rumi>
@@ -1106,7 +1107,7 @@
   <rootname>
     <rumi>anis</rumi>
     <jawi>انيس</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>anisah</rumi>
@@ -3151,7 +3152,7 @@
   <rootname>
     <rumi>daud</rumi>
     <jawi>داود</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>dawi</rumi>
@@ -6341,7 +6342,7 @@
   <rootname>
     <rumi>jamil</rumi>
     <jawi>جميل</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>jamilah</rumi>
@@ -11475,7 +11476,7 @@
   <rootname>
     <rumi>rahimah</rumi>
     <jawi>راحيمه</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>rahimansha</rumi>
@@ -16877,8 +16878,8 @@
   </rootname>
   <rootname>
     <rumi>zawawi</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>زاؤاوي</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>zaweiah</rumi>
