@@ -77,7 +77,7 @@
           <span class="name">Description</span>
           <hr></hr>
           <xsl:variable name="last">2010-08-16</xsl:variable>
-          <xsl:variable name="today">2010-08-18</xsl:variable>
+          <xsl:variable name="today">2010-08-20</xsl:variable>
           <ol>
             <xsl:for-each select="nisan/order">
               <xsl:sort select="@date" data-type="text" order="ascending" />
