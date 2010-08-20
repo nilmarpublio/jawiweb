@@ -56,6 +56,9 @@
             <span class="name">Name</span>
             <span class="item">Item</span>
           </div>
+          <!-- @see http://stackoverflow.com/questions/586231/how-can-i-convert-a-string-to-upper-or-lower-case-with-xslt -->
+          <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
+          <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
           <ol>
             <xsl:for-each select="nisan/order" >
               <xsl:sort select="@soldto" data-type="text" order="ascending" />
@@ -100,7 +103,7 @@
                   </span>
                   <span class="name">
                     <xsl:if test="remarks != ''">*</xsl:if>
-                    <xsl:value-of select="name"/>
+                    <xsl:value-of select="translate(name,$uppercase,$lowercase)"/>
                     <xsl:choose>
                       <xsl:when test="born != ''">
                         (<xsl:value-of select="born"/>~<xsl:value-of select="death"/>
