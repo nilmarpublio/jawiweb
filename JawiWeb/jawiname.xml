@@ -434,20 +434,6 @@
     <sex>1</sex>
   </rootname>
   <rootname>
-    <rumi>ahmadasd</rumi>
-  </rootname>
-  <rootname>
-    <rumi>ahmadtai</rumi>
-  </rootname>
-  <rootname>
-    <rumi>ahmadtaj</rumi>
-  </rootname>
-  <rootname>
-    <rumi>ahmed</rumi>
-    <jawi>أحمد</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
     <rumi>ahmedullah</rumi>
     <jawi />
     <sex>0</sex>
@@ -487,7 +473,7 @@
     <jawi>عينا</jawi>
     <sex>2</sex>
   </rootname>
-    <rootname>
+  <rootname>
     <rumi>ainal</rumi>
     <jawi>عينل</jawi>
     <sex>2</sex>
@@ -3106,7 +3092,7 @@
     <jawi />
     <sex>0</sex>
   </rootname>
-    <rootname>
+  <rootname>
     <rumi>darmiah</rumi>
     <jawi>دارمياه</jawi>
     <sex>1</sex>
@@ -3857,6 +3843,8 @@
   </rootname>
   <rootname>
     <rumi>faiz</rumi>
+    <jawi>فايز</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>faiza</rumi>
@@ -5499,8 +5487,8 @@
   </rootname>
   <rootname>
     <rumi>huda</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>هدى</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>humaira</rumi>
@@ -6037,8 +6025,8 @@
   </rootname>
   <rootname>
     <rumi>izzati</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>izzatul</rumi>
@@ -12761,9 +12749,9 @@
     <sex>0</sex>
   </rootname>
   <rootname>
-  <rumi>safuan</rumi>
-  <jawi>سافوان</jawi>
-  <sex>1</sex>
+    <rumi>safuan</rumi>
+    <jawi>سافوان</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>safwan</rumi>
@@ -13895,7 +13883,7 @@
   <rootname>
     <rumi>shahabudin</rumi>
     <jawi>شاهابودين</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shahar</rumi>
@@ -15212,8 +15200,8 @@
   </rootname>
   <rootname>
     <rumi>syazwan</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سيزون</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>syazwani</rumi>
