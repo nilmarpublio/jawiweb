@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema elementFormDefault="qualified"
-           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="nisan">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -38,5 +37,18 @@
         </xs:element>
       </xs:choice>
     </xs:complexType>
+
+    <!--<xs:complexType name="orders">
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="order" type="order"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="purchases">
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="purchase" type="purchase"/>
+      </xs:sequence>
+    </xs:complexType>-->
+
   </xs:element>
 </xs:schema>

@@ -76,8 +76,8 @@
           <span class="deliver">Delivered</span>
           <span class="name">Description</span>
           <hr></hr>
-          <xsl:variable name="last">2010-08-21</xsl:variable>
-          <xsl:variable name="today">2010-08-20</xsl:variable>
+          <xsl:variable name="last">2010-08-23</xsl:variable>
+          <!--<xsl:variable name="today">2010-08-23</xsl:variable>-->
           <ol>
             <xsl:for-each select="nisan/order">
               <xsl:sort select="@date" data-type="text" order="ascending" />
@@ -86,8 +86,8 @@
                       or
                       (substring(@delivered,1,4) >= substring($last,1,4)
                       and substring(@delivered,6,2) >= substring($last,6,2)
-                      and substring(@delivered,9,2) >= substring($last,9,2))
-                      )">
+                      and substring(@delivered,9,2) >= substring($last,9,2)))
+                      ">
                 <div>
                   <li>
                     <xsl:if test="contains(item,'Hijau')='true'">
@@ -114,14 +114,14 @@
                       <xsl:value-of select="@date" />
                     </span>
                     <span class="deliver">
-                    <xsl:choose>
-                      <xsl:when test="@delivered = ''">
-                        -<span class="tab"></span>
-                      </xsl:when>
-                      <xsl:otherwise>
-                        <xsl:value-of select="@delivered" />
-                      </xsl:otherwise>
-                    </xsl:choose>
+                      <xsl:choose>
+                        <xsl:when test="@delivered = ''">
+                          -<span class="tab"></span>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="@delivered" />
+                        </xsl:otherwise>
+                      </xsl:choose>
                     </span>
                     <span class="name">
                       <xsl:if test="contains(item,'½')='true'">*</xsl:if>
@@ -154,7 +154,11 @@
             Total RM
             <xsl:value-of
               select="sum(nisan/order/@price
-              [../@soldto='HAM' and (../@delivered=$today)])"/>
+              [../@soldto='HAM' and 
+              (substring(../@delivered,1,4) >= substring($last,1,4)
+                and substring(../@delivered,6,2) >= substring($last,6,2)
+                and substring(../@delivered,9,2) >= substring($last,9,2))
+              ])"/>
             <br/>
             <xsl:value-of select="count(nisan/order[@soldto='HAM' and @delivered=''])"/> belum siap
           </div>
