@@ -44,14 +44,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JawiWeb.Test", "JawiWeb.Tes
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19DBB35D-78DF-4DC0-AF0B-9630C2BC83B0}"
 	ProjectSection(SolutionItems) = preProject
-		HLGranite.vsmdi = HLGranite.vsmdi
 		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgFileGenerator", "SvgFileGenerator\SvgFileGenerator.csproj", "{68B4F6D0-836A-41C5-8A9E-307C68669D1A}"
+EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = HLGranite.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug + xmldoc|.NET = Debug + xmldoc|.NET
 		Debug + xmldoc|Any CPU = Debug + xmldoc|Any CPU
@@ -313,6 +311,31 @@ Global
 		{E0113133-3F0D-4CB4-B640-559C32F958CB}.Test|Any CPU.Build.0 = Release|Any CPU
 		{E0113133-3F0D-4CB4-B640-559C32F958CB}.Test|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{E0113133-3F0D-4CB4-B640-559C32F958CB}.Test|Mixed Platforms.Build.0 = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Debug + xmldoc|.NET.ActiveCfg = Debug|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Debug + xmldoc|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Debug + xmldoc|Any CPU.Build.0 = Debug|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Debug + xmldoc|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Debug + xmldoc|Mixed Platforms.Build.0 = Debug|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Release + xmldoc|.NET.ActiveCfg = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Release + xmldoc|Any CPU.ActiveCfg = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Release + xmldoc|Any CPU.Build.0 = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Release + xmldoc|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Release + xmldoc|Mixed Platforms.Build.0 = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Release|.NET.ActiveCfg = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Test|.NET.ActiveCfg = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Test|Any CPU.Build.0 = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Test|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{68B4F6D0-836A-41C5-8A9E-307C68669D1A}.Test|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
