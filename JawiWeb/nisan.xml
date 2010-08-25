@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
+<?xml-stylesheet type="text/xsl" href="table.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <purchase>
     <buyfrom>hlgranite</buyfrom>
@@ -17594,13 +17594,14 @@
     <deathm>1431-08-15</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2010-08-16" delivered="" price="350">
+  <order soldto="ADI" date="2010-08-16" delivered="2010-08-23" price="350">
     <name>hjh hamsah bt hj mat nor</name>
     <born>1935-01-10</born>
     <bornm>1353-10-03</bornm>
     <death>2010-06-14</death>
     <deathm>1431-07-01</deathm>
-    <item>2' Batu Hitam(L)</item>
+    <item>2' Batu Hitam(P)</item>
+	<remarks>060301199382738</remarks>
   </order>
   <order soldto="HAM" date="2010-08-18" delivered="2010-08-21" price="10">
     <name>othman bin chik</name>
@@ -17642,7 +17643,7 @@
     <deathm>1431-06-20</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2010-08-20" delivered="" price="1500">
+  <order soldto="ADI" date="2010-08-20" delivered="2010-08-25" price="1500">
     <name> </name>
     <death></death>
     <deathm></deathm>
@@ -17840,4 +17841,10 @@
     <age>54</age>
     <item>2' sticker</item>
   </order>
+  <order soldto="ADI" date="2010-08-24" delivered="" price="260">
+    <name>wahid bin salammon</name>
+    <death>2010-08-06</death>
+    <deathm>1431-08-25</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>  
 </nisan>
