@@ -14,6 +14,8 @@ namespace SvgFileGenerator
     /// In this version, must ensure maintain the svg file according to predefined template.
     /// future: Use XElement, Xml serializer method for better performance.
     /// http://blogs.msdn.com/b/xmlteam/archive/2007/03/24/streaming-with-linq-to-xml-part-2.aspx
+	/// http://www.albahari.com/nutshell/ch11.aspx
+	/// http://msdn.microsoft.com/en-us/library/system.xml.linq.xelement.writeto.aspx
     /// </remarks>
     public class SvgWriter
     {
