@@ -1,5 +1,6 @@
 <!--
 @todo: write today date - firefox block js
+2010-08-27 HAM: owe RM40
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" omit-xml-declaration="yes"/>
@@ -76,7 +77,7 @@
           <span class="deliver">Delivered</span>
           <span class="name">Description</span>
           <hr></hr>
-          <xsl:variable name="last">2010-08-25</xsl:variable>
+          <xsl:variable name="last">2010-08-28</xsl:variable>
           <!--<xsl:variable name="today">2010-08-23</xsl:variable>-->
           <ol>
             <xsl:for-each select="nisan/order">
