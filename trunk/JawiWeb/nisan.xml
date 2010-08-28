@@ -17880,4 +17880,30 @@
 		<deathm>1431-09-17</deathm>
 		<item>2' Batu Batik(P)</item>
 	</order>
+	<order soldto="HAM" date="2010-08-28" delivered="" price="10">
+		<name>hashim bin hassan</name>
+		<death>1982</death>
+		<deathm>1402</deathm>
+		<item>2' sticker</item>
+		<remarks>لاهيرفڠكورقيرق</remarks>
+	</order>
+	<order soldto="HAM" date="2010-08-28" delivered="" price="10">
+		<name>abd hamid bin hussein</name>
+		<death>1977-03-28</death>
+		<deathm></deathm>
+		<age>46</age>
+		<item>2½' sticker</item>
+	</order>
+	<order soldto="HAM" date="2010-08-28" delivered="" price="10">
+		<name> </name>
+		<death></death>
+		<deathm></deathm>
+		<item>6"x18" sticker</item>
+	</order>
+	<order soldto="HAM" date="2010-08-28" delivered="2010-08-28" price="10">
+		<name>daripada allah kita datang dan daripada allah jua kita kembali</name>
+		<death></death>
+		<deathm></deathm>
+		<item>5"x18" sticker</item>
+	</order>
 </nisan>
