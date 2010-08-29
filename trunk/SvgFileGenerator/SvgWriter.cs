@@ -50,7 +50,7 @@ namespace SvgFileGenerator
         }
 
         #region Methods
-        public void Save()
+        public void Write()
         {
             try
             {

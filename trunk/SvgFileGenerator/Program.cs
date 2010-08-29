@@ -22,25 +22,12 @@ namespace SvgFileGenerator
             //Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
 
-            XmlSerializer serializer = new XmlSerializer(typeof(nisan));
-            FileStream stream = new FileStream("nisan.xml", FileMode.Open);
-            nisan nisans = serializer.Deserialize(stream) as nisan;
-            stream.Flush();
-            stream.Close();
-            System.Diagnostics.Debug.WriteLine(nisans.Items.Length);
 
             List<nisanOrder> orders = new List<nisanOrder>();
-            List<nisanPurchase> purchases = new List<nisanPurchase>();
-            foreach (object obj in nisans.Items)
-            {
-                if (obj.GetType() == typeof(nisanOrder))
-                    orders.Add(obj as nisanOrder);
-                if (obj.GetType() == typeof(nisanPurchase))
-                    purchases.Add(obj as nisanPurchase);
-            }
+            SvgReader reader = new SvgReader("nisan.xml");
+            reader.Read(out orders);
             System.Diagnostics.Debug.WriteLine("Total order: " + orders.Count);
-            System.Diagnostics.Debug.WriteLine("Total purchase: " + purchases.Count);
-
+            //System.Diagnostics.Debug.WriteLine("Total purchase: " + purchases.Count);
 
             //get undelivered order
             int length = ConfigurationManager.AppSettings.Keys.Count;
@@ -57,7 +44,7 @@ namespace SvgFileGenerator
                 {
                     Console.WriteLine("Writing " + order.name + ".svg...");
                     SvgWriter writer = new SvgWriter(order, lookupFiles[0]);
-                    writer.Save();
+                    writer.Write();
                 }
                 Console.WriteLine();
             }
