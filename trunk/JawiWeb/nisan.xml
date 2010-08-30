@@ -17683,7 +17683,7 @@
 		<deathm>1431-08-26</deathm>
 		<item>2' sticker</item>
 	</order>
-	<order soldto="HAM" date="2010-08-20" delivered="" price="10">
+	<order soldto="HAM" date="2010-08-20" delivered="2010-08-29" price="10">
 		<name>shahrul anuar bin che shamsudin</name>
 		<death>2010-08-10</death>
 		<deathm>1431-08-29</deathm>
@@ -17751,7 +17751,7 @@
 		<deathm>1431-09-03</deathm>
 		<item>2' Batu Batik(L)</item>
 	</order>
-	<order soldto="HAM" date="2010-08-23" delivered="" price="10">
+	<order soldto="HAM" date="2010-08-23" delivered="2010-08-29" price="10">
 		<name>sharifah norhaidah bt syed idros</name>
 		<death>2010-05-11</death>
 		<deathm>1431-05-26</deathm>
@@ -17759,10 +17759,11 @@
 		<item>2' sticker</item>
 		<remarks>takmao alfatihah</remarks>
 	</order>
-	<order soldto="HAM" date="2010-08-23" delivered="" price="10">
-		<name>abd-allah bin mohamed talhah</name>
+	<order soldto="HAM" date="2010-08-23" delivered="2010-08-29" price="10">
+		<name>abd allah bin mohamed talhah</name>
 		<born>1988-08-10</born>
 		<death>1988-08-10</death>
+    <deathm>1408-12-27</deathm>
 		<item>1½' sticker</item>
 		<remarks>takmao alfatihah</remarks>
 	</order>
@@ -17834,7 +17835,7 @@
 		<deathm>1430-12-03</deathm>
 		<item>2½' sticker</item>
 	</order>
-	<order soldto="HAM" date="2010-08-24" delivered="" price="10">
+	<order soldto="HAM" date="2010-08-24" delivered="2010-08-29" price="10">
 		<name>kastee bt wilastra</name>
 		<death>2010-08-21</death>
 		<deathm>1431-09-11</deathm>
@@ -17858,14 +17859,14 @@
 		<jawi>محمد يزيد بن زائرين أخوان</jawi>
 		<death>2009-12-17</death>
 		<deathm>1430-12-30</deathm>
-		<item>PV</item>
+		<item>PV Budak</item>
 	</order>
 	<order soldto="ADI" date="2010-08-28" delivered="" price="35">
-		<name>muhammad yazir b.zaireen akhwan</name>
+		<name>muhammad yazir bin zaireen akhwan</name>
 		<jawi>محمد يزير بن زائرين أخوان</jawi>
 		<death>2009-12-17</death>
 		<deathm>1430-12-30</deathm>
-		<item>PV</item>
+		<item>PV Budak</item>
 	</order>
 	<order soldto="ADI" date="2010-08-28" delivered="" price="35">
 		<name>rafeah bt tahha</name>
@@ -17887,15 +17888,15 @@
 		<item>2' sticker</item>
 		<remarks>لاهيرفڠكورقيرق</remarks>
 	</order>
-	<order soldto="HAM" date="2010-08-28" delivered="" price="10">
+	<order soldto="HAM" date="2010-08-28" delivered="2010-08-29" price="10">
 		<name>abd hamid bin hussein</name>
 		<death>1977-03-28</death>
-		<deathm></deathm>
+		<deathm>1397-04-08</deathm>
 		<age>46</age>
 		<item>2½' sticker</item>
 	</order>
 	<order soldto="HAM" date="2010-08-28" delivered="" price="10">
-		<name> </name>
+		<name>اتالله واتااليه راجعون</name>
 		<death></death>
 		<deathm></deathm>
 		<item>6"x18" sticker</item>
