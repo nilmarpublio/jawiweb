@@ -76,7 +76,7 @@
           <span class="deliver">Delivered</span>
           <span class="name">Description</span>
           <hr></hr>
-          <xsl:variable name="last">2010-08-23</xsl:variable>
+          <xsl:variable name="last">2010-08-30</xsl:variable>
           <!--<xsl:variable name="today">2010-08-23</xsl:variable>-->
           <ol>
             <xsl:for-each select="nisan/order">
@@ -86,8 +86,13 @@
                       or
                       (substring(@delivered,1,4) >= substring($last,1,4)
                       and substring(@delivered,6,2) >= substring($last,6,2)
-                      and substring(@delivered,9,2) >= substring($last,9,2)))
-                      ">
+                      and substring(@delivered,9,2) >= substring($last,9,2))
+                      or
+                      (substring(@delivered,1,4) >= substring($last,1,4)
+                      and substring(@delivered,6,2) > substring($last,6,2))
+                      or
+                      (substring(@delivered,1,4) > substring($last,1,4))
+                      )">
                 <div>
                   <li>
                     <xsl:if test="contains(item,'Hijau')='true'">
@@ -155,9 +160,16 @@
             <xsl:value-of
               select="sum(nisan/order/@price
               [../@soldto='HAM' and 
+              (
               (substring(../@delivered,1,4) >= substring($last,1,4)
                 and substring(../@delivered,6,2) >= substring($last,6,2)
                 and substring(../@delivered,9,2) >= substring($last,9,2))
+              or
+              (substring(../@delivered,1,4) >= substring($last,1,4)
+                and substring(../@delivered,6,2) > substring($last,6,2))
+              or
+              (substring(../@delivered,1,4) > substring($last,1,4))
+              )
               ])"/>
             <br/>
             <xsl:value-of select="count(nisan/order[@soldto='HAM' and @delivered=''])"/> belum siap
