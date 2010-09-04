@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
+<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <purchase>
     <buyfrom>hlgranite</buyfrom>
@@ -17842,13 +17842,13 @@
     <age>54</age>
     <item>2' sticker</item>
   </order>
-  <order soldto="ADI" date="2010-08-25" delivered="" price="260">
+  <order soldto="ADI" date="2010-08-25" delivered="2010-09-03" price="260">
     <name>wahid bin salammon</name>
     <death>2010-08-06</death>
     <deathm>1431-08-25</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2010-08-26" delivered="" price="260">
+  <order soldto="ADI" date="2010-08-26" delivered="2010-09-03" price="260">
     <name>airizuan bin abd rashid</name>
     <death>2008-08-22</death>
     <deathm>1429-08-20</deathm>

@@ -21,7 +21,7 @@
           .order {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
           .deliver { display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
           .name { display:inline-table;width:380px;padding:0 6px 0 0; }
-          .item { display:inline-table;width:100px;padding:0 6px 0 0;}
+          .item { display:inline-table;width:110px;padding:0 6px 0 0;}
           .jawi { }
 
           .price {display:inline-table;width:30px;text-align:right;}
@@ -78,6 +78,11 @@
                   <xsl:if test="contains(item,'Hijau') or contains(item,'G')='true'">
                     <xsl:attribute name="style">
                       <xsl:text>color:green</xsl:text>
+                    </xsl:attribute>
+                  </xsl:if>
+                  <xsl:if test="contains(item,'Hitam')='true'">
+                    <xsl:attribute name="style">
+                      <xsl:text>font-weight:bold</xsl:text>
                     </xsl:attribute>
                   </xsl:if>
                   <xsl:if test="contains(item,'Batik')='true'">
@@ -180,5 +185,4 @@
       </body>
     </html>
   </xsl:template>
-
 </xsl:stylesheet>
