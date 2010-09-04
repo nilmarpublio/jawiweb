@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
+<?xml-stylesheet type="text/xsl" href="table.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <purchase>
     <buyfrom>hlgranite</buyfrom>
@@ -13550,7 +13550,7 @@
     <name>nur iman amani bt masrizal</name>
     <death>2009-11-22</death>
     <deathm>1430-12-05</deathm>
-    <item>PA budak</item>
+    <item>PA Budak</item>
   </order>
   <order soldto="KAM" date="2009-11-23" delivered="2009-12-12" price="330">
     <name>hj abdullah bin abd hamid</name>
@@ -13905,7 +13905,7 @@
     <jawi>حجه سلمه/سُفيه بنت محمد علي</jawi>
     <death>2009-12-13</death>
     <deathm>1430-12-26</deathm>
-    <item>PA bujur</item>
+    <item>PA Bujur</item>
   </order>
   <order soldto="ADI" date="2009-12-26" delivered="2010-01-03" price="35">
     <name>abdul rasid bin ngamil</name>
@@ -14480,7 +14480,7 @@
     <death>1969-09-11</death>
     <remarks>EN261367607MY</remarks>
     <deathm>1389-06-29</deathm>
-    <item>PA love</item>
+    <item>PA Love</item>
   </order>
   <order soldto="ADI" date="2010-02-10" delivered="2010-02-13" price="35">
     <name>salbiah bt basir</name>
@@ -14535,7 +14535,7 @@
     <death>2009-12-11 3:05pm</death>
     <remarks>jawi sahaja</remarks>
     <deathm>1430-12-24 Jumaat</deathm>
-    <item>PV bujur</item>
+    <item>PV Bujur</item>
   </order>
   <order soldto="ADI" date="2010-02-17" delivered="2010-02-21" price="35">
     <name>hj peer bin mohamed</name>
@@ -14997,7 +14997,7 @@
     <death>2010-03-06</death>
     <remarks>EN312768615MY</remarks>
     <deathm>1431-03-20</deathm>
-    <item>PA budak</item>
+    <item>PA Budak</item>
   </order>
   <order soldto="KEN" date="2010-03-10" delivered="2010-03-13" price="220">
     <name>rohani bt ayob</name>
@@ -15918,7 +15918,7 @@
     <death>2010-05-15</death>
     <remarks>EN277169683MY</remarks>
     <deathm>1431-06-01</deathm>
-    <item>PV budak</item>
+    <item>PV Budak</item>
   </order>
   <order soldto="ADI" date="2010-05-18" delivered="2010-05-23" price="35">
     <name>muhammad shafie bin sahrul nizam</name>
@@ -15926,7 +15926,7 @@
     <death>2005-12-03</death>
     <remarks>EN277169683MY</remarks>
     <deathm>1426-11-01</deathm>
-    <item>PV budak</item>
+    <item>PV Budak</item>
   </order>
   <order soldto="ADI" date="2010-05-18" delivered="2010-05-23" price="35">
     <name>muhammad shafuan bin sahrul nizam</name>
@@ -15934,7 +15934,7 @@
     <death>2000-12-02</death>
     <remarks>EN277169683MY</remarks>
     <deathm>1421-09-06</deathm>
-    <item>PV budak</item>
+    <item>PV Budak</item>
   </order>
   <order soldto="ADI" date="2010-05-18" delivered="2010-05-23" price="35">
     <name>timah bt rejab</name>
@@ -17303,7 +17303,7 @@
     <jawi>محمد زعيم هيكل بن ساريفودين</jawi>
     <death>2004-09-15</death>
     <deathm>1425-07-30</deathm>
-    <item>PV budak</item>
+    <item>PV Budak</item>
     <remarks>EN290959686MY</remarks>
   </order>
   <order soldto="ADI" date="2010-08-03" delivered="2010-08-08" price="35">
