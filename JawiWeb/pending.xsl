@@ -80,11 +80,11 @@
                       <xsl:text>color:green</xsl:text>
                     </xsl:attribute>
                   </xsl:if>
-                  <xsl:if test="contains(item,'Hitam')='true'">
+                  <!--<xsl:if test="contains(item,'Hitam')='true'">
                     <xsl:attribute name="style">
                       <xsl:text>font-weight:bold</xsl:text>
                     </xsl:attribute>
-                  </xsl:if>
+                  </xsl:if>-->
                   <xsl:if test="contains(item,'Batik')='true'">
                     <xsl:attribute name="style">
                       <xsl:text>color:blue</xsl:text>
