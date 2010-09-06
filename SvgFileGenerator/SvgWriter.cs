@@ -82,6 +82,8 @@ namespace SvgFileGenerator
                 this.action = Action.IsWritingMuslimDeath;
             else if (line.Contains("id=\"deathmonth\""))
                 this.action = Action.IsWritingMuslimMonth;
+            else if (line.Contains("id=\"deathmonthT\""))
+                this.action = Action.IsWritingMuslimMonth;
             else if (line.Contains("id=\"death\""))
                 this.action = Action.IsWritingDeath;
             else if (line.Contains("id=\"borndate\""))
@@ -176,6 +178,18 @@ namespace SvgFileGenerator
                 WriteElement(date, line);
             }
         }
+        //todo: WaitToWriteMuslimMonthT
+        private void WaitToWriteMuslimMonthT(string line)
+        {
+            string[] dates = order.deathm.Split(new char[] { '-' });
+            string date = string.Empty;
+            if (dates.Length == 3)
+            {
+                int month = Convert.ToInt32(dates[1]);
+                date = muslimMonths[month - 1];
+                WriteElement(date, line);
+            }
+        }
         private void WaitToWriteBorn(string line)
         {
             string[] dates = order.born.Split(new char[] { '-' });
@@ -198,7 +212,14 @@ namespace SvgFileGenerator
             IsWritingJawi,
             IsWritingDeath,
             IsWritingMuslimDeath,
+            /// <summary>
+            /// Lookup correct arabic character then.
+            /// </summary>
             IsWritingMuslimMonth,
+            /// <summary>
+            /// Determine muslim month lookup a template svg template file.
+            /// </summary>
+            IsWritingMuslimMonthT,
             IsWritingBorn,
         }
     }
