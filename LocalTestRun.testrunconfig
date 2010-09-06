@@ -3,6 +3,8 @@
   <Description>This is a default test run configuration for a local test run.</Description>
   <Deployment>
     <DeploymentItem filename="JawiWeb\nisan.xml" />
+    <DeploymentItem filename="Samples\nisan_normal_L.svg" />
+    <DeploymentItem filename="Samples\syaaban.svg" />
     <DeploymentItem filename="JawiWeb\jawiname.xml" />
   </Deployment>
   <TestTypeSpecific />
