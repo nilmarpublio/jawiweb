@@ -17933,7 +17933,7 @@
     <age>60</age>
     <item>2½' sticker</item>
   </order>
-  <order soldto="HAM" date="2010-08-30" delivered="" price="10">
+  <order soldto="HAM" date="2010-08-30" delivered="2010-09-07" price="10">
     <name>khatonbee bt nainamlay</name>
     <death>1974-04-20</death>
     <deathm>1394-03-28</deathm>
