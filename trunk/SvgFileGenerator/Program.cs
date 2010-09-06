@@ -24,7 +24,7 @@ namespace SvgFileGenerator
 
 
             List<nisanOrder> orders = new List<nisanOrder>();
-            SvgReader reader = new SvgReader("nisan.xml");
+            NisanReader reader = new NisanReader("nisan.xml");
             reader.Read(out orders);
             System.Diagnostics.Debug.WriteLine("Total order: " + orders.Count);
             //System.Diagnostics.Debug.WriteLine("Total purchase: " + purchases.Count);

@@ -8,10 +8,10 @@ using System.IO;
 
 namespace SvgFileGenerator
 {
-    public class SvgReader
+    public class NisanReader
     {
         private nisan nisans;
-        public SvgReader(string path)
+        public NisanReader(string path)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(nisan));
             FileStream stream = new FileStream(path, FileMode.Open);
