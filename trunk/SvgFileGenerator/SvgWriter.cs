@@ -46,6 +46,7 @@ namespace SvgFileGenerator
             /// Temporarily stop writing until svg read to valid line.
             /// </summary>
             StopWriting,
+            IsWritingAge,
         }
 
         #region Fields
@@ -77,17 +78,20 @@ namespace SvgFileGenerator
             new Coordinate(249.04117,405.14032),
         };
         /// <summary>
+        /// Determine tolerance for relative coordinate if it is a different set template of default.
+        /// </summary>
+        private Coordinate tolerance;
+        /// <summary>
         /// Indicate relative coordinate for month template to include.
         /// </summary>
         private Dictionary<string, Coordinate> relativeMonthCoordinates;
         /// <summary>
-        /// Indicate how many svg syntax appear in this document.
+        /// The output generated file location.
         /// </summary>
-        private int svgSyntaxCounter;
-        /// <summary>
-        /// Markup to keep track indent of new svg syntax.
-        /// </summary>
-        private int indent;
+        /// <remarks>
+        /// A folder named as 'Output'.
+        /// </remarks>
+        private string outputLocation = "Output";
         #endregion
 
         /// <summary>
@@ -99,12 +103,30 @@ namespace SvgFileGenerator
         {
             this.order = order;
             this.templatePath = templatePath;
-
-            this.reader = string.IsNullOrEmpty(order.born)
-                ? new StreamReader(templatePath)
-                : new StreamReader(templatePath.Replace(".svg", "2.svg"));
-            this.writer = new StreamWriter(order.name.ToLower() + ".svg");
             this.action = Action.None;
+            this.tolerance = new Coordinate();
+
+            /**
+             * If only maintain death date use 'nisan_L.svg' (for male) or 'nisan_P.svg' (for female).
+             * If maintain born use 'nisan_L2.svg'.
+             * If maintain age as well use 'nisan_L3.svg'.
+             */
+            string file = string.Empty;
+            if (!string.IsNullOrEmpty(order.age))
+            {
+                file = templatePath.Replace(".svg", "3.svg");
+                this.tolerance = new Coordinate(0, -20.00);
+            }
+            else if (!string.IsNullOrEmpty(order.born))
+            {
+                file = templatePath.Replace(".svg", "2.svg");
+            }
+            else
+                file = templatePath;
+            this.reader = new StreamReader(file);
+
+            if (!Directory.Exists(outputLocation)) Directory.CreateDirectory(outputLocation);
+            this.writer = new StreamWriter(outputLocation + Path.DirectorySeparatorChar + order.name.ToLower() + ".svg");
 
             //initialize position for new muslim month template suppose to located.
             this.relativeMonthCoordinates = new Dictionary<string, Coordinate>();
@@ -151,6 +173,8 @@ namespace SvgFileGenerator
                 this.action = Action.IsWritingDeath;
             else if (line.Contains("id=\"borndate\""))
                 this.action = Action.IsWritingBorn;
+            else if (line.Contains("id=\"age\""))
+                this.action = Action.IsWritingAge;
 
 
             switch (this.action)
@@ -175,6 +199,9 @@ namespace SvgFileGenerator
                     break;
                 case Action.IsWritingBorn:
                     WaitToWriteBorn(line);
+                    break;
+                case Action.IsWritingAge:
+                    WaitToWriteAge(line);
                     break;
                 case Action.StopWriting:
                     //do nothing
@@ -288,8 +315,8 @@ namespace SvgFileGenerator
             try
             {
                 string line = "<svg id=\"muslimMonthGlyph\"";
-                line += "\nx=\"" + monthCoordinates[month - 1].X + "\"";
-                line += "\ny=\"" + monthCoordinates[month - 1].Y + "\"";
+                line += "\nx=\"" + (monthCoordinates[month - 1].X + tolerance.X) + "\"";
+                line += "\ny=\"" + (monthCoordinates[month - 1].Y + tolerance.Y) + "\"";
                 line += ">";
 
                 string fileName = muslimMonthFileNames[month - 1] + ".svg";
@@ -367,6 +394,10 @@ namespace SvgFileGenerator
 
                 WriteElement(date, line);
             }
+        }
+        private void WaitToWriteAge(string line)
+        {
+            WriteElement(order.age, line);
         }
         #endregion
 
