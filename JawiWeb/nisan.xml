@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
+<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <purchase>
     <buyfrom>hlgranite</buyfrom>
@@ -17926,7 +17926,7 @@
     <item>5" sticker</item>
     <remarks>rumi sj</remarks>
   </order>
-  <order soldto="HAM" date="2010-08-30" delivered="" price="10">
+  <order soldto="HAM" date="2010-08-30" delivered="2010-09-07" price="10">
     <name>abd manap bin samioon</name>
     <death>2010-08-16</death>
     <deathm>1431-09-06</deathm>
@@ -17953,7 +17953,7 @@
     <age>85</age>
     <item>2' sticker</item>
   </order>
-  <order soldto="HAM" date="2010-09-02" delivered="" price="10">
+  <order soldto="HAM" date="2010-09-02" delivered="2010-09-07" price="10">
     <name>a.k. nagoor pithcai bin kuppai rawther</name>
     <death>1983-01-08</death>
     <deathm>1403-03-24</deathm>
