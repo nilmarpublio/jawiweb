@@ -63,18 +63,18 @@ namespace SvgFileGenerator
                "رجب","شعبان","رمضان","شوال","ذوالقعده","ذوالحجه"
         };
         private Coordinate[] monthCoordinates = new Coordinate[12]{
-            new Coordinate(),
+            new Coordinate(263.04117,411.14032),
             new Coordinate(269.04117,401.14032),
-            new Coordinate(),
+            new Coordinate(269.04117,405.14032), //template: resize
             new Coordinate(231.04117,401.14032),
-            new Coordinate(),
-            new Coordinate(),
-            new Coordinate(),
+            new Coordinate(245.04117,405.14032),
+            new Coordinate(231.04117,401.14032),
+            new Coordinate(267.04117,419.14032),
             new Coordinate(263.04117,403.14032),
-            new Coordinate(),
-            new Coordinate(),
-            new Coordinate(),
-            new Coordinate(),
+            new Coordinate(253.04117,401.14032),
+            new Coordinate(271.04117,409.14032),
+            new Coordinate(251.04117,401.14032),
+            new Coordinate(249.04117,405.14032),
         };
         /// <summary>
         /// Indicate relative coordinate for month template to include.
