@@ -45,7 +45,7 @@ namespace SvgFileGenerator
             /// <summary>
             /// Temporarily stop writing until svg read to valid line.
             /// </summary>
-            StopWrite,
+            StopWriting,
         }
 
         #region Fields
@@ -66,11 +66,11 @@ namespace SvgFileGenerator
             new Coordinate(),
             new Coordinate(),
             new Coordinate(),
-            new Coordinate(229.04117,383.33331),
+            new Coordinate(231.04117,401.14032),
             new Coordinate(),
             new Coordinate(),
             new Coordinate(),
-            new Coordinate(265.04117,385.33331),
+            new Coordinate(263.04117,403.14032),
             new Coordinate(),
             new Coordinate(),
             new Coordinate(),
@@ -144,42 +144,9 @@ namespace SvgFileGenerator
             else if (line.Contains("id=\"deathmuslim\""))
                 this.action = Action.IsWritingMuslimDeath;
             else if (line.Contains("id=\"deathmonth\""))
-            {
-                if (this.action != Action.StopWrite)
-                    this.action = Action.IsWritingMuslimMonth;
-            }
-
-            else if (line.Contains("<svg"))
-            {
-                this.svgSyntaxCounter++;
-                this.indent++;
-                if (this.svgSyntaxCounter > 1)
-                    this.action = Action.IsWritingMuslimMonthGlyph;
-            }
-            //else if (line.Contains("<"))
-            //{
-            //    if (this.svgSyntaxCounter > 1)
-            //        this.indent++;
-            //}
-            //else if (line.Contains("/>"))
-            //{
-            //    if (this.svgSyntaxCounter > 1)
-            //        this.indent--;
-            //    if (this.svgSyntaxCounter > 1 && this.indent == 0)
-            //        this.action = Action.None;
-            //}
-
-            else if (line.Contains("<svg>"))
-            {
-                this.svgSyntaxCounter++;
-                if (this.svgSyntaxCounter > 1)
-                    this.action = Action.IsWritingMuslimMonthGlyph;
-            }
-            else if (line.Contains("</svg>"))
-            {
-                if (this.svgSyntaxCounter > 1)
-                    this.action = Action.None;
-            }
+                this.action = Action.IsWritingMuslimMonth;
+            else if (line.Contains("id=\"muslimMonthGlyph\"")) //else if (line.Contains("<svg"))
+                this.action = Action.IsWritingMuslimMonthGlyph;
             else if (line.Contains("id=\"death\""))
                 this.action = Action.IsWritingDeath;
             else if (line.Contains("id=\"borndate\""))
@@ -209,13 +176,16 @@ namespace SvgFileGenerator
                 case Action.IsWritingBorn:
                     WaitToWriteBorn(line);
                     break;
-                case Action.StopWrite:
+                case Action.StopWriting:
                     //do nothing
                     break;
                 default:
                     writer.WriteLine(line);
                     break;
             }
+
+            if (line.Contains("</svg>"))
+                this.action = Action.None;
         }
         private void WriteElement(string value, string line)
         {
@@ -246,26 +216,13 @@ namespace SvgFileGenerator
             else
                 writer.WriteLine(line);
         }
-        private void WriteMuslimMonth(int month)
-        {
-            try
-            {
-                string line = "<svg";
-                line += "\nx=\"" + monthCoordinates[month - 1].X + "\"";
-                line += "\ny=\"" + monthCoordinates[month - 1].Y + "\"";
-                line += ">";
 
-                string fileName = muslimMonthFileNames[month - 1] + ".svg";
-                line += GetMuslimMonthSvgPath(fileName);
-                //let draw at writer.WriteLine() after set Action to none.
-                //line += "</svg>";
-                writer.WriteLine(line);
-            }
-            finally { this.action = Action.StopWrite; }
-        }
         /// <summary>
         /// Write glyph.
         /// </summary>
+        /// <remarks>
+        /// No use temporarily.
+        /// </remarks>
         /// <param name="fileName"></param>
         /// <seealso>http://support.microsoft.com/kb/307548</seealso>
         private void WriteGlyph(string fileName)
@@ -305,7 +262,7 @@ namespace SvgFileGenerator
             var elements = GetXMLElements(templateName, "path");
 
             line += "<path";
-            line += "\nid=\"deathmonth\"";
+            //line += "\nid=\"deathmonth\"";
             foreach (XElement e in elements)
             {
                 //line = e.ToString();
@@ -321,6 +278,22 @@ namespace SvgFileGenerator
             line += "/>";
 
             return line;
+        }
+        private void WriteMuslimMonth(int month)
+        {
+            try
+            {
+                string line = "<svg";
+                line += "\nx=\"" + monthCoordinates[month - 1].X + "\"";
+                line += "\ny=\"" + monthCoordinates[month - 1].Y + "\"";
+                line += ">";
+
+                string fileName = muslimMonthFileNames[month - 1] + ".svg";
+                line += GetMuslimMonthSvgPath(fileName);
+                line += "</svg>";
+                writer.WriteLine(line);
+            }
+            finally { this.action = Action.StopWriting; }
         }
 
         private void WaitToWriteName(string line)
