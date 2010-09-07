@@ -172,7 +172,9 @@
               )
               ])"/>
             <br/>
-            <xsl:value-of select="count(nisan/order[@soldto='HAM' and @delivered=''])"/> belum siap
+			<xsl:if test="count(nisan/order[@soldto='HAM' and @delivered='']) > 0">
+				<xsl:value-of select="count(nisan/order[@soldto='HAM' and @delivered=''])"/> belum siap
+			</xsl:if>
           </div>
           Cari bulan Melayu di
           <a href="http://www.hlgranite.com/nisan/calendar.aspx">http://www.hlgranite.com/nisan/calendar.aspx</a>
