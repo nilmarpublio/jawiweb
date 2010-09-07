@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SvnFileGenerator")]
-[assembly: AssemblyDescription("Created by yancyn@gmail.com since 2010-08-25")]
+[assembly: AssemblyDescription("Created by yancyn@gmail.com")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Plexus TG")]
 [assembly: AssemblyProduct("SvnFileGenerator")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("0.10.9.7")]
+[assembly: AssemblyFileVersion("0.10.9.7")]
