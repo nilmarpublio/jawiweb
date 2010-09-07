@@ -64,7 +64,7 @@ namespace SvgFileGenerator
         };
         private Coordinate[] monthCoordinates = new Coordinate[12]{
             new Coordinate(),
-            new Coordinate(),
+            new Coordinate(269.04117,401.14032),
             new Coordinate(),
             new Coordinate(231.04117,401.14032),
             new Coordinate(),
@@ -256,13 +256,17 @@ namespace SvgFileGenerator
             }
             finally { this.action = Action.None; }
         }
+        /// <summary>
+        /// Retrieve svg path tag value.
+        /// </summary>
+        /// <param name="templateName"></param>
+        /// <returns></returns>
         private string GetMuslimMonthSvgPath(string templateName)
         {
             string line = string.Empty;
             var elements = GetXMLElements(templateName, "path");
 
             line += "<path";
-            //line += "\nid=\"deathmonth\"";
             foreach (XElement e in elements)
             {
                 //line = e.ToString();
@@ -283,7 +287,7 @@ namespace SvgFileGenerator
         {
             try
             {
-                string line = "<svg";
+                string line = "<svg id=\"muslimMonthGlyph\"";
                 line += "\nx=\"" + monthCoordinates[month - 1].X + "\"";
                 line += "\ny=\"" + monthCoordinates[month - 1].Y + "\"";
                 line += ">";
