@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
+<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <purchase>
     <buyfrom>hlgranite</buyfrom>
@@ -17759,7 +17759,7 @@
     <item>2' sticker</item>
     <remarks>takmao alfatihah</remarks>
   </order>
-  <order soldto="HAM" date="2010-08-23" delivered="2010-08-29" price="10">
+  <order soldto="HAM" date="2010-08-23" delivered="" price="10">
     <name>abd allah bin mohamed talhah</name>
     <born>1988-08-10</born>
     <death>1988-08-10</death>
@@ -17972,5 +17972,11 @@
     <death>2010-08-31</death>
     <deathm>1431-09-21</deathm>
     <item>2' Batu Hitam(L)</item>
+  </order>
+ <order soldto="SEL" date="2010-09-07" delivered="" price="220">
+    <name>hj baharum bin hj ahmad</name>
+    <death>2010-01-18</death>
+    <deathm>1431-02-02</deathm>
+    <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
