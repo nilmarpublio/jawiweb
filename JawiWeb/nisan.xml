@@ -1,139 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>1</quantity>
-    <price>130</price>
-    <item>2' Batu Batik(L)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>8</quantity>
-    <price>130</price>
-    <item>2' Batu Batik(P)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>1</quantity>
-    <price>130</price>
-    <item>2' Batu Putih(L)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>8</quantity>
-    <price>130</price>
-    <item>2' Batu Putih(P)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>9</quantity>
-    <price>130</price>
-    <item>2' Batu Hitam(L)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>3</quantity>
-    <price>130</price>
-    <item>2' Batu Hijau(L)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>10</quantity>
-    <price>130</price>
-    <item>2' Batu Hijau(P)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>1</quantity>
-    <price>130</price>
-    <item>2½' Batu Batik(L)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>2</quantity>
-    <price>130</price>
-    <item>2½' Batu Putih(P)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>1</quantity>
-    <price>130</price>
-    <item>2½' Batu Hitam(L)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>2</quantity>
-    <price>130</price>
-    <item>2½' Batu Hitam(P)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>1</quantity>
-    <price>130</price>
-    <item>2½' Batu Hijau(P)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>4</quantity>
-    <price>130</price>
-    <item>1½' Batu Batik(L)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>2</quantity>
-    <price>130</price>
-    <item>1½' Batu Batik(P)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>4</quantity>
-    <price>130</price>
-    <item>1½' Batu Putih(L)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>2</quantity>
-    <price>130</price>
-    <item>1½' Batu Hitam(P)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>1</quantity>
-    <price>130</price>
-    <item>1½' Batu Hijau(L)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2008-11-02</date>
-    <quantity>3</quantity>
-    <price>130</price>
-    <item>1½' Batu Hijau(P)</item>
-  </purchase>
-  <purchase>
-    <buyfrom>hlgranite</buyfrom>
-    <date>2009-01-02</date>
-    <quantity>-4</quantity>
-    <price>220</price>
-    <item>2' Batu Hijau(L)</item>
-  </purchase>
   <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
     <name>hjh zainab bt ibrahim</name>
     <death>2006-08-21</death>
@@ -17973,7 +17840,7 @@
     <deathm>1431-09-21</deathm>
     <item>2' Batu Hitam(L)</item>
   </order>
- <order soldto="SEL" date="2010-09-07" delivered="" price="220">
+ <order soldto="SEL" date="2010-08-03" delivered="" price="220">
     <name>hj baharum bin hj ahmad</name>
     <death>2010-01-18</death>
     <deathm>1431-02-02</deathm>
