@@ -66,7 +66,7 @@ namespace SvgFileGenerator
         private Coordinate[] monthCoordinates = new Coordinate[12]{
             new Coordinate(263.04117,411.14032),
             new Coordinate(269.04117,401.14032),
-            new Coordinate(269.04117,405.14032), //template: resize
+            new Coordinate(253.04117,405.14032),
             new Coordinate(231.04117,401.14032),
             new Coordinate(245.04117,405.14032),
             new Coordinate(231.04117,401.14032),
