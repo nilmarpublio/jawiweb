@@ -10,7 +10,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Markup;
 using System.Xml.Linq;
+using System.IO;
 using SvgFileGenerator;
 
 namespace JawiWPF
@@ -32,30 +34,51 @@ namespace JawiWPF
              * 
              */
 
+            //adding on top
+            //@see http://social.msdn.microsoft.com/Forums/en-US/wpf/thread/b73290de-f6ef-4c8f-9671-dff06f9038a2
             //List<Point> data = new List<Point>();
-            SvgReader reader = new SvgReader("alef.svg");
+            /*SvgReader reader = new SvgReader("alef.svg");
             string pathString = reader.GetFirstPathValue();
-            //Path alef = SvgWriter.CreatePath(data);
-            Path alef = new Path();
-            alef.Fill = Brushes.Black;
-            alef.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
-            this.wrapPanel1.Children.Add(alef);
+            Path path = new Path();
+            path.Fill = Brushes.Black;
+            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
+            this.wrapPanel1.Children.Add(path);
 
             reader = new SvgReader("damma.svg");
             pathString = reader.GetFirstPathValue();
-            //Path alef = SvgWriter.CreatePath(data);
-            alef = new Path();
-            alef.Fill = Brushes.Black;
-            alef.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
-            this.wrapPanel1.Children.Add(alef);
+            path = new Path();
+            path.Fill = Brushes.Black;
+            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);
+            this.wrapPanel1.Children.Add(path);
 
             reader = new SvgReader("sukun.svg");
             pathString = reader.GetFirstPathValue();
-            //Path alef = SvgWriter.CreatePath(data);
-            alef = new Path();
-            alef.Fill = Brushes.Black;
-            alef.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
-            this.wrapPanel1.Children.Add(alef);
+            path = new Path();
+            path.Fill = Brushes.Black;
+            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);
+            this.wrapPanel1.Children.Add(path);
+
+            //adding bottom
+            reader = new SvgReader("heh_bottom.svg");
+            pathString = reader.GetFirstPathValue();
+            path = new Path();
+            path.Fill = Brushes.Black;
+            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);
+            this.wrapPanel2.Children.Add(path);
+
+            reader = new SvgReader("seen_bottom.svg");
+            pathString = reader.GetFirstPathValue();
+            path = new Path();
+            path.Fill = Brushes.Black;
+            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);
+            this.wrapPanel2.Children.Add(path);
+
+            reader = new SvgReader("meem_bottom.svg");
+            pathString = reader.GetFirstPathValue();
+            path = new Path();
+            path.Fill = Brushes.Black;
+            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);
+            this.wrapPanel2.Children.Add(path);*/
 
             /*StreamGeometry geometry = new StreamGeometry();
            //geometry.FillRule = FillRule.EvenOdd;
@@ -70,7 +93,7 @@ namespace JawiWPF
                    true, true);
            };
            geometry.Freeze();
-           alef.Data = geometry;*/
+           path.Data = geometry;*/
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -78,6 +101,16 @@ namespace JawiWPF
             PrintDialog dialog = new PrintDialog();
             if (dialog.ShowDialog() == true)
                 dialog.PrintVisual(wrapPanel1, "Testing");
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            string xml = XamlWriter.Save(grid1);
+            FileStream fs = File.Create("output.xaml");
+            StreamWriter sw = new StreamWriter(fs);
+            sw.Write(xml);
+            sw.Close();
+            fs.Close();
         }
     }
 }
