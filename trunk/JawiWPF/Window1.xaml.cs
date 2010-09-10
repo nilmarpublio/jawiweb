@@ -11,7 +11,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Markup;
+using System.Xml;
 using System.Xml.Linq;
+using System.Xml.Xsl;
 using System.IO;
 using SvgFileGenerator;
 
@@ -96,21 +98,44 @@ namespace JawiWPF
            path.Data = geometry;*/
         }
 
+        //Print
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             PrintDialog dialog = new PrintDialog();
             if (dialog.ShowDialog() == true)
-                dialog.PrintVisual(wrapPanel1, "Testing");
+                dialog.PrintVisual(workSpace, "Testing");
         }
+        private string XamlToSvgTransform(string xamlFile, string styleSheet, string svgFile)
+        {
+            try
+            {
+                XsltSettings settings = new XsltSettings(true, true);
+                XslCompiledTransform xslt = new XslCompiledTransform();
+                xslt.Load(styleSheet, settings, new XmlUrlResolver());
+                xslt.Transform(xamlFile, svgFile);
 
+                return string.Empty;
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
+            }
+        }
+        //SaveAs
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            string xml = XamlWriter.Save(grid1);
+            //http://blogs.msdn.com/b/ashish/archive/2008/01/15/dynamically-producing-xaml-files-using-xamlwriter-save-method.aspx
+            string xml = XamlWriter.Save(workSpace);
             FileStream fs = File.Create("output.xaml");
             StreamWriter sw = new StreamWriter(fs);
             sw.Write(xml);
             sw.Close();
             fs.Close();
+
+            //fail again
+            //string output = string.Empty;
+            //XamlToSvgTransform("output.xaml", "xaml2svg.xsl", "output.svg");
+            System.Diagnostics.Debug.WriteLine("Export done");
         }
     }
 }
