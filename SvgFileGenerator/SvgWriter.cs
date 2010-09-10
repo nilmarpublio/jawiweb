@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.IO;
@@ -7,6 +8,9 @@ using System.Drawing;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Xml.Linq;
+using System.Windows;
+using System.Windows.Shapes;
+using System.Windows.Media;
 
 namespace SvgFileGenerator
 {
@@ -126,7 +130,7 @@ namespace SvgFileGenerator
             this.reader = new StreamReader(file);
 
             if (!Directory.Exists(outputLocation)) Directory.CreateDirectory(outputLocation);
-            this.writer = new StreamWriter(outputLocation + Path.DirectorySeparatorChar + order.name.ToLower() + ".svg");
+            this.writer = new StreamWriter(outputLocation + System.IO.Path.DirectorySeparatorChar + order.name.ToLower() + ".svg");
 
             //initialize position for new muslim month template suppose to located.
             this.relativeMonthCoordinates = new Dictionary<string, Coordinate>();
@@ -291,7 +295,7 @@ namespace SvgFileGenerator
         private string GetMuslimMonthSvgPath(string templateName)
         {
             string line = string.Empty;
-            var elements = GetXMLElements(templateName, "path");
+            var elements = new SvgReader(templateName).GetXMLElements("path");
 
             line += "<path";
             foreach (XElement e in elements)
@@ -399,56 +403,32 @@ namespace SvgFileGenerator
         {
             WriteElement(order.age, line);
         }
-        #endregion
 
-        #region Functions
-        /// <summary>
-        /// Returns element of an XML file.
-        /// </summary>
-        /// <param name="inputUrl"></param>
-        /// <param name="elementName"></param>
-        /// <returns></returns>
-        /// <remarks>
-        /// Alternative code:
-        /// <example>
-        /// <code>
-        /// XmlReader reader = XmlReader.Create(lookupFiles[0]);
-        /// while (reader.Read())
-        /// {
-        ///    switch (reader.NodeType)
-        ///    {
-        ///        case XmlNodeType.Element:
-        ///            string message = string.Format("Name: {0} Value:{1}", reader.Name, reader.Value);
-        ///            System.Diagnostics.Debug.WriteLine(message);
-        ///            break;
-        ///        case XmlNodeType.Attribute:
-        ///            break;
-        ///    }
-        /// }
-        /// </code>
-        /// </example>
-        /// </remarks>
-        /// <seealso>http://stackoverflow.com/questions/2441673/reading-xml-with-xmlreader-in-c</seealso>
-        /// <seealso>http://support.microsoft.com/kb/307548</seealso>
-        private IEnumerable<XElement> GetXMLElements(string inputUrl, string elementName)
+        public static System.Windows.Shapes.Path CreatePath(List<System.Windows.Point> rawData)
         {
-            XmlReaderSettings settings = new XmlReaderSettings();
-            settings.ProhibitDtd = false;
-            using (XmlReader reader = XmlReader.Create(inputUrl, settings))
+            System.Windows.Shapes.Path finalPath = new System.Windows.Shapes.Path();
+            PathGeometry finalPathGeometry = new PathGeometry();
+            PathFigure primaryFigure = new PathFigure();
+
+            //if you want the path to be a shape, you want to close the PathFigure
+            //   that makes up the Path. If you want it to simply by a line, set
+            //   primaryFigure.IsClosed = false;
+            primaryFigure.IsClosed = true;
+            primaryFigure.StartPoint = rawData[0];
+
+            PathSegmentCollection lineSegmentCollection = new PathSegmentCollection();
+            for (int i = 1; i < rawData.Count; i++)
             {
-                reader.MoveToContent();
-                while (reader.Read())
-                {
-                    if (reader.NodeType == XmlNodeType.Element)
-                    {
-                        if (reader.Name == elementName)
-                        {
-                            XElement e = XNode.ReadFrom(reader) as XElement;
-                            if (null != e) yield return e;
-                        }
-                    }
-                }
+                LineSegment newSegment = new LineSegment();
+                newSegment.Point = rawData[i];
+                lineSegmentCollection.Add(newSegment);
             }
+
+            primaryFigure.Segments = lineSegmentCollection;
+            finalPathGeometry.Figures.Add(primaryFigure);
+            finalPath.Data = finalPathGeometry;
+
+            return finalPath;
         }
         #endregion
     }
