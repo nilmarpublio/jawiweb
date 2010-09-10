@@ -35,9 +35,24 @@ namespace JawiWPF
             //List<Point> data = new List<Point>();
             SvgReader reader = new SvgReader("alef.svg");
             string pathString = reader.GetFirstPathValue();
-
             //Path alef = SvgWriter.CreatePath(data);
             Path alef = new Path();
+            alef.Fill = Brushes.Black;
+            alef.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
+            this.wrapPanel1.Children.Add(alef);
+
+            reader = new SvgReader("damma.svg");
+            pathString = reader.GetFirstPathValue();
+            //Path alef = SvgWriter.CreatePath(data);
+            alef = new Path();
+            alef.Fill = Brushes.Black;
+            alef.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
+            this.wrapPanel1.Children.Add(alef);
+
+            reader = new SvgReader("sukun.svg");
+            pathString = reader.GetFirstPathValue();
+            //Path alef = SvgWriter.CreatePath(data);
+            alef = new Path();
             alef.Fill = Brushes.Black;
             alef.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
             this.wrapPanel1.Children.Add(alef);
@@ -56,6 +71,13 @@ namespace JawiWPF
            };
            geometry.Freeze();
            alef.Data = geometry;*/
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            PrintDialog dialog = new PrintDialog();
+            if (dialog.ShowDialog() == true)
+                dialog.PrintVisual(wrapPanel1, "Testing");
         }
     }
 }
