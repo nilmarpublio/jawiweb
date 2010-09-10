@@ -7,7 +7,7 @@
             <Button Click="Button_Click">Print</Button>
             <Button Click="Button_Click_1">Save</Button>
         </WrapPanel>
-        <Grid x:Name="grid1">
+        <Grid x:Name="workSpace">
             <WrapPanel x:Name="wrapPanel1">
                 <Path
                     Fill="#000000"
