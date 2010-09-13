@@ -100,6 +100,37 @@ namespace SvgFileGenerator
 
             return data;
         }
+        /// <summary>
+        /// TODO: Gets the rectangle size for a path raw data.
+        /// </summary>
+        /// <remarks>FAIL</remarks>
+        /// <param name="rawDataString"></param>
+        /// <returns></returns>
+        public static Size GetSize(string rawDataString)
+        {
+            Size size = new Size();
+
+            List<double> x = new List<double>();
+            List<double> y = new List<double>();
+            string[] points = rawDataString.Split(new char[] { ' ' });
+            foreach (string point in points)
+            {
+                if (point.Contains(','))
+                {
+                    string[] xy = point.Split(new char[] { ',' });
+                    x.Add(Convert.ToDouble(xy[0]));//Math.Abs();
+                    y.Add(Convert.ToDouble(xy[1]));
+                }
+            }
+
+            double height = 0.00;
+            double width = 0.00;
+            width = x.Max() - x.Min();
+            height = y.Max() - y.Min();
+            size = new Size(width, height);
+
+            return size;
+        }
         #endregion
     }
 }
