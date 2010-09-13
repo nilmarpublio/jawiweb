@@ -110,6 +110,11 @@ namespace SvgFileGenerator
             this.action = Action.None;
             this.tolerance = new Coordinate();
 
+            //initialize position for new muslim month template suppose to located.
+            this.relativeMonthCoordinates = new Dictionary<string, Coordinate>();
+            for (int i = 0; i < 12; i++)
+                this.relativeMonthCoordinates.Add(muslimMonths[i], monthCoordinates[i]);
+
             /**
              * If only maintain death date use 'nisan_L.svg' (for male) or 'nisan_P.svg' (for female).
              * If maintain born use 'nisan_L2.svg'.
@@ -127,20 +132,20 @@ namespace SvgFileGenerator
             }
             else
                 file = templatePath;
+
+            if (!File.Exists(file)) return;
             this.reader = new StreamReader(file);
 
             if (!Directory.Exists(outputLocation)) Directory.CreateDirectory(outputLocation);
             this.writer = new StreamWriter(outputLocation + System.IO.Path.DirectorySeparatorChar + order.name.ToLower() + ".svg");
-
-            //initialize position for new muslim month template suppose to located.
-            this.relativeMonthCoordinates = new Dictionary<string, Coordinate>();
-            for (int i = 0; i < 12; i++)
-                this.relativeMonthCoordinates.Add(muslimMonths[i], monthCoordinates[i]);
         }
 
         #region Methods
-        public void Write()
+        public bool Write()
         {
+            bool done = true;
+            if (null == reader) return false;
+
             try
             {
                 string line = reader.ReadLine();
@@ -152,13 +157,19 @@ namespace SvgFileGenerator
                 }
 
                 writer.Flush();
+                return done;
             }
             catch (Exception ex)
             {
+                //todo: how to handle error in SvgWriter.Write()?
                 System.Diagnostics.Debug.WriteLine(ex);
                 throw ex;
             }
-            finally { reader.Close(); writer.Close(); }
+            finally
+            {
+                if (null != reader) reader.Close();
+                if (null != writer) writer.Close();
+            }
         }
         private void CheckAction(string line)
         {
