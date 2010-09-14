@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.IO;
-using System.Drawing;
+//using System.Drawing;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Xml.Linq;
@@ -67,28 +67,28 @@ namespace SvgFileGenerator
                "محرّم","صفر","ربيع الاول","ربيع الاخير","جمادالاول","جمادالاخير",
                "رجب","شعبان","رمضان","شوال","ذوالقعده","ذوالحجه"
         };
-        private Coordinate[] monthCoordinates = new Coordinate[12]{
-            new Coordinate(263.04117,411.14032),
-            new Coordinate(269.04117,401.14032),
-            new Coordinate(253.04117,405.14032),
-            new Coordinate(231.04117,401.14032),
-            new Coordinate(245.04117,405.14032),
-            new Coordinate(231.04117,401.14032),
-            new Coordinate(267.04117,419.14032),
-            new Coordinate(263.04117,403.14032),
-            new Coordinate(253.04117,401.14032),
-            new Coordinate(271.04117,409.14032),
-            new Coordinate(251.04117,401.14032),
-            new Coordinate(249.04117,405.14032),
+        private Point[] monthCoordinates = new Point[12]{
+            new Point(263.04117,411.14032),
+            new Point(269.04117,401.14032),
+            new Point(253.04117,405.14032),
+            new Point(231.04117,401.14032),
+            new Point(245.04117,405.14032),
+            new Point(231.04117,401.14032),
+            new Point(267.04117,419.14032),
+            new Point(263.04117,403.14032),
+            new Point(253.04117,401.14032),
+            new Point(271.04117,409.14032),
+            new Point(251.04117,401.14032),
+            new Point(249.04117,405.14032),
         };
         /// <summary>
         /// Determine tolerance for relative coordinate if it is a different set template of default.
         /// </summary>
-        private Coordinate tolerance;
+        private Point tolerance;
         /// <summary>
         /// Indicate relative coordinate for month template to include.
         /// </summary>
-        private Dictionary<string, Coordinate> relativeMonthCoordinates;
+        private Dictionary<string, Point> relativeMonthCoordinates;
         /// <summary>
         /// The output generated file location.
         /// </summary>
@@ -108,10 +108,10 @@ namespace SvgFileGenerator
             this.order = order;
             this.templatePath = templatePath;
             this.action = Action.None;
-            this.tolerance = new Coordinate();
+            this.tolerance = new Point();
 
             //initialize position for new muslim month template suppose to located.
-            this.relativeMonthCoordinates = new Dictionary<string, Coordinate>();
+            this.relativeMonthCoordinates = new Dictionary<string, Point>();
             for (int i = 0; i < 12; i++)
                 this.relativeMonthCoordinates.Add(muslimMonths[i], monthCoordinates[i]);
 
@@ -124,7 +124,7 @@ namespace SvgFileGenerator
             if (!string.IsNullOrEmpty(order.age))
             {
                 file = templatePath.Replace(".svg", "3.svg");
-                this.tolerance = new Coordinate(0, -20.00);
+                this.tolerance = new Point(0, -20.00);
             }
             else if (!string.IsNullOrEmpty(order.born))
             {
@@ -135,7 +135,7 @@ namespace SvgFileGenerator
 
             //this is a female template with need to move on top a little bit
             if (order.item.Contains("(P)"))
-                this.tolerance = new Coordinate(0, -20.00);
+                this.tolerance = new Point(0, -20.00);
 
             if (!File.Exists(file)) return;
             this.reader = new StreamReader(file);
@@ -186,7 +186,7 @@ namespace SvgFileGenerator
                 this.action = Action.IsWritingMuslimDeath;
             else if (line.Contains("id=\"deathmonth\""))
                 this.action = Action.IsWritingMuslimMonth;
-            else if (line.Contains("id=\"muslimMonthGlyph\"")) //else if (line.Contains("<svg"))
+            else if (line.Contains("id=\"muslimMonthGlyph\""))
                 this.action = Action.IsWritingMuslimMonthGlyph;
             else if (line.Contains("id=\"death\""))
                 this.action = Action.IsWritingDeath;
@@ -229,9 +229,6 @@ namespace SvgFileGenerator
                     writer.WriteLine(line);
                     break;
             }
-
-            if (line.Contains("</svg>"))
-                this.action = Action.None;
         }
         private void WriteElement(string value, string line)
         {
@@ -263,6 +260,186 @@ namespace SvgFileGenerator
                 writer.WriteLine(line);
         }
 
+        private void WaitToWriteName(string line)
+        {
+            WriteElement(order.name.ToUpper(), line);
+        }
+        private void WaitToWriteJawi(string line)
+        {
+            WriteElement(order.jawi, line);
+        }
+        private void WaitToWriteDeath(string line)
+        {
+            string[] dates = order.death.Split(new char[] { '-' });
+            string date = string.Empty;
+            if (dates.Length == 3)
+            {
+                date += Convert.ToInt32(dates[2].Substring(0, 2)).ToString() + ".";
+                date += Convert.ToInt32(dates[1].Substring(0, 2)).ToString() + ".";
+                date += dates[0];
+                //for (int i = dates.Length - 1; i >= 0; i--)
+                //    date += dates[i] + ".";
+                //date = date.TrimEnd(new char[] { '.' });
+
+                WriteElement(date, line);
+            }
+        }
+        private void WaitToWriteMuslimDeath(string line)
+        {
+            string[] dates = order.deathm.Split(new char[] { '-' });
+            string date = string.Empty;
+            if (dates.Length == 3)
+            {
+                date = dates[0] + Convert.ToInt32(dates[2].Substring(0, 2)).ToString();
+                WriteElement(date, line);
+            }
+        }
+        private void WaitToWriteMuslimMonth(string line)
+        {
+            string[] dates = order.deathm.Split(new char[] { '-' });
+            string date = string.Empty;
+            if (dates.Length == 3)
+            {
+                int month = Convert.ToInt32(dates[1]);
+                date = muslimMonths[month - 1];
+                WriteElement(date, line);
+            }
+        }
+        private void WaitToWriteBorn(string line)
+        {
+            string[] dates = order.born.Split(new char[] { '-' });
+            string date = string.Empty;
+            if (dates.Length == 3)
+            {
+                date += Convert.ToInt32(dates[2].Substring(0, 2)).ToString() + ".";
+                date += Convert.ToInt32(dates[1].Substring(0, 2)).ToString() + ".";
+                date += dates[0];
+
+                WriteElement(date, line);
+            }
+        }
+        private void WaitToWriteAge(string line)
+        {
+            WriteElement(order.age, line);
+        }
+
+        private void WaitToWriteMuslimMonthGlyph(string line)
+        {
+            IEnumerable<XElement> path = null;
+            int month = 0;
+            string[] dates = order.deathm.Split(new char[] { '-' });
+            if (dates.Length > 2)
+            {
+                month = Convert.ToInt32(dates[1]);
+                path = GetSvgPath(muslimMonthFileNames[month - 1] + ".svg");
+            }
+
+            if (line.Contains("transform="))
+            {
+                int start = line.IndexOf("transform=");
+                string newLine = string.Empty;
+                if (start > -1) newLine += line.Substring(0, start);
+                newLine += string.Format("transform=\"translate({0},{1})\"",
+                    monthCoordinates[month - 1].X + tolerance.X,
+                    monthCoordinates[month - 1].Y + tolerance.Y);
+
+                string endTag = string.Empty;
+                CheckEndTag(line, out endTag);
+                newLine += endTag;
+
+                WriteElement(string.Empty, newLine);
+            }
+            else if (line.Contains("d=") && !line.Contains("id="))
+            {
+                int start = line.IndexOf("d=");
+                string newLine = string.Empty;
+                if (start > -1) newLine += line.Substring(0, start);
+                newLine += string.Format("d=\"{0}\"", GetSvgAttribute(path, "d"));
+
+                string endTag = string.Empty;
+                CheckEndTag(line, out endTag);
+                newLine += endTag;
+
+                WriteElement(string.Empty, newLine);
+            }
+            else if (line.Contains("style="))
+            {
+                int start = line.IndexOf("style=");
+                string newLine = string.Empty;
+                if (start > -1) newLine += line.Substring(0, start);
+                newLine += string.Format("style=\"{0}\"", GetSvgAttribute(path, "style"));
+
+                string endTag = string.Empty;
+                CheckEndTag(line, out endTag);
+                newLine += endTag;
+
+                WriteElement(string.Empty, newLine);
+            }
+            else
+                WriteElement(string.Empty, line);
+        }
+        private void CheckEndTag(string source, out string output)
+        {
+            output = string.Empty;
+            if (source.Contains("/>"))
+            {
+                output = "/>";
+                return;
+            }
+
+            if (source.Contains(">"))
+            {
+                output = ">";
+                return;
+            }
+        }
+        private IEnumerable<XElement> GetSvgPath(string templateName)
+        {
+            string line = string.Empty;
+            var elements = new SvgReader(templateName).GetXMLElements("path");
+            return elements;
+        }
+        private string GetSvgAttribute(IEnumerable<XElement> sender, string attribute)
+        {
+            string result = string.Empty;
+            foreach (XElement e in sender)
+            {
+                XAttribute att = e.Attribute(XName.Get(attribute));
+                return result = att.Value;
+            }
+
+            return result;
+        }
+
+        public static System.Windows.Shapes.Path CreatePath(List<System.Windows.Point> rawData)
+        {
+            System.Windows.Shapes.Path finalPath = new System.Windows.Shapes.Path();
+            PathGeometry finalPathGeometry = new PathGeometry();
+            PathFigure primaryFigure = new PathFigure();
+
+            //if you want the path to be a shape, you want to close the PathFigure
+            //   that makes up the Path. If you want it to simply by a line, set
+            //   primaryFigure.IsClosed = false;
+            primaryFigure.IsClosed = true;
+            primaryFigure.StartPoint = rawData[0];
+
+            PathSegmentCollection lineSegmentCollection = new PathSegmentCollection();
+            for (int i = 1; i < rawData.Count; i++)
+            {
+                LineSegment newSegment = new LineSegment();
+                newSegment.Point = rawData[i];
+                lineSegmentCollection.Add(newSegment);
+            }
+
+            primaryFigure.Segments = lineSegmentCollection;
+            finalPathGeometry.Figures.Add(primaryFigure);
+            finalPath.Data = finalPathGeometry;
+
+            return finalPath;
+        }
+        #endregion
+
+        #region Obsolete
         /// <summary>
         /// Write glyph.
         /// </summary>
@@ -345,112 +522,12 @@ namespace SvgFileGenerator
             }
             finally { this.action = Action.StopWriting; }
         }
-
-        private void WaitToWriteName(string line)
-        {
-            WriteElement(order.name.ToUpper(), line);
-        }
-        private void WaitToWriteJawi(string line)
-        {
-            WriteElement(order.jawi, line);
-        }
-        private void WaitToWriteDeath(string line)
-        {
-            string[] dates = order.death.Split(new char[] { '-' });
-            string date = string.Empty;
-            if (dates.Length == 3)
-            {
-                date += Convert.ToInt32(dates[2].Substring(0, 2)).ToString() + ".";
-                date += Convert.ToInt32(dates[1].Substring(0, 2)).ToString() + ".";
-                date += dates[0];
-                //for (int i = dates.Length - 1; i >= 0; i--)
-                //    date += dates[i] + ".";
-                //date = date.TrimEnd(new char[] { '.' });
-
-                WriteElement(date, line);
-            }
-        }
-        private void WaitToWriteMuslimDeath(string line)
-        {
-            string[] dates = order.deathm.Split(new char[] { '-' });
-            string date = string.Empty;
-            if (dates.Length == 3)
-            {
-                date = dates[0] + Convert.ToInt32(dates[2].Substring(0, 2)).ToString();
-                WriteElement(date, line);
-            }
-        }
-        private void WaitToWriteMuslimMonth(string line)
-        {
-            string[] dates = order.deathm.Split(new char[] { '-' });
-            string date = string.Empty;
-            if (dates.Length == 3)
-            {
-                int month = Convert.ToInt32(dates[1]);
-                date = muslimMonths[month - 1];
-                WriteElement(date, line);
-            }
-        }
-        private void WaitToWriteMuslimMonthGlyph(string line)
-        {
-            string[] dates = order.deathm.Split(new char[] { '-' });
-            if (dates.Length > 2)
-            {
-                int month = Convert.ToInt32(dates[1]);
-                //WriteGlyph(muslimMonthFileNames[month - 1]+".svg");
-                WriteMuslimMonth(month);
-            }
-        }
-        private void WaitToWriteBorn(string line)
-        {
-            string[] dates = order.born.Split(new char[] { '-' });
-            string date = string.Empty;
-            if (dates.Length == 3)
-            {
-                date += Convert.ToInt32(dates[2].Substring(0, 2)).ToString() + ".";
-                date += Convert.ToInt32(dates[1].Substring(0, 2)).ToString() + ".";
-                date += dates[0];
-
-                WriteElement(date, line);
-            }
-        }
-        private void WaitToWriteAge(string line)
-        {
-            WriteElement(order.age, line);
-        }
-
-        public static System.Windows.Shapes.Path CreatePath(List<System.Windows.Point> rawData)
-        {
-            System.Windows.Shapes.Path finalPath = new System.Windows.Shapes.Path();
-            PathGeometry finalPathGeometry = new PathGeometry();
-            PathFigure primaryFigure = new PathFigure();
-
-            //if you want the path to be a shape, you want to close the PathFigure
-            //   that makes up the Path. If you want it to simply by a line, set
-            //   primaryFigure.IsClosed = false;
-            primaryFigure.IsClosed = true;
-            primaryFigure.StartPoint = rawData[0];
-
-            PathSegmentCollection lineSegmentCollection = new PathSegmentCollection();
-            for (int i = 1; i < rawData.Count; i++)
-            {
-                LineSegment newSegment = new LineSegment();
-                newSegment.Point = rawData[i];
-                lineSegmentCollection.Add(newSegment);
-            }
-
-            primaryFigure.Segments = lineSegmentCollection;
-            finalPathGeometry.Figures.Add(primaryFigure);
-            finalPath.Data = finalPathGeometry;
-
-            return finalPath;
-        }
         #endregion
     }
     /// <summary>
-    /// Coordinate class for svg positioning use.
+    /// Obsolete. Use Windows.Point instead. Coordinate class for svg positioning use.
     /// </summary>
-    public class Coordinate
+    /*public class Coordinate
     {
         private double x;
         public double X { get { return this.x; } }
@@ -477,5 +554,5 @@ namespace SvgFileGenerator
             this.x = x;
             this.y = y;
         }
-    }
+    }*/
 }
