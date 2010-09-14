@@ -9,6 +9,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using System.Xml.Linq;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Shapes;
 using System.Windows.Media;
 
@@ -96,6 +97,7 @@ namespace SvgFileGenerator
         /// A folder named as 'Output'.
         /// </remarks>
         private string outputLocation = "Output";
+        private Panel workspace;
         #endregion
 
         /// <summary>
@@ -137,15 +139,32 @@ namespace SvgFileGenerator
             if (order.item.Contains("(P)"))
                 this.tolerance = new Point(0, -20.00);
 
-            if (!File.Exists(file)) return;
-            this.reader = new StreamReader(file);
+            if (File.Exists(file))
+                this.reader = new StreamReader(file);
 
             if (!Directory.Exists(outputLocation)) Directory.CreateDirectory(outputLocation);
             this.writer = new StreamWriter(outputLocation + System.IO.Path.DirectorySeparatorChar + order.name.ToLower() + ".svg");
         }
+        /// <summary>
+        /// Constructor for write a jawi character only.
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <param name="workspace"></param>
+        public SvgWriter(string fileName, Panel workspace)
+        {
+            this.writer = new StreamWriter(fileName);
+            this.workspace = workspace;
+        }
 
         #region Methods
         public bool Write()
+        {
+            bool done = true;
+            if (null != this.workspace) return done = WriteWorkspace();
+            if (null != this.reader) return done = Cloning();
+            return done;
+        }
+        private bool Cloning()
         {
             bool done = true;
             if (null == reader) return false;
@@ -156,7 +175,6 @@ namespace SvgFileGenerator
                 while (!string.IsNullOrEmpty(line))
                 {
                     CheckAction(line);
-                    //writer.WriteLine(line);
                     line = reader.ReadLine();
                 }
 
@@ -436,6 +454,54 @@ namespace SvgFileGenerator
             finalPath.Data = finalPathGeometry;
 
             return finalPath;
+        }
+
+        private string ConvertToSvgPathSyntax(System.Windows.Shapes.Path path)
+        {
+            string output = "<path";
+            double top = path.Margin.Top;
+            double left = path.Margin.Left;
+            top = (path.VerticalAlignment == VerticalAlignment.Bottom) ?
+                workspace.ActualHeight - path.ActualHeight :
+                0.00;
+            output += string.Format("\n\ttransform=\"translate({0},{1})\"", left, top);
+
+            output += string.Format("\n\td=\"{0}\"", path.Data.ToString());
+            output += string.Format("\n\tstyle=\"fill:{0};stroke:none\"", path.Fill.ToString());//#000000
+
+            //path.Margin
+            output += " />";
+
+            return output;
+        }
+        private bool WriteWorkspace()
+        {
+            bool done = true;
+            if (null == this.workspace) return false;
+
+            try
+            {
+                writer.WriteLine("<?xml version=\"1.0\"?>");
+                writer.WriteLine("<svg>");
+                foreach (UIElement child in this.workspace.Children)
+                {
+                    if (child is System.Windows.Shapes.Path)
+                    {
+                        writer.WriteLine(ConvertToSvgPathSyntax(child as System.Windows.Shapes.Path));
+                    }
+                }
+
+                writer.WriteLine("</svg>");
+                writer.Flush();
+
+                return done;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine(ex);
+                throw ex;
+            }
+            finally { if (null != writer) writer.Close(); }
         }
         #endregion
 
