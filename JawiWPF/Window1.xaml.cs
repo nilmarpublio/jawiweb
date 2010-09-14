@@ -24,6 +24,10 @@ namespace JawiWPF
     /// </summary>
     public partial class Window1 : Window
     {
+        /// <summary>
+        /// Gets or sets current selected path by mouse click.
+        /// </summary>
+        public Path SelectedPath;
         public Window1()
         {
             InitializeComponent();
@@ -104,6 +108,38 @@ namespace JawiWPF
            geometry.Freeze();
            path.Data = geometry;*/
         }
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            //attempt to get path's height
+            SvgReader reader = new SvgReader("alef.svg");
+            string pathString = reader.GetFirstPathValue();
+            Path path = new Path();
+            path.Fill = Brushes.Black;
+            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
+            //System.Diagnostics.Debug.WriteLine("Path's Height: " + path.Height);
+
+            Size actual = new Size(path1.ActualWidth, path1.ActualHeight);
+            System.Diagnostics.Debug.WriteLine("actual:" + actual.ToString());
+            Size size = SvgReader.GetSize(pathString);
+            System.Diagnostics.Debug.WriteLine(size.ToString());
+
+            foreach (UIElement child in this.workSpace.Children)
+            {
+                if (child is Path)
+                {
+                    System.Diagnostics.Debug.WriteLine((child as Path).Margin);
+                }
+            }
+        }
+        //todo: can this done in xaml with trigger?
+        private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            foreach (UIElement child in workSpace.Children)
+            {
+                if (child is Line)
+                    (child as Line).X2 = Math.Min(450, this.ActualWidth - 20 * 2);
+            }
+        }
 
         //Print
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -144,36 +180,66 @@ namespace JawiWPF
             //XamlToSvgTransform("output.xaml", "xaml2svg.xsl", "output.svg");
             System.Diagnostics.Debug.WriteLine("Export xaml done");
         }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            //attempt to get path's height
-            SvgReader reader = new SvgReader("alef.svg");
-            string pathString = reader.GetFirstPathValue();
-            Path path = new Path();
-            path.Fill = Brushes.Black;
-            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
-            //System.Diagnostics.Debug.WriteLine("Path's Height: " + path.Height);
-
-            Size actual = new Size(path1.ActualWidth, path1.ActualHeight);
-            System.Diagnostics.Debug.WriteLine("actual:" + actual.ToString());
-            Size size = SvgReader.GetSize(pathString);
-            System.Diagnostics.Debug.WriteLine(size.ToString());
-
-            foreach (UIElement child in this.workSpace.Children)
-                if (child is Path) System.Diagnostics.Debug.WriteLine((child as Path).Margin);
-        }
-
-        private void workSpace_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            System.Diagnostics.Debug.WriteLine("Current mouse click position: " + e.GetPosition(workSpace).ToString());
-        }
         //SaveAs by manual work
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             SvgWriter writer = new SvgWriter("output.svg", this.workSpace);
             writer.Write();
             System.Diagnostics.Debug.WriteLine("Export svg done");
+        }
+
+        private void workSpace_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.SelectedPath = (e.Device.Target as Path);
+            System.Diagnostics.Debug.WriteLine(this.SelectedPath.Data.ToString());
+            //System.Diagnostics.Debug.WriteLine("Workspace mouse click position: " + e.GetPosition(workSpace).ToString());
+        }
+        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("Current mouse click position: " + e.GetPosition(workSpace).ToString());
+        }
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (null == this.SelectedPath) return;
+
+            Thickness margin = new Thickness();
+            double step = 2.00;
+            switch (e.Key)
+            {
+                case Key.Right:
+                    margin = new Thickness(
+                        this.SelectedPath.Margin.Left + step,
+                        this.SelectedPath.Margin.Top,
+                        this.SelectedPath.Margin.Right,
+                        this.SelectedPath.Margin.Bottom);
+                    break;
+                case Key.Left:
+                    margin = new Thickness(
+                        this.SelectedPath.Margin.Left - step,
+                        this.SelectedPath.Margin.Top,
+                        this.SelectedPath.Margin.Right,
+                        this.SelectedPath.Margin.Bottom);
+                    break;
+                case Key.Up:
+                    margin = new Thickness(
+                        this.SelectedPath.Margin.Left,
+                        this.SelectedPath.Margin.Top - step,
+                        this.SelectedPath.Margin.Right,
+                        this.SelectedPath.Margin.Bottom);
+                    break;
+                case Key.Down:
+                    margin = new Thickness(
+                        this.SelectedPath.Margin.Left,
+                        this.SelectedPath.Margin.Top + step,
+                        this.SelectedPath.Margin.Right,
+                        this.SelectedPath.Margin.Bottom);
+                    break;
+                default:
+                    break;
+            }
+
+            this.SelectedPath.Margin = margin;
+            System.Diagnostics.Debug.WriteLine("Set new margin:" + margin);
         }
     }
 }
