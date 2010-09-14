@@ -133,6 +133,10 @@ namespace SvgFileGenerator
             else
                 file = templatePath;
 
+            //this is a female template with need to move on top a little bit
+            if (order.item.Contains("(P)"))
+                this.tolerance = new Coordinate(0, -20.00);
+
             if (!File.Exists(file)) return;
             this.reader = new StreamReader(file);
 
