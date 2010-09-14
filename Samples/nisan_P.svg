@@ -36,8 +36,7 @@
      y="426.97043"
      id="deathmuslim"
      dx="0 5.6403008 0 0 189.88989">143129</text>
-  <svg
-     id="muslimMonthGlyph"
+  <svg id="muslimMonthGlyph"
      x="231.04117"
      y="401.14032">
     <path
@@ -56,7 +55,7 @@
      style="font-size:48px;text-align:center;stroke:#000000;stroke-width:1;font-family:jawi">
     <textPath
        xlink:href="#circle"
-	   id="death"
+       id="death"
        dx="0 13.211403 9.9085531 11.946027 9.9085531 13.597451 11.946027 11.946026 13.597451">14.4.2010</textPath>
   </text>
 </svg>
