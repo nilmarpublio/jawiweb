@@ -590,35 +590,4 @@ namespace SvgFileGenerator
         }
         #endregion
     }
-    /// <summary>
-    /// Obsolete. Use Windows.Point instead. Coordinate class for svg positioning use.
-    /// </summary>
-    /*public class Coordinate
-    {
-        private double x;
-        public double X { get { return this.x; } }
-        private double y;
-        public double Y { get { return this.y; } }
-        /// <summary>
-        /// Default constructor. This is a zero coordinate by default.
-        /// </summary>
-        /// <remarks>
-        /// x=0, y=0
-        /// </remarks>
-        public Coordinate()
-        {
-            this.x = 0;
-            this.y = 0;
-        }
-        /// <summary>
-        /// Specific a valid coordinate.
-        /// </summary>
-        /// <param name="x"></param>
-        /// <param name="y"></param>
-        public Coordinate(double x, double y)
-        {
-            this.x = x;
-            this.y = y;
-        }
-    }*/
 }
