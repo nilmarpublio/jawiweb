@@ -17626,7 +17626,7 @@
     <item>2' Sticker</item>
     <remarks>takmao alfatihah</remarks>
   </order>
-  <order soldto="HAM" date="2010-08-23" delivered="" price="10">
+  <order soldto="HAM" date="2010-08-23" delivered="2010-09-08" price="10">
     <name>abd allah bin mohamed talhah</name>
     <born>1988-08-10</born>
     <death>1988-08-10</death>
@@ -17840,10 +17840,44 @@
     <deathm>1431-09-21</deathm>
     <item>2' Batu Hitam(L)</item>
   </order>
- <order soldto="SEL" date="2010-08-03" delivered="" price="220">
+  <order soldto="SEL" date="2010-08-03" delivered="2010-09-08" price="220">
     <name>hj baharum bin hj ahmad</name>
     <death>2010-01-18</death>
     <deathm>1431-02-02</deathm>
     <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="KEN" date="2010-09-13" delivered="" price="210">
+    <name>azizah bt chek uteh</name>
+    <death>2010-08-29</death>
+    <deathm>1431-09-19</deathm>
+    <age>66</age>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="ADI" date="2010-09-13" delivered="" price="260">
+    <name>chik bt mahmud</name>
+    <death>2010-08-29</death>
+    <deathm>1431-09-19</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="ADI" date="2010-09-13" delivered="" price="35">
+    <name>abdul hadi bin apit</name>
+    <jawi>عبدول هادي بن عفيت</jawi>
+    <death>2010-08-22</death>
+    <deathm>1431-09-12</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2010-09-14" delivered="" price="35">
+    <name>mohd komari bin abd jalil</name>
+    <jawi>حميد كوماري  بن عبدول جليل</jawi>
+    <death>2010-08-10</death>
+    <deathm>1431-08-29</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2010-09-14" delivered="" price="350">
+    <name>hjh fatimah bt abdul hamid</name>
+    <jawi>حجه فطمة بنت عبدول حميد</jawi>
+    <death>2010-05-31</death>
+    <deathm>1431-06-17</deathm>
+    <item>2' Batu Hijau(P)</item>
   </order>
 </nisan>
