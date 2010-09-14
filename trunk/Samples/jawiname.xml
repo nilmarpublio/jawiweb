@@ -4410,8 +4410,8 @@
 	</rootname>
 	<rootname>
 		<rumi>hadi</rumi>
-		<jawi />
-		<sex>0</sex>
+		<jawi>هادي</jawi>
+		<sex>1</sex>
 	</rootname>
 	<rootname>
 		<rumi>hadih</rumi>
@@ -6228,8 +6228,8 @@
 	</rootname>
 	<rootname>
 		<rumi>jalil</rumi>
-		<jawi />
-		<sex>0</sex>
+		<jawi>جليل</jawi>
+		<sex>1</sex>
 	</rootname>
 	<rootname>
 		<rumi>jalilah</rumi>
@@ -9244,7 +9244,7 @@
 	</rootname>
 	<rootname>
 		<rumi>mohd</rumi>
-		<jawi>محمد</jawi>
+		<jawi>c</jawi>
 		<sex>1</sex>
 	</rootname>
 	<rootname>
