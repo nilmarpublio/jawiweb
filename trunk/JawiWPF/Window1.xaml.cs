@@ -153,15 +153,25 @@ namespace JawiWPF
             Path path = new Path();
             path.Fill = Brushes.Black;
             path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
+            //System.Diagnostics.Debug.WriteLine("Path's Height: " + path.Height);
 
-            //WrapPanel wrapPanel = new WrapPanel();
-            //wrapPanel.Children.Add(path);
-            //Size rectOfAlef = new Size(wrapPanel.ActualWidth, wrapPanel.ActualHeight);
             Size actual = new Size(path1.ActualWidth, path1.ActualHeight);
             System.Diagnostics.Debug.WriteLine("actual:" + actual.ToString());
-
             Size size = SvgReader.GetSize(pathString);
             System.Diagnostics.Debug.WriteLine(size.ToString());
+
+            foreach (UIElement child in this.workSpace.Children)
+                if (child is Path) System.Diagnostics.Debug.WriteLine((child as Path).Margin);
+        }
+
+        private void workSpace_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("Current mouse click position: " + e.GetPosition(workSpace).ToString());
+        }
+        //SaveAs by manual work
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
