@@ -128,7 +128,7 @@ namespace JawiWPF
                 return ex.Message;
             }
         }
-        //SaveAs
+        //SaveAs xaml
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             //http://blogs.msdn.com/b/ashish/archive/2008/01/15/dynamically-producing-xaml-files-using-xamlwriter-save-method.aspx
@@ -142,7 +142,7 @@ namespace JawiWPF
             //fail again
             //string output = string.Empty;
             //XamlToSvgTransform("output.xaml", "xaml2svg.xsl", "output.svg");
-            System.Diagnostics.Debug.WriteLine("Export done");
+            System.Diagnostics.Debug.WriteLine("Export xaml done");
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -171,7 +171,9 @@ namespace JawiWPF
         //SaveAs by manual work
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-
+            SvgWriter writer = new SvgWriter("output.svg", this.workSpace);
+            writer.Write();
+            System.Diagnostics.Debug.WriteLine("Export svg done");
         }
     }
 }
