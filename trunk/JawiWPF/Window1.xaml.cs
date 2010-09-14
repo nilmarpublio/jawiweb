@@ -14,7 +14,7 @@ using System.Windows.Markup;
 using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Xsl;
-using System.IO;
+//using System.IO;
 using SvgFileGenerator;
 
 namespace JawiWPF
@@ -39,11 +39,18 @@ namespace JawiWPF
             //adding on top
             //@see http://social.msdn.microsoft.com/Forums/en-US/wpf/thread/b73290de-f6ef-4c8f-9671-dff06f9038a2
             //List<Point> data = new List<Point>();
-            /*SvgReader reader = new SvgReader("alef.svg");
-            string pathString = reader.GetFirstPathValue();
-            Path path = new Path();
-            path.Fill = Brushes.Black;
-            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
+            //SvgReader reader = new SvgReader("alef.svg");
+            //string pathString = reader.GetFirstPathValue();
+            //Path path = new Path();
+            //path.Fill = Brushes.Black;
+            //path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
+
+            //WrapPanel wrapPanel = new WrapPanel();
+            //wrapPanel.Children.Add(path);
+            //Size rectOfAlef = new Size(wrapPanel.ActualWidth, wrapPanel.ActualHeight);
+            //System.Diagnostics.Debug.WriteLine("actual:" + rectOfAlef.ToString());
+
+            /*
             this.wrapPanel1.Children.Add(path);
 
             reader = new SvgReader("damma.svg");
@@ -126,8 +133,8 @@ namespace JawiWPF
         {
             //http://blogs.msdn.com/b/ashish/archive/2008/01/15/dynamically-producing-xaml-files-using-xamlwriter-save-method.aspx
             string xml = XamlWriter.Save(workSpace);
-            FileStream fs = File.Create("output.xaml");
-            StreamWriter sw = new StreamWriter(fs);
+            System.IO.FileStream fs = System.IO.File.Create("output.xaml");
+            System.IO.StreamWriter sw = new System.IO.StreamWriter(fs);
             sw.Write(xml);
             sw.Close();
             fs.Close();
@@ -136,6 +143,25 @@ namespace JawiWPF
             //string output = string.Empty;
             //XamlToSvgTransform("output.xaml", "xaml2svg.xsl", "output.svg");
             System.Diagnostics.Debug.WriteLine("Export done");
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            //attempt to get path's height
+            SvgReader reader = new SvgReader("alef.svg");
+            string pathString = reader.GetFirstPathValue();
+            Path path = new Path();
+            path.Fill = Brushes.Black;
+            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
+
+            //WrapPanel wrapPanel = new WrapPanel();
+            //wrapPanel.Children.Add(path);
+            //Size rectOfAlef = new Size(wrapPanel.ActualWidth, wrapPanel.ActualHeight);
+            Size actual = new Size(path1.ActualWidth, path1.ActualHeight);
+            System.Diagnostics.Debug.WriteLine("actual:" + actual.ToString());
+
+            Size size = SvgReader.GetSize(pathString);
+            System.Diagnostics.Debug.WriteLine(size.ToString());
         }
     }
 }
