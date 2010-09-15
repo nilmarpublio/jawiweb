@@ -85,9 +85,16 @@
               <xsl:if test="@soldto='HAM'
                       and (@delivered=''
                       or
-                      (substring(@delivered,1,4) >= substring($last,1,4)
-                      and substring(@delivered,6,2) >= substring($last,6,2)
-                      and substring(@delivered,9,2) >= substring($last,9,2)))
+                      (
+                        substring(@delivered,1,4) >= substring($last,1,4)
+                        and substring(@delivered,6,2) >= substring($last,6,2)
+                        and substring(@delivered,9,2) >= substring($last,9,2))
+                        or
+                        (substring(@delivered,1,4) >= substring($last,1,4)
+                        and substring(@ddeliveredate,6,2) > substring($last,6,2))
+                        or
+                        (substring(@delivered,1,4) > substring($last,1,4))
+                      )
                       ">
                 <div>
                   <li>
