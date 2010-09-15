@@ -461,9 +461,17 @@ namespace SvgFileGenerator
             string output = "<path";
             double top = path.Margin.Top;
             double left = path.Margin.Left;
-            top = (path.VerticalAlignment == VerticalAlignment.Bottom) ?
-                workspace.ActualHeight - path.ActualHeight :
-                0.00;
+            if (path.VerticalAlignment == VerticalAlignment.Bottom)
+            {
+                top = workspace.ActualHeight - path.ActualHeight;
+                if (!path.Margin.Bottom.Equals(0.00))
+                    top -= path.Margin.Bottom;
+            }
+            else
+            {
+                //allow WYSWYG
+                //top = 0.00;
+            }
             output += string.Format("\n\ttransform=\"translate({0},{1})\"", left, top);
 
             output += string.Format("\n\td=\"{0}\"", path.Data.ToString());
