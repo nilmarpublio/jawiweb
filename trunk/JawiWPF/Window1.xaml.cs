@@ -212,6 +212,7 @@ namespace JawiWPF
                         this.SelectedPath.Margin.Top,
                         this.SelectedPath.Margin.Right,
                         this.SelectedPath.Margin.Bottom);
+                    this.SelectedPath.Margin = margin;
                     break;
                 case Key.Left:
                     margin = new Thickness(
@@ -219,6 +220,7 @@ namespace JawiWPF
                         this.SelectedPath.Margin.Top,
                         this.SelectedPath.Margin.Right,
                         this.SelectedPath.Margin.Bottom);
+                    this.SelectedPath.Margin = margin;
                     break;
                 case Key.Up:
                     if (this.SelectedPath.VerticalAlignment == VerticalAlignment.Bottom)
@@ -233,6 +235,7 @@ namespace JawiWPF
                             this.SelectedPath.Margin.Top - step,
                             this.SelectedPath.Margin.Right,
                             this.SelectedPath.Margin.Bottom);
+                    this.SelectedPath.Margin = margin;
                     break;
                 case Key.Down:
                     if (this.SelectedPath.VerticalAlignment == VerticalAlignment.Bottom)
@@ -247,12 +250,15 @@ namespace JawiWPF
                             this.SelectedPath.Margin.Top + step,
                             this.SelectedPath.Margin.Right,
                             this.SelectedPath.Margin.Bottom);
+                    this.SelectedPath.Margin = margin;
+                    break;
+                case Key.Delete:
+                    this.workSpace.Children.Remove(this.SelectedPath);
                     break;
                 default:
                     break;
             }
 
-            this.SelectedPath.Margin = margin;
             System.Diagnostics.Debug.WriteLine("Set new margin:" + margin);
         }
     }
