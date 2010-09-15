@@ -60,78 +60,62 @@
           <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
           <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
           <ol>
-            <xsl:for-each select="nisan/order" >
+            <xsl:for-each select="nisan/order[@delivered='' and name != '']" >
               <xsl:sort select="@soldto" data-type="text" order="ascending" />
               <xsl:sort select="item" data-type="text" order="ascending" />
-              <xsl:if test="@delivered='' and name != ''">
-                <li>
-                  <xsl:if test="contains(tags,'w')='true'">
-                    <xsl:attribute name="style">
-                      <xsl:text>color:red</xsl:text>
-                    </xsl:attribute>
+              <li>
+                <xsl:if test="contains(item,'½')='true'">
+                  <xsl:attribute name="style">
+                    <xsl:text>font-style:italic</xsl:text>
+                  </xsl:attribute>
+                </xsl:if>
+                <xsl:if test="contains(item,'Hijau') or contains(item,'G')='true'">
+                  <xsl:attribute name="style">
+                    <xsl:text>color:green</xsl:text>
+                  </xsl:attribute>
+                </xsl:if>
+                <xsl:if test="contains(item,'Batik')='true'">
+                  <xsl:attribute name="style">
+                    <xsl:text>color:blue</xsl:text>
+                  </xsl:attribute>
+                </xsl:if>
+                <xsl:if test="contains(item,'Putih')='true'">
+                  <xsl:attribute name="style">
+                    <xsl:text>color:grey</xsl:text>
+                  </xsl:attribute>
+                </xsl:if>
+                
+                <span class="soldto">
+                  <xsl:value-of select="@soldto" />
+                </span>
+                <span class="order">
+                  <xsl:value-of select="@date" />
+                </span>
+                <span class="name">
+                  <xsl:if test="remarks != ''">*</xsl:if>
+                  <xsl:value-of select="translate(name,$uppercase,$lowercase)"/>
+                  <xsl:choose>
+                    <xsl:when test="born != ''">
+                      (<xsl:value-of select="born"/>~<xsl:value-of select="death"/>
+                      <xsl:if test="deathm != ''">
+                        =<xsl:value-of select="deathm"/>
+                      </xsl:if>)
+                    </xsl:when>
+                    <xsl:otherwise>
+                      (<xsl:value-of select="death"/>
+                      <xsl:if test="deathm != ''">
+                        =<xsl:value-of select="deathm"/>
+                      </xsl:if>)
+                    </xsl:otherwise>
+                  </xsl:choose>
+                  <xsl:if test="age != ''">
+                    <xsl:value-of select="age"/> thn
                   </xsl:if>
-                  <xsl:if test="contains(item,'½')='true'">
-                    <xsl:attribute name="style">
-                      <xsl:text>font-style:italic</xsl:text>
-                    </xsl:attribute>
-                  </xsl:if>
-                  <xsl:if test="contains(item,'Hijau') or contains(item,'G')='true'">
-                    <xsl:attribute name="style">
-                      <xsl:text>color:green</xsl:text>
-                    </xsl:attribute>
-                  </xsl:if>
-                  <!--<xsl:if test="contains(item,'Hitam')='true'">
-                    <xsl:attribute name="style">
-                      <xsl:text>font-weight:bold</xsl:text>
-                    </xsl:attribute>
-                  </xsl:if>-->
-                  <xsl:if test="contains(item,'Batik')='true'">
-                    <xsl:attribute name="style">
-                      <xsl:text>color:blue</xsl:text>
-                    </xsl:attribute>
-                  </xsl:if>
-                  <xsl:if test="contains(item,'Putih')='true'">
-                    <xsl:attribute name="style">
-                      <xsl:text>color:grey</xsl:text>
-                    </xsl:attribute>
-                  </xsl:if>
-                  <xsl:if test="contains(item,'emas')='true'">
-                    <xsl:attribute name="style">
-                      <xsl:text>color:goldenrod</xsl:text>
-                    </xsl:attribute>
-                  </xsl:if>
-                  <span class="soldto">
-                    <xsl:value-of select="@soldto" />
-                  </span>
-                  <span class="order">
-                    <xsl:value-of select="@date" />
-                  </span>
-                  <span class="name">
-                    <xsl:if test="remarks != ''">*</xsl:if>
-                    <xsl:value-of select="translate(name,$uppercase,$lowercase)"/>
-                    <xsl:choose>
-                      <xsl:when test="born != ''">
-                        (<xsl:value-of select="born"/>~<xsl:value-of select="death"/>
-                        <xsl:if test="deathm != ''">
-                          =<xsl:value-of select="deathm"/>
-                        </xsl:if>)
-                      </xsl:when>
-                      <xsl:otherwise>
-                        (<xsl:value-of select="death"/>
-                        <xsl:if test="deathm != ''">
-                          =<xsl:value-of select="deathm"/>
-                        </xsl:if>)
-                      </xsl:otherwise>
-                    </xsl:choose>
-                    <xsl:if test="age != ''">
-                      <xsl:value-of select="age"/> thn
-                    </xsl:if>
-                  </span>
-                  <span class="item">
-                    <xsl:value-of select="item" />
-                  </span>
-                </li>
-              </xsl:if>
+                </span>
+                <span class="item">
+                  <xsl:value-of select="item" />
+                </span>
+              </li>
             </xsl:for-each>
           </ol>
           <hr />
