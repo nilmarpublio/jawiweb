@@ -137,7 +137,7 @@ namespace JawiWPF
             foreach (UIElement child in workSpace.Children)
             {
                 if (child is Line)
-                    (child as Line).X2 = Math.Min(450, this.ActualWidth - 20 * 2);
+                    (child as Line).X2 = Math.Max(450, this.ActualWidth - 20 * 2);
             }
         }
 
@@ -221,18 +221,32 @@ namespace JawiWPF
                         this.SelectedPath.Margin.Bottom);
                     break;
                 case Key.Up:
-                    margin = new Thickness(
+                    if (this.SelectedPath.VerticalAlignment == VerticalAlignment.Bottom)
+                        margin = new Thickness(
                         this.SelectedPath.Margin.Left,
-                        this.SelectedPath.Margin.Top - step,
+                        this.SelectedPath.Margin.Top,
                         this.SelectedPath.Margin.Right,
-                        this.SelectedPath.Margin.Bottom);
+                        this.SelectedPath.Margin.Bottom + step);
+                    else
+                        margin = new Thickness(
+                            this.SelectedPath.Margin.Left,
+                            this.SelectedPath.Margin.Top - step,
+                            this.SelectedPath.Margin.Right,
+                            this.SelectedPath.Margin.Bottom);
                     break;
                 case Key.Down:
-                    margin = new Thickness(
+                    if (this.SelectedPath.VerticalAlignment == VerticalAlignment.Bottom)
+                        margin = new Thickness(
                         this.SelectedPath.Margin.Left,
-                        this.SelectedPath.Margin.Top + step,
+                        this.SelectedPath.Margin.Top,
                         this.SelectedPath.Margin.Right,
-                        this.SelectedPath.Margin.Bottom);
+                        this.SelectedPath.Margin.Bottom - step);
+                    else
+                        margin = new Thickness(
+                            this.SelectedPath.Margin.Left,
+                            this.SelectedPath.Margin.Top + step,
+                            this.SelectedPath.Margin.Right,
+                            this.SelectedPath.Margin.Bottom);
                     break;
                 default:
                     break;
