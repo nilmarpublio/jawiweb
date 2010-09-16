@@ -17897,6 +17897,95 @@
     <death>2010-08-12</death>
     <deathm>1431-09-02</deathm>
     <item>2' Batu Putih(P)</item>
-	<remarks>tulisan hitam</remarks>
+    <remarks>tulisan hitam</remarks>
+  </order>
+  <order soldto="ADI" date="2010-09-16" delivered="" price="35">
+    <name>Nursara bt mohd shubly</name>
+    <born>1979-03-11</born>
+    <death>2010-07-01</death>
+    <deathm>1431-07-18</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-09-16" delivered="" price="35">
+    <name>fatimah bt mohd Di</name>
+    <born>1926-11-19</born>
+    <death>2008-03-11</death>
+    <deathm>1429-03-03</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-09-16" delivered="" price="35">
+    <name>muhammad qhaliff bin ridzuan</name>
+    <born>2010-06-29</born>
+    <death>2010-06-30</death>
+    <deathm>1431-07-17</deathm>
+    <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2010-09-16" delivered="" price="260">
+    <name>Hj abd aziz bin wahidin</name>
+    <death>2010-08-07</death>
+    <deathm>1431-08-26</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-16" delivered="" price="10">
+    <name>khatijah bee bt mohd ali</name>
+    <death>1972-02-12</death>
+    <deathm>1391-12-27</deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-16" delivered="" price="10">
+    <name>fatimah bt mad jam</name>
+    <death>2010-08-14</death>
+    <deathm>1431-09-04</deathm>
+    <age>80</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-16" delivered="" price="10">
+    <name>mah bt hussain</name>
+    <death>2010-08-30</death>
+    <deathm>1431-09-20</deathm>
+    <age>82</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-16" delivered="" price="10">
+    <name>khairoon bee bt md haniff</name>
+    <death>2010-08-04</death>
+    <deathm>1431-08-23</deathm>
+    <age>70</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-16" delivered="" price="10">
+    <name>hasnah bt hamid</name>
+    <death>2010-05-16</death>
+    <deathm>1431-06-02</deathm>
+    <age>69</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-16" delivered="" price="10">
+    <name>siti ishah bt ibrahim</name>
+    <death>2010-04-24</death>
+    <deathm>1431-05-09</deathm>
+    <age>76</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-16" delivered="" price="10">
+    <name>abd rahim bin abd razak</name>
+    <death>2009-12-15</death>
+    <deathm>1430-12-28</deathm>
+    <age>69</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-16" delivered="" price="10">
+    <name>salesia bt ahmad</name>
+    <death>2010-09-09</death>
+    <deathm>1431-09-30</deathm>
+    <age>70</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-16" delivered="" price="10">
+    <name>rahmah bee bt hussain</name>
+    <death>1998-03-09</death>
+    <deathm>1418-11-10</deathm>
+    <age>65</age>
+    <item>2½' Sticker(P)</item>
   </order>
 </nisan>
