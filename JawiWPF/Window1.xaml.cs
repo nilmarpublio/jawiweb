@@ -141,8 +141,12 @@ namespace JawiWPF
             }
         }
 
-        //Print
-        private void Button_Click(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// Printing.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void print_Click(object sender, RoutedEventArgs e)
         {
             PrintDialog dialog = new PrintDialog();
             if (dialog.ShowDialog() == true)
@@ -164,8 +168,12 @@ namespace JawiWPF
                 return ex.Message;
             }
         }
-        //SaveAs xaml
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// SaveAs xaml.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
             //http://blogs.msdn.com/b/ashish/archive/2008/01/15/dynamically-producing-xaml-files-using-xamlwriter-save-method.aspx
             string xml = XamlWriter.Save(workSpace);
@@ -180,12 +188,37 @@ namespace JawiWPF
             //XamlToSvgTransform("output.xaml", "xaml2svg.xsl", "output.svg");
             System.Diagnostics.Debug.WriteLine("Export xaml done");
         }
-        //SaveAs by manual work
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// SaveAs by manual work.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void save_Click(object sender, RoutedEventArgs e)
         {
             SvgWriter writer = new SvgWriter("output.svg", this.workSpace);
             writer.Write();
             System.Diagnostics.Debug.WriteLine("Export svg done");
+        }
+        /// <summary>
+        /// Clear all path element in workspace panel.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void clear_Click(object sender, RoutedEventArgs e)
+        {
+            this.workSpace.Children.Clear();
+        }
+        private void merge_Click(object sender, RoutedEventArgs e)
+        {
+            SimpleDialog dialog = new SimpleDialog();
+            dialog.ShowDialog();
+            //System.Diagnostics.Debug.WriteLine("ShowDialog:" + show);
+            if (!string.IsNullOrEmpty(dialog.output.Text))
+            {
+                SvgWriter writer = new SvgWriter(dialog.output.Text + ".svg");
+                bool success = writer.Merge("output.svg");
+                if (success) System.Diagnostics.Debug.WriteLine("merge success");
+            }
         }
 
         private void workSpace_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

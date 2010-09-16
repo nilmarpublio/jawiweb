@@ -28,32 +28,6 @@ namespace SvgFileGenerator
     /// </remarks>
     public class SvgWriter
     {
-        /// <summary>
-        /// Writing mode.
-        /// </summary>
-        enum Action
-        {
-            None,
-            IsWritingName,
-            IsWritingJawi,
-            IsWritingDeath,
-            IsWritingMuslimDeath,
-            /// <summary>
-            /// Lookup correct arabic character then.
-            /// </summary>
-            IsWritingMuslimMonth,
-            /// <summary>
-            /// Determine muslim month lookup a template svg template file.
-            /// </summary>
-            IsWritingMuslimMonthGlyph,
-            IsWritingBorn,
-            /// <summary>
-            /// Temporarily stop writing until svg read to valid line.
-            /// </summary>
-            StopWriting,
-            IsWritingAge,
-        }
-
         #region Fields
         private string templatePath;
         private nisanOrder order;
@@ -154,6 +128,16 @@ namespace SvgFileGenerator
         {
             this.writer = new StreamWriter(fileName);
             this.workspace = workspace;
+        }
+
+        private string sourceFile;
+        /// <summary>
+        /// For merge use only.
+        /// </summary>
+        /// <param name="fileName"></param>
+        public SvgWriter(string fileName)
+        {
+            this.sourceFile = this.outputLocation + System.IO.Path.DirectorySeparatorChar + fileName;
         }
 
         #region Methods
@@ -511,7 +495,87 @@ namespace SvgFileGenerator
             }
             finally { if (null != writer) writer.Close(); }
         }
+        /// <summary>
+        /// Group all jawi caligraphy and merge into generated svg file if has.
+        /// </summary>
+        /// <returns></returns>
+        public bool Merge(string targetFile)
+        {
+            bool success = true;
+            string stopper = "</svg>";
+            if (!string.IsNullOrEmpty(this.sourceFile)) return false;
+            if (!string.IsNullOrEmpty(targetFile)) return false;
+
+            try
+            {
+                string body = string.Empty;
+                string append = string.Empty;
+
+                string line = string.Empty;
+                TextReader rootReader = new StreamReader(this.sourceFile);
+                while (!string.IsNullOrEmpty(line = rootReader.ReadLine()))
+                {
+                    if (!line.Equals(stopper))
+                        body += line + "\n";
+                }
+                rootReader.Close();
+
+                bool start = false;
+                append += "<g id=\"jawi\"" + "\n";
+                append += string.Format("\ttransform=\"translate({0},{1})\">", 110, 176);
+                TextReader targetReader = new StreamReader(targetFile);
+                while (!string.IsNullOrEmpty(line = targetReader.ReadLine()))
+                {
+                    if (line.Contains("<path")) start = true;
+                    if (line.Contains(stopper)) start = false;
+
+                    if (start) append += line + "\n";
+                }
+                append += "</g>" + "\n";
+                targetReader.Close();
+
+                this.writer = new StreamWriter(this.sourceFile);
+                this.writer.Write(body);
+                this.writer.Write(append);
+                this.writer.WriteLine(stopper);
+                this.writer.Flush();
+
+                return success;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine(ex);
+                return false;
+            }
+            finally { if (null != this.writer) this.writer.Close(); }
+        }
         #endregion
+
+        /// <summary>
+        /// Writing mode.
+        /// </summary>
+        enum Action
+        {
+            None,
+            IsWritingName,
+            IsWritingJawi,
+            IsWritingDeath,
+            IsWritingMuslimDeath,
+            /// <summary>
+            /// Lookup correct arabic character then.
+            /// </summary>
+            IsWritingMuslimMonth,
+            /// <summary>
+            /// Determine muslim month lookup a template svg template file.
+            /// </summary>
+            IsWritingMuslimMonthGlyph,
+            IsWritingBorn,
+            /// <summary>
+            /// Temporarily stop writing until svg read to valid line.
+            /// </summary>
+            StopWriting,
+            IsWritingAge,
+        }
 
         #region Obsolete
         /// <summary>

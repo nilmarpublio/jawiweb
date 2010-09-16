@@ -1,0 +1,9 @@
+﻿<Window x:Class="JawiWPF.SimpleDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    WindowStyle="ToolWindow" Topmost="True" WindowStartupLocation="CenterOwner" ShowInTaskbar="False" ResizeMode="NoResize" SizeToContent="WidthAndHeight">
+    <WrapPanel Orientation="Vertical">
+        <TextBox x:Name="output" MinWidth="200"></TextBox>
+        <Button Width="40" Click="Button_Click">OK</Button>
+    </WrapPanel>
+</Window>
