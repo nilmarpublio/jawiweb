@@ -100,11 +100,14 @@ namespace SvgFileGenerator
             if (!string.IsNullOrEmpty(order.age))
             {
                 file = templatePath.Replace(".svg", "3.svg");
-                this.tolerance = new Point(0, -20.00);
+				//todo: tolerance for age template
+                this.tolerance = new Point(0, -18.00);
             }
             else if (!string.IsNullOrEmpty(order.born))
             {
                 file = templatePath.Replace(".svg", "2.svg");
+				//todo: tolerance for born template
+                this.tolerance = new Point(0, -20.00);
             }
             else
                 file = templatePath;
