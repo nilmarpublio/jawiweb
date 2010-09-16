@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -32,104 +33,9 @@ namespace JawiWPF
         {
             InitializeComponent();
 
-            //runtime compose
-            /*
-             * <Path
-            Fill="#000000"
-            Data="m 2.8853219 14.535578 0.55997 9.87823 2.63737 48.2687 c 0 0 1.7899 -1.79365 2.86234 -3.42732 1.5211701 -2.31487 1.6011701 -4.30477 2.0586501 -6.52715 0.35873 -1.74366 0.38248 -2.13239 0.23498 -3.89355 l -2.8873401 -34.43693 -0.27499 -5.84594 c 0.28749 0.15749 0.56122 0.29998 0.81871 0.42622 l 4.4422601 2.19989 -0.84745 -2.33738 c -0.0962 -0.26498 -0.19874 -0.54622 -0.30124 -0.82871 -1.23243 -3.39482 -1.91615 -6.75214 -2.7373501 -10.2332103 -0.78496 -3.33232 -1.83241 -7.77084 -1.83241 -7.77084 0 0 -0.74121 -0.0387 -1.42492 0.0587 -1.8774 0.26874 -5.88594005 6.24842 -6.14593005 7.6071 -0.025 0.12874 -0.04 0.25749 -0.045 0.38498 -0.0113 0.28123 0.01 0.57622 0.0575 0.8812 0.34373 2.1898903 1.44618005 4.0585403 2.82485005 5.5959603 z"/>
-             * 
-             */
-
-            //adding on top
-            //@see http://social.msdn.microsoft.com/Forums/en-US/wpf/thread/b73290de-f6ef-4c8f-9671-dff06f9038a2
-            //List<Point> data = new List<Point>();
-            //SvgReader reader = new SvgReader("alef.svg");
-            //string pathString = reader.GetFirstPathValue();
-            //Path path = new Path();
-            //path.Fill = Brushes.Black;
-            //path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
-
-            //WrapPanel wrapPanel = new WrapPanel();
-            //wrapPanel.Children.Add(path);
-            //Size rectOfAlef = new Size(wrapPanel.ActualWidth, wrapPanel.ActualHeight);
-            //System.Diagnostics.Debug.WriteLine("actual:" + rectOfAlef.ToString());
-
-            /*
-            this.wrapPanel1.Children.Add(path);
-
-            reader = new SvgReader("damma.svg");
-            pathString = reader.GetFirstPathValue();
-            path = new Path();
-            path.Fill = Brushes.Black;
-            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);
-            this.wrapPanel1.Children.Add(path);
-
-            reader = new SvgReader("sukun.svg");
-            pathString = reader.GetFirstPathValue();
-            path = new Path();
-            path.Fill = Brushes.Black;
-            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);
-            this.wrapPanel1.Children.Add(path);
-
-            //adding bottom
-            reader = new SvgReader("heh_bottom.svg");
-            pathString = reader.GetFirstPathValue();
-            path = new Path();
-            path.Fill = Brushes.Black;
-            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);
-            this.wrapPanel2.Children.Add(path);
-
-            reader = new SvgReader("seen_bottom.svg");
-            pathString = reader.GetFirstPathValue();
-            path = new Path();
-            path.Fill = Brushes.Black;
-            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);
-            this.wrapPanel2.Children.Add(path);
-
-            reader = new SvgReader("meem_bottom.svg");
-            pathString = reader.GetFirstPathValue();
-            path = new Path();
-            path.Fill = Brushes.Black;
-            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);
-            this.wrapPanel2.Children.Add(path);*/
-
-            /*StreamGeometry geometry = new StreamGeometry();
-           //geometry.FillRule = FillRule.EvenOdd;
-           using (StreamGeometryContext ctx = geometry.Open())
-           {
-               ctx.BeginFigure(new Point(2.8853219, 14.535578), true, true);
-               ctx.LineTo(new Point(0.55997, 9.87823), true, true);//ctx.PolyLineTo(new List<Point>{new Point(0.55997, 9.87823)},true,false);
-               ctx.LineTo(new Point(2.63737, 48.2687), true, true);//ctx.PolyLineTo(new List<Point>{new Point(2.63737, 48.2687)}, true, false);
-               ctx.BezierTo(new Point(0, 0),
-                   new Point(1.7899, -1.79365),
-                   new Point(2.86234, -3.42732),
-                   true, true);
-           };
-           geometry.Freeze();
-           path.Data = geometry;*/
-        }
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            //attempt to get path's height
-            SvgReader reader = new SvgReader("alef.svg");
-            string pathString = reader.GetFirstPathValue();
-            Path path = new Path();
-            path.Fill = Brushes.Black;
-            path.Data = (Geometry)new GeometryConverter().ConvertFromString(pathString);//key
-            //System.Diagnostics.Debug.WriteLine("Path's Height: " + path.Height);
-
-            Size actual = new Size(path1.ActualWidth, path1.ActualHeight);
-            System.Diagnostics.Debug.WriteLine("actual:" + actual.ToString());
-            Size size = SvgReader.GetSize(pathString);
-            System.Diagnostics.Debug.WriteLine(size.ToString());
-
-            foreach (UIElement child in this.workSpace.Children)
-            {
-                if (child is Path)
-                {
-                    System.Diagnostics.Debug.WriteLine((child as Path).Margin);
-                }
-            }
+            //add basic character into screen
+            AddBaseCharacter(khotSpace, "khots");
+            AddBaseCharacter(wordSpace, "words");
         }
         //todo: can this done in xaml with trigger?
         private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
@@ -141,16 +47,38 @@ namespace JawiWPF
             }
         }
 
-        /// <summary>
-        /// Printing.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void print_Click(object sender, RoutedEventArgs e)
+        #region Methods
+        private void AddBaseCharacter(Panel sender, string folderName)
         {
-            PrintDialog dialog = new PrintDialog();
-            if (dialog.ShowDialog() == true)
-                dialog.PrintVisual(workSpace, "Testing");
+            System.IO.DirectoryInfo directoryInfo = new System.IO.DirectoryInfo(folderName);
+            System.IO.FileInfo[] filesInfo = directoryInfo.GetFiles();
+            foreach (System.IO.FileInfo info in filesInfo)
+            {
+                Grid grid = new Grid();
+
+                SvgReader reader = new SvgReader(info.FullName);
+                var elements = reader.GetXMLElements("path");
+                foreach (XElement element in elements)
+                {
+                    Path path = new Path();
+                    path.Fill = Brushes.Black;
+                    XAttribute attribute = element.Attribute(XName.Get("d"));
+                    path.Data = (Geometry)new GeometryConverter().ConvertFromString(attribute.Value);//key
+
+                    grid.Children.Add(path);
+                }
+
+                ToggleButton toggleButton = new ToggleButton();
+                toggleButton.Content = grid;
+                toggleButton.ToolTip = info.Name.TrimEnd(new char[] { 'g', 'v', 's', '.' });
+                sender.Children.Add(toggleButton);
+            }
+        }
+        private UIElement GetFirstUIElement(Grid grid)
+        {
+            foreach (UIElement child in grid.Children)
+                return child;
+            return null;
         }
         private string XamlToSvgTransform(string xamlFile, string styleSheet, string svgFile)
         {
@@ -167,6 +95,20 @@ namespace JawiWPF
             {
                 return ex.Message;
             }
+        }
+        #endregion
+
+        #region Events
+        /// <summary>
+        /// Printing.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void print_Click(object sender, RoutedEventArgs e)
+        {
+            PrintDialog dialog = new PrintDialog();
+            if (dialog.ShowDialog() == true)
+                dialog.PrintVisual(workSpace, "Testing");
         }
         /// <summary>
         /// SaveAs xaml.
@@ -223,6 +165,7 @@ namespace JawiWPF
 
         private void workSpace_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            workSpace.Focus();
             this.SelectedPath = (e.Device.Target as Path);
             System.Diagnostics.Debug.WriteLine(this.SelectedPath.Data.ToString());
             //System.Diagnostics.Debug.WriteLine("Workspace mouse click position: " + e.GetPosition(workSpace).ToString());
@@ -230,6 +173,35 @@ namespace JawiWPF
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             System.Diagnostics.Debug.WriteLine("Current mouse click position: " + e.GetPosition(workSpace).ToString());
+
+            if (null != this.SelectedPath) return;
+            Point position = e.GetPosition(workSpace);
+            bool isAlignTop = false;
+            if (position.Y < (100 - 10))//10 as a buffer space
+                isAlignTop = true;
+            foreach (UIElement child in khotSpace.Children)
+            {
+                if (child is ToggleButton)
+                {
+                    if ((child as ToggleButton).IsChecked == true)
+                    {
+                        Path path = new Path();
+                        Path selectedPath = (Path)GetFirstUIElement((child as ToggleButton).Content as Grid);
+                        path.Data = selectedPath.Data;
+                        path.Fill = Brushes.Black;
+
+                        Thickness margin = new Thickness();
+                        margin.Left = position.X;
+                        //if(!isAlignTop) margin.Top
+                        path.Margin = margin;
+                        //Path original = (child as ToggleButton).Content as Grid)
+                        workSpace.Children.Add(path);
+                    }
+                }
+            }
+            foreach (UIElement child in workSpace.Children)
+            {
+            }
         }
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
@@ -293,6 +265,18 @@ namespace JawiWPF
             }
 
             System.Diagnostics.Debug.WriteLine("Set new margin:" + margin);
+        }
+        #endregion
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            foreach (UIElement child in khotSpace.Children)
+            {
+                if (child is RadioButton)
+                {
+                    System.Diagnostics.Debug.WriteLine((child as RadioButton).IsChecked);
+                }
+            }
         }
     }
 }

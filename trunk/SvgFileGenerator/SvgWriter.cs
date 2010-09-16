@@ -503,8 +503,8 @@ namespace SvgFileGenerator
         {
             bool success = true;
             string stopper = "</svg>";
-            if (!string.IsNullOrEmpty(this.sourceFile)) return false;
-            if (!string.IsNullOrEmpty(targetFile)) return false;
+            if (string.IsNullOrEmpty(this.sourceFile)) return false;
+            if (string.IsNullOrEmpty(targetFile)) return false;
 
             try
             {
@@ -522,7 +522,7 @@ namespace SvgFileGenerator
 
                 bool start = false;
                 append += "<g id=\"jawi\"" + "\n";
-                append += string.Format("\ttransform=\"translate({0},{1})\">", 110, 176);
+                append += string.Format("\ttransform=\"translate({0},{1})\">", 112.5, 176);//with size 4.5 x 1.25in align center of frame
                 TextReader targetReader = new StreamReader(targetFile);
                 while (!string.IsNullOrEmpty(line = targetReader.ReadLine()))
                 {
