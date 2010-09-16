@@ -8,8 +8,10 @@
     MouseLeftButtonDown="Window_MouseLeftButtonDown">
     <DockPanel LastChildFill="True" Margin="20">
         <WrapPanel DockPanel.Dock="Bottom" Margin="10">
-            <Button Click="Button_Click">Print</Button>
-            <Button Click="Button_Click_2">Save</Button>
+            <Button x:Name="print" Margin="4" Click="print_Click">Print</Button>
+            <Button x:Name="clear" Margin="4" Click="clear_Click">Clear</Button>
+            <Button x:Name="merge" Margin="4" Click="merge_Click">Merge</Button>
+            <Button x:Name="save" Margin="4" Click="save_Click">Save</Button>
         </WrapPanel>
         <Grid x:Name="workSpace" Width="Auto" Height="112.5"
               MouseLeftButtonDown="workSpace_MouseLeftButtonDown">

@@ -46,7 +46,7 @@ namespace SvgFileGenerator
 
                 foreach (nisanOrder order in undelivered)
                 {
-                    Console.Write("Writing " + order.name + ".svg...");
+                    Console.Write("Writing " + order.name.ToLower() + ".svg...");
                     SvgWriter writer = new SvgWriter(order, lookupFiles[0]);
                     if (writer.Write())
                         Console.WriteLine("done");
