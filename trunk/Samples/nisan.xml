@@ -17880,4 +17880,23 @@
     <deathm>1431-06-17</deathm>
     <item>2' Batu Hijau(P)</item>
   </order>
+  <order soldto="SEM" date="2010-09-16" delivered="" price="220">
+    <name>HJ MOHD YACKOB BIN ABD KARIM</name>
+    <death>2010-09-03</death>
+    <deathm>1431-09-24</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2010-09-16" delivered="" price="220">
+    <name>HJ OTHMAN BIN HJ ALIAS</name>
+    <death>1996-03-21</death>
+    <deathm>1416-11-02</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2010-09-16" delivered="" price="220">
+    <name>HJH SALMIAH BT PUTIH</name>
+    <death>2010-08-12</death>
+    <deathm>1431-09-02</deathm>
+    <item>2' Batu Putih(P)</item>
+	<remarks>tulisan hitam</remarks>
+  </order>
 </nisan>
