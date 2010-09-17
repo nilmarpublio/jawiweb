@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JawiPatch", "JawiPatch\Jawi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HLGranite.Jawi", "HLGranite.Jawi\HLGranite.Jawi.csproj", "{6FB0C4F0-EE8A-4033-8F67-EAB40F661782}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HLGranite.Jawi.Test", "HLGranite.Jawi.Test\HLGranite.Jawi.Test.csproj", "{26A7BA37-EA9B-4348-BAC0-D82F5AE4121D}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = JawiWPF.vsmdi
@@ -46,6 +48,10 @@ Global
 		{6FB0C4F0-EE8A-4033-8F67-EAB40F661782}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FB0C4F0-EE8A-4033-8F67-EAB40F661782}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FB0C4F0-EE8A-4033-8F67-EAB40F661782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A7BA37-EA9B-4348-BAC0-D82F5AE4121D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A7BA37-EA9B-4348-BAC0-D82F5AE4121D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A7BA37-EA9B-4348-BAC0-D82F5AE4121D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A7BA37-EA9B-4348-BAC0-D82F5AE4121D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,11 +4,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{ACD7E0D0-4385-4DD4-919F-B8D510924005}</ProjectGuid>
+    <ProjectGuid>{26A7BA37-EA9B-4348-BAC0-D82F5AE4121D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SvgFileGenerator.Test</RootNamespace>
-    <AssemblyName>SvgFileGenerator.Test</AssemblyName>
+    <RootNamespace>HLGranite.Jawi.Test</RootNamespace>
+    <AssemblyName>HLGranite.Jawi.Test</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -39,14 +39,13 @@
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.configuration" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -57,17 +56,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SvgWriterTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AuthoringTests.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Shadow Include="Test References\SvgFileGenerator.accessor" />
+    <Shadow Include="Test References\HLGranite.Jawi.accessor" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SvgFileGenerator\SvgFileGenerator.csproj">
-      <Project>{68B4F6D0-836A-41C5-8A9E-307C68669D1A}</Project>
-      <Name>SvgFileGenerator</Name>
+    <ProjectReference Include="..\HLGranite.Jawi\HLGranite.Jawi.csproj">
+      <Project>{6FB0C4F0-EE8A-4033-8F67-EAB40F661782}</Project>
+      <Name>HLGranite.Jawi</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
@@ -78,9 +78,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <ProjectExtensions>
-    <VisualStudio>
-      <UserProperties Notes="&lt;Notes Project=&quot;acd7e0d0-4385-4dd4-919f-b8d510924005&quot; xmlns=&quot;clr-namespace:StickyNotes.Model;assembly=StickyNotes&quot;&gt;&lt;Notes.StickyNotes&gt;&lt;Note FilePath=&quot;&quot; Content=&quot;&quot; Date=&quot;2010-09-17T15:43:07.5931036+08:00&quot; /&gt;&lt;/Notes.StickyNotes&gt;&lt;/Notes&gt;" />
-    </VisualStudio>
-  </ProjectExtensions>
 </Project>
