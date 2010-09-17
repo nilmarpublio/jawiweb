@@ -102,4 +102,9 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Notes="&lt;Notes Project=&quot;d93b6079-e5f7-417f-8b4e-43b8eb700014&quot; xmlns=&quot;clr-namespace:StickyNotes.Model;assembly=StickyNotes&quot;&gt;&lt;Notes.StickyNotes&gt;&lt;Note FilePath=&quot;&quot; Content=&quot;&quot; Date=&quot;2010-09-17T15:54:04.1675678+08:00&quot; /&gt;&lt;/Notes.StickyNotes&gt;&lt;/Notes&gt;" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
