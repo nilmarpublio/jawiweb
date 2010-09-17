@@ -57,13 +57,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="nisan.cs" />
-    <Compile Include="NisanReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="App.config" />
-    <Compile Include="SvgReader.cs" />
-    <Compile Include="SvgWriter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HLGranite.Jawi\HLGranite.Jawi.csproj">
+      <Project>{6FB0C4F0-EE8A-4033-8F67-EAB40F661782}</Project>
+      <Name>HLGranite.Jawi</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -13,7 +13,7 @@ using System.Windows.Controls;
 using System.Windows.Shapes;
 using System.Windows.Media;
 
-namespace SvgFileGenerator
+namespace HLGranite.Jawi
 {
     /// <summary>
     /// An svg writer class.
