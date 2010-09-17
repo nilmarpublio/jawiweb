@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Data;
+using System.IO;
 
 namespace JawiPatch
 {
@@ -10,9 +11,23 @@ namespace JawiPatch
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Start rename sticker item according to male or female item.");
-            BreakStickerItem();
-            Console.WriteLine("Complete");
+            //Console.WriteLine("Start rename sticker item according to male or female item.");
+            //BreakStickerItem();
+            //Console.WriteLine("Complete");
+
+            //20100917tys
+            WordScales wordScales = new WordScales();
+            wordScales.Option = WordScalesOption.Word;
+
+            string content = string.Empty;
+            DirectoryInfo directoryInfo = new DirectoryInfo(@"E:\jawiname");
+            FileInfo[] files = directoryInfo.GetFiles();
+            foreach (FileInfo file in files)
+                content += file.Name.ToLower() + " ";
+            wordScales.Count(content);
+            foreach (KeyValuePair<string, int> item in wordScales.Result)
+                Console.WriteLine("{0}\t{1}", item.Key, item.Value);
+
             Console.Read();
         }
         /// <summary>
