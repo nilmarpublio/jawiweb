@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 using System.IO;
 using System.Linq;
 using System.Configuration;
+using HLGranite.Jawi;
 
 namespace SvgFileGenerator
 {

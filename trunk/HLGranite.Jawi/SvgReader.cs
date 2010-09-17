@@ -9,7 +9,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using System.Xml.Linq;
 
-namespace SvgFileGenerator
+namespace HLGranite.Jawi
 {
     public class SvgReader
     {

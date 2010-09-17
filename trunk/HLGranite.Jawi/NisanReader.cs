@@ -6,7 +6,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using System.IO;
 
-namespace SvgFileGenerator
+namespace HLGranite.Jawi
 {
     public class NisanReader
     {

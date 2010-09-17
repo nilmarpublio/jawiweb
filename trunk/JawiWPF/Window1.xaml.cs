@@ -16,7 +16,7 @@ using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Xsl;
 //using System.IO;
-using SvgFileGenerator;
+using HLGranite.Jawi;
 
 namespace JawiWPF
 {
