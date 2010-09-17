@@ -17908,6 +17908,7 @@
   </order>
   <order soldto="ADI" date="2010-09-16" delivered="" price="35">
     <name>fatimah bt mohd Di</name>
+	<jawi></jawi>
     <born>1926-11-19</born>
     <death>2008-03-11</death>
     <deathm>1429-03-03</deathm>
@@ -17915,6 +17916,7 @@
   </order>
   <order soldto="ADI" date="2010-09-16" delivered="" price="35">
     <name>muhammad qhaliff bin ridzuan</name>
+	<jawi></jawi>
     <born>2010-06-29</born>
     <death>2010-06-30</death>
     <deathm>1431-07-17</deathm>
