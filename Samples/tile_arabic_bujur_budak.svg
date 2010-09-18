@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<svg>
+<g transform="scale(0.846154,0.846154)">
+  <path
+	 id="frame"
+     style="fill:none;stroke:#000000;stroke-width:1.24541473"
+     d="m 160.29122,398.06176 -14.78298,6.31553 -18.83938,-8.82029 C 83.57451,375.38421 -13.981789,307.50483 2.4727998,39.049177 0.83480894,39.349501 52.733979,0.62270737 146.28866,0.62270737 c 93.419,0 145.38663,38.72679363 143.74863,38.42646963 C 307.19636,319.90411 199.70383,381.2262 160.29122,398.06176 z" />
+  <text
+	 id="alfatihah"
+     style="font-size:54px;text-align:center;text-anchor:middle;font-family:Traditional Arabic;font-weight:bold"
+     y="44.908669"
+     x="148.62946">الفاتحة</text>
+  <text
+	 id="jawi"
+     style="font-size:62px;text-align:center;text-anchor:middle;font-family:Traditional Arabic;font-weight:bold"
+     y="88.04332"
+     x="146.25">سافتيه بنت عبدالله</text>
+  <text
+	 id="name"
+     style="font-size:28px;text-align:center;text-anchor:middle;font-family:Traditional Arabic;font-weight:bold;"
+     transform="scale(0.8892187,1.1245827)"
+     y="121.98266"
+     x="164.60916">SAFTIAH BT ABDULLAH</text>
+  <text
+	 id="back"
+     style="font-size:56px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+     y="188.49055"
+     x="125.00586"
+     dx="0 0 0 0 0 0 0 12 0 8">كمبالي كرحمةاللةفد</text>
+  <text
+     id="deathmuslim"
+     style="font-size:36px;font-weight:bold;text-align:start;text-anchor:start;font-family:Traditional Arabic"
+     y="238.30972"
+     x="32.554737"
+     dx="0 0 0 0 118.38858">143130</text>
+  <text
+	 id="deathmonth"
+     style="font-size:54px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+     y="236.11072"
+     x="162">ربيع الاخير</text>
+  <text
+	 id="equals"
+     style="font-size:54px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+     y="286.22461"
+     x="149.10406">برسمأن</text>
+  <text
+	 id="death"
+     style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+     x="146.53125"
+     y="330.30972">15.4.2010</text>
+  <text
+	 id="amin"
+     style="font-size:54px;text-align:center;text-anchor:middle;font-family:Traditional Arabic;font-weight:bold"
+     y="376.30203"
+     x="148.47125">أمين</text>
+</g>
+</svg>
