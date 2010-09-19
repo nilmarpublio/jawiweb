@@ -54,7 +54,7 @@ namespace HLGranite.Jawi
             new Point(253.04117,401.14032),
             new Point(271.04117,409.14032),
             new Point(251.04117,401.14032),
-            new Point(249.04117,405.14032),
+            new Point(255.04117,409.14032),
         };
         /// <summary>
         /// Determine tolerance for relative coordinate if it is a different set template of default.
