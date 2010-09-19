@@ -1,4 +1,9 @@
-﻿using System;
+﻿/**
+ * TODO: set source location.
+ * 
+ * 
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -54,6 +59,7 @@ namespace JawiWPF
             System.IO.FileInfo[] filesInfo = directoryInfo.GetFiles();
             foreach (System.IO.FileInfo info in filesInfo)
             {
+                System.Diagnostics.Debug.WriteLine("reading " + info.Name + "...");
                 Grid grid = new Grid();
 
                 SvgReader reader = new SvgReader(info.FullName);
