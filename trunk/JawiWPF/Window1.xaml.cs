@@ -1,7 +1,6 @@
 ﻿/**
  * TODO: set source location.
  * 
- * 
  */
 using System;
 using System.Collections.Generic;
@@ -37,10 +36,13 @@ namespace JawiWPF
         public Window1()
         {
             InitializeComponent();
-
+        }
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
             //add basic character into screen
             AddBaseCharacter(khotSpace, "khots");
             AddBaseCharacter(wordSpace, "words");
+            this.statusText.Text = "Ready.";
         }
         //todo: can this done in xaml with trigger?
         private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
@@ -59,7 +61,8 @@ namespace JawiWPF
             System.IO.FileInfo[] filesInfo = directoryInfo.GetFiles();
             foreach (System.IO.FileInfo info in filesInfo)
             {
-                System.Diagnostics.Debug.WriteLine("reading " + info.Name + "...");
+                System.Diagnostics.Debug.WriteLine("Reading " + info.Name + "...");
+                this.statusText.Text = "Reading " + info.Name + "...";
                 Grid grid = new Grid();
 
                 SvgReader reader = new SvgReader(info.FullName);
@@ -114,7 +117,10 @@ namespace JawiWPF
         {
             PrintDialog dialog = new PrintDialog();
             if (dialog.ShowDialog() == true)
+            {
                 dialog.PrintVisual(workSpace, "Testing");
+                this.statusText.Text = "Sent to printer.";
+            }
         }
         /// <summary>
         /// SaveAs xaml.
@@ -134,7 +140,7 @@ namespace JawiWPF
             //fail again
             //string output = string.Empty;
             //XamlToSvgTransform("output.xaml", "xaml2svg.xsl", "output.svg");
-            System.Diagnostics.Debug.WriteLine("Export xaml done");
+            this.statusText.Text = "Export xaml done.";
         }
         /// <summary>
         /// SaveAs by manual work.
@@ -145,16 +151,22 @@ namespace JawiWPF
         {
             SvgWriter writer = new SvgWriter("output.svg", this.workSpace);
             writer.Write();
-            System.Diagnostics.Debug.WriteLine("Export svg done");
+            this.statusText.Text = "Export svg done.";
         }
         /// <summary>
-        /// Clear all path element in workspace panel.
+        /// Clear all path element in workspace panel except guideline.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void clear_Click(object sender, RoutedEventArgs e)
         {
-            this.workSpace.Children.Clear();
+            //this.workSpace.Children.Clear();
+            for (int i = this.workSpace.Children.Count - 1; i >= 0; i--)
+            {
+                if (this.workSpace.Children[i] is Path)
+                    this.workSpace.Children.RemoveAt(i);
+            }
+            this.statusText.Text = "Clear all.";
         }
         private void merge_Click(object sender, RoutedEventArgs e)
         {
@@ -165,7 +177,10 @@ namespace JawiWPF
             {
                 SvgWriter writer = new SvgWriter(dialog.output.Text + ".svg");
                 bool success = writer.Merge("output.svg");
-                if (success) System.Diagnostics.Debug.WriteLine("merge success");
+                if (success)
+                    this.statusText.Text = "Merge success.";
+                else
+                    this.statusText.Text = "Merge fail. Please try again.";
             }
         }
 
@@ -178,7 +193,7 @@ namespace JawiWPF
         }
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            System.Diagnostics.Debug.WriteLine("Current mouse click position: " + e.GetPosition(workSpace).ToString());
+            this.statusText.Text = "Current position: " + e.GetPosition(workSpace).ToString();
 
             if (null != this.SelectedPath) return;
             Point position = e.GetPosition(workSpace);
