@@ -32,6 +32,10 @@ namespace HLGranite.Jawi
         /// Gets or sets visibility for this view model.
         /// </summary>
         public Visibility Visibility { get; set; }
+        /// <summary>
+        /// Gets or sets this view model is selected (or toggle on in GUI).
+        /// </summary>
+        public bool IsChecked { get; set; }
         #endregion
 
         /// <summary>
