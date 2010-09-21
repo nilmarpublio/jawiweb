@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
+  <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
+    <name>hjh zainab bt ibrahim</name>
+    <death>2006-08-21</death>
+    <item>2' Batu Putih(P)</item>
+  </order>
+
   <purchase>
     <buyfrom>hlgranite</buyfrom>
     <date>2008-11-02</date>
@@ -135,11 +141,6 @@
     <item>2' Batu Hijau(L)</item>
   </purchase>
 
-  <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
-    <name>hjh zainab bt ibrahim</name>
-    <death>2006-08-21</death>
-    <item>2' Batu Putih(P)</item>
-  </order>
   <order soldto="GDW" date="2006-09-12" delivered="2006-09-17">
     <name>ibrahim bin saad</name>
     <item>2' Batu Putih(L)</item>
@@ -18175,4 +18176,228 @@
     <age>51</age>
     <item>2' Batu Batik(P)</item>
   </order>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>8</quantity>
+    <price>120</price>
+    <item>1½' Batu Batik(L)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>2</quantity>
+    <price>120</price>
+    <item>1½' Batu Putih(L)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>3</quantity>
+    <price>120</price>
+    <item>1½' Batu Hitam(L)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>1</quantity>
+    <price>120</price>
+    <item>1½' Batu Hijau(L)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>3</quantity>
+    <price>120</price>
+    <item>1½' Batu Batik(P)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>1</quantity>
+    <price>120</price>
+    <item>1½' Batu Putih(P)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>1</quantity>
+    <price>120</price>
+    <item>1½' Batu Hitam(P)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>5</quantity>
+    <price>190</price>
+    <item>2½' Batu Batik(L)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>1</quantity>
+    <price>215</price>
+    <item>2½' Batu Hitam(L)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>7</quantity>
+    <price>140</price>
+    <item>2½' Batu Batik(P)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>1</quantity>
+    <price>125</price>
+    <item>2½' Batu Putih(P)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>1</quantity>
+    <price>160</price>
+    <item>2½' Batu Hitam(P)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>-1</quantity>
+    <price>142</price>
+    <item>2½' Batu Hijau(P)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>310</quantity>
+    <price>130</price>
+    <item>2' Batu Batik(L)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>118</quantity>
+    <price>130</price>
+    <item>2' Batu Putih(L)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>81</quantity>
+    <price>280</price>
+    <item>2' Batu Hitam(L)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>32</quantity>
+    <price>280</price>
+    <item>2' Batu Hijau(L)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>115</quantity>
+    <price>120</price>
+    <item>2' Batu Batik(P)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>96</quantity>
+    <price>100</price>
+    <item>2' Batu Putih(P)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>62</quantity>
+    <price>140</price>
+    <item>2' Batu Hitam(P)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>22</quantity>
+    <price>144</price>
+    <item>2' Batu Hijau(P)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>7</quantity>
+    <price>70</price>
+    <item>天官</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>5</quantity>
+    <price>80</price>
+    <item>天官(浮)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>6</quantity>
+    <price>70</price>
+    <item>天官龙</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>1</quantity>
+    <price>80</price>
+    <item>天官龙(浮)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>10</quantity>
+    <price>80</price>
+    <item>地主</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>5</quantity>
+    <price>80</price>
+    <item>地主(浮)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>9</quantity>
+    <price>80</price>
+    <item>拿督</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
 </nisan>

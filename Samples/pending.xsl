@@ -1,16 +1,38 @@
+<!--
+TODO: move into different template so that easy to maintain since 2010-09-21
+-->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" omit-xml-declaration="yes"/>
+
   <!-- @see http://stackoverflow.com/questions/586231/how-can-i-convert-a-string-to-upper-or-lower-case-with-xslt -->
   <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
   <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
-  <xsl:variable name="batikItem_L">2' Batu Batik(L)</xsl:variable>
-  <xsl:variable name="batikItem_P">2' Batu Batik(P)</xsl:variable>
-  <xsl:variable name="putihItem_L">2' Batu Putih(L)</xsl:variable>
-  <xsl:variable name="putihItem_P">2' Batu Putih(P)</xsl:variable>
-  <xsl:variable name="hitamItem_L">2' Batu Hitam(L)</xsl:variable>
-  <xsl:variable name="hitamItem_P">2' Batu Hitam(P)</xsl:variable>
-  <xsl:variable name="hijauItem_L">2' Batu Hijau(L)</xsl:variable>
-  <xsl:variable name="hijauItem_P">2' Batu Hijau(P)</xsl:variable>
+
+  <xsl:variable name="batikItem_L15">1½' Batu Batik(L)</xsl:variable>
+  <xsl:variable name="batikItem_P15">1½' Batu Batik(P)</xsl:variable>
+  <xsl:variable name="putihItem_L15">1½' Batu Putih(L)</xsl:variable>
+  <xsl:variable name="putihItem_P15">1½' Batu Putih(P)</xsl:variable>
+  <xsl:variable name="hitamItem_L15">1½' Batu Hitam(L)</xsl:variable>
+  <xsl:variable name="hitamItem_P15">1½' Batu Hitam(P)</xsl:variable>
+  <xsl:variable name="hijauItem_L15">1½' Batu Hijau(L)</xsl:variable>
+  <xsl:variable name="hijauItem_P15">1½' Batu Hijau(P)</xsl:variable>
+  <xsl:variable name="batikItem_L20">2' Batu Batik(L)</xsl:variable>
+  <xsl:variable name="batikItem_P20">2' Batu Batik(P)</xsl:variable>
+  <xsl:variable name="putihItem_L20">2' Batu Putih(L)</xsl:variable>
+  <xsl:variable name="putihItem_P20">2' Batu Putih(P)</xsl:variable>
+  <xsl:variable name="hitamItem_L20">2' Batu Hitam(L)</xsl:variable>
+  <xsl:variable name="hitamItem_P20">2' Batu Hitam(P)</xsl:variable>
+  <xsl:variable name="hijauItem_L20">2' Batu Hijau(L)</xsl:variable>
+  <xsl:variable name="hijauItem_P20">2' Batu Hijau(P)</xsl:variable>
+  <xsl:variable name="batikItem_L25">2½' Batu Batik(L)</xsl:variable>
+  <xsl:variable name="batikItem_P25">2½' Batu Batik(P)</xsl:variable>
+  <xsl:variable name="putihItem_L25">2½' Batu Putih(L)</xsl:variable>
+  <xsl:variable name="putihItem_P25">2½' Batu Putih(P)</xsl:variable>
+  <xsl:variable name="hitamItem_L25">2½' Batu Hitam(L)</xsl:variable>
+  <xsl:variable name="hitamItem_P25">2½' Batu Hitam(P)</xsl:variable>
+  <xsl:variable name="hijauItem_L25">2½' Batu Hijau(L)</xsl:variable>
+  <xsl:variable name="hijauItem_P25">2½' Batu Hijau(P)</xsl:variable>
+
   <xsl:template match="/">
     <html>
       <head>
@@ -57,41 +79,315 @@
           Email: <a href="mailto:yancyn@hotmail.com">yancyn@hotmail.com</a><br/>
         </div>
         <div class="headerRight">
-          <b>Stock Available</b>
-          <ul>
-            <ol style="color:blue;">
-              <xsl:value-of select="$batikItem_L"/> : 
-              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$batikItem_L])-count(nisan/order[item=$batikItem_L])"/>
-            </ol>
-            <ol style="color:blue;">
-              <xsl:value-of select="$batikItem_P"/> :
-              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$batikItem_P])-count(nisan/order[item=$batikItem_P])"/>
-            </ol>
-            <ol style="color:grey;">
-              <xsl:value-of select="$putihItem_L"/> :
-              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$putihItem_L])-count(nisan/order[item=$putihItem_L])"/>
-            </ol>
-            <ol style="color:grey;">
-              <xsl:value-of select="$putihItem_P"/> :
-              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$putihItem_P])-count(nisan/order[item=$putihItem_P])"/>
-            </ol>
-            <ol>
-              <xsl:value-of select="$hitamItem_L"/> :
-              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hitamItem_L])-count(nisan/order[item=$hitamItem_L])"/>
-            </ol>
-            <ol>
-              <xsl:value-of select="$hitamItem_P"/> :
-              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hitamItem_P])-count(nisan/order[item=$hitamItem_P])"/>
-            </ol>
-            <ol style="color:green;">
-              <xsl:value-of select="$hijauItem_L"/> :
-              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hijauItem_L])-count(nisan/order[item=$hijauItem_L])"/>
-            </ol>
-            <ol style="color:green;">
-              <xsl:value-of select="$hijauItem_P"/> :
-              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hijauItem_P])-count(nisan/order[item=$hijauItem_P])"/>
-            </ol>
-          </ul>
+          <b>Stock Available YTD</b>
+          <table cellspacing="0" cellpadding="0" border="0">
+            <tr>
+              <td>
+                <table cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td></td>
+                    <td>普</td>
+                    <td>浮</td>
+                  </tr>
+                  <tr>
+                    <td>天官</td>
+                    <td><xsl:value-of select="sum(nisan/purchase/quantity[../item='天官'])-count(nisan/order[item='天官'])"/></td>
+                    <td><xsl:value-of select="sum(nisan/purchase/quantity[../item='天官(浮)'])-count(nisan/order[item='天官(浮)'])"/></td>
+                  </tr>
+                  <tr>
+                    <td>天官龙</td>
+                    <td><xsl:value-of select="sum(nisan/purchase/quantity[../item='天官龙'])-count(nisan/order[item='天官'])"/></td>
+                    <td><xsl:value-of select="sum(nisan/purchase/quantity[../item='天官龙(浮)'])-count(nisan/order[item='天官(浮)'])"/></td>
+                  </tr>
+                  <tr>
+                    <td>地主</td>
+                    <td><xsl:value-of select="sum(nisan/purchase/quantity[../item='地主'])-count(nisan/order[item='地主'])"/></td>
+                    <td><xsl:value-of select="sum(nisan/purchase/quantity[../item='地主(浮)'])-count(nisan/order[item='地主(浮)'])"/></td>
+                  </tr>
+                  <tr>
+                    <td>拿督</td>
+                    <td><xsl:value-of select="sum(nisan/purchase/quantity[../item='拿督'])-count(nisan/order[item='拿督'])"/></td>
+                    <td><xsl:value-of select="sum(nisan/purchase/quantity[../item='拿督(浮)'])-count(nisan/order[item='拿督(浮)'])"/></td>
+                  </tr>
+                  <tr>
+                    <td>灶君</td>
+                    <td><xsl:value-of select="sum(nisan/purchase/quantity[../item='灶君'])-count(nisan/order[item='灶君'])"/></td>
+                    <td><xsl:value-of select="sum(nisan/purchase/quantity[../item='灶君(浮)'])-count(nisan/order[item='灶君(浮)'])"/></td>
+                  </tr>
+                </table>
+              </td>
+              <td style="width:20px;"> </td>
+              <td>
+                <table cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td></td>
+                    <td style="color:blue;">花</td>
+                    <td style="color:grey;">白</td>
+                    <td>黑</td>
+                    <td style="color:green;">青</td>
+                  </tr>
+                  <tr>
+                    <td>1½'♂</td>
+                    <td style="color:blue;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$batikItem_L15])-count(nisan/order[item=$batikItem_L15])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$batikItem_L15])-count(nisan/order[item=$batikItem_L15])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td style="color:grey;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$putihItem_L15])-count(nisan/order[item=$putihItem_L15])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$putihItem_L15])-count(nisan/order[item=$putihItem_L15])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td>
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$hitamItem_L15])-count(nisan/order[item=$hitamItem_L15])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hitamItem_L15])-count(nisan/order[item=$hitamItem_L15])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td style="color:green;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$hijauItem_L15])-count(nisan/order[item=$hijauItem_L15])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hijauItem_L15])-count(nisan/order[item=$hijauItem_L15])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1½'♀</td>
+                    <td style="color:blue;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$batikItem_P15])-count(nisan/order[item=$batikItem_P15])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$batikItem_P15])-count(nisan/order[item=$batikItem_P15])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td style="color:grey;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$putihItem_P15])-count(nisan/order[item=$putihItem_P15])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$putihItem_P15])-count(nisan/order[item=$putihItem_P15])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td>
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$hitamItem_P15])-count(nisan/order[item=$hitamItem_P15])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hitamItem_P15])-count(nisan/order[item=$hitamItem_P15])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td style="color:green;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$hijauItem_P15])-count(nisan/order[item=$hijauItem_P15])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hijauItem_P15])-count(nisan/order[item=$hijauItem_P15])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2'♂</td>
+                    <td style="color:blue;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$batikItem_L20])-count(nisan/order[item=$batikItem_L20])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$batikItem_L20])-count(nisan/order[item=$batikItem_L20])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td style="color:grey;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$putihItem_L20])-count(nisan/order[item=$putihItem_L20])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$putihItem_L20])-count(nisan/order[item=$putihItem_L20])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td>
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$hitamItem_L20])-count(nisan/order[item=$hitamItem_L20])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hitamItem_L20])-count(nisan/order[item=$hitamItem_L20])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td style="color:green;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$hijauItem_L20])-count(nisan/order[item=$hijauItem_L20])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hijauItem_L20])-count(nisan/order[item=$hijauItem_L20])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2'♀</td>
+                    <td style="color:blue;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$batikItem_P20])-count(nisan/order[item=$batikItem_P20])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$batikItem_P20])-count(nisan/order[item=$batikItem_P20])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td style="color:grey;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$putihItem_P20])-count(nisan/order[item=$putihItem_P20])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$putihItem_P20])-count(nisan/order[item=$putihItem_P20])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td>
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$hitamItem_P20])-count(nisan/order[item=$hitamItem_P20])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hitamItem_P20])-count(nisan/order[item=$hitamItem_P20])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td style="color:green;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$hijauItem_P20])-count(nisan/order[item=$hijauItem_P20])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hijauItem_P20])-count(nisan/order[item=$hijauItem_P20])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2½'♂</td>
+                    <td style="color:blue;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$batikItem_L25])-count(nisan/order[item=$batikItem_L25])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$batikItem_L25])-count(nisan/order[item=$batikItem_L25])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td style="color:grey;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$putihItem_L25])-count(nisan/order[item=$putihItem_L25])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$putihItem_L25])-count(nisan/order[item=$putihItem_L25])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td>
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$hitamItem_L25])-count(nisan/order[item=$hitamItem_L25])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hitamItem_L25])-count(nisan/order[item=$hitamItem_L25])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td style="color:green;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$hijauItem_L25])-count(nisan/order[item=$hijauItem_L25])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hijauItem_L25])-count(nisan/order[item=$hijauItem_L25])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2½'♀</td>
+                    <td style="color:blue;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$batikItem_P25])-count(nisan/order[item=$batikItem_P25])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$batikItem_P25])-count(nisan/order[item=$batikItem_P25])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td style="color:grey;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$putihItem_P25])-count(nisan/order[item=$putihItem_P25])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$putihItem_P25])-count(nisan/order[item=$putihItem_P25])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td>
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$hitamItem_P25])-count(nisan/order[item=$hitamItem_P25])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hitamItem_P25])-count(nisan/order[item=$hitamItem_P25])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                    <td style="color:green;">
+                      <xsl:choose>
+                        <xsl:when test="sum(nisan/purchase/quantity[../item=$hijauItem_P25])-count(nisan/order[item=$hijauItem_P25])=0">
+                          <xsl:text>-</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hijauItem_P25])-count(nisan/order[item=$hijauItem_P25])"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
         </div>
         <div class="content">
           <h3>PENDING LIST</h3>
@@ -127,7 +423,7 @@
                     <xsl:text>color:grey</xsl:text>
                   </xsl:attribute>
                 </xsl:if>
-                
+
                 <span class="soldto">
                   <xsl:value-of select="@soldto" />
                 </span>
