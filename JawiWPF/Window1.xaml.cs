@@ -33,6 +33,7 @@ namespace JawiWPF
         /// Gets or sets current selected path by mouse click.
         /// </summary>
         public Path SelectedPath;
+        private string sourceLocation = @"E:\jawi\";
         public Window1()
         {
             InitializeComponent();
@@ -40,8 +41,8 @@ namespace JawiWPF
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             //add basic character into screen
-            AddBaseCharacter(khotSpace, "khots");
-            AddBaseCharacter(wordSpace, "words");
+            AddBaseCharacter(khotSpace, sourceLocation + "khots");
+            AddBaseCharacter(wordSpace, sourceLocation + "words");
             this.statusText.Text = "Ready.";
         }
         //todo: can this done in xaml with trigger?
