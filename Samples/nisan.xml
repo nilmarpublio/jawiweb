@@ -17981,7 +17981,7 @@
     <deathm>1431-02-02</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="KEN" date="2010-09-13" delivered="" price="210">
+  <order soldto="KEN" date="2010-09-13" delivered="2010-09-21" price="210">
     <name>azizah bt chek uteh</name>
     <death>2010-08-29</death>
     <deathm>1431-09-19</deathm>
@@ -18000,6 +18000,7 @@
     <death>2010-08-22</death>
     <deathm>1431-09-12</deathm>
     <item>PV Egg</item>
+	<remarks>EN405442244MY</remarks>
   </order>
   <order soldto="ADI" date="2010-09-14" delivered="2010-09-20" price="35">
     <name>mohd komari bin abd jalil</name>
@@ -18007,6 +18008,7 @@
     <death>2010-08-10</death>
     <deathm>1431-08-29</deathm>
     <item>PV Egg</item>
+	<remarks>EN405442244MY</remarks>
   </order>
   <order soldto="ADI" date="2010-09-14" delivered="2010-09-20" price="350">
     <name>hjh fatimah bt abdul hamid</name>
@@ -18041,6 +18043,7 @@
     <death>2010-07-01</death>
     <deathm>1431-07-18</deathm>
     <item>PV</item>
+	<remarks>EN405442244MY</remarks>
   </order>
   <order soldto="ADI" date="2010-09-16" delivered="2010-09-20" price="35">
     <name>fatimah bt mohd Di</name>
@@ -18049,6 +18052,7 @@
     <death>2008-03-11</death>
     <deathm>1429-03-03</deathm>
     <item>PV</item>
+	<remarks>EN405442244MY</remarks>
   </order>
   <order soldto="ADI" date="2010-09-16" delivered="2010-09-20" price="35">
     <name>muhammad qhaliff bin ridzuan</name>
@@ -18057,6 +18061,7 @@
     <death>2010-06-30</death>
     <deathm>1431-07-17</deathm>
     <item>PV Budak</item>
+	<remarks>EN405442244MY</remarks>
   </order>
   <order soldto="ADI" date="2010-09-16" delivered="2010-09-20" price="260">
     <name>Hj abd aziz bin wahidin</name>
@@ -18283,9 +18288,17 @@
   <purchase>
     <buyfrom>hlgranite</buyfrom>
     <date>2010-09-21</date>
-    <quantity>310</quantity>
+    <quantity>309</quantity>
     <price>130</price>
     <item>2' Batu Batik(L)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+   <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>-1</quantity>
+    <price>130</price>
+    <item>2' Batu Batik(P)</item>
     <remarks>just for tally purpose</remarks>
   </purchase>
   <purchase>
