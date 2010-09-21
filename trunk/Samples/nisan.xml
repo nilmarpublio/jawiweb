@@ -1,6 +1,140 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>1</quantity>
+    <price>130</price>
+    <item>2' Batu Batik(L)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>8</quantity>
+    <price>130</price>
+    <item>2' Batu Batik(P)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>1</quantity>
+    <price>130</price>
+    <item>2' Batu Putih(L)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>8</quantity>
+    <price>130</price>
+    <item>2' Batu Putih(P)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>9</quantity>
+    <price>130</price>
+    <item>2' Batu Hitam(L)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>3</quantity>
+    <price>130</price>
+    <item>2' Batu Hijau(L)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>10</quantity>
+    <price>130</price>
+    <item>2' Batu Hijau(P)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>1</quantity>
+    <price>130</price>
+    <item>2½' Batu Batik(L)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>2</quantity>
+    <price>130</price>
+    <item>2½' Batu Putih(P)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>1</quantity>
+    <price>130</price>
+    <item>2½' Batu Hitam(L)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>2</quantity>
+    <price>130</price>
+    <item>2½' Batu Hitam(P)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>1</quantity>
+    <price>130</price>
+    <item>2½' Batu Hijau(P)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>4</quantity>
+    <price>130</price>
+    <item>1½' Batu Batik(L)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>2</quantity>
+    <price>130</price>
+    <item>1½' Batu Batik(P)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>4</quantity>
+    <price>130</price>
+    <item>1½' Batu Putih(L)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>2</quantity>
+    <price>130</price>
+    <item>1½' Batu Hitam(P)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>1</quantity>
+    <price>130</price>
+    <item>1½' Batu Hijau(L)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2008-11-02</date>
+    <quantity>3</quantity>
+    <price>130</price>
+    <item>1½' Batu Hijau(P)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2009-01-02</date>
+    <quantity>-4</quantity>
+    <price>220</price>
+    <item>2' Batu Hijau(L)</item>
+  </purchase>
+
   <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
     <name>hjh zainab bt ibrahim</name>
     <death>2006-08-21</death>
@@ -18005,24 +18139,24 @@
     <age>82</age>
     <item>2' Sticker(P)</item>
   </order>
-   <order soldto="ADI" date="2010-09-20" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-20" delivered="" price="35">
     <name>mohamed rozali bin musa</name>
-	<jawi>محمد روزالي بن موسا</jawi>
+    <jawi>محمد روزالي بن موسا</jawi>
     <death>1996-03-14</death>
     <deathm>1416-10-24</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-   <order soldto="ADI" date="2010-09-20" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-20" delivered="" price="35">
     <name>jainah bt salamat</name>
-	<jawi>جاينه بنت سلامات</jawi>
-	<born>1930-12-29</born>
+    <jawi>جاينه بنت سلامات</jawi>
+    <born>1930-12-29</born>
     <death>2009-09-04</death>
     <deathm>1430-09-14</deathm>
     <item>PV</item>
   </order>
-   <order soldto="ADI" date="2010-09-20" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-20" delivered="" price="35">
     <name>mingan bin Hj tahir</name>
-	<jawi>ميڠان بن حاج طاهر</jawi>
+    <jawi>ميڠان بن حاج طاهر</jawi>
     <death>1981-04-10</death>
     <deathm>1401-06-06</deathm>
     <item>PV</item>
