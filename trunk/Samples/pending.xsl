@@ -1,5 +1,16 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" omit-xml-declaration="yes"/>
+  <!-- @see http://stackoverflow.com/questions/586231/how-can-i-convert-a-string-to-upper-or-lower-case-with-xslt -->
+  <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
+  <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
+  <xsl:variable name="batikItem_L">2' Batu Batik(L)</xsl:variable>
+  <xsl:variable name="batikItem_P">2' Batu Batik(P)</xsl:variable>
+  <xsl:variable name="putihItem_L">2' Batu Putih(L)</xsl:variable>
+  <xsl:variable name="putihItem_P">2' Batu Putih(P)</xsl:variable>
+  <xsl:variable name="hitamItem_L">2' Batu Hitam(L)</xsl:variable>
+  <xsl:variable name="hitamItem_P">2' Batu Hitam(P)</xsl:variable>
+  <xsl:variable name="hijauItem_L">2' Batu Hijau(L)</xsl:variable>
+  <xsl:variable name="hijauItem_P">2' Batu Hijau(P)</xsl:variable>
   <xsl:template match="/">
     <html>
       <head>
@@ -46,6 +57,41 @@
           Email: <a href="mailto:yancyn@hotmail.com">yancyn@hotmail.com</a><br/>
         </div>
         <div class="headerRight">
+          <b>Stock Available</b>
+          <ul>
+            <ol style="color:blue;">
+              <xsl:value-of select="$batikItem_L"/> : 
+              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$batikItem_L])-count(nisan/order[item=$batikItem_L])"/>
+            </ol>
+            <ol style="color:blue;">
+              <xsl:value-of select="$batikItem_P"/> :
+              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$batikItem_P])-count(nisan/order[item=$batikItem_P])"/>
+            </ol>
+            <ol style="color:grey;">
+              <xsl:value-of select="$putihItem_L"/> :
+              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$putihItem_L])-count(nisan/order[item=$putihItem_L])"/>
+            </ol>
+            <ol style="color:grey;">
+              <xsl:value-of select="$putihItem_P"/> :
+              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$putihItem_P])-count(nisan/order[item=$putihItem_P])"/>
+            </ol>
+            <ol>
+              <xsl:value-of select="$hitamItem_L"/> :
+              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hitamItem_L])-count(nisan/order[item=$hitamItem_L])"/>
+            </ol>
+            <ol>
+              <xsl:value-of select="$hitamItem_P"/> :
+              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hitamItem_P])-count(nisan/order[item=$hitamItem_P])"/>
+            </ol>
+            <ol style="color:green;">
+              <xsl:value-of select="$hijauItem_L"/> :
+              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hijauItem_L])-count(nisan/order[item=$hijauItem_L])"/>
+            </ol>
+            <ol style="color:green;">
+              <xsl:value-of select="$hijauItem_P"/> :
+              <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hijauItem_P])-count(nisan/order[item=$hijauItem_P])"/>
+            </ol>
+          </ul>
         </div>
         <div class="content">
           <h3>PENDING LIST</h3>
@@ -56,9 +102,6 @@
             <span class="name">Name</span>
             <span class="item">Item</span>
           </div>
-          <!-- @see http://stackoverflow.com/questions/586231/how-can-i-convert-a-string-to-upper-or-lower-case-with-xslt -->
-          <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
-          <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
           <ol>
             <xsl:for-each select="nisan/order[@delivered='' and name != '']" >
               <xsl:sort select="@soldto" data-type="text" order="ascending" />
