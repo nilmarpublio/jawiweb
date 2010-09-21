@@ -51,7 +51,7 @@ namespace HLGranite.Jawi
             new Point(231.04117,401.14032),
             new Point(267.04117,419.14032),
             new Point(263.04117,403.14032),
-            new Point(253.04117,401.14032),
+            new Point(267.04117,415.14032),
             new Point(271.04117,409.14032),
             new Point(251.04117,401.14032),
             new Point(255.04117,409.14032),
