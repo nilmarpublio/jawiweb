@@ -301,6 +301,8 @@ public partial class nisanPurchase : object, System.ComponentModel.INotifyProper
     
     private string itemField;
     
+    private string remarksField;
+    
     /// <remarks/>
     public string buyfrom {
         get {
@@ -366,6 +368,17 @@ public partial class nisanPurchase : object, System.ComponentModel.INotifyProper
         set {
             this.itemField = value;
             this.RaisePropertyChanged("item");
+        }
+    }
+    
+    /// <remarks/>
+    public string remarks {
+        get {
+            return this.remarksField;
+        }
+        set {
+            this.remarksField = value;
+            this.RaisePropertyChanged("remarks");
         }
     }
     

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Controller to load path element into collection.">
+    <Position X="7.26" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="HLGranite.Jawi.PathViewModel">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAEAAAABIAAAACAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PathViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HLGranite.Jawi.Workspace">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACQIAAAAQAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Workspace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HLGranite.Jawi.PunctuationSpace">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PunctuationSpace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HLGranite.Jawi.WordSpace">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WordSpace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
