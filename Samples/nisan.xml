@@ -17853,27 +17853,27 @@
     <age>66</age>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="ADI" date="2010-09-13" delivered="" price="260">
+  <order soldto="ADI" date="2010-09-13" delivered="2010-09-20" price="260">
     <name>chik bt mahmud</name>
     <death>2010-08-29</death>
     <deathm>1431-09-19</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="ADI" date="2010-09-13" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-13" delivered="2010-09-20" price="35">
     <name>abdul hadi bin apit</name>
     <jawi>عبدول هادي بن عفيت</jawi>
     <death>2010-08-22</death>
     <deathm>1431-09-12</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2010-09-14" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-14" delivered="2010-09-20" price="35">
     <name>mohd komari bin abd jalil</name>
-    <jawi>حميد كوماري  بن عبدول جليل</jawi>
+    <jawi>محمد كوماري  بن عبدول جليل</jawi>
     <death>2010-08-10</death>
     <deathm>1431-08-29</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2010-09-14" delivered="" price="350">
+  <order soldto="ADI" date="2010-09-14" delivered="2010-09-20" price="350">
     <name>hjh fatimah bt abdul hamid</name>
     <jawi>حجه فطمة بنت عبدول حميد</jawi>
     <death>2010-05-31</death>
@@ -17899,31 +17899,31 @@
     <item>2' Batu Putih(P)</item>
     <remarks>tulisan hitam</remarks>
   </order>
-  <order soldto="ADI" date="2010-09-16" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-16" delivered="2010-09-20" price="35">
     <name>Nursara bt mohd shubly</name>
-	<jawi>نورسارا بنت حميد شوبلي</jawi>
+    <jawi>نورسارا بنت محمد شوبلي</jawi>
     <born>1979-03-11</born>
     <death>2010-07-01</death>
     <deathm>1431-07-18</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2010-09-16" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-16" delivered="2010-09-20" price="35">
     <name>fatimah bt mohd Di</name>
-	<jawi>فطمة بنت حميد دي</jawi>
+    <jawi>فطمة بنت محمد دي</jawi>
     <born>1926-11-19</born>
     <death>2008-03-11</death>
     <deathm>1429-03-03</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2010-09-16" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-16" delivered="2010-09-20" price="35">
     <name>muhammad qhaliff bin ridzuan</name>
-	<jawi>حميد قهاليفف بن رضوان</jawi>
+    <jawi>محمد قهاليفف بن رضوان</jawi>
     <born>2010-06-29</born>
     <death>2010-06-30</death>
     <deathm>1431-07-17</deathm>
     <item>PV Budak</item>
   </order>
-  <order soldto="ADI" date="2010-09-16" delivered="" price="260">
+  <order soldto="ADI" date="2010-09-16" delivered="2010-09-20" price="260">
     <name>Hj abd aziz bin wahidin</name>
     <death>2010-08-07</death>
     <deathm>1431-08-26</deathm>
@@ -17990,5 +17990,55 @@
     <deathm>1418-11-10</deathm>
     <age>65</age>
     <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-19" delivered="" price="10">
+    <name>mohd sarif bin madhar</name>
+    <death>2010-09-10</death>
+    <deathm>1431-10-01</deathm>
+    <age>57</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-19" delivered="" price="10">
+    <name>siti hawa bt yussof</name>
+    <death>2010-09-12</death>
+    <deathm>1431-10-03</deathm>
+    <age>82</age>
+    <item>2' Sticker(P)</item>
+  </order>
+   <order soldto="ADI" date="2010-09-20" delivered="" price="35">
+    <name>mohamed rozali bin musa</name>
+	<jawi>محمد روزالي بن موسا</jawi>
+    <death>1996-03-14</death>
+    <deathm>1416-10-24</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+   <order soldto="ADI" date="2010-09-20" delivered="" price="35">
+    <name>jainah bt salamat</name>
+	<jawi>جاينه بنت سلامات</jawi>
+	<born>1930-12-29</born>
+    <death>2009-09-04</death>
+    <deathm>1430-09-14</deathm>
+    <item>PV</item>
+  </order>
+   <order soldto="ADI" date="2010-09-20" delivered="" price="35">
+    <name>mingan bin Hj tahir</name>
+	<jawi>ميڠان بن حاج طاهر</jawi>
+    <death>1981-04-10</death>
+    <deathm>1401-06-06</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="KEN" date="2010-09-16" delivered="" price="220">
+    <name>ROZALI BIN OTHMAN</name>
+    <death>2010-08-18</death>
+    <deathm>1431-09-08</deathm>
+    <age>53</age>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="KEN" date="2010-09-16" delivered="" price="210">
+    <name>NOOR KHAIRANI BT HJ AHMAD</name>
+    <death>2010-08-06</death>
+    <deathm>1431-08-25</deathm>
+    <age>51</age>
+    <item>2' Batu Batik(P)</item>
   </order>
 </nisan>
