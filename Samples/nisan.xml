@@ -18288,7 +18288,7 @@
   <purchase>
     <buyfrom>hlgranite</buyfrom>
     <date>2010-09-21</date>
-    <quantity>309</quantity>
+    <quantity>277</quantity>
     <price>130</price>
     <item>2' Batu Batik(L)</item>
     <remarks>just for tally purpose</remarks>
@@ -18296,7 +18296,7 @@
    <purchase>
     <buyfrom>hlgranite</buyfrom>
     <date>2010-09-21</date>
-    <quantity>-1</quantity>
+    <quantity>-11</quantity>
     <price>130</price>
     <item>2' Batu Batik(P)</item>
     <remarks>just for tally purpose</remarks>
@@ -18304,7 +18304,7 @@
   <purchase>
     <buyfrom>hlgranite</buyfrom>
     <date>2010-09-21</date>
-    <quantity>118</quantity>
+    <quantity>114</quantity>
     <price>130</price>
     <item>2' Batu Putih(L)</item>
     <remarks>just for tally purpose</remarks>
@@ -18312,7 +18312,15 @@
   <purchase>
     <buyfrom>hlgranite</buyfrom>
     <date>2010-09-21</date>
-    <quantity>81</quantity>
+    <quantity>-2</quantity>
+    <price>130</price>
+    <item>2' Batu Putih(P)</item>
+    <remarks>just for tally purpose</remarks>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-09-21</date>
+    <quantity>77</quantity>
     <price>280</price>
     <item>2' Batu Hitam(L)</item>
     <remarks>just for tally purpose</remarks>
@@ -18320,7 +18328,7 @@
   <purchase>
     <buyfrom>hlgranite</buyfrom>
     <date>2010-09-21</date>
-    <quantity>32</quantity>
+    <quantity>31</quantity>
     <price>280</price>
     <item>2' Batu Hijau(L)</item>
     <remarks>just for tally purpose</remarks>
@@ -18344,7 +18352,7 @@
   <purchase>
     <buyfrom>hlgranite</buyfrom>
     <date>2010-09-21</date>
-    <quantity>62</quantity>
+    <quantity>55</quantity>
     <price>140</price>
     <item>2' Batu Hitam(P)</item>
     <remarks>just for tally purpose</remarks>
@@ -18352,7 +18360,7 @@
   <purchase>
     <buyfrom>hlgranite</buyfrom>
     <date>2010-09-21</date>
-    <quantity>22</quantity>
+    <quantity>19</quantity>
     <price>144</price>
     <item>2' Batu Hijau(P)</item>
     <remarks>just for tally purpose</remarks>
@@ -18413,4 +18421,19 @@
     <item>拿督</item>
     <remarks>just for tally purpose</remarks>
   </purchase>
+  <order soldto="ADI" date="2010-09-22" delivered="" price="35">
+    <name>Sarbini bin hj ihsan</name>
+    <jawi>ساربيني بن حاج إحسان</jawi>
+    <death>2010-09-09</death>
+    <deathm>1431-09-30</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-09-22" delivered="" price="35">
+    <name>Awi bin Ali Ahmad</name>
+    <jawi>أوي بن علي أحمد</jawi>
+	<born>1930-11-19</born>
+    <death>2010-04-02</death>
+    <deathm>1431-04-17</deathm>
+    <item>PV</item>
+  </order>
 </nisan>
