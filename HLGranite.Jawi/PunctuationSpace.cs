@@ -11,8 +11,8 @@ namespace HLGranite.Jawi
         /// Punctuation collection view model.
         /// </summary>
         /// <param name="source"></param>
-        public PunctuationSpace(string source)
-            : base(source)
+        public PunctuationSpace()
+            : base("khots")
         {
         }
     }

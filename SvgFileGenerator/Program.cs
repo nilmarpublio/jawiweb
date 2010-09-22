@@ -22,6 +22,8 @@ namespace SvgFileGenerator
             //Application.EnableVisualStyles();
             //Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
+            int x = 0;//pending count
+            int y = 0;//success generated count
 
             List<nisanOrder> orders = new List<nisanOrder>();
             NisanReader reader = new NisanReader("nisan.xml");
@@ -41,6 +43,7 @@ namespace SvgFileGenerator
                     .Where(f => f.delivered.Length == 0 && f.item == item).ToList<nisanOrder>();
                 if (undelivered.Count > 0)
                 {
+                    x += undelivered.Count;
                     Console.WriteLine();
                     Console.WriteLine(string.Format("There are {0}:{1} pending", item, undelivered.Count));
                 }
@@ -50,12 +53,16 @@ namespace SvgFileGenerator
                     Console.Write("Writing " + order.name.ToLower() + ".svg...");
                     SvgWriter writer = new SvgWriter(order, lookupFiles[0]);
                     if (writer.Write())
+                    {
                         Console.WriteLine("done");
+                        y++;
+                    }
                     else
                         Console.WriteLine();
                 }
             }
             Console.WriteLine("Complete");
+            Console.WriteLine(string.Format("{0} pending. {1} files generated.", x, y));
 
             //wait for user input
             Console.Read();
