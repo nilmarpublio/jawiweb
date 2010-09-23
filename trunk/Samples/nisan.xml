@@ -18442,4 +18442,40 @@
     <deathm>1431-04-17</deathm>
     <item>PV</item>
   </order>
+  <order soldto="HAM" date="2010-09-23" delivered="" price="10">
+    <name>hj ahmad bin abdullah</name>
+	<born>1926-10-10</born>
+    <death>2010-09-17</death>
+    <deathm>1431-10-08</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-23" delivered="" price="10">
+    <name>wan bee bt che amat</name>
+    <death>2010-09-19</death>
+    <deathm>1431-10-10</deathm>
+    <age>66</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-23" delivered="" price="10">
+    <name>kamariah bt ibrahim</name>
+    <death>2010-09-05</death>
+    <deathm>1431-09-26</deathm>
+    <age>59</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-23" delivered="" price="10">
+    <name>amir bin noordin</name>
+    <death>2010-08-07</death>
+    <deathm>1431-08-26</deathm>
+    <age>43</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="ADI" date="2010-09-23" delivered="" price="35">
+    <name>muhammad qhaliff irfan bin ridzuan</name>
+    <jawi>محمد قهاليفف عرفان بن رضوان</jawi>
+    <born>2010-06-29</born>
+    <death>2010-06-30</death>
+    <deathm>1431-07-17</deathm>
+    <item>PV Budak</item>
+  </order>
 </nisan>
