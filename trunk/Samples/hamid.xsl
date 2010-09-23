@@ -14,6 +14,7 @@
           .headerRight {float:right;margin: 0 0 10px 80px;font-size:10px;text-align:right;}
           .content { clear:both;font-size:9pt;}
           .content h3 { text-align:center;}
+          .content h3 { font-variant:small-caps;text-align:center;}
           .content ol li {text-transform: capitalize;}
           .headline { background-color: lightgrey; clear: both;font-size:12px;}
 
@@ -70,13 +71,13 @@
           <!--Date: <script>document.write(todayStr());</script>-->
         </div>
         <div class="content">
-          <h3>STICKER LIST</h3>
+          <h3>Sticker List</h3>
           <hr></hr>
           <span class="orderHead">Order</span>
           <span class="deliver">Delivered</span>
           <span class="name">Description</span>
           <hr></hr>
-          <xsl:variable name="last">2010-09-04</xsl:variable>
+          <xsl:variable name="last">2010-09-20</xsl:variable>
           <!--<xsl:variable name="today">2010-08-23</xsl:variable>-->
           <ol>
             <xsl:for-each select="nisan/order">
