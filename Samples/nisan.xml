@@ -18089,7 +18089,7 @@
     <age>82</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2010-09-16" delivered="" price="10">
+  <order soldto="HAM" date="2010-09-16" delivered="2010-09-24" price="10">
     <name>khairoon bee bt md haniff</name>
     <death>2010-08-04</death>
     <deathm>1431-08-23</deathm>
@@ -18103,7 +18103,7 @@
     <age>69</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2010-09-16" delivered="" price="10">
+  <order soldto="HAM" date="2010-09-16" delivered="2010-09-24" price="10">
     <name>siti ishah bt ibrahim</name>
     <death>2010-04-24</death>
     <deathm>1431-05-09</deathm>
@@ -18117,7 +18117,7 @@
     <age>69</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-09-16" delivered="" price="10">
+  <order soldto="HAM" date="2010-09-16" delivered="2010-09-24" price="10">
     <name>salesia bt ahmad</name>
     <death>2010-09-09</death>
     <deathm>1431-09-30</deathm>
@@ -18138,7 +18138,7 @@
     <age>57</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-09-19" delivered="" price="10">
+  <order soldto="HAM" date="2010-09-19" delivered="2010-09-24" price="10">
     <name>siti hawa bt yussof</name>
     <death>2010-09-12</death>
     <deathm>1431-10-03</deathm>
@@ -18442,7 +18442,7 @@
     <deathm>1431-04-17</deathm>
     <item>PV</item>
   </order>
-  <order soldto="HAM" date="2010-09-23" delivered="" price="10">
+  <order soldto="HAM" date="2010-09-23" delivered="2010-09-24" price="10">
     <name>hj ahmad bin abdullah</name>
 	<born>1926-10-10</born>
     <death>2010-09-17</death>
@@ -18463,7 +18463,7 @@
     <age>59</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2010-09-23" delivered="" price="10">
+  <order soldto="HAM" date="2010-09-23" delivered="2010-09-24" price="10">
     <name>amir bin noordin</name>
     <death>2010-08-07</death>
     <deathm>1431-08-26</deathm>
