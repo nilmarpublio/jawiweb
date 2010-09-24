@@ -25,11 +25,16 @@ namespace JawiWPF
     /// </summary>
     public partial class Window1 : Window
     {
+        #region Fields
         /// <summary>
         /// Gets or sets current selected path by mouse click.
         /// </summary>
         public Path SelectedPath;
-        private string sourceLocation = @"E:\jawi\";
+        private PunctuationSpace punctuationSpace;
+        private WordSpace wordManager;
+        private HLGranite.Jawi.Action action;
+        #endregion
+
         public Window1()
         {
             InitializeComponent();
@@ -37,8 +42,12 @@ namespace JawiWPF
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             //add basic character into screen
-            AddBaseCharacter(khotSpace, sourceLocation + "khots");
-            AddBaseCharacter(wordSpace, sourceLocation + "words");
+            punctuationSpace = new PunctuationSpace();
+            khotSpace.ItemsSource = punctuationSpace.Items;
+
+            wordManager = new WordSpace();
+            wordSpace.ItemsSource = wordManager.Items;
+
             this.statusText.Text = "Ready.";
         }
         //todo: can this done in xaml with trigger?
@@ -101,6 +110,67 @@ namespace JawiWPF
             {
                 return ex.Message;
             }
+        }
+        private void Moving(Key key)
+        {
+            Thickness margin = new Thickness();
+            double step = 2.00;
+            switch (key)
+            {
+                case Key.Right:
+                    margin = new Thickness(
+                        this.SelectedPath.Margin.Left + step,
+                        this.SelectedPath.Margin.Top,
+                        this.SelectedPath.Margin.Right,
+                        this.SelectedPath.Margin.Bottom);
+                    this.SelectedPath.Margin = margin;
+                    break;
+                case Key.Left:
+                    margin = new Thickness(
+                        this.SelectedPath.Margin.Left - step,
+                        this.SelectedPath.Margin.Top,
+                        this.SelectedPath.Margin.Right,
+                        this.SelectedPath.Margin.Bottom);
+                    this.SelectedPath.Margin = margin;
+                    break;
+                case Key.Up:
+                    if (this.SelectedPath.VerticalAlignment == VerticalAlignment.Bottom)
+                        margin = new Thickness(
+                        this.SelectedPath.Margin.Left,
+                        this.SelectedPath.Margin.Top,
+                        this.SelectedPath.Margin.Right,
+                        this.SelectedPath.Margin.Bottom + step);
+                    else
+                        margin = new Thickness(
+                            this.SelectedPath.Margin.Left,
+                            this.SelectedPath.Margin.Top - step,
+                            this.SelectedPath.Margin.Right,
+                            this.SelectedPath.Margin.Bottom);
+                    this.SelectedPath.Margin = margin;
+                    break;
+                case Key.Down:
+                    if (this.SelectedPath.VerticalAlignment == VerticalAlignment.Bottom)
+                        margin = new Thickness(
+                        this.SelectedPath.Margin.Left,
+                        this.SelectedPath.Margin.Top,
+                        this.SelectedPath.Margin.Right,
+                        this.SelectedPath.Margin.Bottom - step);
+                    else
+                        margin = new Thickness(
+                            this.SelectedPath.Margin.Left,
+                            this.SelectedPath.Margin.Top + step,
+                            this.SelectedPath.Margin.Right,
+                            this.SelectedPath.Margin.Bottom);
+                    this.SelectedPath.Margin = margin;
+                    break;
+                case Key.Delete:
+                    this.workSpace.Children.Remove(this.SelectedPath);
+                    break;
+                default:
+                    break;
+            }
+
+            System.Diagnostics.Debug.WriteLine("Set new margin:" + margin);
         }
         #endregion
 
@@ -183,118 +253,69 @@ namespace JawiWPF
 
         private void workSpace_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            this.Focus();
             workSpace.Focus();
+            (e.Device.Target as Path).Focus();
             this.SelectedPath = (e.Device.Target as Path);
             System.Diagnostics.Debug.WriteLine(this.SelectedPath.Data.ToString());
-            //System.Diagnostics.Debug.WriteLine("Workspace mouse click position: " + e.GetPosition(workSpace).ToString());
+            System.Diagnostics.Debug.WriteLine("Workspace mouse click position: " + e.GetPosition(workSpace).ToString());
+            this.action = HLGranite.Jawi.Action.Moving;
         }
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            System.Diagnostics.Debug.WriteLine("Window mouse down position: " + e.GetPosition(workSpace).ToString());
             this.statusText.Text = "Current position: " + e.GetPosition(workSpace).ToString();
+            if (null == this.SelectedPath) return;
+            if (action == HLGranite.Jawi.Action.Moving) return;
 
-            if (null != this.SelectedPath) return;
             Point position = e.GetPosition(workSpace);
             bool isAlignTop = false;
             if (position.Y < (100 - 10))//10 as a buffer space
                 isAlignTop = true;
-            foreach (UIElement child in khotSpace.Children)
-            {
-                if (child is ToggleButton)
-                {
-                    if ((child as ToggleButton).IsChecked == true)
-                    {
-                        Path path = new Path();
-                        Path selectedPath = (Path)GetFirstUIElement((child as ToggleButton).Content as Grid);
-                        path.Data = selectedPath.Data;
-                        path.Fill = Brushes.Black;
 
-                        Thickness margin = new Thickness();
-                        margin.Left = position.X;
-                        //if(!isAlignTop) margin.Top
-                        path.Margin = margin;
-                        //Path original = (child as ToggleButton).Content as Grid)
-                        workSpace.Children.Add(path);
-                    }
-                }
-            }
-            foreach (UIElement child in workSpace.Children)
-            {
-            }
-        }
-        private void Window_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (null == this.SelectedPath) return;
-
+            Path path = new Path();
+            //Path selectedPath = (Path)GetFirstUIElement((child as ToggleButton).Content as Grid);
+            path.Data = this.SelectedPath.Data;
+            path.Fill = Brushes.Black;
             Thickness margin = new Thickness();
-            double step = 2.00;
-            switch (e.Key)
-            {
-                case Key.Right:
-                    margin = new Thickness(
-                        this.SelectedPath.Margin.Left + step,
-                        this.SelectedPath.Margin.Top,
-                        this.SelectedPath.Margin.Right,
-                        this.SelectedPath.Margin.Bottom);
-                    this.SelectedPath.Margin = margin;
-                    break;
-                case Key.Left:
-                    margin = new Thickness(
-                        this.SelectedPath.Margin.Left - step,
-                        this.SelectedPath.Margin.Top,
-                        this.SelectedPath.Margin.Right,
-                        this.SelectedPath.Margin.Bottom);
-                    this.SelectedPath.Margin = margin;
-                    break;
-                case Key.Up:
-                    if (this.SelectedPath.VerticalAlignment == VerticalAlignment.Bottom)
-                        margin = new Thickness(
-                        this.SelectedPath.Margin.Left,
-                        this.SelectedPath.Margin.Top,
-                        this.SelectedPath.Margin.Right,
-                        this.SelectedPath.Margin.Bottom + step);
-                    else
-                        margin = new Thickness(
-                            this.SelectedPath.Margin.Left,
-                            this.SelectedPath.Margin.Top - step,
-                            this.SelectedPath.Margin.Right,
-                            this.SelectedPath.Margin.Bottom);
-                    this.SelectedPath.Margin = margin;
-                    break;
-                case Key.Down:
-                    if (this.SelectedPath.VerticalAlignment == VerticalAlignment.Bottom)
-                        margin = new Thickness(
-                        this.SelectedPath.Margin.Left,
-                        this.SelectedPath.Margin.Top,
-                        this.SelectedPath.Margin.Right,
-                        this.SelectedPath.Margin.Bottom - step);
-                    else
-                        margin = new Thickness(
-                            this.SelectedPath.Margin.Left,
-                            this.SelectedPath.Margin.Top + step,
-                            this.SelectedPath.Margin.Right,
-                            this.SelectedPath.Margin.Bottom);
-                    this.SelectedPath.Margin = margin;
-                    break;
-                case Key.Delete:
-                    this.workSpace.Children.Remove(this.SelectedPath);
-                    break;
-                default:
-                    break;
-            }
+            margin.Left = position.X;
+            if (!isAlignTop) margin.Top = position.Y;
+            path.Margin = margin;
 
-            System.Diagnostics.Debug.WriteLine("Set new margin:" + margin);
+            workSpace.Children.Add(path);
+            this.statusText.Text = this.SelectedPath.Name + " added.";
+        }
+
+        private void ToggleButton_Checked(object sender, RoutedEventArgs e)
+        {
+            this.action = HLGranite.Jawi.Action.Writing;
+
+            PathViewModel viewModel = (PathViewModel)(sender as ToggleButton).DataContext;
+            this.SelectedPath = viewModel.Path;
+            this.SelectedPath.Name = viewModel.Name.Replace(' ', '_');
+
+            punctuationSpace.Select(viewModel);
+            wordManager.Select(viewModel);
+        }
+        private void searchButton_Click(object sender, RoutedEventArgs e)
+        {
+            wordManager.Search((sender as TextBox).Text.Trim());
         }
         #endregion
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+
+        private void wordSpace_KeyDown(object sender, KeyEventArgs e)
         {
-            foreach (UIElement child in khotSpace.Children)
-            {
-                if (child is RadioButton)
-                {
-                    System.Diagnostics.Debug.WriteLine((child as RadioButton).IsChecked);
-                }
-            }
+            System.Diagnostics.Debug.WriteLine("wordSpace_KeyDown..");
+            if (action == HLGranite.Jawi.Action.Moving)
+                Moving(e.Key);
+        }
+
+        private void khotSpace_KeyDown(object sender, KeyEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("khotSpace_KeyDown..");
+            if (action == HLGranite.Jawi.Action.Moving)
+                Moving(e.Key);
         }
     }
 }

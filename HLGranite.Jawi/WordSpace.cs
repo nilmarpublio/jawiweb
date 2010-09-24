@@ -11,8 +11,8 @@ namespace HLGranite.Jawi
         /// Word space collection view model.
         /// </summary>
         /// <param name="source"></param>
-        public WordSpace(string source)
-            : base(source)
+        public WordSpace()
+            : base("words")
         {
         }
     }

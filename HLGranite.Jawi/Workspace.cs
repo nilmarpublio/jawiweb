@@ -13,11 +13,11 @@ namespace HLGranite.Jawi
     public class Workspace
     {
         #region Properties
-        private Path selectedPath;
+        private PathViewModel selectedPath;
         /// <summary>
         /// Gets or sets current selected path.
         /// </summary>
-        public Path SelectedPath { get { return this.selectedPath; } }
+        public PathViewModel SelectedPath { get { return this.selectedPath; } }
         /// <summary>
         /// Gets or sets PathViewModel collection for this workspace.
         /// </summary>
@@ -70,19 +70,20 @@ namespace HLGranite.Jawi
         public void Sort()
         {
         }
-        public void Search()
+        public void Search(string name)
         {
+
         }
         /// <summary>
         /// Select this path to indicate this path is toggle on then toggle off the rest.
         /// </summary>
         /// <param name="path"></param>
-        public void Select(Path path)
+        public void Select(PathViewModel path)
         {
             this.selectedPath = path;
             foreach (PathViewModel item in this.Items)
             {
-                if (item.Path.Data.ToString().Equals(this.selectedPath.Data.ToString()))
+                if (item.Path.Data.ToString().Equals(this.selectedPath.Path.Data.ToString()))
                     item.IsChecked = true;
                 else
                     item.IsChecked = false;
@@ -109,5 +110,24 @@ namespace HLGranite.Jawi
             return result;
         }
         #endregion
+    }
+
+    /// <summary>
+    /// Action for adding jawi or moving.
+    /// </summary>
+    public enum Action
+    {
+        /// <summary>
+        /// Default action. Nothing to do or in ready.
+        /// </summary>
+        Idle,
+        /// <summary>
+        /// Indicate in writing mode.
+        /// </summary>
+        Writing,
+        /// <summary>
+        /// It is moving character stage.
+        /// </summary>
+        Moving,
     }
 }
