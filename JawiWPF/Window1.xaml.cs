@@ -41,14 +41,7 @@ namespace JawiWPF
         }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            //add basic character into screen
-            punctuationSpace = new PunctuationSpace();
-            khotSpace.ItemsSource = punctuationSpace.Items;
-
-            wordManager = new WordSpace();
-            wordSpace.ItemsSource = wordManager.Items;
-
-            this.statusText.Text = "Ready.";
+            Reload();
         }
         //todo: can this done in xaml with trigger?
         private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
@@ -172,6 +165,20 @@ namespace JawiWPF
 
             System.Diagnostics.Debug.WriteLine("Set new margin:" + margin);
         }
+        /// <summary>
+        /// TODO: reload library collection into screen.
+        /// </summary>
+        private void Reload()
+        {
+            //add basic character into screen
+            punctuationSpace = new PunctuationSpace();
+            khotSpace.ItemsSource = punctuationSpace.Items;
+
+            wordManager = new WordSpace();
+            wordSpace.ItemsSource = wordManager.Items;
+
+            this.statusText.Text = "Ready.";
+        }
         #endregion
 
         #region Events
@@ -188,6 +195,10 @@ namespace JawiWPF
                 dialog.PrintVisual(workSpace, "Testing");
                 this.statusText.Text = "Sent to printer.";
             }
+        }
+        private void load_Click(object sender, RoutedEventArgs e)
+        {
+            Reload();
         }
         /// <summary>
         /// SaveAs xaml.
@@ -251,6 +262,22 @@ namespace JawiWPF
             }
         }
 
+        private void ToggleButton_Checked(object sender, RoutedEventArgs e)
+        {
+            this.action = HLGranite.Jawi.Action.Writing;
+
+            PathViewModel viewModel = (PathViewModel)(sender as ToggleButton).DataContext;
+            this.SelectedPath = viewModel.Path;
+            this.SelectedPath.Name = viewModel.Name.Replace(' ', '_');
+
+            punctuationSpace.Select(viewModel);
+            wordManager.Select(viewModel);
+        }
+        private void searchButton_Click(object sender, RoutedEventArgs e)
+        {
+            wordManager.Search(searchText.Text.Trim());
+        }
+
         private void workSpace_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             this.Focus();
@@ -285,37 +312,18 @@ namespace JawiWPF
             workSpace.Children.Add(path);
             this.statusText.Text = this.SelectedPath.Name + " added.";
         }
-
-        private void ToggleButton_Checked(object sender, RoutedEventArgs e)
-        {
-            this.action = HLGranite.Jawi.Action.Writing;
-
-            PathViewModel viewModel = (PathViewModel)(sender as ToggleButton).DataContext;
-            this.SelectedPath = viewModel.Path;
-            this.SelectedPath.Name = viewModel.Name.Replace(' ', '_');
-
-            punctuationSpace.Select(viewModel);
-            wordManager.Select(viewModel);
-        }
-        private void searchButton_Click(object sender, RoutedEventArgs e)
-        {
-            wordManager.Search((sender as TextBox).Text.Trim());
-        }
-        #endregion
-
-
         private void wordSpace_KeyDown(object sender, KeyEventArgs e)
         {
             System.Diagnostics.Debug.WriteLine("wordSpace_KeyDown..");
             if (action == HLGranite.Jawi.Action.Moving)
                 Moving(e.Key);
         }
-
         private void khotSpace_KeyDown(object sender, KeyEventArgs e)
         {
             System.Diagnostics.Debug.WriteLine("khotSpace_KeyDown..");
             if (action == HLGranite.Jawi.Action.Moving)
                 Moving(e.Key);
         }
+        #endregion
     }
 }
