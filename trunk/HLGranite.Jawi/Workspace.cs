@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
+using System.Windows;
 using System.Windows.Shapes;
 using System.Windows.Media;
 
@@ -70,9 +71,19 @@ namespace HLGranite.Jawi
         public void Sort()
         {
         }
+        /// <summary>
+        /// Search.
+        /// </summary>
+        /// <param name="name"></param>
         public void Search(string name)
         {
-
+            foreach (PathViewModel item in this.Items)
+            {
+                if (item.Name.Contains(name))//todo: better matching algorithm maybe use regex
+                    item.Visibility = Visibility.Visible;
+                else
+                    item.Visibility = Visibility.Collapsed;
+            }
         }
         /// <summary>
         /// Select this path to indicate this path is toggle on then toggle off the rest.

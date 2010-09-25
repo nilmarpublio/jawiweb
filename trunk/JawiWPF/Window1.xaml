@@ -53,13 +53,15 @@
 
             <DockPanel Grid.Row="1" LastChildFill="True" Margin="20">
                 <WrapPanel DockPanel.Dock="Bottom" Margin="10">
-                    <Button Margin="4">Debug</Button>
                     <Button x:Name="print" Margin="4" Click="print_Click">Print</Button>
+                    <Button x:Name="load" Margin="4" ToolTip="Reload library" Click="load_Click">Load</Button>
                     <Button x:Name="clear" Margin="4" Click="clear_Click">Clear</Button>
                     <Button x:Name="merge" Margin="4" Click="merge_Click">Merge</Button>
                     <Button x:Name="save" Margin="4" Click="save_Click">Save</Button>
                 </WrapPanel>
-                <Grid x:Name="workSpace" Width="Auto" Height="112.5" MouseLeftButtonDown="workSpace_MouseLeftButtonDown">
+                <Grid x:Name="workSpace" Width="Auto" Height="112.5"
+                      ToolTip="Click on the object for moving"
+                      MouseLeftButtonDown="workSpace_MouseLeftButtonDown">
                     <!-- guideline -->
                     <Line Width="Auto" Stroke="Blue" StrokeDashArray="2,4" StrokeThickness="1" X1="0" Y1="0" X2="450" Y2="0"/>
                     <!-- LightSteelBlue -->
