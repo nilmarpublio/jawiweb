@@ -463,7 +463,7 @@ TODO: move into different template so that easy to maintain since 2010-09-21
           <ul>
             <li>ADI - Addin | </li>
             <li>HAM - Hamid | </li>
-            <li>JEF - Sabak Bernam Jeffri | </li>
+            <!--li>JEF - Sabak Bernam Jeffri | </li-->
             <li>KEN - Tmn Kenari | </li>
             <!--li>KIL - Kilang Lama | </li-->
             <li>SEL - Selama | </li>
