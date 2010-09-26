@@ -79,6 +79,12 @@ namespace HLGranite.Jawi
         protected bool MatchExactly(string name)
         {
             bool match = false;
+            if (string.IsNullOrEmpty(name))
+            {
+                SetVisibility(Visibility.Visible);
+                return match;
+            }
+
             foreach (PathViewModel item in this.Items)
             {
                 if (item.Name == name)
@@ -170,6 +176,11 @@ namespace HLGranite.Jawi
             if (match.Success) result = match.Groups[0].Value;
 
             return result;
+        }
+        private void SetVisibility(Visibility visibility)
+        {
+            foreach (PathViewModel item in this.Items)
+                item.Visibility = visibility;
         }
         #endregion
     }
