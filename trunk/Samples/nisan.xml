@@ -18017,19 +18017,19 @@
     <deathm>1431-06-17</deathm>
     <item>2' Batu Hijau(P)</item>
   </order>
-  <order soldto="SEM" date="2010-09-16" delivered="" price="220">
+  <order soldto="SEM" date="2010-09-16" delivered="2010-09-25" price="220">
     <name>HJ MOHD YACKOB BIN ABD KARIM</name>
     <death>2010-09-03</death>
     <deathm>1431-09-24</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2010-09-16" delivered="" price="220">
+  <order soldto="SEM" date="2010-09-16" delivered="2010-09-25" price="220">
     <name>HJ OTHMAN BIN HJ ALIAS</name>
     <death>1996-03-21</death>
     <deathm>1416-11-02</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2010-09-16" delivered="" price="220">
+  <order soldto="SEM" date="2010-09-16" delivered="2010-09-25" price="220">
     <name>HJH SALMIAH BT PUTIH</name>
     <death>2010-08-12</death>
     <deathm>1431-09-02</deathm>
@@ -18133,6 +18133,7 @@
   </order>
   <order soldto="HAM" date="2010-09-19" delivered="" price="10">
     <name>mohd sarif bin madhar</name>
+	<jawi>محمد صرف بن مضحار</jawi>
     <death>2010-09-10</death>
     <deathm>1431-10-01</deathm>
     <age>57</age>
@@ -18151,27 +18152,29 @@
     <deathm></deathm>
     <item>2" Sticker</item>
   </order>
-  <order soldto="ADI" date="2010-09-20" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-20" delivered="2010-09-24" price="35">
     <name>mohamed rozali bin musa</name>
     <jawi>محمد روزالي بن موسا</jawi>
     <death>1996-03-14</death>
     <deathm>1416-10-24</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2010-09-20" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-20" delivered="2010-09-25" price="35">
     <name>jainah bt salamat</name>
     <jawi>جاينه بنت سلامات</jawi>
     <born>1930-12-29</born>
     <death>2009-09-04</death>
     <deathm>1430-09-14</deathm>
     <item>PV</item>
+	<remarks>EN405442111MY</remarks>
   </order>
-  <order soldto="ADI" date="2010-09-20" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-20" delivered="2010-09-25" price="35">
     <name>mingan bin Hj tahir</name>
     <jawi>ميڠان بن حاج طاهر</jawi>
     <death>1981-04-10</death>
     <deathm>1401-06-06</deathm>
     <item>PV</item>
+	<remarks>EN405442111MY</remarks>
   </order>
   <order soldto="KEN" date="2010-09-16" delivered="" price="220">
     <name>ROZALI BIN OTHMAN</name>
@@ -18427,20 +18430,22 @@
     <item>拿督</item>
     <remarks>just for tally purpose</remarks>
   </purchase>
-  <order soldto="ADI" date="2010-09-22" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-22" delivered="2010-09-25" price="35">
     <name>Sarbini bin hj ihsan</name>
     <jawi>ساربيني بن حاج إحسان</jawi>
     <death>2010-09-09</death>
     <deathm>1431-09-30</deathm>
     <item>PV</item>
+	<remarks>EN405442111MY</remarks>
   </order>
-  <order soldto="ADI" date="2010-09-22" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-22" delivered="2010-09-25" price="35">
     <name>Awi bin Ali Ahmad</name>
     <jawi>أوي بن علي أحمد</jawi>
     <born>1930-11-19</born>
     <death>2010-04-02</death>
     <deathm>1431-04-17</deathm>
     <item>PV</item>
+	<remarks>EN405442111MY</remarks>
   </order>
   <order soldto="HAM" date="2010-09-23" delivered="2010-09-24" price="10">
     <name>hj ahmad bin abdullah</name>
@@ -18470,12 +18475,21 @@
     <age>43</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="ADI" date="2010-09-23" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-23" delivered="2010-09-25" price="35">
     <name>muhammad qhaliff irfan bin ridzuan</name>
     <jawi>محمد قهاليفف عرفان بن رضوان</jawi>
     <born>2010-06-29</born>
     <death>2010-06-30</death>
     <deathm>1431-07-17</deathm>
     <item>PV Budak</item>
+	<remarks>EN405442111MY</remarks>
+  </order>
+  <order soldto="ADI" date="2010-09-25" delivered="" price="35">
+    <name>Hj mohd sumairy bin Mak sum</name>
+    <jawi>حاج محمد سومايري  بن مك سوم</jawi>
+	<born>1935-09-14</born>
+    <death>2010-05-16</death>
+    <deathm>1431-06-02</deathm>
+    <item>PV</item>
   </order>
 </nisan>

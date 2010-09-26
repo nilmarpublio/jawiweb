@@ -13373,6 +13373,11 @@
     <jawi />
     <sex>0</sex>
   </rootname>
+    <rootname>
+    <rumi>sarif</rumi>
+    <jawi>صرف</jawi>
+    <sex>1</sex>
+  </rootname>
   <rootname>
     <rumi>sarijan</rumi>
     <jawi />
@@ -14180,7 +14185,7 @@
   <rootname>
     <rumi>sharif</rumi>
     <jawi>شريف</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>sharifa</rumi>
@@ -14958,7 +14963,7 @@
   <rootname>
     <rumi>sum</rumi>
     <jawi>سوم</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>sumaiyyah</rumi>
