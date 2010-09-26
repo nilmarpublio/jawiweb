@@ -177,7 +177,8 @@ namespace JawiWPF
             wordManager = new WordSpace();
             wordSpace.ItemsSource = wordManager.Items;
 
-            this.statusText.Text = "Ready.";
+            this.statusText.Text = "Ready. ";
+            this.wordCount.Text = wordManager.Items.Count + " in library.";
         }
         #endregion
 
@@ -273,9 +274,13 @@ namespace JawiWPF
             punctuationSpace.Select(viewModel);
             wordManager.Select(viewModel);
         }
+        private void searchCharacterButton_Click(object sender, RoutedEventArgs e)
+        {
+            punctuationSpace.Match(seachCharacter.Text.Trim());
+        }
         private void searchButton_Click(object sender, RoutedEventArgs e)
         {
-            wordManager.Search(searchText.Text.Trim());
+            wordManager.Contains(searchText.Text.Trim());
         }
 
         private void workSpace_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -312,17 +317,19 @@ namespace JawiWPF
             workSpace.Children.Add(path);
             this.statusText.Text = this.SelectedPath.Name + " added.";
         }
-        private void wordSpace_KeyDown(object sender, KeyEventArgs e)
-        {
-            System.Diagnostics.Debug.WriteLine("wordSpace_KeyDown..");
-            if (action == HLGranite.Jawi.Action.Moving)
-                Moving(e.Key);
-        }
         private void khotSpace_KeyDown(object sender, KeyEventArgs e)
         {
             System.Diagnostics.Debug.WriteLine("khotSpace_KeyDown..");
             if (action == HLGranite.Jawi.Action.Moving)
                 Moving(e.Key);
+        }
+        private void wordSpace_KeyDown(object sender, KeyEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("wordSpace_KeyDown..");
+            if (action == HLGranite.Jawi.Action.Moving)
+                Moving(e.Key);
+            else if (e.Key == Key.Delete)
+                wordManager.Delete(wordManager.SelectedPath);
         }
         #endregion
     }
