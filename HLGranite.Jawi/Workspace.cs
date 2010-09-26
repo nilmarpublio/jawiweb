@@ -72,18 +72,60 @@ namespace HLGranite.Jawi
         {
         }
         /// <summary>
-        /// Search.
+        /// Match exactly keyword.
         /// </summary>
         /// <param name="name"></param>
-        public void Search(string name)
+        /// <returns></returns>
+        protected bool MatchExactly(string name)
         {
+            bool match = false;
             foreach (PathViewModel item in this.Items)
             {
-                if (item.Name.Contains(name))//todo: better matching algorithm maybe use regex
+                if (item.Name == name)
+                {
+                    match = true;
                     item.Visibility = Visibility.Visible;
+                }
                 else
                     item.Visibility = Visibility.Collapsed;
             }
+
+            return match;
+        }
+        /// <summary>
+        /// Match if contains.
+        /// </summary>
+        /// <param name="name"></param>
+        protected bool Contains(string fullName)
+        {
+            bool contains = false;
+            //todo: fullName = fullName.Replace(',',' ');
+            string[] names = fullName.Split(new char[] { ' ' });
+            foreach (PathViewModel item in this.Items)
+            {
+                if (Contains(names, item.Name))
+                //if (item.Name.Contains(fullName))
+                {
+                    contains = true;
+                    item.Visibility = Visibility.Visible;
+                }
+                else
+                    item.Visibility = Visibility.Collapsed;
+            }
+
+            return contains;
+        }
+        private bool Contains(string[] names, string source)
+        {
+            bool contains = false;
+            foreach (string name in names)
+            {
+                if(source.Contains(name))
+                //if (name.Contains(source))
+                    return true;
+            }
+
+            return contains;
         }
         /// <summary>
         /// Select this path to indicate this path is toggle on then toggle off the rest.
@@ -99,6 +141,15 @@ namespace HLGranite.Jawi
                 else
                     item.IsChecked = false;
             }
+        }
+        /// <summary>
+        /// Delete the selected path and the physical file as well.
+        /// </summary>
+        /// <param name="path"></param>
+        public void Delete(PathViewModel path)
+        {
+            this.Items.Remove(path);
+            System.IO.File.Delete(source + System.IO.Path.DirectorySeparatorChar + path.Name + path.Label + ".svg");
         }
         #endregion
 

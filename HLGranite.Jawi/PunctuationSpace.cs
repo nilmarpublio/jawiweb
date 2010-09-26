@@ -15,5 +15,14 @@ namespace HLGranite.Jawi
             : base("khots")
         {
         }
+        /// <summary>
+        /// True if match exactly otherwise false.
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        public bool Match(string name)
+        {
+            return base.MatchExactly(name);
+        }
     }
 }

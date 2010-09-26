@@ -15,7 +15,7 @@
                 IsChecked="{Binding IsChecked,Mode=TwoWay,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
                 Visibility="{Binding Visibility,Mode=TwoWay,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
                 Checked="ToggleButton_Checked">
-                
+
                 <!-- @todo: DockPanel fail to bind though to get the same alignment of label and name at baseline -->
                 <StackPanel>
                     <TextBlock Text="{Binding Label}" TextAlignment="Right"/>
@@ -30,26 +30,36 @@
     <DockPanel LastChildFill="True">
         <StatusBar DockPanel.Dock="Bottom" Margin="0" Height="20" x:Name="statusBar1">
             <StatusBarItem>
-                <TextBlock x:Name="statusText" Text="Ready."/>
+                <DockPanel Width="Auto" LastChildFill="True">
+                    <TextBlock DockPanel.Dock="Right" x:Name="wordCount" Text="0 in library."/>
+                    <TextBlock x:Name="statusText" Text="Ready. "/>
+                </DockPanel>
             </StatusBarItem>
         </StatusBar>
         <Grid Margin="10 10 10 0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="140"/>
                 <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="280"/>
             </Grid.RowDefinitions>
 
-            <ScrollViewer Grid.Row="0">
-                <ItemsControl x:Name="khotSpace" KeyDown="khotSpace_KeyDown">
-                    <ItemsControl.ItemsPanel>
-                        <ItemsPanelTemplate>
-                            <WrapPanel/>
-                        </ItemsPanelTemplate>
-                    </ItemsControl.ItemsPanel>
-                </ItemsControl>
-            </ScrollViewer>
+            <GroupBox Grid.Row="0" Header="Punctuation/Character">
+                <DockPanel LastChildFill="True">
+                    <WrapPanel DockPanel.Dock="Top">
+                        <TextBox x:Name="seachCharacter" Width="60"/>
+                        <Button x:Name="searchCharacterButton" Click="searchCharacterButton_Click">Search</Button>
+                    </WrapPanel>
+                    <ScrollViewer>
+                        <ItemsControl x:Name="khotSpace" KeyDown="khotSpace_KeyDown">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </DockPanel>
+            </GroupBox>
 
             <DockPanel Grid.Row="1" LastChildFill="True" Margin="20">
                 <WrapPanel DockPanel.Dock="Bottom" Margin="10">
@@ -70,19 +80,23 @@
                 </Grid>
             </DockPanel>
 
-            <WrapPanel Grid.Row="2">
-                <TextBox x:Name="searchText" Width="250"/>
-                <Button x:Name="searchButton" Click="searchButton_Click">Search</Button>
-            </WrapPanel>
-            <ScrollViewer Grid.Row="3">
-                <ItemsControl x:Name="wordSpace" KeyDown="wordSpace_KeyDown">
-                    <ItemsControl.ItemsPanel>
-                        <ItemsPanelTemplate>
-                            <WrapPanel/>
-                        </ItemsPanelTemplate>
-                    </ItemsControl.ItemsPanel>
-                </ItemsControl>
-            </ScrollViewer>
+            <GroupBox Grid.Row="2" Header="Word Library">
+                <DockPanel LastChildFill="True">
+                    <WrapPanel DockPanel.Dock="Top">
+                        <TextBox x:Name="searchText" Width="250"/>
+                        <Button x:Name="searchButton" Click="searchButton_Click">Search</Button>
+                    </WrapPanel>
+                    <ScrollViewer>
+                        <ItemsControl x:Name="wordSpace" KeyDown="wordSpace_KeyDown">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </DockPanel>
+            </GroupBox>
         </Grid>
     </DockPanel>
 </Window>
