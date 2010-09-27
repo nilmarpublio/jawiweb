@@ -216,41 +216,57 @@ TODO: move into different template so that easy to maintain since 2010-09-21
                     <td>2'♂</td>
                     <td style="color:blue;">
                       <xsl:choose>
-                        <xsl:when test="sum(nisan/purchase/quantity[../item=$batikItem_L20])-count(nisan/order[item=$batikItem_L20 and @soldto != 'ADI'])=0">
+                        <xsl:when
+							test="sum(nisan/purchase/quantity[../item=$batikItem_L20])
+							-count(nisan/order[item=$batikItem_L20 and @soldto != 'ADI' and @soldto != 'PAS'])=0">
                           <xsl:text>-</xsl:text>
                         </xsl:when>
                         <xsl:otherwise>
-                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$batikItem_L20])-count(nisan/order[item=$batikItem_L20 and @soldto != 'ADI'])"/>
+                          <xsl:value-of
+							select="sum(nisan/purchase/quantity[../item=$batikItem_L20])
+							-count(nisan/order[item=$batikItem_L20 and @soldto != 'ADI' and @soldto != 'PAS'])"/>
                         </xsl:otherwise>
                       </xsl:choose>
                     </td>
                     <td style="color:grey;">
                       <xsl:choose>
-                        <xsl:when test="sum(nisan/purchase/quantity[../item=$putihItem_L20])-count(nisan/order[item=$putihItem_L20 and @soldto != 'ADI'])=0">
+                        <xsl:when
+							test="sum(nisan/purchase/quantity[../item=$putihItem_L20])
+							-count(nisan/order[item=$putihItem_L20 and @soldto != 'ADI' and @soldto != 'PAS'])=0">
                           <xsl:text>-</xsl:text>
                         </xsl:when>
                         <xsl:otherwise>
-                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$putihItem_L20])-count(nisan/order[item=$putihItem_L20 and @soldto != 'ADI'])"/>
+                          <xsl:value-of
+							select="sum(nisan/purchase/quantity[../item=$putihItem_L20])
+							-count(nisan/order[item=$putihItem_L20 and @soldto != 'ADI' and @soldto != 'PAS'])"/>
                         </xsl:otherwise>
                       </xsl:choose>
                     </td>
                     <td>
                       <xsl:choose>
-                        <xsl:when test="sum(nisan/purchase/quantity[../item=$hitamItem_L20])-count(nisan/order[item=$hitamItem_L20 and @soldto != 'ADI'])=0">
+                        <xsl:when
+							test="sum(nisan/purchase/quantity[../item=$hitamItem_L20])
+							-count(nisan/order[item=$hitamItem_L20 and @soldto != 'ADI' and @soldto != 'PAS'])=0">
                           <xsl:text>-</xsl:text>
                         </xsl:when>
                         <xsl:otherwise>
-                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hitamItem_L20])-count(nisan/order[item=$hitamItem_L20 and @soldto != 'ADI'])"/>
+                          <xsl:value-of
+							select="sum(nisan/purchase/quantity[../item=$hitamItem_L20])
+							-count(nisan/order[item=$hitamItem_L20 and @soldto != 'ADI' and @soldto != 'PAS'])"/>
                         </xsl:otherwise>
                       </xsl:choose>
                     </td>
                     <td style="color:green;">
                       <xsl:choose>
-                        <xsl:when test="sum(nisan/purchase/quantity[../item=$hijauItem_L20])-count(nisan/order[item=$hijauItem_L20 and @soldto != 'ADI'])=0">
+                        <xsl:when
+							test="sum(nisan/purchase/quantity[../item=$hijauItem_L20])
+							-count(nisan/order[item=$hijauItem_L20 and @soldto != 'ADI' and @soldto != 'PAS'])=0">
                           <xsl:text>-</xsl:text>
                         </xsl:when>
                         <xsl:otherwise>
-                          <xsl:value-of select="sum(nisan/purchase/quantity[../item=$hijauItem_L20])-count(nisan/order[item=$hijauItem_L20 and @soldto != 'ADI'])"/>
+                          <xsl:value-of
+							select="sum(nisan/purchase/quantity[../item=$hijauItem_L20])
+							-count(nisan/order[item=$hijauItem_L20 and @soldto != 'ADI' and @soldto != 'PAS'])"/>
                         </xsl:otherwise>
                       </xsl:choose>
                     </td>
