@@ -30,18 +30,26 @@ namespace JawiWPF
         /// <summary>
         /// Gets or sets current selected path by mouse click.
         /// </summary>
-        private Path SelectedPath;
-        private Color SelectedColor;
-
-        private PunctuationSpace punctuationSpace;
-        private WordSpace wordManager;
+        private Path selectedPath;
+        private PunctuationCollection punctuationManager;
+        private WordCollection wordManager;
         private HLGranite.Jawi.Action action;
+
+        /// <summary>
+        /// Gets or sets current selected color for painting use.
+        /// </summary>
+        private ColorViewModel selectedColor;
+        private ColorCollection colorManager;
         #endregion
 
         public Window1()
         {
             InitializeComponent();
             this.Title += " " + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            this.selectedColor = new ColorViewModel(Brushes.Black, "Black");
+
+            colorManager = new ColorCollection();
+            this.colorPallete.ItemsSource = colorManager.Items;
         }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
@@ -116,52 +124,52 @@ namespace JawiWPF
             {
                 case Key.Right:
                     margin = new Thickness(
-                        this.SelectedPath.Margin.Left + step,
-                        this.SelectedPath.Margin.Top,
-                        this.SelectedPath.Margin.Right,
-                        this.SelectedPath.Margin.Bottom);
-                    this.SelectedPath.Margin = margin;
+                        this.selectedPath.Margin.Left + step,
+                        this.selectedPath.Margin.Top,
+                        this.selectedPath.Margin.Right,
+                        this.selectedPath.Margin.Bottom);
+                    this.selectedPath.Margin = margin;
                     break;
                 case Key.Left:
                     margin = new Thickness(
-                        this.SelectedPath.Margin.Left - step,
-                        this.SelectedPath.Margin.Top,
-                        this.SelectedPath.Margin.Right,
-                        this.SelectedPath.Margin.Bottom);
-                    this.SelectedPath.Margin = margin;
+                        this.selectedPath.Margin.Left - step,
+                        this.selectedPath.Margin.Top,
+                        this.selectedPath.Margin.Right,
+                        this.selectedPath.Margin.Bottom);
+                    this.selectedPath.Margin = margin;
                     break;
                 case Key.Up:
-                    if (this.SelectedPath.VerticalAlignment == VerticalAlignment.Bottom)
+                    if (this.selectedPath.VerticalAlignment == VerticalAlignment.Bottom)
                         margin = new Thickness(
-                        this.SelectedPath.Margin.Left,
-                        this.SelectedPath.Margin.Top,
-                        this.SelectedPath.Margin.Right,
-                        this.SelectedPath.Margin.Bottom + step);
+                        this.selectedPath.Margin.Left,
+                        this.selectedPath.Margin.Top,
+                        this.selectedPath.Margin.Right,
+                        this.selectedPath.Margin.Bottom + step);
                     else
                         margin = new Thickness(
-                            this.SelectedPath.Margin.Left,
-                            this.SelectedPath.Margin.Top - step,
-                            this.SelectedPath.Margin.Right,
-                            this.SelectedPath.Margin.Bottom);
-                    this.SelectedPath.Margin = margin;
+                            this.selectedPath.Margin.Left,
+                            this.selectedPath.Margin.Top - step,
+                            this.selectedPath.Margin.Right,
+                            this.selectedPath.Margin.Bottom);
+                    this.selectedPath.Margin = margin;
                     break;
                 case Key.Down:
-                    if (this.SelectedPath.VerticalAlignment == VerticalAlignment.Bottom)
+                    if (this.selectedPath.VerticalAlignment == VerticalAlignment.Bottom)
                         margin = new Thickness(
-                        this.SelectedPath.Margin.Left,
-                        this.SelectedPath.Margin.Top,
-                        this.SelectedPath.Margin.Right,
-                        this.SelectedPath.Margin.Bottom - step);
+                        this.selectedPath.Margin.Left,
+                        this.selectedPath.Margin.Top,
+                        this.selectedPath.Margin.Right,
+                        this.selectedPath.Margin.Bottom - step);
                     else
                         margin = new Thickness(
-                            this.SelectedPath.Margin.Left,
-                            this.SelectedPath.Margin.Top + step,
-                            this.SelectedPath.Margin.Right,
-                            this.SelectedPath.Margin.Bottom);
-                    this.SelectedPath.Margin = margin;
+                            this.selectedPath.Margin.Left,
+                            this.selectedPath.Margin.Top + step,
+                            this.selectedPath.Margin.Right,
+                            this.selectedPath.Margin.Bottom);
+                    this.selectedPath.Margin = margin;
                     break;
                 case Key.Delete:
-                    this.workSpace.Children.Remove(this.SelectedPath);
+                    this.workSpace.Children.Remove(this.selectedPath);
                     break;
                 default:
                     break;
@@ -175,10 +183,10 @@ namespace JawiWPF
         private void Reload()
         {
             //add basic character into screen
-            punctuationSpace = new PunctuationSpace();
-            khotSpace.ItemsSource = punctuationSpace.Items;
+            punctuationManager = new PunctuationCollection();
+            khotSpace.ItemsSource = punctuationManager.Items;
 
-            wordManager = new WordSpace();
+            wordManager = new WordCollection();
             wordSpace.ItemsSource = wordManager.Items;
 
             this.statusText.Text = "Ready";
@@ -267,20 +275,28 @@ namespace JawiWPF
             }
         }
 
+        private void ColorButton_Checked(object sender, RoutedEventArgs e)
+        {
+            ColorViewModel viewModel = (sender as ToggleButton).DataContext as ColorViewModel;
+            colorManager.Select(viewModel);
+            this.selectedColor = colorManager.SelectedColor;
+            this.statusText.Text = "Picked color " + viewModel.Name;
+        }
+
         private void ToggleButton_Checked(object sender, RoutedEventArgs e)
         {
             this.action = HLGranite.Jawi.Action.Writing;
 
             PathViewModel viewModel = (PathViewModel)(sender as ToggleButton).DataContext;
-            this.SelectedPath = viewModel.Path;
-            this.SelectedPath.Name = viewModel.Name.Replace(' ', '_');
+            this.selectedPath = viewModel.Path;
+            this.selectedPath.Name = viewModel.Name.Replace(' ', '_');
 
-            punctuationSpace.Select(viewModel);
+            punctuationManager.Select(viewModel);
             wordManager.Select(viewModel);
         }
         private void searchCharacterButton_Click(object sender, RoutedEventArgs e)
         {
-            punctuationSpace.Match(seachCharacter.Text.Trim());
+            punctuationManager.Match(seachCharacter.Text.Trim());
         }
         private void searchButton_Click(object sender, RoutedEventArgs e)
         {
@@ -292,8 +308,8 @@ namespace JawiWPF
             this.Focus();
             workSpace.Focus();
             (e.Device.Target as Path).Focus();
-            this.SelectedPath = (e.Device.Target as Path);
-            System.Diagnostics.Debug.WriteLine(this.SelectedPath.Data.ToString());
+            this.selectedPath = (e.Device.Target as Path);
+            System.Diagnostics.Debug.WriteLine(this.selectedPath.Data.ToString());
             System.Diagnostics.Debug.WriteLine("Workspace mouse click position: " + e.GetPosition(workSpace).ToString());
             this.action = HLGranite.Jawi.Action.Moving;
         }
@@ -301,7 +317,7 @@ namespace JawiWPF
         {
             System.Diagnostics.Debug.WriteLine("Window mouse down position: " + e.GetPosition(workSpace).ToString());
             this.statusText.Text = "Current position: " + e.GetPosition(workSpace).ToString();
-            if (null == this.SelectedPath) return;
+            if (null == this.selectedPath) return;
             if (action == HLGranite.Jawi.Action.Moving) return;
 
             Point position = e.GetPosition(workSpace);
@@ -311,15 +327,18 @@ namespace JawiWPF
 
             Path path = new Path();
             //Path selectedPath = (Path)GetFirstUIElement((child as ToggleButton).Content as Grid);
-            path.Data = this.SelectedPath.Data;
-            path.Fill = Brushes.Black;
+            path.Data = this.selectedPath.Data;
+
+            //todo: how to handle white color scenario?
+            Brush brush = (Brush)new BrushConverter().ConvertFromString(this.selectedColor.Name);//Brushes.Black;
+            path.Fill = brush;
             Thickness margin = new Thickness();
             margin.Left = position.X;
             if (!isAlignTop) margin.Top = position.Y;
             path.Margin = margin;
 
             workSpace.Children.Add(path);
-            this.statusText.Text = this.SelectedPath.Name + " added";
+            this.statusText.Text = this.selectedPath.Name + " added";
         }
         private void khotSpace_KeyDown(object sender, KeyEventArgs e)
         {
@@ -334,6 +353,12 @@ namespace JawiWPF
                 Moving(e.Key);
             else if (e.Key == Key.Delete)
                 wordManager.Delete(wordManager.SelectedPath);
+        }
+        private void colorPallete_KeyDown(object sender, KeyEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("colorPallete_KeyDown..");
+            if (action == HLGranite.Jawi.Action.Moving)
+                Moving(e.Key);
         }
         //todo: workSpace_MouseMove
         private void workSpace_MouseMove(object sender, MouseEventArgs e)

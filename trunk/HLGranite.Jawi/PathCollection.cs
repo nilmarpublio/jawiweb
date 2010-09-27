@@ -11,18 +11,13 @@ using System.Windows.Media;
 
 namespace HLGranite.Jawi
 {
-    public class Workspace
+    public class PathCollection : GraphicCollection
     {
         #region Properties
-        private PathViewModel selectedPath;
         /// <summary>
         /// Gets or sets current selected path.
         /// </summary>
-        public PathViewModel SelectedPath { get { return this.selectedPath; } }
-        /// <summary>
-        /// Gets or sets PathViewModel collection for this workspace.
-        /// </summary>
-        public ObservableCollection<PathViewModel> Items { get; set; }
+        public PathViewModel SelectedPath { get { return (PathViewModel)this.selectedGraphic; } }
         /// <summary>
         /// Source folder to read from.
         /// </summary>
@@ -32,7 +27,8 @@ namespace HLGranite.Jawi
         /// <summary>
         /// Default constructor.
         /// </summary>
-        public Workspace(string source)
+        public PathCollection(string source)
+            : base()
         {
             this.source = source;
             Initialize();
@@ -41,7 +37,6 @@ namespace HLGranite.Jawi
         #region Methods
         protected void Initialize()
         {
-            this.Items = new ObservableCollection<PathViewModel>();
             System.IO.DirectoryInfo directoryInfo = new System.IO.DirectoryInfo(source);
             System.IO.FileInfo[] filesInfo = directoryInfo.GetFiles();
             foreach (System.IO.FileInfo info in filesInfo)
@@ -63,7 +58,7 @@ namespace HLGranite.Jawi
                     if (label.Length > 0) name = name.Replace(label, string.Empty);
 
                     PathViewModel item = new PathViewModel(name, path, label);
-                    this.Items.Add(item);
+                    this.items.Add(item);
                     break;
                 }
             }//end loops
@@ -85,7 +80,7 @@ namespace HLGranite.Jawi
                 return match;
             }
 
-            foreach (PathViewModel item in this.Items)
+            foreach (PathViewModel item in this.items)
             {
                 if (item.Name == name)
                 {
@@ -107,7 +102,7 @@ namespace HLGranite.Jawi
             bool contains = false;
             //todo: fullName = fullName.Replace(',',' ');
             string[] names = fullName.Split(new char[] { ' ' });
-            foreach (PathViewModel item in this.Items)
+            foreach (PathViewModel item in this.items)
             {
                 if (Contains(names, item.Name))
                 //if (item.Name.Contains(fullName))
@@ -126,8 +121,8 @@ namespace HLGranite.Jawi
             bool contains = false;
             foreach (string name in names)
             {
-                if(source.Contains(name))
-                //if (name.Contains(source))
+                if (source.Contains(name))
+                    //if (name.Contains(source))
                     return true;
             }
 
@@ -139,10 +134,10 @@ namespace HLGranite.Jawi
         /// <param name="path"></param>
         public void Select(PathViewModel path)
         {
-            this.selectedPath = path;
-            foreach (PathViewModel item in this.Items)
+            this.selectedGraphic = path;
+            foreach (PathViewModel item in this.items)
             {
-                if (item.Path.Data.ToString().Equals(this.selectedPath.Path.Data.ToString()))
+                if (item.Path.Data.ToString().Equals(path.Path.Data.ToString()))
                     item.IsChecked = true;
                 else
                     item.IsChecked = false;
@@ -154,7 +149,7 @@ namespace HLGranite.Jawi
         /// <param name="path"></param>
         public void Delete(PathViewModel path)
         {
-            this.Items.Remove(path);
+            this.items.Remove(path);
             System.IO.File.Delete(source + System.IO.Path.DirectorySeparatorChar + path.Name + path.Label + ".svg");
         }
         #endregion
@@ -179,7 +174,7 @@ namespace HLGranite.Jawi
         }
         private void SetVisibility(Visibility visibility)
         {
-            foreach (PathViewModel item in this.Items)
+            foreach (PathViewModel item in this.items)
                 item.Visibility = visibility;
         }
         #endregion

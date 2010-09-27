@@ -27,6 +27,16 @@
                 </StackPanel>
             </ToggleButton>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type j:ColorViewModel}">
+            <ToggleButton
+                x:Name="ColorButton"
+                Height="16" Width="16"
+                Background="{Binding Color}"
+                ToolTip="{Binding Name}"
+                IsChecked="{Binding IsChecked,Mode=TwoWay,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
+                Checked="ColorButton_Checked">
+            </ToggleButton>
+        </DataTemplate>
     </Window.Resources>
     <DockPanel LastChildFill="True">
         <StatusBar DockPanel.Dock="Bottom" Margin="0" Height="20" x:Name="statusBar1">
@@ -96,7 +106,13 @@
                     <!-- @todo: add color palete -->
                     <!-- @see http://visualizationtools.net/default/?p=2380 -->
                     <WrapPanel>
-                        
+                        <ItemsControl x:Name="colorPallete" KeyDown="colorPallete_KeyDown">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                        </ItemsControl>
                     </WrapPanel>
                 </DockPanel>
                 <!--@todo: MouseMove="workSpace_MouseMove"-->

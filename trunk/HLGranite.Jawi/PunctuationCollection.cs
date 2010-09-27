@@ -5,13 +5,13 @@ using System.Text;
 
 namespace HLGranite.Jawi
 {
-    public class PunctuationSpace : Workspace
+    public class PunctuationCollection : PathCollection
     {
         /// <summary>
         /// Punctuation collection view model.
         /// </summary>
         /// <param name="source"></param>
-        public PunctuationSpace()
+        public PunctuationCollection()
             : base("khots")
         {
         }

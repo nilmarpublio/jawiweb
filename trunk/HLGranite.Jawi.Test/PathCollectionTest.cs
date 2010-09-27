@@ -18,7 +18,7 @@ namespace HLGranite.Jawi.Test
         [TestMethod()]
         public void GetLabelTest()
         {
-            Workspace_Accessor target = new Workspace_Accessor(@"E:\jawi\khots");
+            PathCollection_Accessor target = new PathCollection_Accessor(@"E:\jawi\khots");
             string[] testers = new string[] { "file.svg", "file2.svg", "file3.svg", "nor.svg", "nor2.svg", "noor.svg", "noor2.svg", "noor21.svg", };
             string[] expecteds = new string[] { string.Empty, "2", "3", string.Empty, "2", string.Empty, "2", "21", };
             for (int i = 0; i < testers.Length; i++)
@@ -34,7 +34,7 @@ namespace HLGranite.Jawi.Test
         [TestMethod()]
         public void InitializeTest()
         {
-            Workspace target = new Workspace(@"E:\jawi\khots");
+            PathCollection target = new PathCollection(@"E:\jawi\khots");
             Assert.IsTrue(target.Items.Count > 0);
         }
         /// <summary>
@@ -43,7 +43,7 @@ namespace HLGranite.Jawi.Test
         [TestMethod()]
         public void SelectTest()
         {
-            Workspace target = new Workspace(@"E:\jawi\khots");
+            PathCollection target = new PathCollection(@"E:\jawi\khots");
             //alef raw data
             string alef = "M2.8853219,14.535578L3.4452919,24.413808 6.0826619,72.682508C6.0826619,72.682508 7.8725619,70.888858 8.9450019,69.255188 10.466172,66.940318 10.546172,64.950418 11.003652,62.728038 11.362382,60.984378 11.386132,60.595648 11.238632,58.834488L8.3512919,24.397558 8.0763019,18.551618C8.3637919,18.709108,8.6375219,18.851598,8.8950119,18.977838L13.337272,21.177728 12.489822,18.840348C12.393622,18.575368 12.291082,18.294128 12.188582,18.011638 10.956152,14.616818 10.272432,11.259498 9.4512319,7.77842770000001 8.6662719,4.44610770000001 7.6188219,0.00758770000001263 7.6188219,0.00758770000001263 7.6188219,0.00758770000001263 6.8776119,-0.0311122999999874 6.1939019,0.0662877000000126 4.3165019,0.335027700000013 0.307961849999997,6.31470770000001 0.0479718499999979,7.67338770000001 0.0229718499999979,7.80212770000001 0.00797184999999793,7.93087770000001 0.00297184999999793,8.05836770000001 -0.00832815000000207,8.33959770000001 0.0129718499999979,8.63458770000001 0.0604718499999979,8.93956770000001 0.404201849999998,11.129458 1.5066519,12.998108 2.8853219,14.535528z";
             Path path = new Path();
