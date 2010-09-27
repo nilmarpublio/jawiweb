@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("HLGranite.Jawi")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("RoundHeart Inc.")]
+[assembly: AssemblyCompany("HLGranite Manufacturing")]
 [assembly: AssemblyProduct("HLGranite.Jawi")]
-[assembly: AssemblyCopyright("Copyright © RoundHeart Inc. 2010")]
+[assembly: AssemblyCopyright("Copyright © HLGranite Manufacturing 2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.10.926.185")]
-[assembly: AssemblyFileVersion("0.10.926.185")]
+[assembly: AssemblyVersion("0.10.927.192")]
+[assembly: AssemblyFileVersion("0.10.927.192")]
