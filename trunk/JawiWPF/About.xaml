@@ -1,0 +1,8 @@
+﻿<Window x:Class="JawiWPF.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="About" WindowStyle="ToolWindow" ResizeMode="NoResize" ShowInTaskbar="False" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterOwner">
+    <WrapPanel Margin="10">
+        <TextBlock x:Name="textBlock1" TextAlignment="Center" Text="Contact yancyn@gmail.com"/>
+    </WrapPanel>
+</Window>
