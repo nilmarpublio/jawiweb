@@ -5,9 +5,13 @@ using System.Text;
 using System.IO;
 //using System.Drawing;
 using System.Windows;
+using System.Windows.Media;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Xml.Linq;
+//using SVGLib;
+//using Svg;
+//using Svg.Pathing;
 
 namespace HLGranite.Jawi
 {
@@ -128,6 +132,13 @@ namespace HLGranite.Jawi
             width = x.Max() - x.Min();
             height = y.Max() - y.Min();
             size = new Size(width, height);
+
+            //SvgPath path = new SvgPath();
+            //path.PathData = (Geometry)new GeometryConverter().ConvertFromString(rawDataString);
+
+            //SvgPath path = new SvgPath(new SvgDoc(), rawDataString);
+            //string sizeInString = path.PathLength;
+            //System.Diagnostics.Debug.WriteLine(sizeInString);
 
             return size;
         }
