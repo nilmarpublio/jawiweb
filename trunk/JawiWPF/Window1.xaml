@@ -39,6 +39,12 @@
         </DataTemplate>
     </Window.Resources>
     <DockPanel LastChildFill="True">
+        <Menu DockPanel.Dock="Top" IsMainMenu="True">
+            <MenuItem Header="_Help">
+                <MenuItem x:Name="characterMenu" Header="_Character Map"/>
+                <MenuItem x:Name="aboutMenu" Header="_About" Click="aboutMenu_Click"/>
+            </MenuItem>
+        </Menu>
         <StatusBar DockPanel.Dock="Bottom" Margin="0" Height="20" x:Name="statusBar1">
             <StatusBar.ItemsPanel>
                 <ItemsPanelTemplate>
