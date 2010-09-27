@@ -320,6 +320,13 @@ namespace JawiWPF
             hRuler.Chip = vRuler.Unit == Unit.Cm ? DipHelper.DipToCm(p.X) : DipHelper.DipToInch(p.X);
             vRuler.Chip = vRuler.Unit == Unit.Cm ? DipHelper.DipToCm(p.Y) : DipHelper.DipToInch(p.Y);
         }
+
+        private void aboutMenu_Click(object sender, RoutedEventArgs e)
+        {
+            About about = new About();
+            about.Owner = this;
+            about.ShowDialog();
+        }
         #endregion
     }
 }
