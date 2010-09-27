@@ -35,6 +35,15 @@
                 ToolTip="{Binding Name}"
                 IsChecked="{Binding IsChecked,Mode=TwoWay,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
                 Checked="ColorButton_Checked">
+                <!--<ToggleButton.Style>
+                    <Style TargetType="{x:Type ToggleButton}">
+                        <Style.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter Property="Background" Value="{Binding Color}"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </ToggleButton.Style>-->
             </ToggleButton>
         </DataTemplate>
     </Window.Resources>
