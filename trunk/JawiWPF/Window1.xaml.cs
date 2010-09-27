@@ -88,8 +88,8 @@ namespace JawiWPF
         private void AddPath(Point position)
         {
             bool isAlignTop = false;
-            //10 as a buffer space
-            if (position.Y < (100 - 10)) isAlignTop = true;
+            //50% as a buffer space
+            if (position.Y < 100 / 2) isAlignTop = true;
 
             Path path = new Path();
             //Path selectedPath = (Path)GetFirstUIElement((child as ToggleButton).Content as Grid);

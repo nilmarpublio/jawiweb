@@ -96,10 +96,12 @@ namespace HLGranite.Jawi
         /// <summary>
         /// Match if contains.
         /// </summary>
-        /// <param name="name"></param>
+        /// <remarks>No case sensitive.</remarks>
+        /// <param name="fullName"></param>
         protected bool Contains(string fullName)
         {
             bool contains = false;
+            fullName = fullName.ToLower();
             //todo: fullName = fullName.Replace(',',' ');
             string[] names = fullName.Split(new char[] { ' ' });
             foreach (PathViewModel item in this.items)
