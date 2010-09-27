@@ -18116,8 +18116,9 @@
     <age>69</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-09-16" delivered="2010-09-24" price="10">
+  <order soldto="HAM" date="2010-09-16" delivered="" price="10">
     <name>salesia bt ahmad</name>
+    <jawi>صلصة بنت أحمد</jawi>
     <death>2010-09-09</death>
     <deathm>1431-09-30</deathm>
     <age>70</age>
@@ -18175,14 +18176,14 @@
     <item>PV</item>
     <remarks>EN405442111MY</remarks>
   </order>
-  <order soldto="KEN" date="2010-09-16" delivered="" price="220">
+  <order soldto="KEN" date="2010-09-16" delivered="2010-09-27" price="220">
     <name>ROZALI BIN OTHMAN</name>
     <death>2010-08-18</death>
     <deathm>1431-09-08</deathm>
     <age>53</age>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="KEN" date="2010-09-16" delivered="" price="210">
+  <order soldto="KEN" date="2010-09-16" delivered="2010-09-27" price="210">
     <name>NOOR KHAIRANI BT HJ AHMAD</name>
     <death>2010-08-06</death>
     <deathm>1431-08-25</deathm>
@@ -18523,5 +18524,47 @@
     <death>2009-06-02</death>
     <deathm>1430-06-09</deathm>
     <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-26" delivered="" price="10">
+    <name>mohd jalma bebe bt syed(salmah)</name>
+    <death>2010-08-13</death>
+    <deathm>1431-09-03</deathm>
+    <age>59</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-26" delivered="" price="10">
+    <name>nursyariyah bt rokhimi</name>
+    <jawi>نورشاريه بنت روكيحمي</jawi>
+    <death>1998-05-28</death>
+    <deathm>1419-02-02</deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-26" delivered="" price="10">
+    <name>Blessings on Muhammad and his family</name>
+    <jawi>اللحم صلي علي محمد وال محمد</jawi>
+    <death></death>
+    <deathm></deathm>
+    <age></age>
+    <item>4" Sticker</item>
+  </order>
+  <order soldto="HAM" date="2010-09-26" delivered="" price="10">
+    <name>hj n.m. mohd ismail bin mohd ghani</name>
+    <death>1985-08-25</death>
+    <deathm>1405-12-09</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-26" delivered="" price="10">
+    <name>normah bt ismail</name>
+    <death>2010-09-24</death>
+    <deathm>1431-10-15</deathm>
+    <age>36</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-09-26" delivered="" price="10">
+    <name>ismail bin hashim</name>
+    <death>1981-08-01</death>
+    <deathm>1401-10-01</deathm>
+    <age>53</age>
+    <item>2' Sticker(L)</item>
   </order>
 </nisan>
