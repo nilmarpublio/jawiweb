@@ -8,6 +8,7 @@ using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Xml.Linq;
+using System.Xml.Xsl;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Shapes;
@@ -501,6 +502,35 @@ namespace HLGranite.Jawi
                 throw ex;
             }
             finally { if (null != writer) writer.Close(); }
+        }
+        /// <summary>
+        /// TODO: XamlToSvgTransform.
+        /// </summary>
+        /// <param name="xamlFile"></param>
+        /// <param name="styleSheet"></param>
+        /// <param name="svgFile"></param>
+        /// <returns></returns>
+        /// <remarks>
+        /// <example>
+        /// XamlToSvgTransform("output.xaml", "xaml2svg.xsl", "output.svg");
+        /// </example>
+        /// </remarks>
+        /// <seealso>http://blogs.msdn.com/b/ashish/archive/2008/01/15/dynamically-producing-xaml-files-using-xamlwriter-save-method.aspx</seealso>
+        private string XamlToSvgTransform(string xamlFile, string styleSheet, string svgFile)
+        {
+            try
+            {
+                XsltSettings settings = new XsltSettings(true, true);
+                XslCompiledTransform xslt = new XslCompiledTransform();
+                xslt.Load(styleSheet, settings, new XmlUrlResolver());
+                xslt.Transform(xamlFile, svgFile);
+
+                return string.Empty;
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
+            }
         }
         /// <summary>
         /// Group all jawi caligraphy and merge into generated svg file if has.
