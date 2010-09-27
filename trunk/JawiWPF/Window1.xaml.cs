@@ -29,7 +29,9 @@ namespace JawiWPF
         /// <summary>
         /// Gets or sets current selected path by mouse click.
         /// </summary>
-        public Path SelectedPath;
+        private Path SelectedPath;
+        private Color SelectedColor;
+
         private PunctuationSpace punctuationSpace;
         private WordSpace wordManager;
         private HLGranite.Jawi.Action action;
@@ -167,7 +169,7 @@ namespace JawiWPF
             System.Diagnostics.Debug.WriteLine("Set new margin:" + margin);
         }
         /// <summary>
-        /// TODO: reload library collection into screen.
+        /// Reload library collection into screen.
         /// </summary>
         private void Reload()
         {
@@ -179,7 +181,7 @@ namespace JawiWPF
             wordSpace.ItemsSource = wordManager.Items;
 
             this.statusText.Text = "Ready";
-            this.wordCount.Text = wordManager.Items.Count + " in library";
+            this.wordCount.Text = wordManager.Items.Count + " words";
         }
         #endregion
 

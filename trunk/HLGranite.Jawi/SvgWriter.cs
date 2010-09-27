@@ -100,13 +100,13 @@ namespace HLGranite.Jawi
             if (!string.IsNullOrEmpty(order.age))
             {
                 file = templatePath.Replace(".svg", "3.svg");
-				//todo: tolerance for age template
+                //tolerance for age template
                 this.tolerance = new Point(0, -18.00);
             }
             else if (!string.IsNullOrEmpty(order.born))
             {
                 file = templatePath.Replace(".svg", "2.svg");
-				//todo: tolerance for born template
+                //tolerance for born template
                 this.tolerance = new Point(0, -20.00);
             }
             else
@@ -277,17 +277,16 @@ namespace HLGranite.Jawi
         {
             string[] dates = order.death.Split(new char[] { '-' });
             string date = string.Empty;
-            if (dates.Length == 3)
+            if (dates.Length == 1)
+                date += dates[0];
+            else if (dates.Length == 3)
             {
                 date += Convert.ToInt32(dates[2].Substring(0, 2)).ToString() + ".";
                 date += Convert.ToInt32(dates[1].Substring(0, 2)).ToString() + ".";
                 date += dates[0];
-                //for (int i = dates.Length - 1; i >= 0; i--)
-                //    date += dates[i] + ".";
-                //date = date.TrimEnd(new char[] { '.' });
-
-                WriteElement(date, line);
             }
+
+            WriteElement(date, line);
         }
         private void WaitToWriteMuslimDeath(string line)
         {
@@ -314,14 +313,15 @@ namespace HLGranite.Jawi
         {
             string[] dates = order.born.Split(new char[] { '-' });
             string date = string.Empty;
-            if (dates.Length == 3)
+            if (dates.Length == 1)
+                date += dates[0];
+            else if (dates.Length == 3)
             {
                 date += Convert.ToInt32(dates[2].Substring(0, 2)).ToString() + ".";
                 date += Convert.ToInt32(dates[1].Substring(0, 2)).ToString() + ".";
                 date += dates[0];
-
-                WriteElement(date, line);
             }
+            WriteElement(date, line);
         }
         private void WaitToWriteAge(string line)
         {
