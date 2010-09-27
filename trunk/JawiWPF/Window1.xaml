@@ -75,8 +75,8 @@
             </GroupBox>
 
             <DockPanel Grid.Row="1" LastChildFill="True" Margin="20">
-                <h:Ruler DockPanel.Dock="Top" Unit="Inch" Margin="36 0 0 15" />
-                <h:Ruler DockPanel.Dock="Left" Unit="Inch" Marks="Up" Length="1.5" Margin="0 0 15 0">
+                <h:Ruler x:Name="hRuler" DockPanel.Dock="Top" Unit="Inch" Margin="36 0 0 15" />
+                <h:Ruler x:Name="vRuler" DockPanel.Dock="Left" Unit="Inch" Marks="Up" Length="1.5" Margin="0 0 15 0">
                     <h:Ruler.LayoutTransform>
                         <TransformGroup>
                             <RotateTransform Angle="90" />
@@ -84,13 +84,22 @@
                         </TransformGroup>
                     </h:Ruler.LayoutTransform>
                 </h:Ruler>
-                <WrapPanel DockPanel.Dock="Bottom" Margin="10">
-                    <Button x:Name="print" Margin="4" Click="print_Click">Print</Button>
-                    <Button x:Name="load" Margin="4" ToolTip="Reload library" Click="load_Click">Load</Button>
-                    <Button x:Name="clear" Margin="4" Click="clear_Click">Clear</Button>
-                    <Button x:Name="merge" Margin="4" Click="merge_Click">Merge</Button>
-                    <Button x:Name="save" Margin="4" Click="save_Click">Save</Button>
-                </WrapPanel>
+                <DockPanel DockPanel.Dock="Bottom" Margin="10">
+                    <WrapPanel DockPanel.Dock="Right">
+                        <Button x:Name="print" Margin="4" Click="print_Click">Print</Button>
+                        <Button x:Name="load" Margin="4" ToolTip="Reload library" Click="load_Click">Load</Button>
+                        <Button x:Name="clear" Margin="4" Click="clear_Click">Clear</Button>
+                        <Button x:Name="merge" Margin="4" Click="merge_Click">Merge</Button>
+                        <Button x:Name="save" Margin="4" Click="save_Click">Save</Button>
+                    </WrapPanel>
+                    
+                    <!-- @todo: add color palete -->
+                    <!-- @see http://visualizationtools.net/default/?p=2380 -->
+                    <WrapPanel>
+                        
+                    </WrapPanel>
+                </DockPanel>
+                <!--@todo: MouseMove="workSpace_MouseMove"-->
                 <Grid x:Name="workSpace" Width="Auto" Height="112.5"
                       ToolTip="Click on the object for moving"
                       MouseLeftButtonDown="workSpace_MouseLeftButtonDown">

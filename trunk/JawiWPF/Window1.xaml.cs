@@ -16,6 +16,7 @@ using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Xsl;
 //using System.IO;
+using HLGranite.WPF;
 using HLGranite.Jawi;
 
 namespace JawiWPF
@@ -333,6 +334,13 @@ namespace JawiWPF
                 Moving(e.Key);
             else if (e.Key == Key.Delete)
                 wordManager.Delete(wordManager.SelectedPath);
+        }
+        //todo: workSpace_MouseMove
+        private void workSpace_MouseMove(object sender, MouseEventArgs e)
+        {
+            Point p = e.GetPosition(workSpace);
+            hRuler.Chip = vRuler.Unit == Unit.Cm ? DipHelper.DipToCm(p.X) : DipHelper.DipToInch(p.X);
+            vRuler.Chip = vRuler.Unit == Unit.Cm ? DipHelper.DipToCm(p.Y) : DipHelper.DipToInch(p.Y);
         }
         #endregion
     }
