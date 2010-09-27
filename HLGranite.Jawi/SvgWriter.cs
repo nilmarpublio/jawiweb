@@ -462,7 +462,11 @@ namespace HLGranite.Jawi
             output += string.Format("\n\ttransform=\"translate({0},{1})\"", left, top);
 
             output += string.Format("\n\td=\"{0}\"", path.Data.ToString());
-            output += string.Format("\n\tstyle=\"fill:{0};stroke:none\"", path.Fill.ToString());//#000000
+            //todo: handle white color with border thinkness 1
+            if (path.Fill == Brushes.Black || path.Fill == Brushes.White)
+                output += string.Format("\n\tstyle=\"fill:{0};stroke:none\"", path.Fill.ToString());//#000000
+            else
+                output += string.Format("\n\tstyle=\"fill:{0};stroke:none;fill-opacity:1\"", path.Fill.ToString().TrimStart(new char[] { 'F', 'F' }));
 
             //path.Margin
             output += " />";

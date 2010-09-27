@@ -56,15 +56,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArabicCharacterCollection.cs" />
+    <Compile Include="CharacterCollection.cs" />
+    <Compile Include="ColorCollection.cs" />
+    <Compile Include="ColorViewModel.cs" />
+    <Compile Include="GraphicCollection.cs" />
+    <Compile Include="GraphicViewModel.cs" />
     <Compile Include="nisan.cs" />
     <Compile Include="NisanReader.cs" />
+    <Compile Include="PathCollection.cs" />
     <Compile Include="PathViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PunctuationSpace.cs" />
+    <Compile Include="PunctuationCollection.cs" />
     <Compile Include="SvgReader.cs" />
     <Compile Include="SvgWriter.cs" />
-    <Compile Include="WordSpace.cs" />
-    <Compile Include="Workspace.cs" />
+    <Compile Include="WordCollection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="PathClassDiagram.cd" />
@@ -77,4 +82,9 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Notes="&lt;Notes Project=&quot;6fb0c4f0-ee8a-4033-8f67-eab40f661782&quot; xmlns=&quot;clr-namespace:StickyNotes.Model;assembly=StickyNotes&quot;&gt;&lt;Notes.StickyNotes&gt;&lt;Note FilePath=&quot;&quot; Content=&quot;&quot; Date=&quot;2010-09-27T13:22:31.5457747+08:00&quot; /&gt;&lt;/Notes.StickyNotes&gt;&lt;/Notes&gt;" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

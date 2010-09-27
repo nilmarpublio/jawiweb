@@ -5,13 +5,13 @@ using System.Text;
 
 namespace HLGranite.Jawi
 {
-    public class WordSpace : Workspace
+    public class WordCollection : PathCollection
     {
         /// <summary>
         /// Word space collection view model.
         /// </summary>
         /// <param name="source"></param>
-        public WordSpace()
+        public WordCollection()
             : base("words")
         {
         }
