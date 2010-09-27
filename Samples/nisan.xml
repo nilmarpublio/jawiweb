@@ -6,7 +6,6 @@
     <death>2006-08-21</death>
     <item>2' Batu Putih(P)</item>
   </order>
-
   <purchase>
     <buyfrom>hlgranite</buyfrom>
     <date>2008-11-02</date>
@@ -18133,7 +18132,7 @@
   </order>
   <order soldto="HAM" date="2010-09-19" delivered="" price="10">
     <name>mohd sarif bin madhar</name>
-	<jawi>محمد صرف بن مضحار</jawi>
+    <jawi>محمد صرف بن مضحار</jawi>
     <death>2010-09-10</death>
     <deathm>1431-10-01</deathm>
     <age>57</age>
@@ -18166,7 +18165,7 @@
     <death>2009-09-04</death>
     <deathm>1430-09-14</deathm>
     <item>PV</item>
-	<remarks>EN405442111MY</remarks>
+    <remarks>EN405442111MY</remarks>
   </order>
   <order soldto="ADI" date="2010-09-20" delivered="2010-09-25" price="35">
     <name>mingan bin Hj tahir</name>
@@ -18174,7 +18173,7 @@
     <death>1981-04-10</death>
     <deathm>1401-06-06</deathm>
     <item>PV</item>
-	<remarks>EN405442111MY</remarks>
+    <remarks>EN405442111MY</remarks>
   </order>
   <order soldto="KEN" date="2010-09-16" delivered="" price="220">
     <name>ROZALI BIN OTHMAN</name>
@@ -18297,7 +18296,7 @@
   <purchase>
     <buyfrom>hlgranite</buyfrom>
     <date>2010-09-21</date>
-    <quantity>277</quantity>
+    <quantity>274</quantity>
     <price>130</price>
     <item>2' Batu Batik(L)</item>
     <remarks>just for tally purpose</remarks>
@@ -18305,7 +18304,7 @@
   <purchase>
     <buyfrom>hlgranite</buyfrom>
     <date>2010-09-21</date>
-    <quantity>-11</quantity>
+    <quantity>-10</quantity>
     <price>130</price>
     <item>2' Batu Batik(P)</item>
     <remarks>just for tally purpose</remarks>
@@ -18329,7 +18328,7 @@
   <purchase>
     <buyfrom>hlgranite</buyfrom>
     <date>2010-09-21</date>
-    <quantity>77</quantity>
+    <quantity>74</quantity>
     <price>280</price>
     <item>2' Batu Hitam(L)</item>
     <remarks>just for tally purpose</remarks>
@@ -18436,7 +18435,7 @@
     <death>2010-09-09</death>
     <deathm>1431-09-30</deathm>
     <item>PV</item>
-	<remarks>EN405442111MY</remarks>
+    <remarks>EN405442111MY</remarks>
   </order>
   <order soldto="ADI" date="2010-09-22" delivered="2010-09-25" price="35">
     <name>Awi bin Ali Ahmad</name>
@@ -18445,11 +18444,11 @@
     <death>2010-04-02</death>
     <deathm>1431-04-17</deathm>
     <item>PV</item>
-	<remarks>EN405442111MY</remarks>
+    <remarks>EN405442111MY</remarks>
   </order>
   <order soldto="HAM" date="2010-09-23" delivered="2010-09-24" price="10">
     <name>hj ahmad bin abdullah</name>
-	<born>1926-10-10</born>
+    <born>1926-10-10</born>
     <death>2010-09-17</death>
     <deathm>1431-10-08</deathm>
     <item>2' Sticker(L)</item>
@@ -18482,12 +18481,12 @@
     <death>2010-06-30</death>
     <deathm>1431-07-17</deathm>
     <item>PV Budak</item>
-	<remarks>EN405442111MY</remarks>
+    <remarks>EN405442111MY</remarks>
   </order>
   <order soldto="ADI" date="2010-09-25" delivered="" price="35">
     <name>Hj mohd sumairy bin Mak sum</name>
     <jawi>حاج محمد سومايري  بن مك سوم</jawi>
-	<born>1935-09-14</born>
+    <born>1935-09-14</born>
     <death>2010-05-16</death>
     <deathm>1431-06-02</deathm>
     <item>PV</item>
@@ -18506,7 +18505,7 @@
   </order>
   <order soldto="ADI" date="2010-09-26" delivered="" price="35">
     <name>sapawi bin hj ghazali</name>
-	<jawi></jawi>
+    <jawi></jawi>
     <death>2010-08-20</death>
     <deathm>1431-09-17</deathm>
     <item>PV</item>
@@ -18516,11 +18515,11 @@
     <death>2010-08-02</death>
     <deathm>1431-08-21</deathm>
     <item>2' Batu Batik(L)</item>
-	<remarks>no khot</remarks>
+    <remarks>no khot</remarks>
   </order>
   <order soldto="PAS" date="2010-09-26" delivered="" price="260">
     <name>CHE ZAINAB BT SULAIMAN</name>
-	<born>1921</born>
+    <born>1921</born>
     <death>2009-06-02</death>
     <deathm>1430-06-09</deathm>
     <item>2' Batu Batik(P)</item>
