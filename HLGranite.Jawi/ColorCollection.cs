@@ -1,6 +1,10 @@
 ﻿using System.Windows.Media;
 namespace HLGranite.Jawi
 {
+    /// <summary>
+    /// Color Collection.
+    /// </summary>
+    /// <seealso>http://visualizationtools.net/default/?p=2380</seealso>
     public class ColorCollection : GraphicCollection
     {
         public ColorViewModel SelectedColor { get { return (ColorViewModel)this.selectedGraphic; } }

@@ -66,55 +66,44 @@ namespace JawiWPF
         }
 
         #region Methods
-        private void AddBaseCharacter(Panel sender, string folderName)
+        /// <summary>
+        /// Reload library collection into screen.
+        /// </summary>
+        private void Reload()
         {
-            System.IO.DirectoryInfo directoryInfo = new System.IO.DirectoryInfo(folderName);
-            System.IO.FileInfo[] filesInfo = directoryInfo.GetFiles();
-            foreach (System.IO.FileInfo info in filesInfo)
-            {
-                System.Diagnostics.Debug.WriteLine("Reading " + info.Name + "...");
-                this.statusText.Text = "Reading " + info.Name + "...";
-                Grid grid = new Grid();
+            //add basic character into screen
+            punctuationManager = new PunctuationCollection();
+            khotSpace.ItemsSource = punctuationManager.Items;
 
-                SvgReader reader = new SvgReader(info.FullName);
-                var elements = reader.GetXMLElements("path");
-                foreach (XElement element in elements)
-                {
-                    Path path = new Path();
-                    path.Fill = Brushes.Black;
-                    XAttribute attribute = element.Attribute(XName.Get("d"));
-                    path.Data = (Geometry)new GeometryConverter().ConvertFromString(attribute.Value);//key
+            wordManager = new WordCollection();
+            wordSpace.ItemsSource = wordManager.Items;
 
-                    grid.Children.Add(path);
-                }
-
-                ToggleButton toggleButton = new ToggleButton();
-                toggleButton.Content = grid;
-                toggleButton.ToolTip = info.Name.TrimEnd(new char[] { 'g', 'v', 's', '.' });
-                sender.Children.Add(toggleButton);
-            }
+            this.statusText.Text = "Ready";
+            this.wordCount.Text = wordManager.Items.Count + " words";
         }
-        private UIElement GetFirstUIElement(Grid grid)
+        /// <summary>
+        /// Add path object into workspace.
+        /// </summary>
+        /// <param name="position"></param>
+        private void AddPath(Point position)
         {
-            foreach (UIElement child in grid.Children)
-                return child;
-            return null;
-        }
-        private string XamlToSvgTransform(string xamlFile, string styleSheet, string svgFile)
-        {
-            try
-            {
-                XsltSettings settings = new XsltSettings(true, true);
-                XslCompiledTransform xslt = new XslCompiledTransform();
-                xslt.Load(styleSheet, settings, new XmlUrlResolver());
-                xslt.Transform(xamlFile, svgFile);
+            bool isAlignTop = false;
+            //10 as a buffer space
+            if (position.Y < (100 - 10)) isAlignTop = true;
 
-                return string.Empty;
-            }
-            catch (Exception ex)
-            {
-                return ex.Message;
-            }
+            Path path = new Path();
+            //Path selectedPath = (Path)GetFirstUIElement((child as ToggleButton).Content as Grid);
+            path.Data = this.selectedPath.Data;
+
+            //todo: how to handle white color scenario?
+            Brush brush = (Brush)new BrushConverter().ConvertFromString(this.selectedColor.Name);//Brushes.Black;
+            path.Fill = brush;
+            Thickness margin = new Thickness();
+            margin.Left = position.X;
+            if (!isAlignTop) margin.Top = position.Y;//todo: -path.Height;
+            path.Margin = margin;
+
+            this.workSpace.Children.Add(path);
         }
         private void Moving(Key key)
         {
@@ -177,21 +166,6 @@ namespace JawiWPF
 
             System.Diagnostics.Debug.WriteLine("Set new margin:" + margin);
         }
-        /// <summary>
-        /// Reload library collection into screen.
-        /// </summary>
-        private void Reload()
-        {
-            //add basic character into screen
-            punctuationManager = new PunctuationCollection();
-            khotSpace.ItemsSource = punctuationManager.Items;
-
-            wordManager = new WordCollection();
-            wordSpace.ItemsSource = wordManager.Items;
-
-            this.statusText.Text = "Ready";
-            this.wordCount.Text = wordManager.Items.Count + " words";
-        }
         #endregion
 
         #region Events
@@ -220,7 +194,6 @@ namespace JawiWPF
         /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            //http://blogs.msdn.com/b/ashish/archive/2008/01/15/dynamically-producing-xaml-files-using-xamlwriter-save-method.aspx
             string xml = XamlWriter.Save(workSpace);
             System.IO.FileStream fs = System.IO.File.Create("output.xaml");
             System.IO.StreamWriter sw = new System.IO.StreamWriter(fs);
@@ -228,9 +201,6 @@ namespace JawiWPF
             sw.Close();
             fs.Close();
 
-            //fail again
-            //string output = string.Empty;
-            //XamlToSvgTransform("output.xaml", "xaml2svg.xsl", "output.svg");
             this.statusText.Text = "Export xaml done";
         }
         /// <summary>
@@ -320,24 +290,7 @@ namespace JawiWPF
             if (null == this.selectedPath) return;
             if (action == HLGranite.Jawi.Action.Moving) return;
 
-            Point position = e.GetPosition(workSpace);
-            bool isAlignTop = false;
-            if (position.Y < (100 - 10))//10 as a buffer space
-                isAlignTop = true;
-
-            Path path = new Path();
-            //Path selectedPath = (Path)GetFirstUIElement((child as ToggleButton).Content as Grid);
-            path.Data = this.selectedPath.Data;
-
-            //todo: how to handle white color scenario?
-            Brush brush = (Brush)new BrushConverter().ConvertFromString(this.selectedColor.Name);//Brushes.Black;
-            path.Fill = brush;
-            Thickness margin = new Thickness();
-            margin.Left = position.X;
-            if (!isAlignTop) margin.Top = position.Y;
-            path.Margin = margin;
-
-            workSpace.Children.Add(path);
+            AddPath(e.GetPosition(workSpace));
             this.statusText.Text = this.selectedPath.Name + " added";
         }
         private void khotSpace_KeyDown(object sender, KeyEventArgs e)
