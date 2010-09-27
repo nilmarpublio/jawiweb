@@ -76,8 +76,8 @@
         </StatusBar>
         <Grid Margin="10 10 10 0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="160"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="200"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
@@ -99,26 +99,24 @@
                 </DockPanel>
             </GroupBox>
 
-            <DockPanel Grid.Row="1" LastChildFill="True" Margin="20">
-                <h:Ruler x:Name="hRuler" DockPanel.Dock="Top" Unit="Inch" Margin="36 0 0 15" />
-                <h:Ruler x:Name="vRuler" DockPanel.Dock="Left" Unit="Inch" Marks="Up" Length="1.5" Margin="0 0 15 0">
+            <DockPanel Grid.Row="1" LastChildFill="True" Margin="0 10 0 0">
+                <h:Ruler x:Name="hRuler" DockPanel.Dock="Top" Unit="Inch" Margin="36 0 0 10"/>
+                <h:Ruler x:Name="vRuler" DockPanel.Dock="Left" Unit="Inch" Marks="Up" Length="1.5" Margin="0 10 15 0">
                     <h:Ruler.LayoutTransform>
                         <TransformGroup>
                             <RotateTransform Angle="90" />
-                            <TranslateTransform X="23" />
+                            <TranslateTransform X="15" />
                         </TransformGroup>
                     </h:Ruler.LayoutTransform>
                 </h:Ruler>
-                <DockPanel DockPanel.Dock="Bottom" Margin="10">
+                <DockPanel DockPanel.Dock="Bottom">
                     <WrapPanel DockPanel.Dock="Right">
                         <Button x:Name="print" Margin="4" Click="print_Click">Print</Button>
                         <Button x:Name="load" Margin="4" ToolTip="Reload library" Click="load_Click">Load</Button>
                         <Button x:Name="clear" Margin="4" Click="clear_Click">Clear</Button>
                         <Button x:Name="merge" Margin="4" Click="merge_Click">Merge</Button>
                         <Button x:Name="save" Margin="4" Click="save_Click">Save</Button>
-                    </WrapPanel>
-                    
-                    <!-- @todo: add color palete -->
+                    </WrapPanel>                    
                     <!-- @see http://visualizationtools.net/default/?p=2380 -->
                     <WrapPanel>
                         <ItemsControl x:Name="colorPallete" KeyDown="colorPallete_KeyDown">
@@ -132,7 +130,7 @@
                 </DockPanel>
                 <!--@todo: MouseMove="workSpace_MouseMove"-->
                 <Grid x:Name="workSpace" Width="Auto" Height="112.5"
-                      ToolTip="Click on the object for moving"
+                      ToolTip="Click on the object to move"
                       MouseLeftButtonDown="workSpace_MouseLeftButtonDown">
                     <!-- guideline -->
                     <Line Width="Auto" Stroke="Blue" StrokeDashArray="2,4" StrokeThickness="1" X1="0" Y1="0" X2="450" Y2="0"/>
