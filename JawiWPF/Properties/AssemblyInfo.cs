@@ -7,12 +7,12 @@ using System.Windows;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("JawiWPF beta")]
+[assembly: AssemblyTitle("JawiWPF Beta")]
 [assembly: AssemblyDescription("Created by yancyn@gmail.com")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("RoundHeart Inc.")]
+[assembly: AssemblyCompany("HLGranite Manufacturing")]
 [assembly: AssemblyProduct("JawiWPF")]
-[assembly: AssemblyCopyright("Copyright © RoundHeart Inc. 2010")]
+[assembly: AssemblyCopyright("Copyright © HLGranite Manufacturing 2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -51,5 +51,5 @@ using System.Windows;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.10.925.174")]
-[assembly: AssemblyFileVersion("0.10.925.174")]
+[assembly: AssemblyVersion("0.10.927.192")]
+[assembly: AssemblyFileVersion("0.10.927.192")]

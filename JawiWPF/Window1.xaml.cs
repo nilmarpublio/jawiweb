@@ -38,6 +38,7 @@ namespace JawiWPF
         public Window1()
         {
             InitializeComponent();
+            this.Title += " " + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
         }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
@@ -177,8 +178,8 @@ namespace JawiWPF
             wordManager = new WordSpace();
             wordSpace.ItemsSource = wordManager.Items;
 
-            this.statusText.Text = "Ready. ";
-            this.wordCount.Text = wordManager.Items.Count + " in library.";
+            this.statusText.Text = "Ready";
+            this.wordCount.Text = wordManager.Items.Count + " in library";
         }
         #endregion
 
@@ -194,7 +195,7 @@ namespace JawiWPF
             if (dialog.ShowDialog() == true)
             {
                 dialog.PrintVisual(workSpace, "Testing");
-                this.statusText.Text = "Sent to printer.";
+                this.statusText.Text = "Sent to printer";
             }
         }
         private void load_Click(object sender, RoutedEventArgs e)
@@ -219,7 +220,7 @@ namespace JawiWPF
             //fail again
             //string output = string.Empty;
             //XamlToSvgTransform("output.xaml", "xaml2svg.xsl", "output.svg");
-            this.statusText.Text = "Export xaml done.";
+            this.statusText.Text = "Export xaml done";
         }
         /// <summary>
         /// SaveAs by manual work.
@@ -230,7 +231,7 @@ namespace JawiWPF
         {
             SvgWriter writer = new SvgWriter("output.svg", this.workSpace);
             writer.Write();
-            this.statusText.Text = "Export svg done.";
+            this.statusText.Text = "Export svg done";
         }
         /// <summary>
         /// Clear all path element in workspace panel except guideline.
@@ -245,7 +246,7 @@ namespace JawiWPF
                 if (this.workSpace.Children[i] is Path)
                     this.workSpace.Children.RemoveAt(i);
             }
-            this.statusText.Text = "Clear all.";
+            this.statusText.Text = "Clear all";
         }
         private void merge_Click(object sender, RoutedEventArgs e)
         {
@@ -257,9 +258,9 @@ namespace JawiWPF
                 SvgWriter writer = new SvgWriter(dialog.output.Text + ".svg");
                 bool success = writer.Merge("output.svg");
                 if (success)
-                    this.statusText.Text = "Merge success.";
+                    this.statusText.Text = "Merge success";
                 else
-                    this.statusText.Text = "Merge fail. Please try again.";
+                    this.statusText.Text = "Merge fail. Please try again";
             }
         }
 
@@ -315,7 +316,7 @@ namespace JawiWPF
             path.Margin = margin;
 
             workSpace.Children.Add(path);
-            this.statusText.Text = this.SelectedPath.Name + " added.";
+            this.statusText.Text = this.SelectedPath.Name + " added";
         }
         private void khotSpace_KeyDown(object sender, KeyEventArgs e)
         {
