@@ -67,40 +67,40 @@ namespace HLGranite.Jawi
         {
         }
         /// <summary>
-        /// Match exactly keyword.
+        /// Match exactly keyword and return match number.
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
-        protected bool MatchExactly(string name)
+        protected int MatchExactly(string name)
         {
-            bool match = false;
+            int found = 0;
             if (string.IsNullOrEmpty(name))
             {
                 SetVisibility(Visibility.Visible);
-                return match;
+                return found;
             }
 
             foreach (PathViewModel item in this.items)
             {
                 if (item.Name == name)
                 {
-                    match = true;
+                    found++;
                     item.Visibility = Visibility.Visible;
                 }
                 else
                     item.Visibility = Visibility.Collapsed;
             }
 
-            return match;
+            return found;
         }
         /// <summary>
-        /// Match if contains.
+        /// Match if contains and return found number.
         /// </summary>
         /// <remarks>No case sensitive.</remarks>
         /// <param name="fullName"></param>
-        protected bool Contains(string fullName)
+        protected int Contains(string fullName)
         {
-            bool contains = false;
+            int found = 0;
             fullName = fullName.ToLower();
             //todo: fullName = fullName.Replace(',',' ');
             string[] names = fullName.Split(new char[] { ' ' });
@@ -109,14 +109,14 @@ namespace HLGranite.Jawi
                 if (Contains(names, item.Name))
                 //if (item.Name.Contains(fullName))
                 {
-                    contains = true;
+                    found++;
                     item.Visibility = Visibility.Visible;
                 }
                 else
                     item.Visibility = Visibility.Collapsed;
             }
 
-            return contains;
+            return found;
         }
         private bool Contains(string[] names, string source)
         {

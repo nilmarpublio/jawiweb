@@ -84,7 +84,7 @@
             <GroupBox Grid.Row="0" Header="Punctuation/Character">
                 <DockPanel LastChildFill="True">
                     <WrapPanel DockPanel.Dock="Top">
-                        <TextBox x:Name="seachCharacter" Width="60"/>
+                        <TextBox x:Name="seachCharacter" Width="60" KeyDown="seachCharacter_KeyDown"/>
                         <Button x:Name="searchCharacterButton" Click="searchCharacterButton_Click">Search</Button>
                     </WrapPanel>
                     <ScrollViewer>
@@ -143,7 +143,7 @@
             <GroupBox Grid.Row="2" Header="Word Library">
                 <DockPanel LastChildFill="True">
                     <WrapPanel DockPanel.Dock="Top">
-                        <TextBox x:Name="searchText" Width="250"/>
+                        <TextBox x:Name="searchText" Width="250" KeyDown="searchText_KeyDown"/>
                         <Button x:Name="searchButton" Click="searchButton_Click">Search</Button>
                     </WrapPanel>
                     <ScrollViewer>

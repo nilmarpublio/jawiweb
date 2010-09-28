@@ -10,7 +10,6 @@ namespace HLGranite.Jawi
         /// <summary>
         /// Word space collection view model.
         /// </summary>
-        /// <param name="source"></param>
         public WordCollection()
             : base("words")
         {
@@ -20,7 +19,7 @@ namespace HLGranite.Jawi
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
-        public bool Contains(string name)
+        public new int Contains(string name)
         {
             return base.Contains(name);
         }
