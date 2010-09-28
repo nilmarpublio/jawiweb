@@ -3,7 +3,7 @@
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" omit-xml-declaration="yes"/>
-  <xsl:variable name="last">2010-09-24</xsl:variable>
+  <xsl:variable name="last">2010-09-29</xsl:variable>
   <xsl:template match="/">
     <html>
       <head>
@@ -171,7 +171,7 @@
               or
               (substring(../@delivered,1,4) > substring($last,1,4))
               )
-              ])"/>
+              ])-20"/>
             <br/>
 			<xsl:if test="count(nisan/order[@soldto='HAM' and @delivered='']) > 0">
 				<xsl:value-of select="count(nisan/order[@soldto='HAM' and @delivered=''])"/> belum siap
@@ -185,8 +185,8 @@
         <br/>
         <br/>
         <div class="footer">
-          Bulan Melayu:
           <span class="left">
+            Bulan Melayu:
             <ol>
               <li>Muharram</li>
               <li>Safar</li>
