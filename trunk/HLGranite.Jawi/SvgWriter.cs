@@ -467,7 +467,7 @@ namespace HLGranite.Jawi
             if (path.Fill == Brushes.Black || path.Fill == Brushes.White)
                 output += string.Format("\n\tstyle=\"fill:{0};stroke:none\"", path.Fill.ToString());//#000000
             else
-                output += string.Format("\n\tstyle=\"fill:{0};stroke:none;fill-opacity:1\"", path.Fill.ToString().TrimStart(new char[] { 'F', 'F' }));
+                output += string.Format("\n\tstyle=\"fill:{0};stroke:none;fill-opacity:1\"", path.Fill.ToString().Replace("#FF", "#"));
 
             //path.Margin
             output += " />";
