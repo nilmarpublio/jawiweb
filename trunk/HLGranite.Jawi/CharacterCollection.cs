@@ -18,11 +18,11 @@ namespace HLGranite.Jawi
         {
         }
         /// <summary>
-        /// True if match exactly otherwise false.
+        /// Return number match exactly otherwise 0.
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
-        public bool Match(string name)
+        public int Match(string name)
         {
             return base.MatchExactly(name);
         }

@@ -234,9 +234,9 @@ namespace JawiWPF
             SimpleDialog dialog = new SimpleDialog();
             dialog.ShowDialog();
             //System.Diagnostics.Debug.WriteLine("ShowDialog:" + show);
-            if (!string.IsNullOrEmpty(dialog.output.Text))
+            if (!string.IsNullOrEmpty(dialog.output.Text.Trim()))
             {
-                SvgWriter writer = new SvgWriter(dialog.output.Text + ".svg");
+                SvgWriter writer = new SvgWriter(dialog.output.Text.Trim() + ".svg");
                 bool success = writer.Merge("output.svg");
                 if (success)
                     this.statusText.Text = "Merge success";
@@ -264,13 +264,25 @@ namespace JawiWPF
             punctuationManager.Select(viewModel);
             wordManager.Select(viewModel);
         }
+        private void seachCharacter_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+                searchCharacterButton_Click(sender, e);
+        }
         private void searchCharacterButton_Click(object sender, RoutedEventArgs e)
         {
-            punctuationManager.Match(seachCharacter.Text.Trim());
+            int found = punctuationManager.Match(seachCharacter.Text.Trim());
+            this.statusText.Text = found + " found";
+        }
+        private void searchText_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+                searchButton_Click(sender, e);
         }
         private void searchButton_Click(object sender, RoutedEventArgs e)
         {
-            wordManager.Contains(searchText.Text.Trim());
+            int found = wordManager.Contains(searchText.Text.Trim());
+            this.statusText.Text = found + " found";
         }
 
         private void workSpace_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

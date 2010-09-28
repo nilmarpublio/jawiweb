@@ -10,17 +10,16 @@ namespace HLGranite.Jawi
         /// <summary>
         /// Punctuation collection view model.
         /// </summary>
-        /// <param name="source"></param>
         public PunctuationCollection()
             : base("khots")
         {
         }
         /// <summary>
-        /// True if match exactly otherwise false.
+        /// Return number match exactly otherwise 0.
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
-        public bool Match(string name)
+        public int Match(string name)
         {
             return base.MatchExactly(name);
         }
