@@ -274,15 +274,33 @@ namespace JawiWPF
             int found = punctuationManager.Match(seachCharacter.Text.Trim());
             this.statusText.Text = found + " found";
         }
-        private void searchText_KeyDown(object sender, KeyEventArgs e)
+        private void richTextBox2_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.Key == Key.Enter)
+            if (e.Key == Key.Return)
                 searchButton_Click(sender, e);
         }
         private void searchButton_Click(object sender, RoutedEventArgs e)
         {
-            int found = wordManager.Contains(searchText.Text.Trim());
+            //@see http://www.devx.com/dotnet/Article/34644
+            //get text from a RichTextBox
+            TextRange textRange = new TextRange(richTextBox2.Document.ContentStart, richTextBox2.Document.ContentEnd);
+
+            Dictionary<string, bool> result = new Dictionary<string, bool>();
+            int found = wordManager.Contains(textRange.Text, out result);//searchText.Text.Trim()
             this.statusText.Text = found + " found";
+
+            //adding text into a RichTextBox
+            richTextBox2.Document.Blocks.Clear();
+            Paragraph paragraph = new Paragraph();
+            foreach (KeyValuePair<string, bool> key in result)
+            {
+                if (!key.Value)
+                    paragraph.Inlines.Add(new TextBlock { Text = key.Key, Foreground = Brushes.Red });
+                else
+                    paragraph.Inlines.Add(new TextBlock { Text = key.Key });
+                paragraph.Inlines.Add(new TextBlock { Text = " " });
+            }
+            richTextBox2.Document.Blocks.Add(paragraph);
         }
 
         private void workSpace_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

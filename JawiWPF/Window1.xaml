@@ -71,7 +71,7 @@
                 </StatusBarItem>
             <Separator Grid.Column="1"/>
             <StatusBarItem Grid.Column="2">
-                <TextBlock DockPanel.Dock="Right" x:Name="wordCount" Text="0 words"/>
+                <TextBlock DockPanel.Dock="Right" x:Name="wordCount" Text="0 words" ToolTip="Found in library"/>
             </StatusBarItem>
         </StatusBar>
         <Grid Margin="10 10 10 0">
@@ -143,7 +143,7 @@
             <GroupBox Grid.Row="2" Header="Word Library">
                 <DockPanel LastChildFill="True">
                     <WrapPanel DockPanel.Dock="Top">
-                        <TextBox x:Name="searchText" Width="250" KeyDown="searchText_KeyDown"/>
+                        <RichTextBox x:Name="richTextBox2" Width="250" AcceptsReturn="False" KeyDown="richTextBox2_KeyDown"/>
                         <Button x:Name="searchButton" Click="searchButton_Click">Search</Button>
                     </WrapPanel>
                     <ScrollViewer>
