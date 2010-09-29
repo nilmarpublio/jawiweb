@@ -15,7 +15,12 @@
                 IsChecked="{Binding IsChecked,Mode=TwoWay,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
                 Visibility="{Binding Visibility,Mode=TwoWay,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
                 Checked="ToggleButton_Checked">
-
+                <ToggleButton.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="_Open" Click="openWordSvg_Click"/>
+                    </ContextMenu>
+                </ToggleButton.ContextMenu>
+                
                 <!-- @todo: DockPanel fail to bind though to get the same alignment of label and name at baseline -->
                 <StackPanel>
                     <TextBlock Text="{Binding Label}" TextAlignment="Right"/>

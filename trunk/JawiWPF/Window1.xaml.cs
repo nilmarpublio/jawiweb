@@ -108,6 +108,11 @@ namespace JawiWPF
 
             this.workSpace.Children.Add(path);
         }
+        /// <summary>
+        /// Move the graphic object by arrow key only.
+        /// </summary>
+        /// <remarks>Support left, right, up, down, and delete only.</remarks>
+        /// <param name="key"></param>
         private void Moving(Key key)
         {
             Thickness margin = new Thickness();
@@ -354,9 +359,26 @@ namespace JawiWPF
             vRuler.Chip = vRuler.Unit == Unit.Cm ? DipHelper.DipToCm(p.Y) : DipHelper.DipToInch(p.Y);
         }
 
+        private void openWordSvg_Click(object sender, RoutedEventArgs e)
+        {
+            string root = string.Empty;
+            int index = System.Reflection.Assembly.GetExecutingAssembly().Location.LastIndexOf('\\');
+            if (index == -1)
+                index = System.Reflection.Assembly.GetExecutingAssembly().Location.LastIndexOf('/');
+            if (index > -1)
+                root = System.Reflection.Assembly.GetExecutingAssembly().Location.Substring(0, index);
+
+            PathViewModel viewModel = (((sender as MenuItem).Parent as ContextMenu)
+                .PlacementTarget as ToggleButton).DataContext as PathViewModel;
+            string fileName = root + System.IO.Path.DirectorySeparatorChar
+                + "words" + System.IO.Path.DirectorySeparatorChar
+                + viewModel.Name + viewModel.Label + ".svg";
+            System.Diagnostics.Process.Start(fileName);
+            //System.Diagnostics.Debug.WriteLine(sender);
+        }
         private void characterMenu_Click(object sender, RoutedEventArgs e)
         {
-            CharacterMap window = new CharacterMap();
+            CharacterMapViewer window = new CharacterMapViewer();
             window.Show();
         }
         private void aboutMenu_Click(object sender, RoutedEventArgs e)
