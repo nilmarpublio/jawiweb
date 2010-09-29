@@ -32,6 +32,7 @@ namespace JawiWPF
         /// </summary>
         private Path selectedPath;
         private PunctuationCollection punctuationManager;
+        private CharacterCollection characterManager;
         private WordCollection wordManager;
         private HLGranite.Jawi.Action action;
 
@@ -50,9 +51,7 @@ namespace JawiWPF
 
             colorManager = new ColorCollection();
             this.colorPallete.ItemsSource = colorManager.Items;
-        }
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
+
             Reload();
         }
         //todo: can this done in xaml with trigger?
@@ -73,6 +72,10 @@ namespace JawiWPF
         {
             //add basic character into screen
             punctuationManager = new PunctuationCollection();
+            characterManager = new CharacterCollection();
+            //hack: merge character into punctuation temp
+            foreach (PathViewModel item in characterManager.Items)
+                punctuationManager.Items.Add(item);
             khotSpace.ItemsSource = punctuationManager.Items;
 
             wordManager = new WordCollection();
@@ -351,6 +354,11 @@ namespace JawiWPF
             vRuler.Chip = vRuler.Unit == Unit.Cm ? DipHelper.DipToCm(p.Y) : DipHelper.DipToInch(p.Y);
         }
 
+        private void characterMenu_Click(object sender, RoutedEventArgs e)
+        {
+            CharacterMap window = new CharacterMap();
+            window.Show();
+        }
         private void aboutMenu_Click(object sender, RoutedEventArgs e)
         {
             About about = new About();
