@@ -466,6 +466,9 @@ TODO: move into different template so that easy to maintain since 2010-09-21
                   <xsl:if test="age != ''">
                     <xsl:value-of select="age"/> thn
                   </xsl:if>
+                  <xsl:if test="jawi != ''">
+                    <xsl:value-of select="jawi"/>
+                  </xsl:if>
                 </span>
                 <span class="item">
                   <xsl:value-of select="item" />
