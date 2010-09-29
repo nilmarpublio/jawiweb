@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="ArabicCharacterCollection.cs" />
     <Compile Include="CharacterCollection.cs" />
+    <Compile Include="CharacterMap.cs" />
     <Compile Include="ColorCollection.cs" />
     <Compile Include="ColorViewModel.cs" />
     <Compile Include="GraphicCollection.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="WordCollection.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="NisanClassDiagram.cd" />
     <None Include="PathClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

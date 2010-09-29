@@ -68,7 +68,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="CharacterMap.xaml">
+    <Page Include="CharacterMapViewer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -89,8 +89,8 @@
     <Compile Include="About.xaml.cs">
       <DependentUpon>About.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CharacterMap.xaml.cs">
-      <DependentUpon>CharacterMap.xaml</DependentUpon>
+    <Compile Include="CharacterMapViewer.xaml.cs">
+      <DependentUpon>CharacterMapViewer.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
