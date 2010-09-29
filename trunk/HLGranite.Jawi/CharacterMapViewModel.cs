@@ -5,9 +5,9 @@ using System.Text;
 
 namespace HLGranite.Jawi
 {
-    public class CharacterMap
+    public class CharacterMapViewModel
     {
-        public CharacterMap()
+        public CharacterMapViewModel()
         {
         }
     }

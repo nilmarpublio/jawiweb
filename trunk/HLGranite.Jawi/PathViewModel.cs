@@ -16,7 +16,7 @@ namespace HLGranite.Jawi
         #region Properties
         private string label;
         /// <summary>
-        /// Gets the lable for this view model.
+        /// Gets the label for this view model.
         /// </summary>
         public string Label { get { return this.label; } }
         private Path path;
