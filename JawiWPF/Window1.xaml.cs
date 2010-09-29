@@ -32,7 +32,7 @@ namespace JawiWPF
         /// </summary>
         private Path selectedPath;
         private PunctuationCollection punctuationManager;
-        private CharacterCollection characterManager;
+        private TextCollection textManager;
         private WordCollection wordManager;
         private HLGranite.Jawi.Action action;
 
@@ -72,9 +72,9 @@ namespace JawiWPF
         {
             //add basic character into screen
             punctuationManager = new PunctuationCollection();
-            characterManager = new CharacterCollection();
+            textManager = new TextCollection();
             //hack: merge character into punctuation temp
-            foreach (PathViewModel item in characterManager.Items)
+            foreach (PathViewModel item in textManager.Items)
                 punctuationManager.Items.Add(item);
             khotSpace.ItemsSource = punctuationManager.Items;
 

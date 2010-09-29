@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using HLGranite.Jawi;
 
 namespace JawiWPF
 {
@@ -18,9 +19,14 @@ namespace JawiWPF
     /// </summary>
     public partial class CharacterMapViewer : Window
     {
+        private CharacterCollection characterManager;
         public CharacterMapViewer()
         {
             InitializeComponent();
+
+            //todo: this is taking up resource, should run thread
+            characterManager = new CharacterCollection("Arial");
+            mapSpace.ItemsSource = characterManager.Items;
         }
     }
 }
