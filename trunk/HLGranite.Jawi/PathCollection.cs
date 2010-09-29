@@ -31,7 +31,8 @@ namespace HLGranite.Jawi
             : base()
         {
             this.source = source;
-            Initialize();
+            if (System.IO.Directory.Exists(this.source))
+                Initialize();
         }
 
         #region Methods
