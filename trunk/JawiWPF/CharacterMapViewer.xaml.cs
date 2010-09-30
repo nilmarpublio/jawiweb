@@ -31,7 +31,6 @@ namespace JawiWPF
             characterManager = new CharacterCollection("SimHei");//Arial
             this.DataContext = characterManager;
             //mapSpace.ItemsSource = characterManager.Items;
-            //todo: suppose not here. System.Diagnostics.Debug.WriteLine("Done at " + DateTime.Now);
         }
         private void Window_Closed(object sender, EventArgs e)
         {
@@ -40,9 +39,18 @@ namespace JawiWPF
 
         private void fontSize_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            (this.DataContext as CharacterCollection)
-                .SetFontSize(
-                (double)((sender as ComboBox).SelectedValue as ComboBoxItem).Content);
+            if (null != (sender as ComboBox).SelectedValue
+                && null != ((sender as ComboBox).SelectedValue as ComboBoxItem).Content)
+            {
+                (this.DataContext as CharacterCollection)
+                    .SetFontSize(Convert.ToDouble(((sender as ComboBox).SelectedValue as ComboBoxItem).Content));
+            }
+        }
+
+        private void mapSpace_Loaded(object sender, RoutedEventArgs e)
+        {
+            //todo: incorrect calculation for complete load time.
+            System.Diagnostics.Debug.WriteLine("Done at " + DateTime.Now);
         }
     }
 }

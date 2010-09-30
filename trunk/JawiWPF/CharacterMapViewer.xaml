@@ -34,7 +34,8 @@
             <ItemsControl
                 x:Name="mapSpace" ItemsSource="{Binding Items}"
                 VirtualizingStackPanel.IsVirtualizing="True"
-                VirtualizingStackPanel.VirtualizationMode="Recycling">
+                VirtualizingStackPanel.VirtualizationMode="Recycling"
+                Loaded="mapSpace_Loaded">
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
                         <WrapPanel/>
