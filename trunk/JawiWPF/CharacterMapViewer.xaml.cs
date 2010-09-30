@@ -23,10 +23,26 @@ namespace JawiWPF
         public CharacterMapViewer()
         {
             InitializeComponent();
-
+        }
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
             //todo: this is taking up resource, should run thread
-            characterManager = new CharacterCollection("Arial");
-            mapSpace.ItemsSource = characterManager.Items;
+            System.Diagnostics.Debug.WriteLine("Start binding character map at " + DateTime.Now);
+            characterManager = new CharacterCollection("SimHei");//Arial
+            this.DataContext = characterManager;
+            //mapSpace.ItemsSource = characterManager.Items;
+            //todo: suppose not here. System.Diagnostics.Debug.WriteLine("Done at " + DateTime.Now);
+        }
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            GC.Collect();
+        }
+
+        private void fontSize_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            (this.DataContext as CharacterCollection)
+                .SetFontSize(
+                (double)((sender as ComboBox).SelectedValue as ComboBoxItem).Content);
         }
     }
 }
