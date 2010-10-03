@@ -150,6 +150,9 @@
                         <xsl:value-of select="age" /> thn
                       </xsl:if>
                     </span>
+                    <xsl:if test="jawi != ''">
+                      <xsl:value-of select="jawi"/>
+                    </xsl:if>
                   </li>
                 </div>
               </xsl:if>

@@ -222,6 +222,7 @@ TODO: move into different template so that easy to maintain since 2010-09-21
                           <xsl:text>-</xsl:text>
                         </xsl:when>
                         <xsl:otherwise>
+                          <!-- @todo: highlight red if less than zero -->
                           <xsl:value-of
 							select="sum(nisan/purchase/quantity[../item=$batikItem_L20])
 							-count(nisan/order[item=$batikItem_L20 and @soldto != 'ADI' and @soldto != 'PAS'])"/>
