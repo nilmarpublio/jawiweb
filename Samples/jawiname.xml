@@ -1225,7 +1225,7 @@
   <rootname>
     <rumi>ariff</rumi>
     <jawi>عريف</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>arifin</rumi>
@@ -6953,8 +6953,8 @@
   </rootname>
   <rootname>
     <rumi>kamariah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>kamariaton</rumi>
@@ -14113,13 +14113,13 @@
   </rootname>
   <rootname>
     <rumi>shamsuddin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شامسوددين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shamsudin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شامسوددين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shamsul</rumi>
