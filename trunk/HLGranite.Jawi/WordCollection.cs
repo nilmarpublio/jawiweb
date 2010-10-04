@@ -36,6 +36,8 @@ namespace HLGranite.Jawi
             //{
             //RichTextBox textBox = (RichTextBox)sender;
             //textBox.Document.Blocks.Clear();
+
+            //todo: consider this scenario 'hj n.m. mohd ismail bin mohd ghani'
             keys = new Dictionary<string, bool>();
             name = name.ToLower();
             name = name.TrimEnd(new char[] { '\n', '\r' });//hack: '\n', '\r'

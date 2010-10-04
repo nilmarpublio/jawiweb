@@ -8,11 +8,12 @@
         <DataTemplate DataType="{x:Type j:CharacterViewModel}">
             <Border BorderThickness="1" BorderBrush="Black" CornerRadius="5">
                 <StackPanel>
+                    <!-- FontFamily="{Binding Path=DataContext.Font,RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type Window}}}" -->
                     <TextBlock
                         Text="{Binding Character}"
                         FontSize="{Binding FontSize}"
                         Width="{Binding FontSize}"
-                        FontFamily="{Binding Path=DataContext.Font,RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type Window}}}"/>
+                        FontFamily="Traditional Arabic" FontWeight="Bold" />
                     <TextBlock Text="{Binding Code}"/>
                 </StackPanel>
             </Border>

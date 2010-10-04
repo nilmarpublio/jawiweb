@@ -28,7 +28,7 @@ namespace JawiWPF
         {
             //todo: this is taking up resource, should run thread
             System.Diagnostics.Debug.WriteLine("Start binding character map at " + DateTime.Now);
-            characterManager = new CharacterCollection("SimHei");//Arial
+            characterManager = new CharacterCollection("Traditional Arabic");//Arial
             this.DataContext = characterManager;
             //mapSpace.ItemsSource = characterManager.Items;
         }

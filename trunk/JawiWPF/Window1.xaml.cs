@@ -235,6 +235,7 @@ namespace JawiWPF
                 if (this.workSpace.Children[i] is Path)
                     this.workSpace.Children.RemoveAt(i);
             }
+            this.richTextBox2.Document.Blocks.Clear();
             this.statusText.Text = "Clear all";
         }
         private void merge_Click(object sender, RoutedEventArgs e)

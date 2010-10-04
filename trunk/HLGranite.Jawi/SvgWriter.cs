@@ -102,7 +102,7 @@ namespace HLGranite.Jawi
             {
                 file = templatePath.Replace(".svg", "3.svg");
                 //tolerance for age template
-                this.tolerance = new Point(0, -18.00);
+                this.tolerance = new Point(0, -4.00);
             }
             else if (!string.IsNullOrEmpty(order.born))
             {
@@ -147,7 +147,7 @@ namespace HLGranite.Jawi
         #region Methods
         public bool Write()
         {
-            bool done = true;
+            bool done = false;
             if (null != this.workspace) return done = WriteWorkspace();
             if (null != this.reader) return done = Cloning();
             return done;
@@ -293,6 +293,8 @@ namespace HLGranite.Jawi
         {
             string[] dates = order.deathm.Split(new char[] { '-' });
             string date = string.Empty;
+            //if (dates.Length == 1)
+            //    date += dates[0];
             if (dates.Length == 3)
             {
                 date = dates[0] + Convert.ToInt32(dates[2].Substring(0, 2)).ToString();
@@ -345,9 +347,12 @@ namespace HLGranite.Jawi
                 int start = line.IndexOf("transform=");
                 string newLine = string.Empty;
                 if (start > -1) newLine += line.Substring(0, start);
-                newLine += string.Format("transform=\"translate({0},{1})\"",
-                    monthCoordinates[month - 1].X + tolerance.X,
-                    monthCoordinates[month - 1].Y + tolerance.Y);
+                if (month == 0)
+                    newLine += string.Format("transform=\"translate({0},{1})\"", 0, 0);
+                else
+                    newLine += string.Format("transform=\"translate({0},{1})\"",
+                        monthCoordinates[month - 1].X + tolerance.X,
+                        monthCoordinates[month - 1].Y + tolerance.Y);
 
                 string endTag = string.Empty;
                 CheckEndTag(line, out endTag);
@@ -355,6 +360,8 @@ namespace HLGranite.Jawi
 
                 WriteElement(string.Empty, newLine);
             }
+            else if (null == path)
+                WriteElement(string.Empty, line);
             else if (line.Contains("d=") && !line.Contains("id="))
             {
                 int start = line.IndexOf("d=");
