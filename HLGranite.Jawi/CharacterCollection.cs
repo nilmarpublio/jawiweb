@@ -49,7 +49,10 @@ namespace HLGranite.Jawi
         {
             this.items = new ObservableCollection<CharacterViewModel>();
             // 21 bit value is 55296
-            for (int i = 30000; i < 34000; i++) // Int16.MaxValue //65509
+            //TODO: split into several queue for adding characterViewModel to reduce load time.
+            //create dispatcher timer, add 1000 in a time, then only need 66 queues.
+            //1548-1790
+            for (int i = 1548; i < 1790; i++) // Int16.MaxValue //65508
                 this.items.Add(new CharacterViewModel(UnicodeFormatter(i), Char.ConvertFromUtf32(i), 72));//set fontSize
         }
         public void SetFontSize(double size)
