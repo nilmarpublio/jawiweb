@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
+<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
     <name>hjh zainab bt ibrahim</name>
@@ -18602,7 +18602,7 @@
     <age>84</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2010-09-28" delivered="" price="10">
+  <order soldto="HAM" date="2010-09-28" delivered="2010-10-07" price="10">
     <name>mohd syawal bin badrulsham</name>
     <death>2010-09-23</death>
     <deathm>1431-10-14</deathm>
@@ -18614,9 +18614,9 @@
     <deathm>1431-09-28</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-09-28" delivered="" price="10">
+  <order soldto="HAM" date="2010-09-28" delivered="2010-10-07" price="10">
     <name>mohd sahahael bin mohd said</name>
-    <jawi>محمد سهاحاريل بن محمد سعيد</jawi>
+    <jawi>محمد ساهاهايل بن محمد سعيد</jawi>
     <death>2010-09-22</death>
     <deathm>1431-10-13</deathm>
     <age>51</age>
@@ -18643,7 +18643,7 @@
     <age>71</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="ADI" date="2010-09-30" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-30" delivered="2010-10-07" price="35">
     <name>fatimah @ patimah bt mat tasi</name>
     <jawi>فطمة بنت مت تسي</jawi>
     <death>1986-11-12</death>
@@ -18697,5 +18697,81 @@
     <deathm>1431-09-12</deathm>
     <age>70</age>
     <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="ADI" date="2010-09-05" delivered="2010-10-07" price="35">
+    <name>Hj ismail bin Abd samad</name>
+    <jawi>حاج إسماعيل بن عبدول صمد</jawi>
+    <death>2010-08-05</death>
+    <deathm>1431-08-24</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-09-05" delivered="" price="35">
+    <name>safiah bt shafie</name>
+    <jawi>صافيه بنت شافعي</jawi>
+    <death>1969-05-21</death>
+    <deathm>1389-03-05</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-09-05" delivered="" price="35">
+    <name>Tuminah bt Hj ali</name>
+    <jawi>تمنح بنت حاج علي</jawi>
+    <death>1989</death>
+    <deathm></deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-09-05" delivered="2010-10-07" price="35">
+    <name>Salmiah bt mohd siran</name>
+    <jawi>ساميه بنت محمد سيران</jawi>
+    <death>2010-07-08 khamis</death>
+    <deathm>1431-07-25</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-09-05" delivered="" price="35">
+    <name>Naliah bt dorahim</name>
+    <jawi>نعليه  بنت درهم</jawi>
+    <death>1993-04-01</death>
+    <deathm>1413-10-09</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-09-05" delivered="" price="35">
+    <name>Hj abd samat bin hj zakaria</name>
+    <jawi>حاج عبدول سامت بن حاج زكريا</jawi>
+    <death>2010-09-27 Isnin</death>
+    <deathm>1431-10-18</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="HAM" date="2010-10-05" delivered="2010-07-10" price="10">
+    <name>mohd ismail bin othman</name>
+    <death>2010-06-17</death>
+    <deathm>1431-07-04</deathm>
+    <age>34</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-05" delivered="" price="10">
+    <name>abdullah bin abbas</name>
+    <death>1970-02-02</death>
+    <deathm>1389-11-24</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-05" delivered="" price="10">
+    <name>hj mustafa bin daud</name>
+    <death>2010-09-19</death>
+    <deathm>1431-10-10</deathm>
+    <age>61</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-05" delivered="" price="10">
+    <name>hajah mydin bin shaik daud</name>
+    <death>2010-06-17</death>
+    <deathm>1431-07-04</deathm>
+    <age>57</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-05" delivered="" price="10">
+    <name>halipah bt din</name>
+    <death>2010-08-26</death>
+    <deathm>1431-09-16</deathm>
+    <age>60</age>
+    <item>2' Sticker(P)</item>
   </order>
 </nisan>
