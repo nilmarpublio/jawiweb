@@ -302,7 +302,7 @@
   <rootname>
     <rumi>adnan</rumi>
     <jawi>ادنان</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>adriana</rumi>
@@ -2670,7 +2670,7 @@
   </rootname>
   <rootname>
     <rumi>bu</rumi>
-    <jawi />
+    <jawi>بو</jawi>
     <sex>0</sex>
   </rootname>
   <rootname>
@@ -13206,7 +13206,7 @@
   <rootname>
     <rumi>samsuri</rumi>
     <jawi>سموري</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>samudin</rumi>
