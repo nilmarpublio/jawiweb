@@ -18828,55 +18828,255 @@
     <item>PV</item>
     <remarks>EN432758742MY</remarks>
   </order>
-  <order soldto="ADI" date="2010-09-12" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-12" delivered="2010-10-16" price="35">
     <name>jaafar bin baharudin</name>
     <jawi>جعفر بن باهاروددين</jawi>
     <born>1929-10-11</born>
     <death>2010-07-16</death>
     <deathm>1431-08-04</deathm>
     <item>PV</item>
+    <remarks>EN432708091MY</remarks>
   </order>
-   <order soldto="ADI" date="2010-09-15" delivered="" price="260">
+  <order soldto="ADI" date="2010-09-15" delivered="2010-10-19" price="260">
     <name>Ngatiam bt karim</name>
     <jawi>ڠاتيام بنت كريم</jawi>
-	<born>1954-04-24</born>
+    <born>1954-04-24</born>
     <death>2010-07-27 23:30</death>
     <deathm>1431-08-15</deathm>
     <item>2' Batu Batik(P)</item>
+    <remarks>060301198757290</remarks>
   </order>
-   <order soldto="ADI" date="2010-09-15" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-15" delivered="2010-10-16" price="35">
     <name>Bariah bt jalil</name>
     <jawi>برياه بنت جليل</jawi>
     <death>2010-05-19</death>
     <deathm>1431-06-05</deathm>
     <item>PV</item>
+    <remarks>EN432708091MY</remarks>
   </order>
-   <order soldto="ADI" date="2010-09-15" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-15" delivered="2010-10-16" price="35">
     <name>Tuan guru hj salleh bin hj ibrahim</name>
     <jawi>توان ڠورو  حاج صالح بن حاج إبراهيم</jawi>
     <death></death>
     <deathm></deathm>
     <item>PV</item>
+    <remarks>EN432708091MY</remarks>
   </order>
-   <order soldto="ADI" date="2010-09-15" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-15" delivered="2010-10-16" price="35">
     <name>Hussein bin serumin</name>
     <jawi>حُسين بن سيرومين</jawi>
     <death>2008-10-18 Sabtu</death>
     <deathm>1429-10-18</deathm>
     <item>PV</item>
+    <remarks>EN432708091MY</remarks>
   </order>
-   <order soldto="ADI" date="2010-09-15" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-15" delivered="2010-10-16" price="35">
     <name>sapawi bin hj ghazali</name>
     <jawi>سافاوي بن حاج غزالي</jawi>
     <death>2010-08-27</death>
     <deathm>1431-09-17</deathm>
     <item>PV</item>
+    <remarks>EN432708091MY</remarks>
   </order>
-   <order soldto="ADI" date="2010-09-15" delivered="" price="35">
+  <order soldto="ADI" date="2010-09-15" delivered="2010-10-16" price="35">
     <name>Sobar bin mustawi</name>
     <jawi>سوبر بن مُصطؤي</jawi>
     <death>2010-10-14</death>
     <deathm>1431-11-06</deathm>
     <item>PV</item>
+    <remarks>EN432708091MY</remarks>
+  </order>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-10-17</date>
+    <quantity>7</quantity>
+    <price>130</price>
+    <item>2' Batu Batik(L)</item>
+  </purchase>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2010-10-17</date>
+    <quantity>-1</quantity>
+    <price>-130</price>
+    <item>2' Batu Batik(L)</item>
+  </purchase>
+  <order soldto="KEN" date="2010-10-18" delivered="" price="220">
+    <name>Yub Ishak bin Sahab</name>
+    <jawi>يوب اسحاق بن سهاب</jawi>
+    <death>2008-12-16</death>
+    <deathm>1429-12-18</deathm>
+    <age>90</age>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2010-10-18" delivered="" price="220">
+    <name>NUR INSYIRAH BT MOHD YUSOF</name>
+    <jawi>نور إنشراح بنت محمد يوسف</jawi>
+    <death>2010-09-15</death>
+    <deathm>1431-10-06</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEM" date="2010-10-18" delivered="" price="220">
+    <name>HJ SAAD BIN ARDZI</name>
+    <jawi>حاج سعد بن ارذ</jawi>
+    <death>2005-07-07</death>
+    <deathm>1426-05-30</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2010-10-18" delivered="" price="220">
+    <name>KAMIS BIN AHMAD</name>
+    <born>1959-05-30</born>
+    <death>2010-09-28</death>
+    <deathm>1431-10-19</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2010-10-17" delivered="" price="260">
+    <name>hj hamzah bin hj mat sah</name>
+    <jawi>حاج حمزة بن حاج مت سه</jawi>
+    <death>2010-06-05</death>
+    <deathm>1431-06-22</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2010-10-17" delivered="" price="35">
+    <name>mohamad ariffin bin ihsan</name>
+    <jawi>محمد عريفين بن إحسان</jawi>
+    <death>2010-09-19</death>
+    <deathm>1431-10-10</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-10-18" delivered="" price="35">
+    <name>ropah bte selamat(rohulah)</name>
+    <jawi>روفه بنت سلامة رحله</jawi>
+    <death>2010-07-31</death>
+    <deathm>1431-08-19</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-10-18" delivered="" price="260">
+    <name>abdul mutalib bin md jaafar</name>
+    <jawi>عبدول مطالب  بن مد جعفر</jawi>
+    <death>2010-07-18</death>
+    <deathm>1431-08-06</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2010-10-21" delivered="" price="35">
+    <name>hamdan bin abdullah zawawi</name>
+    <jawi>حمدان بن عبدالله زاؤاوي</jawi>
+    <death>2010-06-16</death>
+    <deathm>1431-07-03</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2010-10-22" delivered="" price="260">
+    <name>Syed mansur bin syed abdullah</name>
+    <jawi>شيد منصور بن شيد عبدالله</jawi>
+    <born>1973-08-22</born>
+    <death>2010-07-10</death>
+    <deathm>1431-07-27</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+    <name>mohd sahaharel bin mohd said</name>
+    <jawi>محمد سهاهاريل بن محمد سعيد</jawi>
+    <death>2010-09-22</death>
+    <deathm>1431-10-13</deathm>
+    <age>51</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+    <name>hj kassim bin che mat</name>
+    <death>1959-05-05</death>
+    <deathm></deathm>
+    <age>40</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+    <name>ahmed shahwarni bin yusoff</name>
+    <jawi>أحمد شهوارني بن يوسوف</jawi>
+    <death>1982-02-14</death>
+    <deathm>1402-03-20</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+    <name>fatimah bt kassim</name>
+    <death>1972-09-29</death>
+    <deathm>1392-08-20</deathm>
+    <age>10</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+    <name>salbiah bt shaharuddin</name>
+    <jawi>سلبيه بنت شهارودين</jawi>
+    <death>2010-08-12</death>
+    <deathm>1431-09-02</deathm>
+    <age>56</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+    <name>hjh sabariah bt ahmad</name>
+    <jawi>حجه سباريه بنت أحمد</jawi>
+    <death>2010-04-14</death>
+    <deathm>1431-03-29</deathm>
+    <age>89</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+    <name>mohd ruslan bin idrus</name>
+    <death>2010-07-27</death>
+    <deathm>1431-08-15</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+    <name>abd rahim bin abu bakar</name>
+    <jawi>عبدول رحيم بن أبو بكر</jawi>
+    <death>2010-09-19</death>
+    <deathm>1431-10-10</deathm>
+    <age>67</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+    <name>samsiah bt mohd kassim</name>
+    <jawi>سمسياه بنت محمد قاسيم</jawi>
+    <death>2010-06-27</death>
+    <deathm>1431-07-14</deathm>
+    <age>74</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+    <name>zarni arianti bt zainal</name>
+    <jawi>زارني ارينتي بنت زاينل</jawi>
+    <death>2010-06-25</death>
+    <deathm>1431-07-12</deathm>
+    <age>37</age>
+    <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+    <name>mohd nazri bin shahul hameed</name>
+    <jawi>محمد نزري بن شاهول حميد</jawi>
+    <death>2010-10-14</death>
+    <deathm>1431-11-06</deathm>
+    <age>32</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+    <name>salasiah bt saud</name>
+    <jawi>سلاسيه بنت سعود</jawi>
+    <death>2010-09-20</death>
+    <deathm>1431-10-11</deathm>
+    <age>66</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+    <name>zulkifli bin shafiee</name>
+    <jawi>زوالكيفلي بن شافعي</jawi>
+    <death>2010-10-16</death>
+    <deathm>1431-11-08</deathm>
+    <age>51</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+    <name>hj md said bin mohamed</name>
+    <jawi>حاج مد سعيد بن محمد</jawi>
+    <death>2010-06-20</death>
+    <deathm>1431-07-07</deathm>
+    <age>64</age>
+    <item>2½' Sticker(L)</item>
   </order>
 </nisan>

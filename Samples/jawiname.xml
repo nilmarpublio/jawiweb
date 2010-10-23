@@ -2239,8 +2239,8 @@
   </rootname>
   <rootname>
     <rumi>baker</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>بكر</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>bakhat</rumi>
@@ -4708,8 +4708,8 @@
   </rootname>
   <rootname>
     <rumi>hamed</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>حميد</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>hamedon</rumi>
@@ -4718,7 +4718,7 @@
   </rootname>
   <rootname>
     <rumi>hameed</rumi>
-    <jawi />
+    <jawi>حميد</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
@@ -4811,7 +4811,7 @@
   <rootname>
     <rumi>hamzah</rumi>
     <jawi>حمزة</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>hana</rumi>
@@ -5797,6 +5797,8 @@
   </rootname>
   <rootname>
     <rumi>insyirah</rumi>
+    <jawi>إنشراح</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>intan</rumi>
@@ -6053,13 +6055,13 @@
   </rootname>
   <rootname>
     <rumi>ja'afar</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>جعفر</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>jaapar</rumi>
     <jawi>جافر</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>jab</rumi>
@@ -7135,7 +7137,7 @@
   <rootname>
     <rumi>kassan</rumi>
     <jawi>كاسن</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>kassim</rumi>
@@ -8514,8 +8516,8 @@
   </rootname>
   <rootname>
     <rumi>mansoor</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>منصور</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>mansor</rumi>
@@ -8524,8 +8526,8 @@
   </rootname>
   <rootname>
     <rumi>mansur</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>منصور</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>manzoor</rumi>
@@ -9583,8 +9585,8 @@
   </rootname>
   <rootname>
     <rumi>mutalib</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مطالب </jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>mutani</rumi>
@@ -10075,7 +10077,7 @@
   <rootname>
     <rumi>nazri</rumi>
     <jawi>نزري</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>nazrin</rumi>
@@ -12612,7 +12614,7 @@
   </rootname>
   <rootname>
     <rumi>sabariah</rumi>
-    <jawi>سابارياه</jawi>
+    <jawi>سباريه</jawi>
     <sex>2</sex>
   </rootname>
   <rootname>
@@ -12768,6 +12770,8 @@
   </rootname>
   <rootname>
     <rumi>sah</rumi>
+    <jawi>سه</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>sahak</rumi>
@@ -12983,7 +12987,7 @@
   </rootname>
   <rootname>
     <rumi>salasiah</rumi>
-    <jawi>سالاسياه</jawi>
+    <jawi>سلاسيه</jawi>
     <sex>2</sex>
   </rootname>
   <rootname>
@@ -12993,7 +12997,7 @@
   </rootname>
   <rootname>
     <rumi>salbiah</rumi>
-    <jawi>سلبياه</jawi>
+    <jawi>سلبيه</jawi>
     <sex>2</sex>
   </rootname>
   <rootname>
@@ -13177,8 +13181,8 @@
   </rootname>
   <rootname>
     <rumi>samsiah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سمسياه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>samsinor</rumi>
@@ -13438,13 +13442,13 @@
   </rootname>
   <rootname>
     <rumi>saud</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سعود</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>sa'ud</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سعود</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>saudah</rumi>
@@ -13562,8 +13566,8 @@
   </rootname>
   <rootname>
     <rumi>selamat</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>selasiah</rumi>
@@ -13834,11 +13838,13 @@
   </rootname>
   <rootname>
     <rumi>shafi'e</rumi>
+    <jawi>شافعي</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shafiee</rumi>
     <jawi>شافعي</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shafiei</rumi>
@@ -13907,8 +13913,8 @@
   </rootname>
   <rootname>
     <rumi>shaharudin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شهارودين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shaharul</rumi>
@@ -14021,13 +14027,13 @@
   </rootname>
   <rootname>
     <rumi>shahrul</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شاهول</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shahul</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شاهول</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shahzwan</rumi>
