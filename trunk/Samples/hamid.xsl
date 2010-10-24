@@ -3,7 +3,7 @@
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" omit-xml-declaration="yes"/>
-  <xsl:variable name="last">2010-10-07</xsl:variable>
+  <xsl:variable name="last">2010-10-19</xsl:variable>
   <xsl:template match="/">
     <html>
       <head>
