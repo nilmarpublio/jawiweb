@@ -18980,7 +18980,7 @@
     <age>51</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-10-19" delivered="" price="10">
+  <order soldto="HAM" date="2010-10-19" delivered="2010-10-23" price="10">
     <name>hj kassim bin che mat</name>
     <death>1959-05-05</death>
     <deathm>1378-10-27</deathm>
@@ -19078,5 +19078,41 @@
     <deathm>1431-07-07</deathm>
     <age>64</age>
     <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HOCK" date="2010-10-23" delivered="2010-10-23" price="50">
+    <name>lee shong chuen</name>
+    <born>1951-02-16</born>
+    <death>1951-06-24</death>
+    <item>Christian</item>
+  </order>
+  <order soldto="HOCK" date="2010-10-23" delivered="2010-10-23" price="40">
+    <name>teresa mary fu</name>
+    <born>1919-01-31</born>
+    <death>2010-10-15</death>
+    <item>Christian</item>
+  </order>
+  <order soldto="HAM" date="2010-10-23" delivered="" price="10">
+    <name>ismail bin mydin sah</name>
+	<jawi></jawi>
+    <death>2010-09-26</death>
+    <deathm>1431-10-17</deathm>
+	<age>64</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-23" delivered="" price="10">
+    <name>lukman bin madar sahib</name>
+	<jawi>لوكمان ين مادرساهيب</jawi>
+    <death>2010-10-09</death>
+    <deathm>1431-11-01</deathm>
+	<age>81</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-10-23" delivered="" price="10">
+    <name>hjh aishah bi bt abd ghaffor</name>
+	<jawi>حجه عيشه بي بنت عبدالگافور</jawi>
+    <death>2010-10-09</death>
+    <deathm>1431-11-01</deathm>
+	<age>74</age>
+    <item>2½' Sticker(P)</item>
   </order>
 </nisan>
