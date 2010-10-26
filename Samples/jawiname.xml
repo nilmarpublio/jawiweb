@@ -407,16 +407,13 @@
   </rootname>
   <rootname>
     <rumi>ahamad</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>ahamd</rumi>
+    <jawi>احمد</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ahamed</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>احمد</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ahamedsa</rumi>
