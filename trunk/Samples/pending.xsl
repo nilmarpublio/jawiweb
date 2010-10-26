@@ -117,7 +117,7 @@ TODO: move into different template so that easy to maintain since 2010-09-21
                   </tr>
                   <tr>
                     <td>PV</td>
-                    <td><xsl:value-of select="sum(nisan/purchase/quantity[../item='PV'])-count(nisan/order[item='PV'])"/></td>
+                    <td><xsl:value-of select="sum(nisan/purchase/quantity[contains(../item,'PV')])-count(nisan/order[contains(item,'PV')])"/></td>
                     <td></td>
                   </tr>
                 </table>

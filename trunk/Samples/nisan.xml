@@ -19165,9 +19165,17 @@
     <purchase>
         <buyfrom>weetatt</buyfrom>
         <date>2010-10-26</date>
-        <quantity>498</quantity>
+        <quantity>563</quantity>
         <price>0.60</price>
         <item>PV</item>
         <remarks>for tally purpose</remarks>
     </purchase>
+    <order soldto="ADI" date="2010-10-26" delivered="" price="35">
+        <name>muhamad azib azri bin muhamad rizal</name>
+        <jawi>محمد أذيب عزري بن محمد ريزل</jawi>
+        <born>2008-04-19</born>
+        <death>2008-04-21</death>
+        <deathm>1429-04-14</deathm>
+        <item>PV Budak</item>
+    </order>
 </nisan>
