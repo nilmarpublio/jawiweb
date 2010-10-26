@@ -8,6 +8,7 @@ TODO: move into different template so that easy to maintain since 2010-09-21
   <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
   <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
 
+  <xsl:variable name="PV">PV</xsl:variable>
   <xsl:variable name="batikItem_L15">1½' Batu Batik(L)</xsl:variable>
   <xsl:variable name="batikItem_P15">1½' Batu Batik(P)</xsl:variable>
   <xsl:variable name="putihItem_L15">1½' Batu Putih(L)</xsl:variable>
@@ -113,6 +114,11 @@ TODO: move into different template so that easy to maintain since 2010-09-21
                     <td>灶君</td>
                     <td><xsl:value-of select="sum(nisan/purchase/quantity[../item='灶君'])-count(nisan/order[item='灶君'])"/></td>
                     <td><xsl:value-of select="sum(nisan/purchase/quantity[../item='灶君(浮)'])-count(nisan/order[item='灶君(浮)'])"/></td>
+                  </tr>
+                  <tr>
+                    <td>PV</td>
+                    <td><xsl:value-of select="sum(nisan/purchase/quantity[../item='PV'])-count(nisan/order[item='PV'])"/></td>
+                    <td></td>
                   </tr>
                 </table>
               </td>
