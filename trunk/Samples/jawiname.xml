@@ -6374,8 +6374,8 @@
   </rootname>
   <rootname>
     <rumi>jantan</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>جنتان</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>japir</rumi>
@@ -9069,8 +9069,8 @@
   </rootname>
   <rootname>
     <rumi>meriam</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مريم </jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>merican</rumi>
@@ -16169,11 +16169,8 @@
   </rootname>
   <rootname>
     <rumi>yaziz</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>ydin</rumi>
+    <jawi>يعزز</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>yean</rumi>

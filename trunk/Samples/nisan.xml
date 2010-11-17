@@ -19415,7 +19415,7 @@
     </order>
 	<order soldto="ADI" date="2010-11-16" delivered="" price="35">
         <name>meriam bt daud</name>
-		<jawi></jawi>
+		<jawi>مريم  بنت داود</jawi>
 		<born>1934-11-06</born>
         <death>2009-09-03</death>
         <deathm>1430-09-13</deathm>
@@ -19423,14 +19423,14 @@
     </order>
 	<order soldto="ADI" date="2010-11-16" delivered="" price="35">
         <name>Ali bin jantan</name>
-		<jawi></jawi>
+		<jawi>علي بن جنتان</jawi>
         <death>2006-11-14</death>
         <deathm>1427-10-22</deathm>
         <item>PV</item>
     </order>
 	<order soldto="ADI" date="2010-11-16" delivered="" price="35">
         <name>Mohd yaziz bin shamsuddin</name>
-		<jawi></jawi>
+		<jawi>محمد يعزز بن شامسوددين</jawi>
 		<born>1952-10-08</born>
         <death>2010-06-16</death>
         <deathm>1431-07-03</deathm>
