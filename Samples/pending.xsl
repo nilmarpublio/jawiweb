@@ -48,10 +48,10 @@ TODO: move into different template so that easy to maintain since 2010-09-21
           .content ol li {text-transform: capitalize;}
           .headline { background-color: lightgrey; clear: both;font-size:12px;}
 
-          .numbering {display:inline-table;width:30px;padding:0 6px 0 0;}
-          .soldtoHead {display:inline-table;width:30px;padding:0 6px 0 0;text-align:center;}
+          .numbering {display:inline-table;width:40px;padding:0 6px 0 0;}
+          .soldtoHead {display:inline-table;width:40px;padding:0 6px 0 0;text-align:center;}
 
-          .soldto {display:inline-table;width:30px;padding:0 6px 0 0;text-align:right;}
+          .soldto {display:inline-table;width:40px;padding:0 6px 0 0;text-align:right;}
           .order {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
           .deliver { display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
           .name { display:inline-table;width:380px;padding:0 6px 0 0; }
