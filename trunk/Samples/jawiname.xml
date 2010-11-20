@@ -5652,7 +5652,7 @@
   <rootname>
     <rumi>idris</rumi>
     <jawi>ادريس</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>idru</rumi>
@@ -5661,8 +5661,8 @@
   </rootname>
   <rootname>
     <rumi>idrus</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ادروس </jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>iffah</rumi>
@@ -11089,7 +11089,7 @@
   <rootname>
     <rumi>piah</rumi>
     <jawi>فياه</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>piai</rumi>
@@ -12447,7 +12447,7 @@
   <rootname>
     <rumi>ruslan</rumi>
     <jawi>روسلن</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>rusli</rumi>

@@ -19436,4 +19436,112 @@
         <deathm>1431-07-03</deathm>
         <item>PV Egg</item>
     </order>
+	<order soldto="妖古福" date="2010-11-14" delivered="" price="60">
+        <name>annie lee</name>
+		<born>1936-09-27</born>
+        <death>2005-08-24</death>
+        <item>Christian</item>
+		<remarks>10.5"x9.5" white marble</remarks>
+    </order>
+	<order soldto="妖古福" date="2010-11-14" delivered="" price="60">
+        <name>tan chin leong</name>
+		<born>1941-03-06</born>
+        <death>2010-09-13</death>
+        <item>Christian</item>
+		<remarks>12"x12" blue pearl</remarks>
+    </order>
+	<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+        <name>josephine</name>
+        <death>1941-12-28</death>
+        <item>Christian</item>
+    </order>
+		<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+        <name>carmen</name>
+        <death>1942-10-01</death>
+        <item>Christian</item>
+    </order>
+		<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+        <name>camille</name>
+        <death>1943-10-18</death>
+        <item>Christian</item>
+    </order>
+		<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+        <name>clarice</name>
+        <death>1944-05-27</death>
+        <item>Christian</item>
+    </order>
+		<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+        <name>anne</name>
+        <death>1945-08-26</death>
+        <item>Christian</item>
+    </order>
+		<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+        <name>agnes yeoh</name>
+        <death>1988-12-20</death>
+        <item>Christian</item>
+    </order>
+		<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+        <name>rosaline</name>
+        <death>1942-12-12</death>
+        <item>Christian</item>
+    </order>
+	<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+        <name>genevieve</name>
+        <death>1943-06-27</death>
+        <item>Christian</item>
+    </order>
+	<order soldto="HAM" date="2010-11-18" delivered="" price="10">
+        <name>hjh mustaffah ramdan bin hussain</name>
+		<jawi>حجه مُسطعفى رمضان  بن حُسين</jawi>
+        <death>2010-11-10</death>
+        <deathm>1431-12-03</deathm>
+        <age>64</age>
+        <item>2' Sticker(L)</item>
+    </order>
+	<order soldto="HAM" date="2010-11-18" delivered="" price="10">
+        <name>abdulla bin ali piah</name>
+		<jawi>عبدالله بن علي فياه</jawi>
+        <death>2010-10-25</death>
+        <deathm>1431-11-17</deathm>
+        <age>63</age>
+        <item>2' Sticker(L)</item>
+    </order>
+	<order soldto="HAM" date="2010-11-18" delivered="" price="10">
+        <name>azham bin kader</name>
+		<jawi>ازهام بن كادير</jawi>
+        <death>2010-11-12</death>
+        <deathm>1431-12-05</deathm>
+        <item>2' Sticker(L)</item>
+    </order>
+	<order soldto="HAM" date="2010-11-18" delivered="" price="10">
+        <name>azham bin kader</name>
+		<jawi>ازهام بن كادير</jawi>
+        <death></death>
+        <deathm></deathm>
+        <age>37</age>
+        <item>4" Sticker</item>
+		<remarks>rumi sahaja</remarks>
+    </order>
+	<order soldto="HAM" date="2010-11-18" delivered="" price="10">
+        <name>muhammad ruslan bin idrus</name>
+		<jawi>محمد روسلن بن ادروس </jawi>
+        <death>2010-07-27</death>
+        <deathm>1431-08-15</deathm>
+        <item>2' Sticker(L)</item>
+    </order>
+	<order soldto="HAM" date="2010-11-18" delivered="" price="10">
+        <name>che jah bt taib</name>
+		<jawi>چئ خه بنت طيب</jawi>
+        <death>2010-11-17</death>
+        <deathm>1431-12-10</deathm>
+        <age>44</age>
+        <item>2' Sticker(P)</item>
+    </order>
+	<order soldto="HAM" date="2010-11-18" delivered="" price="10">
+        <name>semoga allah cucuri rahmat keatas rohnya</name>
+        <death></death>
+        <deathm></deathm>
+        <age></age>
+        <item>4"x48" Sticker</item>
+    </order>
 </nisan>
