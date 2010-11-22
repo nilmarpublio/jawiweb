@@ -212,12 +212,6 @@
     <sex>0</sex>
   </rootname>
   <rootname>
-    <rumi>abrashid</rumi>
-  </rootname>
-  <rootname>
-    <rumi>abrizah</rumi>
-  </rootname>
-  <rootname>
     <rumi>abu</rumi>
     <jawi>أبو</jawi>
     <sex>1</sex>
@@ -2498,7 +2492,7 @@
   <rootname>
     <rumi>bee</rumi>
     <jawi>بي</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>beevi</rumi>
@@ -4192,8 +4186,8 @@
   </rootname>
   <rootname>
     <rumi>gani</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>گاني</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ganney</rumi>
@@ -11975,6 +11969,9 @@
     <jawi />
     <sex>0</sex>
   </rootname>
+    <rootname>
+    <rumi>rizah</rumi>
+  </rootname>
   <rootname>
     <rumi>rizal</rumi>
     <jawi>ريزل</jawi>
@@ -13332,8 +13329,8 @@
   </rootname>
   <rootname>
     <rumi>sarah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ساره</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>sareah</rumi>
@@ -15899,7 +15896,7 @@
   </rootname>
   <rootname>
     <rumi>wan</rumi>
-    <jawi>ون</jawi>
+    <jawi>وان</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>

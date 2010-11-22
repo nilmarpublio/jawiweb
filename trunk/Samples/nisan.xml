@@ -19413,37 +19413,40 @@
 		<age>58</age>
 		<item>2' Sticker(P)</item>
 	</order>
-	<order soldto="ADI" date="2010-11-16" delivered="2010-11-23" price="35">
+	<order soldto="ADI" date="2010-11-16" delivered="2010-11-22" price="35">
 		<name>meriam bt daud</name>
 		<jawi>مريم  بنت داود</jawi>
 		<born>1934-11-06</born>
 		<death>2009-09-03</death>
 		<deathm>1430-09-13</deathm>
 		<item>PV</item>
+		<remarks>EN4327082020MY</remarks>
 	</order>
-	<order soldto="ADI" date="2010-11-16" delivered="2010-11-23" price="35">
+	<order soldto="ADI" date="2010-11-16" delivered="2010-11-22" price="35">
 		<name>Ali bin jantan</name>
 		<jawi>علي بن جنتان</jawi>
 		<death>2006-11-14</death>
 		<deathm>1427-10-22</deathm>
 		<item>PV</item>
+		<remarks>EN4327082020MY</remarks>
 	</order>
-	<order soldto="ADI" date="2010-11-16" delivered="2010-11-23" price="35">
+	<order soldto="ADI" date="2010-11-16" delivered="2010-11-22" price="35">
 		<name>Mohd yaziz bin shamsuddin</name>
 		<jawi>محمد يعزز بن شامسوددين</jawi>
 		<born>1952-10-08</born>
 		<death>2010-06-16</death>
 		<deathm>1431-07-03</deathm>
 		<item>PV Egg</item>
+		<remarks>EN4327082020MY</remarks>
 	</order>
-	<order soldto="妖古福" date="2010-11-14" delivered="" price="60">
+	<order soldto="妖古福" date="2010-11-14" delivered="2010-11-22" price="50">
 		<name>annie lee</name>
 		<born>1936-09-27</born>
 		<death>2005-08-24</death>
 		<item>Christian</item>
-		<remarks>10.5"x9.5" white marble</remarks>
+		<remarks>10½"x9½" white marble</remarks>
 	</order>
-	<order soldto="妖古福" date="2010-11-14" delivered="" price="60">
+	<order soldto="妖古福" date="2010-11-14" delivered="2010-11-22" price="50">
 		<name>tan chin leong</name>
 		<born>1941-03-06</born>
 		<death>2010-09-13</death>
@@ -19490,7 +19493,7 @@
 		<death>1943-06-27</death>
 		<item>Christian</item>
 	</order>
-	<order soldto="HAM" date="2010-11-18" delivered="2010-11-22" price="10">
+	<order soldto="HAM" date="2010-11-18" delivered="2010-11-23" price="10">
 		<name>hjh mustaffah ramdan bin hussain</name>
 		<jawi>حجه مُسطعفى رمضان  بن حُسين</jawi>
 		<death>2010-11-10</death>
@@ -19498,7 +19501,7 @@
 		<age>64</age>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2010-11-18" delivered="2010-11-22" price="10">
+	<order soldto="HAM" date="2010-11-18" delivered="2010-11-23" price="10">
 		<name>abdulla bin ali piah</name>
 		<jawi>عبدالله بن علي فياه</jawi>
 		<death>2010-10-25</death>
@@ -19506,14 +19509,14 @@
 		<age>63</age>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2010-11-18" delivered="2010-11-22" price="10">
+	<order soldto="HAM" date="2010-11-18" delivered="2010-11-23" price="10">
 		<name>azham bin kader</name>
 		<jawi>ازهام بن كادير</jawi>
 		<death>2010-11-12</death>
 		<deathm>1431-12-05</deathm>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2010-11-18" delivered="2010-11-22" price="10">
+	<order soldto="HAM" date="2010-11-18" delivered="2010-11-23" price="10">
 		<name>azham bin kader</name>
 		<jawi>ازهام بن كادير</jawi>
 		<death></death>
@@ -19522,14 +19525,14 @@
 		<item>4" Sticker</item>
 		<remarks>rumi sahaja</remarks>
 	</order>
-	<order soldto="HAM" date="2010-11-18" delivered="2010-11-22" price="10">
+	<order soldto="HAM" date="2010-11-18" delivered="2010-11-23" price="10">
 		<name>muhammad ruslan bin idrus</name>
 		<jawi>محمد روسلن بن ادروس </jawi>
 		<death>2010-07-27</death>
 		<deathm>1431-08-15</deathm>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2010-11-18" delivered="2010-11-22" price="10">
+	<order soldto="HAM" date="2010-11-18" delivered="2010-11-23" price="10">
 		<name>che jah bt taib</name>
 		<jawi>چئ خه بنت طيب</jawi>
 		<death>2010-11-17</death>
@@ -19537,11 +19540,10 @@
 		<age>44</age>
 		<item>2' Sticker(P)</item>
 	</order>
-	<order soldto="HAM" date="2010-11-18" delivered="2010-11-22" price="10">
+	<order soldto="HAM" date="2010-11-18" delivered="2010-11-23" price="10">
 		<name>semoga allah cucuri rahmat keatas rohnya</name>
 		<death></death>
 		<deathm></deathm>
-		<age></age>
 		<item>4"x48" Sticker</item>
 	</order>
 	<purchase>
@@ -19551,4 +19553,42 @@
 		<price>0.60</price>
 		<item>PV</item>
 	</purchase>
+	<order soldto="HAM" date="2010-11-22" delivered="" price="10">
+		<name>juma bee bt mohd gani</name>
+		<jawi>جوما بي بنت گاني</jawi>
+		<death>1996-07-31</death>
+		<deathm>1417-03-15</deathm>
+		<item>2' Sticker(P)</item>
+	</order>
+	<order soldto="HAM" date="2010-11-22" delivered="" price="10">
+		<name>sarah bee bt abu bakar</name>
+		<jawi>ساره بي بنت أبو بكر</jawi>
+		<death>2008-11-13</death>
+		<deathm>1429-11-15</deathm>
+		<age>64</age>
+		<item>2' Sticker(P)</item>
+	</order>
+	<order soldto="HAM" date="2010-11-22" delivered="" price="10">
+		<name>k.o. mohame yusoff</name>
+		<jawi>كي،او، محمد يوسف</jawi>
+		<death>1986-10-11</death>
+		<deathm>1407-01-07</deathm>
+		<item>2' Sticker(L)</item>
+	</order>
+	<order soldto="HAM" date="2010-11-22" delivered="" price="10">
+		<name>wan noor bt saad</name>
+		<jawi>وان نور بنت سعد</jawi>
+		<death>2010-11-12</death>
+		<deathm>1431-12-05</deathm>
+		<age>81</age>
+		<item>2' Sticker(P)</item>
+	</order>
+	<order soldto="HAM" date="2010-11-22" delivered="" price="10">
+		<name>azmi bin hassan</name>
+		<jawi>عزمي بن حسن</jawi>
+		<death>2010-10-12</death>
+		<deathm>1431-11-04</deathm>
+		<age>55</age>
+		<item>2' Sticker(L)</item>
+	</order>
 </nisan>
