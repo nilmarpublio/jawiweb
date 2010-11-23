@@ -19119,10 +19119,10 @@
 		<age>74</age>
 		<item>2½' Sticker(P)</item>
 	</order>
-	<order soldto="SEM" date="2010-10-24" delivered="2010-10-31" price="220">
+	<order soldto="SEM" date="2010-10-24" delivered="" price="220">
 		<name>Hjh rodziah bt othman</name>
 		<jawi>حجه رودزيه بنت عثمان</jawi>
-		<born>1998-09-27</born>
+		<born>1928-09-27</born>
 		<death>2008-04-26</death>
 		<deathm>1429-04-19</deathm>
 		<item>2' Batu Putih(P)</item>
