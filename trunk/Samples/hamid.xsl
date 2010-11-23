@@ -79,6 +79,28 @@
           <span class="name">Description</span>
           <hr></hr>
           <!--<xsl:variable name="today">2010-08-23</xsl:variable>-->
+          
+          <ol>
+          <xsl:for-each select="nisan/order/@date[
+          ../@soldto='HAM'
+          and (../@delivered=''
+               or
+               (substring(../@delivered,1,4) >= substring($last,1,4)
+               and substring(../@delivered,6,2) >= substring($last,6,2)
+               and substring(../@delivered,9,2) >= substring($last,9,2))
+               or
+               (substring(../@delivered,1,4) >= substring($last,1,4)
+               and substring(../@delivered,6,2) > substring($last,6,2))
+               or
+               (substring(../@delivered,1,4) > substring($last,1,4))
+               )
+          ]">
+          	<li>
+          	<xsl:value-of select="."/>
+          	</li>
+          </xsl:for-each>
+          </ol>
+          
           <ol>
             <xsl:for-each select="nisan/order">
               <xsl:sort select="@date" data-type="text" order="ascending" />
@@ -159,6 +181,7 @@
             </xsl:for-each>
           </ol>
           <hr/>
+          
           <div style="float:right;font-weight:bold;">
             <!--Total RM-->
             <!--xsl:value-of
