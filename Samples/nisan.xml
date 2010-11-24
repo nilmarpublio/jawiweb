@@ -19545,7 +19545,7 @@
 		<age>44</age>
 		<item>2' Sticker(P)</item>
 	</order>
-	<order soldto="HAM" date="2010-11-18" delivered="2010-11-23" price="10">
+	<order soldto="HAM" date="2010-11-18" delivered="2010-11-23" price="60">
 		<name>semoga allah cucuri rahmat keatas rohnya</name>
 		<death></death>
 		<deathm></deathm>
@@ -19601,5 +19601,46 @@
 		<born>1974-02-16</born>
 		<death>2010-11-14</death>
 		<item>10¾x9¾" Black</item>
+	</order>
+	<order soldto="HAM" date="2010-11-24" delivered="" price="60">
+		<name>semoga allah cucuri rahmat keatas rohnya</name>
+		<death></death>
+		<deathm></deathm>
+		<item>4"x48" Sticker</item>
+	</order>
+	<order soldto="ADI" date="2010-11-24" delivered="" price="35">
+		<name>Satiah bt tumin</name>
+		<jawi>سطح  بنت تومين</jawi>
+		<death>2010-10-31</death>
+		<deathm>1431-11-23</deathm>
+		<item>2' Batu Batik(P)</item>
+	</order>
+	<order soldto="ADI" date="2010-11-24" delivered="" price="35">
+		<name>megat yasin bin megat hussain</name>
+		<jawi>مگت ياسين بن مگت حُسين</jawi>
+		<death>2010-06-10</death>
+		<deathm>1431-06-27</deathm>
+		<item>2' Batu Batik(L)</item>
+	</order>
+	<order soldto="ADI" date="2010-11-24" delivered="" price="35">
+		<name>Hj hussin bin mohamed</name>
+		<jawi>حاج حُسين بن محمد</jawi>
+		<death>2010-09-27</death>
+		<deathm>1431-10-18</deathm>
+		<item>PV</item>
+	</order>
+	<order soldto="ADI" date="2010-11-24" delivered="" price="35">
+		<name>Siti johariah bt saed</name>
+		<jawi>ستي جوهرية  بنت سعد</jawi>
+		<death>2010-11-09</death>
+		<deathm>1431-12-02</deathm>
+		<item>PV</item>
+	</order>
+	<order soldto="ADI" date="2010-11-24" delivered="" price="35">
+		<name>mohd badrul amin bin semahat</name>
+		<jawi>محمد بادرول أمين سمحت</jawi>
+		<death>2009-05-29 13:30</death>
+		<deathm>1430-06-05</deathm>
+		<item>PV Egg</item>
 	</order>
 </nisan>
