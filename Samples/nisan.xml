@@ -19444,54 +19444,59 @@
 		<born>1936-09-27</born>
 		<death>2005-08-24</death>
 		<item>Christian</item>
-		<remarks>10½"x9½" white marble</remarks>
+		<remarks>10½"x9½" White Marble</remarks>
 	</order>
 	<order soldto="妖古福" date="2010-11-14" delivered="2010-11-22" price="50">
 		<name>tan chin leong</name>
 		<born>1941-03-06</born>
 		<death>2010-09-13</death>
-		<item>Christian</item>
-		<remarks>12"x12" blue pearl</remarks>
+		<item>12"x12" Blue Pearl</item>
 	</order>
-	<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+		<order soldto="妖古福" date="2010-11-14" delivered="" price="60">
+		<name>nathan kesagar</name>
+		<born>1916-04-14</born>
+		<death>1989-06-19</death>
+		<item>24"x20" Black</item>
+	</order>
+	<order soldto="妖古福" date="2010-11-20" delivered="2010-11-24" price="40">
 		<name>josephine</name>
 		<death>1941-12-28</death>
-		<item>Christian</item>
+		<item>7½"x7½" tile</item>
 	</order>
-	<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+	<order soldto="妖古福" date="2010-11-20" delivered="2010-11-24" price="40">
 		<name>carmen</name>
 		<death>1942-10-01</death>
-		<item>Christian</item>
+		<item>7½"x7½" tile</item>
 	</order>
-	<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+	<order soldto="妖古福" date="2010-11-20" delivered="2010-11-24" price="40">
 		<name>camille</name>
 		<death>1943-10-18</death>
-		<item>Christian</item>
+		<item>7½"x7½" tile</item>
 	</order>
-	<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+	<order soldto="妖古福" date="2010-11-20" delivered="2010-11-24" price="40">
 		<name>clarice</name>
 		<death>1944-05-27</death>
-		<item>Christian</item>
+		<item>7½"x7½" tile</item>
 	</order>
-	<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+	<order soldto="妖古福" date="2010-11-20" delivered="2010-11-24" price="40">
 		<name>anne</name>
 		<death>1945-08-26</death>
-		<item>Christian</item>
+		<item>7½"x7½" tile</item>
 	</order>
-	<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+	<order soldto="妖古福" date="2010-11-20" delivered="2010-11-24" price="40">
 		<name>agnes yeoh</name>
 		<death>1988-12-20</death>
-		<item>Christian</item>
+		<item>7½"x7½" tile</item>
 	</order>
-	<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+	<order soldto="妖古福" date="2010-11-20" delivered="2010-11-24" price="40">
 		<name>rosaline</name>
 		<death>1942-12-12</death>
-		<item>Christian</item>
+		<item>7½"x7½" tile</item>
 	</order>
-	<order soldto="妖古福" date="2010-11-20" delivered="" price="40">
+	<order soldto="妖古福" date="2010-11-20" delivered="2010-11-24" price="40">
 		<name>genevieve</name>
 		<death>1943-06-27</death>
-		<item>Christian</item>
+		<item>7½"x7½" tile</item>
 	</order>
 	<order soldto="HAM" date="2010-11-18" delivered="2010-11-23" price="10">
 		<name>hjh mustaffah ramdan bin hussain</name>
@@ -19590,5 +19595,11 @@
 		<deathm>1431-11-04</deathm>
 		<age>55</age>
 		<item>2' Sticker(L)</item>
+	</order>
+	<order soldto="妖古福" date="2010-11-22" delivered="" price="50">
+		<name>Hong Jwo Haur</name>
+		<born>1974-02-16</born>
+		<death>2010-11-14</death>
+		<item>10¾x9¾" Black</item>
 	</order>
 </nisan>

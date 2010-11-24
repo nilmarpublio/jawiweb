@@ -431,19 +431,24 @@ TODO: move into different template so that easy to maintain since 2010-09-21
                     <xsl:text>font-style:italic</xsl:text>
                   </xsl:attribute>
                 </xsl:if>
-                <xsl:if test="contains(item,'Hijau') or contains(item,'G')='true'">
+                <xsl:if test="contains(item,'Hijau')='true' or contains(item,'G')='true' or contains(item,'Green')='true'">
                   <xsl:attribute name="style">
                     <xsl:text>color:green</xsl:text>
                   </xsl:attribute>
                 </xsl:if>
-                <xsl:if test="contains(item,'Batik')='true'">
+                <xsl:if test="contains(item,'Batik')='true' or contains(item,'Blue')='true'">
                   <xsl:attribute name="style">
                     <xsl:text>color:blue</xsl:text>
                   </xsl:attribute>
                 </xsl:if>
-                <xsl:if test="contains(item,'Putih')='true'">
+                <xsl:if test="contains(item,'Putih')='true' or contains(item,'White')='true'">
                   <xsl:attribute name="style">
                     <xsl:text>color:grey</xsl:text>
+                  </xsl:attribute>
+                </xsl:if>
+                <xsl:if test="contains(item,'Black')='true'">
+                  <xsl:attribute name="style">
+                    <xsl:text>color:black</xsl:text>
                   </xsl:attribute>
                 </xsl:if>
 
@@ -493,8 +498,9 @@ TODO: move into different template so that easy to maintain since 2010-09-21
             <li>KEN - Tmn Kenari | </li>
             <!--li>KIL - Kilang Lama | </li-->
             <li>SEL - Selama | </li>
-            <li>SEM - Semanggol</li>
+            <li>SEM - Semanggol | </li>
             <!--li>PAS - Pasir Puteh</li -->
+            <li>妖古福 - Christian</li>
           </ul>
           <span class="left">
             Bulan Melayu:
