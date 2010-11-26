@@ -19645,21 +19645,23 @@
     </order>
     <order soldto="KEN" date="2010-11-25" delivered="" price="220">
         <name>jamaliah bt tayib</name>
+		<jawi>جمالية  بنت طيب</jawi>
         <death>2010-11-21</death>
         <deathm>1431-12-14</deathm>
         <item>2' Batu Batik(P)</item>
     </order>
     <order soldto="SEM" date="2010-11-26" delivered="" price="220">
         <name>basyrudin bin basir</name>
+		<jawi>باسيرودين بن باسير</jawi>
         <death>2010-11-09</death>
-        <deathm></deathm>
+        <deathm>1431-12-02</deathm>
         <item>2' Batu Batik(L)</item>
     </order>
     <order soldto="SEM" date="2010-11-26" delivered="" price="220">
         <name>hj ali bin hj hasan</name>
         <born>1950-01-08</born>
         <death>2008-06-26</death>
-        <deathm></deathm>
+        <deathm>1429-06-22</deathm>
         <item>2' Batu Putih(L)</item>
         <remarks>tulisan hitam</remarks>
     </order>
