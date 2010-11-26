@@ -19537,7 +19537,7 @@
         <deathm>1431-08-15</deathm>
         <item>2' Sticker(L)</item>
     </order>
-    <order soldto="HAM" date="2010-11-18" delivered="" price="10">
+    <order soldto="HAM" date="2010-11-18" delivered="2010-11-26" price="10">
         <name>che jah bt taib</name>
         <jawi>چئ خه بنت طيب</jawi>
         <death>2010-11-17</death>
@@ -19565,7 +19565,7 @@
         <deathm>1417-03-15</deathm>
         <item>2' Sticker(P)</item>
     </order>
-    <order soldto="HAM" date="2010-11-22" delivered="" price="10">
+    <order soldto="HAM" date="2010-11-22" delivered="2010-11-26" price="10">
         <name>sarah bee bt abu bakar</name>
         <jawi>ساره بي بنت أبو بكر</jawi>
         <death>2008-11-13</death>
@@ -19580,7 +19580,7 @@
         <deathm>1407-01-07</deathm>
         <item>2' Sticker(L)</item>
     </order>
-    <order soldto="HAM" date="2010-11-22" delivered="" price="10">
+    <order soldto="HAM" date="2010-11-22" delivered="2010-11-26" price="10">
         <name>wan noor bt saad</name>
         <jawi>وان نور بنت سعد</jawi>
         <death>2010-11-12</death>
@@ -19588,7 +19588,7 @@
         <age>81</age>
         <item>2' Sticker(P)</item>
     </order>
-    <order soldto="HAM" date="2010-11-22" delivered="" price="10">
+    <order soldto="HAM" date="2010-11-22" delivered="2010-11-26" price="10">
         <name>azmi bin hassan</name>
         <jawi>عزمي بن حسن</jawi>
         <death>2010-10-12</death>
@@ -19602,7 +19602,7 @@
         <death>2010-11-14</death>
         <item>10¾x9¾" Black</item>
     </order>
-    <order soldto="HAM" date="2010-11-24" delivered="" price="60">
+    <order soldto="HAM" date="2010-11-24" delivered="2010-11-26" price="60">
         <name>semoga allah cucuri rahmat keatas rohnya</name>
         <death></death>
         <deathm></deathm>
