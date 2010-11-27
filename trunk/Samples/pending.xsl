@@ -54,8 +54,8 @@ TODO: move into different template so that easy to maintain since 2010-09-21
           .soldto {display:inline-table;width:40px;padding:0 6px 0 0;text-align:right;}
           .order {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
           .deliver { display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
-          .name { display:inline-table;width:380px;padding:0 6px 0 0; }
-          .item { display:inline-table;width:110px;padding:0 6px 0 0;}
+          .name { display:inline-table;width:390px;padding:0 6px 0 0; }
+          .item { display:inline-table;padding:0 6px 0 0;}
           .jawi { }
 
           .price {display:inline-table;width:30px;text-align:right;}

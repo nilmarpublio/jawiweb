@@ -425,11 +425,6 @@
     <sex>1</sex>
   </rootname>
   <rootname>
-    <rumi>ahmedullah</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
     <rumi>ahnad</rumi>
     <jawi />
     <sex>0</sex>
@@ -2796,8 +2791,8 @@
   </rootname>
   <rootname>
     <rumi>chak</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>چق</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>champawan</rumi>
@@ -8309,8 +8304,8 @@
   </rootname>
   <rootname>
     <rumi>maidin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مأيدين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>mailan</rumi>
@@ -12275,7 +12270,7 @@
   <rootname>
     <rumi>rosli</rumi>
     <jawi>روسلي</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>roslinawati</rumi>
