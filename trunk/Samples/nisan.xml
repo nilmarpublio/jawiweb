@@ -19119,7 +19119,7 @@
         <age>74</age>
         <item>2½' Sticker(P)</item>
     </order>
-    <order soldto="SEM" date="2010-10-24" delivered="" price="220">
+    <order soldto="SEM" date="2010-10-24" delivered="2010-11-28" price="220">
         <name>Hjh rodziah bt othman</name>
         <jawi>حجه رودزيه بنت عثمان</jawi>
         <born>1928-09-27</born>
@@ -19597,10 +19597,10 @@
         <item>2' Sticker(L)</item>
     </order>
     <order soldto="妖古福" date="2010-11-22" delivered="" price="50">
-        <name>Hong Jwo Haur</name>
+        <name>Hong Jwo Haur 方柞皓</name>
         <born>1974-02-16</born>
         <death>2010-11-14</death>
-        <item>10¾x9¾" Black</item>
+        <item>9¾x10¾" Black</item>
     </order>
     <order soldto="HAM" date="2010-11-24" delivered="2010-11-27" price="60">
         <name>semoga allah cucuri rahmat keatas rohnya</name>
@@ -19622,42 +19622,42 @@
         <deathm>1431-06-27</deathm>
         <item>2' Batu Batik(L)</item>
     </order>
-    <order soldto="ADI" date="2010-11-24" delivered="" price="35">
+    <order soldto="ADI" date="2010-11-24" delivered="2010-11-28" price="35">
         <name>Hj hussin bin mohamed</name>
         <jawi>حاج حُسين بن محمد</jawi>
         <death>2010-09-27</death>
         <deathm>1431-10-18</deathm>
         <item>PV</item>
     </order>
-    <order soldto="ADI" date="2010-11-24" delivered="" price="35">
+    <order soldto="ADI" date="2010-11-24" delivered="2010-11-28" price="35">
         <name>Siti johariah bt saed</name>
         <jawi>ستي جوهرية  بنت سعد</jawi>
         <death>2010-11-09</death>
         <deathm>1431-12-02</deathm>
         <item>PV</item>
     </order>
-    <order soldto="ADI" date="2010-11-24" delivered="" price="35">
+    <order soldto="ADI" date="2010-11-24" delivered="2010-11-28" price="35">
         <name>mohd badrul amin bin semahat</name>
         <jawi>محمد بادرول أمين سمحت</jawi>
         <death>2009-05-29 13:30</death>
         <deathm>1430-06-05</deathm>
         <item>PV Egg</item>
     </order>
-    <order soldto="KEN" date="2010-11-25" delivered="" price="220">
+    <order soldto="KEN" date="2010-11-25" delivered="2010-11-28" price="220">
         <name>jamaliah bt tayib</name>
 		<jawi>جمالية  بنت طيب</jawi>
         <death>2010-11-21</death>
         <deathm>1431-12-14</deathm>
         <item>2' Batu Batik(P)</item>
     </order>
-    <order soldto="SEM" date="2010-11-26" delivered="" price="220">
+    <order soldto="SEM" date="2010-11-26" delivered="2010-11-28" price="220">
         <name>basyrudin bin basir</name>
 		<jawi>باسيرودين بن باسير</jawi>
         <death>2010-11-09</death>
         <deathm>1431-12-02</deathm>
         <item>2' Batu Batik(L)</item>
     </order>
-    <order soldto="SEM" date="2010-11-26" delivered="" price="220">
+    <order soldto="SEM" date="2010-11-26" delivered="2010-11-28" price="220">
         <name>hj ali bin hj hasan</name>
         <born>1950-01-08</born>
         <death>2008-06-26</death>
@@ -19665,7 +19665,7 @@
         <item>2' Batu Putih(L)</item>
         <remarks>tulisan hitam</remarks>
     </order>
-	<order soldto="HAM" date="2010-11-27" delivered="" price="10">
+	<order soldto="HAM" date="2010-11-27" delivered="2010-11-28" price="10">
         <name>khadijah bt maidin</name>
 		<jawi>خطيجه بنت مأيدين</jawi>
         <death>2010-11-07</death>
@@ -19697,7 +19697,7 @@
 		<age>86</age>
         <item>2½' Sticker(P)</item>
     </order>
-	<order soldto="HAM" date="2010-11-27" delivered="" price="10">
+	<order soldto="HAM" date="2010-11-27" delivered="2010-11-28" price="10">
         <name>che chak bt shariff</name>
 		<jawi>چئ چق بنت شريف</jawi>
         <death>2010-10-30</death>
@@ -19705,7 +19705,7 @@
 		<age>74</age>
         <item>2' Sticker(P)</item>
     </order>
-	<order soldto="HAM" date="2010-11-27" delivered="" price="10">
+	<order soldto="HAM" date="2010-11-27" delivered="2010-11-28" price="10">
         <name>azhar bin abdul aziz</name>
 		<jawi>ازهار بن عبدول عزيز</jawi>
         <death>2010-11-24</death>
@@ -19713,4 +19713,11 @@
 		<age>59</age>
         <item>2' Sticker(L)</item>
     </order>
+	 <purchase>
+        <buyfrom>weetatt</buyfrom>
+        <date>2010-11-27</date>
+        <quantity>-1</quantity>
+        <price>0.60</price>
+        <item>PV</item>
+    </purchase>
 </nisan>
