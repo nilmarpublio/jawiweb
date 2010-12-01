@@ -103,20 +103,17 @@
                         <xsl:for-each select="order[count(. | key('customerOrderBatch', @date)[1])=1]">
                             <xsl:sort select="@date"/>
                             <xsl:sort select="@soldto"/>
-                            <xsl:if test="@soldto='HAM'
-							  and
-							  (
-								  @delivered=''
-			                      or
-			                      (substring(@delivered,1,4) >= substring($last,1,4)
-			                      and substring(@delivered,6,2) >= substring($last,6,2)
-			                      and substring(@delivered,9,2) >= substring($last,9,2))
-			                      or
-			                      (substring(@delivered,1,4) >= substring($last,1,4)
-			                      and substring(@delivered,6,2) > substring($last,6,2))
-			                      or
-			                      (substring(@delivered,1,4) > substring($last,1,4))
-			                   )">
+                            <xsl:if test="@delivered=''
+                                          or
+                                          (substring(@date,1,4) >= substring($last,1,4)
+                                          and substring(@date,6,2) >= substring($last,6,2)
+                                          and substring(@date,9,2) >= substring($last,9,2))
+                                          or
+                                          (substring(@date,1,4) >= substring($last,1,4)
+                                          and substring(@date,6,2) > substring($last,6,2))
+                                          or
+                                          (substring(@date,1,4) > substring($last,1,4))
+                            ">
                                 <li>
                                     <h4>
                                         <xsl:value-of select="@date"/>
