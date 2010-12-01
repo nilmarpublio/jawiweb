@@ -5019,8 +5019,8 @@
   </rootname>
   <rootname>
     <rumi>hartini</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>حرتين</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>harun</rumi>
@@ -6215,6 +6215,8 @@
   </rootname>
   <rootname>
     <rumi>jaliha</rumi>
+	<jawi>جليحا</jawi>
+	<sex>2</sex>
   </rootname>
   <rootname>
     <rumi>jalil</rumi>
@@ -6478,8 +6480,8 @@
   </rootname>
   <rootname>
     <rumi>jeleha</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>جليحا</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>jelehabi</rumi>
@@ -8091,8 +8093,8 @@
   </rootname>
   <rootname>
     <rumi>madar</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مادر</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>madarsah</rumi>
@@ -13339,8 +13341,8 @@
   </rootname>
   <rootname>
     <rumi>sariah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ساريه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>sarib</rumi>
@@ -15705,8 +15707,8 @@
   </rootname>
   <rootname>
     <rumi>udin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>اودين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>udoh</rumi>
