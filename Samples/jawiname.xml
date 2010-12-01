@@ -15425,8 +15425,8 @@
   </rootname>
   <rootname>
     <rumi>tarmizi</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ترميزي</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>tasu</rumi>
@@ -16574,6 +16574,8 @@
   </rootname>
   <rootname>
     <rumi>zaimal</rumi>
+    <jawi>زامل</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>zaiman</rumi>
