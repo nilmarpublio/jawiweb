@@ -3,7 +3,8 @@
   <!-- @see http://stackoverflow.com/questions/586231/how-can-i-convert-a-string-to-upper-or-lower-case-with-xslt -->  
   <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
   <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
-  <xsl:variable name="last">2010-02-10</xsl:variable>
+  <xsl:variable name="customer">ADI</xsl:variable>
+  <xsl:variable name="last">2010-10-01</xsl:variable>
   
   <xsl:template name="laterThan">
     <xsl:param name="orderDate"/>
@@ -65,7 +66,7 @@
           </div>
           <table>
             <xsl:for-each select="nisan/order[
-                          @soldto='ADI'
+                          @soldto=$customer
                           and (@delivered=''
                           or
                            (substring(@date,1,4) >= substring($last,1,4)

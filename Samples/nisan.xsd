@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="nisan">
     <xs:complexType>
@@ -32,6 +32,16 @@
               <xs:element name="quantity" type="xs:integer" minOccurs="0" />
               <xs:element name="price" type="xs:decimal" minOccurs="0" />
               <xs:element name="item" type="xs:string" minOccurs="0" />
+              <xs:element name="remarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="invoice">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="from" type="xs:string" minOccurs="0" />
+              <xs:element name="date" type="xs:string" minOccurs="0" />
+              <xs:element name="amount" type="xs:decimal" minOccurs="0" />
               <xs:element name="remarks" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
