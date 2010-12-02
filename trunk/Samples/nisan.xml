@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
+<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
     <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
         <name>hjh zainab bt ibrahim</name>
@@ -19608,14 +19608,14 @@
         <deathm></deathm>
         <item>4"x48" Sticker</item>
     </order>
-    <order soldto="ADI" date="2010-11-24" delivered="" price="35">
+    <order soldto="ADI" date="2010-11-24" delivered="" price="260">
         <name>Satiah bt tumin</name>
         <jawi>سطح  بنت تومين</jawi>
         <death>2010-10-31</death>
         <deathm>1431-11-23</deathm>
         <item>2' Batu Batik(P)</item>
     </order>
-    <order soldto="ADI" date="2010-11-24" delivered="" price="35">
+    <order soldto="ADI" date="2010-11-24" delivered="" price="260">
         <name>megat yasin bin megat hussain</name>
         <jawi>مگت ياسين بن مگت حُسين</jawi>
         <death>2010-06-10</death>
@@ -19730,13 +19730,14 @@
     <order soldto="ADI" date="2010-11-30" delivered="" price="35">
         <name>Muhammad nur aqrameen bin mohd zaimal
         Muhammad nur aqram bin mohd zaimal
-        Muhammad nur aqrem bin mohd zaimal</name>
+        Muhammad nur aqrem bin mohd zaimal
+        </name>
         <jawi>محمد نور اقراميين بن محمد زامل    محمد نور اقرام بن محمد زامل   محمد نور اقريم بن محمد زامل</jawi>
         <death>2010-09-25</death>
         <deathm>1431-10-16</deathm>
         <item>PV Budak</item>
     </order>
-    <order soldto="ADI" date="2010-11-30" delivered="" price="35">
+    <order soldto="ADI" date="2010-11-30" delivered="" price="260">
         <name>ahmad puad bin hj tarmizi</name>
         <jawi>أحمد فواد بن حاج ترميزي</jawi>
         <death>2010-02-28</death>
@@ -19751,33 +19752,33 @@
         <deathm>1430-09-07</deathm>
         <item>PV</item>
     </order>
-    <order soldto="HAM" date="2010-11-30" delivered="" price="10">
+    <order soldto="HAM" date="2010-11-30" delivered="2010-12-02" price="10">
         <name>jeleha bee bt mohamed</name>
-		<jawi>جليحا بي بنت محمد</jawi>
+        <jawi>جليحا بي بنت محمد</jawi>
         <death>2010-10-28</death>
         <deathm>1431-11-20</deathm>
         <age>69</age>
         <item>2' Sticker(P)</item>
     </order>
-    <order soldto="HAM" date="2010-11-30" delivered="" price="10">
+    <order soldto="HAM" date="2010-11-30" delivered="2010-12-02" price="10">
         <name>mohamed moosa bin madar</name>
-		<jawi>محمد موسا بن مادر</jawi>
+        <jawi>محمد موسا بن مادر</jawi>
         <death>2010-11-05</death>
         <deathm>1431-11-28</deathm>
         <age>55</age>
         <item>2' Sticker(L)</item>
     </order>
-    <order soldto="HAM" date="2010-11-30" delivered="" price="10">
+    <order soldto="HAM" date="2010-11-30" delivered="2010-12-02" price="10">
         <name>hj hasan bin saad</name>
-		<jawi>حاج حسن بن سعد</jawi>
+        <jawi>حاج حسن بن سعد</jawi>
         <death>2006-04-19</death>
         <deathm>1427-03-20</deathm>
         <age>77</age>
         <item>2' Sticker(L)</item>
     </order>
-    <order soldto="HAM" date="2010-11-30" delivered="" price="10">
+    <order soldto="HAM" date="2010-11-30" delivered="2010-12-02" price="10">
         <name>hamid bin udin</name>
-		<jawi>حميد بن اودين</jawi>
+        <jawi>حميد بن اودين</jawi>
         <death>2010-11-20</death>
         <deathm>1431-12-13</deathm>
         <age>78</age>
@@ -19785,15 +19786,15 @@
     </order>
     <order soldto="HAM" date="2010-11-30" delivered="" price="10">
         <name>mohd kassim bin allapitchay</name>
-		<jawi>محمد قاسيم بن الافيچي</jawi>
+        <jawi>محمد قاسيم بن الافيچي</jawi>
         <death>2010-11-20</death>
         <deathm>1431-12-13</deathm>
         <age>59</age>
         <item>2' Sticker(L)</item>
     </order>
-    <order soldto="HAM" date="2010-11-30" delivered="" price="10">
+    <order soldto="HAM" date="2010-11-30" delivered="2010-12-02" price="10">
         <name>sariah bt harun</name>
-		<jawi>ساريه بنت هارون</jawi>
+        <jawi>ساريه بنت هارون</jawi>
         <death>2010-11-03</death>
         <deathm>1431-11-26</deathm>
         <age>77</age>
@@ -19805,4 +19806,16 @@
         <deathm></deathm>
         <item>5" Sticker</item>
     </order>
+    <invoice>
+        <from>ADI</from>
+        <date>2010-11-07</date>
+        <amount>1000</amount>
+        <remarks>BANK IN</remarks>
+    </invoice>
+    <invoice>
+        <from>ADI</from>
+        <date>2010-11-29</date>
+        <amount>500</amount>
+        <remarks>BANK IN</remarks>
+    </invoice>
 </nisan>
