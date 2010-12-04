@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="nisan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="order">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string" minOccurs="0" />
+              <xs:element name="jawi" type="xs:string" minOccurs="0" />
+              <xs:element name="born" type="xs:string" minOccurs="0" />
+              <xs:element name="bornm" type="xs:string" minOccurs="0" />
+              <xs:element name="death" type="xs:string" minOccurs="0" />
+              <xs:element name="deathm" type="xs:string" minOccurs="0" />
+              <xs:element name="age" type="xs:string" minOccurs="0" />
+              <xs:element name="item" type="xs:string" minOccurs="0" />
+              <xs:element name="remarks" type="xs:string" minOccurs="0" />
+              <xs:element name="tags" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="soldto" type="xs:string" />
+            <xs:attribute name="date" type="xs:string" />
+            <xs:attribute name="delivered" type="xs:string" />
+            <xs:attribute name="bill" type="xs:string" />
+            <xs:attribute name="price" type="xs:decimal" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="purchase">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="buyfrom" type="xs:string" minOccurs="0" />
+              <xs:element name="date" type="xs:string" minOccurs="0" />
+              <xs:element name="quantity" type="xs:integer" minOccurs="0" />
+              <xs:element name="price" type="xs:decimal" minOccurs="0" />
+              <xs:element name="item" type="xs:string" minOccurs="0" />
+              <xs:element name="remarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="invoice">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="from" type="xs:string" minOccurs="0" />
+              <xs:element name="date" type="xs:string" minOccurs="0" />
+              <xs:element name="amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="remarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+
+    <!--<xs:complexType name="orders">
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="order" type="order"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="purchases">
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="purchase" type="purchase"/>
+      </xs:sequence>
+    </xs:complexType>-->
+
+  </xs:element>
+</xs:schema>
