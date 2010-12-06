@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
+<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
     <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
         <name>hjh zainab bt ibrahim</name>
@@ -19754,7 +19754,7 @@
         <deathm>1430-09-07</deathm>
         <item>PV</item>
     </order>
-    <order soldto="HAM" date="2010-11-30" delivered="2010-12-02" price="10">
+    <order soldto="HAM" date="2010-11-30" delivered="2010-12-06" price="10">
         <name>jeleha bee bt mohamed</name>
         <jawi>جليحا بي بنت محمد</jawi>
         <death>2010-10-28</death>
@@ -19762,7 +19762,7 @@
         <age>69</age>
         <item>2' Sticker(P)</item>
     </order>
-    <order soldto="HAM" date="2010-11-30" delivered="2010-12-02" price="10">
+    <order soldto="HAM" date="2010-11-30" delivered="2010-12-06" price="10">
         <name>mohamed moosa bin madar</name>
         <jawi>محمد موسا بن مادر</jawi>
         <death>2010-11-05</death>
@@ -19770,7 +19770,7 @@
         <age>55</age>
         <item>2' Sticker(L)</item>
     </order>
-    <order soldto="HAM" date="2010-11-30" delivered="2010-12-02" price="10">
+    <order soldto="HAM" date="2010-11-30" delivered="2010-12-06" price="10">
         <name>hj hasan bin saad</name>
         <jawi>حاج حسن بن سعد</jawi>
         <death>2006-04-19</death>
@@ -19794,7 +19794,7 @@
         <age>59</age>
         <item>2' Sticker(L)</item>
     </order>
-    <order soldto="HAM" date="2010-11-30" delivered="2010-12-02" price="10">
+    <order soldto="HAM" date="2010-11-30" delivered="2010-12-06" price="10">
         <name>sariah bt harun</name>
         <jawi>ساريه بنت هارون</jawi>
         <death>2010-11-03</death>
@@ -19820,4 +19820,11 @@
         <amount>500</amount>
         <remarks>BANK IN</remarks>
     </invoice>
+     <order soldto="妖古福" date="2010-12-04" delivered="2010-12-04" price="50">
+        <name>hilary james peterson</name>
+        <death>1975-10-09</death>
+        <name2>alcina eliza peterson</name2>
+        <death2>2002-04-26</death2>
+        <item>12"x24" Marble</item>
+    </order>
 </nisan>

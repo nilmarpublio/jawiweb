@@ -4,8 +4,9 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" omit-xml-declaration="yes" />
     <xsl:key name="customerOrderBatch" match="order" use="@date" />
+    <xsl:variable name="customer">HAM</xsl:variable>
     <xsl:variable name="last">2010-11-30</xsl:variable>
-	<!-- @see http://stackoverflow.com/questions/586231/how-can-i-convert-a-string-to-upper-or-lower-case-with-xslt -->
+    <!-- @see http://stackoverflow.com/questions/586231/how-can-i-convert-a-string-to-upper-or-lower-case-with-xslt -->
     <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
     <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
 	
@@ -28,8 +29,8 @@
                     .soldto {display:inline-table;width:30px;padding:0 6px 0 0;text-align:right;}
                     .order {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
                     .deliver {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
-                    .name { display:inline-table;width:450px;padding:0 6px 0 0; }
-                    .item {display:inline-table;padding:0 6px 0 0;}
+                    .name { display:inline-table;width:380px;padding:0 6px 0 0; }
+                    .item {display:inline-table;width:70px;padding:0 6px 0 0;}
                     .jawi { }
 
                     .price {display:inline-table;width:30px;text-align:right;}
@@ -96,6 +97,8 @@
                     <span class="orderHead">Order</span>
                     <span class="deliver">Delivered</span>
                     <span class="name">Description</span>
+                    <span class="item">Item</span>
+                    <span class="price">Amount</span>
                     <hr></hr>
 					<!--<xsl:variable name="today">2010-08-23</xsl:variable> -->
 
@@ -120,7 +123,7 @@
                                     </h4>
                                     <ol>
                                         <xsl:for-each select="key('customerOrderBatch',@date)">
-                                            <xsl:if test="@soldto='HAM'">
+                                            <xsl:if test="@soldto=$customer">
                                                 <li>
                                                     <span class="deliver">
                                                         <xsl:choose>
@@ -165,6 +168,9 @@
                                                     <span class="item">
                                                         <xsl:value-of select="item" />
                                                     </span>
+                                                    <span class="price">
+                                                        <xsl:value-of select="@price" />
+                                                    </span>
                                                 </li>
                                             </xsl:if>
                                         </xsl:for-each>
@@ -177,14 +183,22 @@
                     <hr />
 
                     <div style="float:right;font-weight:bold;">
-						<!--Total RM -->
-						<!--xsl:value-of select="sum(nisan/order/@price [../@soldto='HAM' and ( (substring(../@delivered,1,4) 
-							>= substring($last,1,4) and substring(../@delivered,6,2) >= substring($last,6,2) and substring(../@delivered,9,2) 
-							>= substring($last,9,2)) or (substring(../@delivered,1,4) >= substring($last,1,4) and substring(../@delivered,6,2) 
-							> substring($last,6,2)) or (substring(../@delivered,1,4) > substring($last,1,4)) ) ])"/ -->
-						<!--br/ -->
-                        <xsl:if test="count(order[@soldto='HAM' and @delivered='']) > 0">
-                            <xsl:value-of select="count(order[@soldto='HAM' and @delivered=''])" />
+						Total RM
+						<xsl:value-of select="sum(order/@price[../@soldto=$customer
+                                                    and (
+                                                    (substring(../@delivered,1,4) >= substring($last,1,4)
+                                                    and substring(../@delivered,6,2) >= substring($last,6,2)
+                                                    and substring(../@delivered,9,2) >= substring($last,9,2))
+
+                                                    or (substring(../@delivered,1,4) >= substring($last,1,4)
+                                                    and substring(../@delivered,6,2) > substring($last,6,2))
+
+                                                    or (substring(../@delivered,1,4) > substring($last,1,4))
+                                                    )
+                                                    ])"/>
+						<br/>
+                        <xsl:if test="count(order[@soldto=$customer and @delivered='']) > 0">
+                            <xsl:value-of select="count(order[@soldto=$customer and @delivered=''])" />
 							belum siap
                         </xsl:if>
                     </div>
