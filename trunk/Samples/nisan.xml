@@ -19820,11 +19820,61 @@
         <amount>500</amount>
         <remarks>BANK IN</remarks>
     </invoice>
-     <order soldto="妖古福" date="2010-12-04" delivered="2010-12-04" price="50">
+    <order soldto="妖古福" date="2010-12-04" delivered="2010-12-04" price="50">
         <name>hilary james peterson</name>
         <death>1975-10-09</death>
         <name2>alcina eliza peterson</name2>
         <death2>2002-04-26</death2>
         <item>12"x24" Marble</item>
+    </order>
+	<order soldto="妖古福" date="2010-12-07" delivered="" price="40">
+        <name>tan khay choo</name>
+		<born>1926-08-26</born>
+        <death>2010-10-02</death>
+        <item>12"x12" China Green</item>
+    </order>
+	<order soldto="妖古福" date="2010-12-07" delivered="" price="40">
+        <name>tan khay boh</name>
+		<born>1924</born>
+        <death>1985-06-23</death>
+        <item>12"x12" China Green</item>
+    </order>
+	<order soldto="妖古福" date="2010-12-07" delivered="" price="70">
+        <name>sowrimuthu</name>
+		<born>1913-10-02</born>
+        <death>1973-11-29</death>
+		<name2>laxmi arul marie</name2>
+		<born2>1922-12-23</born2>
+		<death2>2010-11-01</death2>
+        <item>20"x30" Black</item>
+    </order>
+	<order soldto="KEN" date="2010-12-06" delivered="" price="210">
+        <name>Ra'ayah Bt Idris</name>
+		<jawi>رعاياه بنت ادريس</jawi>
+        <death>2010-11-28</death>
+        <deathm>1431-12-21</deathm>
+		<age>65</age>
+        <item>2' Batu Batik(L)</item>
+    </order>
+	<order soldto="ADI" date="2010-12-06" delivered="" price="35">
+        <name>talib bin yoep</name>
+		<jawi>طالب بن يوف</jawi>
+        <death>2010-09-01</death>
+        <deathm>1431-09-22</deathm>
+        <item>PV</item>
+    </order>
+	<order soldto="ADI" date="2010-12-06" delivered="" price="35">
+        <name>Samiran bin khamis</name>
+		<jawi>سميران  بن خميس‎</jawi>
+        <death>1997-05-07</death>
+        <deathm>1417-12-30</deathm>
+        <item>PV</item>
+    </order>
+	<order soldto="ADI" date="2010-12-06" delivered="" price="35">
+        <name>janariah bt hj arif</name>
+		<jawi>جانارياه بنت حاج عريف</jawi>
+        <death>2010-11-23</death>
+        <deathm>1431-12-16</deathm>
+        <item>PV</item>
     </order>
 </nisan>
