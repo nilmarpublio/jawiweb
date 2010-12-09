@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
     <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
@@ -19854,7 +19854,7 @@
         <death>2010-11-28</death>
         <deathm>1431-12-21</deathm>
 		<age>65</age>
-        <item>2' Batu Batik(L)</item>
+        <item>2' Batu Batik(P)</item>
     </order>
 	<order soldto="ADI" date="2010-12-06" delivered="" price="35">
         <name>talib bin yoep</name>
@@ -19914,4 +19914,4 @@
         <deathm>1431-12-06</deathm>
         <item>PV Egg</item>
     </order>
-</nisan>
+<order soldto="KIL" date="2010-12-09" delivered="" price="220"><name>Noorol Hayani Bt Mat</name><jawi>نورول حياني  بنت مت</jawi><death>2010-11-27</death><deathm>1431-12-20</deathm><item>2' Batu Batik(P)</item></order></nisan>
