@@ -19729,7 +19729,7 @@
         <price>140</price>
         <item>2' Batu Batik(L)</item>
     </purchase>
-    <order soldto="ADI" date="2010-11-30" delivered="2010-12-05" price="35">
+    <order soldto="ADI" date="2010-11-30" delivered="2010-12-10" price="35">
         <name>Muhammad nur aqrameen bin mohd zaimal
         Muhammad nur aqram bin mohd zaimal
         Muhammad nur aqrem bin mohd zaimal
@@ -19738,6 +19738,7 @@
         <death>2010-09-25</death>
         <deathm>1431-10-16</deathm>
         <item>PV Budak</item>
+		<remarks>EN405442160MY</remarks>
     </order>
     <order soldto="ADI" date="2010-11-30" delivered="2010-12-03" price="260">
         <name>ahmad puad bin hj tarmizi</name>
@@ -19747,14 +19748,15 @@
         <item>2' Batu Batik(L)</item>
         <remarks>hari ahad 060301199382743</remarks>
     </order>
-    <order soldto="ADI" date="2010-12-01" delivered="2010-12-05" price="35">
+    <order soldto="ADI" date="2010-12-01" delivered="2010-12-10" price="35">
         <name>Adijah bt imbram</name>
         <jawi>عذيجه بنت يمبرام</jawi>
         <death>2009-08-28</death>
         <deathm>1430-09-07</deathm>
         <item>PV</item>
+		<remarks>EN405442160MY</remarks>
     </order>
-    <order soldto="HAM" date="2010-11-30" delivered="2010-12-06" price="10">
+    <order soldto="HAM" date="2010-11-30" delivered="" price="10">
         <name>jeleha bee bt mohamed</name>
         <jawi>جليحا بي بنت محمد</jawi>
         <death>2010-10-28</death>
@@ -19856,42 +19858,45 @@
 		<age>65</age>
         <item>2' Batu Batik(P)</item>
     </order>
-	<order soldto="ADI" date="2010-12-06" delivered="" price="35">
+	<order soldto="ADI" date="2010-12-06" delivered="2010-12-10" price="35">
         <name>talib bin yoep</name>
 		<jawi>طالب بن يوف</jawi>
         <death>2010-09-01</death>
         <deathm>1431-09-22</deathm>
         <item>PV</item>
+		<remarks>EN405442160MY</remarks>
     </order>
-	<order soldto="ADI" date="2010-12-06" delivered="" price="35">
+	<order soldto="ADI" date="2010-12-06" delivered="2010-12-10" price="35">
         <name>Samiran bin khamis</name>
 		<jawi>سميران  بن خميس‎</jawi>
         <death>1997-05-07</death>
         <deathm>1417-12-30</deathm>
         <item>PV</item>
+		<remarks>EN405442160MY</remarks>
     </order>
-	<order soldto="ADI" date="2010-12-06" delivered="" price="35">
+	<order soldto="ADI" date="2010-12-06" delivered="2010-12-10" price="35">
         <name>janariah bt hj arif</name>
 		<jawi>جانارياه بنت حاج عريف</jawi>
         <death>2010-11-23</death>
         <deathm>1431-12-16</deathm>
         <item>PV</item>
+		<remarks>EN405442160MY</remarks>
     </order>
-	<order soldto="HAM" date="2010-12-05" delivered="" price="10">
+	<order soldto="HAM" date="2010-12-05" delivered="2010-12-10" price="10">
         <name>shahari bin din</name>
 		<jawi>شهاري بن دين</jawi>
         <death>2010-11-14</death>
         <deathm>1431-12-07</deathm>
         <item>2' Sticker(L)</item>
     </order>
-	<order soldto="HAM" date="2010-12-05" delivered="" price="10">
+	<order soldto="HAM" date="2010-12-05" delivered="2010-12-10" price="10">
         <name>hj mohd baharudin bin ahmad shariff</name>
 		<jawi>حاج محمد باهارودين بن أحمد شريف</jawi>
         <death>2010-11-19</death>
         <deathm>1431-12-12</deathm>
         <item>2' Sticker(L)</item>
     </order>
-	<order soldto="HAM" date="2010-12-08" delivered="" price="10">
+	<order soldto="HAM" date="2010-12-08" delivered="2010-12-10" price="10">
         <name>ramdin bin karim</name>
 		<jawi>رامدين بن كريم</jawi>
         <death>2010-10-09</death>
@@ -19899,7 +19904,7 @@
 		<age>60</age>
         <item>2' Sticker(L)</item>
     </order>
-		<order soldto="HAM" date="2010-12-08" delivered="" price="10">
+	<order soldto="HAM" date="2010-12-08" delivered="2010-12-10" price="10">
         <name>muhammad ammar keith abdullah</name>
 		<jawi>محمد أمر كيث عبدالله</jawi>
         <death>2010-11-21</death>
@@ -19907,12 +19912,13 @@
 		<age>37</age>
         <item>2' Sticker(L)</item>
     </order>
-	<order soldto="ADI" date="2010-12-08" delivered="" price="35">
+	<order soldto="ADI" date="2010-12-08" delivered="2010-12-10" price="35">
         <name>Rajaai bin japri</name>
 		<jawi>رجاي بن جفري</jawi>
         <death>2010-11-13 8:30</death>
         <deathm>1431-12-06</deathm>
         <item>PV Egg</item>
+		<remarks>EN405442160MY</remarks>
     </order>
 	<order soldto="KIL" date="2010-12-09" delivered="" price="220">
 		<name>Noorol Hayani Bt Mat</name>
@@ -19921,4 +19927,20 @@
 		<deathm>1431-12-20</deathm>
 		<item>2' Batu Batik(P)</item>
 	</order>
+	<order soldto="HAM" date="2010-12-10" delivered="" price="10">
+        <name>mohd zulkifli bin mohamad farid</name>
+		<jawi>محمد زوالكيفلي بن محمد فريد</jawi>
+        <death>2010-11-06</death>
+        <deathm>1431-11-29</deathm>
+		<age>25</age>
+        <item>2' Sticker(L)</item>
+    </order>
+	<order soldto="ChinTak" date="2010-12-10" delivered="" price="100">
+        <name>x10</name>
+        <item>天官龙</item>
+    </order>
+	<order soldto="ChinTak" date="2010-12-10" delivered="" price="100">
+        <name>x10</name>
+        <item>座</item>
+    </order>
 </nisan>
