@@ -877,8 +877,8 @@
   </rootname>
   <rootname>
     <rumi>amar</rumi>
-	<jawi>أمر</jawi>
-	<sex>1</sex>
+    <jawi>أمر</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>amat</rumi>
@@ -3916,8 +3916,8 @@
   </rootname>
   <rootname>
     <rumi>farid</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>فريد</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>faridah</rumi>
@@ -4439,7 +4439,7 @@
   <rootname>
     <rumi>hafiz</rumi>
     <jawi>حافيظ</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>hafiza</rumi>
@@ -6217,8 +6217,8 @@
   </rootname>
   <rootname>
     <rumi>jaliha</rumi>
-	<jawi>جليحا</jawi>
-	<sex>2</sex>
+    <jawi>جليحا</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>jalil</rumi>
@@ -6914,8 +6914,8 @@
   </rootname>
   <rootname>
     <rumi>kalthum</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>كلثوم</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>kalthun</rumi>
@@ -11970,7 +11970,7 @@
     <jawi />
     <sex>0</sex>
   </rootname>
-    <rootname>
+  <rootname>
     <rumi>rizah</rumi>
   </rootname>
   <rootname>
