@@ -5498,7 +5498,7 @@
   <rootname>
     <rumi>husain</rumi>
     <jawi>حسين</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>husein</rumi>
@@ -8214,8 +8214,8 @@
   </rootname>
   <rootname>
     <rumi>maheran</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مهران</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>mahfud</rumi>
@@ -16062,7 +16062,7 @@
   <rootname>
     <rumi>yahya</rumi>
     <jawi>يحيى</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ya'kob</rumi>

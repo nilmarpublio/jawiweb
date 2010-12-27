@@ -20017,4 +20017,22 @@
     <deathm>1432-01-01</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
+  <order soldto="妖古福" date="2010-12-27" delivered="" price="30">
+    <name>谢子俊</name>
+    <death></death>
+    <item>3½"x9½" China Green</item>
+  </order>
+  <order soldto="妖古福" date="2010-12-27" delivered="" price="30">
+    <name>lim seow chin</name>
+    <born>1935-03-04</born>
+    <death>2010-11-11</death>
+    <name2>yeoh liew im</name2>
+    <item>11"x12" Black</item>
+  </order>
+  <order soldto="妖古福" date="2010-12-27" delivered="" price="30">
+    <name>chang siew cheng</name>
+    <born>1935-07-24</born>
+    <death>2010-07-26</death>
+    <item>11"x12" Black</item>
+  </order>
 </nisan>
