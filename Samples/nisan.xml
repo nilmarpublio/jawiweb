@@ -19973,4 +19973,48 @@
     <deathm>1432-01-03</deathm>
     <item>PV</item>
   </order>
+  <order soldto="SEL" date="2010-12-22" delivered="" price="330">
+    <name>SHAARANI BIN YAHYA</name>
+    <jawi>شراني بن يحيى</jawi>
+    <death>2010-09-27</death>
+    <deathm>1431-10-18</deathm>
+    <age>63</age>
+    <item>2' Batu Hitam(L)</item>
+    <remarks>HOSPITAL ALICE SPRING AUSTRALIA</remarks>
+  </order>
+  <order soldto="SEL" date="2010-12-22" delivered="" price="220">
+    <name>HJ ABDUL RAHIM BIN ISMAIL</name>
+    <jawi>حاج عبدول رحيم بن إسماعيل</jawi>
+    <death>2010-12-03</death>
+    <deathm>1431-12-26</deathm>
+    <item>2' Batu Putih(L)</item>
+  </order>
+  <order soldto="SEM" date="2010-12-17" delivered="" price="220">
+    <name>HASHIM BIN AWANG</name>
+    <jawi>هاشم بن أواڠ</jawi>
+    <death>2010-12-04</death>
+    <deathm>1431-12-27</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2010-12-17" delivered="" price="220">
+    <name>HJH MAHERAN BT RAJAHAN</name>
+    <jawi>حجه مهران بنت رجحان</jawi>
+    <death>2010-12-11</death>
+    <deathm>432-01-05</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEM" date="2010-12-17" delivered="" price="220">
+    <name>ABD WAHAB BIN ZAKARIA</name>
+    <jawi>عبدول واهب بن زكريا</jawi>
+    <death>2010-10-22</death>
+    <deathm>1431-11-14</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2010-12-17" delivered="" price="220">
+    <name>ABD KARIM BIN HUSAIN</name>
+    <jawi>عبدول كريم بن حُسين</jawi>
+    <death>2010-12-07</death>
+    <deathm>1432-01-01</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
 </nisan>
