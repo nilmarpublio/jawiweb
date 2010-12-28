@@ -20081,7 +20081,7 @@
     <age>77</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-28" price="10">
     <name>che man bin abu</name>
     <jawi>چئ من بن أبو</jawi>
     <death>2010-12-06</death>
@@ -20097,7 +20097,7 @@
     <age>49</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-28" price="10">
     <name>hjh salmiah bt puteh</name>
     <jawi>حجه سلميه بنت فوتيه</jawi>
     <death>2010-12-19</death>
@@ -20105,7 +20105,7 @@
     <age>79</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-28" price="10">
     <name>abd shukor bin abd hamid</name>
     <jawi>عبدالشكور بن عبدالحميد</jawi>
     <death>2010-10-23</death>
@@ -20151,7 +20151,7 @@
     <deathm>1420-08-08</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-28" price="10">
     <name>mohd noor bin hassan</name>
     <jawi>محمد نور بن حسن</jawi>
     <death>2010-12-23</death>
@@ -20174,4 +20174,27 @@
     <price>140</price>
     <item>2' Batu Batik(P)</item>
   </purchase>
+  <order soldto="HAM" date="2010-12-28" delivered="2010-12-28" price="10">
+    <name>dahlan bin chik</name>
+    <jawi>دهلن بن چيك</jawi>
+    <death>2010-10-28</death>
+    <deathm>1431-11-20</deathm>
+    <age>83</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-12-28" delivered="2010-12-28" price="10">
+    <name>yusof bin hasan</name>
+    <jawi>يوسوف بن حسن</jawi>
+    <death>2010-12-19</death>
+    <deathm>1432-01-13</deathm>
+    <age>76</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2010-12-28" delivered="2010-12-28" price="10">
+    <name>hjh rahmah bt mohd hussein</name>
+    <jawi>حجه رحمه بنت محمد حُسين</jawi>
+    <death>2010-08-28</death>
+    <deathm>1431-09-18</deathm>
+    <item>2' Sticker(P)</item>
+  </order>
 </nisan>
