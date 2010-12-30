@@ -1,9 +1,9 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" omit-xml-declaration="yes"/>
   <xsl:variable name="customer">ADI</xsl:variable>
-  <xsl:variable name="month">06</xsl:variable>
+  <xsl:variable name="month">12</xsl:variable>
   <xsl:variable name="year">2010</xsl:variable>
-  <xsl:variable name="bf">10230</xsl:variable>
+  <xsl:variable name="bf">10190</xsl:variable>
   <xsl:template name="monthTemplate">
       <xsl:if test="$month=1">
           <xsl:text>January</xsl:text>
