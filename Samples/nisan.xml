@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
     <name>hjh zainab bt ibrahim</name>
@@ -20041,7 +20041,7 @@
     <death>2010-07-26</death>
     <item>11"x12" Black</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>amiruddin bin md ibrahim</name>
     <jawi>اميرودين بن مد ابراهنم</jawi>
     <death>2010-11-28</death>
@@ -20049,7 +20049,7 @@
     <age>58</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>leila bt bahadur beg khan</name>
     <jawi>ليلا بنت بهادور بيگ خان</jawi>
     <death>2010-12-08</death>
@@ -20057,7 +20057,7 @@
     <age>77</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>sulaiha beevi abul hassan</name>
     <jawi>سوليحا بيوي ابول حسن</jawi>
     <death>2010-11-07</death>
@@ -20065,7 +20065,7 @@
     <age>70</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>hjh hamina bt abdullah</name>
     <jawi>حجه حامينا بنت عبدالله</jawi>
     <death>2010-11-27</death>
@@ -20073,7 +20073,7 @@
     <age>82</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>hjh kamariah bt sulaiman</name>
     <jawi>حجه قمريه بنت سليمان</jawi>
     <death>2010-11-15</death>
@@ -20081,7 +20081,7 @@
     <age>77</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>che man bin abu</name>
     <jawi>چئ من بن أبو</jawi>
     <death>2010-12-06</death>
@@ -20089,7 +20089,7 @@
     <age>58</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>noor aisham bt ym yunus</name>
     <jawi>نور ايشام بنت وي ايم يونوس</jawi>
     <death>2010-05-23</death>
@@ -20097,7 +20097,7 @@
     <age>49</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>hjh salmiah bt puteh</name>
     <jawi>حجه سلميه بنت فوتيه</jawi>
     <death>2010-12-19</death>
@@ -20105,7 +20105,7 @@
     <age>79</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>abd shukor bin abd hamid</name>
     <jawi>عبدالشكور بن عبدالحميد</jawi>
     <death>2010-10-23</death>
@@ -20113,7 +20113,7 @@
     <age>54</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>mohd hanafiah bin mat isa</name>
     <jawi>محمد حنافيه بن مت عيسى</jawi>
     <death>2010-12-08</death>
@@ -20121,7 +20121,7 @@
     <age>50</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>kulthom bi bt sulthan</name>
     <jawi>كلثوم بي بنت سلطن</jawi>
     <death>2010-12-12</death>
@@ -20129,7 +20129,7 @@
     <age>87</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>dhazak bin ibrahim</name>
     <jawi>دازق بن ابراهيم</jawi>
     <death>2010-12-16</death>
@@ -20137,21 +20137,21 @@
     <age>58</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>salmah bt warsay</name>
     <jawi>سامه بنت وارسي</jawi>
     <death>2010-12-08</death>
     <deathm>1432-01-02</deathm>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>mohd yusuff bin moh</name>
     <jawi>محمد يوسوف بن موح</jawi>
     <death>1999-11-17</death>
     <deathm>1420-08-08</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-12-27" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>mohd noor bin hassan</name>
     <jawi>محمد نور بن حسن</jawi>
     <death>2010-12-23</death>
@@ -20174,7 +20174,7 @@
     <price>140</price>
     <item>2' Batu Batik(P)</item>
   </purchase>
-  <order soldto="HAM" date="2010-12-28" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-28" delivered="2010-12-31" price="10">
     <name>dahlan bin chik</name>
     <jawi>دهلن بن چيك</jawi>
     <death>2010-10-28</death>
@@ -20182,7 +20182,7 @@
     <age>83</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-12-28" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-28" delivered="2010-12-31" price="10">
     <name>yusof bin hasan</name>
     <jawi>يوسوف بن حسن</jawi>
     <death>2010-12-19</death>
@@ -20190,7 +20190,7 @@
     <age>76</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2010-12-28" delivered="2010-12-30" price="10">
+  <order soldto="HAM" date="2010-12-28" delivered="2010-12-31" price="10">
     <name>hjh rahmah bt mohd hussein</name>
     <jawi>حجه رحمه بنت محمد حُسين</jawi>
     <death>2010-08-28</death>
