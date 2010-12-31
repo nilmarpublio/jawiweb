@@ -29,11 +29,11 @@
           .soldto {display:inline-table;width:30px;padding:0 6px 0 0;text-align:right;}
           .order {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
           .deliver {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
-          .name { display:inline-table;width:380px;padding:0 6px 0 0; }
+          .name { display:inline-table;width:420px;padding:0 6px 0 0; }
           .item {display:inline-table;width:80px;padding:0 6px 0 0;}
           .jawi { }
 
-          .price {display:inline-table;width:20px;text-align:right;}
+          .price {display:inline-table;width:40px;text-align:right;}
           .sum {display:inline-table;width:580px;text-align:right;font-weight:bold}
 
           .footer {float:left;bottom:10px;font-size:10px;}
@@ -147,9 +147,9 @@
                             <xsl:if test="age != ''">
                               <xsl:value-of select="age"/> thn
                             </xsl:if>
-                            <xsl:if test="jawi != ''">
+                            <!--<xsl:if test="jawi != ''">
                               <xsl:value-of select="jawi"/>
-                            </xsl:if>
+                            </xsl:if>-->
                           </span>
                           <span class="item">
                             <xsl:value-of select="item" />
@@ -169,7 +169,7 @@
 
           <hr />
 
-          <div style="float:right;font-weight:bold;">
+          <div style="padding: 0 5px 0 0;float:right;font-weight:bold;">
             Total RM
             <xsl:value-of select="sum(order/@price[../@soldto=$customer
                                                     and (
