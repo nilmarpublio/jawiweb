@@ -9,18 +9,22 @@
         <script src="jquery-1.4.4.min.js" type="text/javascript"></script>
 
         <script type="text/javascript">
+
             $(document).ready(function() {
                 //TODO: $("#drawing").load("bismillah.svg");//Addin/abdul mutalib bin md jaafar.svg
+                var file = "Addin/talib bin yoep.svg";
+                $("#drawing").attr("src",file);
+
                 $.ajax({
                     type: "GET",
-                    url: "bismillah.svg",
+                    url: file,
                     dataType: "xml",
                     success: function(xml) {
                         var rdf = $(xml).find("svg>metadata>rdf\\:RDF");
                         var work = rdf.find("cc\\:Work");
 
                         var date = work.find("dc\\:date").text();
-                        var title = work.find("dc\\:title").text();
+                        //var title = work.find("dc\\:title").text();
                         var desc = work.find("dc\\:description").text();
 
                         var publisher = work.find("dc\\:publisher");
@@ -29,32 +33,34 @@
                         //var title = $(xml).find("svg>path").attr("d");
                         //var title = $(xml).find("svg>metadata>rdf\\:RDF>cc\\:Work").attr("rdf\\:about");
 
-                        //var content = "";
-                        //content += "Sold to: "+customer+"\n";
-                        //content += "Since: "+date+"\n";
-                        //content += "Description: "+desc+"\n";
+                        //either one case - write html output
+                        /*var content = "";
+                        content += "Sold to: "+customer+"<br/>";
+                        content += "Since: "+date+"<br/>";
+                        content += "Description: "+desc+"<br/>";
+                        $("#data").html(content);*/
+
+                        //compose text only let body construct html layout
                         $("#customer").text(customer);
                         $("#date").text(date);
                         $("#desc").text(desc);
+
                     }
                 });
             });
-
-            /*function page_Load() {
-                $("#drawing").load("casapermai.svg");
-            }*/
+            
         </script>
 
     </head>
     <body>        
         <div id="data">
             Sold to: <span id="customer"></span><br/>
-            Since: <span id="date"></span><br/>
+            Order at: <span id="date"></span><br/>
             Description: <span id="desc"></span><br/>
         </div>
         <hr/>
         <p></p>
         <!-- @TODO: <div id="drawing"></div>-->
-        <iframe src="bismillah.svg" height="500"></iframe>
+        <iframe id="drawing" height="500"></iframe>
     </body>
 </html>
