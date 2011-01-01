@@ -24,13 +24,13 @@
           .content h4 {font-family:Cambria;font-variant:small-caps;}
           .content ol li {text-transform: capitalize;}
           .headline { background-color: lightgrey; clear:both;font-size:12px;}
-          .orderHead {display:inline-table;padding:0 10px 0 0;text-align:right;}
+          .orderHead {display:inline-table;padding:0;width:120px;text-align:right;}
 
           .soldto {display:inline-table;width:30px;padding:0 6px 0 0;text-align:right;}
           .order {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
           .deliver {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
-          .name { display:inline-table;width:420px;padding:0 6px 0 0; }
-          .item {display:inline-table;width:100px;padding:0 6px 0 0;}
+          .name { display:inline-table;width:320px;padding:0 6px 0 0; }
+          .item {display:inline-table;width:80px;padding:0 6px 0 0;}
           .jawi { }
 
           .price {display:inline-table;width:40px;text-align:right;}
@@ -71,7 +71,7 @@
           <!--Date: <script>document.write(todayStr());</script> -->
         </div>
         <div class="content">
-          <h3>Sales List</h3>
+          <h3>Monthly Sales List</h3>
           <hr></hr>
           <span class="orderHead">Order</span>
           <span class="deliver">Delivered</span>
@@ -84,6 +84,12 @@
               <xsl:sort select="@soldto"/>
               <xsl:sort select="@date"/>
               <li>
+                  <xsl:if test="count(key('customerOrderBatch',@soldto)[substring(@date,1,4) = $year and substring(@date,6,2) = $month])=0">
+                  <xsl:attribute name="style">
+                      <xsl:text>display:none</xsl:text>
+                  </xsl:attribute>
+                  </xsl:if>
+                  
                   <h4>
                     <xsl:value-of select="@soldto"/>
                   </h4>
@@ -91,9 +97,51 @@
                     <xsl:for-each select="key('customerOrderBatch',@soldto)">
                         <xsl:if test="substring(@date,1,4) = $year and substring(@date,6,2) = $month">
                             <li>
-                                <xsl:value-of select="@date"/>
-                                 <xsl:value-of select="name"/>
-                                 <xsl:value-of select="@price"/>
+                              <span class="order">
+                                <xsl:value-of select="@date" />
+                              </span>
+                              <span class="deliver">
+                                <xsl:choose>
+                                  <xsl:when test="@delivered = ''">
+                                    -
+                                    <span class="tab"></span>
+                                  </xsl:when>
+                                  <xsl:otherwise>
+                                    <xsl:value-of select="@delivered" />
+                                  </xsl:otherwise>
+                                </xsl:choose>
+                              </span>
+                              <span class="name">
+                                <xsl:value-of select="translate(name,$uppercase,$lowercase)"/>
+                                <xsl:choose>
+                                  <xsl:when test="born != ''">
+                                    (
+                                    <xsl:value-of select="born"/>~
+                                    <xsl:value-of select="death"/>
+                                    <xsl:if test="deathm != ''">
+                                      =
+                                      <xsl:value-of select="deathm"/>
+                                    </xsl:if>)
+                                  </xsl:when>
+                                  <xsl:otherwise>
+                                    (
+                                    <xsl:value-of select="death"/>
+                                    <xsl:if test="deathm != ''">
+                                      =
+                                      <xsl:value-of select="deathm"/>
+                                    </xsl:if>)
+                                  </xsl:otherwise>
+                                </xsl:choose>
+                                <xsl:if test="age != ''">
+                                  <xsl:value-of select="age"/> thn
+                                </xsl:if>
+                              </span>
+                              <span class="item">
+                                <xsl:value-of select="item" />
+                              </span>
+                              <span class="price">
+                                <xsl:value-of select="@price" />
+                              </span>
                             </li>
                         </xsl:if>
                     </xsl:for-each>
@@ -110,6 +158,7 @@
                                                    and substring(../@date,6,2) = $month
                                                     ])"/>
             <br/>
+            for <xsl:value-of select="count(order[substring(@date,1,4) = $year and substring(@date,6,2) = $month])"/> order
           </div>
           Cari bulan Melayu di
           <a href="http://www.hlgranite.com/nisan/calendar.aspx">http://www.hlgranite.com/nisan/calendar.aspx</a>
