@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
+<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
     <name>hjh zainab bt ibrahim</name>
@@ -20023,23 +20023,23 @@
     <deathm>1432-01-01</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="妖古福" date="2010-12-27" delivered="2010-12-30" price="30">
+  <order soldto="妖古福" date="2010-12-27" delivered="2010-12-30" price="40">
     <name>谢子俊</name>
     <death></death>
     <item>3½"x9½" China Green</item>
   </order>
-  <order soldto="妖古福" date="2010-12-27" delivered="" price="30">
+  <order soldto="妖古福" date="2010-12-27" delivered="" price="40">
     <name>lim seow chin</name>
     <born>1935-03-04</born>
     <death>2010-11-11</death>
     <name2>yeoh liew im</name2>
-    <item>11"x12" Black</item>
+    <item>11½"x11½" Black</item>
   </order>
-  <order soldto="妖古福" date="2010-12-27" delivered="" price="30">
+  <order soldto="妖古福" date="2010-12-27" delivered="" price="40">
     <name>chang siew cheng</name>
     <born>1935-07-24</born>
     <death>2010-07-26</death>
-    <item>11"x12" Black</item>
+    <item>11½"x11½" Black</item>
   </order>
   <order soldto="HAM" date="2010-12-27" delivered="2010-12-31" price="10">
     <name>amiruddin bin md ibrahim</name>
