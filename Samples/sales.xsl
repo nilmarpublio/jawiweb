@@ -30,7 +30,7 @@
           .order {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
           .deliver {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
           .name { display:inline-table;width:320px;padding:0 6px 0 0; }
-          .item {display:inline-table;width:80px;padding:0 6px 0 0;}
+          .item {display:inline-table;width:100px;padding:0 6px 0 0;}
           .jawi { }
 
           .price {display:inline-table;width:40px;text-align:right;}
@@ -89,9 +89,12 @@
                       <xsl:text>display:none</xsl:text>
                   </xsl:attribute>
                   </xsl:if>
+                  <xsl:variable name="customer" select="@soldto"/>
                   
                   <h4>
-                    <xsl:value-of select="@soldto"/>
+                    <xsl:value-of select="@soldto"/> $<xsl:value-of select="sum(../order/@price[substring(../@date,1,4) = $year
+                                                   and substring(../@date,6,2) = $month
+                                                   and ../@soldto = $customer])"/>
                   </h4>
                   <ol>
                     <xsl:for-each select="key('customerOrderBatch',@soldto)">
