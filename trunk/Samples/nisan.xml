@@ -19452,7 +19452,7 @@
     <death>2010-09-13</death>
     <item>12"x12" Blue Pearl</item>
   </order>
-  <order soldto="妖古福" date="2010-11-14" delivered="" price="60">
+  <order soldto="妖古福" date="2010-11-14" delivered="" price="80">
     <name>nathan kesagar</name>
     <born>1916-04-14</born>
     <death>1989-06-19</death>
@@ -19936,11 +19936,11 @@
     <age>25</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="ChinTak" date="2010-12-10" delivered="" price="100">
+  <order soldto="ChinTak" date="2010-12-10" delivered="2010-12-25" price="0">
     <name>x10</name>
     <item>天官龙</item>
   </order>
-  <order soldto="ChinTak" date="2010-12-10" delivered="" price="100">
+  <order soldto="ChinTak" date="2010-12-10" delivered="2010-12-25" price="0">
     <name>x10</name>
     <item>座</item>
   </order>
@@ -19979,7 +19979,7 @@
     <deathm>1432-01-03</deathm>
     <item>PV</item>
   </order>
-  <order soldto="SEL" date="2010-12-22" delivered="" price="330">
+  <order soldto="SEL" date="2010-12-22" delivered="2010-01-02" price="330">
     <name>SHAARANI BIN YAHYA</name>
     <jawi>شراني بن يحيى</jawi>
     <death>2010-09-27</death>
@@ -19988,7 +19988,7 @@
     <item>2' Batu Hitam(L)</item>
     <remarks>HOSPITAL ALICE SPRING AUSTRALIA</remarks>
   </order>
-  <order soldto="SEL" date="2010-12-22" delivered="" price="220">
+  <order soldto="SEL" date="2010-12-22" delivered="2010-01-02" price="220">
     <name>HJ ABDUL RAHIM BIN ISMAIL</name>
     <jawi>حاج عبدول رحيم بن إسماعيل</jawi>
     <death>2010-12-03</death>
@@ -19996,27 +19996,27 @@
     <item>2' Batu Putih(L)</item>
   </order>
   <order soldto="SEM" date="2010-12-17" delivered="" price="220">
-    <name>HASHIM BIN AWANG</name>
-    <jawi>هاشم بن أواڠ</jawi>
+    <name>HASHIM BIN AWANG KECIK</name>
+    <jawi>هاشم بن أواڠ كچيك</jawi>
     <death>2010-12-04</death>
     <deathm>1431-12-27</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2010-12-17" delivered="" price="220">
+  <order soldto="SEM" date="2010-12-17" delivered="2010-01-02" price="220">
     <name>HJH MAHERAN BT RAJAHAN</name>
     <jawi>حجه مهران بنت رجحان</jawi>
     <death>2010-12-11</death>
     <deathm>432-01-05</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2010-12-17" delivered="" price="220">
+  <order soldto="SEM" date="2010-12-17" delivered="2010-01-02" price="220">
     <name>ABD WAHAB BIN ZAKARIA</name>
     <jawi>عبدول واهب بن زكريا</jawi>
     <death>2010-10-22</death>
     <deathm>1431-11-14</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2010-12-17" delivered="" price="220">
+  <order soldto="SEM" date="2010-12-17" delivered="2010-01-02" price="220">
     <name>ABD KARIM BIN HUSAIN</name>
     <jawi>عبدول كريم بن حُسين</jawi>
     <death>2010-12-07</death>
@@ -20196,5 +20196,16 @@
     <death>2010-08-28</death>
     <deathm>1431-09-18</deathm>
     <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="KEN" date="2011-01-03" delivered="" price="210">
+    <name>Jamaliah Bt Saat</name>
+	<jawi>جمالية بنت سعت</jawi>
+    <death>2010-09-16</death>
+	<deathm>1431-10-07</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="ChinTak" date="2011-01-03" delivered="" price="2200">
+    <name>x20</name>
+    <item>座</item>
   </order>
 </nisan>
