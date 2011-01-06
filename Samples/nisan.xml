@@ -20208,4 +20208,43 @@
     <name>x20</name>
     <item>座</item>
   </order>
+  <order soldto="ADI" date="2011-01-05" delivered="" price="35">
+    <name>hj mat isa bin hj nordin</name>
+	<jawi>حاج مت عيسى بن حاج نوردين</jawi>
+    <death>1992-05-12</death>
+    <deathm>1412-11-11</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="HAM" date="2011-01-02" delivered="" price="12">
+    <name>ahmad@ismail bin abd hamid</name>
+	<jawi>أحمد\إسماعيل بن عبدالحميد</jawi>
+    <death>2010-08-13</death>
+    <deathm>1431-09-03</deathm>
+	<age>71</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-01-02" delivered="" price="12">
+    <name>mohd ismail bin kechik</name>
+	<jawi>محمد إسماعيل بن كچيك</jawi>
+    <death>2010-12-09</death>
+    <deathm>1432-01-03</deathm>
+	<age>57</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-01-02" delivered="" price="5">
+    <name>ayahanda tersayang</name>
+	<jawi></jawi>
+    <death></death>
+    <deathm></deathm>
+	<age></age>
+    <item>5" Sticker</item>
+  </order>
+  <order soldto="HAM" date="2011-01-02" delivered="" price="0">
+    <name>berdoa kepada</name>
+	<jawi></jawi>
+    <death></death>
+    <deathm></deathm>
+	<age></age>
+    <item>3½" Sticker</item>
+  </order>
 </nisan>
