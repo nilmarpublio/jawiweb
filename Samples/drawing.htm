@@ -12,7 +12,8 @@
 
             $(document).ready(function() {
                 //TODO: $("#drawing").load("bismillah.svg");//Addin/abdul mutalib bin md jaafar.svg
-                var file = "Addin/talib bin yoep.svg";
+                var file = "Christian/nathan kesagar.svg";
+                //var file = "Addin/talib bin yoep.svg";
                 $("#drawing").attr("src",file);
 
                 $.ajax({
@@ -45,6 +46,21 @@
                         $("#date").text(date);
                         $("#desc").text(desc);
 
+                        var meta = $(xml).find("svg>metadata");
+                        var metaData = meta.text();                  
+                        var svg = $(xml).find("svg");
+                        var height = svg.attr("height");
+                        var string = svg.text();
+                        string = string.replace(metaData,"");
+                        //remove white space
+                        //see http://bugs.jquery.com/ticket/4848
+                        string = string.replace(/\s+|\s+$/g, "");
+                        $("#word").text(string.length);
+
+                        if(height == "" || height == "0" || height == "100%")
+                            $("#drawing").attr("height",500);
+                        else
+                            $("#drawing").attr("height",height);
                     }
                 });
             });
@@ -57,10 +73,11 @@
             Sold to: <span id="customer"></span><br/>
             Order at: <span id="date"></span><br/>
             Description: <span id="desc"></span><br/>
+            Word count: <span id="word"></span><br/>
         </div>
         <hr/>
         <p></p>
         <!-- @TODO: <div id="drawing"></div>--><!-- @see http://keith-wood.name/svg.html -->
-        <iframe id="drawing" height="500"></iframe>
+        <iframe id="drawing" height="1800" width="100%"></iframe>
     </body>
 </html>
