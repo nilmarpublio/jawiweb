@@ -13365,27 +13365,27 @@
     </order>
     <order soldto="万里香" date="2009-11-02" delivered="2009-12-12" price="110">
         <name />
-        <item>面</item>
+        <item>座</item>
     </order>
     <order soldto="万里香" date="2009-11-02" delivered="2009-12-12" price="110">
         <name />
-        <item>面</item>
+        <item>座</item>
     </order>
     <order soldto="万里香" date="2009-11-02" delivered="2009-12-12" price="110">
         <name />
-        <item>面</item>
+        <item>座</item>
     </order>
     <order soldto="万里香" date="2009-11-02" delivered="2009-12-12" price="110">
         <name />
-        <item>面</item>
+        <item>座</item>
     </order>
     <order soldto="万里香" date="2009-11-02" delivered="2009-12-12" price="110">
         <name />
-        <item>面</item>
+        <item>座</item>
     </order>
     <order soldto="万里香" date="2009-11-02" delivered="2009-12-12" price="110">
         <name />
-        <item>面</item>
+        <item>座</item>
     </order>
     <order soldto="KIL" date="2009-11-07" delivered="2009-11-08" price="220">
         <name>mohd noor bin zainulabidin</name>
@@ -20205,7 +20205,7 @@
         <item>2' Batu Batik(P)</item>
     </order>
     <order soldto="ChinTak" date="2011-01-03" delivered="" price="2200">
-        <name>x20</name>
+        <name>20pcs</name>
         <item>座</item>
     </order>
     <order soldto="ADI" date="2011-01-05" delivered="" price="35">
@@ -20253,5 +20253,21 @@
         <death>2010-01-14</death>
         <deathm>1431-01-28</deathm>
         <item>2' Batu Batik(L)</item>
+    </order>
+    <order soldto="万里香" date="2011-01-07" delivered="" price="80">
+        <name> </name>
+        <item>灶君</item>
+    </order>
+    <order soldto="万里香" date="2011-01-07" delivered="" price="240">
+        <name>3pcs</name>
+        <item>拿督</item>
+    </order>
+    <order soldto="万里香" date="2011-01-07" delivered="" price="400">
+        <name>5pcs</name>
+        <item>天官</item>
+    </order>
+    <order soldto="万里香" date="2011-01-07" delivered="" price="1210">
+        <name>11pcs</name>
+        <item>座</item>
     </order>
 </nisan>
