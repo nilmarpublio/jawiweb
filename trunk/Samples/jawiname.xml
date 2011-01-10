@@ -582,7 +582,7 @@
   <rootname>
     <rumi>akib</rumi>
     <jawi>اكيب</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>akil</rumi>
@@ -1572,8 +1572,8 @@
   </rootname>
   <rootname>
     <rumi>atika</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>عتيقة</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>atikah</rumi>
@@ -5511,7 +5511,7 @@
   <rootname>
     <rumi>husin</rumi>
     <jawi>حوسين</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>husna</rumi>
