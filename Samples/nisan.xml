@@ -20231,7 +20231,7 @@
         <age>57</age>
         <item>2' Sticker(L)</item>
     </order>
-    <order soldto="HAM" date="2011-01-02" delivered="2010-01-07" price="5">
+    <order soldto="HAM" date="2011-01-02" delivered="2010-01-07" price="6">
         <name>ayahanda tersayang</name>
         <jawi></jawi>
         <death></death>
@@ -20313,5 +20313,67 @@
         <born>1927-12-05</born>
         <death>2011-01-04</death>
         <item>12"x12"</item>
+    </order>
+    <order soldto="HAM" date="2011-01-09" delivered="" price="12">
+        <name>fatimah bt osman</name>
+        <jawi>فطمة بنت عسمن</jawi>
+        <death>2010-10-22</death>
+        <deathm>1431-11-14</deathm>
+        <age>63</age>
+        <item>2' Sticker(P)</item>
+    </order>
+    <order soldto="HAM" date="2011-01-09" delivered="" price="12">
+        <name>zainab bt abd rani</name>
+        <jawi>زاينب بنت عبدالراني</jawi>
+        <death>2010-12-30</death>
+        <deathm>1432-01-24</deathm>
+        <age>78</age>
+        <item>2' Sticker(P)</item>
+    </order>
+    <order soldto="HAM" date="2011-01-09" delivered="" price="12">
+        <name>rashid bin sa'ad</name>
+        <jawi>راشد بن سعد</jawi>
+        <death>2010-12-11</death>
+        <deathm>1432-01-05</deathm>
+        <age>77</age>
+        <item>2' Sticker(L)</item>
+    </order>
+    <order soldto="HAM" date="2011-01-09" delivered="" price="12">
+        <name>NUR ALISSYA BT ABDULLAH</name>
+        <jawi>نور عليشا بنت عبدالله</jawi>
+        <death>2010-12-22</death>
+        <deathm>1432-01-16</deathm>
+        <age>3 BULAN</age>
+        <item>1½' Sticker(P)</item>
+    </order>
+    <order soldto="HAM" date="2011-01-09" delivered="" price="12">
+        <name>SALAMA BT BAKAR</name>
+        <jawi>سلاما بنت بكر</jawi>
+        <death>2010-12-28</death>
+        <deathm>1432-01-22</deathm>
+        <age>84</age>
+        <item>2' Sticker(P)</item>
+    </order>
+    <order soldto="HAM" date="2011-01-09" delivered="" price="12">
+        <name>HJ MASRI BIN ZAKARIA</name>
+        <jawi>حاج مصري بن زكريا</jawi>
+        <death>2010-11-15</death>
+        <deathm>1431-12-08</deathm>
+        <age>75</age>
+        <item>2' Sticker(L)</item>
+    </order>
+    <order soldto="ADI" date="2011-01-11" delivered="" price="35">
+        <name>paujan bin tamyis</name>
+        <jawi>فاوجان بن تمييس</jawi>
+        <death>2010-11-25</death>
+        <deathm>1431-12-18</deathm>
+        <item>PV Egg</item>
+    </order>
+    <order soldto="ADI" date="2011-01-11" delivered="" price="35">
+        <name>sulaimi bin julis</name>
+        <jawi>سليما بن جوليس</jawi>
+        <death>2010-02-14</death>
+        <deathm>1431-02-29</deathm>
+        <item>PV</item>
     </order>
 </nisan>
