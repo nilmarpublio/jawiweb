@@ -20272,7 +20272,7 @@
     </order>
     <order soldto="ADI" date="2011-01-08" delivered="" price="260">
         <name>fatimah bt md Akib</name>
-        <jawi>فطمة بنت مد اكيب</jawi>
+        <jawi>فطمة بنت مد عقيب</jawi>
         <death>2010-09-28</death>
         <deathm>1431-10-19</deathm>
         <item>2' Batu Batik(P)</item>
@@ -20314,7 +20314,7 @@
         <death>2011-01-04</death>
         <item>12"x12"</item>
     </order>
-    <order soldto="HAM" date="2011-01-09" delivered="" price="12">
+    <order soldto="HAM" date="2011-01-09" delivered="2011-01-12" price="12">
         <name>fatimah bt osman</name>
         <jawi>فطمة بنت عسمن</jawi>
         <death>2010-10-22</death>
@@ -20322,7 +20322,7 @@
         <age>63</age>
         <item>2' Sticker(P)</item>
     </order>
-    <order soldto="HAM" date="2011-01-09" delivered="" price="12">
+    <order soldto="HAM" date="2011-01-09" delivered="2011-01-12" price="12">
         <name>zainab bt abd rani</name>
         <jawi>زاينب بنت عبدالراني</jawi>
         <death>2010-12-30</death>
@@ -20330,7 +20330,7 @@
         <age>78</age>
         <item>2' Sticker(P)</item>
     </order>
-    <order soldto="HAM" date="2011-01-09" delivered="" price="12">
+    <order soldto="HAM" date="2011-01-09" delivered="2011-01-12" price="12">
         <name>rashid bin sa'ad</name>
         <jawi>راشد بن سعد</jawi>
         <death>2010-12-11</death>
@@ -20338,7 +20338,7 @@
         <age>77</age>
         <item>2' Sticker(L)</item>
     </order>
-    <order soldto="HAM" date="2011-01-09" delivered="" price="12">
+    <order soldto="HAM" date="2011-01-09" delivered="2011-01-12" price="12">
         <name>NUR ALISSYA BT ABDULLAH</name>
         <jawi>نور عليشا بنت عبدالله</jawi>
         <death>2010-12-22</death>
@@ -20346,7 +20346,7 @@
         <age>3 BULAN</age>
         <item>1½' Sticker(P)</item>
     </order>
-    <order soldto="HAM" date="2011-01-09" delivered="" price="12">
+    <order soldto="HAM" date="2011-01-09" delivered="2011-01-12" price="12">
         <name>SALAMA BT BAKAR</name>
         <jawi>سلاما بنت بكر</jawi>
         <death>2010-12-28</death>
@@ -20354,7 +20354,7 @@
         <age>84</age>
         <item>2' Sticker(P)</item>
     </order>
-    <order soldto="HAM" date="2011-01-09" delivered="" price="12">
+    <order soldto="HAM" date="2011-01-09" delivered="2011-01-12" price="12">
         <name>HJ MASRI BIN ZAKARIA</name>
         <jawi>حاج مصري بن زكريا</jawi>
         <death>2010-11-15</death>
