@@ -20376,4 +20376,26 @@
         <deathm>1431-02-29</deathm>
         <item>PV</item>
     </order>
+    <order soldto="HAM" date="2011-01-13" delivered="" price="12">
+        <name>MOHD EHSAN NAZHAN BIN MAD RADZI</name>
+        <jawi>محمد إحسان نزهان بن مد رادزي</jawi>
+        <death>2011-01-10</death>
+        <deathm>1432-02-05</deathm>
+        <item>2' Sticker(L)</item>
+    </order>
+    <order soldto="HAM" date="2011-01-13" delivered="" price="12">
+        <name>MOHD NOOR BIN HASSAN</name>
+        <jawi>محمد نور بن حسن</jawi>
+        <death>2010-12-23</death>
+        <deathm>1432-01-17</deathm>
+        <age>69</age>
+        <item>2' Sticker(L)</item>
+    </order>
+    <order soldto="ADI" date="2011-01-13" delivered="" price="35">
+        <name>hj mohd khatib bin bulat</name>
+        <jawi>حاج محمد خطيب بن بولت</jawi>
+        <death>2010-10-30</death>
+        <deathm>1431-11-22</deathm>
+        <item>PV Egg</item>
+    </order>
 </nisan>

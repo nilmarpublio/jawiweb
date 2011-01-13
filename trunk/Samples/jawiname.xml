@@ -2712,8 +2712,8 @@
   </rootname>
   <rootname>
     <rumi>bulat</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>بولت</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>bun</rumi>
@@ -3513,6 +3513,8 @@
   </rootname>
   <rootname>
     <rumi>ehsan</rumi>
+    <jawi>إحسان</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>eidrose</rumi>
@@ -7397,8 +7399,8 @@
   </rootname>
   <rootname>
     <rumi>khatib</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>خطيب</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>khatibah</rumi>
@@ -10237,7 +10239,7 @@
   <rootname>
     <rumi>noor</rumi>
     <jawi>نور</jawi>
-    <sex>2</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>nooradila</rumi>
@@ -11324,8 +11326,8 @@
   </rootname>
   <rootname>
     <rumi>radzi</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>رادزي</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>radziah</rumi>
