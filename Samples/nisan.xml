@@ -20197,7 +20197,7 @@
         <deathm>1431-09-18</deathm>
         <item>2' Sticker(P)</item>
     </order>
-    <order soldto="KEN" date="2011-01-03" delivered="" price="210">
+    <order soldto="KEN" date="2011-01-03" delivered="2011-01-15" price="210">
         <name>Jamaliah Bt Saat</name>
         <jawi>جمالية بنت سعت</jawi>
         <death>2010-09-16</death>
@@ -20289,7 +20289,7 @@
         <jawi>باهاروددين بن عبدلرحمن</jawi>
         <death>2010-12-24</death>
         <deathm>1432-01-18</deathm>
-        <item>PV</item>
+        <item>2' Batu Batik(L)</item>
     </order>
     <order soldto="ADI" date="2011-01-09" delivered="" price="35">
         <name>nurul atika bt norly</name>
@@ -20376,14 +20376,14 @@
         <deathm>1431-02-29</deathm>
         <item>PV</item>
     </order>
-    <order soldto="HAM" date="2011-01-13" delivered="" price="12">
+    <order soldto="HAM" date="2011-01-13" delivered="2011-01-14" price="12">
         <name>MOHD EHSAN NAZHAN BIN MAD RADZI</name>
         <jawi>محمد إحسان نزهان بن مد رادزي</jawi>
         <death>2011-01-10</death>
         <deathm>1432-02-05</deathm>
         <item>2' Sticker(L)</item>
     </order>
-    <order soldto="HAM" date="2011-01-13" delivered="" price="12">
+    <order soldto="HAM" date="2011-01-13" delivered="2011-01-14" price="12">
         <name>MOHD NOOR BIN HASSAN</name>
         <jawi>محمد نور بن حسن</jawi>
         <death>2010-12-23</death>
