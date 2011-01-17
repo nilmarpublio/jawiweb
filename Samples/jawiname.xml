@@ -4085,7 +4085,7 @@
   <rootname>
     <rumi>firdaus</rumi>
     <jawi>فرداوس</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>firdus</rumi>
@@ -10999,8 +10999,8 @@
   </rootname>
   <rootname>
     <rumi>pawanchik</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>فاؤنچيك</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>pawanteh</rumi>
