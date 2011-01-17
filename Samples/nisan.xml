@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
+<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
     <name>hjh zainab bt ibrahim</name>
@@ -20218,6 +20218,7 @@
     <death>1992-05-12</death>
     <deathm>1412-11-11</deathm>
     <item>PV</item>
+	<remarks>EN405442125MY</remarks>
   </order>
   <order soldto="HAM" date="2011-01-02" delivered="2010-01-07" price="12">
     <name>ahmad@ismail bin abd hamid</name>
@@ -20287,6 +20288,7 @@
     <death>1995-03-07</death>
     <deathm>1415-10-06</deathm>
     <item>PV</item>
+	<remarks>EN405442125MY</remarks>
   </order>
   <order soldto="ADI" date="2011-01-09" delivered="" price="35">
     <name>baharuddin bin abdul rahman</name>
@@ -20302,7 +20304,7 @@
     <death>1988-12-29</death>
     <deathm>1409-05-21</deathm>
     <item>PV Budak</item>
-    <remarks>rumi sahaja</remarks>
+	<remarks>EN405442125MY rumi sahaja</remarks>
   </order>
   <purchase>
     <buyfrom>hlgranite</buyfrom>
@@ -20316,9 +20318,15 @@
     <name>francis chan kwok cheong 曾国祥</name>
     <born>1927-12-05</born>
     <death>2011-01-04</death>
-    <item>12"x12"</item>
+    <item>11½"x11½" Black</item>
   </order>
-  <order soldto="HAM" date="2011-01-09" delivered="" price="12">
+  <order soldto="妖古福" date="2011-01-15" delivered="" price="50">
+    <name>tan beng sim</name>
+    <born>1940-09-22</born>
+    <death>2010-12-30</death>
+    <item>10¾"x9¾" Marble</item>
+  </order>
+  <order soldto="HAM" date="2011-01-09" delivered="2011-01-18" price="12">
     <name>fatimah bt osman</name>
     <jawi>فطمة بنت عسمن</jawi>
     <death>2010-10-22</death>
@@ -20350,7 +20358,7 @@
     <age>3 BULAN</age>
     <item>1½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-01-09" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-09" delivered="2011-01-18" price="12">
     <name>SALAMA BT BAKAR</name>
     <jawi>سلاما بنت بكر</jawi>
     <death>2010-12-28</death>
@@ -20372,6 +20380,7 @@
     <death>2010-11-25</death>
     <deathm>1431-12-18</deathm>
     <item>PV Egg</item>
+	<remarks>EN405442125MY</remarks>
   </order>
   <order soldto="ADI" date="2011-01-11" delivered="2011-01-17" price="35">
     <name>sulaimi bin julis</name>
@@ -20379,6 +20388,7 @@
     <death>2010-02-14</death>
     <deathm>1431-02-29</deathm>
     <item>PV</item>
+	<remarks>EN405442125MY</remarks>
   </order>
   <order soldto="HAM" date="2011-01-13" delivered="2011-01-14" price="12">
     <name>MOHD EHSAN NAZHAN BIN MAD RADZI</name>
@@ -20401,8 +20411,9 @@
     <death>2010-10-30</death>
     <deathm>1431-11-22</deathm>
     <item>PV Egg</item>
+	<remarks>EN405442125MY</remarks>
   </order>
-  <order soldto="HAM" date="2011-01-16" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-16" delivered="2011-01-18" price="12">
     <name>MOHD IZMAN BIN PAWANCHIK</name>
     <jawi>محمد ازمان بن فاؤنچيك</jawi>
     <death>1976-03-24</death>
@@ -20417,7 +20428,7 @@
     <age>2.5</age>
     <item>1½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-01-16" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-16" delivered="2011-01-18" price="12">
     <name>ROHANI BT MOHAMED NOOR</name>
     <jawi>روحني بنت محمد نور</jawi>
     <death>2010-06-27</death>
@@ -20427,10 +20438,50 @@
   </order>
   <order soldto="HAM" date="2011-01-16" delivered="" price="0">
     <name>LAILAHAILLAH MUHAMMADUR RASULULLAH</name>
-    <jawi>ليلىهاي الله محمداور رسول الله</jawi>
+    <jawi>لا إله إلا الله محمدا رسول الله</jawi>
     <death></death>
     <deathm></deathm>
     <item>4" Sticker</item>
     <remarks>jawi sahaja</remarks>
+  </order>
+  <order soldto="HAM" date="2011-01-17" delivered="" price="12">
+    <name>MERICAN BIN VANJOOR</name>
+	<jawi>مريكن بن ۏنجواور</jawi>
+    <death>1988-11-20</death>
+    <deathm>1409-04-11</deathm>
+	<age>62</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-01-17" delivered="2011-01-18" price="12">
+    <name>FATIMAH SHAM BT ABOO KASSIM</name>
+	<jawi>فطمة شام بنت أبوقاسيم</jawi>
+    <death>1993-01-14</death>
+    <deathm>1413-07-21</deathm>
+	<age>66</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-01-17" delivered="" price="12">
+    <name>KUNCHI MYDIN BIN ABDUL RAHMAN</name>
+	<jawi>کونچي مَيدين بن عبدلرحمن</jawi>
+    <death>2000-04-26</death>
+    <deathm>1421-01-22</deathm>
+	<age>48</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-01-17" delivered="" price="12">
+    <name>ABD RAHMAN BIN ALWI</name>
+	<jawi>عبدلرحمن بن علوي</jawi>
+    <death>1974-09-10</death>
+    <deathm>1394-08-23</deathm>
+	<age>71</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-01-17" delivered="2011-01-18" price="12">
+    <name>HJ YAHAYA BIN DAIK</name>
+	<jawi>حاج يحيي بن ضيق</jawi>
+    <death>2010-12-02</death>
+    <deathm>1431-12-25</deathm>
+	<age>86</age>
+    <item>2' Sticker(L)</item>
   </order>
 </nisan>
