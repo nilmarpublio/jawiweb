@@ -208,8 +208,8 @@
   </rootname>
   <rootname>
     <rumi>aboo</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>أبو</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>abu</rumi>
@@ -830,8 +830,8 @@
   </rootname>
   <rootname>
     <rumi>alwi</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>علوي</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>alwijah</rumi>
@@ -9071,8 +9071,8 @@
   </rootname>
   <rootname>
     <rumi>merican</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مريكن</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>meriyam</rumi>
@@ -14088,8 +14088,8 @@
   </rootname>
   <rootname>
     <rumi>sham</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شام</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>shamir</rumi>
@@ -16049,7 +16049,7 @@
   <rootname>
     <rumi>yahaya</rumi>
     <jawi>يحيي</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>yahiya</rumi>
