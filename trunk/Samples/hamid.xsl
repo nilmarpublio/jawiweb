@@ -104,7 +104,13 @@
                             (substring(@date,1,4) > substring($last,1,4))
                             ">
                 <li>
+                  <xsl:variable name="header" select="@date"/>
                   <h4>
+                  	<xsl:if test="count(../order[@soldto=$customer and @date=$header])=0">
+						<xsl:attribute name="style">
+	                    	<xsl:text>display:none</xsl:text>
+	                    </xsl:attribute>
+                  	</xsl:if>
                     <xsl:value-of select="@date"/> FAX
                   </h4>
                   <ol>

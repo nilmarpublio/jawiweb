@@ -89,6 +89,7 @@
                       <xsl:text>display:none</xsl:text>
                   </xsl:attribute>
                   </xsl:if>
+                  <!-- set value into variable for further use -->
                   <xsl:variable name="customer" select="@soldto"/>
                   
                   <h4>

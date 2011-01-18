@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
+<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
     <name>hjh zainab bt ibrahim</name>
@@ -20320,7 +20320,7 @@
     <death>2011-01-04</death>
     <item>11½"x11½" Black</item>
   </order>
-  <order soldto="妖古福" date="2011-01-15" delivered="" price="50">
+  <order soldto="妖古福" date="2011-01-15" delivered="2011-01-18" price="50">
     <name>tan beng sim</name>
     <born>1940-09-22</born>
     <death>2010-12-30</death>
@@ -20390,14 +20390,14 @@
     <item>PV</item>
 	<remarks>EN405442125MY</remarks>
   </order>
-  <order soldto="HAM" date="2011-01-13" delivered="2011-01-14" price="12">
+  <order soldto="HAM" date="2011-01-13" delivered="2011-01-18" price="12">
     <name>MOHD EHSAN NAZHAN BIN MAD RADZI</name>
     <jawi>محمد إحسان نزهان بن مد رادزي</jawi>
     <death>2011-01-10</death>
     <deathm>1432-02-05</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-01-13" delivered="2011-01-14" price="12">
+  <order soldto="HAM" date="2011-01-13" delivered="2011-01-18" price="12">
     <name>MOHD NOOR BIN HASSAN</name>
     <jawi>محمد نور بن حسن</jawi>
     <death>2010-12-23</death>
@@ -20483,5 +20483,27 @@
     <deathm>1431-12-25</deathm>
 	<age>86</age>
     <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="SEM" date="2011-01-18" delivered="" price="220">
+    <name>CHE ROSE BIN HUSIN</name>
+    <jawi>چئ روس بن حوسين</jawi>
+    <death>1982-09-13</death>
+    <deathm>1402-11-25</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2011-01-18" delivered="" price="220">
+    <name>ISMAIL BIN MAT SHAARI</name>
+    <jawi>إسماعيل بن مت شعري</jawi>
+    <born>1941-02-13</born>
+    <death>2011-01-13</death>
+    <deathm>1432-02-08</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2011-01-18" delivered="" price="220">
+    <name>HJH HALIJAH BT MAT NAN</name>
+    <jawi>حجه هاليجه بنت مت نن</jawi>
+    <death>2011-01-12</death>
+    <deathm>1432-02-07</deathm>
+    <item>2' Batu Batik(P)</item>
   </order>
 </nisan>
