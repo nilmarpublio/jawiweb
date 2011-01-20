@@ -20506,4 +20506,11 @@
     <deathm>1432-02-07</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
+  <order soldto="KEN" date="2011-01-19" delivered="" price="220">
+    <name>HJ AYOB BIN AWANG</name>
+    <death>2010-12-28</death>
+    <deathm>1432-01-22</deathm>
+	<age>81</age>
+    <item>2' Batu Batik(L)</item>
+  </order>
 </nisan>
