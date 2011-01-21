@@ -5,7 +5,7 @@
   <xsl:output method="html" omit-xml-declaration="yes"/>
   <xsl:key name="customerOrderBatch" match="order" use="@date"/>
   <xsl:variable name="customer">HAM</xsl:variable>
-  <xsl:variable name="last">2011-01-09</xsl:variable>
+  <xsl:variable name="last">2011-01-13</xsl:variable>
   <!-- @see http://stackoverflow.com/questions/586231/how-can-i-convert-a-string-to-upper-or-lower-case-with-xslt -->
   <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
   <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
@@ -179,14 +179,14 @@
             Total RM
             <xsl:value-of select="sum(order/@price[../@soldto=$customer
                                                     and (
-                                                    (substring(../@delivered,1,4) >= substring($last,1,4)
-                                                    and substring(../@delivered,6,2) >= substring($last,6,2)
-                                                    and substring(../@delivered,9,2) >= substring($last,9,2))
+                                                    (substring(../@date,1,4) >= substring($last,1,4)
+                                                    and substring(../@date,6,2) >= substring($last,6,2)
+                                                    and substring(../@date,9,2) >= substring($last,9,2))
 
-                                                    or (substring(../@delivered,1,4) >= substring($last,1,4)
-                                                    and substring(../@delivered,6,2) > substring($last,6,2))
+                                                    or (substring(../@date,1,4) >= substring($last,1,4)
+                                                    and substring(../@date,6,2) > substring($last,6,2))
 
-                                                    or (substring(../@delivered,1,4) > substring($last,1,4))
+                                                    or (substring(../@date,1,4) > substring($last,1,4))
                                                     )
                                                     ])"/>
             <br/>
@@ -197,10 +197,7 @@
           </div>
           Cari bulan Melayu di
           <a href="http://www.hlgranite.com/nisan/calendar.aspx">http://www.hlgranite.com/nisan/calendar.aspx</a>
-          <br />
-          *2½' sticker
         </div>
-        <br />
         <br />
         <div class="footer">
           <span class="left">

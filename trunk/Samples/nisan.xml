@@ -20205,7 +20205,7 @@
     <item>2' Batu Batik(P)</item>
   </order>
   <order soldto="ChinTak" date="2011-01-03" delivered="2011-01-15" price="1470">
-    <name>20pcs</name>
+    <name>14pcs</name>
     <item>座</item>
   </order>
   <order soldto="ChinTak" date="2011-01-15" delivered="2011-01-15" price="180">
@@ -20275,12 +20275,13 @@
     <name>11pcs</name>
     <item>座</item>
   </order>
-  <order soldto="ADI" date="2011-01-08" delivered="" price="260">
+  <order soldto="ADI" date="2011-01-08" delivered="2011-01-18" price="260">
     <name>fatimah bt md Akib</name>
     <jawi>فطمة بنت مد عقيب</jawi>
     <death>2010-09-28</death>
     <deathm>1431-10-19</deathm>
     <item>2' Batu Batik(P)</item>
+	<remarks>060301199382725</remarks>
   </order>
   <order soldto="ADI" date="2011-01-08" delivered="2011-01-17" price="35">
     <name>Siti bt husin</name>
@@ -20290,12 +20291,13 @@
     <item>PV</item>
 	<remarks>EN405442125MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-01-09" delivered="" price="35">
+  <order soldto="ADI" date="2011-01-09" delivered="2011-01-18" price="260">
     <name>baharuddin bin abdul rahman</name>
     <jawi>باهاروددين بن عبدلرحمن</jawi>
     <death>2010-12-24</death>
     <deathm>1432-01-18</deathm>
     <item>2' Batu Batik(L)</item>
+	<remarks>060301199382728</remarks>
   </order>
   <order soldto="ADI" date="2011-01-09" delivered="2011-01-17" price="35">
     <name>nurul atika bt norly</name>
@@ -20420,7 +20422,7 @@
     <deathm>1396-03-21</deathm>
     <item>1½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-01-16" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-16" delivered="2011-01-21" price="12">
     <name>ARINAH BT MOHD FIRDAUS</name>
     <jawi>عرينه بنت محمد فرداوس</jawi>
     <death>2011-01-11</death>
@@ -20436,7 +20438,7 @@
     <age>59</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-01-16" delivered="" price="0">
+  <order soldto="HAM" date="2011-01-16" delivered="2011-01-21" price="4">
     <name>LAILAHAILLAH MUHAMMADUR RASULULLAH</name>
     <jawi>لا إله إلا الله محمدا رسول الله</jawi>
     <death></death>
@@ -20444,7 +20446,7 @@
     <item>4" Sticker</item>
     <remarks>jawi sahaja</remarks>
   </order>
-  <order soldto="HAM" date="2011-01-17" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-17" delivered="2011-01-21" price="12">
     <name>MERICAN BIN VANJOOR</name>
 	<jawi>مريكن بن ۏنجواور</jawi>
     <death>1988-11-20</death>
@@ -20460,7 +20462,7 @@
 	<age>66</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-01-17" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-17" delivered="2011-01-21" price="12">
     <name>KUNCHI MYDIN BIN ABDUL RAHMAN</name>
 	<jawi>کونچي مَيدين بن عبدلرحمن</jawi>
     <death>2000-04-26</death>
@@ -20468,7 +20470,7 @@
 	<age>48</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-01-17" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-17" delivered="2011-01-21" price="12">
     <name>ABD RAHMAN BIN ALWI</name>
 	<jawi>عبدلرحمن بن علوي</jawi>
     <death>1974-09-10</death>
@@ -20508,6 +20510,7 @@
   </order>
   <order soldto="KEN" date="2011-01-19" delivered="" price="220">
     <name>HJ AYOB BIN AWANG</name>
+	<jawi>حاج أيوب بن أواڠ</jawi>
     <death>2010-12-28</death>
     <deathm>1432-01-22</deathm>
 	<age>81</age>
