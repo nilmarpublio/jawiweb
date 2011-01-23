@@ -1,6 +1,9 @@
 <!-- @source http://justin-hopkins.com/blog/2008/10/19/henrys-widgets-a-practice-in-xmlxslt -->
 <!-- @seealso http://www.jenitennison.com/xslt/grouping/muenchian.html -->
 <!-- @seealso http://saxon.sourceforge.net -->
+<!--
+2011-01-21: 124
+-->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" omit-xml-declaration="yes"/>
   <xsl:key name="customerOrderBatch" match="order" use="@date"/>
