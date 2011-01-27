@@ -20643,7 +20643,7 @@
 	<age>81</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-01-25" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-25" delivered="2011-01-26" price="12">
     <name>mohd ehsan nazhan bin mad radzi</name>
 	<jawi>محمد إحسان نزهان بن مد راضي</jawi>
     <death>2011-01-10</death>
