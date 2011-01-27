@@ -235,7 +235,7 @@
   <rootname>
     <rumi>adam</rumi>
     <jawi>ادام</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>adamkhan</rumi>
@@ -415,11 +415,6 @@
     <sex>0</sex>
   </rootname>
   <rootname>
-    <rumi>ahbee</rumi>
-    <jawi>اهبي</jawi>
-    <sex>2</sex>
-  </rootname>
-  <rootname>
     <rumi>ahmad</rumi>
     <jawi>أحمد</jawi>
     <sex>1</sex>
@@ -476,8 +471,8 @@
   </rootname>
   <rootname>
     <rumi>ainon</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>عينون</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>ainul</rumi>
@@ -2050,8 +2045,8 @@
   </rootname>
   <rootname>
     <rumi>badiah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>باديه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>badin</rumi>
@@ -7751,8 +7746,8 @@
   </rootname>
   <rootname>
     <rumi>lat</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>لت</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>lateh</rumi>
@@ -8245,12 +8240,12 @@
   <rootname>
     <rumi>mahmod</rumi>
     <jawi>محمود</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>mahmood</rumi>
     <jawi>محمود</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>mahmud</rumi>
@@ -11326,7 +11321,7 @@
   </rootname>
   <rootname>
     <rumi>radzi</rumi>
-    <jawi>رادزي</jawi>
+    <jawi>راضي</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
