@@ -3,12 +3,13 @@
 <!-- @seealso http://saxon.sourceforge.net -->
 <!--
 2011-01-21: 124
+2011-01-23: 322
 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" omit-xml-declaration="yes"/>
   <xsl:key name="customerOrderBatch" match="order" use="@date"/>
   <xsl:variable name="customer">HAM</xsl:variable>
-  <xsl:variable name="last">2011-01-13</xsl:variable>
+  <xsl:variable name="last">2011-01-23</xsl:variable>
   <!-- @see http://stackoverflow.com/questions/586231/how-can-i-convert-a-string-to-upper-or-lower-case-with-xslt -->
   <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
   <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
@@ -156,9 +157,9 @@
                             <xsl:if test="age != ''">
                               <xsl:value-of select="age"/> thn
                             </xsl:if>
-                            <!--<xsl:if test="jawi != ''">
+                            <xsl:if test="jawi != ''">
                               <xsl:value-of select="jawi"/>
-                            </xsl:if>-->
+                            </xsl:if>
                           </span>
                           <span class="item">
                             <xsl:value-of select="item" />
