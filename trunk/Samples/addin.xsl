@@ -63,11 +63,11 @@
           .soldto {display:inline-table;width:30px;padding:0 6px 0 0;text-align:right;}
           .order {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
           .deliver { display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
-          .name { display:inline-table;width:390px;padding:0 6px 0 0; }
+          .name { display:inline-table;width:330px;padding:0 6px 0 0; }
           .item { display:inline-table;width:90px;padding:0 6px 0 0;}
           .jawi { }
 
-          .price {display:inline-table;width:40px;text-align:right;}
+          .price {display:inline-table;width:30px;text-align:right;}
           .sum {display:inline-table;width:580px;text-align:right;font-weight:bold}
 
           .footer {float:left;bottom:10px;font-size:10px;}
@@ -226,7 +226,7 @@
                           <xsl:value-of select="remarks"/>
                       </span>
                       <span class="item"> </span>
-                      <span class="price"> </span>
+                      <!--<span class="price"> </span>-->
                       <span class="price">
                         <xsl:value-of select="amount"/>
                       </span>
@@ -235,7 +235,7 @@
               </xsl:for-each>
           </ol>
           <hr/>
-          <div style="float:right;font-weight:bold;padding:0 120px 0 0;">
+          <div style="float:right;font-weight:bold;">
             Total RM
             <xsl:value-of
               select="sum(nisan/order/@price
