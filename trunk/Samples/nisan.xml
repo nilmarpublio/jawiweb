@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
+<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
     <name>hjh zainab bt ibrahim</name>
@@ -20735,7 +20735,7 @@
     <deathm>1431-06-20</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="HAM" date="2011-01-31" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-31" delivered="2011-02-11" price="12">
     <name>sharifah mahani bt syed alwi alhady</name>
     <jawi>شريفه محاني بنت سيدالوي الحادي</jawi>
     <death>2011-01-21</death>
@@ -20743,7 +20743,7 @@
     <age>74</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-01-31" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-31" delivered="2011-02-11" price="12">
     <name>mohammad adi putra bin mohammad noor</name>
     <jawi>محمد ادي فوترا بن محمد نور</jawi>
     <death>2011-01-23</death>
@@ -20752,7 +20752,7 @@
     <item>1½' Sticker(L)</item>
     <remarks>rumi sahaja</remarks>
   </order>
-  <order soldto="HAM" date="2011-01-31" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-31" delivered="2011-02-11" price="12">
     <name>mohammad adi putra bin mohammad noor</name>
     <jawi>محمد ادي فوترا بن محمد نور</jawi>
     <death>2011-01-23</death>
@@ -20860,5 +20860,78 @@
     <death>2010-09-04</death>
     <deathm>1431-09-25</deathm>
     <item>PV Egg</item>
+  </order>
+  <order soldto="HAM" date="2011-02-08" delivered="2011-02-10" price="12">
+    <name>rizuan bin hj jaafar</name>
+    <jawi>رضوان بن حاج جعفر</jawi>
+    <death>2010-12-30</death>
+    <deathm>1432-01-24</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-02-08" delivered="2011-02-11" price="12">
+    <name>adanan bin mohd din</name>
+    <jawi>آدانن بن محمد دين</jawi>
+    <death>2011-01-02</death>
+    <deathm>1432-01-27</deathm>
+    <age>44</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-02-08" delivered="2011-02-11" price="12">
+    <name>radiah@rudiah bt abdullah</name>
+    <jawi>راضيه/روضيه بنت عبدالله</jawi>
+    <death>2010-11-06</death>
+    <deathm>1431-11-29</deathm>
+    <age>78</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-02-08" delivered="2011-02-10" price="4">
+    <name>LAILAHAILLAH MUHAMMADUR RASULULLAH</name>
+    <jawi>لا إله إلا الله محمدا رسول الله</jawi>
+    <item>4" Sticker</item>
+    <remarks>jawi sahaja</remarks>
+  </order>
+  <order soldto="HAM" date="2011-02-08" delivered="2011-02-10" price="4">
+    <name>LAILAHAILLAH MUHAMMADUR RASULULLAH</name>
+    <jawi>لا إله إلا الله محمدا رسول الله</jawi>
+    <item>4" Sticker</item>
+    <remarks>jawi sahaja</remarks>
+  </order>
+  <order soldto="HAM" date="2011-02-08" delivered="2011-02-10" price="4">
+    <name>LAILAHAILLAH MUHAMMADUR RASULULLAH</name>
+    <jawi>لا إله إلا الله محمدا رسول الله</jawi>
+    <item>4" Sticker</item>
+    <remarks>jawi sahaja</remarks>
+  </order>
+  <order soldto="HAM" date="2011-02-08" delivered="2011-02-10" price="4">
+    <name>LAILAHAILLAH MUHAMMADUR RASULULLAH</name>
+    <jawi>لا إله إلا الله محمدا رسول الله</jawi>
+    <item>4" Sticker</item>
+    <remarks>jawi sahaja</remarks>
+  </order>
+  <order soldto="HAM" date="2011-02-08" delivered="2011-02-10" price="4">
+    <name>LAILAHAILLAH MUHAMMADUR RASULULLAH</name>
+    <jawi>لا إله إلا الله محمدا رسول الله</jawi>
+    <item>4" Sticker</item>
+    <remarks>jawi sahaja</remarks>
+  </order>
+  <order soldto="HAM" date="2011-02-08" delivered="2011-02-11" price="12">
+    <name>ronnie porritt@salleh</name>
+    <jawi>روني فوريت/صالح</jawi>
+    <death>2010-09-22</death>
+    <deathm>1431-10-13</deathm>
+    <age>64</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-02-08" delivered="2011-02-11" price="12">
+    <name>nizar bin jeferi</name>
+    <jawi>نيزار بن جفري</jawi>
+    <death>2010-11-19</death>
+    <deathm>1431-12-12</deathm>
+    <age>31</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-02-08" delivered="2011-02-10" price="12">
+    <name>279-2-1 Tampin Court Vila Umairah</name>
+    <item>10" Sticker</item>
   </order>
 </nisan>
