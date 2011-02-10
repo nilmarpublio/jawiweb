@@ -3093,7 +3093,7 @@
   <rootname>
     <rumi>darus</rumi>
     <jawi>داروس</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>dasnir</rumi>
@@ -4608,8 +4608,8 @@
   </rootname>
   <rootname>
     <rumi>halim</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>حليم</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>halima</rumi>
@@ -4748,11 +4748,13 @@
   </rootname>
   <rootname>
     <rumi>hamimah</rumi>
+    <jawi>هميمه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>haminah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>همينه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>hamisah</rumi>
@@ -6135,8 +6137,8 @@
   </rootname>
   <rootname>
     <rumi>jailani</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>jailo</rumi>

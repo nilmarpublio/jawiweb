@@ -20612,12 +20612,13 @@
     <deathm>1431-10-19</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2011-01-23" delivered="" price="35">
+  <order soldto="ADI" date="2011-01-23" delivered="2011-02-01" price="35">
     <name>Badiah bt lias</name>
     <jawi>باديه بنت ليس</jawi>
     <death>2011-01-19</death>
     <deathm>1432-02-14</deathm>
     <item>PV</item>
+    <remarks>EN469180339MY</remarks>
   </order>
   <order soldto="HAM" date="2011-01-25" delivered="2011-01-26" price="12">
     <name>arshad bin ahmad</name>
@@ -20670,48 +20671,54 @@
     <deathm>1432-01-23</deathm>
     <item>2' Batu Hitam(P)</item>
   </order>
-  <order soldto="ADI" date="2011-01-30" delivered="" price="35">
+  <order soldto="ADI" date="2011-01-30" delivered="2011-02-01" price="35">
     <name>maamun bin hj abdullah</name>
     <jawi>مامون بن حاج عبدالله</jawi>
     <death>1992-07-10</death>
     <deathm>1413-01-10</deathm>
     <item>PV</item>
+    <remarks>EN469180339MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-01-30" delivered="" price="35">
+  <order soldto="ADI" date="2011-01-30" delivered="2011-02-01" price="35">
     <name>maamun bin hj abdullah</name>
     <jawi>مامون بن حاج عبدالله</jawi>
     <death>1992-07-10</death>
     <deathm>1413-01-10</deathm>
     <item>PV</item>
+    <remarks>EN469180339MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-01-30" delivered="" price="35">
+  <order soldto="ADI" date="2011-01-30" delivered="2011-02-01" price="35">
     <name>Hj adnan bin jaafar</name>
     <jawi>حاج ادنان بن جعفر</jawi>
     <death>2010-07-28</death>
     <deathm>1431-08-16</deathm>
     <item>PV Egg</item>
+    <remarks>EN469180339MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-01-30" delivered="" price="35">
+  <order soldto="ADI" date="2011-01-30" delivered="2011-02-01" price="35">
     <name>Jariah bt abdullah</name>
     <jawi>جرياح بنت عبدالله</jawi>
     <death>2010-10-10</death>
     <deathm>1431-11-02</deathm>
     <item>PV Egg</item>
+    <remarks>EN469180339MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-01-30" delivered="" price="35">
+  <order soldto="ADI" date="2011-01-30" delivered="2011-02-01" price="35">
     <name> </name>
     <born>1995-01-06</born>
     <death>2010-12-24</death>
     <deathm>1432-01-18 jumaat</deathm>
     <item>PV Egg</item>
+    <remarks>EN469180339MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-01-30" delivered="" price="35">
+  <order soldto="ADI" date="2011-01-30" delivered="2011-02-01" price="35">
     <name> </name>
     <death>1977-10-18</death>
     <deathm>1397-11-06 isnin</deathm>
     <age>0.75</age>
     <item>PV Egg</item>
     <remarks>8 bulan</remarks>
+    <remarks>EN469180339MY</remarks>
   </order>
   <order soldto="ADI" date="2011-01-30" delivered="" price="260">
     <name>Marman bt rabin</name>
@@ -20754,7 +20761,7 @@
     <item>1½' Sticker(L)</item>
     <remarks>jawi sahaja</remarks>
   </order>
-  <order soldto="HAM" date="2011-01-31" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-31" delivered="2011-02-02" price="12">
     <name>abdul latib bin shafiee</name>
     <jawi>عبدالطيب بن شافعي</jawi>
     <death>2010-12-16</death>
@@ -20762,21 +20769,21 @@
     <age>47</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-01-31" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-31" delivered="2011-02-02" price="12">
     <name>md isa bin saad</name>
     <jawi>مد عيسى بن سعد</jawi>
     <death>2010-05-07</death>
     <deathm>1431-05-22</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-01-31" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-31" delivered="2011-02-02" price="12">
     <name>saad bin abdullah</name>
     <jawi>سعد بن عبدالله</jawi>
     <death>2010-12-26</death>
     <deathm>1432-01-20</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-01-31" delivered="" price="12">
+  <order soldto="HAM" date="2011-01-31" delivered="2011-02-02" price="12">
     <name>mansor bin othman</name>
     <jawi>منصور بن عثمان</jawi>
     <born>1960-05-19</born>
@@ -20791,4 +20798,67 @@
     <amount>500</amount>
     <remarks>BANK IN</remarks>
   </invoice>
+  <invoice>
+    <from>SEL</from>
+    <date>2011-02-08</date>
+    <amount>400</amount>
+    <remarks>BANK IN</remarks>
+  </invoice>
+  <!--<invoice>
+    <from>PAS</from>
+    <date>2011-01-22</date>
+    <amount>500</amount>
+    <remarks>BANK IN</remarks>
+  </invoice>-->
+  <order soldto="KEN" date="2011-01-30" delivered="" price="230">
+    <name>Farid Bin Zainol</name>
+    <jawi>فريد بن زاينول</jawi>
+    <death>2011-01-29</death>
+    <deathm>1432-02-24</deathm>
+    <age>28</age>
+    <item>2' Batu Putih(L)</item>
+  </order>
+  <order soldto="SEL" date="2011-02-06" delivered="" price="230">
+    <name>Hamimah bt darus</name>
+    <jawi>هميمه بنت داروس</jawi>
+    <death>2010-11-01</death>
+    <deathm>1431-11-24</deathm>
+    <item>2' Batu Putih(L)</item>
+  </order>
+  <order soldto="SHA" date="2011-02-09" delivered="" price="220">
+    <name>Kilat @ Mariyah Bt Abdullah</name>
+    <jawi>قيلة\ماريه بنت عبدالله</jawi>
+    <born>1942-05-07</born>
+    <death>2011-01-18</death>
+    <deathm>1432-02-13</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="KIL" date="2011-02-09" delivered="" price="220">
+    <name>Makros Bin A. Halim</name>
+    <jawi>مكرس بن عا، حليم</jawi>
+    <death>2010-12-16</death>
+    <deathm>1432-01-10</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2011-02-09" delivered="" price="35">
+    <name>zakaria bin mohamed</name>
+    <jawi>زكريا بن محمد</jawi>
+    <death>2001-06-30</death>
+    <deathm>1422-04-09</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-02-09" delivered="" price="35">
+    <name>Idar bin hj said</name>
+    <jawi>إدار بن حاج سعيد</jawi>
+    <death>2011-01-28</death>
+    <deathm>1432-02-23</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2011-02-09" delivered="" price="35">
+    <name>Hj ali bin jailani</name>
+    <jawi>حاج علي بن جيلاني</jawi>
+    <death>2010-09-04</death>
+    <deathm>1431-09-25</deathm>
+    <item>PV Egg</item>
+  </order>
 </nisan>
