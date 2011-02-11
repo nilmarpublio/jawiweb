@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
+<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
     <name>hjh zainab bt ibrahim</name>
@@ -20826,7 +20826,7 @@
     <item>2' Batu Putih(L)</item>
   </order>
   <order soldto="SHA" date="2011-02-09" delivered="" price="220">
-    <name>Kilat @ Mariyah Bt Abdullah</name>
+    <name>Kilat@Mariyah Bt Abdullah</name>
     <jawi>قيلة\ماريه بنت عبدالله</jawi>
     <born>1942-05-07</born>
     <death>2011-01-18</death>
@@ -20933,5 +20933,33 @@
   <order soldto="HAM" date="2011-02-08" delivered="2011-02-10" price="12">
     <name>279-2-1 Tampin Court Vila Umairah</name>
     <item>10" Sticker</item>
+  </order>
+  <order soldto="SEM" date="2011-02-11" delivered="" price="230">
+    <name>AMINAH BT MAT RAWI</name>
+    <jawi>أمينة بنت مت راوي</jawi>
+    <death>2011-01-21</death>
+    <deathm>1432-02-16</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEM" date="2011-02-11" delivered="" price="230">
+    <name>FATIMAH BT SULAIMAN</name>
+    <jawi>فطمة بنت ليمان</jawi>
+    <death>2011-02-01</death>
+    <deathm>1432-02-27</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEM" date="2011-02-11" delivered="" price="230">
+    <name>HJ MOHD JAAFAR BIN HJ ISMAIL</name>
+    <jawi>حاج محمد جعفر بن حاج إسماعيل</jawi>
+    <death>2011-01-19</death>
+    <deathm>1432-02-14</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2011-02-11" delivered="" price="230">
+    <name>IBRAHIM BIN ISMAIL</name>
+    <jawi>إبراهيم بن إسماعيل</jawi>
+    <death>2010-12-19</death>
+    <deathm>1432-01-13</deathm>
+    <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
