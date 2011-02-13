@@ -20823,11 +20823,11 @@
     <jawi>هميمه بنت داروس</jawi>
     <death>2010-11-01</death>
     <deathm>1431-11-24</deathm>
-    <item>2' Batu Putih(L)</item>
+    <item>2' Batu Putih(P)</item>
   </order>
   <order soldto="SHA" date="2011-02-09" delivered="" price="220">
     <name>Kilat@Mariyah Bt Abdullah</name>
-    <jawi>قيلة\ماريه بنت عبدالله</jawi>
+    <jawi>کيلت\ماريه بنت عبدالله</jawi>
     <born>1942-05-07</born>
     <death>2011-01-18</death>
     <deathm>1432-02-13</deathm>
@@ -20960,6 +20960,27 @@
     <jawi>إبراهيم بن إسماعيل</jawi>
     <death>2010-12-19</death>
     <deathm>1432-01-13</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2011-02-13" delivered="" price="35">
+    <name>Ismail bin abdul manan</name>
+	<jawi>إسماعيل بن عبدولمانن</jawi>
+    <death>2010-11-16</death>
+    <deathm>1431-12-09</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-02-13" delivered="" price="35">
+    <name>Nazrin shah bin safian</name>
+	<jawi>ناظرين شه بن سفيان</jawi>
+    <death>2008-01-28</death>
+    <deathm>1429-01-19</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-02-13" delivered="" price="260">
+    <name>Hj tahir bin randam@manyamin</name>
+	<jawi>حاج طاهر بن راندام/منيامين</jawi>
+    <death>2011-01-15</death>
+    <deathm>1432-02-10</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
