@@ -176,15 +176,9 @@
     <sex>1</sex>
   </rootname>
   <rootname>
-    <rumi>abdulrani</rumi>
-  </rootname>
-  <rootname>
     <rumi>abdur</rumi>
     <jawi />
     <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>abdurrahman</rumi>
   </rootname>
   <rootname>
     <rumi>abid</rumi>
@@ -220,12 +214,6 @@
     <rumi>abuan</rumi>
     <jawi />
     <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>abubakar</rumi>
-  </rootname>
-  <rootname>
-    <rumi>abuhassa</rumi>
   </rootname>
   <rootname>
     <rumi>achutan</rumi>
@@ -551,11 +539,6 @@
   </rootname>
   <rootname>
     <rumi>akbar</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>akdong</rumi>
     <jawi />
     <sex>0</sex>
   </rootname>
@@ -7778,8 +7761,8 @@
   </rootname>
   <rootname>
     <rumi>latif</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>لطيف</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>latifah</rumi>
@@ -7788,8 +7771,8 @@
   </rootname>
   <rootname>
     <rumi>latiff</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>لطيف</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>latiffah</rumi>
@@ -8464,8 +8447,8 @@
   </rootname>
   <rootname>
     <rumi>manan</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مانن</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>manap</rumi>
@@ -10072,6 +10055,8 @@
   </rootname>
   <rootname>
     <rumi>nazrin</rumi>
+	<jawi>ناظرين</jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>nazriyah</rumi>
