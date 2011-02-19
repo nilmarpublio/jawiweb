@@ -21076,6 +21076,27 @@
     <age>81</age>
     <item>2' Batu Batik(P)</item>
   </order>
+  <order soldto="SEM" date="2011-02-19" delivered="" price="230">
+    <name>hj yahya bin hj hamzah</name>
+    <jawi>حاج يحيى بن حاج حمزة</jawi>
+    <death>2011-02-02</death>
+    <deathm>1432-02-28</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEL" date="2011-02-15" delivered="" price="230">
+    <name>hj latif bin abdullah</name>
+    <jawi>حاج لطيف بن عبدالله</jawi>
+    <death>2011-01-26</death>
+    <deathm>1432-02-21</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEL" date="2011-02-19" delivered="" price="230">
+    <name>kasim bin taib</name>
+    <jawi>قاسيم بن طيب</jawi>
+    <death>2011-02-06</death>
+    <deathm>1432-03-03</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
   <!--<order soldto="" date="" delivered="" price="">
     <name></name>
     <jawi></jawi>
