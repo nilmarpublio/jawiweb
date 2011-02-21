@@ -1114,7 +1114,7 @@
   <rootname>
     <rumi>anuar</rumi>
     <jawi>انوار</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>anwar</rumi>
@@ -13039,11 +13039,6 @@
     <sex>1</sex>
   </rootname>
   <rootname>
-    <rumi>sallhe</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
     <rumi>sallim</rumi>
     <jawi />
     <sex>0</sex>
@@ -16774,8 +16769,8 @@
   </rootname>
   <rootname>
     <rumi>zaman</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>zamani</rumi>

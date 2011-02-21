@@ -20714,13 +20714,13 @@
     <item>PV Egg</item>
     <remarks>EN469180339MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-01-30" delivered="2011-02-01" price="35">
+  <order soldto="ADI" date="2011-01-30" delivered="" price="35">
     <name> </name>
     <death>1977-10-18</death>
     <deathm>1397-11-06 isnin</deathm>
-    <age>0.75</age>
+    <age>4.75</age>
     <item>PV Egg</item>
-    <remarks>8 bulan</remarks>
+    <remarks>4 tahun 8 bulan</remarks>
     <remarks>EN469180339MY</remarks>
   </order>
   <order soldto="ADI" date="2011-01-30" delivered="2011-02-11" price="260">
@@ -20999,7 +20999,7 @@
     <item>PV</item>
     <remarks>EN469205490MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-02-13" delivered="" price="260">
+  <order soldto="ADI" date="2011-02-13" delivered="2011-02-20" price="260">
     <name>Hj tahir bin randam@manyamin</name>
     <jawi>حاج طاهر بن راندام/منيامين</jawi>
     <death>2011-01-15</death>
@@ -21013,14 +21013,14 @@
     <deathm>1432-02-21</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="PAS" date="2011-01-16" delivered="" price="260">
+  <order soldto="PAS" date="2011-01-16" delivered="2011-02-20" price="260">
     <name>HJH WAN MINAH BT WAN MOHAMED</name>
     <jawi>حجه وان مينه بنت وان محمد</jawi>
     <death>2010-09-16</death>
     <deathm>1431-10-07</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="PAS" date="2011-01-16" delivered="" price="260">
+  <order soldto="PAS" date="2011-01-16" delivered="2011-02-20" price="260">
     <name>SITI MARIAM BT YUSOFF</name>
     <jawi>ستي ماريم بنت يوسوف</jawi>
     <born>1950-06-29</born>
@@ -21096,6 +21096,58 @@
     <death>2011-02-06</death>
     <deathm>1432-03-03</deathm>
     <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="KEN" date="2011-02-20" delivered="" price="230">
+    <name>MOHD YUSOF BIN HJ SALLEH</name>
+    <jawi>محمد يوسف بن حاج صالح</jawi>
+    <death>2011-02-17</death>
+    <deathm>1432-03-14</deathm>
+	<age>38</age>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <purchase>
+    <buyfrom>hlgranite</buyfrom>
+    <date>2011-02-20</date>
+    <quantity>5</quantity>
+    <price>140</price>
+    <item>2' Batu Batik(L)</item>
+    <remarks>tally purpose</remarks>
+  </purchase>
+  <order soldto="ADI" date="2011-02-21" delivered="" price="35">
+    <name>Johari bin atmo</name>
+    <jawi>جوهاري بن أتم</jawi>
+    <death>1993-03-27</death>
+    <deathm>1413-10-04</deathm>
+    <item>PV Egg</item>
+  </order>
+    <order soldto="ADI" date="2011-02-21" delivered="" price="35">
+    <name>Bee bt saad</name>
+    <jawi>بي بنت سعد</jawi>
+    <death>2010-12-11</death>
+    <deathm>1432-01-05</deathm>
+    <item>PV</item>
+	<remarks>tulis emas</remarks>
+  </order>
+    <order soldto="ADI" date="2011-02-21" delivered="" price="35">
+    <name>Aziz bin othman</name>
+    <jawi>عزيز بن عثمان</jawi>
+    <death>2010-11-23</death>
+    <deathm>1431-12-16</deathm>
+    <item>PV</item>
+  </order>
+    <order soldto="ADI" date="2011-02-21" delivered="" price="35">
+    <name>Hj zaman bin mohd tuah</name>
+    <jawi>حاج زمان بن محمد توه</jawi>
+    <death>2010-10-08</death>
+    <deathm>1431-10-29</deathm>
+    <item>PV</item>
+  </order>
+    <order soldto="ADI" date="2011-02-21" delivered="" price="35">
+    <name>Hjh siti bt hj anuar</name>
+    <jawi>حجه ستي بنت حاج انوار</jawi>
+    <death>2011-02-01</death>
+    <deathm>1432-02-27</deathm>
+    <item>PV</item>
   </order>
   <!--<order soldto="" date="" delivered="" price="">
     <name></name>
