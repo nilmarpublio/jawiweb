@@ -20566,7 +20566,7 @@
     <death></death>
     <item>3"x30" Sticker</item>
   </order>
-  <order soldto="PAS" date="2011-01-22" delivered="2011-01-13" price="260">
+  <order soldto="PAS" date="2011-01-22" delivered="" price="260">
     <name>HJ ADAM BIN SAID</name>
     <jawi>حاج ادام بن سعيد</jawi>
     <born>1957-02-26</born>
@@ -21102,7 +21102,7 @@
     <jawi>محمد يوسف بن حاج صالح</jawi>
     <death>2011-02-17</death>
     <deathm>1432-03-14</deathm>
-	<age>38</age>
+    <age>38</age>
     <item>2' Batu Batik(L)</item>
   </order>
   <purchase>
@@ -21120,34 +21120,73 @@
     <deathm>1413-10-04</deathm>
     <item>PV Egg</item>
   </order>
-    <order soldto="ADI" date="2011-02-21" delivered="" price="35">
+  <order soldto="ADI" date="2011-02-21" delivered="" price="35">
     <name>Bee bt saad</name>
     <jawi>بي بنت سعد</jawi>
     <death>2010-12-11</death>
     <deathm>1432-01-05</deathm>
     <item>PV</item>
-	<remarks>tulis emas</remarks>
+    <remarks>tulis emas</remarks>
   </order>
-    <order soldto="ADI" date="2011-02-21" delivered="" price="35">
+  <order soldto="ADI" date="2011-02-21" delivered="" price="35">
     <name>Aziz bin othman</name>
     <jawi>عزيز بن عثمان</jawi>
     <death>2010-11-23</death>
     <deathm>1431-12-16</deathm>
     <item>PV</item>
   </order>
-    <order soldto="ADI" date="2011-02-21" delivered="" price="35">
+  <order soldto="ADI" date="2011-02-21" delivered="" price="35">
     <name>Hj zaman bin mohd tuah</name>
     <jawi>حاج زمان بن محمد توه</jawi>
     <death>2010-10-08</death>
     <deathm>1431-10-29</deathm>
     <item>PV</item>
   </order>
-    <order soldto="ADI" date="2011-02-21" delivered="" price="35">
+  <order soldto="ADI" date="2011-02-21" delivered="" price="35">
     <name>Hjh siti bt hj anuar</name>
     <jawi>حجه ستي بنت حاج انوار</jawi>
     <death>2011-02-01</death>
     <deathm>1432-02-27</deathm>
     <item>PV</item>
+  </order>
+  <order soldto="HAM" date="2011-02-24" delivered="" price="12">
+    <name>azmi bin hassan</name>
+    <jawi>عزمي بن حسن</jawi>
+    <death>2010-09-12</death>
+    <deathm>1431-10-03</deathm>
+    <age>55</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-02-24" delivered="" price="12">
+    <name>mohd ehsan nazhan bin mad radzi</name>
+    <jawi>محمد إحسان نزهان بن مد راضي</jawi>
+    <death>2011-01-10</death>
+    <deathm>1432-02-05</deathm>
+    <item>1½' Sticker(L)</item>
+    <remarks>jawi and rumi masing-masing</remarks>
+  </order>
+  <order soldto="HAM" date="2011-02-24" delivered="" price="12">
+    <name>mohd ehsan nazhan bin mad radzi</name>
+    <jawi>محمد إحسان نزهان بن مد راضي</jawi>
+    <death>2011-01-10</death>
+    <deathm>1432-02-05</deathm>
+    <item>1½' Sticker(L)</item>
+    <remarks>jawi and rumi masing-masing</remarks>
+  </order>
+  <order soldto="HAM" date="2011-02-24" delivered="" price="12">
+    <name>ismail bin v.m. abd kader merican</name>
+    <jawi>إسماعيل بن وي، ايم، عبدلمريكن</jawi>
+    <death>2010-06-15</death>
+    <deathm>1431-07-02</deathm>
+    <age>82</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-02-24" delivered="" price="12">
+    <name>mariam bt jaffar</name>
+    <jawi>ماريم بنت جعفر</jawi>
+    <death>1992-11-27</death>
+    <deathm>1413-06-02</deathm>
+    <item>2' Sticker(P)</item>
   </order>
   <!--<order soldto="" date="" delivered="" price="">
     <name></name>
