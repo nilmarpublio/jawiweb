@@ -21240,6 +21240,37 @@
     <price>130</price>
     <item>2' Batu Batik(P)</item>
   </purchase>
+  <order soldto="HAM" date="2011-02-28" delivered="" price="12">
+    <name>azali bin awang</name>
+    <jawi>أزالي  بن أواڠ</jawi>
+    <death>2011-02-11</death>
+    <deathm>1432-03-08</deathm>
+	<age>61</age>
+    <item>2' Sticker(L)</item>
+  </order>
+    <order soldto="HAM" date="2011-02-28" delivered="" price="12">
+    <name>nasri bt hamid</name>
+    <jawi>نصري بنت حميد</jawi>
+    <death>2011-01-24</death>
+    <deathm>1432-02-19</deathm>
+    <item>2½' Sticker(P)</item>
+  </order>
+    <order soldto="HAM" date="2011-02-28" delivered="" price="12">
+    <name>che lat bt saad</name>
+    <jawi>چئ لت بنت سعد</jawi>
+    <death>2011-01-23</death>
+    <deathm>1432-02-18</deathm>
+	<age>81</age>
+    <item>2' Sticker(P)</item>
+  </order>
+    <order soldto="HAM" date="2011-02-28" delivered="" price="12">
+    <name>kamariah bt ali</name>
+    <jawi></jawi>
+    <death></death>
+    <deathm></deathm>
+    <item>5½" Sticker(L)</item>
+	<remarks>deeply missed and forever remembered by</remarks>
+  </order>
   <!--<order soldto="" date="" delivered="" price="">
     <name></name>
     <jawi></jawi>
