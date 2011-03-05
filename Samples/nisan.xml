@@ -20316,12 +20316,12 @@
     <item>座</item>
     <remarks>China Red</remarks>
   </purchase>
-  <order soldto="妖古福" date="2011-01-09" delivered="" price="40">
+  <!--<order soldto="妖古福" date="2011-01-09" delivered="" price="40">
     <name>francis chan kwok cheong 曾国祥</name>
     <born>1927-12-05</born>
     <death>2011-01-04</death>
     <item>11½"x11½" Black</item>
-  </order>
+  </order>-->
   <order soldto="妖古福" date="2011-01-15" delivered="2011-01-18" price="50">
     <name>tan beng sim</name>
     <born>1940-09-22</born>
@@ -21245,31 +21245,117 @@
     <jawi>أزالي  بن أواڠ</jawi>
     <death>2011-02-11</death>
     <deathm>1432-03-08</deathm>
-	<age>61</age>
+    <age>61</age>
     <item>2' Sticker(L)</item>
   </order>
-    <order soldto="HAM" date="2011-02-28" delivered="" price="12">
+  <order soldto="HAM" date="2011-02-28" delivered="" price="12">
     <name>nasri bt hamid</name>
     <jawi>نصري بنت حميد</jawi>
     <death>2011-01-24</death>
     <deathm>1432-02-19</deathm>
     <item>2½' Sticker(P)</item>
   </order>
-    <order soldto="HAM" date="2011-02-28" delivered="" price="12">
+  <order soldto="HAM" date="2011-02-28" delivered="" price="12">
     <name>che lat bt saad</name>
     <jawi>چئ لت بنت سعد</jawi>
     <death>2011-01-23</death>
     <deathm>1432-02-18</deathm>
-	<age>81</age>
+    <age>81</age>
     <item>2' Sticker(P)</item>
   </order>
-    <order soldto="HAM" date="2011-02-28" delivered="" price="12">
+  <order soldto="HAM" date="2011-02-28" delivered="" price="12">
     <name>kamariah bt ali</name>
     <jawi></jawi>
     <death></death>
     <deathm></deathm>
     <item>5½" Sticker(L)</item>
-	<remarks>deeply missed and forever remembered by</remarks>
+    <remarks>deeply missed and forever remembered by</remarks>
+  </order>
+  <order soldto="SEL" date="2011-03-03" delivered="" price="230">
+    <name>Norazira bt mat nor</name>
+    <jawi>نورازيرا بنت مت نور</jawi>
+    <death>2010-11-17</death>
+    <deathm>1431-12-10</deathm>
+    <item>2' Batu Putih(P)</item>
+  </order>
+  <order soldto="SHA" date="2011-03-03" delivered="" price="220">
+    <name>SHAARI BIN MOHAMAD</name>
+    <jawi>شعري شعريمحمد</jawi>
+    <born>1938-03-13</born>
+    <death>2011-02-24</death>
+    <deathm>1432-03-21</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2011-03-05" delivered="" price="260">
+    <name>mat zazuli bin hj idris</name>
+    <jawi>مت زازولي بن حاج ادريس</jawi>
+    <death>2010-11-30</death>
+    <deathm>1431-12-23</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+    <name>mohamad sharei bin abdul wahab</name>
+    <jawi>محمد شاري بن عبدلواهب</jawi>
+    <death>2011-02-13</death>
+    <deathm>1432-03-10</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+    <name>mohd mustafa bin hussin</name>
+    <jawi>محمد سطعفى بن حوسين</jawi>
+    <death>2009-10-26</death>
+    <deathm>1430-11-07</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+    <name>hussin bin daud</name>
+    <jawi>حُسين بن داود</jawi>
+    <death>1998-05-02</death>
+    <deathm>1419-01-06</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+    <name>siti rofiah bt sies</name>
+    <jawi>ستي روفياه بنت سيايس</jawi>
+    <death>1993-03-10</death>
+    <deathm>1413-09-17</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+    <name>muhamad riduan bin yahya</name>
+    <jawi>محمد رضوان بن يحيى</jawi>
+    <death>2010-11-14</death>
+    <deathm>1431-12-07</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+    <name>ariffin bin abdul rahman</name>
+    <jawi>عريفين بن عبدلرحمن</jawi>
+    <death>2011-02-05</death>
+    <deathm>1432-03-02</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+    <name>zambri bin mohd ahir</name>
+    <jawi>زامبري بن محمد أحر</jawi>
+    <death>2010-12-16</death>
+    <deathm>1432-01-10</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+    <name>rubiah bt naim</name>
+    <jawi>روبياه بنت نعيم</jawi>
+    <death>2011-01-11</death>
+    <deathm>1432-02-06</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+    <name>siti maisarah bt omar</name>
+    <jawi>ستي ماءيساراه بنت عمر</jawi>
+    <born>2002-12-18</born>
+    <death>2002-12-21</death>
+    <deathm>1423-10-17</deathm>
+    <item>PV Budak</item>
   </order>
   <!--<order soldto="" date="" delivered="" price="">
     <name></name>
