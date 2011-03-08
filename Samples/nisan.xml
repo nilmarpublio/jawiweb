@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="SEL" date="2006-09-12" delivered="2006-09-17">
@@ -21075,28 +21075,28 @@
     <age>81</age>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2011-02-19" delivered="" price="230">
+  <order soldto="SEM" date="2011-02-19" delivered="2011-03-06" price="230">
     <name>hj yahya bin hj hamzah</name>
     <jawi>حاج يحيى بن حاج حمزة</jawi>
     <death>2011-02-02</death>
     <deathm>1432-02-28</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEL" date="2011-02-15" delivered="" price="230">
+  <order soldto="SEL" date="2011-02-15" delivered="2011-03-06" price="230">
     <name>hj latif bin abdullah</name>
     <jawi>حاج لطيف بن عبدالله</jawi>
     <death>2011-01-26</death>
     <deathm>1432-02-21</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEL" date="2011-02-19" delivered="" price="230">
+  <order soldto="SEL" date="2011-02-19" delivered="2011-03-06" price="230">
     <name>kasim bin taib</name>
     <jawi>قاسيم بن طيب</jawi>
     <death>2011-02-06</death>
     <deathm>1432-03-03</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="KEN" date="2011-02-20" delivered="" price="230">
+  <order soldto="KEN" date="2011-02-20" delivered="2011-03-08" price="230">
     <name>MOHD YUSOF BIN HJ SALLEH</name>
     <jawi>محمد يوسف بن حاج صالح</jawi>
     <death>2011-02-17</death>
@@ -21211,14 +21211,14 @@
     <deathm>1414-09-08</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2011-02-27" delivered="" price="230">
+  <order soldto="SEM" date="2011-02-27" delivered="2011-03-07" price="230">
     <name>ZALIHA@SALEHA BT DARUS</name>
     <jawi>زاليحا\صالحة بنت داروس</jawi>
     <death>2010-12-05</death>
     <deathm>1431-12-28</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SHA" date="2011-02-27" delivered="" price="220">
+  <order soldto="SHA" date="2011-02-27" delivered="2011-03-07" price="220">
     <name>CHE DUN BT AHMAD</name>
     <jawi>چئ دون بنت أحمد</jawi>
     <born>1936-09-27</born>
@@ -21240,7 +21240,7 @@
     <price>130</price>
     <item>2' Batu Batik(P)</item>
   </purchase>
-  <order soldto="HAM" date="2011-02-28" delivered="" price="12">
+  <order soldto="HAM" date="2011-02-28" delivered="2011-03-09" price="12">
     <name>azali bin awang</name>
     <jawi>أزالي  بن أواڠ</jawi>
     <death>2011-02-11</death>
@@ -21248,14 +21248,14 @@
     <age>61</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-02-28" delivered="" price="12">
+  <order soldto="HAM" date="2011-02-28" delivered="2011-03-09" price="12">
     <name>nasri bt hamid</name>
     <jawi>نصري بنت حميد</jawi>
     <death>2011-01-24</death>
     <deathm>1432-02-19</deathm>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-02-28" delivered="" price="12">
+  <order soldto="HAM" date="2011-02-28" delivered="2011-03-09" price="12">
     <name>che lat bt saad</name>
     <jawi>چئ لت بنت سعد</jawi>
     <death>2011-01-23</death>
@@ -21263,7 +21263,7 @@
     <age>81</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-02-28" delivered="" price="12">
+  <order soldto="HAM" date="2011-02-28" delivered="2011-03-09" price="12">
     <name>kamariah bt ali</name>
     <jawi></jawi>
     <death></death>
@@ -21271,14 +21271,14 @@
     <item>5½" Sticker(L)</item>
     <remarks>deeply missed and forever remembered by</remarks>
   </order>
-  <order soldto="SEL" date="2011-03-03" delivered="" price="230">
+  <order soldto="SEL" date="2011-03-03" delivered="2011-03-07" price="230">
     <name>Norazira bt mat nor</name>
     <jawi>نورازيرا بنت مت نور</jawi>
     <death>2010-11-17</death>
     <deathm>1431-12-10</deathm>
     <item>2' Batu Putih(P)</item>
   </order>
-  <order soldto="SHA" date="2011-03-03" delivered="" price="220">
+  <order soldto="SHA" date="2011-03-03" delivered="2011-03-07" price="220">
     <name>SHAARI BIN MOHAMAD</name>
     <jawi>شعري شعريمحمد</jawi>
     <born>1938-03-13</born>
@@ -21286,49 +21286,50 @@
     <deathm>1432-03-21</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2011-03-05" delivered="" price="260">
+  <order soldto="ADI" date="2011-03-05" delivered="2011-03-08" price="260">
     <name>mat zazuli bin hj idris</name>
     <jawi>مت زازولي بن حاج ادريس</jawi>
     <death>2010-11-30</death>
     <deathm>1431-12-23</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>060301198850727</remarks>
   </order>
-  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+  <order soldto="ADI" date="2011-03-05" delivered="2011-03-07" price="35">
     <name>mohamad sharei bin abdul wahab</name>
     <jawi>محمد شاري بن عبدلواهب</jawi>
     <death>2011-02-13</death>
     <deathm>1432-03-10</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+  <order soldto="ADI" date="2011-03-05" delivered="2011-03-07" price="35">
     <name>mohd mustafa bin hussin</name>
     <jawi>محمد سطعفى بن حوسين</jawi>
     <death>2009-10-26</death>
     <deathm>1430-11-07</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+  <order soldto="ADI" date="2011-03-05" delivered="2011-03-07" price="35">
     <name>hussin bin daud</name>
     <jawi>حُسين بن داود</jawi>
     <death>1998-05-02</death>
     <deathm>1419-01-06</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+  <order soldto="ADI" date="2011-03-05" delivered="2011-03-07" price="35">
     <name>siti rofiah bt sies</name>
     <jawi>ستي روفياه بنت سيايس</jawi>
     <death>1993-03-10</death>
     <deathm>1413-09-17</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+  <order soldto="ADI" date="2011-03-05" delivered="2011-03-07" price="35">
     <name>muhamad riduan bin yahya</name>
     <jawi>محمد رضوان بن يحيى</jawi>
     <death>2010-11-14</death>
     <deathm>1431-12-07</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+  <order soldto="ADI" date="2011-03-05" delivered="2011-03-07" price="35">
     <name>ariffin bin abdul rahman</name>
     <jawi>عريفين بن عبدلرحمن</jawi>
     <death>2011-02-05</death>
@@ -21338,24 +21339,47 @@
   <order soldto="ADI" date="2011-03-05" delivered="" price="35">
     <name>zambri bin mohd ahir</name>
     <jawi>زامبري بن محمد أحر</jawi>
-    <death>2010-12-16</death>
-    <deathm>1432-01-10</deathm>
+    <death>2010-12-17</death>
+    <deathm>1432-01-11 Jumaat</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+  <order soldto="ADI" date="2011-03-05" delivered="2011-03-07" price="35">
     <name>rubiah bt naim</name>
     <jawi>روبياه بنت نعيم</jawi>
     <death>2011-01-11</death>
     <deathm>1432-02-06</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2011-03-05" delivered="" price="35">
+  <order soldto="ADI" date="2011-03-05" delivered="2011-03-07" price="35">
     <name>siti maisarah bt omar</name>
     <jawi>ستي ماءيساراه بنت عمر</jawi>
     <born>2002-12-18</born>
     <death>2002-12-21</death>
     <deathm>1423-10-17</deathm>
     <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2011-03-06" delivered="" price="35">
+    <name>Sayed Muthalib bin Sayed Sultan</name>
+    <jawi>شيد مثالب بن شيد سولطن</jawi>
+    <born>1982-02-05</born>
+    <death>2010-11-09 13:00</death>
+    <deathm>1431-12-02</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2011-03-06" delivered="" price="35">
+    <name>Shamsiah bt Ibrahim</name>
+    <jawi>شمسيه بنت إبراهيم</jawi>
+    <born>1944-08-31</born>
+    <death>2010-11-09 13:20</death>
+    <deathm>1431-12-02</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-03-06" delivered="" price="360">
+    <name>Hj kamarul zaman bin mat tasir</name>
+    <jawi>حاج كامارول بن مت تسير</jawi>
+    <death>2010-10-22</death>
+    <deathm>1431-11-14</deathm>
+    <item>2' Batu Hitam(L)</item>
   </order>
   <!--<order soldto="" date="" delivered="" price="">
     <name></name>
