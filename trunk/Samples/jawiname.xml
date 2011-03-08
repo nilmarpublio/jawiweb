@@ -6947,8 +6947,8 @@
   </rootname>
   <rootname>
     <rumi>kamarul</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>كامارول</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>kamaruzaman</rumi>
@@ -13463,11 +13463,8 @@
   </rootname>
   <rootname>
     <rumi>sayed</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>sayied</rumi>
+    <jawi>شيد</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>sazali</rumi>
@@ -14080,8 +14077,8 @@
   </rootname>
   <rootname>
     <rumi>shamsiah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شمسيه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>shamsuddin</rumi>
@@ -15196,12 +15193,9 @@
     <sex>1</sex>
   </rootname>
   <rootname>
-    <rumi>syedd</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
     <rumi>syeed</rumi>
+    <jawi>شيد</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>syelin</rumi>
