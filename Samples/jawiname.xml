@@ -157,7 +157,7 @@
   </rootname>
   <rootname>
     <rumi>abd</rumi>
-    <jawi>عبدول</jawi>
+    <jawi>عبدل</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
@@ -485,7 +485,7 @@
   <rootname>
     <rumi>aisha</rumi>
     <jawi>عيشا</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>aishah</rumi>
@@ -10822,7 +10822,7 @@
     <sex>0</sex>
   </rootname>
   <rootname>
-    <rumi>packeer</rumi>
+    <rumi>packee</rumi>
     <jawi />
     <sex>0</sex>
   </rootname>
@@ -11592,6 +11592,8 @@
   </rootname>
   <rootname>
     <rumi>ramlee</rumi>
+    <jawi>رماي</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ramli</rumi>
@@ -12145,12 +12147,12 @@
   <rootname>
     <rumi>romlee</rumi>
     <jawi>روملي</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>romli</rumi>
     <jawi>روملي</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>romzi</rumi>
@@ -12242,8 +12244,8 @@
   </rootname>
   <rootname>
     <rumi>roslan</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>روسلن</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>roslani</rumi>
@@ -12253,7 +12255,7 @@
   <rootname>
     <rumi>roslee</rumi>
     <jawi>روسلي</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>rosli</rumi>
@@ -14608,7 +14610,7 @@
   <rootname>
     <rumi>sofi</rumi>
     <jawi>سوفي</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>sofia</rumi>
@@ -16808,8 +16810,8 @@
   </rootname>
   <rootname>
     <rumi>zanib</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ذنب</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>zanuddin</rumi>
@@ -17092,6 +17094,8 @@
   </rootname>
   <rootname>
     <rumi>zuraidah</rumi>
+    <jawi></jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>zuraidi</rumi>
