@@ -2474,7 +2474,7 @@
   <rootname>
     <rumi>beevi</rumi>
     <jawi>بيوي</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>begum</rumi>
@@ -8835,8 +8835,8 @@
   </rootname>
   <rootname>
     <rumi>maznah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مزنه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>mazni</rumi>
@@ -12639,8 +12639,8 @@
   </rootname>
   <rootname>
     <rumi>sadiah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>sadiki</rumi>
