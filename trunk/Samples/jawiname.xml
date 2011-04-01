@@ -1994,6 +1994,8 @@
   </rootname>
   <rootname>
     <rumi>babjan</rumi>
+    <jawi>ببجان</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>babjee</rumi>
@@ -3331,7 +3333,7 @@
   <rootname>
     <rumi>dom</rumi>
     <jawi>دوم</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>don</rumi>
@@ -4366,7 +4368,7 @@
   <rootname>
     <rumi>habsah</rumi>
     <jawi>حبصه</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>habshah</rumi>
@@ -5227,7 +5229,7 @@
   <rootname>
     <rumi>hawa</rumi>
     <jawi>حواى</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>hawabi</rumi>
@@ -7300,8 +7302,8 @@
   </rootname>
   <rootname>
     <rumi>khalijah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>khalil</rumi>
@@ -9986,8 +9988,8 @@
   </rootname>
   <rootname>
     <rumi>nawi</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ناوي</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>nawiyah</rumi>
@@ -12226,8 +12228,8 @@
   </rootname>
   <rootname>
     <rumi>rosiah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>روسيه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>rosidah</rumi>
