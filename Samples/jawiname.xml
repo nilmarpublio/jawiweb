@@ -2466,7 +2466,7 @@
   <rootname>
     <rumi>bedah</rumi>
     <jawi>بيده</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>bee</rumi>
@@ -6268,7 +6268,7 @@
   <rootname>
     <rumi>jamaluddin</rumi>
     <jawi>جملادين</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>jamaludin</rumi>
@@ -15769,8 +15769,8 @@
   </rootname>
   <rootname>
     <rumi>ustaz</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>أستاذ</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ustazah</rumi>
