@@ -7,6 +7,9 @@ using System.Windows.Controls;
 
 namespace HLGranite.Jawi
 {
+    /// <summary>
+    /// Word collection logic.
+    /// </summary>
     public class WordCollection : PathCollection
     {
         /// <summary>
@@ -31,27 +34,20 @@ namespace HLGranite.Jawi
         /// <param name="name"></param>
         /// <param name="keys"></param>
         /// <returns></returns>
-        public int Contains(string name, out List<string, bool> keys)
+        public int Contains(string name, out List<KeyValuePair<string, bool>> keys)
         {
-            //if (sender is RichTextBox)
-            //{
-            //RichTextBox textBox = (RichTextBox)sender;
-            //textBox.Document.Blocks.Clear();
-
-            //todo: consider this scenario 'hj n.m. mohd ismail bin mohd ghani'
-            keys = new Dictionary<string, bool>();
+            keys = new List<KeyValuePair<string, bool>>();
             name = name.ToLower();
             name = name.TrimEnd(new char[] { '\n', '\r' });//hack: '\n', '\r'
-            //name = TrimHiddenCharacters(name);
             string[] names = name.Split(new char[] { ' ' });
             foreach (string s in names)
             {
                 if (s.Trim().Length == 0) continue;
 
                 if (this.Items.Where(f => f.Name.Contains(s)).Count() > 0)
-                    keys.Add(s, true);
+                    keys.Add(new KeyValuePair<string, bool>(s, true));
                 else
-                    keys.Add(s, false);
+                    keys.Add(new KeyValuePair<string, bool>(s, false));
             }
 
             return base.Contains(name);
