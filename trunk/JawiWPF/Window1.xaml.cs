@@ -294,7 +294,8 @@ namespace JawiWPF
             //get text from a RichTextBox
             TextRange textRange = new TextRange(richTextBox2.Document.ContentStart, richTextBox2.Document.ContentEnd);
 
-            Dictionary<string, bool> result = new Dictionary<string, bool>();
+            List<KeyValuePair<string, bool>> result = new List<KeyValuePair<string, bool>>();
+            //Dictionary<string, bool> result = new Dictionary<string, bool>();
             int found = wordManager.Contains(textRange.Text, out result);//searchText.Text.Trim()
             this.statusText.Text = found + " found";
 
