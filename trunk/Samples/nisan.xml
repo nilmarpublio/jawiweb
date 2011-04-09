@@ -21948,14 +21948,46 @@
     <deathm>1432-04-11</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <!--<order soldto="HAM" date="" delivered="" price="12">
-    <name></name>
-    <jawi></jawi>
-    <death></death>
-    <deathm></deathm>
-    <age></age>
+  <order soldto="HAM" date="2011-04-09" delivered="" price="12">
+    <name>hj othman bin ahmad</name>
+    <jawi>حاج عثمان بن أحمد</jawi>
+    <death>2011-02-13</death>
+    <deathm>1432-03-10</deathm>
+    <age>80</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-04-09" delivered="" price="12">
+    <name>hj pee bin dali</name>
+    <jawi>حاج في بن دالي</jawi>
+    <death>2011-02-17</death>
+    <deathm>1432-03-14</deathm>
+    <age>82</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-04-09" delivered="" price="12">
+    <name>hassan bin othman</name>
+    <jawi>حسن بن عثمان</jawi>
+    <death>1996-03-13</death>
+    <deathm>1416-10-22</deathm>
+    <age>75</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-04-09" delivered="" price="12">
+    <name>siti aminah bt hashim</name>
+    <jawi>ستي أمينة بنت هاشم</jawi>
+    <born>1938-05-28</born>
+    <death>2011-02-18</death>
+    <deathm>1432-03-15</deathm>
     <item>2' Sticker(P)</item>
-  </order>-->
+  </order>
+  <order soldto="HAM" date="2011-04-09" delivered="" price="12">
+    <name>hjh mariam bee bee bt m.m. mydin abd kader</name>
+    <jawi>حجه ماريم بي بي بنت عم، عم، يدين عبدلكادير</jawi>
+    <death>2011-03-04</death>
+    <deathm>1432-03-29</deathm>
+    <age>64</age>
+    <item>2½' Sticker(P)</item>
+  </order>
   <!--<order soldto="" date="" delivered="" price="">
     <name></name>
     <jawi></jawi>
