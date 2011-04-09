@@ -35,12 +35,13 @@ namespace SvgFileGenerator
             int length = ConfigurationManager.AppSettings.Keys.Count;
             for (int i = 0; i < length; i++)
             {
-                ConfigurationManager.AppSettings.Keys[i].ToString();
+                //hack: refactor by get all item values and query with linq
                 string item = ConfigurationManager.AppSettings.Keys[i].ToString();
                 string[] lookupFiles = ConfigurationManager.AppSettings.GetValues(i);
                 if (lookupFiles.Length < 1) continue;
                 List<nisanOrder> undelivered = orders
-                    .Where(f => f.delivered.Length == 0 && f.item == item).ToList<nisanOrder>();
+                    .Where(f => f.name.Length > 0 && f.delivered.Length == 0 && f.item == item)
+                    .ToList<nisanOrder>();
                 if (undelivered.Count > 0)
                 {
                     x += undelivered.Count;

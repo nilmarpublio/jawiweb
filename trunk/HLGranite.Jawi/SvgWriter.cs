@@ -268,14 +268,17 @@ namespace HLGranite.Jawi
 
         private void WaitToWriteName(string line)
         {
+            if (order.name == null) return;
             WriteElement(order.name.ToUpper(), line);
         }
         private void WaitToWriteJawi(string line)
         {
+            if (order.jawi == null) return;
             WriteElement(order.jawi, line);
         }
         private void WaitToWriteDeath(string line)
         {
+            if (order.death == null) return;
             string[] dates = order.death.Split(new char[] { '-' });
             string date = string.Empty;
             if (dates.Length == 1)
@@ -291,6 +294,7 @@ namespace HLGranite.Jawi
         }
         private void WaitToWriteMuslimDeath(string line)
         {
+            if (order.deathm == null) return;
             string[] dates = order.deathm.Split(new char[] { '-' });
             string date = string.Empty;
             //if (dates.Length == 1)
@@ -303,6 +307,7 @@ namespace HLGranite.Jawi
         }
         private void WaitToWriteMuslimMonth(string line)
         {
+            if (order.deathm == null) return;
             string[] dates = order.deathm.Split(new char[] { '-' });
             string date = string.Empty;
             if (dates.Length == 3)
@@ -314,6 +319,7 @@ namespace HLGranite.Jawi
         }
         private void WaitToWriteBorn(string line)
         {
+            if (order.born == null) return;
             string[] dates = order.born.Split(new char[] { '-' });
             string date = string.Empty;
             if (dates.Length == 1)
@@ -328,6 +334,7 @@ namespace HLGranite.Jawi
         }
         private void WaitToWriteAge(string line)
         {
+            if (order.age == null) return;
             WriteElement(order.age, line);
         }
 
