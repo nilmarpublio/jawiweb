@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,7 +31,7 @@ namespace HLGranite.Jawi
         /// <param name="name"></param>
         /// <param name="keys"></param>
         /// <returns></returns>
-        public int Contains(string name, out Dictionary<string, bool> keys)
+        public int Contains(string name, out List<string, bool> keys)
         {
             //if (sender is RichTextBox)
             //{
