@@ -1796,8 +1796,8 @@
   </rootname>
   <rootname>
     <rumi>azizah</rumi>
-    <jawi>ازيزه</jawi>
-    <sex>0</sex>
+    <jawi>عزيزه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>azizan</rumi>
@@ -2235,7 +2235,7 @@
   <rootname>
     <rumi>bakri</rumi>
     <jawi>بكري</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>bakyah</rumi>
@@ -2369,8 +2369,8 @@
   </rootname>
   <rootname>
     <rumi>basheer</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>بصير</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>bashir</rumi>
@@ -3098,12 +3098,12 @@
   <rootname>
     <rumi>dato'</rumi>
     <jawi />
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>datuk</rumi>
     <jawi />
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>daud</rumi>
@@ -5486,11 +5486,13 @@
   </rootname>
   <rootname>
     <rumi>husein</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>حوسين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>husien</rumi>
+    <jawi>حوسين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>husin</rumi>
@@ -8607,8 +8609,8 @@
   </rootname>
   <rootname>
     <rumi>mariyam</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ماريام</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>marjanah</rumi>
@@ -8641,7 +8643,7 @@
   <rootname>
     <rumi>marzuki</rumi>
     <jawi>مرزوقي</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>mas</rumi>
@@ -11696,6 +11698,8 @@
   </rootname>
   <rootname>
     <rumi>rasidah</rumi>
+	<jawi>رصيده</jawi>
+	<sex>2</sex>
   </rootname>
   <rootname>
     <rumi>rasimah</rumi>
@@ -13498,8 +13502,8 @@
   </rootname>
   <rootname>
     <rumi>seeni</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سيني</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>segara</rumi>
@@ -13740,8 +13744,8 @@
   </rootname>
   <rootname>
     <rumi>shabani</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شابني</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shabudin</rumi>
@@ -13995,6 +13999,11 @@
   <rootname>
     <rumi>shahrul</rumi>
     <jawi>شاهول</jawi>
+    <sex>1</sex>
+  </rootname>
+  <rootname>
+    <rumi>shahuddin</rumi>
+    <jawi>شاهدين</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
