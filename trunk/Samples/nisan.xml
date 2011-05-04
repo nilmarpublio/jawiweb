@@ -22137,7 +22137,7 @@
     <deathm>1432-03-10</deathm>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-04-25" delivered="" price="12">
+  <order soldto="HAM" date="2011-04-25" delivered="2011-04-29" price="12">
     <name>mohd ibrahim bin abd hamid</name>
     <jawi>محمد إبراهيم بن عبدلحميد</jawi>
     <death>2011-03-05</death>
@@ -22145,47 +22145,49 @@
     <age>59</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-04-25" delivered="" price="12">
+  <order soldto="HAM" date="2011-04-25" delivered="2011-04-29" price="12">
     <name>ferry gunawan bin hassan</name>
     <jawi>فري ݢوناوان بن حسن</jawi>
     <death>2010-11-07</death>
     <deathm>1431-11-30</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="ADI" date="2011-04-25" delivered="" price="35">
+  <order soldto="ADI" date="2011-04-25" delivered="2011-05-03" price="35">
     <name>rasidah bt wahab</name>
     <jawi>رصيده بنت واهب</jawi>
     <death>2010-12-26</death>
     <deathm>1432-01-20</deathm>
     <item>PV</item>
   </order>
-    <order soldto="ADI" date="2011-04-25" delivered="" price="35">
+    <order soldto="ADI" date="2011-04-25" delivered="2011-05-03" price="35">
     <name>hj marzuki bin amir</name>
     <jawi>حاج مرزوقي بن أمير</jawi>
     <death>2011-03-13</death>
     <deathm>1432-04-08</deathm>
     <item>PV Egg</item>
   </order>
-    <order soldto="ADI" date="2011-04-25" delivered="" price="35">
+    <order soldto="ADI" date="2011-04-25" delivered="2011-05-03" price="35">
     <name>ziton bt daud</name>
     <jawi>زيتون بنت داود</jawi>
     <death>2011-01-21</death>
     <deathm>1432-02-16</deathm>
     <item>PV Egg</item>
   </order>
-    <order soldto="ADI" date="2011-04-25" delivered="" price="260">
+    <order soldto="ADI" date="2011-04-25" delivered="2011-04-28" price="260">
     <name>mujilah bt waijan</name>
     <jawi>مجلة بنت ويجان</jawi>
     <death>2006-09-13</death>
     <deathm>1427-08-20</deathm>
     <item>2' Batu Batik(P)</item>
+	<remarks>060301203057663</remarks>
   </order>
-  <order soldto="ADI" date="2011-04-25" delivered="" price="260">
+  <order soldto="ADI" date="2011-04-25" delivered="2011-04-28" price="260">
     <name>hj abdul rahman bin mohd yunus</name>
     <jawi>حاج عبدلرحمن بن محمد يونوس</jawi>
     <death>2011-02-13</death>
     <deathm>1432-03-10</deathm>
     <item>2' Batu Batik(L)</item>
+	<remarks>060301203057663</remarks>
   </order>
   <order soldto="SEL" date="2011-04-27" delivered="" price="230">
     <name>Kasirah bt hj omar</name>
