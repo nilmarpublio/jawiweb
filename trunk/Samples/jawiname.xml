@@ -11607,7 +11607,7 @@
   <rootname>
     <rumi>ramly</rumi>
     <jawi>رماي</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ramzan</rumi>
@@ -12366,8 +12366,8 @@
   </rootname>
   <rootname>
     <rumi>roziah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>روزيه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>roziana</rumi>
@@ -13238,8 +13238,8 @@
   </rootname>
   <rootname>
     <rumi>saodah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>صعوده</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>sao'dah</rumi>
