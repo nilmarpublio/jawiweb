@@ -1,16 +1,11 @@
 <!-- @source http://justin-hopkins.com/blog/2008/10/19/henrys-widgets-a-practice-in-xmlxslt -->
 <!-- @seealso http://www.jenitennison.com/xslt/grouping/muenchian.html -->
 <!-- @seealso http://saxon.sourceforge.net -->
-<!--
-2011-01-21: 124
-2011-01-23: 322
-2011-01-31: 72
--->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" omit-xml-declaration="yes"/>
   <xsl:key name="customerOrderBatch" match="order" use="@date"/>
   <xsl:variable name="customer">HAM</xsl:variable>
-  <xsl:variable name="last">2011-04-09</xsl:variable>
+  <xsl:variable name="last">2011-04-25</xsl:variable>
   <!-- @see http://stackoverflow.com/questions/586231/how-can-i-convert-a-string-to-upper-or-lower-case-with-xslt -->
   <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
   <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
