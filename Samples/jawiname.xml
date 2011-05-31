@@ -469,8 +469,8 @@
   </rootname>
   <rootname>
     <rumi>ainun</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>عينن</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>airul</rumi>
@@ -672,9 +672,6 @@
     <rumi>alhamdulillah</rumi>
     <jawi>الحمدلله</jawi>
     <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>al-hussein</rumi>
   </rootname>
   <rootname>
     <rumi>ali</rumi>
@@ -1423,8 +1420,8 @@
   </rootname>
   <rootname>
     <rumi>asma</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>اسما</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>asmadi</rumi>
@@ -2135,7 +2132,7 @@
   <rootname>
     <rumi>bahari</rumi>
     <jawi>بهاري</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>baharin</rumi>
@@ -2793,8 +2790,8 @@
   </rootname>
   <rootname>
     <rumi>chat</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ݘات</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>che</rumi>
@@ -4435,8 +4432,8 @@
   </rootname>
   <rootname>
     <rumi>hafizi</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>حفظ</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>hafizudin</rumi>
@@ -4518,8 +4515,8 @@
   </rootname>
   <rootname>
     <rumi>haja</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>حاجا</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>hajah</rumi>
@@ -5118,7 +5115,7 @@
   <rootname>
     <rumi>hasmah</rumi>
     <jawi>هاسمه</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>hasmele</rumi>
@@ -7255,7 +7252,7 @@
   <rootname>
     <rumi>khairuddin</rumi>
     <jawi>خايرودين</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>khairul</rumi>
@@ -11124,13 +11121,13 @@
   </rootname>
   <rootname>
     <rumi>pitchai</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>فييڅي</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>pitchay</rumi>
     <jawi>فييڅي</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>pk</rumi>
@@ -11309,6 +11306,8 @@
   </rootname>
   <rootname>
     <rumi>radzhi</rumi>
+	<jawi>رادزهي</jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>radzi</rumi>
@@ -14936,8 +14935,8 @@
   </rootname>
   <rootname>
     <rumi>sulong</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سولوڠ</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>sultan</rumi>
@@ -15534,8 +15533,8 @@
   </rootname>
   <rootname>
     <rumi>tijah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>تجاه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>timah</rumi>

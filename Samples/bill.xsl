@@ -6,7 +6,7 @@
   <xsl:template match="/">
     <html>
       <head>
-        <title>Hamid Sticker List</title>
+        <title>Statement</title>
         <style>
           html {font-family:Tahoma,Verdana,Arial;}
           body {}
@@ -59,17 +59,14 @@
           Email: <a href="mailto:yancyn@hotmail.com">yancyn@hotmail.com</a><br/>
           <p></p>
           To:<br/>
-          <b>En. Hamid</b><br/>
-          Kg Dodol 10150<br/>
-          Jelutong, <u>Penang</u><br />
-          Hp: 012-4513655  012-4690249<br/>
-          Fax: 04-283 7729<br/>
+          <b>New Concept Sdn. Bhd.</b><br/>
+          Alma<br/>
+          Hp: 019-444 9257  012-4690249<br/>
         </div>
         <div class="headerRight">
-          <!--Date: <script>document.write(todayStr());</script>-->
         </div>
         <div class="content">
-          <h3>STICKER LIST</h3>
+          <h3>STATEMENT</h3>
           <hr></hr>
           <span class="orderHead">Order</span>
           <span class="deliver">Delivered</span>
@@ -156,45 +153,10 @@
             <xsl:value-of select="sum(nisan/order/@price
                       [../@soldto='HAM' and (../@delivered=$today)])"/>
           </div>
-          Cari bulan Melayu di
-          <a href="http://www.hlgranite.com/nisan/calendar.aspx">http://www.hlgranite.com/nisan/calendar.aspx</a>
         </div>
         <br/>
         <br/>
         <div class="footer">
-          Bulan Melayu:
-          <span class="left">
-            <ol>
-              <li>Muharram</li>
-              <li>Safar</li>
-              <li>Rabiulawal</li>
-              <li>Rabiulakhir</li>
-              <li>Jamadilawal</li>
-              <li>Jamadilakhir</li>
-              <li>Rejab</li>
-              <li>Syaaban</li>
-              <li>Ramadhan</li>
-              <li>Syawal</li>
-              <li>Zulkaedah</li>
-              <li>Zulhijjah</li>
-            </ol>
-          </span>
-          <span class="left">
-            <ol>
-              <li>محرّم</li>
-              <li>صفر</li>
-              <li>ربيع الاول</li>
-              <li>ربيع الاخير</li>
-              <li>جمادالاول</li>
-              <li>جمادالاخير</li>
-              <li>رجب</li>
-              <li>شعبان</li>
-              <li>رمضان</li>
-              <li>شوال</li>
-              <li>ذوالقعده</li>
-              <li>ذوالحجه</li>
-            </ol>
-          </span>
         </div>
       </body>
     </html>
