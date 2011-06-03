@@ -24,13 +24,13 @@
           .content h4 {font-family:Cambria;font-variant:small-caps;}
           .content ol li {text-transform: capitalize;}
           .headline { background-color: lightgrey; clear:both;font-size:12px;}
-          .orderHead {display:inline-table;padding:0 10px 0 0;text-align:right;}
+          .orderHead {display:inline-table;padding:0 4px 0 0;text-align:right;}
 
           .soldto {display:inline-table;width:30px;padding:0 6px 0 0;text-align:right;}
           .order {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
           .deliver {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
           .name { display:inline-table;width:420px;padding:0 6px 0 0; }
-          .item {display:inline-table;width:80px;padding:0 6px 0 0;}
+          .item {display:inline-table;width:84px;padding:0 6px 0 0;}
           .jawi { }
 
           .price {display:inline-table;width:40px;text-align:right;}
