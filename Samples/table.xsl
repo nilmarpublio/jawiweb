@@ -4,7 +4,7 @@
   <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
   <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
   <xsl:variable name="customer">ADI</xsl:variable>
-  <xsl:variable name="last">0000-00-00</xsl:variable>
+  <xsl:variable name="last">2011-05-01</xsl:variable>
   
   <xsl:template name="laterThan">
     <xsl:param name="orderDate"/>

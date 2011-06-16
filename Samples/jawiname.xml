@@ -2947,8 +2947,8 @@
   </rootname>
   <rootname>
     <rumi>dahari</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>دهري</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>dahlan</rumi>
@@ -9725,7 +9725,7 @@
   <rootname>
     <rumi>nah</rumi>
     <jawi>نه</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>nahad</rumi>
@@ -11456,8 +11456,8 @@
   </rootname>
   <rootname>
     <rumi>rahmat</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>رحمة</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>rahmath</rumi>
@@ -12322,6 +12322,7 @@
   <rootname>
     <rumi>rostom</rumi>
     <jawi />
+
     <sex>0</sex>
   </rootname>
   <rootname>
@@ -13207,7 +13208,7 @@
   <rootname>
     <rumi>sani</rumi>
     <jawi>ساني</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>saniah</rumi>
@@ -16532,7 +16533,7 @@
   <rootname>
     <rumi>zaidi</rumi>
     <jawi>زايدي</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>zaidy</rumi>
