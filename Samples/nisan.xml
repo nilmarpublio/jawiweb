@@ -2653,58 +2653,64 @@
     <deathm>1432-06-26</deathm>
     <item>2' Batu Putih(L)</item>
   </order>
-  <order soldto="PAS" date="2011-06-06" delivered="" price="260">
+  <order soldto="PAS" date="2011-06-06" delivered="2011-06-11" price="260">
     <name>ASMAT BT ABDULLAH</name>
     <jawi>أصمت بنت عبدالله</jawi>
     <born>1956-12-11</born>
     <death>2010-12-29</death>
     <deathm>1432-01-23</deathm>
     <item>2' Batu Batik(L)</item>
-    <remarks>pahat dua-dua belah satu jawi dan rumi</remarks>
+    <remarks>pahat dua-dua belah satu jawi dan rumi 060301198850668</remarks>
   </order>
-  <order soldto="ADI" date="2011-06-06" delivered="" price="260">
+  <order soldto="ADI" date="2011-06-06" delivered="2011-06-11" price="260">
     <name>mohd ramli bin ismail</name>
     <jawi>محمد رماي بن إسماعيل</jawi>
     <death>2011-05-23</death>
     <deathm>1432-06-19</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>060301198850667</remarks>
   </order>
-  <order soldto="ADI" date="2011-06-07" delivered="" price="35">
+  <order soldto="ADI" date="2011-06-07" delivered="2011-06-17" price="35">
     <name>mohd zaidi bin mohd kasnon</name>
     <jawi>محمد زايدي بن محمد كاسنون</jawi>
     <death>1982</death>
     <deathm></deathm>
     <item>PV Budak</item>
+    <remarks>EM009883382MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-06-07" delivered="" price="35">
+  <order soldto="ADI" date="2011-06-07" delivered="2011-06-17" price="35">
     <name>che ross bin abd jalil</name>
     <jawi>چئ روس بن عبدلجليل</jawi>
     <death>2011-03-06</death>
     <deathm>1432-04-01</deathm>
     <item>PV Egg</item>
+    <remarks>EM009883382MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-06-07" delivered="" price="35">
+  <order soldto="ADI" date="2011-06-07" delivered="2011-06-17" price="35">
     <name>siti zamiliah bt sali</name>
     <jawi>ستي زميله بنت سالي</jawi>
     <death>2011-05-27</death>
     <deathm>1432-06-23</deathm>
     <item>PV</item>
+    <remarks>EM009883382MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-06-07" delivered="" price="35">
+  <order soldto="ADI" date="2011-06-07" delivered="2011-06-17" price="35">
     <name>ramli bin rasit</name>
     <jawi>رماي بن راسية</jawi>
 	<born>1993-10-06</born>
     <death>2011-05-11</death>
     <deathm>1432-06-07</deathm>
     <item>PV Egg</item>
+    <remarks>EM009883382MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-06-07" delivered="" price="35">
+  <order soldto="ADI" date="2011-06-07" delivered="2011-06-17" price="35">
     <name>fatimah bt mingan</name>
     <jawi>فطمة بنت ميڠن</jawi>
 	<born>1940-04-04</born>
     <death>2011-04-23</death>
     <deathm>1432-05-19</deathm>
     <item>PV</item>
+    <remarks>EM009883382MY</remarks>
   </order>
   <order soldto="HAM" date="2011-06-07" delivered="" price="12">
     <name>abd majid bin s. gani</name>
@@ -2768,26 +2774,38 @@
     <deathm></deathm>
     <item>1½" Sticker</item>
   </order>
-  <order soldto="PAS" date="2011-06-08" delivered="" price="260">
+  <order soldto="PAS" date="2011-06-08" delivered="2011-06-11" price="260">
     <name>Mohammad bin awang</name>
     <jawi>محمد بن أواڠ</jawi>
     <death>2011-01-04</death>
     <deathm>1432-01-29</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>060301198850668</remarks>
   </order>
-  <order soldto="ADI" date="2011-06-08" delivered="" price="35">
+  <order soldto="ADI" date="2011-06-08" delivered="2011-06-17" price="35">
     <name>Hjh siti bt salam</name>
     <jawi>حجه ستي بنت سالام</jawi>
     <death>2010-11-08</death>
     <deathm>1431-01-12</deathm>
     <item>PV</item>
+    <remarks>EM009883382MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-06-08" delivered="" price="35">
+  <order soldto="ADI" date="2011-06-08" delivered="2011-06-17" price="35">
     <name>Mohamad adam bin mohamad farok</name>
     <jawi>محمد ادام بن محمد فاروق</jawi>
     <death>2011-05-19</death>
     <deathm>1432-06-15</deathm>
     <item>PV Budak</item>
+    <remarks>EM009883382MY</remarks>
+  </order>
+  <order soldto="PAS" date="2011-06-14" delivered="" price="260">
+    <name>HAJJAH RADHIAH BT HAJI CHE MAT</name>
+    <jawi>حجه راضيه بنت حاجچئ مت</jawi>
+    <born>1959-04-29</born>
+    <death>2011-02-04</death>
+    <deathm>1432-03-01 Jumaat</deathm>
+    <item>2' Batu Batik(P)</item>
+    <remarks>pahat dua-dua belah satu jawi dan rumi</remarks>
   </order>
   <!--<order soldto="" date="" delivered="" price="">
     <name></name>
