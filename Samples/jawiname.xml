@@ -1817,8 +1817,8 @@
   </rootname>
   <rootname>
     <rumi>azlan</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>azli</rumi>
@@ -4520,8 +4520,8 @@
   </rootname>
   <rootname>
     <rumi>hajah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>حجه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>hajar</rumi>
