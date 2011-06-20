@@ -2418,7 +2418,7 @@
     <item>PV</item>
 	<remarks>EM009883365MY</remarks>
   </order>
-  <order soldto="周" date="2011-05-22" delivered="" price="40">
+  <order soldto="周" date="2011-05-22" delivered="2011-06-20" price="40">
     <name>L151 chin phaik har</name>
     <item>8¾"x11⅛" Green</item>
   </order>
@@ -2508,7 +2508,7 @@
     <item>PV Egg</item>
 	<remarks>EM009883365MY</remarks>
   </order>
-  <order soldto="周" date="2011-05-28" delivered="" price="40">
+  <order soldto="周" date="2011-05-28" delivered="2011-06-20" price="40">
     <name>L156 chua beeng hong</name>
     <item>9"x11⅛" Black</item>
   </order>
@@ -2798,64 +2798,70 @@
     <item>PV Budak</item>
     <remarks>EM009883382MY</remarks>
   </order>
-  <order soldto="PAS" date="2011-06-14" delivered="" price="260">
+  <order soldto="PAS" date="2011-06-14" delivered="2011-06-20" price="260">
     <name>HAJJAH RADHIAH BT HAJI CHE MAT</name>
     <jawi>حجه راضيه بنت حاجچئ مت</jawi>
     <born>1959-04-29</born>
     <death>2011-02-04</death>
     <deathm>1432-03-01 Jumaat</deathm>
     <item>2' Batu Batik(P)</item>
-    <remarks>pahat dua-dua belah satu jawi dan rumi</remarks>
+    <remarks>060301198850675 pahat dua-dua belah satu jawi dan rumi</remarks>
   </order>
-  <order soldto="ADI" date="2011-06-18" delivered="" price="35">
+  <order soldto="ADI" date="2011-06-18" delivered="2011-06-20" price="35">
     <name>ainun bt sedin</name>
     <jawi>عينُن بنت سدين</jawi>
     <death>2009-05-07</death>
     <deathm>1430-05-12</deathm>
     <item>2' Batu Batik(P)</item>
+    <remarks>060301198850676</remarks>
   </order>
-    <order soldto="ADI" date="2011-06-18" delivered="" price="35">
+    <order soldto="ADI" date="2011-06-18" delivered="2011-06-20" price="35">
     <name>muhammad natoilla bin abdul aziz</name>
     <jawi>محمد نطيل بن عبدولعزيز</jawi>
     <death>2011-05-05</death>
     <deathm>1432-06-01</deathm>
     <item>2' Batu Putih(L)</item>
+    <remarks>060301198850676</remarks>
   </order>
-  <order soldto="ADI" date="2011-06-18" delivered="" price="35">
+  <order soldto="ADI" date="2011-06-18" delivered="2011-06-20" price="35">
     <name>hindun@aishah bt hj mudzani</name>
     <jawi>هندن/عيشه بنت حاج مودزاني</jawi>
     <death>2011-05-29</death>
     <deathm>1432-06-25</deathm>
     <item>PV</item>
+    <remarks>EM009883405MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-06-18" delivered="" price="35">
+  <order soldto="ADI" date="2011-06-18" delivered="2011-06-20" price="35">
     <name>hj selamat bin hj yusof</name>
     <jawi>حاج سلامة بن حاج يوسف</jawi>
     <death>2011-05-28</death>
     <deathm>1432-06-24</deathm>
     <item>PV Egg</item>
-	<remarks>tulisan jawi shja</remarks>
+	<remarks>EM009883405MY tulisan jawi shja</remarks>
   </order>
-  <order soldto="ADI" date="2011-06-18" delivered="" price="35">
+  <order soldto="ADI" date="2011-06-18" delivered="2011-06-20" price="35">
     <name>musrifah bt azlan</name>
     <jawi>مُصرَفهه بنت أزلن</jawi>
     <death>2010-11-21</death>
     <deathm>1431-12-14</deathm>
     <item>PV</item>
+    <remarks>EM009883405MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-06-18" delivered="" price="35">
+  <order soldto="ADI" date="2011-06-18" delivered="2011-06-20" price="35">
     <name>hajah sira bt kasim</name>
     <jawi>حجه سيرة بنت قاسيم</jawi>
     <death>1985-12-20</death>
     <deathm>1406-04-08</deathm>
     <item>PV</item>
+    <remarks>EM009883405MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-06-18" delivered="" price="35">
+  <order soldto="ADI" date="2011-06-18" delivered="2011-06-20" price="35">
     <name>hj mohd noor bin mohd yusof</name>
     <jawi>حاج محمد نور بن محمد يوسف</jawi>
     <death>1982-04-02</death>
     <deathm>1402-06-08</deathm>
     <item>PV Egg</item>
+    <remarks>EM009883405MY</remarks>
   </order>
   <order soldto="HAM" date="2011-06-17" delivered="" price="12">
     <name>abu bakar bin shariff</name>
