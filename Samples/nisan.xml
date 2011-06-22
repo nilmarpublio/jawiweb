@@ -256,7 +256,7 @@
     <death>1988-11-20</death>
     <deathm>1409-04-11</deathm>
     <age>62</age>
-    <item>2' Sticker(P)</item>
+    <item>2' Sticker(L)</item>
   </order>
   <order soldto="HAM" date="2011-01-17" delivered="2011-01-18" price="12">
     <name>FATIMAH SHAM BT ABOO KASSIM</name>
@@ -272,7 +272,7 @@
     <death>2000-04-26</death>
     <deathm>1421-01-22</deathm>
     <age>48</age>
-    <item>2' Sticker(P)</item>
+    <item>2' Sticker(L)</item>
   </order>
   <order soldto="HAM" date="2011-01-17" delivered="2011-01-21" price="12">
     <name>ABD RAHMAN BIN ALWI</name>
@@ -1075,7 +1075,7 @@
     <jawi></jawi>
     <death></death>
     <deathm></deathm>
-    <item>5½" Sticker(L)</item>
+    <item>5½" Sticker(P)</item>
     <remarks>deeply missed and forever remembered by</remarks>
   </order>
   <order soldto="SEL" date="2011-03-03" delivered="2011-03-07" price="230">
@@ -2659,7 +2659,7 @@
     <born>1956-12-11</born>
     <death>2010-12-29</death>
     <deathm>1432-01-23</deathm>
-    <item>2' Batu Batik(L)</item>
+    <item>2' Batu Batik(P)</item>
     <remarks>pahat dua-dua belah satu jawi dan rumi 060301198850668</remarks>
   </order>
   <order soldto="ADI" date="2011-06-06" delivered="2011-06-11" price="260">
