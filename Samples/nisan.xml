@@ -3294,7 +3294,7 @@
 	</order>
 	<order soldto="PAS" date="2011-06-21" delivered="" price="260">
 		<name>ABDUL HADI BIN AADUL RAZAK</name>
-		<jawi></jawi>
+		<jawi>عبدولهادي بن عبدولرازق</jawi>
 		<born>1944-10-30</born>
 		<death>2010-09-18</death>
 		<deathm>1431-10-09</deathm>
@@ -3302,7 +3302,7 @@
 	</order>
 	<order soldto="HAM" date="2011-06-22" delivered="" price="12">
 		<name>syed peer bin syed ahmad</name>
-		<jawi></jawi>
+		<jawi>شيد فير بن شيد أحمد</jawi>
 		<death>2011-02-24</death>
 		<deathm>1432-03-21</deathm>
 		<age>83</age>
@@ -3310,15 +3310,15 @@
 	</order>
 	<order soldto="HAM" date="2011-06-22" delivered="" price="12">
 		<name>haminah bt hj mohd salleh</name>
-		<jawi></jawi>
+		<jawi>همينه بنت حاج محمدصالح</jawi>
 		<death>1992-12-13</death>
-		<deathm></deathm>
+		<deathm>1413-06-18</deathm>
 		<age>54</age>
 		<item>2' Sticker(P)</item>
 	</order>
 	<order soldto="HAM" date="2011-06-22" delivered="" price="12">
 		<name>mohd jefny jufry bin jasmin</name>
-		<jawi></jawi>
+		<jawi>محمد جفني جوفري بن جاسمين</jawi>
 		<death>2011-06-07</death>
 		<deathm>1432-07-05</deathm>
 		<age>7</age>
@@ -3326,7 +3326,7 @@
 	</order>
 	<order soldto="HAM" date="2011-06-22" delivered="" price="12">
 		<name>rozali bin ghani</name>
-		<jawi></jawi>
+		<jawi>روزالي بن غنى</jawi>
 		<death>2011-05-20</death>
 		<deathm>1432-06-16</deathm>
 		<age>41</age>
@@ -3334,7 +3334,7 @@
 	</order>
 	<order soldto="HAM" date="2011-06-22" delivered="" price="12">
 		<name>mazalan bin nan</name>
-		<jawi></jawi>
+		<jawi>مازلن بن نن</jawi>
 		<death>2010-11-19</death>
 		<deathm>1431-12-12</deathm>
 		<age>58</age>
@@ -3342,7 +3342,7 @@
 	</order>
 	<order soldto="HAM" date="2011-06-22" delivered="" price="12">
 		<name>ehia mohd bin ibrahim</name>
-		<jawi></jawi>
+		<jawi>أيحيا محمد بن إبراهيم</jawi>
 		<death>2011-06-03</death>
 		<deathm>1432-07-01</deathm>
 		<age>58</age>
@@ -3350,7 +3350,7 @@
 	</order>
 	<order soldto="HAM" date="2011-06-22" delivered="" price="12">
 		<name>muhammad bin md ali</name>
-		<jawi></jawi>
+		<jawi>محمد بن مد علي</jawi>
 		<death>2011-06-04</death>
 		<deathm>1432-07-02</deathm>
 		<age>80</age>
