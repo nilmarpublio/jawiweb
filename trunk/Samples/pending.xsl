@@ -426,17 +426,6 @@ TODO: move into different template so that easy to maintain since 2010-09-21
               <xsl:sort select="@soldto" data-type="text" order="ascending" />
               <xsl:sort select="item" data-type="text" order="ascending" />
               <li>
-              	<!-- check on mismatch item type -->
-				<xsl:if test="contains(translate(name,$lowercase,$lowercase),'bin')='true' and contains(translate(name,$uppercase,$uppercase),'(P)')='true'">
-                  <xsl:attribute name="style">
-                    <xsl:text>color:red</xsl:text>
-                  </xsl:attribute>
-                </xsl:if>
-				<xsl:if test="contains(translate(name,$lowercase,$lowercase),'bt')='true' and contains(translate(name,$uppercase,$uppercase),'(L)')='true'">
-                  <xsl:attribute name="style">
-                    <xsl:text>color:red</xsl:text>
-                  </xsl:attribute>
-                </xsl:if>
                 <xsl:if test="contains(item,'½')='true'">
                   <xsl:attribute name="style">
                     <xsl:text>font-style:italic</xsl:text>
@@ -460,6 +449,17 @@ TODO: move into different template so that easy to maintain since 2010-09-21
                 <xsl:if test="contains(item,'Black')='true'">
                   <xsl:attribute name="style">
                     <xsl:text>color:black</xsl:text>
+                  </xsl:attribute>
+                </xsl:if>
+				<!-- check on mismatch item type -->
+				<xsl:if test="contains(translate(name,$lowercase,$lowercase),'bin')='true' and contains(translate(item,$uppercase,$uppercase),'(P)')='true'">
+                  <xsl:attribute name="style">
+                    <xsl:text>color:red</xsl:text>
+                  </xsl:attribute>
+                </xsl:if>
+				<xsl:if test="contains(translate(name,$lowercase,$lowercase),'bt')='true' and contains(translate(item,$uppercase,$uppercase),'(L)')='true'">
+                  <xsl:attribute name="style">
+                    <xsl:text>color:red</xsl:text>
                   </xsl:attribute>
                 </xsl:if>
 
