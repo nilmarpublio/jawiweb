@@ -3013,4 +3013,26 @@
 		<age>80</age>
 		<item>2½' Sticker(L)</item>
 	</order>
+	<order soldto="KEN" date="2011-06-25" delivered="" price="230">
+		<name>DIN BIN SAID</name>
+		<jawi>دين بن سعيد</jawi>
+		<death>2011-05-26</death>
+		<deathm>1432-06-22</deathm>
+		<age>78</age>
+		<item>2' Batu Batik(L)</item>
+	</order>
+	<order soldto="ADI" date="2011-06-25" delivered="" price="260">
+		<name>siti rukiyah bt dimyati</name>
+		<jawi>ستي رقيه بنت دمياطي</jawi>
+		<death>2009-06-30</death>
+		<deathm>1430-07-07</deathm>
+		<item>2' Batu Batik(P)</item>
+	</order>
+	<order soldto="PAS" date="2011-06-25" delivered="" price="260">
+		<name>MOHAMAD NAZAM BIN AB GHANI</name>
+		<jawi>محمد نظام بن عبدولغنى</jawi>
+		<death>2011-05-11</death>
+		<deathm>1432-06-07</deathm>
+		<item>2' Batu Batik(L)</item>
+	</order>
 </nisan>
