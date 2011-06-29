@@ -2912,14 +2912,14 @@
 		<deathm>1432-06-16</deathm>
 		<item>2½' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-06-17" delivered="" price="12">
+	<order soldto="HAM" date="2011-06-17" delivered="2011-06-30" price="12">
 		<name>aidzuddin@samsuddin bin md yusoff</name>
 		<jawi>ازوددين/سامسودين بن مد يوسف</jawi>
 		<death>2011-06-10</death>
 		<deathm>1432-07-08</deathm>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-06-17" delivered="" price="12">
+	<order soldto="HAM" date="2011-06-17" delivered="2011-06-30" price="12">
 		<name>rozanna bt omar</name>
 		<jawi>روزانا بنت عمر</jawi>
 		<death>2011-06-15</death>
@@ -2927,7 +2927,7 @@
 		<age>52</age>
 		<item>2½' Sticker(P)</item>
 	</order>
-	<order soldto="HAM" date="2011-06-17" delivered="" price="12">
+	<order soldto="HAM" date="2011-06-17" delivered="2011-06-30" price="12">
 		<name>siti ambia bt md shareff</name>
 		<jawi>ستي امبي بنت مد شريف</jawi>
 		<death>1992-11-23</death>
@@ -2958,7 +2958,7 @@
 		<item>2' Batu Batik(L)</item>
 		<remarks>060301198850681</remarks>
 	</order>
-	<order soldto="HAM" date="2011-06-22" delivered="" price="12">
+	<order soldto="HAM" date="2011-06-22" delivered="2011-06-30" price="12">
 		<name>syed peer bin syed ahmad</name>
 		<jawi>شيد فير بن شيد أحمد</jawi>
 		<death>2011-02-24</death>
@@ -2966,7 +2966,7 @@
 		<age>83</age>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-06-22" delivered="" price="12">
+	<order soldto="HAM" date="2011-06-22" delivered="2011-06-30" price="12">
 		<name>haminah bt hj mohd salleh</name>
 		<jawi>همينه بنت حاج محمدصالح</jawi>
 		<death>1992-12-13</death>
@@ -2974,7 +2974,7 @@
 		<age>54</age>
 		<item>2' Sticker(P)</item>
 	</order>
-	<order soldto="HAM" date="2011-06-22" delivered="" price="12">
+	<order soldto="HAM" date="2011-06-22" delivered="2011-06-30" price="12">
 		<name>mohd jefny jufry bin jasmin</name>
 		<jawi>محمد جفني جوفري بن جاسمين</jawi>
 		<death>2011-06-07</death>
@@ -2982,7 +2982,7 @@
 		<age>7</age>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-06-22" delivered="" price="12">
+	<order soldto="HAM" date="2011-06-22" delivered="2011-06-30" price="12">
 		<name>rozali bin ghani</name>
 		<jawi>روزالي بن غنى</jawi>
 		<death>2011-05-20</death>
@@ -2990,7 +2990,7 @@
 		<age>41</age>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-06-22" delivered="" price="12">
+	<order soldto="HAM" date="2011-06-22" delivered="2011-06-30" price="12">
 		<name>mazalan bin nan</name>
 		<jawi>مازلن بن نن</jawi>
 		<death>2010-11-19</death>
@@ -2998,7 +2998,7 @@
 		<age>58</age>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-06-22" delivered="" price="12">
+	<order soldto="HAM" date="2011-06-22" delivered="2011-06-30" price="12">
 		<name>ehia mohd bin ibrahim</name>
 		<jawi>أيحيا محمد بن إبراهيم</jawi>
 		<death>2011-06-03</death>
@@ -3006,7 +3006,7 @@
 		<age>58</age>
 		<item>2½' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-06-22" delivered="" price="12">
+	<order soldto="HAM" date="2011-06-22" delivered="2011-06-30" price="12">
 		<name>muhammad bin md ali</name>
 		<jawi>محمد بن مد علي</jawi>
 		<death>2011-06-04</death>
