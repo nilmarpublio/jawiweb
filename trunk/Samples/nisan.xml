@@ -3121,7 +3121,7 @@
 		<deathm>1432-07-03</deathm>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-07-01" delivered="" price="12">
+	<order soldto="HAM" date="2011-07-01" delivered="2011-07-07" price="12">
 		<name>syed ahamed bin peria maideen</name>
 		<jawi>شيد أحمد بن فيريا مأيدين</jawi>
 		<death>2011-05-06</death>
@@ -3129,7 +3129,7 @@
 		<age>78</age>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-07-01" delivered="" price="12">
+	<order soldto="HAM" date="2011-07-01" delivered="2011-07-07" price="12">
 		<name>sheikh muhammad farhan bin sheikh md saud</name>
 		<jawi>شيخ محمد فرهان بن شيخمد سعود</jawi>
 		<born>1992-10-08</born>
@@ -3137,7 +3137,7 @@
 		<deathm>1432-07-24</deathm>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-07-01" delivered="" price="12">
+	<order soldto="HAM" date="2011-07-01" delivered="2011-07-07" price="12">
 		<name>dali bin wahab</name>
 		<jawi>دالي بن واهب</jawi>
 		<death>2011-06-22</death>
@@ -3145,7 +3145,7 @@
 		<age>72</age>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-07-01" delivered="" price="12">
+	<order soldto="HAM" date="2011-07-01" delivered="2011-07-07" price="12">
 		<name>mohd ramadzan bin ramli</name>
 		<jawi>محمد رمظن بن رماي</jawi>
 		<death>2011-06-10</death>
@@ -3179,7 +3179,7 @@
 		<jawi>أواڠ بنت انانڠ</jawi>
 		<death>2011-05-29</death>
 		<deathm>1432-06-25</deathm>
-		<item>2' Batu Batik(L)</item>
+		<item>2' Batu Batik(P)</item>
 	</order>
 	<order soldto="SEM" date="2011-07-05" delivered="" price="230">
 		<name>MOHD AZHAR ARIF BIN RAZALI</name>
@@ -3193,7 +3193,7 @@
 		<jawi>حجه ايسه بنت قارتي</jawi>
 		<death>2011-08-28</death>
 		<deathm>1432-09-28</deathm>
-		<item>2' Batu Batik(L)</item>
+		<item>2' Batu Batik(P)</item>
 	</order>
 	<order soldto="ADI" date="2011-07-06" delivered="" price="35">
 		<name>Tadkiran bin abdullah</name>
