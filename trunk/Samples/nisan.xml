@@ -3174,21 +3174,21 @@
 		<deathm>1432-03-26</deathm>
 		<item>PV</item>
 	</order>
-	<order soldto="SEL" date="2011-07-05" delivered="" price="230">
+	<order soldto="SEM" date="2011-07-05" delivered="" price="230">
 		<name>TIMAH BT ANANG</name>
 		<jawi>أواڠ بنت انانڠ</jawi>
 		<death>2011-05-29</death>
 		<deathm>1432-06-25</deathm>
 		<item>2' Batu Batik(L)</item>
 	</order>
-	<order soldto="SEL" date="2011-07-05" delivered="" price="230">
+	<order soldto="SEM" date="2011-07-05" delivered="" price="230">
 		<name>MOHD AZHAR ARIF BIN RAZALI</name>
 		<jawi>محمد ازهار عريف بن رازالي</jawi>
 		<death>2011-06-16</death>
 		<deathm>1432-07-14</deathm>
 		<item>2' Batu Batik(L)</item>
 	</order>
-	<order soldto="SEL" date="2011-07-05" delivered="" price="230">
+	<order soldto="SEM" date="2011-07-05" delivered="" price="230">
 		<name>HAJAH ESAH BT KARTI</name>
 		<jawi>حجه ايسه بنت قارتي</jawi>
 		<death>2011-08-28</death>
@@ -3197,6 +3197,7 @@
 	</order>
 	<order soldto="ADI" date="2011-07-06" delivered="" price="35">
 		<name>Tadkiran bin abdullah</name>
+		<jawi>تذكيرن بن عبدالله</jawi>
 		<born>1929-10-19</born>
 		<death>2011-04-15</death>
 		<deathm>1432-05-11</deathm>
@@ -3204,18 +3205,21 @@
 	</order>
 	<order soldto="ADI" date="2011-07-06" delivered="" price="35">
 		<name>Salimi bt rasam</name>
+		<jawi>سالم بنت رسم</jawi>
 		<death>2011-05-26</death>
 		<deathm>1432-06-22</deathm>
 		<item>PV</item>
 	</order>
 	<order soldto="ADI" date="2011-07-06" delivered="" price="260">
 		<name>Fauziah bt hj asmawi</name>
+		<jawi>فوزيه بنت حاج اسماوي</jawi>
 		<death>2011-04-04</death>
 		<deathm>1432-04-30</deathm>
 		<item>2' Batu Putih(P)</item>
 	</order>
 	<order soldto="ADI" date="2011-07-06" delivered="" price="260">
 		<name>hjh ra'aiah bt hj basri</name>
+		<jawi>حجه رائعه بنت حاج بصري</jawi>
 		<death>2009-07-23</death>
 		<deathm>1430-08-01</deathm>
 		<item>2' Batu Putih(P)</item>
