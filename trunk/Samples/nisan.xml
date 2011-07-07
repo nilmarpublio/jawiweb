@@ -3224,4 +3224,25 @@
 		<deathm>1430-08-01</deathm>
 		<item>2' Batu Putih(P)</item>
 	</order>
+	<order soldto="ADI" date="2011-07-07" delivered="" price="35">
+		<name>hj abdul ghafar bin hj abdul hamid</name>
+		<jawi>حاج عبدولغفر بن حاج عبدولحميد</jawi>
+		<death>2011-03-10</death>
+		<deathm>1432-04-05</deathm>
+		<item>PV Egg</item>
+	</order>
+	<order soldto="ADI" date="2011-07-07" delivered="" price="35">
+		<name>waijan bin sukiban</name>
+		<jawi>ويجان بن ثقبا</jawi>
+		<death>1959-11-18</death>
+		<deathm>1379-05-18</deathm>
+		<item>PV Egg</item>
+	</order>
+	<order soldto="ADI" date="2011-07-07" delivered="" price="35">
+		<name>aliah bt abdul karim</name>
+		<jawi>عليه بنت عبدولكريم</jawi>
+		<death>1965-04-06</death>
+		<deathm>1384-12-05</deathm>
+		<item>PV</item>
+	</order>
 </nisan>
