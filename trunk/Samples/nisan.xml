@@ -3245,4 +3245,11 @@
 		<deathm>1384-12-05</deathm>
 		<item>PV</item>
 	</order>
+	<order soldto="ADI" date="2011-07-08" delivered="" price="35">
+		<name>mohd noor bin mohd yusof</name>
+		<jawi>محمد نور بن محمد يوسف</jawi>
+		<death>1982-04-02</death>
+		<deathm>1404-07-02</deathm>
+		<item>PV</item>
+	</order>
 </nisan>
