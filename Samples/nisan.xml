@@ -3014,7 +3014,7 @@
 		<age>80</age>
 		<item>2½' Sticker(L)</item>
 	</order>
-	<order soldto="KEN" date="2011-06-25" delivered="" price="230">
+	<order soldto="KEN" date="2011-06-25" delivered="2011-07-11" price="230">
 		<name>DIN BIN SAID</name>
 		<jawi>دين بن سعيد</jawi>
 		<death>2011-05-26</death>
@@ -3252,12 +3252,62 @@
 		<deathm>1404-07-02</deathm>
 		<item>PV</item>
 	</order>
+	<order soldto="ADI" date="2011-07-12" delivered="" price="35">
+		<name>nur izzatul umairah bt mohamad roslan</name>
+		<jawi>نور يززاتول أميره بنت محمد روسلن</jawi>
+		<death>2011-01-06</death>
+		<deathm>1432-02-01</deathm>
+		<item>PV Budak</item>
+	</order>
+	<order soldto="ADI" date="2011-07-12" delivered="" price="35">
+		<name>siti ruminah bt hj khatib</name>
+		<jawi>ستي رومينه بنت حاجخطيب</jawi>
+		<death>2009-11-17</death>
+		<deathm>1430-11-29</deathm>
+		<item>PV</item>
+	</order>
 	<order soldto="SEM" date="2011-07-10" delivered="" price="230">
 		<name>Salimah bt sairame</name>
-		<jawi>سليمه بنت سايرامي </jawi>
+		<jawi>سليمه بنت سايرامي</jawi>
 		<born>1957-02-09</born>
 		<death>2011-06-18</death>
 		<deathm>1432-07-16</deathm>
 		<item>2' Batu Batik(P)</item>
+	</order>
+	<order soldto="SEM" date="2011-07-12" delivered="" price="230">
+		<name>hjh esah bt arshad</name>
+		<jawi>حجه ايسه بنت أرشد</jawi>
+		<death>2011-07-03</death>
+		<deathm>1432-08-01</deathm>
+		<item>2' Batu Batik(P)</item>
+	</order>
+	<order soldto="SEL" date="2011-07-11" delivered="" price="230">
+		<name>Lee kow @ hashim lee bin halimah</name>
+		<jawi>لي كوْ\هاشم لي بن حليمه</jawi>
+		<death>2011-07-01</death>
+		<deathm>1432-07-29</deathm>
+		<item>2' Batu Hitam(L)</item>
+	</order>
+	<order soldto="SEL" date="2011-07-11" delivered="" price="230">
+		<name>Rafeah bt mat</name>
+		<jawi>رفعه بنت مت</jawi>
+		<death>2006-10-07</death>
+		<deathm>1427-09-14</deathm>
+		<item>2' Batu Batik(P)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>nur hamie adlina bt hamid</name>
+		<jawi>نور حامي ادلينا بنت حميد</jawi>
+		<death>2011-06-15</death>
+		<deathm>1432-07-13</deathm>
+		<item>1½' Sticker(P)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>hjh munah bt sheikh abd rahman</name>
+		<jawi></jawi>
+		<death> </death>
+		<deathm></deathm>
+		<age></age>
+		<item>2' Sticker(P)</item>
 	</order>
 </nisan>
