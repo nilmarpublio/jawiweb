@@ -3304,10 +3304,159 @@
 	</order>
 	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
 		<name>hjh munah bt sheikh abd rahman</name>
-		<jawi></jawi>
-		<death> </death>
-		<deathm></deathm>
-		<age></age>
+		<jawi>حجه مونه بنت شيخ عبدلرحمن</jawi>
+		<death>2011-01-26</death>
+		<deathm>1432-02-21</deathm>
 		<item>2' Sticker(P)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>hj abd hamid bin hj pawanteh</name>
+		<jawi>حاج عبدلحميد بن حاج فأونته</jawi>
+		<death>2011-06-24</death>
+		<deathm>1432-07-22</deathm>
+		<age>89</age>
+		<item>2' Sticker(L)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>md amin bin harun</name>
+		<jawi>مد أمين بن هارون</jawi>
+		<death>2011-05-22</death>
+		<deathm>1432-06-18</deathm>
+		<item>2' Sticker(L)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>noordin bin hashim</name>
+		<jawi>نوردين بن هاشم</jawi>
+		<death>2011-06-18</death>
+		<deathm>1432-07-16</deathm>
+		<age>79</age>
+		<item>2' Sticker(L)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>azizah bt yacob khan</name>
+		<jawi>عزيزه بنت يعقوب خان</jawi>
+		<death>2011-07-01</death>
+		<deathm>1432-07-29</deathm>
+		<age>64</age>
+		<item>2' Sticker(P)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>sutan bee azizah bt yacob khan</name>
+		<jawi>سوتن بي عزيزه بنت يعقوب خان</jawi>
+		<death>2011-07-01</death>
+		<deathm></deathm>
+		<age>64</age>
+		<item>4" Sticker</item>
+		<remarks>rumi sahaja</remarks>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>abd kudus bin mohd salleh</name>
+		<jawi>عبدلكودوس بن محمد صالح</jawi>
+		<born>1942-12-27</born>
+		<death>1972-01-28</death>
+		<deathm>1391-12-12</deathm>
+		<item>2½' Sticker(L)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>k.a. mohamed salleh rawther bin abdul kader</name>
+		<jawi>كي أ محمد صالح راوتر بن كادير</jawi>
+		<born>1910-04-11</born>
+		<death>1972-09-10</death>
+		<deathm>1392-08-02</deathm>
+		<item>2½' Sticker(L)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>sahur banu bt mohd salleh</name>
+		<jawi>ساهور بانو بنت محمد صالح</jawi>
+		<born>1951-03-08</born>
+		<death>1972-01-26</death>
+		<deathm>1391-12-10</deathm>
+		<item>2½' Sticker(P)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>hjh halijah bt md issa</name>
+		<jawi>حجه هاليجه بنت مد عيسى</jawi>
+		<death>2011-06-22</death>
+		<deathm>1432-07-20</deathm>
+		<age>80</age>
+		<item>2' Sticker(P)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>abd rani bin abd razak</name>
+		<jawi>عبدل راني بن عبدلرازق</jawi>
+		<death>2011-05-21</death>
+		<deathm>1432-06-17</deathm>
+		<age>32</age>
+		<item>2' Sticker(L)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>s. sahul hamid bin salim mohd</name>
+		<jawi>اسى ساهول حميد بن سالم محمد</jawi>
+		<death>1972-11-13</death>
+		<deathm>1392-10-07</deathm>
+		<age>50</age>
+		<item>2' Sticker(L)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>hj othman bin lebai omar</name>
+		<jawi>حاج عثمان بن ليبي عمر</jawi>
+		<death>2011-06-12</death>
+		<deathm>1432-07-10</deathm>
+		<age>72</age>
+		<item>2' Sticker(L)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>ibrahim bin yaacub</name>
+		<jawi>إبراهيم بن يعقوب</jawi>
+		<death>2011-07-01</death>
+		<deathm>1432-07-29</deathm>
+		<age>54</age>
+		<item>2' Sticker(L)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>jaafar bin taib</name>
+		<jawi>جعفر بن طيب</jawi>
+		<death>2011-02-23</death>
+		<deathm>1432-03-20</deathm>
+		<age>72</age>
+		<item>2' Sticker(L)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>asmah bt saibu</name>
+		<jawi>اسمه بنت سأيبو</jawi>
+		<death>1970-08-01</death>
+		<deathm>1390-05-29</deathm>
+		<item>2' Sticker(P)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>jaytun bt md shariff</name>
+		<jawi>جيتون بنت مد شريف</jawi>
+		<death>2011-05-10</death>
+		<deathm>1432-06-06</deathm>
+		<age>64</age>
+		<item>2' Sticker(P)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>ahmad bin musa</name>
+		<jawi>أحمد بن موسا</jawi>
+		<death>2011-03-24</death>
+		<deathm>1432-04-19</deathm>
+		<age>65</age>
+		<item>2' Sticker(L)</item>
+	</order>
+	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+		<name>mohd ibrahim bin babjan</name>
+		<jawi>محمد إبراهيم بن ببجان</jawi>
+		<death>2011-07-04</death>
+		<deathm>1432-08-02</deathm>
+		<age>56</age>
+		<item>2' Sticker(L)</item>
+	</order>
+	<order soldto="" date="" delivered="" price="">
+		<name></name>
+		<jawi></jawi>
+		<death></death>
+		<deathm></deathm>
+		<item></item>
 	</order>
 </nisan>

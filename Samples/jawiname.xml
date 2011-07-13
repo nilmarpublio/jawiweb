@@ -2278,8 +2278,8 @@
   </rootname>
   <rootname>
     <rumi>banu</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>بانو</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>banubai</rumi>
@@ -7335,7 +7335,7 @@
   <rootname>
     <rumi>khan</rumi>
     <jawi>خان</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>khanafiah</rumi>
@@ -9434,7 +9434,7 @@
   <rootname>
     <rumi>munah</rumi>
     <jawi>مونه</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>munakorini</rumi>
@@ -11782,8 +11782,8 @@
   </rootname>
   <rootname>
     <rumi>rawther</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>راوتر</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>rayyan</rumi>
@@ -12807,8 +12807,8 @@
   </rootname>
   <rootname>
     <rumi>sahul</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ساهول</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>saian</rumi>
@@ -12825,8 +12825,8 @@
   </rootname>
   <rootname>
     <rumi>saibu</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سأيبو</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>saibul</rumi>
@@ -16693,11 +16693,13 @@
   </rootname>
   <rootname>
     <rumi>zaiton</rumi>
-    <jawi />
-    <sex>0</sex>
+	<jawi>زيتون</jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>zaitun</rumi>
+	<jawi>زيتون</jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>zakaria</rumi>
