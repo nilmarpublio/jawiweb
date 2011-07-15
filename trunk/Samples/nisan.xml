@@ -3188,11 +3188,11 @@
 		<deathm>1432-07-14</deathm>
 		<item>2' Batu Batik(L)</item>
 	</order>
-	<order soldto="SEM" date="2011-07-05" delivered="2011-07-10" price="230">
+	<order soldto="SEM" date="2011-07-05" delivered="" price="350">
 		<name>HAJAH ESAH BT KARTI</name>
 		<jawi>حجه ايسه بنت قارتي</jawi>
-		<death>2011-08-28</death>
-		<deathm>1432-09-28</deathm>
+		<death>2011-05-28</death>
+		<deathm>1432-06-24</deathm>
 		<item>2' Batu Batik(P)</item>
 	</order>
 	<order soldto="ADI" date="2011-07-06" delivered="2011-07-10" price="35">
@@ -3217,11 +3217,11 @@
 		<deathm>1432-04-30</deathm>
 		<item>2' Batu Putih(P)</item>
 	</order>
-	<order soldto="ADI" date="2011-07-06" delivered="2011-07-10" price="260">
+	<order soldto="ADI" date="2011-07-06" delivered="" price="320">
 		<name>hjh ra'aiah bt hj basri</name>
 		<jawi>حجه رائعه بنت حاج بصري</jawi>
-		<death>2009-07-23</death>
-		<deathm>1430-08-01</deathm>
+		<death>2009-01-23</death>
+		<deathm>1430-01-26</deathm>
 		<item>2' Batu Putih(P)</item>
 	</order>
 	<order soldto="ADI" date="2011-07-07" delivered="2011-07-10" price="35">
@@ -3452,11 +3452,11 @@
 		<age>56</age>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="" date="" delivered="" price="">
-		<name></name>
-		<jawi></jawi>
+	<order soldto="JEF" date="2011-07-07" delivered="" price="180">
+		<name> </name>
 		<death></death>
 		<deathm></deathm>
-		<item></item>
+		<item>1½' Batu Hijau(L)</item>
+		<remarks>batu kosong saja</remarks>
 	</order>
 </nisan>
