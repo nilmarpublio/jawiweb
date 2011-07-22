@@ -3542,7 +3542,7 @@
   <rootname>
     <rumi>embon</rumi>
     <jawi>امبون</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>embong</rumi>
@@ -13271,7 +13271,7 @@
   <rootname>
     <rumi>sapiah</rumi>
     <jawi>صفيه</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>sapian</rumi>
