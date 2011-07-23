@@ -1227,6 +1227,8 @@
   </rootname>
   <rootname>
     <rumi>arman</rumi>
+	<jawi></jawi>
+	<sex></sex>
   </rootname>
   <rootname>
     <rumi>armin</rumi>
@@ -8578,8 +8580,8 @@
   </rootname>
   <rootname>
     <rumi>marican</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مريكن</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>maricar</rumi>
@@ -10574,7 +10576,7 @@
   </rootname>
   <rootname>
     <rumi>nuda</rumi>
-    <jawi />
+    <jawi />الاية
     <sex>0</sex>
   </rootname>
   <rootname>
@@ -11504,8 +11506,8 @@
   </rootname>
   <rootname>
     <rumi>rais</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>رئس</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>raja</rumi>
