@@ -3502,7 +3502,7 @@
 		<jawi>نفسه بنت امبون</jawi>
 		<death>2011-04-08</death>
 		<deathm>1432-05-04</deathm>
-		<item>2' Batu Batik(p)</item>
+		<item>2' Batu Batik(P)</item>
 	</order>
 	<order soldto="HAM" date="2011-07-14" delivered="2011-07-21" price="15">
 		<name>SHIK MEERA BIN MUHAMMAD MEERA</name>
@@ -3627,5 +3627,35 @@
 		<jawi>اسياه بنت عبدالله</jawi>
 		<death>1949</death>
 		<item>2' Sticker(P)</item>
+	</order>
+	<order soldto="ADI" date="2011-07-21" delivered="" price="35">
+		<name>idris bin daud</name>
+		<jawi>ادريس بن داود</jawi>
+		<death>2008-04-25</death>
+		<deathm>1429-04-18</deathm>
+		<item>PV Egg</item>
+	</order>
+	<order soldto="ADI" date="2011-07-21" delivered="" price="35">
+		<name>Sabaah bt mat rais</name>
+		<jawi>صباح بنت مت رئس</jawi>
+		<death>2008-04-26</death>
+		<deathm>1429-04-19</deathm>
+		<item>PV</item>
+	</order>
+	<order soldto="ADI" date="2011-07-21" delivered="" price="180">
+		<name>nur aliya syafiya bt arman marican</name>
+		<jawi>نور الاية صيفية بنت أرمن مريكن</jawi>
+		<born>2005-09-22</born>
+		<death>2010-10-17</death>
+		<deathm>1431-11-09</deathm>
+		<item>1½' Batu Hitam(P)</item>
+	</order>
+	<order soldto="PAS" date="2011-07-23" delivered="" price="260">
+		<name>Fatimah bt salleh</name>
+		<jawi>فطمة بنت صالح</jawi>
+		<born>1926-05-12</born>
+		<death>2011-06-19</death>
+		<deathm>1432-07-17</deathm>
+		<item>2' Batu Batik(P)</item>
 	</order>
 </nisan>
