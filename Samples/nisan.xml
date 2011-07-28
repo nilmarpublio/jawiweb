@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
+<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pending.xsd">
 	<order soldto="KEN" date="2011-01-03" delivered="2011-01-23" price="210">
 		<name>Jamaliah Bt Saat</name>
@@ -3217,12 +3217,13 @@
 		<deathm>1432-04-30</deathm>
 		<item>2' Batu Putih(P)</item>
 	</order>
-	<order soldto="ADI" date="2011-07-06" delivered="" price="320">
+	<order soldto="ADI" date="2011-07-06" delivered="2011-07-25" price="320">
 		<name>hjh ra'aiah bt hj basri</name>
 		<jawi>حجه رائعه بنت حاج بصري</jawi>
 		<death>2009-01-23</death>
 		<deathm>1430-01-26</deathm>
 		<item>2' Batu Putih(P)</item>
+		<remarks>060301198850698</remarks>
 	</order>
 	<order soldto="ADI" date="2011-07-07" delivered="2011-07-10" price="35">
 		<name>hj abdul ghafar bin hj abdul hamid</name>
@@ -3349,7 +3350,7 @@
 		<item>4" Sticker</item>
 		<remarks>rumi sahaja</remarks>
 	</order>
-	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+	<order soldto="HAM" date="2011-07-11" delivered="2011-07-29" price="12">
 		<name>abd kudus bin mohd salleh</name>
 		<jawi>عبدلكودوس بن محمد صالح</jawi>
 		<born>1942-12-27</born>
@@ -3357,7 +3358,7 @@
 		<deathm>1391-12-12</deathm>
 		<item>2½' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+	<order soldto="HAM" date="2011-07-11" delivered="2011-07-29" price="12">
 		<name>k.a. mohamed salleh rawther bin abdul kader</name>
 		<jawi>كي أ محمد صالح راوتر بن كادير</jawi>
 		<born>1910-04-11</born>
@@ -3365,7 +3366,7 @@
 		<deathm>1392-08-02</deathm>
 		<item>2½' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-07-11" delivered="" price="12">
+	<order soldto="HAM" date="2011-07-11" delivered="2011-07-29" price="12">
 		<name>sahur banu bt mohd salleh</name>
 		<jawi>ساهور بانو بنت محمد صالح</jawi>
 		<born>1951-03-08</born>
@@ -3466,20 +3467,22 @@
 		<deathm>1429-07-17</deathm>
 		<item>PV</item>
 	</order>
-	<order soldto="ADI" date="2011-07-18" delivered="" price="260">
+	<order soldto="ADI" date="2011-07-18" delivered="2011-07-25" price="260">
 		<name>mohamad asmungi bin hj ismail</name>
 		<jawi>محمد اسموڠي بن حاج إسماعيل</jawi>
 		<death>2011-03-15</death>
 		<deathm>1432-04-10</deathm>
 		<item>2' Batu Putih(L)</item>
+		<remarks>060301198850698</remarks>
 	</order>
-	<order soldto="ADI" date="2011-07-18" delivered="" price="260">
+	<order soldto="ADI" date="2011-07-18" delivered="2011-07-25" price="260">
 		<name>hj zamahuri bin hj bahauddin</name>
 		<jawi>حاج زاماهوري بن حاج بحضن</jawi>
 		<born>1937-01-02</born>
 		<death>2011-04-20</death>
 		<deathm>1432-05-16</deathm>
 		<item>2' Batu Putih(L)</item>
+		<remarks>060301198850698</remarks>
 	</order>
 	<order soldto="ADI" date="2011-07-18" delivered="2011-07-24" price="35">
 		<name>rokhana bt sarip</name>
@@ -3489,20 +3492,22 @@
 		<deathm>1432-07-16</deathm>
 		<item>PV</item>
 	</order>
-	<order soldto="PAS" date="2011-07-16" delivered="" price="260">
+	<order soldto="PAS" date="2011-07-16" delivered="2011-07-25" price="260">
 		<name>IBRAHIM BIN SETAFFA</name>
 		<jawi>إبراهيم بن ستاف</jawi>
 		<born>1949-02-05</born>
 		<death>2011-07-13</death>
 		<deathm>1432-08-11</deathm>
 		<item>2' Batu Putih(L)</item>
+		<remarks>060301198850697</remarks>
 	</order>
-	<order soldto="PAS" date="2011-07-20" delivered="" price="260">
+	<order soldto="PAS" date="2011-07-20" delivered="2011-07-25" price="260">
 		<name>Napisah bt embon</name>
 		<jawi>نفسه بنت امبون</jawi>
 		<death>2011-04-08</death>
 		<deathm>1432-05-04</deathm>
 		<item>2' Batu Batik(P)</item>
+		<remarks>060301198850697</remarks>
 	</order>
 	<order soldto="HAM" date="2011-07-14" delivered="2011-07-21" price="15">
 		<name>SHIK MEERA BIN MUHAMMAD MEERA</name>
@@ -3556,7 +3561,7 @@
 		<age>75</age>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-07-21" delivered="" price="12">
+	<order soldto="HAM" date="2011-07-21" delivered="2011-07-29" price="12">
 		<name>syedi mohd salleh bin mahmud</name>
 		<jawi>شيد محمد صالح بن محمود</jawi>
 		<death>2011-07-11</death>
@@ -3564,7 +3569,7 @@
 		<age>61</age>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-07-21" delivered="" price="12">
+	<order soldto="HAM" date="2011-07-21" delivered="2011-07-29" price="12">
 		<name>man bin abdullah</name>
 		<jawi>من بن عبدالله</jawi>
 		<death>2011-07-03</death>
@@ -3572,7 +3577,7 @@
 		<age>65</age>
 		<item>2' Sticker(L)</item>
 	</order>
-	<order soldto="HAM" date="2011-07-21" delivered="" price="12">
+	<order soldto="HAM" date="2011-07-21" delivered="2011-07-29" price="12">
 		<name>dewi aminah abdullah</name>
 		<jawi>ديوي أمينة عبدالله</jawi>
 		<death>2011-06-29</death>
@@ -3614,7 +3619,7 @@
 		<deathm>1405-07-12</deathm>
 		<item>2' Sticker(P)</item>
 	</order>
-	<order soldto="HAM" date="2011-07-21" delivered="" price="12">
+	<order soldto="HAM" date="2011-07-21" delivered="2011-07-29" price="12">
 		<name>che mah bt md isa</name>
 		<jawi>چئ مه بنت مد عيسى</jawi>
 		<death>2011-07-10</death>
@@ -3642,21 +3647,23 @@
 		<deathm>1429-04-19</deathm>
 		<item>PV</item>
 	</order>
-	<order soldto="ADI" date="2011-07-21" delivered="" price="180">
+	<order soldto="ADI" date="2011-07-21" delivered="2011-07-25" price="180">
 		<name>nur aliya syafiya bt arman marican</name>
 		<jawi>نور الاية صيفية بنت أرمن مريكن</jawi>
 		<born>2005-09-22</born>
 		<death>2010-10-17</death>
 		<deathm>1431-11-09</deathm>
 		<item>1½' Batu Hitam(P)</item>
+		<remarks>060301198850698</remarks>
 	</order>
-	<order soldto="PAS" date="2011-07-23" delivered="" price="260">
+	<order soldto="PAS" date="2011-07-23" delivered="2011-07-25" price="260">
 		<name>Fatimah bt salleh</name>
 		<jawi>فطمة بنت صالح</jawi>
 		<born>1926-05-12</born>
 		<death>2011-06-19</death>
 		<deathm>1432-07-17</deathm>
 		<item>2' Batu Batik(P)</item>
+		<remarks>060301198850697</remarks>
 	</order>
 	<order soldto="SEM" date="2011-07-24" delivered="" price="230">
 		<name>HJ ANAS bin kulub mamat</name>
