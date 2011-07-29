@@ -509,10 +509,10 @@ TODO: move into different template so that easy to maintain since 2010-09-21
             <li>KEN - Tmn Kenari | </li>
             <!--li>KIL - Kilang Lama | </li-->
             <li>SEL - Selama | </li>
-            <li>SEM - Semanggol | </li>
+            <li>SEM - Semanggol</li>
             <!--li>PAS - Pasir Puteh</li -->
             <!-- <li>妖古福 - Christian</li> -->
-            <li>周 - New Concept</li>
+            <!-- <li>周 - New Concept</li> -->
           </ul>
           <span class="left">
             Bulan Melayu:
