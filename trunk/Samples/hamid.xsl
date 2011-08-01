@@ -236,6 +236,8 @@
             </ol>
           </span>
         </div>
+		<!-- TODO: Embed svg in xsl stylesheet -->
+		<!-- embed src="G:\My Works\Hamid\AHLAWAHSAHLAYARAMADAN.svg" width="300" height="100" type="image/svg+xml" pluginspage="http://www.adobe.com/svg/viewer/install/" -->
       </body>
     </html>
   </xsl:template>
