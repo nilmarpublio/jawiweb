@@ -174,6 +174,82 @@ namespace JawiWPF
 
             System.Diagnostics.Debug.WriteLine("Set new margin:" + margin);
         }
+        /// <summary>
+        /// Write to temporarily output file then merge into existing raw svg file.
+        /// </summary>
+        private void Save()
+        {
+            SvgWriter writer = new SvgWriter("output.svg", this.workSpace);
+            writer.Write();
+            this.statusText.Text = "Export svg done";
+
+            string fileName = GetInputText().Trim();
+            //when only after pressed search button.
+            if (fileName.Length == 0) fileName = GetInlineText(richTextBox2).Trim();
+            int inputCount = fileName.Split(new char[] { ' ' }).Length;
+            if (this.workSpace.Children.Count - 3 == inputCount)
+            {
+                fileName += ".svg";
+            }
+            else
+            {
+                SimpleDialog dialog = new SimpleDialog();
+                dialog.ShowDialog();
+                fileName = dialog.output.Text.Trim() + ".svg";
+            }
+
+            if (!string.IsNullOrEmpty(fileName))
+            {
+                SvgWriter writer2 = new SvgWriter(fileName);
+                bool success = writer2.Merge("output.svg");
+                if (success)
+                    this.statusText.Text = "Merge success";
+                else
+                    this.statusText.Text = "Merge fail. Please try again";
+            }
+        }
+        /// <summary>
+        /// Get input text from searchbox.
+        /// </summary>
+        /// <returns></returns>
+        private string GetInputText()
+        {
+            TextRange textRange = new TextRange(richTextBox2.Document.ContentStart, richTextBox2.Document.ContentEnd);
+            return textRange.Text;
+        }
+        /// <summary>
+        /// Get inline text from rictTextBox control.
+        /// </summary>
+        /// <param name="myRichTextBox"></param>
+        /// <returns></returns>
+        private string GetInlineText(RichTextBox myRichTextBox)
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach (Block b in myRichTextBox.Document.Blocks)
+            {
+                if (b is Paragraph)
+                {
+                    foreach (Inline inline in ((Paragraph)b).Inlines)
+                    {
+                        if (inline is InlineUIContainer)
+                        {
+                            InlineUIContainer uiContainer = (InlineUIContainer)inline;
+                            if (uiContainer.Child is Button)
+                                sb.Append(((Button)uiContainer.Child).Content);
+                            else if (uiContainer.Child is TextBlock)
+                                sb.Append(((TextBlock)uiContainer.Child).Text);
+                        }
+                        else if (inline is Run)
+                        {
+                            Run run = (Run)inline;
+                            sb.Append(run.Text);
+                        }
+                    }
+                }
+            }
+            return sb.ToString();
+        }
+
         #endregion
 
         #region Events
@@ -218,9 +294,7 @@ namespace JawiWPF
         /// <param name="e"></param>
         private void save_Click(object sender, RoutedEventArgs e)
         {
-            SvgWriter writer = new SvgWriter("output.svg", this.workSpace);
-            writer.Write();
-            this.statusText.Text = "Export svg done";
+            Save();
         }
         /// <summary>
         /// Clear all path element in workspace panel except guideline.
@@ -242,7 +316,6 @@ namespace JawiWPF
         {
             SimpleDialog dialog = new SimpleDialog();
             dialog.ShowDialog();
-            //System.Diagnostics.Debug.WriteLine("ShowDialog:" + show);
             if (!string.IsNullOrEmpty(dialog.output.Text.Trim()))
             {
                 SvgWriter writer = new SvgWriter(dialog.output.Text.Trim() + ".svg");
@@ -261,7 +334,6 @@ namespace JawiWPF
             this.selectedColor = colorManager.SelectedColor;
             this.statusText.Text = "Picked color " + viewModel.Name;
         }
-
         private void ToggleButton_Checked(object sender, RoutedEventArgs e)
         {
             this.action = HLGranite.Jawi.Action.Writing;
@@ -292,11 +364,10 @@ namespace JawiWPF
         {
             //@see http://www.devx.com/dotnet/Article/34644
             //get text from a RichTextBox
-            TextRange textRange = new TextRange(richTextBox2.Document.ContentStart, richTextBox2.Document.ContentEnd);
+            string inputText = GetInputText();
 
             List<KeyValuePair<string, bool>> result = new List<KeyValuePair<string, bool>>();
-            //Dictionary<string, bool> result = new Dictionary<string, bool>();
-            int found = wordManager.Contains(textRange.Text, out result);//searchText.Text.Trim()
+            int found = wordManager.Contains(inputText, out result);//searchText.Text.Trim()
             this.statusText.Text = found + " found";
 
             //adding text into a RichTextBox

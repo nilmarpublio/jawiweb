@@ -106,8 +106,8 @@ namespace HLGranite.Jawi
             string[] names = fullName.Split(new char[] { ' ' });
             foreach (PathViewModel item in this.items)
             {
-                if (Contains(names, item.Name))
                 //if (item.Name.Contains(fullName))
+                if (Contains(names, item.Name))
                 {
                     found++;
                     item.Visibility = Visibility.Visible;
@@ -123,8 +123,7 @@ namespace HLGranite.Jawi
             bool contains = false;
             foreach (string name in names)
             {
-                if (source.Contains(name))
-                    //if (name.Contains(source))
+                if (source.Contains(name)) //if (name.Contains(source))
                     return true;
             }
 
