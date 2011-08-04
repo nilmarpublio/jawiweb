@@ -24,8 +24,8 @@
      style="font-size:56px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
      id="back"
      y="188.49055"
-     x="126.15488"
-     dx="0 0 0 0 0 0 0 12 0 8">كمبالي كرحمةاللة</text>
+     x="109.53712"
+     dx="0 0 0 0 0 0 0 25.3 0 12.7">كمبالي كرحمةاللة</text>
   <text
      id="deathmuslim"
      style="font-size:36px;font-weight:bold;text-align:start;text-anchor:start;font-family:Traditional Arabic"
@@ -40,16 +40,16 @@
   <text
      style="font-size:54px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
      id="equals"
-     y="286.22461"
+     y="292.22461"
      x="149.10406">برسمأن</text>
   <text
      style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
      id="death"
-     x="146.53125"
-     y="330.30972">15.4.2010</text>
+     y="336.30972"
+     x="146.53125">15.4.2010</text>
   <text
      style="font-size:54px;text-align:center;text-anchor:middle;font-family:Traditional Arabic;font-weight:bold"
      id="amin"
-     y="376.30203"
+     y="382.30203"
      x="148.47125">أمين</text>
 </svg>
