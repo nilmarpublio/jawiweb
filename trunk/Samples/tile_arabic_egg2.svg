@@ -41,29 +41,35 @@
   <text
      id="back"
      style="font-size:59.97682571px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
-     y="255.84845"
-     x="97.315079"
-     dx="0 0 0 0 0 0 0 27.739004 0 12.531396"
+     y="290.00027"
+     x="89.649986"
+     dx="0 0 0 0 1.9325677 0 0 28.705288 0 12.531396 0 0 0 2.8988516"
      transform="scale(1.0710147,0.933694)">كمبالي كرحمةاللة</text>
   <text
      id="deathmuslim"
      style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
-     y="290.30972"
-     x="146.02148"
-     dx="0 0 0 0 142.38895 0 100">143121</text>
+     y="320.19708"
+     x="146.3291"
+     dx="0 0 0 0 129.82733 0 100">143121</text>
   <text
      id="deathmonth"
      style="font-size:54px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
-     y="292.59335"
+     y="322.48071"
      x="165.97685">ذوالقعده</text>
   <text
      id="death"
      style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
-     x="146.3501"
-     y="332.30972">10.10.2010</text>
+     x="145.74902"
+     y="368.19708">10.10.2010</text>
   <text
-     id="amin"
-     style="font-size:54px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
-     y="376.90311"
-     x="146.31056">أمين</text>
+     style="font-size:56px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+     id="born"
+     y="228.2562"
+     x="228.50256">لاهيرفد</text>
+  <text
+     id="borndate"
+     style="font-size:36px;font-weight:bold;text-align:start;text-anchor:start;font-family:Traditional Arabic"
+     y="228.4552"
+     x="5.7410479"
+     dx="0 0 0 0 0 0 0 0 0">15.2.1943</text>
 </svg>
