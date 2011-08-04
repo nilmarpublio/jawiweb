@@ -16,10 +16,10 @@
      y="88.04332"
      x="146.25">رملة بنت كريم</text>
   <text
-     style="font-size:28px;text-align:center;text-anchor:middle;font-family:Arial;font-weight:bold"
+     style="font-size:28px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Arial"
      id="name"
      y="137.98267"
-     x="170.60916">RAMLAH BT KARIM</text>
+     x="146.22949">RAMLAH BT KARIM</text>
   <text
      style="font-size:56px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
      id="born"
@@ -35,27 +35,27 @@
      style="font-size:56px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
      id="back"
      y="242.05258"
-     x="126.15488"
-     dx="0 0 0 0 0 0 0 12 0 8">كمبالي كرحمةاللة</text>
+     x="103.27542"
+     dx="0 0 0 0 2.3232322 0 0.77441072 25.3 0 13.47441 0 0 0 2.3232322">كمبالي كرحمةاللة</text>
   <text
      id="deathmuslim"
      style="font-size:36px;font-weight:bold;text-align:start;text-anchor:start;font-family:Traditional Arabic"
-     y="291.87173"
+     y="297.87173"
      x="41.529198"
      dx="0 0 0 0 100">14304</text>
   <text
      style="font-size:54px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
      id="deathmonth"
-     y="289.67273"
+     y="298.67273"
      x="162">رجب</text>
   <text
      style="font-size:54px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
      id="equals"
-     y="339.78662"
+     y="345.78662"
      x="149.10406">برسمأن</text>
   <text
      style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
      id="death"
      x="146.53125"
-     y="383.87173">27.6.2009</text>
+     y="389.87173">27.6.2009</text>
 </svg>
