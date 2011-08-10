@@ -145,12 +145,57 @@ namespace HLGranite.Jawi
         }
 
         #region Methods
+        /// <summary>
+        /// Write to a svg file.
+        /// </summary>
+        /// <remarks>
+        /// After library complete or mature, counter function can be skipped.
+        /// </remarks>
+        /// <returns></returns>
         public bool Write()
         {
             bool done = false;
             if (null != this.workspace) return done = WriteWorkspace();
             if (null != this.reader) return done = Cloning();
             return done;
+        }
+        /// <summary>
+        /// Write into a svg file then increase the counter.
+        /// </summary>
+        /// <param name="wordCollection"></param>
+        /// <returns></returns>
+        public bool Write(WordCollection wordCollection)
+        {
+            bool done = false;
+            CountWord(wordCollection);
+            if (null != this.workspace) return done = WriteWorkspace();
+            if (null != this.reader) return done = Cloning();
+            return done;
+        }
+        /// <summary>
+        /// TODO: write counter into a file.
+        /// </summary>
+        /// <param name="wordCollection"></param>
+        private void CountWord(WordCollection wordCollection)
+        {
+            Counter counter = new Counter();
+
+            TextCollection textCollection = new TextCollection();
+            PunctuationCollection punctuationCollection = new PunctuationCollection();
+            foreach (PathViewModel item in wordCollection.SelectedWords)
+            {
+                bool isText = textCollection.Items.Where(f => f.Name.ToLower().Contains(item.Name.ToLower())).Count() == 0
+                    ? false : true;
+                bool isPunctuation = punctuationCollection.Items.Where(f => f.Name.ToLower().Contains(item.Name.ToLower())).Count() == 0
+                    ? false : true;
+                if (!isText && !isPunctuation)
+                {
+                    counter.Add(item.Name);
+                    System.Diagnostics.Debug.WriteLine(item.Name);
+                }
+            }
+
+            counter.Store();
         }
         private bool Cloning()
         {

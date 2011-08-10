@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Windows.Controls;
@@ -12,12 +13,18 @@ namespace HLGranite.Jawi
     /// </summary>
     public class WordCollection : PathCollection
     {
+        private ObservableCollection<PathViewModel> selectedWords;
+        /// <summary>
+        /// Gets selected children in word collection which ready to save to file.
+        /// </summary>
+        public ObservableCollection<PathViewModel> SelectedWords { get { return this.selectedWords; } }
         /// <summary>
         /// Word space collection view model.
         /// </summary>
         public WordCollection()
             : base("words")
         {
+            this.selectedWords = new ObservableCollection<PathViewModel>();
         }
         /// <summary>
         /// Search contains this keyword otherwise false.
@@ -51,6 +58,16 @@ namespace HLGranite.Jawi
             }
 
             return base.Contains(name);
+        }
+        public void Select(PathViewModel path)
+        {
+            base.Select(path);
+            this.selectedWords.Add(path);
+        }
+        public void Delete(PathViewModel path)
+        {
+            base.Delete(path);
+            this.selectedWords.Remove(path);
         }
         private string TrimHiddenCharacters(string source)
         {
