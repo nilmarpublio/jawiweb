@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="ArabicCharacterCollection.cs" />
     <Compile Include="CharacterCollection.cs" />
+    <Compile Include="Counter.cs" />
     <Compile Include="TextCollection.cs" />
     <Compile Include="CharacterMapViewModel.cs" />
     <Compile Include="CharacterViewModel.cs" />

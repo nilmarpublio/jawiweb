@@ -180,23 +180,23 @@ namespace JawiWPF
         private void Save()
         {
             SvgWriter writer = new SvgWriter("output.svg", this.workSpace);
-            writer.Write();
+            writer.Write(this.wordManager);
             this.statusText.Text = "Export svg done";
 
-            string fileName = GetInputText().Trim();
+            //logic below incorrect because it is hard to count again which including puntiotion
+            //string fileName = GetInputText().Trim();
             //when only after pressed search button.
-            if (fileName.Length == 0) fileName = GetInlineText(richTextBox2).Trim();
-            int inputCount = fileName.Split(new char[] { ' ' }).Length;
-            if (this.workSpace.Children.Count - 3 == inputCount)
-            {
-                fileName += ".svg";
-            }
-            else
-            {
-                SimpleDialog dialog = new SimpleDialog();
-                dialog.ShowDialog();
-                fileName = dialog.output.Text.Trim() + ".svg";
-            }
+            //if (fileName.Length == 0) fileName = GetInlineText(richTextBox2).Trim();
+            //int inputCount = fileName.Split(new char[] { ' ' }).Length;
+            //if (this.workSpace.Children.Count - 3 == inputCount)
+            //{
+            //    fileName += ".svg";
+            //}
+            //else
+
+            SimpleDialog dialog = new SimpleDialog();
+            dialog.ShowDialog();
+            string fileName = dialog.output.Text.Trim() + ".svg";
 
             if (!string.IsNullOrEmpty(fileName))
             {
@@ -222,6 +222,7 @@ namespace JawiWPF
         /// </summary>
         /// <param name="myRichTextBox"></param>
         /// <returns></returns>
+        /// <remarks>Reverse engineering depend on what UI control you design begining.</remarks>
         private string GetInlineText(RichTextBox myRichTextBox)
         {
             StringBuilder sb = new StringBuilder();
@@ -237,7 +238,7 @@ namespace JawiWPF
                             if (uiContainer.Child is Button)
                                 sb.Append(((Button)uiContainer.Child).Content);
                             else if (uiContainer.Child is TextBlock)
-                                sb.Append(((TextBlock)uiContainer.Child).Text);
+                                sb.Append(((TextBlock)uiContainer.Child).Text);//key
                         }
                         else if (inline is Run)
                         {
@@ -249,7 +250,6 @@ namespace JawiWPF
             }
             return sb.ToString();
         }
-
         #endregion
 
         #region Events
