@@ -91,8 +91,10 @@ namespace JawiWPF
         private void AddPath(Point position)
         {
             bool isAlignTop = false;
+            bool isAlignBottom = false;
             //50% as a buffer space
             if (position.Y < 100 / 2) isAlignTop = true;
+            if (position.Y > 100 / 2) isAlignBottom = true;
 
             Path path = new Path();
             //Path selectedPath = (Path)GetFirstUIElement((child as ToggleButton).Content as Grid);
@@ -104,6 +106,7 @@ namespace JawiWPF
             Thickness margin = new Thickness();
             margin.Left = position.X;
             if (!isAlignTop) margin.Top = position.Y;//todo: -path.Height;
+            if (isAlignBottom) margin.Top = 100 - path.Data.Bounds.Height;
             path.Margin = margin;
 
             this.workSpace.Children.Add(path);
