@@ -40,12 +40,15 @@ namespace HLGranite.Jawi
         {
             System.IO.DirectoryInfo directoryInfo = new System.IO.DirectoryInfo(source);
             System.IO.FileInfo[] filesInfo = directoryInfo.GetFiles();
-            foreach (System.IO.FileInfo info in filesInfo)
+            var files = filesInfo.OrderBy(f => f.FullName);//sort alphabetically
+            //foreach (System.IO.FileInfo info in filesInfo)
+            foreach(System.IO.FileInfo info in files)
             {
                 //System.Diagnostics.Debug.WriteLine("Reading " + info.Name + "...");
 
                 SvgReader reader = new SvgReader(info.FullName);
-                //At this moment only support one Path in a template file.
+                //HACK: At this moment only support one Path in a template file.
+                //ideal case is get a group of graphic object.
                 var elements = reader.GetXMLElements("path");
                 foreach (XElement element in elements)
                 {

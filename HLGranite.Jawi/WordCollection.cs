@@ -61,7 +61,7 @@ namespace HLGranite.Jawi
         }
         public void Select(PathViewModel path)
         {
-            base.Select(path);
+            //base.Select(path);//just done by radiobutton behavior.
             this.selectedWords.Add(path);
         }
         public void Delete(PathViewModel path)
