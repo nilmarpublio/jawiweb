@@ -8,18 +8,22 @@
     SizeChanged="Window_SizeChanged"
     MouseLeftButtonDown="Window_MouseLeftButtonDown">
     <Window.Resources>
+        <Style x:Key="WordButton" BasedOn="{StaticResource {x:Type ToggleButton}}" TargetType="{x:Type RadioButton}">
+            <Setter Property="GroupName" Value="WordGroup"/>
+        </Style>
         <DataTemplate DataType="{x:Type j:PathViewModel}">
             <!--<WrapPanel>-->
-            <ToggleButton
+            <RadioButton
                 ToolTip="{Binding Name}"
+                Style="{StaticResource WordButton}"
                 IsChecked="{Binding IsChecked,Mode=TwoWay,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
                 Visibility="{Binding Visibility,Mode=TwoWay,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
                 Checked="ToggleButton_Checked">
-                <ToggleButton.ContextMenu>
+                <RadioButton.ContextMenu>
                     <ContextMenu>
                         <MenuItem Header="_Open" Click="openWordSvg_Click"/>
                     </ContextMenu>
-                </ToggleButton.ContextMenu>
+                </RadioButton.ContextMenu>
                 
                 <!-- @todo: DockPanel fail to bind though to get the same alignment of label and name at baseline -->
                 <StackPanel>
@@ -29,7 +33,7 @@
                     </Grid>
                     <TextBlock Text="{Binding Name}" TextAlignment="Center"/>
                 </StackPanel>
-            </ToggleButton>
+            </RadioButton>
         </DataTemplate>
         <DataTemplate DataType="{x:Type j:ColorViewModel}">
             <ToggleButton
