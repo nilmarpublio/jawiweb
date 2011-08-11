@@ -52,7 +52,7 @@ namespace SvgFileGenerator
                 foreach (nisanOrder order in undelivered)
                 {
                     Console.Write("Writing " + order.name.ToLower() + ".svg...");
-                    if (order.death.CompareTo(DateTime.Now.ToString("yyyy-MM-dd")) > 0) Console.Write("invalid death date");//validation
+                    if (order.death.CompareTo(DateTime.Now.ToString("yyyy-MM-dd")) > 0) Console.Write("invalid death date ");//validation
                     SvgWriter writer = new SvgWriter(order, lookupFiles[0]);
                     if (writer.Write())
                     {
