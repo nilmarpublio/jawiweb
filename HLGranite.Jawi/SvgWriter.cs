@@ -173,8 +173,11 @@ namespace HLGranite.Jawi
             return done;
         }
         /// <summary>
-        /// TODO: write counter into a file.
-        /// </summary>
+        /// Write counter into a file.
+		/// </summary>
+		/// <remarks>
+		/// Count file name instead of name only.
+        /// </remarks>
         /// <param name="wordCollection"></param>
         private void CountWord(WordCollection wordCollection)
         {
@@ -190,8 +193,8 @@ namespace HLGranite.Jawi
                     ? false : true;
                 if (!isText && !isPunctuation)
                 {
-                    counter.Add(item.Name);
-                    System.Diagnostics.Debug.WriteLine(item.Name);
+                    counter.Add(item.Name + item.Label);
+                    System.Diagnostics.Debug.WriteLine(item.Name + item.Label);
                 }
             }
 
