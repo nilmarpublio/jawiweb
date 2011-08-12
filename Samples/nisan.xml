@@ -3868,7 +3868,7 @@
     <deathm>1432-05-27</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="HAM" date="2011-08-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-08-08" delivered="2011-08-12" price="12">
     <name>mariam bt mohd</name>
     <jawi>ماريم بنت محمد</jawi>
     <death>2011-07-01</death>
@@ -3876,7 +3876,7 @@
     <age>59</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-08-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-08-08" delivered="2011-08-12" price="12">
     <name>hjh mawambee bt saad</name>
     <jawi>حجه مؤمبي بنت سعد</jawi>
     <death>2011-06-25</death>
@@ -3884,7 +3884,7 @@
     <age>82</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-08-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-08-08" delivered="2011-08-12" price="12">
     <name>mohideen gani bin shahul hameed</name>
     <jawi>محيدين گاني بن شاهولحميد</jawi>
     <death>2011-05-09</death>
@@ -3892,7 +3892,7 @@
     <age>79</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-08-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-08-08" delivered="2011-08-12" price="12">
     <name>osman bin hassan</name>
     <jawi>عسمن بن حسن</jawi>
     <death>2011-07-20</death>
@@ -3900,7 +3900,7 @@
     <age>82</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-08-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-08-08" delivered="2011-08-12" price="12">
     <name>rokiah bt md noor</name>
     <jawi>روكياه بنت مد نور</jawi>
     <death>2011-04-17</death>
@@ -3908,14 +3908,14 @@
     <age>69</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-08-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-08-08" delivered="2011-08-12" price="12">
     <name>pawanteh bin mohd yusoff</name>
     <jawi>فأونته بن محمد يوسف</jawi>
     <death>1977-05-06</death>
     <deathm>1397-05-18</deathm>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-08-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-08-08" delivered="2011-08-12" price="12">
     <name>che buang@fatima bt mohd meah</name>
     <jawi>چئ بواڠ/فطما بنت محمد مياه</jawi>
     <death>1991-05-28</death>
