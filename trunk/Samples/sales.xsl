@@ -5,7 +5,7 @@
   <xsl:output method="html" omit-xml-declaration="yes"/>
   <xsl:key name="customerOrderBatch" match="order" use="@soldto"/>
   <xsl:variable name="year">2011</xsl:variable>
-  <xsl:variable name="month">01</xsl:variable>
+  <xsl:variable name="month">07</xsl:variable>
   <!-- @see http://stackoverflow.com/questions/586231/how-can-i-convert-a-string-to-upper-or-lower-case-with-xslt -->
   <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
   <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
@@ -13,7 +13,7 @@
   <xsl:template match="nisan">
     <html>
       <head>
-        <title>Monthly Sales</title>
+        <title>Monthly Sales Report</title>
         <style>
           html {font-family:Tahoma,Verdana,Arial;}
           body {}
@@ -71,7 +71,7 @@
           <!--Date: <script>document.write(todayStr());</script> -->
         </div>
         <div class="content">
-          <h3>Monthly Sales List</h3>
+          <h3>Monthly Sales Report <xsl:value-of select="$year"/>-<xsl:value-of select="$month"/></h3>
           <hr></hr>
           <span class="orderHead">Order</span>
           <span class="deliver">Delivered</span>
