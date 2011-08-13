@@ -1460,8 +1460,8 @@
   </rootname>
   <rootname>
     <rumi>asnah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>اسنه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>asni</rumi>
@@ -11390,6 +11390,8 @@
   </rootname>
   <rootname>
     <rumi>raguan</rumi>
+	<jawi>راگوان</jawi>
+	<sex>2</sex>
   </rootname>
   <rootname>
     <rumi>raha</rumi>
@@ -12013,8 +12015,8 @@
   </rootname>
   <rootname>
     <rumi>rodiah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>روضيه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>rodishah</rumi>
@@ -13750,8 +13752,8 @@
   </rootname>
   <rootname>
     <rumi>shabudin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ضابودين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shadan</rumi>
@@ -15475,7 +15477,7 @@
   <rootname>
     <rumi>tengku</rumi>
     <jawi>تڠكوعبد</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>termizi</rumi>

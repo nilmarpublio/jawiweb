@@ -3938,6 +3938,68 @@
 	<deathm>1432-08-27</deathm>
 	<item>2' Batu Hitam(L)</item>
   </order>
+  <order soldto="HAM" date="2011-08-12" delivered="2011-08-15" price="12">
+	<name>tengku yaacob bin tengku abdullah</name>
+	<jawi>تڠكوعبد يعقوب بن تڠكوعبد عبدالله</jawi>
+	<death>2011-05-27</death>
+	<deathm>1432-06-23</deathm>
+	<age>84</age>
+	<item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-08-12" delivered="" price="12">
+	<name>putra ammar bin mohd noor</name>
+	<jawi>فوترا أمر بن محمد نور</jawi>
+	<death>2011-08-07</death>
+	<deathm>1432-09-07</deathm>
+	<age>6</age>
+	<item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-08-12" delivered="" price="12">
+	<name>rodiah bt bahdon</name>
+	<jawi>روضيه بنت بهدون</jawi>
+	<death>1995-04-18</death>
+	<deathm>1415-11-18</deathm>
+	<item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-08-12" delivered="" price="12">
+	<name>raguan bt ahmad</name>
+	<jawi>راگوان بنت أحمد</jawi>
+	<death>1994-03-26</death>
+	<deathm>1414-10-13</deathm>
+	<item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-08-12" delivered="2011-08-15" price="12">
+	<name>safar bee bt redzuan</name>
+	<jawi>صفر بي بنت رضوان</jawi>
+	<death>2011-08-09</death>
+	<deathm>1432-09-09</deathm>
+	<age>58</age>
+	<item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-08-12" delivered="" price="12">
+	<name>mohd ali bin abd kareem</name>
+	<jawi>محمد علي بن عبدلكريم</jawi>
+	<death>2000-09-22</death>
+	<deathm>1421-06-23</deathm>
+	<age>64</age>
+	<item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-08-12" delivered="2011-08-15" price="12">
+	<name>asnah bt shabudin</name>
+	<jawi>اسنه بنت ضابودين</jawi>
+	<death>2011-05-25</death>
+	<deathm>1432-06-21</deathm>
+	<item>2' Sticker(P)</item>
+	<remarks>1944</remarks>
+  </order>
+  <order soldto="HAM" date="2011-08-12" delivered="2011-08-15" price="12">
+	<name>mohd noor bin mydinsah</name>
+	<jawi>محمد نور بن مَيدين ساه</jawi>
+	<death>2011-06-20</death>
+	<deathm>1432-07-18</deathm>
+	<age>79</age>
+	<item>2' Sticker(L)</item>
+  </order>
   <!--<order soldto="" date="" delivered="" price="230">
 		<name></name>
 		<jawi></jawi>
