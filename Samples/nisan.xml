@@ -3861,7 +3861,7 @@
     <deathm>1415-10-21</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="KIL" date="2011-08-02" delivered="" price="230">
+  <order soldto="KIL" date="2011-08-02" delivered="2011-08-14" price="230">
     <name>Asa Bt Saman</name>
     <jawi>اسا بنت سمعان</jawi>
     <death>2011-05-01</death>
@@ -3930,7 +3930,7 @@
 	<age>66</age>
 	<item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEL" date="2011-08-08" delivered="" price="340">
+  <order soldto="SEL" date="2011-08-08" delivered="2011-08-14" price="340">
 	<name>Ahmad bin mat jali</name>
 	<jawi>أحمد بن مت جلي</jawi>
 	<born>1957-09-30</born>
@@ -3938,7 +3938,7 @@
 	<deathm>1432-08-27</deathm>
 	<item>2' Batu Hitam(L)</item>
   </order>
-  <order soldto="HAM" date="2011-08-12" delivered="2011-08-15" price="12">
+  <order soldto="HAM" date="2011-08-12" delivered="2011-08-16" price="12">
 	<name>tengku yaacob bin tengku abdullah</name>
 	<jawi>تڠكوعبد يعقوب بن تڠكوعبد عبدالله</jawi>
 	<death>2011-05-27</death>
@@ -3946,7 +3946,7 @@
 	<age>84</age>
 	<item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-08-12" delivered="" price="12">
+  <order soldto="HAM" date="2011-08-12" delivered="2011-08-16" price="12">
 	<name>putra ammar bin mohd noor</name>
 	<jawi>فوترا أمر بن محمد نور</jawi>
 	<death>2011-08-07</death>
@@ -3954,21 +3954,21 @@
 	<age>6</age>
 	<item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-08-12" delivered="" price="12">
+  <order soldto="HAM" date="2011-08-12" delivered="2011-08-16" price="12">
 	<name>rodiah bt bahdon</name>
 	<jawi>روضيه بنت بهدون</jawi>
 	<death>1995-04-18</death>
 	<deathm>1415-11-18</deathm>
 	<item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-08-12" delivered="" price="12">
+  <order soldto="HAM" date="2011-08-12" delivered="2011-08-16" price="12">
 	<name>raguan bt ahmad</name>
 	<jawi>راگوان بنت أحمد</jawi>
 	<death>1994-03-26</death>
 	<deathm>1414-10-13</deathm>
 	<item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-08-12" delivered="2011-08-15" price="12">
+  <order soldto="HAM" date="2011-08-12" delivered="2011-08-16" price="12">
 	<name>safar bee bt redzuan</name>
 	<jawi>صفر بي بنت رضوان</jawi>
 	<death>2011-08-09</death>
@@ -3976,7 +3976,7 @@
 	<age>58</age>
 	<item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-08-12" delivered="" price="12">
+  <order soldto="HAM" date="2011-08-12" delivered="2011-08-16" price="12">
 	<name>mohd ali bin abd kareem</name>
 	<jawi>محمد علي بن عبدلكريم</jawi>
 	<death>2000-09-22</death>
@@ -3984,7 +3984,7 @@
 	<age>64</age>
 	<item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-08-12" delivered="2011-08-15" price="12">
+  <order soldto="HAM" date="2011-08-12" delivered="2011-08-16" price="12">
 	<name>asnah bt shabudin</name>
 	<jawi>اسنه بنت ضابودين</jawi>
 	<death>2011-05-25</death>
@@ -3992,7 +3992,7 @@
 	<item>2' Sticker(P)</item>
 	<remarks>1944</remarks>
   </order>
-  <order soldto="HAM" date="2011-08-12" delivered="2011-08-15" price="12">
+  <order soldto="HAM" date="2011-08-12" delivered="2011-08-16" price="12">
 	<name>mohd noor bin mydinsah</name>
 	<jawi>محمد نور بن مَيدين ساه</jawi>
 	<death>2011-06-20</death>
