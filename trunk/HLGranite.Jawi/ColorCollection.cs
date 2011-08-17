@@ -25,7 +25,6 @@ namespace HLGranite.Jawi
             this.items.Add(new ColorViewModel(Brushes.Red, "Red"));
             this.items.Add(new ColorViewModel(Brushes.Orange, "Orange"));
             this.items.Add(new ColorViewModel(Brushes.Yellow, "Yellow"));
-            //todo: this.items.Add(new ColorViewModel(Brushes.White, "White"));
         }
         /// <summary>
         /// Set selected graphic object and toggle off 

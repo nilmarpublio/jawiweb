@@ -105,7 +105,6 @@ namespace HLGranite.Jawi
         protected int Contains(string fullName)
         {
             int found = 0;
-            //todo: fullName = fullName.Replace(',',' ');
             string[] names = fullName.Split(new char[] { ' ' });
             foreach (PathViewModel item in this.items)
             {

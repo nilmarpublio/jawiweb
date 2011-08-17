@@ -83,6 +83,7 @@ namespace JawiWPF
 
             this.statusText.Text = "Ready";
             this.wordCount.Text = wordManager.Items.Count + " words";
+            this.richTextBox2.Document.Blocks.Clear();
         }
         /// <summary>
         /// Add path object into workspace.
@@ -92,9 +93,9 @@ namespace JawiWPF
         {
             bool isAlignTop = false;
             bool isAlignBottom = false;
-            //50% as a buffer space
-            if (position.Y < 100 / 2) isAlignTop = true;
-            if (position.Y > 100 / 2) isAlignBottom = true;
+            //25% as a buffer space
+            if (position.Y < 100 / 4) isAlignTop = true;
+            if (position.Y > 100 / 4) isAlignBottom = true;
 
             Path path = new Path();
             //Path selectedPath = (Path)GetFirstUIElement((child as ToggleButton).Content as Grid);
@@ -105,7 +106,7 @@ namespace JawiWPF
             path.Fill = brush;
             Thickness margin = new Thickness();
             margin.Left = position.X;
-            if (!isAlignTop) margin.Top = position.Y;//todo: -path.Height;
+            if (!isAlignTop) margin.Top = position.Y;
             if (isAlignBottom) margin.Top = 100 - path.Data.Bounds.Height;
             path.Margin = margin;
 
