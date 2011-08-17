@@ -15,6 +15,7 @@ namespace SvgFileGenerator
     {
         /// <summary>
         /// The main entry point for the application.
+        /// TODO: refactor into a class?
         /// </summary>
         [STAThread]
         static void Main()
@@ -52,15 +53,20 @@ namespace SvgFileGenerator
                 foreach (nisanOrder order in undelivered)
                 {
                     Console.Write("Writing " + order.name.ToLower() + ".svg...");
-                    if (order.death.CompareTo(DateTime.Now.ToString("yyyy-MM-dd")) > 0) Console.Write("invalid death date ");//validation
+                    // validation
+                    if (order.death.CompareTo(DateTime.Now.ToString("yyyy-MM-dd")) > 0) Console.Write(" Are you cursing people?");
+                    if (order.age.Length > 0)
+                    {
+                        if (Convert.ToInt32(order.age) > 120) Console.Write(" Are you kidding?");
+                    }
                     SvgWriter writer = new SvgWriter(order, lookupFiles[0]);
                     if (writer.Write())
                     {
-                        Console.WriteLine("done");
+                        Console.WriteLine(" done");
                         y++;
                     }
                     else
-                        Console.WriteLine();
+                        Console.WriteLine(" exist or fail");
                 }
             }
             Console.WriteLine("Complete");
