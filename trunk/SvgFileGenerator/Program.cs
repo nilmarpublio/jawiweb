@@ -55,7 +55,7 @@ namespace SvgFileGenerator
                     Console.Write("Writing " + order.name.ToLower() + ".svg...");
                     // validation
                     if (order.death.CompareTo(DateTime.Now.ToString("yyyy-MM-dd")) > 0) Console.Write(" Are you cursing people?");
-                    if (order.age.Length > 0)
+                    if(order.age != null && order.age.Length > 0)
                     {
                         if (Convert.ToInt32(order.age) > 120) Console.Write(" Are you kidding?");
                     }
