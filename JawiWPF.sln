@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HLGranite.Jawi.Test", "HLGr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JawiWPF.Test", "JawiWPF.Test\JawiWPF.Test.csproj", "{48568EA9-549D-4139-91F7-6A630BDE513F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuslimCalendar", "MuslimCalendar\MuslimCalendar.csproj", "{F6CF7439-7229-4B75-B610-E42A94EB5BCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{48568EA9-549D-4139-91F7-6A630BDE513F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48568EA9-549D-4139-91F7-6A630BDE513F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48568EA9-549D-4139-91F7-6A630BDE513F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6CF7439-7229-4B75-B610-E42A94EB5BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6CF7439-7229-4B75-B610-E42A94EB5BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6CF7439-7229-4B75-B610-E42A94EB5BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6CF7439-7229-4B75-B610-E42A94EB5BCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
