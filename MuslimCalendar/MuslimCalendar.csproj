@@ -51,7 +51,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="hijri.ico" />
-    <Content Include="icon16.png" />
     <Content Include="icon32.png" />
   </ItemGroup>
   <ItemGroup>
