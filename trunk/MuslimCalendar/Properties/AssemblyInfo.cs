@@ -5,14 +5,15 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HLGranite.Jawi")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("MuslimCalendar")]
+[assembly: AssemblyDescription("Created by yancyn@gmail.com")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HLGranite Manufacturing")]
-[assembly: AssemblyProduct("HLGranite.Jawi")]
+[assembly: AssemblyProduct("MuslimCalendar")]
 [assembly: AssemblyCopyright("Copyright © HLGranite Manufacturing 2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
+
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
@@ -20,7 +21,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e0bf92f8-2592-40f9-afa3-1da99876d6f5")]
+[assembly: Guid("cee91a62-e6a6-4d7f-a2b1-70f9c4c2f7b8")]
 
 // Version information for an assembly consists of the following four values:
 //
