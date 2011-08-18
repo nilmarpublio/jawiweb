@@ -73,6 +73,7 @@ namespace HLGranite.Jawi
         /// </remarks>
         private string outputLocation = "Output";
         private Panel workspace;
+        private bool fileExist;
         #endregion
 
         /// <summary>
@@ -116,11 +117,17 @@ namespace HLGranite.Jawi
             //this is a female template with need to move on top a little bit
             if (order.item.Contains("(P)")) this.tolerance = new Point(0, -20.00);
 
-            if (File.Exists(file)) this.reader = new StreamReader(file);
-
-            if (!Directory.Exists(outputLocation)) Directory.CreateDirectory(outputLocation);
             this.sourceFile = this.outputLocation + System.IO.Path.DirectorySeparatorChar + order.name.ToLower() + ".svg";
-            this.writer = new StreamWriter(sourceFile);
+            if (File.Exists(this.sourceFile))
+            {
+                fileExist = true;
+            }
+            else
+            {
+                if (File.Exists(file)) this.reader = new StreamReader(file);
+                if (!Directory.Exists(outputLocation)) Directory.CreateDirectory(outputLocation);
+                this.writer = new StreamWriter(sourceFile);
+            }
         }
         /// <summary>
         /// Constructor for write a jawi character only.
@@ -129,8 +136,9 @@ namespace HLGranite.Jawi
         /// <param name="workspace"></param>
         public SvgWriter(string fileName, Panel workspace)
         {
-            this.sourceFile = fileName;
-            this.writer = new StreamWriter(sourceFile);
+            //this.sourceFile = fileName;
+            //if (File.Exists(this.sourceFile)) fileExist = true;
+            this.writer = new StreamWriter(fileName);
             this.workspace = workspace;
         }
 
@@ -142,6 +150,7 @@ namespace HLGranite.Jawi
         public SvgWriter(string fileName)
         {
             this.sourceFile = this.outputLocation + System.IO.Path.DirectorySeparatorChar + fileName;
+            if (File.Exists(this.sourceFile)) fileExist = true;
         }
 
         #region Methods
@@ -155,7 +164,7 @@ namespace HLGranite.Jawi
         public bool Write()
         {
             bool done = false;
-            if (File.Exists(this.sourceFile)) return done;
+            if(fileExist) return done;
 
             if (null != this.workspace) return done = WriteWorkspace();
             if (null != this.reader) return done = Cloning();
@@ -169,7 +178,7 @@ namespace HLGranite.Jawi
         public bool Write(WordCollection wordCollection)
         {
             bool done = false;
-            if (File.Exists(this.sourceFile)) return done;
+            if(fileExist) return done;
 
             CountWord(wordCollection);
             if (null != this.workspace) return done = WriteWorkspace();
