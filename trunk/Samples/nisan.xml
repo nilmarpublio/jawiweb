@@ -3854,7 +3854,7 @@
     <age>64</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="PAS" date="2011-08-01" delivered="" price="260">
+  <order soldto="PAS" date="2011-08-01" delivered="2011-08-19" price="260">
     <name>Said bin yaakob</name>
     <jawi>سعيد بن يعقوب</jawi>
     <death>1995-03-22</death>
@@ -4052,21 +4052,21 @@
     <deathm>1384-11-26</deathm>
     <item>PV Budak</item>
   </order>
-  <order soldto="SEM" date="2011-08-18" delivered="" price="230">
+  <order soldto="SEM" date="2011-08-18" delivered="2011-08-21" price="230">
     <name>abd aziz bin ramli</name>
     <jawi>عبدلعزيز بن رماي</jawi>
     <death>2011-07-22</death>
     <deathm>1432-08-20</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2011-08-18" delivered="" price="230">
+  <order soldto="SEM" date="2011-08-18" delivered="2011-08-21" price="230">
     <name>abd hamid bin mat saman</name>
     <jawi>عبدلحميد بن مت سمعان</jawi>
     <death>1999-02-12</death>
     <deathm>1419-10-26</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2011-08-18" delivered="" price="230">
+  <order soldto="SEM" date="2011-08-18" delivered="2011-08-21" price="230">
     <name>rokiah bt yahya</name>
     <jawi>روكياه بنت يحيى</jawi>
     <death>2011-07-19</death>
@@ -4112,6 +4112,20 @@
 		<deathm>1432-06-16</deathm>
 		<item>2' Batu Putih(L)</item>
 	</order>
+  <order soldto="ADI" date="2011-08-21" delivered="" price="35">
+    <name>Tahsis bin Tarmizi</name>
+    <jawi>تحسيس بن ترميزي</jawi>
+    <death>2010-10-21</death>
+    <deathm>1432-11-23</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2011-08-21" delivered="" price="35">
+    <name>hjh hamsah bt hj nawawi</name>
+    <jawi>حجه همسه بنت حاج نووي</jawi>
+    <death>2005-08-17</death>
+    <deathm>1426-07-12</deathm>
+    <item>PV</item>
+  </order>
   <!--<order soldto="" date="" delivered="" price="230">
 		<name></name>
 		<jawi></jawi>
