@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace MuslimCalendar
@@ -16,10 +17,8 @@ namespace MuslimCalendar
             InitializeComponent();
 
             DisplayMuslimMonth();
-
             calendar = new MuslimCalendar(ReadXml("muslimcal.xml"));
-            calendar.GetDate(DateTime.Now);
-            textBox1.Text = calendar.Year + "-" + calendar.Month.ToString("00") + "-" + calendar.Day.ToString("00");
+            DisplayResult(DateTime.Now);
         }
         private DataTable ReadXml(string fileName)
         {
@@ -79,11 +78,44 @@ namespace MuslimCalendar
 
             this.label2.Text = output;
         }
+        private void DisplayResult(DateTime date)
+        {
+            calendar.GetDate(date);
+            //label1.Text = calendar.Day + "/" + calendar.Month + "/" + calendar.Year;
+            dateTimePicker1.Value = date;
+            textBox2.Text = date.ToString("yyyy-MM-dd");
+            textBox1.Text = calendar.Year + "-" + calendar.Month.ToString("00") + "-" + calendar.Day.ToString("00");
+        }
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            calendar.GetDate(dateTimePicker1.Value);
-            textBox1.Text = calendar.Year + "-" + calendar.Month.ToString("00") + "-" + calendar.Day.ToString("00");
-            //label1.Text = calendar.Day + "/" + calendar.Month + "/" + calendar.Year;
+            DisplayResult((sender as DateTimePicker).Value);
+        }
+        private void textBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                string input = textBox2.Text.Trim();
+                //todo: validate the input text has valid format 2011-08-22
+                Regex regex = new Regex(@"[0-9]{4}[-][0-9]{2}[-][0-9]{2}");
+                if (regex.IsMatch(input))
+                {
+                    string year = input.Substring(0, 4);
+                    string month = input.Substring(5, 2);
+                    string day = input.Substring(8, 2);
+                    try
+                    {
+                        DateTime date = new DateTime(Convert.ToInt16(year), Convert.ToInt16(month), Convert.ToInt16(day));
+                        DisplayResult(date);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                        return;
+                    }
+                }
+                else
+                    MessageBox.Show("Incorrect date format, please try again.");
+            }
         }
     }
     /// <summary>
@@ -136,11 +168,11 @@ namespace MuslimCalendar
             get { return day; }
             set { day = value; }
         }
-
         /// <summary>
         /// DataSource index.
         /// </summary>
         public int Index;
+
         /// <summary>
         /// Convert Gregorian month to islamic month in english spelling.
         /// </summary>
@@ -249,7 +281,6 @@ namespace MuslimCalendar
 
             return month;
         }
-
         /// <summary>
         /// From Gregorian date to islamic date.
         /// </summary>
@@ -331,7 +362,6 @@ namespace MuslimCalendar
                 return;
             }
         }
-
         /// <summary>
         /// Convert Muslim date to gregorian date.
         /// todo
