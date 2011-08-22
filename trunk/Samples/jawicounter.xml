@@ -22,7 +22,7 @@
   </counter>
   <counter>
     <name>bin4</name>
-    <count>8</count>
+    <count>11</count>
   </counter>
   <counter>
     <name>nayan</name>
@@ -30,7 +30,7 @@
   </counter>
   <counter>
     <name>bin3</name>
-    <count>7</count>
+    <count>9</count>
   </counter>
   <counter>
     <name>halimah2</name>
@@ -62,11 +62,11 @@
   </counter>
   <counter>
     <name>hj</name>
-    <count>3</count>
+    <count>4</count>
   </counter>
   <counter>
     <name>bin20</name>
-    <count>3</count>
+    <count>4</count>
   </counter>
   <counter>
     <name>ramli</name>
@@ -86,7 +86,7 @@
   </counter>
   <counter>
     <name>bin23</name>
-    <count>2</count>
+    <count>3</count>
   </counter>
   <counter>
     <name>bin24</name>
@@ -98,7 +98,7 @@
   </counter>
   <counter>
     <name>abd hamid2</name>
-    <count>3</count>
+    <count>4</count>
   </counter>
   <counter>
     <name>yahya</name>
@@ -118,7 +118,7 @@
   </counter>
   <counter>
     <name>bin19</name>
-    <count>2</count>
+    <count>3</count>
   </counter>
   <counter>
     <name>mohd8</name>
@@ -166,22 +166,54 @@
   </counter>
   <counter>
     <name>mydin</name>
-    <count>2</count>
-  </counter>
-  <counter>
-    <name>noor</name>
-    <count>2</count>
-  </counter>
-  <counter>
-    <name>mohd4</name>
     <count>3</count>
   </counter>
   <counter>
+    <name>noor</name>
+    <count>3</count>
+  </counter>
+  <counter>
+    <name>mohd4</name>
+    <count>5</count>
+  </counter>
+  <counter>
     <name>esah</name>
-    <count>4</count>
+    <count>6</count>
   </counter>
   <counter>
     <name>hamid</name>
+    <count>4</count>
+  </counter>
+  <counter>
+    <name>kassim2</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>md3</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>osman2</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>ariffin</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>ariffin2</name>
+    <count>3</count>
+  </counter>
+  <counter>
+    <name>basir</name>
     <count>2</count>
+  </counter>
+  <counter>
+    <name>mohd7</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>mohd2</name>
+    <count>1</count>
   </counter>
 </DocumentElement>
