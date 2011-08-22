@@ -206,10 +206,9 @@ namespace JawiWPF
             {
                 SvgWriter writer2 = new SvgWriter(fileName);
                 bool success = writer2.Merge("output.svg");
-                if (success)
-                    this.statusText.Text = "Merge success";
-                else
-                    this.statusText.Text = "Merge fail. Please try again";
+                string message = success ? "Merge success" : "Merge fail. Please try again";
+                this.statusText.Text = message;
+                MessageBox.Show(message);
             }
         }
         /// <summary>
@@ -315,20 +314,6 @@ namespace JawiWPF
             }
             this.richTextBox2.Document.Blocks.Clear();
             this.statusText.Text = "Clear all";
-        }
-        private void merge_Click(object sender, RoutedEventArgs e)
-        {
-            SimpleDialog dialog = new SimpleDialog();
-            dialog.ShowDialog();
-            if (!string.IsNullOrEmpty(dialog.output.Text.Trim()))
-            {
-                SvgWriter writer = new SvgWriter(dialog.output.Text.Trim() + ".svg");
-                bool success = writer.Merge("output.svg");
-                if (success)
-                    this.statusText.Text = "Merge success";
-                else
-                    this.statusText.Text = "Merge fail. Please try again";
-            }
         }
 
         private void ColorButton_Checked(object sender, RoutedEventArgs e)
