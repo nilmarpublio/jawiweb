@@ -4141,7 +4141,7 @@
     <age>29</age>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2011-08-22" delivered="" price="12">
+  <order soldto="HAM" date="2011-08-22" delivered="2011-08-23" price="12">
     <name>mohd noor bin mydinsah</name>
     <jawi>محمد نور بن مَيدين سه</jawi>
     <death>2011-06-20</death>
@@ -4149,7 +4149,7 @@
     <age>79</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-08-22" delivered="" price="12">
+  <order soldto="HAM" date="2011-08-22" delivered="2011-08-23" price="12">
     <name>osman bin md kassim</name>
     <jawi>عسمن بن مد قاسيم</jawi>
     <death>1985-05-09</death>
@@ -4157,7 +4157,7 @@
     <age>58</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-08-22" delivered="" price="12">
+  <order soldto="HAM" date="2011-08-22" delivered="2011-08-23" price="12">
     <name>hj mohd hassan bin abd hamid</name>
     <jawi>حاج محمد حسن بن عبدلحميد</jawi>
     <death>1987-03-30</death>
