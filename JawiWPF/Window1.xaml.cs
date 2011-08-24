@@ -208,7 +208,13 @@ namespace JawiWPF
                 bool success = writer2.Merge("output.svg");
                 string message = success ? "Merge success" : "Merge fail. Please try again";
                 this.statusText.Text = message;
-                MessageBox.Show(message);
+                if (success)
+                {
+                    if (MessageBox.Show(message) == MessageBoxResult.OK)
+                        clear_Click(clear, new RoutedEventArgs());
+                }
+                else
+                    MessageBox.Show(message);
             }
         }
         /// <summary>
