@@ -4133,7 +4133,7 @@
     <item>PV</item>
     <remarks>EM009883334MY</remarks>
   </order>
-  <order soldto="KEN" date="2011-08-16" delivered="" price="230">
+  <order soldto="KEN" date="2011-08-16" delivered="2011-08-24" price="230">
     <name>MOHAMAD BASHIR BIN ARIPIN</name>
     <jawi>محمد بشير بن عريفين</jawi>
     <death>2011-07-09</death>
@@ -4163,6 +4163,69 @@
     <death>1987-03-30</death>
     <deathm>1407-08-01</deathm>
     <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-08-23" delivered="2011-08-24" price="12">
+    <name>MUHAMMAD BIN ABDUL GHANI</name>
+    <jawi>محمد بن عبدلغنى</jawi>
+    <death> </death>
+    <deathm></deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="ADI" date="2011-08-22" delivered="" price="260">
+    <name>Baharuddin bin kassim</name>
+    <jawi>باهاروددين بن قاسيم</jawi>
+    <death>2011-06-22</death>
+    <deathm>1432-07-20</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-08-19" delivered="2011-08-27" price="12">
+    <name>ahminahbi bt mohd sultan</name>
+    <jawi>احمينه بنت محمد سلطان</jawi>
+    <death>2011-06-01</death>
+    <deathm>1432-06-28</deathm>
+    <age>79</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="KIL" date="2011-08-28" delivered="" price="340">
+	<name>Mohd razali bin yob</name>
+	<jawi>محمد رازالي بن يب</jawi>
+    <born>1944-04-21</born>
+	<death>2011-07-24</death>
+	<deathm>1432-08-22</deathm>
+	<item>2' Batu Hitam(L)</item>
+	</order>
+  <order soldto="HAM" date="2011-09-01" delivered="" price="12">
+    <name>che sayang bt mat</name>
+    <jawi>چئ سايڠ بنت مت</jawi>
+    <death>2011-08-24</death>
+    <deathm>1432-09-24</deathm>
+    <age>68</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-09-01" delivered="" price="12">
+    <name>a.m. abd latiff bin a.m. mohd rawther</name>
+    <jawi>أ،ايم، عبدللطيف بن أ،ايم، محمد راوتر</jawi>
+    <death>2011-07-22</death>
+    <deathm>1432-08-20</deathm>
+    <age>80</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+    <order soldto="HAM" date="2011-09-01" delivered="" price="12">
+    <name>keloosom bee bt shahadat</name>
+    <jawi>كلسوم بي بنت شهادت</jawi>
+    <death>2011-07-29</death>
+    <deathm>1432-08-27</deathm>
+    <age>79</age>
+    <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-09-01" delivered="" price="12">
+    <name>muhamad umar bais bin muhamad nizan</name>
+	<jawi>محمد عمر بايس بن محمد بيزن</jawi>
+	<born>2011-07-04</born>
+    <death>2011-07-07</death>
+    <deathm>1432-08-05</deathm>
+    <item>2' Sticker(L)</item>
+	<remarks>rumi sahaja</remarks>
   </order>
   <!--<order soldto="" date="" delivered="" price="230">
 		<name></name>
