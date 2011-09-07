@@ -4171,7 +4171,7 @@
     <deathm></deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="ADI" date="2011-08-22" delivered="" price="260">
+  <order soldto="ADI" date="2011-08-22" delivered="2011-08-24" price="260">
     <name>Baharuddin bin kassim</name>
     <jawi>باهاروددين بن قاسيم</jawi>
     <death>2011-06-22</death>
@@ -4186,7 +4186,7 @@
     <age>79</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="KIL" date="2011-08-28" delivered="" price="340">
+  <order soldto="KIL" date="2011-08-28" delivered="2011-09-07" price="340">
 	<name>Mohd razali bin yob</name>
 	<jawi>محمد رازالي بن يب</jawi>
     <born>1944-04-21</born>
@@ -4194,7 +4194,7 @@
 	<deathm>1432-08-22</deathm>
 	<item>2' Batu Hitam(L)</item>
 	</order>
-  <order soldto="HAM" date="2011-09-01" delivered="" price="12">
+  <order soldto="HAM" date="2011-09-01" delivered="2011-09-07" price="12">
     <name>che sayang bt mat</name>
     <jawi>چئ سايڠ بنت مت</jawi>
     <death>2011-08-24</death>
@@ -4202,7 +4202,7 @@
     <age>68</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-09-01" delivered="" price="12">
+  <order soldto="HAM" date="2011-09-01" delivered="2011-09-07" price="12">
     <name>a.m. abd latiff bin a.m. mohd rawther</name>
     <jawi>أ،ايم، عبدللطيف بن أ،ايم، محمد راوتر</jawi>
     <death>2011-07-22</death>
@@ -4210,7 +4210,7 @@
     <age>80</age>
     <item>2½' Sticker(L)</item>
   </order>
-    <order soldto="HAM" date="2011-09-01" delivered="" price="12">
+    <order soldto="HAM" date="2011-09-01" delivered="2011-09-07" price="12">
     <name>keloosom bee bt shahadat</name>
     <jawi>كلسوم بي بنت شهادت</jawi>
     <death>2011-07-29</death>
@@ -4218,7 +4218,7 @@
     <age>79</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-09-01" delivered="" price="12">
+  <order soldto="HAM" date="2011-09-01" delivered="2011-09-07" price="12">
     <name>muhamad umar bais bin muhamad nizan</name>
 	<jawi>محمد عمر بايس بن محمد بيزن</jawi>
 	<born>2011-07-04</born>
@@ -4227,6 +4227,28 @@
     <item>2' Sticker(L)</item>
 	<remarks>rumi sahaja</remarks>
   </order>
+  <order soldto="HAM" date="2011-09-04" delivered="2011-09-07" price="12">
+    <name>ahmad adam shah falaq bin muhd nazrin</name>
+	<jawi>أحمد ادام شه فالق بن محمد ناظرين</jawi>
+    <death>2009-10-10</death>
+    <deathm>1430-10-21</deathm>
+    <item>1½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-09-04" delivered="2011-09-07" price="12">
+    <name>aishah bt ismail</name>
+	<jawi>عيشه بنت إسماعيل</jawi>
+    <death>2011-08-13</death>
+    <deathm>1432-09-13</deathm>
+	<age>76</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="KIL" date="2011-09-07" delivered="" price="230">
+		<name>Zainap bt mohamed</name>
+		<jawi>زاينف بنت محمد</jawi>
+		<death>2011-08-01</death>
+		<deathm>1432-09-01</deathm>
+		<item>2' Batu Putih(P)</item>
+	</order>
   <!--<order soldto="" date="" delivered="" price="230">
 		<name></name>
 		<jawi></jawi>
