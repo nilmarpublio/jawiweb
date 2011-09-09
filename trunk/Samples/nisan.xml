@@ -4218,7 +4218,7 @@
     <age>79</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-09-01" delivered="2011-09-07" price="12">
+  <order soldto="HAM" date="2011-09-01" delivered="" price="12">
     <name>muhamad umar bais bin muhamad nizan</name>
     <jawi>محمد عمر بايس بن محمد بيزن</jawi>
     <born>2011-07-04</born>
