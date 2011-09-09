@@ -98,6 +98,7 @@
   <ItemGroup>
     <None Include="Lianduis.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>

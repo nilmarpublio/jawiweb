@@ -51,13 +51,13 @@ namespace HLGranite
                     if ((lianduiField.Equals(value) != true))
                     {
                         this.lianduiField = value;
-                        this.OnPropertyChanged("liandui");
+                        this.OnPropertyChanged("Liandui");
                     }
                 }
                 else
                 {
                     this.lianduiField = value;
-                    this.OnPropertyChanged("liandui");
+                    this.OnPropertyChanged("Liandui");
                 }
             }
         }
@@ -266,7 +266,7 @@ namespace HLGranite
     public partial class Liandui : System.ComponentModel.INotifyPropertyChanged
     {
 
-        private int? prefixField;
+        private int prefixField;
 
         private bool prefixFieldSpecified;
 
@@ -279,7 +279,7 @@ namespace HLGranite
         private static System.Xml.Serialization.XmlSerializer serializer;
 
         [System.Xml.Serialization.XmlAttributeAttribute("prefix")]
-        public int? Prefix
+        public int Prefix
         {
             get
             {
@@ -290,7 +290,7 @@ namespace HLGranite
                 if ((prefixField.Equals(value) != true))
                 {
                     this.prefixField = value;
-                    this.OnPropertyChanged("prefix");
+                    this.OnPropertyChanged("Prefix");
                 }
             }
         }
@@ -324,7 +324,7 @@ namespace HLGranite
                 if ((typeField.Equals(value) != true))
                 {
                     this.typeField = value;
-                    this.OnPropertyChanged("type");
+                    this.OnPropertyChanged("Type");
                 }
             }
         }
@@ -573,6 +573,10 @@ namespace HLGranite
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
     public enum Type
     {
+        /// <summary>
+        /// Type name.
+        /// </summary>
+        n,
 
         /// <summary>
         /// Type fengshui.
@@ -583,10 +587,5 @@ namespace HLGranite
         /// Type regional.
         /// </summary>
         r,
-
-        /// <summary>
-        /// Type name.
-        /// </summary>
-        b,
     }
 }
