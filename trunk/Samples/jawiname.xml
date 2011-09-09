@@ -1978,13 +1978,13 @@
   </rootname>
   <rootname>
     <rumi>bab</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>بب</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>baba</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>نانا</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>babiri</rumi>
@@ -4849,7 +4849,7 @@
   <rootname>
     <rumi>haniff</rumi>
     <jawi>هانف</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>haniffa</rumi>
@@ -11912,8 +11912,8 @@
   </rootname>
   <rootname>
     <rumi>ridhwan</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>رضوان</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ridwan</rumi>
