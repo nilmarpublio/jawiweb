@@ -446,18 +446,18 @@ TODO: move into different template so that easy to maintain since 2010-09-21
                     <xsl:text>color:grey</xsl:text>
                   </xsl:attribute>
                 </xsl:if>
-                <xsl:if test="contains(item,'Black')='true'">
+                <xsl:if test="contains(item,'Black')='true' or contains(item,'Hitam')='true'">
                   <xsl:attribute name="style">
-                    <xsl:text>color:black</xsl:text>
+                    <xsl:text>font-style:bold</xsl:text>
                   </xsl:attribute>
                 </xsl:if>
-				<!-- check on mismatch item type -->
-				<xsl:if test="contains(translate(name,$lowercase,$lowercase),'bin')='true' and contains(translate(item,$uppercase,$uppercase),'(P)')='true'">
+				        <!-- check on mismatch item type -->
+				        <xsl:if test="contains(translate(name,$lowercase,$lowercase),'bin')='true' and contains(translate(item,$uppercase,$uppercase),'(P)')='true'">
                   <xsl:attribute name="style">
                     <xsl:text>color:red</xsl:text>
                   </xsl:attribute>
                 </xsl:if>
-				<xsl:if test="contains(translate(name,$lowercase,$lowercase),'bt')='true' and contains(translate(item,$uppercase,$uppercase),'(L)')='true'">
+				        <xsl:if test="contains(translate(name,$lowercase,$lowercase),'bt')='true' and contains(translate(item,$uppercase,$uppercase),'(L)')='true'">
                   <xsl:attribute name="style">
                     <xsl:text>color:red</xsl:text>
                   </xsl:attribute>
