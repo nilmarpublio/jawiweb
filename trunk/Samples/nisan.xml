@@ -4242,7 +4242,7 @@
     <age>76</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="KIL" date="2011-09-07" delivered="" price="230">
+  <order soldto="KIL" date="2011-09-07" delivered="2011-09-11" price="230">
     <name>Zainap bt mohamed</name>
     <jawi>زاينف بنت محمد</jawi>
     <death>2011-08-01</death>
@@ -4257,36 +4257,39 @@
     <item>2' Batu Hitam(P)</item>
     <remarks>Hari Selasa. satu jawi satu rumi sahaja</remarks>
   </order>
-  <order soldto="ADI" date="2011-09-07" delivered="" price="35">
+  <order soldto="ADI" date="2011-09-07" delivered="2011-09-12" price="35">
     <name>mohd salim bin hj kasiran</name>
     <jawi>محمد سالم بن حاج كثيرا ن</jawi>
     <death>2008-10-07</death>
     <deathm>1429-10-07</deathm>
     <item>PV Egg</item>
+    <remarks>EN478905075MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-09-07" delivered="" price="35">
+  <order soldto="ADI" date="2011-09-07" delivered="2011-09-12" price="35">
     <name>jais bin taib</name>
     <jawi>جيس بن طيب</jawi>
     <born>1936-12-01</born>
     <death>2011-08-09</death>
     <deathm>1432-09-09 Selasa</deathm>
     <item>PV Egg</item>
+    <remarks>EN478905075MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-09-08" delivered="" price="35">
+  <order soldto="ADI" date="2011-09-08" delivered="2011-09-12" price="35">
     <name>Nafizah bt hj nahrowi</name>
     <jawi>نافذه بنت حاج ناهرووي</jawi>
     <death>1989-08-23</death>
     <deathm>1410-01-21</deathm>
     <item>PV</item>
+    <remarks>EN478905075MY</remarks>
   </order>
   <order soldto="HAM" date="2011-09-08" delivered="" price="12">
-		<name>osman bin baba</name>
-		<jawi>عسمن بن نانا</jawi>
-		<death>2011-08-05</death>
-		<deathm>1432-09-05</deathm>
+    <name>osman bin baba</name>
+    <jawi>عسمن بن نانا</jawi>
+    <death>2011-08-05</death>
+    <deathm>1432-09-05</deathm>
     <age>59</age>
-		<item>2' Sticker(L)</item>
-	</order>
+    <item>2' Sticker(L)</item>
+  </order>
   <order soldto="HAM" date="2011-09-08" delivered="" price="12">
     <name>naemah khanoon bt omar khan</name>
     <jawi>نأيمه كانون بنت عمر خان</jawi>
@@ -4302,7 +4305,7 @@
     <death>1955</death>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-09-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-09-08" delivered="2011-09-12" price="12">
     <name>mohd ridhwan bin mohd badauraudine</name>
     <jawi>محمد رضوان بن محمد باداروددين</jawi>
     <death>2010-04-29</death>
@@ -4311,7 +4314,7 @@
     <item>2' Sticker(L)</item>
     <remarks>nama rumi sahaja</remarks>
   </order>
-  <order soldto="HAM" date="2011-09-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-09-08" delivered="2011-09-12" price="12">
     <name>che sayang bt mat</name>
     <death>2011-08-24</death>
     <age>68</age>
@@ -4340,19 +4343,33 @@
     <item>2' Batu Batik(P)</item>
   </order>
   <order soldto="SEM" date="2011-09-08" delivered="" price="230">
-		<name>HALIMAH BT SABIRIN</name>
-		<jawi>حليمه بنت صابرين</jawi>
-		<death>2004-06-27</death>
-		<deathm>1425-05-09</deathm>
-		<item>2' Batu Batik(P)</item>
-	</order>
-	<order soldto="HAM" date="2011-09-08" delivered="" price="12">
+    <name>HALIMAH BT SABIRIN</name>
+    <jawi>حليمه بنت صابرين</jawi>
+    <death>2004-06-27</death>
+    <deathm>1425-05-09</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-09-08" delivered="" price="12">
     <name>hj abd rahman bin ismail</name>
     <jawi>حاج عبدلرحمن بن إسماعيل</jawi>
     <death>2011-08-05</death>
-	<deathm>1432-09-05</deathm>
-	<age>57</age>
+    <deathm>1432-09-05</deathm>
+    <age>57</age>
     <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="SEL" date="2011-09-11" delivered="" price="230">
+    <name>Hj mustaffa bin ahmad</name>
+    <jawi>حاج مُسطعفى بن أحمد</jawi>
+    <death>2011-08-16</death>
+    <deathm>1432-09-16</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEL" date="2011-09-11" delivered="" price="230">
+    <name>khadijah bt yob</name>
+    <jawi>ختيجه بنت يب</jawi>
+    <death>2011-09-02</death>
+    <deathm>1432-10-04</deathm>
+    <item>2' Batu Batik(P)</item>
   </order>
   <!--<order soldto="" date="" delivered="" price="230">
 		<name></name>
