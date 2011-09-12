@@ -9521,7 +9521,7 @@
   <rootname>
     <rumi>mustaffa</rumi>
     <jawi>مُسطعفى</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>mustakim</rumi>
@@ -16211,8 +16211,8 @@
   </rootname>
   <rootname>
     <rumi>yob</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>يب</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>yom</rumi>
