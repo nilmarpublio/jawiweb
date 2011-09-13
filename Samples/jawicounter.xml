@@ -30,7 +30,7 @@
   </counter>
   <counter>
     <name>bin3</name>
-    <count>15</count>
+    <count>17</count>
   </counter>
   <counter>
     <name>halimah2</name>
@@ -62,7 +62,7 @@
   </counter>
   <counter>
     <name>hj</name>
-    <count>4</count>
+    <count>6</count>
   </counter>
   <counter>
     <name>bin20</name>
@@ -234,7 +234,7 @@
   </counter>
   <counter>
     <name>ayob</name>
-    <count>2</count>
+    <count>3</count>
   </counter>
   <counter>
     <name>che5</name>
@@ -350,6 +350,26 @@
   </counter>
   <counter>
     <name>bt9</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>ahmad5</name>
+    <count>2</count>
+  </counter>
+  <counter>
+    <name>ahmad6</name>
+    <count>2</count>
+  </counter>
+  <counter>
+    <name>mustafa</name>
+    <count>2</count>
+  </counter>
+  <counter>
+    <name>khatijah</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>bt</name>
     <count>1</count>
   </counter>
 </DocumentElement>
