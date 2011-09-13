@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="pending.xsl"?>
-<nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pending.xsd">
+<nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="KEN" date="2011-01-03" delivered="2011-01-23" price="210">
     <name>Jamaliah Bt Saat</name>
     <jawi>جمالية بنت سعت</jawi>
@@ -4218,7 +4218,7 @@
     <age>79</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-09-01" delivered="" price="12">
+  <order soldto="HAM" date="2011-09-01" delivered="2011-09-11" price="12">
     <name>muhamad umar bais bin muhamad nizan</name>
     <jawi>محمد عمر بايس بن محمد بيزن</jawi>
     <born>2011-07-04</born>
@@ -4282,7 +4282,7 @@
     <item>PV</item>
     <remarks>EN478905075MY</remarks>
   </order>
-  <order soldto="HAM" date="2011-09-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-09-08" delivered="2011-09-13" price="12">
     <name>osman bin baba</name>
     <jawi>عسمن بن نانا</jawi>
     <death>2011-08-05</death>
@@ -4290,7 +4290,7 @@
     <age>59</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-09-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-09-08" delivered="2011-09-13" price="12">
     <name>naemah khanoon bt omar khan</name>
     <jawi>نأيمه كانون بنت عمر خان</jawi>
     <death>1989-09-13</death>
@@ -4298,7 +4298,7 @@
     <age>85</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-09-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-09-08" delivered="2011-09-13" price="12">
     <name>mohamed hanif bin kechik</name>
     <jawi>محمد هانف بن كچيك</jawi>
     <born>1952</born>
@@ -4349,7 +4349,7 @@
     <deathm>1425-05-09</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="HAM" date="2011-09-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-09-08" delivered="2011-09-13" price="12">
     <name>hj abd rahman bin ismail</name>
     <jawi>حاج عبدلرحمن بن إسماعيل</jawi>
     <death>2011-08-05</death>
