@@ -4249,13 +4249,13 @@
     <deathm>1432-09-01</deathm>
     <item>2' Batu Putih(P)</item>
   </order>
-  <order soldto="ADI" date="2011-09-07" delivered="" price="400">
+  <order soldto="ADI" date="2011-09-07" delivered="2011-09-13" price="400">
     <name>Ramlah bt mohamad</name>
     <jawi>رملة بنت محمد</jawi>
     <death>2011-06-07</death>
     <deathm>1432-07-05</deathm>
     <item>2' Batu Hitam(P)</item>
-    <remarks>Hari Selasa. satu jawi satu rumi sahaja</remarks>
+    <remarks>Hari Selasa. satu jawi satu rumi sahaja 060301211396747</remarks>
   </order>
   <order soldto="ADI" date="2011-09-07" delivered="2011-09-12" price="35">
     <name>mohd salim bin hj kasiran</name>
@@ -4480,6 +4480,43 @@
     <deathm>1432-09-24</deathm>
     <item>2' Sticker(L)</item>
   </order>
+  <order soldto="ADI" date="2011-09-13" delivered="" price="35">
+		<name>isa@mohd mansor bin moniran</name>
+		<jawi></jawi>
+		<born>1940-01-28</born>
+		<death>2010-04-09</death>
+		<deathm>1431-04-24</deathm>
+		<item>PV Egg</item>
+	</order>
+	<order soldto="ADI" date="2011-09-13" delivered="" price="35">
+		<name>abu bakar bin husin</name>
+		<jawi></jawi>
+		<death>1976-05-27</death>
+		<deathm>1396-05-29</deathm>
+		<item>PV Egg</item>
+	</order>
+	<order soldto="ADI" date="2011-09-13" delivered="" price="35">
+		<name>ali peyah bin mat nusi</name>
+		<jawi></jawi>
+		<death>2011-05-07</death>
+		<deathm>1432-06-03</deathm>
+		<item>PV Egg</item>
+	</order>
+	<order soldto="ADI" date="2011-09-13" delivered="" price="35">
+		<name>ribiah bt hj yasir</name>
+		<jawi>ربيه  بنت حاج ياسر </jawi>
+		<born>1946-06-07</born>
+		<death>2011-05-18</death>
+		<deathm>1432-06-14</deathm>
+		<item>PV</item>
+	</order>
+	<order soldto="ADI" date="2011-09-13" delivered="" price="360">
+		<name>hj ahmad bin abdul halim</name>
+		<jawi>حاج أحمد بن عبدولرحمن</jawi>
+		<death>2011-05-29</death>
+		<deathm>1432-06-25</deathm>
+		<item>2' Batu Hijau(L)</item>
+	</order>
   <!--<order soldto="" date="" delivered="" price="230">
 		<name></name>
 		<jawi></jawi>
