@@ -224,7 +224,7 @@ namespace JawiWPF
         private string GetInputText()
         {
             TextRange textRange = new TextRange(richTextBox2.Document.ContentStart, richTextBox2.Document.ContentEnd);
-            return textRange.Text;
+            return textRange.Text.Trim();
         }
         /// <summary>
         /// Get inline text from rictTextBox control.

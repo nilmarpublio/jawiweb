@@ -57,7 +57,8 @@ namespace HLGranite.Jawi
                     XAttribute attribute = element.Attribute(XName.Get("d"));
                     path.Data = (Geometry)new GeometryConverter().ConvertFromString(attribute.Value);//key
 
-                    string name = info.Name.ToLower().TrimEnd(new char[] { 'g', 'v', 's', '.' });
+                    //string name = info.Name.ToLower().TrimEnd(new char[] { 'g', 'v', 's', '.' });//caused some ended with 's' interpreted wrongly.
+                    string name = info.Name.ToLower().Substring(0, info.Name.Length - 4);
                     string label = GetLabel(info.Name);
                     if (label.Length > 0) name = name.Replace(label, string.Empty);
 

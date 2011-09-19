@@ -1,4 +1,5 @@
 ﻿using System.Windows.Media;
+using System.Linq;
 using HLGranite.Jawi;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Windows.Shapes;
@@ -52,7 +53,7 @@ namespace HLGranite.Jawi.Test
             PathViewModel viewModel = new PathViewModel(string.Empty, path, string.Empty);
             target.Select(viewModel);
             //check SelectedPath
-            Assert.AreEqual(target.SelectedPath.Path.Data.ToString(),viewModel.Path.Data.ToString());
+            Assert.AreEqual(target.SelectedPath.Path.Data.ToString(), viewModel.Path.Data.ToString());
 
             //ensure always only one Item IsChecked.
             int count = 0;
@@ -74,6 +75,23 @@ namespace HLGranite.Jawi.Test
             foreach (PathViewModel item in target.Items)
                 if (item.IsChecked) count++;
             Assert.AreEqual(1, count);
+        }
+        /// <summary>
+        /// A test to determine extract a correct name for a PathViewModel.
+        /// </summary>
+        [TestMethod()]
+        public void GetNameTest()
+        {
+            System.IO.DirectoryInfo directoryInfo = new System.IO.DirectoryInfo(@"G:\My Works\words");
+            System.IO.FileInfo[] filesInfo = directoryInfo.GetFiles();
+            var files = filesInfo.OrderBy(f => f.FullName);//sort alphabetically
+            foreach (System.IO.FileInfo info in files)
+            {
+                //string name = info.Name.ToLower().TrimEnd(new char[] { 'g', 'v', 's', '.' });
+                string name = info.Name.ToLower().Substring(0, info.Name.Length - 4);
+                System.Diagnostics.Debug.WriteLine("Reading {0} -> {1}", info.Name, name);
+                Assert.AreEqual(info.Name, name + ".svg");
+            }
         }
     }
 }
