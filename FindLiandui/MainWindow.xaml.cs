@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Collections.ObjectModel;
 using HLGranite;
 
 namespace FindLiandui
@@ -25,7 +26,15 @@ namespace FindLiandui
             InitializeComponent();
 
             Lianduis lianduis = Lianduis.LoadFromFile("Lianduis.xml");
-            DataGrid1.DataContext = lianduis.Liandui;
+            System.Diagnostics.Debug.WriteLine("Load: " + lianduis.Liandui.Count);
+            DataGrid1.DataContext = lianduis;
+            //todo: datagrid customization http://windowsclient.net/wpf/wpf35/wpf-35sp1-toolkit-datagrid-feature-walkthrough.aspx
+        }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("Saving: " + (DataGrid1.DataContext as Lianduis).Liandui.Count);
+            (DataGrid1.DataContext as Lianduis).SaveToFile("Lianduis.xml");
         }
     }
 }
