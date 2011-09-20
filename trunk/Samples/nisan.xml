@@ -4628,14 +4628,22 @@
     <name> </name>
     <item>3'x6' Rehal Batik</item>
   </order>
-  <order soldto="PAS" date="2011-09-19" delivered="" price="260">
+  <order soldto="PAS" date="2011-09-19" delivered="" price="300">
     <name>Afuan bt mohamad</name>
 		<jawi>أفون بنت محمد</jawi>
     <born>1945-11-15</born>
 		<death>2000-04-14</death>
 		<deathm>1421-01-10</deathm>
 		<item>2' Batu Batik(P)</item>
+    <remarks>pahat dua-dua belah</remarks>
 	</order>
+  <order soldto="PAS" date="2011-09-20" delivered="" price="260">
+    <name>Fatimah bt awang hamat</name>
+    <jawi>فطمة بنت أواڠ هامة</jawi>
+    <death>2011-08-21</death>
+    <deathm>1432-09-21</deathm>
+    <item>2' Batu Putih(P)</item>
+  </order>
   <!--<order soldto="" date="" delivered="" price="230">
 		<name></name>
 		<jawi></jawi>
