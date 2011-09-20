@@ -11,24 +11,6 @@ namespace FindLiandui.Test
     [TestClass()]
     public class LianduisTest
     {
-        private TestContext testContextInstance;
-
-        /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
-        ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
-
         #region Additional test attributes
         // 
         //You can use the following additional attributes as you write your tests:
@@ -58,7 +40,6 @@ namespace FindLiandui.Test
         //}
         //
         #endregion
-
 
         /// <summary>
         /// A test for SaveToFile.
@@ -91,6 +72,15 @@ namespace FindLiandui.Test
 
             string fileName = "Lianduis.xml";
             target.SaveToFile(fileName);
+        }
+        /// <summary>
+        /// A test for loading from source file.
+        /// </summary>
+        [TestMethod()]
+        public void LoadFromFileTest()
+        {
+            Lianduis target = Lianduis.LoadFromFile(@"D:\My Projects\JawiWeb\FindLiandui\bin\Debug\Lianduis.xml");
+            Assert.IsTrue(target.Liandui.Count > 0);
         }
     }
 }

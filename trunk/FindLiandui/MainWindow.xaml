@@ -3,11 +3,27 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:w="http://schemas.microsoft.com/wpf/2008/toolkit"
         Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style x:Key="BorderlessButton" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid Width="Auto">
+                            <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" RecognizesAccessKey="True" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
     <DockPanel LastChildFill="True">
         <DockPanel DockPanel.Dock="Top" Height="24" LastChildFill="True">
-            <Button DockPanel.Dock="Right" Width="24" Margin="10,0,0,0"/>
+            <Button DockPanel.Dock="Right" Width="24" Margin="10,0,0,0" Style="{StaticResource BorderlessButton}">
+                <Image Source="Images\magnifier.png" Cursor="Hand"/>
+            </Button>
             <TextBox />
         </DockPanel>
-        <w:DataGrid/>
+        <w:DataGrid x:Name="DataGrid1" AutoGenerateColumns="True"
+            ItemsSource="{Binding ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"/>
     </DockPanel>
 </Window>

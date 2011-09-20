@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<lianduis>
+<Lianduis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <liandui prefix="1" type="r">福澤千年盛</liandui>
   <liandui prefix="2" type="r">建業萬代昌</liandui>
   <liandui type="n">輝照世澤遠</liandui>
@@ -40,7 +40,7 @@
   <liandui type="n">清風高亮節</liandui>
   <liandui type="n">德厚澤流芳</liandui>
   <liandui type="n">清望寰中許</liandui>
-  <liandui type="n">娥仙宇天登</liandui>  
+  <liandui type="n">娥仙宇天登</liandui>
   <liandui type="n">滇湖留千古</liandui>
   <liandui type="n">運興達萬年</liandui>
   <liandui type="n">竹報平安福</liandui>
@@ -90,6 +90,4 @@
   <liandui type="n">福星朗照</liandui>
   <liandui type="n">山清丁財旺</liandui>
   <liandui type="n">山秀後裔昌</liandui>
-  
-  <liandui type="n"></liandui>
-</lianduis>
+</Lianduis>

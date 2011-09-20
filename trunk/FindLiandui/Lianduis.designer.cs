@@ -295,23 +295,6 @@ namespace HLGranite
             }
         }
 
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool prefixSpecified
-        {
-            get
-            {
-                return this.prefixFieldSpecified;
-            }
-            set
-            {
-                if ((prefixFieldSpecified.Equals(value) != true))
-                {
-                    this.prefixFieldSpecified = value;
-                    this.OnPropertyChanged("prefixSpecified");
-                }
-            }
-        }
-
         [System.Xml.Serialization.XmlAttributeAttribute("type")]
         public Type Type
         {
@@ -325,23 +308,6 @@ namespace HLGranite
                 {
                     this.typeField = value;
                     this.OnPropertyChanged("Type");
-                }
-            }
-        }
-
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool typeSpecified
-        {
-            get
-            {
-                return this.typeFieldSpecified;
-            }
-            set
-            {
-                if ((typeFieldSpecified.Equals(value) != true))
-                {
-                    this.typeFieldSpecified = value;
-                    this.OnPropertyChanged("typeSpecified");
                 }
             }
         }
