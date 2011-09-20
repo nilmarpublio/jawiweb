@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using HLGranite;
 
 namespace FindLiandui
 {
@@ -22,6 +23,9 @@ namespace FindLiandui
         public MainWindow()
         {
             InitializeComponent();
+
+            Lianduis lianduis = Lianduis.LoadFromFile("Lianduis.xml");
+            DataGrid1.DataContext = lianduis.Liandui;
         }
     }
 }
