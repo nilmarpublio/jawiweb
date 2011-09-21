@@ -31,6 +31,7 @@ namespace FindLiandui
         public MainWindow()
         {
             InitializeComponent();
+            this.Title += " " + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
 
             Refresh();
             
