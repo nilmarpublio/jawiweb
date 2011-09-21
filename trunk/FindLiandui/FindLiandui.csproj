@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>longlife.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -112,6 +115,27 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\arrow_refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bat.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bat32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bat75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\longlife.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\longlife.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\lonlife32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="longlife.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
