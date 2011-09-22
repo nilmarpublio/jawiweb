@@ -4614,12 +4614,12 @@
     <item>2' Sticker(L)</item>
   </order>
   <order soldto="ADI" date="2011-09-18" delivered="" price="260">
-		<name>Hj asrah bin hj kundau</name>
-		<jawi>حاج أسرة بن حاج كونداو</jawi>
-		<death>2011-08-24</death>
-		<deathm>1432-09-24</deathm>
-		<item>2' Batu Batik(L)</item>
-	</order>
+    <name>Hj asrah bin hj kundau</name>
+    <jawi>حاج أسرة بن حاج كونداو</jawi>
+    <death>2011-08-24</death>
+    <deathm>1432-09-24</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
   <order soldto="ADI" date="2011-09-18" delivered="" price="1500">
     <name> </name>
     <item>3'x6' Rehal Batik</item>
@@ -4630,19 +4630,57 @@
   </order>
   <order soldto="PAS" date="2011-09-19" delivered="" price="300">
     <name>Afuan bt mohamad</name>
-		<jawi>أفون بنت محمد</jawi>
+    <jawi>أفون بنت محمد</jawi>
     <born>1945-11-15</born>
-		<death>2000-04-14</death>
-		<deathm>1421-01-10</deathm>
-		<item>2' Batu Batik(P)</item>
+    <death>2000-04-14</death>
+    <deathm>1421-01-10</deathm>
+    <item>2' Batu Batik(P)</item>
     <remarks>pahat dua-dua belah</remarks>
-	</order>
+  </order>
   <order soldto="PAS" date="2011-09-20" delivered="" price="260">
     <name>Fatimah bt awang hamat</name>
     <jawi>فطمة بنت أواڠ هامة</jawi>
     <death>2011-08-21</death>
     <deathm>1432-09-21</deathm>
     <item>2' Batu Putih(P)</item>
+  </order>
+  <order soldto="PAS" date="2011-09-22" delivered="" price="260">
+    <name>Minah bt yaacob</name>
+    <jawi>مينه بنت يعقوب</jawi>
+    <born>1941-11-18</born>
+    <death>2011-09-16</death>
+    <deathm>1432-10-18</deathm>
+    <item>2' Batu Batik(P)</item>
+    <remarks>jumaat. nama ukir 2 belah. Satu rumi,1 jawi</remarks>
+  </order>
+  <order soldto="ADI" date="2011-09-21" delivered="" price="260">
+		<name>Mohd sayuti bin salim</name>
+		<jawi>محمد سايوتي بن سالم</jawi>
+		<death>1983-11-19</death>
+		<deathm>1403-02-13</deathm>
+		<item>2' Batu Batik(L)</item>
+	</order>
+  <order soldto="ADI" date="2011-09-21" delivered="" price="35">
+    <name>salmah bt hashim</name>
+    <jawi>سلمه بنت هاشم</jawi>
+    <death>2011-06-02</death>
+    <deathm>1432-06-29</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-09-21" delivered="" price="35">
+    <name>mat ariffin bin mat dahari</name>
+    <jawi>مت عريفين بن مت دهري</jawi>
+    <death>2011-07-30</death>
+    <deathm>1432-08-28</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2011-09-21" delivered="" price="260">
+    <name>Mat ali bin mat sah</name>
+    <jawi>مت علي بن مت سه</jawi>
+    <death>2011-09-05</death>
+    <deathm>1432-10-07</deathm>
+    <item>2' Batu Batik(L)</item>
+    <remarks>rumi sahaja</remarks>
   </order>
   <!--<order soldto="" date="" delivered="" price="230">
 		<name></name>
