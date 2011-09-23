@@ -51,6 +51,7 @@ namespace FindLiandui
             lianduis = Lianduis.LoadFromFile("Lianduis.xml");
             System.Diagnostics.Debug.WriteLine("Load: " + lianduis.Liandui.Count);
             DataGrid1.DataContext = lianduis;
+            WordCount.Content = lianduis.Liandui.Count + " found";
         }
         private void SearchButton_Click(object sender, RoutedEventArgs e)
         {
@@ -68,6 +69,7 @@ namespace FindLiandui
 
                 lianduis = original;
                 DataGrid1.DataContext = lianduis;
+                WordCount.Content = lianduis.Liandui.Count + " found";
             }
             else
                 Refresh();
