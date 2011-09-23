@@ -22,11 +22,8 @@
                 <Button x:Name="SearchButton" Click="SearchButton_Click" ToolTip="Search" DockPanel.Dock="Right" Width="24" Margin="10,0,0,0" Style="{StaticResource BorderlessButton}">
                     <Image Source="Images\magnifier.png" Cursor="Hand"/>
                 </Button>
-                <Button Click="RefreshButton_Click" ToolTip="Reset" DockPanel.Dock="Right" Width="24" Margin="24,0,0,0" Style="{StaticResource BorderlessButton}">
+                <Button Click="RefreshButton_Click" ToolTip="Reset" DockPanel.Dock="Right" Width="24" Margin="10,0,0,0" Style="{StaticResource BorderlessButton}">
                     <Image Source="Images\arrow_refresh.png"/>
-                </Button>
-                <Button ToolTip="Add" DockPanel.Dock="Right" Width="24" Margin="10,0,0,0" Style="{StaticResource BorderlessButton}">
-                    <Image Source="Images\add.png"/>
                 </Button>
                 <Button ToolTip="Save" Click="SaveButton_Click" DockPanel.Dock="Right" Width="24" Margin="10,0,0,0" Style="{StaticResource BorderlessButton}">
                     <Image Source="Images\disk.png"/>
@@ -34,6 +31,9 @@
             </WrapPanel>
             <TextBox x:Name="TextBox1" KeyDown="TextBox1_KeyDown" />
         </DockPanel>
+        <StatusBar DockPanel.Dock="Bottom">
+            <Label x:Name="WordCount"/>
+        </StatusBar>
         <w:DataGrid x:Name="DataGrid1" AutoGenerateColumns="True"
             ItemsSource="{Binding Liandui,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"/>
     </DockPanel>
