@@ -4644,7 +4644,7 @@
     <deathm>1432-09-21</deathm>
     <item>2' Batu Putih(P)</item>
   </order>
-  <order soldto="PAS" date="2011-09-22" delivered="" price="260">
+  <!--<order soldto="PAS" date="2011-09-22" delivered="" price="260">
     <name>Minah bt yaacob</name>
     <jawi>مينه بنت يعقوب</jawi>
     <born>1941-11-18</born>
@@ -4652,14 +4652,14 @@
     <deathm>1432-10-18</deathm>
     <item>2' Batu Batik(P)</item>
     <remarks>jumaat. nama ukir 2 belah. Satu rumi,1 jawi</remarks>
-  </order>
+  </order>-->
   <order soldto="ADI" date="2011-09-21" delivered="" price="260">
-		<name>Mohd sayuti bin salim</name>
-		<jawi>محمد سايوتي بن سالم</jawi>
-		<death>1983-11-19</death>
-		<deathm>1403-02-13</deathm>
-		<item>2' Batu Batik(L)</item>
-	</order>
+    <name>Mohd sayuti bin salim</name>
+    <jawi>محمد سايوتي بن سالم</jawi>
+    <death>1983-11-19</death>
+    <deathm>1403-02-13</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
   <order soldto="ADI" date="2011-09-21" delivered="" price="35">
     <name>salmah bt hashim</name>
     <jawi>سلمه بنت هاشم</jawi>
