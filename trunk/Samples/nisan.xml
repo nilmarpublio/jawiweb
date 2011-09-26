@@ -4321,7 +4321,7 @@
     <item>5" Sticker</item>
     <remarks>rumi saja</remarks>
   </order>
-  <order soldto="SEM" date="2011-09-08" delivered="" price="230">
+  <order soldto="SEM" date="2011-09-08" delivered="2011-09-25" price="280">
     <name>HJH JAIYAH BT HJ SAGIR</name>
     <jawi>حجه جايه بنت حاج سجين</jawi>
     <death>2011-08-26</death>
@@ -4522,21 +4522,21 @@
     <item>2' Batu Hijau(L)</item>
     <remarks>060301211396743</remarks>
   </order>
-  <order soldto="SEM" date="2011-09-18" delivered="" price="230">
+  <order soldto="SEM" date="2011-09-18" delivered="2011-09-25" price="230">
     <name>abu bakar bin hj razali</name>
     <jawi>أبو بكر بن حاج رازالي</jawi>
     <death>2011-08-02</death>
     <deathm>1432-09-02</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2011-09-18" delivered="" price="230">
+  <order soldto="SEM" date="2011-09-18" delivered="2011-09-25" price="230">
     <name>abd majid bin hj arifin</name>
     <jawi>عبدلمجيد بن حاج عريفين</jawi>
     <death>2011-08-18</death>
     <deathm>1432-09-18</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2011-09-18" delivered="" price="230">
+  <order soldto="SEM" date="2011-09-18" delivered="2011-09-25" price="230">
     <name>mohd yusof bin mahmudin</name>
     <jawi>محمد يوسوف بن محمدين</jawi>
     <death>2011-08-28</death>
@@ -4613,18 +4613,18 @@
     <age>41</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="ADI" date="2011-09-18" delivered="" price="260">
+  <order soldto="ADI" date="2011-09-18" delivered="2011-09-25" price="260">
     <name>Hj asrah bin hj kundau</name>
     <jawi>حاج أسرة بن حاج كونداو</jawi>
     <death>2011-08-24</death>
     <deathm>1432-09-24</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2011-09-18" delivered="" price="1500">
+  <order soldto="ADI" date="2011-09-18" delivered="2011-09-25" price="1500">
     <name> </name>
     <item>3'x6' Rehal Batik</item>
   </order>
-  <order soldto="ADI" date="2011-09-18" delivered="" price="1500">
+  <order soldto="ADI" date="2011-09-18" delivered="2011-09-25" price="1500">
     <name> </name>
     <item>3'x6' Rehal Batik</item>
   </order>
@@ -4653,28 +4653,28 @@
     <item>2' Batu Batik(P)</item>
     <remarks>jumaat. nama ukir 2 belah. Satu rumi,1 jawi</remarks>
   </order>-->
-  <order soldto="ADI" date="2011-09-21" delivered="" price="260">
+  <order soldto="ADI" date="2011-09-21" delivered="2011-09-25" price="260">
     <name>Mohd sayuti bin salim</name>
     <jawi>محمد سايوتي بن سالم</jawi>
     <death>1983-11-19</death>
     <deathm>1403-02-13</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2011-09-21" delivered="" price="35">
+  <order soldto="ADI" date="2011-09-21" delivered="2011-09-25" price="35">
     <name>salmah bt hashim</name>
     <jawi>سلمه بنت هاشم</jawi>
     <death>2011-06-02</death>
     <deathm>1432-06-29</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2011-09-21" delivered="" price="35">
+  <order soldto="ADI" date="2011-09-21" delivered="2011-09-25" price="35">
     <name>mat ariffin bin mat dahari</name>
     <jawi>مت عريفين بن مت دهري</jawi>
     <death>2011-07-30</death>
     <deathm>1432-08-28</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2011-09-21" delivered="" price="260">
+  <order soldto="ADI" date="2011-09-21" delivered="2011-09-25" price="260">
     <name>Mat ali bin mat sah</name>
     <jawi>مت علي بن مت سه</jawi>
     <death>2011-09-05</death>
