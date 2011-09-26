@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <Lianduis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <liandui prefix="0" type="n">乃誠格天頌</liandui>
   <liandui prefix="0" type="n">亞娘出望門</liandui>
@@ -533,4 +533,38 @@
   <liandui prefix="0" type="n">蕊蓮吐芬芳</liandui>
   <liandui prefix="0" type="n">墨竹供㸃筆</liandui>
   <liandui prefix="0" type="n">建山賦新詩</liandui>
+  <liandui prefix="0" type="n">青山呈瑞氣</liandui>
+  <liandui prefix="0" type="n">福地結祥雲</liandui>
+  <liandui prefix="0" type="n">山水千秋旺</liandui>
+  <liandui prefix="0" type="n">子孫世代昌</liandui>
+  <liandui prefix="0" type="n">佳城昭官貴</liandui>
+  <liandui prefix="0" type="n">福地蔭子孫</liandui>
+  <liandui prefix="1" type="f">龍真千里至</liandui>
+  <liandui prefix="2" type="f">穴吉萬年昌</liandui>
+  <liandui prefix="1" type="f">山清丁財旺</liandui>
+  <liandui prefix="2" type="f">水秀後裔昌</liandui>
+  <liandui prefix="1" type="f">青山留百世</liandui>
+  <liandui prefix="2" type="f">綠水祀千秋</liandui>
+  <liandui prefix="1" type="f">子念高堂德</liandui>
+  <liandui prefix="2" type="f">孫懷大祖恩</liandui>
+  <liandui prefix="1" type="f">青山流芳遠</liandui>
+  <liandui prefix="2" type="f">水秀*後長</liandui>
+  <liandui prefix="1" type="f">青山繞吉穴</liandui>
+  <liandui prefix="2" type="f">綠水朝明堂</liandui>
+  <liandui prefix="1" type="f">興官兼興貴</liandui>
+  <liandui prefix="2" type="f">旺丁且旺財</liandui>
+  <liandui prefix="1" type="f">山明天毓秀</liandui>
+  <liandui prefix="2" type="f">人傑地鍾靈</liandui>
+  <liandui prefix="1" type="f">乾𢁉遇月窋</liandui>
+  <liandui prefix="2" type="f">坤雷見天根</liandui>
+  <liandui prefix="1" type="f">坐山朝氣秀</liandui>
+  <liandui prefix="2" type="f">立水滙明堂</liandui>
+  <liandui prefix="0" type="n">憶感慈*德</liandui>
+  <liandui prefix="0" type="n">*忘躹育恩</liandui>
+  <liandui prefix="0" type="n">廣情懷亮節</liandui>
+  <liandui prefix="0" type="n">含義意傳名</liandui>
+  <liandui prefix="0" type="n">玉*儀爽後</liandui>
+  <liandui prefix="0" type="n">蘭薰桂馥</liandui>
+  <liandui prefix="1" type="r">普山呈瑞氣</liandui>
+  <liandui prefix="2" type="r">寧水朝明堂</liandui>
 </Lianduis>
