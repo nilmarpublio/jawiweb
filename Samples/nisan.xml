@@ -4543,7 +4543,7 @@
     <deathm>1432-09-28</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2011-09-17" delivered="" price="12">
+  <order soldto="HAM" date="2011-09-17" delivered="2011-09-27" price="12">
     <name>baba bin basab</name>
     <jawi>نانا بن باسب</jawi>
     <death>1973-03-22</death>
@@ -4551,7 +4551,7 @@
     <age>70</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-09-17" delivered="2011-09-19" price="12">
+  <order soldto="HAM" date="2011-09-17" delivered="2011-09-27" price="12">
     <name>tariah bt mat</name>
     <jawi>تاريه بنت مت</jawi>
     <death>2011-09-03</death>
@@ -4559,7 +4559,7 @@
     <age>73</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-09-17" delivered="" price="12">
+  <order soldto="HAM" date="2011-09-17" delivered="2011-09-27" price="12">
     <name>fatimah bt abdullah</name>
     <jawi>فطمة بنت عبدالله</jawi>
     <death>2011-03-06</death>
@@ -4567,21 +4567,21 @@
     <age>76</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-09-17" delivered="2011-09-19" price="12">
+  <order soldto="HAM" date="2011-09-17" delivered="2011-09-27" price="12">
     <name>abd rahman bin zaibu</name>
     <jawi>عبدلرحمن بن زايبو</jawi>
     <death>1984-11-27</death>
     <deathm>1405-03-04</deathm>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-09-17" delivered="2011-09-19" price="12">
+  <order soldto="HAM" date="2011-09-17" delivered="2011-09-27" price="12">
     <name>zainab bt abd hamid</name>
     <jawi>زاينب بنت عبدلحميد</jawi>
     <death>1984-06-19</death>
     <deathm>1404-09-21</deathm>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-09-17" delivered="2011-09-19" price="12">
+  <order soldto="HAM" date="2011-09-17" delivered="2011-09-27" price="12">
     <name>wan zaleha bt md yunus</name>
     <jawi>وان زاليحا بنت مد يونوس</jawi>
     <death>2011-06-14</death>
@@ -4589,7 +4589,7 @@
     <age>56</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-09-17" delivered="" price="12">
+  <order soldto="HAM" date="2011-09-17" delivered="2011-09-27" price="12">
     <name>hjh rohani bt hj nayan</name>
     <jawi>حجه روحني بنت حاج ناين</jawi>
     <death>2011-08-31</death>
@@ -4597,7 +4597,7 @@
     <age>57</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-09-17" delivered="" price="12">
+  <order soldto="HAM" date="2011-09-17" delivered="2011-09-27" price="12">
     <name>che sam bt awang</name>
     <jawi>چئ سام بنت أواڠ</jawi>
     <death>2011-08-18</death>
@@ -4605,7 +4605,7 @@
     <age>94</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-09-17" delivered="2011-09-19" price="12">
+  <order soldto="HAM" date="2011-09-17" delivered="2011-09-27" price="12">
     <name>azlan bin saaid</name>
     <jawi>ازلن بن سعيد</jawi>
     <death>2011-08-27</death>
@@ -4681,6 +4681,35 @@
     <deathm>1432-10-07</deathm>
     <item>2' Batu Batik(L)</item>
     <remarks>rumi sahaja</remarks>
+  </order>
+  <order soldto="ADI" date="2011-09-27" delivered="" price="35">
+    <name>Joeriyah bt hj anuar</name>
+    <jawi>جويريه بنت حاج انوار</jawi>
+    <death>1994-06-02</death>
+    <deathm>1414-12-23</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-09-27" delivered="" price="35">
+    <name>sarpiah bt marjuni</name>
+    <jawi>صربية بنت مارجوني</jawi>
+    <death>1994-10-07</death>
+    <deathm>1415-05-03</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-09-27" delivered="" price="35">
+    <name>Mat kusaini bin mat kiran</name>
+    <jawi>مت كوسايني بن مت كيران</jawi>
+    <born>1933-03-08</born>
+    <death>2000-11-27</death>
+    <deathm>1421-09-01</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-09-27" delivered="" price="35">
+    <name>masirah bt judi@sohod</name>
+    <jawi>مصيره بنت جودي/سهد</jawi>
+    <death>2010-09-16</death>
+    <deathm>1431-10-07</deathm>
+    <item>PV</item>
   </order>
   <!--<order soldto="" date="" delivered="" price="230">
 		<name></name>
