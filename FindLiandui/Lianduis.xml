@@ -104,26 +104,18 @@
   <liandui prefix="1" type="n">世世財丁旺</liandui>
   <liandui prefix="1" type="n">成恩德澤遠</liandui>
   <liandui prefix="2" type="n">抱心念親長</liandui>
-  <liandui prefix="3" type="n">秀外慧中珍</liandui>
-  <liandui prefix="4" type="n">玉潔冰清貴</liandui>
   <liandui prefix="2" type="n">抱淚念親長</liandui>
   <liandui prefix="0" type="n">怡然自樂道</liandui>
   <liandui prefix="0" type="n">山高水流長</liandui>
-  <liandui prefix="0" type="n">秀麗呈吉穴</liandui>
-  <liandui prefix="0" type="n">環繞拱福昌</liandui>
   <liandui prefix="0" type="n">湘江水流遠</liandui>
-  <liandui prefix="0" type="n">仁義德情長</liandui>
   <liandui prefix="0" type="n">慧心真理達</liandui>
   <liandui prefix="0" type="n">珊聲玉連城</liandui>
   <liandui prefix="0" type="n">豆秧初生細</liandui>
   <liandui prefix="0" type="n">粒粮生泰山</liandui>
-  <liandui prefix="0" type="n">秀外慧中德</liandui>
   <liandui prefix="0" type="n">嬌懷養育長</liandui>
   <liandui prefix="0" type="n">豆属五谷本</liandui>
   <liandui prefix="0" type="n">清標霜潔來</liandui>
   <liandui prefix="0" type="n">雁聲高亮揚</liandui>
-  <liandui prefix="0" type="n">瑞花够勞德</liandui>
-  <liandui prefix="0" type="n">嬌娘掬育恩</liandui>
   <liandui prefix="1" type="f">願生西方净土中</liandui>
   <liandui prefix="2" type="f">九品蓮花為父母</liandui>
   <liandui prefix="3" type="f">花開見佛悟無生</liandui>
@@ -214,7 +206,6 @@
   <liandui prefix="0" type="n">財生積餘慶</liandui>
   <liandui prefix="0" type="n">輝光藩衍長</liandui>
   <liandui prefix="0" type="n">艳德千載在</liandui>
-  <liandui prefix="0" type="n">鳳靡萬古恩</liandui>
   <liandui prefix="0" type="n">成德達財義</liandui>
   <liandui prefix="0" type="n">冰壺玉鑑懸</liandui>
   <liandui prefix="0" type="n">菊秋春露懷</liandui>
@@ -243,7 +234,6 @@
   <liandui prefix="0" type="n">清華優美長</liandui>
   <liandui prefix="0" type="n">映徹九原透</liandui>
   <liandui prefix="0" type="n">雲垂四海風</liandui>
-  <liandui prefix="0" type="n">清標霜潔麗</liandui>
   <liandui prefix="0" type="n">城闕登雲端</liandui>
   <liandui prefix="0" type="n">金言自銷鑠</liandui>
   <liandui prefix="0" type="n">鳳語成明賢</liandui>
@@ -272,7 +262,6 @@
   <liandui prefix="4" type="r">寧親養育恩</liandui>
   <liandui prefix="0" type="n">鍾念高堂德</liandui>
   <liandui prefix="0" type="n">漢懷大祖恩</liandui>
-  <liandui prefix="0" type="n">玉樹臨風貴</liandui>
   <liandui prefix="0" type="n">梅雪盡春長</liandui>
   <liandui prefix="0" type="n">勝在裕後昌</liandui>
   <liandui prefix="0" type="n">玉樹臨風揚</liandui>
@@ -529,7 +518,7 @@
   <liandui prefix="1" type="f">子念高堂德</liandui>
   <liandui prefix="2" type="f">孫懷大祖恩</liandui>
   <liandui prefix="1" type="f">青山流芳遠</liandui>
-  <liandui prefix="2" type="f">水秀*後長</liandui>
+  <liandui prefix="2" type="f">水秀𥙿後長</liandui>
   <liandui prefix="1" type="f">青山繞吉穴</liandui>
   <liandui prefix="2" type="f">綠水朝明堂</liandui>
   <liandui prefix="1" type="f">興官兼興貴</liandui>
@@ -638,7 +627,6 @@
   <liandui prefix="0" type="n">聰亨財運通</liandui>
   <liandui prefix="0" type="n">哲學傅萬里</liandui>
   <liandui prefix="0" type="n">源遠東邦通</liandui>
-  <liandui prefix="2" type="r">東光耀萬年</liandui>
   <liandui prefix="3" type="r">順化生乃蕃</liandui>
   <liandui prefix="4" type="r">德厚澤流芳</liandui>
   <liandui prefix="0" type="n">昭穆家聲遠</liandui>
@@ -685,11 +673,78 @@
   <liandui prefix="0" type="n">亞名勁業在</liandui>
   <liandui prefix="0" type="n">編蒲遺風存</liandui>
   <liandui prefix="0" type="n">明照世澤長</liandui>
-  <liandui prefix="0" type="n">有弓日弓振家旺</liandui>
+  <liandui prefix="0" type="n">有弼振家旺</liandui>
   <liandui prefix="0" type="n">暹節高尚吐</liandui>
   <liandui prefix="0" type="n">珍納報育恩</liandui>
   <liandui prefix="0" type="n">天姿善茂異</liandui>
   <liandui prefix="0" type="n">天頌𥚢高氣</liandui>
   <liandui prefix="0" type="n">排名懿德存</liandui>
   <liandui prefix="0" type="n">發揚範風高</liandui>
+  <liandui prefix="0" type="n">觀念宜誠古</liandui>
+  <liandui prefix="0" type="n">勝迹復登臨</liandui>
+  <liandui prefix="0" type="n">新塋吉地秀</liandui>
+  <liandui prefix="0" type="n">友善納福長</liandui>
+  <liandui prefix="0" type="n">禮從示敬意</liandui>
+  <liandui prefix="0" type="n">鏡鑑以俊明</liandui>
+  <liandui prefix="0" type="n">布施優𥙿德</liandui>
+  <liandui prefix="0" type="n">娘懷掬慈恩</liandui>
+  <liandui prefix="0" type="n">平易近民藹</liandui>
+  <liandui prefix="0" type="n">生育養廉貞</liandui>
+  <liandui prefix="0" type="n">三從四德頌</liandui>
+  <liandui prefix="0" type="n">鳳雛麟子高</liandui>
+  <liandui prefix="1" type="f">觀嚤四海明體恤民間修善仁</liandui>
+  <liandui prefix="2" type="f">音响鐘曉鳴慈悲救世知萬民</liandui>
+  <liandui prefix="1" type="r">廣情垂百世</liandui>
+  <liandui prefix="2" type="r">東光耀萬年</liandui>
+  <liandui prefix="3" type="r">揭勝光前志</liandui>
+  <liandui prefix="4" type="r">陽蔭𥙿後昌</liandui>
+  <liandui prefix="0" type="n">良金美玉厚</liandui>
+  <liandui prefix="0" type="n">湧泉麗秀長</liandui>
+  <liandui prefix="0" type="n">玉樹臨風貴</liandui>
+  <liandui prefix="0" type="n">柳蔭納禎祥</liandui>
+  <liandui prefix="0" type="n">金麗發富貴</liandui>
+  <liandui prefix="0" type="n">水秀旺財丁</liandui>
+  <liandui prefix="0" type="n">秀氣發揚遠</liandui>
+  <liandui prefix="0" type="n">金聲玉振長</liandui>
+  <liandui prefix="0" type="n">連山定吉穴</liandui>
+  <liandui prefix="0" type="n">溪泉朝旺堂</liandui>
+  <liandui prefix="0" type="n">燕婉立美德</liandui>
+  <liandui prefix="0" type="n">嬌範可留風</liandui>
+  <liandui prefix="0" type="n">春風澹蕩和</liandui>
+  <liandui prefix="0" type="n">金聲玉振高</liandui>
+  <liandui prefix="0" type="n">寶麗山川秀</liandui>
+  <liandui prefix="0" type="n">寶華優美長</liandui>
+  <liandui prefix="0" type="n">清標霜潔麗</liandui>
+  <liandui prefix="0" type="n">怡然自樂道</liandui>
+  <liandui prefix="0" type="n">山高水流長</liandui>
+  <liandui prefix="0" type="n">秀麗呈吉穴</liandui>
+  <liandui prefix="0" type="n">環繞拱福昌</liandui>
+  <liandui prefix="0" type="n">仁義德情長</liandui>
+  <liandui prefix="0" type="n">慧心真理逹</liandui>
+  <liandui prefix="0" type="n">珊聲玉連城</liandui>
+  <liandui prefix="0" type="n">粒糧助長生</liandui>
+  <liandui prefix="0" type="n">秀外慧中德</liandui>
+  <liandui prefix="0" type="n">嬌懷養育長</liandui>
+  <liandui prefix="0" type="n">清標霜潔采</liandui>
+  <liandui prefix="0" type="n">雁聲高亮揚</liandui>
+  <liandui prefix="0" type="n">瑞花够勞德</liandui>
+  <liandui prefix="0" type="n">嬌娘掬育恩</liandui>
+  <liandui prefix="0" type="n">春露秋霜念</liandui>
+  <liandui prefix="0" type="n">柳綠花紅麗</liandui>
+  <liandui prefix="0" type="n">春風澹蕩和</liandui>
+  <liandui prefix="0" type="n">錦繡名麗遠</liandui>
+  <liandui prefix="0" type="n">明德惟聲長</liandui>
+  <liandui prefix="0" type="n">蘭薰桂馥頌</liandui>
+  <liandui prefix="0" type="n">花團夜雪明</liandui>
+  <liandui prefix="0" type="n">英才儁逸廣</liandui>
+  <liandui prefix="0" type="n">俊彥賢明昌</liandui>
+  <liandui prefix="0" type="n">金聲流芳德</liandui>
+  <liandui prefix="0" type="n">珠圓玉潤全</liandui>
+  <liandui prefix="0" type="n">火花燈財得</liandui>
+  <liandui prefix="0" type="n">玖瓊連城高</liandui>
+  <liandui prefix="0" type="n">秀外慧中珍</liandui>
+  <liandui prefix="0" type="n">玉潔冰清貴</liandui>
+  <liandui prefix="0" type="n">貞珉鐫𨩐頌</liandui>
+  <liandui prefix="0" type="n">瑞氣呈吉穴</liandui>
+  <liandui prefix="0" type="n">英靈毓地良</liandui>
 </Lianduis>
