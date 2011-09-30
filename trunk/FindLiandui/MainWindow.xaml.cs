@@ -34,7 +34,7 @@ namespace FindLiandui
             this.Title += " " + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
 
             Refresh();
-            
+
             //lianduis = Lianduis.LoadFromFile("Lianduis.xml");
             //System.Diagnostics.Debug.WriteLine("Load: " + lianduis.Liandui.Count);
             //DataGrid1.DataContext = lianduis;
@@ -45,7 +45,7 @@ namespace FindLiandui
             //DataGrid1.DataContext = viewSource.View;
         }
 
-        #region Methods & Events
+        #region Methods
         private void Refresh()
         {
             lianduis = Lianduis.LoadFromFile("Lianduis.xml");
@@ -53,33 +53,54 @@ namespace FindLiandui
             DataGrid1.DataContext = lianduis;
             WordCount.Content = lianduis.Liandui.Count + " found";
         }
-        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// Search liandui entry by given keyword.
+        /// </summary>
+        /// <remarks>
+        /// Keyword can be in one character or a long string.
+        /// </remarks>
+        /// <param name="keyword"></param>
+        /// <param name="isFirstCharacter">True if only match first character otherwise false.</param>
+        /// <returns></returns>
+        private Lianduis Search(string keyword, bool isFirstCharacter)
         {
-            //todo: highlight the match text.
-            if (TextBox1.Text.Trim().Length > 0)
+            //todo: get the traddional & simplified character only do the contains
+            char[] keys = keyword.ToCharArray();
+            Lianduis original = Lianduis.LoadFromFile("Lianduis.xml");
+            for (int i = original.Liandui.Count - 1; i >= 0; i--)
             {
-                string keywords = TextBox1.Text.Trim();
-                char[] keys = keywords.ToCharArray();
-
-                Lianduis original = Lianduis.LoadFromFile("Lianduis.xml");
-                //original.Liandui.Where(f => f.Value.Contains(TextBox1.Text.Trim()));
-                //foreach (Liandui liandui in original.Liandui)
-                for (int i = original.Liandui.Count - 1; i >= 0; i--)
+                bool contains = false;
+                foreach (char key in keys)
                 {
-                    bool contains = false;
-                    foreach (char key in keys)
+                    if (isFirstCharacter)
                     {
-                        //get the traddional & simplified character only do the contains
+                        char first = Convert.ToChar(original.Liandui[i].Value.Substring(0, 1));
+                        contains = (first.CompareTo(key) == 0) ? true : false;
+                    }
+                    else
+                    {
                         if (original.Liandui[i].Value.Contains(key))
                         {
                             contains = true;
                             break;
                         }
                     }
-                    if (!contains) original.Liandui.RemoveAt(i);
                 }
+                if (!contains) original.Liandui.RemoveAt(i);
+            }
 
-                lianduis = original;
+            return original;
+        }
+        #endregion
+
+        #region Events
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            //todo: highlight the match text.
+            if (TextBox1.Text.Trim().Length > 0)
+            {
+                bool isFirst = (FirstRadio.IsChecked == true) ? true : false;
+                lianduis = Search(TextBox1.Text.Trim(), isFirst);
                 DataGrid1.DataContext = lianduis;
                 WordCount.Content = lianduis.Liandui.Count + " found";
             }
