@@ -58,13 +58,25 @@ namespace FindLiandui
             //todo: highlight the match text.
             if (TextBox1.Text.Trim().Length > 0)
             {
+                string keywords = TextBox1.Text.Trim();
+                char[] keys = keywords.ToCharArray();
+
                 Lianduis original = Lianduis.LoadFromFile("Lianduis.xml");
                 //original.Liandui.Where(f => f.Value.Contains(TextBox1.Text.Trim()));
                 //foreach (Liandui liandui in original.Liandui)
                 for (int i = original.Liandui.Count - 1; i >= 0; i--)
                 {
-                    if (!original.Liandui[i].Value.Contains(TextBox1.Text.Trim()))
-                        original.Liandui.RemoveAt(i);
+                    bool contains = false;
+                    foreach (char key in keys)
+                    {
+                        //get the traddional & simplified character only do the contains
+                        if (original.Liandui[i].Value.Contains(key))
+                        {
+                            contains = true;
+                            break;
+                        }
+                    }
+                    if (!contains) original.Liandui.RemoveAt(i);
                 }
 
                 lianduis = original;
