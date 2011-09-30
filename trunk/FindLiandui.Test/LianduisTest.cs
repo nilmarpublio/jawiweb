@@ -1,49 +1,20 @@
 ﻿using HLGranite;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Linq;
 
 namespace FindLiandui.Test
 {
     /// <summary>
-    ///This is a test class for LianduisTest and is intended
-    ///to contain all LianduisTest Unit Tests
+    /// This is a test class for LianduisTest and is intended
+    /// to contain all LianduisTest Unit Tests
     ///</summary>
     [TestClass()]
     public class LianduisTest
     {
-        #region Additional test attributes
-        // 
-        //You can use the following additional attributes as you write your tests:
-        //
-        //Use ClassInitialize to run code before running the first test in the class
-        //[ClassInitialize()]
-        //public static void MyClassInitialize(TestContext testContext)
-        //{
-        //}
-        //
-        //Use ClassCleanup to run code after all tests in a class have run
-        //[ClassCleanup()]
-        //public static void MyClassCleanup()
-        //{
-        //}
-        //
-        //Use TestInitialize to run code before running each test
-        //[TestInitialize()]
-        //public void MyTestInitialize()
-        //{
-        //}
-        //
-        //Use TestCleanup to run code after each test has run
-        //[TestCleanup()]
-        //public void MyTestCleanup()
-        //{
-        //}
-        //
-        #endregion
-
         /// <summary>
         /// A test for SaveToFile.
-        ///</summary>
+        /// </summary>
         [TestMethod()]
         public void FullAttribuiteSaveToFileTest()
         {
@@ -59,7 +30,7 @@ namespace FindLiandui.Test
         }
         /// <summary>
         /// A test for SaveToFile.
-        ///</summary>
+        /// </summary>
         [TestMethod()]
         public void NullAttribuiteSaveToFileTest()
         {
@@ -79,8 +50,21 @@ namespace FindLiandui.Test
         [TestMethod()]
         public void LoadFromFileTest()
         {
-            Lianduis target = Lianduis.LoadFromFile(@"D:\My Projects\JawiWeb\FindLiandui\bin\Debug\Lianduis.xml");
+            Lianduis target = Lianduis.LoadFromFile(@"G:\My Projects\JawiWeb\FindLiandui\bin\Debug\Lianduis.xml");
             Assert.IsTrue(target.Liandui.Count > 0);
+        }
+        /// <summary>
+        /// A test to find out which is redundant entry in datasheet collection.
+        /// </summary>
+        [TestMethod()]
+        public void DuplicateEntryTest()
+        {
+            Lianduis target = Lianduis.LoadFromFile(@"G:\My Projects\JawiWeb\FindLiandui\bin\Debug\Lianduis.xml");
+            var grouping = target.Liandui.GroupBy(f => f.Value);
+            var morethanone = grouping.Where(f => f.Count() > 1);
+            foreach (var item in morethanone)
+                System.Diagnostics.Debug.WriteLine("{0}:{1}", item.Key, item.Count());
+            Assert.AreEqual(0,morethanone.Count());
         }
     }
 }
