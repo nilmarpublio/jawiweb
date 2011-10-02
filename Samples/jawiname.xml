@@ -380,7 +380,7 @@
   <rootname>
     <rumi>agus</rumi>
     <jawi>اگوس</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ah</rumi>
@@ -1188,6 +1188,11 @@
   <rootname>
     <rumi>ariff</rumi>
     <jawi>عريف</jawi>
+    <sex>1</sex>
+  </rootname>
+  <rootname>
+    <rumi>ariffin</rumi>
+    <jawi>عريفين</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
@@ -14181,8 +14186,8 @@
   </rootname>
   <rootname>
     <rumi>sharifah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شريفه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>sharifahsalmah</rumi>
@@ -14487,8 +14492,8 @@
   </rootname>
   <rootname>
     <rumi>siraj</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سيراج</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>sirat</rumi>
@@ -14826,8 +14831,8 @@
   </rootname>
   <rootname>
     <rumi>sufiah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>صفيه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>sufian</rumi>
