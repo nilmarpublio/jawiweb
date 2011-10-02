@@ -22,7 +22,7 @@
   </counter>
   <counter>
     <name>bin4</name>
-    <count>23</count>
+    <count>26</count>
   </counter>
   <counter>
     <name>nayan</name>
@@ -30,7 +30,7 @@
   </counter>
   <counter>
     <name>bin3</name>
-    <count>50</count>
+    <count>61</count>
   </counter>
   <counter>
     <name>halimah2</name>
@@ -46,7 +46,7 @@
   </counter>
   <counter>
     <name>bt17</name>
-    <count>12</count>
+    <count>25</count>
   </counter>
   <counter>
     <name>sharif3</name>
@@ -58,11 +58,11 @@
   </counter>
   <counter>
     <name>mohd6</name>
-    <count>3</count>
+    <count>7</count>
   </counter>
   <counter>
     <name>hj</name>
-    <count>49</count>
+    <count>53</count>
   </counter>
   <counter>
     <name>bin20</name>
@@ -110,7 +110,7 @@
   </counter>
   <counter>
     <name>bt21</name>
-    <count>24</count>
+    <count>39</count>
   </counter>
   <counter>
     <name>alias2</name>
@@ -170,15 +170,15 @@
   </counter>
   <counter>
     <name>noor</name>
-    <count>3</count>
+    <count>5</count>
   </counter>
   <counter>
     <name>mohd4</name>
-    <count>20</count>
+    <count>21</count>
   </counter>
   <counter>
     <name>esah</name>
-    <count>6</count>
+    <count>11</count>
   </counter>
   <counter>
     <name>hamid</name>
@@ -202,7 +202,7 @@
   </counter>
   <counter>
     <name>ariffin2</name>
-    <count>7</count>
+    <count>8</count>
   </counter>
   <counter>
     <name>basir</name>
@@ -210,11 +210,11 @@
   </counter>
   <counter>
     <name>mohd7</name>
-    <count>1</count>
+    <count>2</count>
   </counter>
   <counter>
     <name>mohd2</name>
-    <count>14</count>
+    <count>22</count>
   </counter>
   <counter>
     <name>baharudin</name>
@@ -230,7 +230,7 @@
   </counter>
   <counter>
     <name>razali</name>
-    <count>6</count>
+    <count>10</count>
   </counter>
   <counter>
     <name>ayob</name>
@@ -238,7 +238,7 @@
   </counter>
   <counter>
     <name>che5</name>
-    <count>7</count>
+    <count>8</count>
   </counter>
   <counter>
     <name>bt5</name>
@@ -262,11 +262,11 @@
   </counter>
   <counter>
     <name>abd basir</name>
-    <count>1</count>
+    <count>2</count>
   </counter>
   <counter>
     <name>bin2</name>
-    <count>20</count>
+    <count>30</count>
   </counter>
   <counter>
     <name>ramlah</name>
@@ -290,7 +290,7 @@
   </counter>
   <counter>
     <name>bt24</name>
-    <count>24</count>
+    <count>30</count>
   </counter>
   <counter>
     <name>che3</name>
@@ -298,7 +298,7 @@
   </counter>
   <counter>
     <name>hjh12</name>
-    <count>6</count>
+    <count>13</count>
   </counter>
   <counter>
     <name>hjh8</name>
@@ -330,7 +330,7 @@
   </counter>
   <counter>
     <name>omar</name>
-    <count>3</count>
+    <count>6</count>
   </counter>
   <counter>
     <name>khan2</name>
@@ -338,7 +338,7 @@
   </counter>
   <counter>
     <name>khan</name>
-    <count>1</count>
+    <count>17</count>
   </counter>
   <counter>
     <name>omar3</name>
@@ -350,7 +350,7 @@
   </counter>
   <counter>
     <name>bt9</name>
-    <count>6</count>
+    <count>7</count>
   </counter>
   <counter>
     <name>ahmad5</name>
@@ -398,7 +398,7 @@
   </counter>
   <counter>
     <name>jamaluddin</name>
-    <count>12</count>
+    <count>14</count>
   </counter>
   <counter>
     <name>daud</name>
@@ -434,7 +434,7 @@
   </counter>
   <counter>
     <name>ali</name>
-    <count>9</count>
+    <count>13</count>
   </counter>
   <counter>
     <name>jaafar2</name>
@@ -442,7 +442,7 @@
   </counter>
   <counter>
     <name>hussain</name>
-    <count>7</count>
+    <count>8</count>
   </counter>
   <counter>
     <name>bt20</name>
@@ -514,7 +514,7 @@
   </counter>
   <counter>
     <name>bt3</name>
-    <count>7</count>
+    <count>9</count>
   </counter>
   <counter>
     <name>rohani</name>
@@ -522,7 +522,7 @@
   </counter>
   <counter>
     <name>said</name>
-    <count>4</count>
+    <count>9</count>
   </counter>
   <counter>
     <name>azlan2</name>
@@ -534,10 +534,78 @@
   </counter>
   <counter>
     <name>bt19</name>
-    <count>3</count>
+    <count>5</count>
   </counter>
   <counter>
     <name>lim2</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>musa</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>saad</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>hj3</name>
+    <count>19</count>
+  </counter>
+  <counter>
+    <name>hatijah</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>sani</name>
+    <count>5</count>
+  </counter>
+  <counter>
+    <name>arshad</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>sharifah2</name>
+    <count>7</count>
+  </counter>
+  <counter>
+    <name>hjh2</name>
+    <count>12</count>
+  </counter>
+  <counter>
+    <name>hashim2</name>
+    <count>6</count>
+  </counter>
+  <counter>
+    <name>sofiah2</name>
+    <count>6</count>
+  </counter>
+  <counter>
+    <name>bt23</name>
+    <count>5</count>
+  </counter>
+  <counter>
+    <name>ahmad4</name>
+    <count>3</count>
+  </counter>
+  <counter>
+    <name>din3</name>
+    <count>2</count>
+  </counter>
+  <counter>
+    <name>din2</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>tajuddin</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>ibrahim2</name>
+    <count>2</count>
+  </counter>
+  <counter>
+    <name>hassan2</name>
     <count>1</count>
   </counter>
 </DocumentElement>
