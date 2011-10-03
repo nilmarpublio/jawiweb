@@ -12,6 +12,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Collections.ObjectModel;
+using System.Net;
+using System.IO;
 using HLGranite;
 
 namespace FindLiandui
@@ -26,6 +28,7 @@ namespace FindLiandui
     /// </remarks>
     public partial class MainWindow : Window
     {
+        private int counter;//performance use
         private Lianduis lianduis;
         //private CollectionViewSource viewSource;
         public MainWindow()
@@ -53,6 +56,26 @@ namespace FindLiandui
             DataGrid1.DataContext = lianduis;
             WordCount.Content = lianduis.Liandui.Count + " found";
         }
+        private bool ContainsCharacter(char target, char[] sender)
+        {
+            foreach (char c in sender)
+            {
+                if (target.CompareTo(c) == 0)
+                    return true;
+            }
+
+            return false;
+        }
+        private bool ContainsCharacter(string target, char[] sender)
+        {
+            foreach (char c in sender)
+            {
+                if (target.Contains(c))
+                    return true;
+            }
+
+            return false;
+        }
         /// <summary>
         /// Search liandui entry by given keyword.
         /// </summary>
@@ -64,32 +87,83 @@ namespace FindLiandui
         /// <returns></returns>
         private Lianduis Search(string keyword, bool isFirstCharacter)
         {
-            //todo: get the traddional & simplified character only do the contains
+            counter = 0;//reset
             char[] keys = keyword.ToCharArray();
-            Lianduis original = Lianduis.LoadFromFile("Lianduis.xml");
-            for (int i = original.Liandui.Count - 1; i >= 0; i--)
+            Lianduis merge = new Lianduis();
+            foreach (char key in keys)
             {
-                bool contains = false;
-                foreach (char key in keys)
+                //why linq union fail?
+                //hack: merge.Liandui.Union(Search(key, isFirstCharacter).Liandui);
+                //merge.Liandui.Union(from l in Search(key, isFirstCharacter).Liandui select l);
+                foreach (Liandui liandui in Search(key, isFirstCharacter).Liandui)
                 {
-                    if (isFirstCharacter)
-                    {
-                        char first = Convert.ToChar(original.Liandui[i].Value.Substring(0, 1));
-                        contains = (first.CompareTo(key) == 0) ? true : false;
-                    }
-                    else
-                    {
-                        if (original.Liandui[i].Value.Contains(key))
-                        {
-                            contains = true;
-                            break;
-                        }
-                    }
+                    if (!merge.Liandui.Contains(liandui)) merge.Liandui.Add(liandui);
                 }
-                if (!contains) original.Liandui.RemoveAt(i);
             }
 
-            return original;
+            System.Diagnostics.Debug.Write("run " + counter);
+            return merge;
+        }
+        private Lianduis Search(char key, bool isFirstCharacter)
+        {
+            //get the traddional & simplified character only do the contains
+            Lianduis lianduis = Lianduis.LoadFromFile("Lianduis.xml");
+            char[] translates = FindRelativeCharacters(key);
+            for (int i = lianduis.Liandui.Count - 1; i >= 0; i--)
+            {
+                bool contains = false;
+                if (isFirstCharacter)
+                {
+                    char first = Convert.ToChar(lianduis.Liandui[i].Value.Substring(0, 1));
+                    contains = ContainsCharacter(first, translates);
+                    //contains = (first.CompareTo(key) == 0) ? true : false;
+                }
+                else
+                {
+                    contains = ContainsCharacter(lianduis.Liandui[i].Value, translates);
+                }
+
+                if (!contains) lianduis.Liandui.RemoveAt(i);
+            }
+
+            return lianduis;
+        }
+        /// <summary>
+        /// TODO: Get traddtional & simplified chinese character through Google Translate.
+        /// </summary>
+        /// <param name="source">One character of tradditional or simplified chinese character.</param>
+        /// <returns></returns>
+        private char[] FindRelativeCharacters(char source)
+        {
+            counter++;
+            List<char> holder = new List<char>();
+            char c1 = ToTraditionalCharacter(source);
+            char c2 = ToSimplifiedCharacter(source);
+
+            holder.Add(source);
+            if (!holder.Contains(c1)) holder.Add(c1);
+            if (!holder.Contains(c2)) holder.Add(c2);
+            return holder.ToArray();
+        }
+        /// <summary>
+        /// Convert source to traddtional Chinese character. If provide a Traddtional character, return the same source.
+        /// </summary>
+        /// <param name="source">Simplified Chinese character.</param>
+        /// <returns></returns>
+        private char ToTraditionalCharacter(char source)
+        {
+            return Convert.ToChar(Microsoft.VisualBasic.Strings.StrConv(
+                source.ToString(), Microsoft.VisualBasic.VbStrConv.TraditionalChinese, 0));
+        }
+        /// <summary>
+        /// Convert source to simplified Chinese character. If provide a simplified character, return the same source.
+        /// </summary>
+        /// <param name="source"></param>
+        /// <returns></returns>
+        private char ToSimplifiedCharacter(char source)
+        {
+            return Convert.ToChar(Microsoft.VisualBasic.Strings.StrConv(
+                source.ToString(), Microsoft.VisualBasic.VbStrConv.SimplifiedChinese, 0));
         }
         #endregion
 
