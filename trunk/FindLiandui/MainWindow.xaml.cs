@@ -31,7 +31,7 @@ namespace FindLiandui
         //private int counter;//performance use
         private Lianduis lianduis;
         //private CollectionViewSource viewSource;
-        private string NUMBER_FORMAT = "###,###,###,###";
+        private string NUMBER_FORMAT = "###,###,###,##0";
         public MainWindow()
         {
             InitializeComponent();
@@ -52,10 +52,12 @@ namespace FindLiandui
         #region Methods
         private void Refresh()
         {
+            TextBox1.Text = string.Empty;
             lianduis = Lianduis.LoadFromFile("Lianduis.xml");
             System.Diagnostics.Debug.WriteLine("Load: " + lianduis.Liandui.Count);
             DataGrid1.DataContext = lianduis;
             WordCount.Content = lianduis.Liandui.Count.ToString(NUMBER_FORMAT) + " found";
+            SaveButton.IsEnabled = true;
         }
         private bool ContainsCharacter(char target, char[] sender)
         {
@@ -178,6 +180,7 @@ namespace FindLiandui
                 lianduis = Search(TextBox1.Text.Trim(), isFirst);
                 DataGrid1.DataContext = lianduis;
                 WordCount.Content = lianduis.Liandui.Count.ToString(NUMBER_FORMAT) + " found";
+                SaveButton.IsEnabled = false;
             }
             else
                 Refresh();
