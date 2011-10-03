@@ -15,7 +15,16 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <!-- @see http://apocryph.org/2007/08/26/rendering_disabled_grayed_out_image_buttons_wpf/ -->
+        <Style TargetType="{x:Type Image}" x:Key="toolbarImageStyle">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType={x:Type Button}, AncestorLevel=1}, Path=IsEnabled}" Value="False">
+                    <Setter Property="Opacity" Value="0.50"></Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
     </Window.Resources>
+    
     <DockPanel LastChildFill="True">
         <DockPanel DockPanel.Dock="Top" Height="24" LastChildFill="True">
             <WrapPanel DockPanel.Dock="Right">
@@ -29,8 +38,8 @@
                 <Button Click="RefreshButton_Click" ToolTip="Reset" DockPanel.Dock="Right" Width="24" Margin="10,0,0,0" Style="{StaticResource BorderlessButton}">
                     <Image Source="Images\arrow_refresh.png"/>
                 </Button>
-                <Button ToolTip="Save" Click="SaveButton_Click" DockPanel.Dock="Right" Width="24" Margin="10,0,0,0" Style="{StaticResource BorderlessButton}">
-                    <Image Source="Images\disk.png"/>
+                <Button x:Name="SaveButton" ToolTip="Save" Click="SaveButton_Click" DockPanel.Dock="Right" Width="24" Margin="10,0,0,0" Style="{StaticResource BorderlessButton}">
+                    <Image Source="Images\disk.png" Style="{StaticResource toolbarImageStyle}"/>
                 </Button>
             </WrapPanel>
             <TextBox x:Name="TextBox1" KeyDown="TextBox1_KeyDown" />
