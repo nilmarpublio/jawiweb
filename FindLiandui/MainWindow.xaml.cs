@@ -28,9 +28,10 @@ namespace FindLiandui
     /// </remarks>
     public partial class MainWindow : Window
     {
-        private int counter;//performance use
+        //private int counter;//performance use
         private Lianduis lianduis;
         //private CollectionViewSource viewSource;
+        private string NUMBER_FORMAT = "###,###,###,###";
         public MainWindow()
         {
             InitializeComponent();
@@ -54,7 +55,7 @@ namespace FindLiandui
             lianduis = Lianduis.LoadFromFile("Lianduis.xml");
             System.Diagnostics.Debug.WriteLine("Load: " + lianduis.Liandui.Count);
             DataGrid1.DataContext = lianduis;
-            WordCount.Content = lianduis.Liandui.Count + " found";
+            WordCount.Content = lianduis.Liandui.Count.ToString(NUMBER_FORMAT) + " found";
         }
         private bool ContainsCharacter(char target, char[] sender)
         {
@@ -87,7 +88,7 @@ namespace FindLiandui
         /// <returns></returns>
         private Lianduis Search(string keyword, bool isFirstCharacter)
         {
-            counter = 0;//reset
+            //counter = 0;//reset
             char[] keys = keyword.ToCharArray();
             Lianduis merge = new Lianduis();
             foreach (char key in keys)
@@ -101,7 +102,7 @@ namespace FindLiandui
                 }
             }
 
-            System.Diagnostics.Debug.Write("run " + counter);
+            //System.Diagnostics.Debug.Write("run " + counter);
             return merge;
         }
         private Lianduis Search(char key, bool isFirstCharacter)
@@ -135,7 +136,7 @@ namespace FindLiandui
         /// <returns></returns>
         private char[] FindRelativeCharacters(char source)
         {
-            counter++;
+            //counter++;
             List<char> holder = new List<char>();
             char c1 = ToTraditionalCharacter(source);
             char c2 = ToSimplifiedCharacter(source);
@@ -176,7 +177,7 @@ namespace FindLiandui
                 bool isFirst = (FirstRadio.IsChecked == true) ? true : false;
                 lianduis = Search(TextBox1.Text.Trim(), isFirst);
                 DataGrid1.DataContext = lianduis;
-                WordCount.Content = lianduis.Liandui.Count + " found";
+                WordCount.Content = lianduis.Liandui.Count.ToString(NUMBER_FORMAT) + " found";
             }
             else
                 Refresh();
