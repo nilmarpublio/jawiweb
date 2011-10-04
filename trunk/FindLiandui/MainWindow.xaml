@@ -45,7 +45,14 @@
             <TextBox x:Name="TextBox1" KeyDown="TextBox1_KeyDown" />
         </DockPanel>
         <StatusBar DockPanel.Dock="Bottom">
-            <Label x:Name="WordCount"/>
+            <StatusBarItem>
+                <Label x:Name="WordCount" Grid.Column="0"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <Hyperlink x:Name="Hyperlink1" NavigateUri="https://docs.google.com/spreadsheet/ccc?key=0Aq0kmppfSN8KdEY2M1ZSUUZXNTZGWk9haUdLdUpFSVE&amp;hl=en_US#gid=0" RequestNavigate="Hyperlink_RequestNavigate">
+                    <TextBlock Text="GDocs"/>
+                </Hyperlink>
+            </StatusBarItem>
         </StatusBar>
         <w:DataGrid x:Name="DataGrid1" AutoGenerateColumns="True"
             ItemsSource="{Binding Liandui,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"/>

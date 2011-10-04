@@ -208,6 +208,11 @@ namespace FindLiandui
             System.Diagnostics.Debug.WriteLine("Saving: " + (DataGrid1.DataContext as Lianduis).Liandui.Count);
             (DataGrid1.DataContext as Lianduis).SaveToFile("Lianduis.xml");
         }
+        private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
+        {
+            Hyperlink hyperlink = (sender as Hyperlink);
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(Hyperlink1.NavigateUri.ToString()));
+        }
         #endregion
     }
 }

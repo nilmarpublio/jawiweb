@@ -111,6 +111,31 @@ namespace FindLiandui.Test
             Assert.IsTrue(actual.Contains(expected));
         }
         /// <summary>
+        /// TODO: FAIL: implemntation for auto translate rumi to jawi.
+        /// </summary>
+        [TestMethod()]
+        public void GoogleTranslateArabicTest()
+        {
+            string url = string.Format("http://translate.google.com/translate_a/t?client=t&text={0}&hl=en&sl=ar&tl=en&multires=1&otf=1&pc=1&trs=1&ssel=5&tsel=5&sc=1", "sahila");
+
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+
+            //request.Proxy = null;
+            //uncomment when there is a proxy setting
+            NetworkCredential credential = new NetworkCredential("yeang-shing.then", "Q1w2e3r4v");
+            request.Credentials = credential;
+            WebProxy proxy = new WebProxy("http://co-proxy-003");
+            proxy.Credentials = credential;
+            request.Proxy = proxy;
+
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+            Stream stream = response.GetResponseStream();
+            StreamReader reader = new StreamReader(stream, Encoding.UTF8);
+            string actual = reader.ReadToEnd();
+            string expected = "سهيلة";
+            Assert.IsTrue(actual.Contains(expected));
+        }
+        /// <summary>
         /// FAIL: A test to get Japanese through Google Translate.
         /// </summary>
         /// <remarks>
