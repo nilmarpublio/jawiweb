@@ -22,7 +22,7 @@
   </counter>
   <counter>
     <name>bin4</name>
-    <count>35</count>
+    <count>37</count>
   </counter>
   <counter>
     <name>nayan</name>
@@ -30,7 +30,7 @@
   </counter>
   <counter>
     <name>bin3</name>
-    <count>70</count>
+    <count>71</count>
   </counter>
   <counter>
     <name>halimah2</name>
@@ -38,7 +38,7 @@
   </counter>
   <counter>
     <name>abdullah</name>
-    <count>20</count>
+    <count>21</count>
   </counter>
   <counter>
     <name>halimah</name>
@@ -50,7 +50,7 @@
   </counter>
   <counter>
     <name>sharif3</name>
-    <count>8</count>
+    <count>9</count>
   </counter>
   <counter>
     <name>osman</name>
@@ -82,7 +82,7 @@
   </counter>
   <counter>
     <name>bin16</name>
-    <count>22</count>
+    <count>23</count>
   </counter>
   <counter>
     <name>bin23</name>
@@ -90,7 +90,7 @@
   </counter>
   <counter>
     <name>bin24</name>
-    <count>6</count>
+    <count>7</count>
   </counter>
   <counter>
     <name>saman</name>
@@ -238,7 +238,7 @@
   </counter>
   <counter>
     <name>che5</name>
-    <count>11</count>
+    <count>12</count>
   </counter>
   <counter>
     <name>bt5</name>
@@ -290,11 +290,11 @@
   </counter>
   <counter>
     <name>bt24</name>
-    <count>36</count>
+    <count>39</count>
   </counter>
   <counter>
     <name>che3</name>
-    <count>11</count>
+    <count>12</count>
   </counter>
   <counter>
     <name>hjh12</name>
@@ -310,7 +310,7 @@
   </counter>
   <counter>
     <name>manaf</name>
-    <count>10</count>
+    <count>11</count>
   </counter>
   <counter>
     <name>sabri</name>
@@ -358,7 +358,7 @@
   </counter>
   <counter>
     <name>ahmad6</name>
-    <count>27</count>
+    <count>30</count>
   </counter>
   <counter>
     <name>mustafa</name>
@@ -414,7 +414,7 @@
   </counter>
   <counter>
     <name>bin15</name>
-    <count>19</count>
+    <count>20</count>
   </counter>
   <counter>
     <name>pawanteh</name>
@@ -570,7 +570,7 @@
   </counter>
   <counter>
     <name>hjh2</name>
-    <count>17</count>
+    <count>18</count>
   </counter>
   <counter>
     <name>hashim2</name>
@@ -586,11 +586,11 @@
   </counter>
   <counter>
     <name>ahmad4</name>
-    <count>3</count>
+    <count>4</count>
   </counter>
   <counter>
     <name>din3</name>
-    <count>4</count>
+    <count>5</count>
   </counter>
   <counter>
     <name>din2</name>
@@ -606,7 +606,7 @@
   </counter>
   <counter>
     <name>hassan2</name>
-    <count>4</count>
+    <count>6</count>
   </counter>
   <counter>
     <name>zainal</name>
@@ -634,26 +634,26 @@
   </counter>
   <counter>
     <name>hassan</name>
-    <count>5</count>
+    <count>6</count>
   </counter>
   <counter>
     <name>bin9</name>
-    <count>5</count>
+    <count>6</count>
   </counter>
   <counter>
     <name>tam</name>
-    <count>3</count>
+    <count>4</count>
   </counter>
   <counter>
     <name>che2</name>
-    <count>3</count>
+    <count>4</count>
   </counter>
   <counter>
     <name>salmah</name>
-    <count>2</count>
+    <count>3</count>
   </counter>
   <counter>
     <name>normah</name>
-    <count>1</count>
+    <count>2</count>
   </counter>
 </DocumentElement>
