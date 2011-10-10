@@ -4711,7 +4711,7 @@
     <deathm>1431-10-07</deathm>
     <item>PV</item>
   </order>
-  <order soldto="SEL" date="2011-09-28" delivered="" price="230">
+  <order soldto="SEL" date="2011-09-28" delivered="2011-10-09" price="230">
     <name>Hj saad bin musa</name>
     <jawi>حاج سعد بن موسا</jawi>
     <death>2011-08-21</death>
@@ -4848,44 +4848,44 @@
     <deathm>1392-08-13</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="ADI" date="2011-10-04" delivered="" price="35">
+  <order soldto="ADI" date="2011-10-04" delivered="2011-10-10" price="35">
     <name>maimunah bt kassim</name>
     <jawi>مايمونه بنت قاسيم</jawi>
     <death>2011-08-20</death>
     <deathm>1432-09-20</deathm>
     <item>PV</item>
-    <remarks>rumi saja</remarks>
+    <remarks>EN478905169MY rumi saja</remarks>
   </order>
-  <order soldto="ADI" date="2011-10-04" delivered="" price="35">
+  <order soldto="ADI" date="2011-10-04" delivered="2011-10-10" price="35">
     <name>maimunah bt kassim</name>
     <jawi>مايمونه بنت قاسيم</jawi>
     <death>2011-08-20</death>
     <deathm>1432-09-20</deathm>
     <item>PV</item>
-    <remarks>jawi saja</remarks>
+    <remarks>EN478905169MY jawi saja</remarks>
   </order>
-  <order soldto="SEM" date="2011-10-04" delivered="" price="230">
+  <order soldto="SEM" date="2011-10-04" delivered="2011-10-09" price="230">
     <name>mohd fauzi bin zainal abidin</name>
     <jawi>محمد فوزي بن زاينل ابيدين</jawi>
     <death>2011-09-14</death>
     <deathm>1432-10-16</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2011-10-04" delivered="" price="230">
+  <order soldto="SEM" date="2011-10-04" delivered="2011-10-09" price="115">
     <name>nor sahila bt zainal abidin</name>
     <jawi>نور سهيلة  بنت زاينل ابيدين</jawi>
     <death>2011-09-14</death>
     <deathm>1432-10-16</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2011-10-04" delivered="" price="230">
+  <order soldto="SEM" date="2011-10-04" delivered="2011-10-09" price="230">
     <name>hjh rokiah bt abd hamid</name>
     <jawi>حجه روكياه بنت عبدلحميد</jawi>
     <death>2011-08-30</death>
     <deathm>1432-10-01</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2011-10-04" delivered="" price="230">
+  <order soldto="SEM" date="2011-10-04" delivered="2011-10-09" price="165">
     <name>mohd abd wahab bin mokhtar</name>
     <jawi>محمد عبدلواهب بن مختار</jawi>
     <death>2011-08-31</death>
@@ -4924,7 +4924,7 @@
     <age>59</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-10-06" delivered="" price="12">
+  <order soldto="HAM" date="2011-10-06" delivered="2011-10-10" price="12">
     <name>salmah bt mat din</name>
     <jawi>سلمه بنت مت دين</jawi>
     <death>2011-08-03</death>
@@ -4932,7 +4932,7 @@
     <age>56</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-10-06" delivered="" price="12">
+  <order soldto="HAM" date="2011-10-06" delivered="2011-10-10" price="12">
     <name>abdullah bin ahmed</name>
     <jawi>عبدالله بن أحمد</jawi>
     <death>2011-09-21</death>
