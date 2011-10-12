@@ -5003,6 +5003,64 @@
     <deathm>1421-02-05</deathm>
     <item>PV Budak</item>
   </order>
+  <order soldto="HAM" date="2011-10-11" delivered="" price="10">
+    <name>hussain bin mohd rawther</name>
+    <jawi>حُسين بن محمد راوتر</jawi>
+    <death>2011-08-30</death>
+    <deathm>1432-10-01</deathm>
+    <age>64</age>
+    <item>2' Sticker(L)</item>
+    <remarks>height 5" bottom 3"</remarks>
+  </order>
+  <order soldto="HAM" date="2011-10-11" delivered="" price="12">
+    <name>latipah bee bt nainam sah</name>
+    <jawi>لطيفه بي بنت نينام سه</jawi>
+    <death>2011-09-03</death>
+    <deathm>1432-10-05</deathm>
+    <age>78</age>
+    <item>2' Sticker(P)</item>
+  </order>
+    <order soldto="HAM" date="2011-10-11" delivered="" price="12">
+    <name>hjh zainab bt ahmad</name>
+    <jawi>حجه زاينب بنت أحمد</jawi>
+    <death>2011-09-18</death>
+    <deathm>1432-10-20</deathm>
+    <age>58</age>
+    <item>2' Sticker(P)</item>
+  </order>
+    <order soldto="HAM" date="2011-10-11" delivered="" price="12">
+    <name>che ma bt abd rahman</name>
+    <jawi>چئ ما بنت عبدلرحمن</jawi>
+    <born>1934-12-31</born>
+    <death>2011-09-18</death>
+    <deathm>1432-10-20</deathm>
+    <item>2½' Sticker(P)</item>
+  </order>
+    <order soldto="HAM" date="2011-10-11" delivered="" price="12">
+    <name>noorsiah bt mohd ramli</name>
+    <jawi>نورسيه بنت بنت محمد رماي</jawi>
+    <death>2011-10-06</death>
+    <deathm>1432-11-08</deathm>
+    <age>48</age>
+    <item>2' Sticker(P)</item>
+  </order>
+    <order soldto="HAM" date="2011-10-11" delivered="" price="12">
+    <name>adanan bin abu bakar</name>
+    <jawi>آدانن بن أبو بكر</jawi>
+    <death>2011-10-08</death>
+    <deathm>1432-11-10</deathm>
+    <age>62</age>
+    <item>2' Sticker(L)</item>
+  </order>
+    <order soldto="HAM" date="2011-10-11" delivered="" price="12">
+    <name>rahmat bibi bt ghulam mohamed</name>
+    <jawi>رحمة بيبي بنت گولم محمد</jawi>
+    <born>1925</born>
+    <death>1998-11-28</death>
+    <deathm>1419-08-08</deathm>
+    <age>73</age>
+    <item>2½' Sticker(P)</item>
+  </order>
   <!--<order soldto="" date="" delivered="" price="230">
 		<name></name>
 		<jawi></jawi>
