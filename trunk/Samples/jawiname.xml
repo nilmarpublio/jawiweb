@@ -8042,8 +8042,8 @@
   </rootname>
   <rootname>
     <rumi>ma</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ما</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>maajap</rumi>
@@ -11448,11 +11448,6 @@
     <sex>2</sex>
   </rootname>
   <rootname>
-    <rumi>rahimansha</rumi>
-    <jawi>راهيمانشا</jawi>
-    <sex>0</sex>
-  </rootname>
-  <rootname>
     <rumi>rahmah</rumi>
     <jawi>رحمه</jawi>
     <sex>2</sex>
@@ -11466,14 +11461,6 @@
     <rumi>rahmat</rumi>
     <jawi>رحمة</jawi>
     <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>rahmath</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>rahmathbegum</rumi>
   </rootname>
   <rootname>
     <rumi>rahmatu</rumi>
@@ -12321,8 +12308,8 @@
   </rootname>
   <rootname>
     <rumi>rosnah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>روسنه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>rosnani</rumi>
