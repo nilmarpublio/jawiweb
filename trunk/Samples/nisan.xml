@@ -5061,6 +5061,14 @@
     <age>73</age>
     <item>2½' Sticker(P)</item>
   </order>
+  <order soldto="ADI" date="2011-10-13" delivered="" price="35">
+    <name>SHAMSUDIN BIN ALI</name>
+    <jawi>شامسوددين بن علي</jawi>
+    <born>1921-10-05</born>
+    <death>2010-08-01</death>
+    <deathm>1431-08-20</deathm>
+    <item>PV Egg</item>
+  </order>
   <!--<order soldto="" date="" delivered="" price="230">
 		<name></name>
 		<jawi></jawi>
