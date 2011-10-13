@@ -8,9 +8,9 @@
         <script type="text/javascript" src="js/table_sort.js"></script>
         <style type="text/css">
             html {font-family:Tahoma,Calibri,Verdana,Arial;font-size:10pt;}
-            h3 {text-align:center;}
-            
+            h3 {text-align:center;}            
             table {}
+            
             .blue {color:blue;}
             .red {color:red;}
             .green {color:green;}
@@ -19,9 +19,8 @@
             
             ol,ul {margin:0;padding:0;list-style-type:none;display:inline;}
             ul li {list-style-type:none;display:inline;}
-            ul li a {color:Black;}
-            
-            #xml_wrapper ul {margin-left:0;}
+            ul li a {color:Black;}            
+            #xml_wrapper ul {margin-left:0;}            
             
             #xml_wrapper table th {
                 font-weight:normal;
@@ -43,8 +42,8 @@
         </style>
 </head>
 <body>
-    <h3>PENDING LIST</h3>
     <div id="xml_wrapper">
+    <h3>PENDING LIST</h3>
         Filter by Sold to:
         <ul id="xml_nav">
             <li><a class="filter_adi" href="javascript:void(0)">ADI</a></li>
@@ -55,7 +54,8 @@
             <li><a class="filter_all" href="javascript:void(0)">ALL</a></li>
         </ul>
 
-        &nbsp;&nbsp;&nbsp;&nbsp;Filter by Month:
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        Filter by Month:
         <ul id="xml_month">
             <li><a class="filter_01" href="javascript:void(0)">1</a></li>
             <li><a class="filter_02" href="javascript:void(0)">2</a></li>
@@ -70,6 +70,9 @@
             <li><a class="filter_11" href="javascript:void(0)">11</a></li>
             <li><a class="filter_12" href="javascript:void(0)">12</a></li>
         </ul>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        Total: <span id="counter"></span> items
 
         <table>
             <thead>

@@ -112,117 +112,162 @@ $(function () {
                 window.setTimeout('$("' + wrapper + ' table").tablesorter();', 120);
                 $(wrapper + ' table').hide().slideDown('200');
 
+                //display total item
+                $('#counter').text(xml_no);
+
                 //add filter by customer
                 var nav_link = $('#xml_nav li a');
                 nav_link.click(function () {
+                    xml_no = 0; //reset counter
                     var tr = wrapper + ' table tbody tr';
                     $(tr).show(); //show all rows
                     switch ($(this).attr('class')) {
                         case 'filter_adi':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('ADI') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('ADI') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_ham':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('HAM') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('HAM') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_ken':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('KEN') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('KEN') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_sel':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('SEL') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('SEL') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_sem':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('SEM') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('SEM') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
 
                         default:
                             $(tr).filter(function (index) {
+                                xml_no++;
                                 return false;
                             }).hide();
                             break;
                     }
 
+                    //display total item
+                    $('#counter').text(xml_no);
                     //$(tr).removeClass('stripe');
                     //$(tr + ':visible:odd').addClass('stripe');
-                }); //end click
+                }); //end click soldto
 
                 //add filter by month
                 var nav_month = $('#xml_month li a');
                 nav_month.click(function () {
+                    xml_no = 0; //reset counter
                     var tr = wrapper + ' table tbody tr';
                     $(tr).show(); //show all rows
                     switch ($(this).attr('class')) {
                         case 'filter_01':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('01') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('01') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_02':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('02') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('02') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_03':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('03') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('03') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_04':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('04') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('04') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_05':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('05') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('05') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_06':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('06') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('06') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_07':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('07') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('07') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_08':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('08') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('08') >= 0);
+                                if(yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_09':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('09') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('09') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_10':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('10') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('10') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_11':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('11') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('11') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                         case 'filter_12':
                             $(tr).filter(function (index) {
-                                return !($(this).attr('filterCriteria').indexOf('12') >= 0);
+                                var yes = ($(this).attr('filterCriteria').indexOf('12') >= 0);
+                                if (yes) xml_no++;
+                                return !yes;
                             }).hide();
                             break;
                     }
-                });
+
+                    //display total item
+                    $('#counter').text(xml_no);
+                }); //end click on month
 
             }
         }); //end ajax
