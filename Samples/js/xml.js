@@ -19,7 +19,6 @@ $(function () {
     function toRoman(name) {
         var roman = '';
         var words = name.toLowerCase().split(' ');
-        //alert(words.length);
         $.each(words, function (index, value) {
 
             //except bin or bt
@@ -27,13 +26,10 @@ $(function () {
                 roman += value;
                 roman += ' ';
             } else {
-                //alert(value);
-                //alert(value.length);
                 var word = '';
                 word += value.substring(0, 1).toUpperCase();
                 word += value.substring(1, value.length);
 
-                //alert(word);
                 roman += word;
                 roman += ' ';
             }
@@ -41,6 +37,186 @@ $(function () {
         roman = roman.trim();
 
         return roman;
+    }
+
+    /**
+    * Return HTML string for table structure.
+    * <param> xml_list
+    * <param> soldto String soldto person.
+    */
+    function parseXml(xml_list, soldto) {
+        var xmlArr = [];
+        var xml_no = 0; //numbering use
+        if (soldto == 'ALL' || soldto == '') {
+            $(xml_list).find('order').each(function () {
+
+                xml_no++;
+                //property fields
+                var xml_soldto = $(this).attr('soldto');
+                var xml_deliver = $(this).attr('delivered');
+                var xml_order = $(this).attr('date');
+                var xml_price = $(this).attr('price');
+
+                //@todo: romanize the name letter
+                var xml_name = $(this).find('name').text();
+                var xml_jawi = $(this).find('jawi').text();
+                var xml_born = $(this).find('born').text();
+                var xml_death = $(this).find('death').text();
+                var xml_deathm = $(this).find('deathm').text();
+                var xml_age = $(this).find('age').text();
+                var xml_remarks = $(this).find('remarks').text();
+                var xml_item = $(this).find('item').text();
+
+                //compute desciption
+                var desc = '';
+                desc += toRoman(xml_name); // xml_name.toLowerCase();
+                desc += ' (';
+                if (xml_born != '') {
+                    desc += xml_born;
+                    desc += '~';
+                }
+                desc += xml_death;
+                if (xml_deathm != '') {
+                    desc += '=';
+                    desc += xml_deathm;
+                }
+                desc += ') ';
+                desc += xml_jawi;
+
+
+                //able to filter upon soldto person and month only
+                xmlArr += '<tr filterCriteria="';
+                xmlArr += xml_soldto;
+                xmlArr += xml_order.substring(5, 7); //extract only month value
+                xmlArr += '"';
+
+                //add color style
+                xmlArr += ' class="';
+                if (xml_item.indexOf('Batik') >= 0) {
+                    xmlArr += 'blue';
+                } else if (xml_item.indexOf('Hijau') >= 0) {
+                    xmlArr += 'green';
+                } else if (xml_item.indexOf('Putih') >= 0) {
+                    xmlArr += 'white';
+                } else if (xml_item.indexOf('½') >= 0) {
+                    xmlArr += 'italic';
+                }
+                xmlArr += '"';
+
+                xmlArr += '>';
+
+                //@todo: correct the numbering. Currently not renumber after sorting
+                xmlArr += '<td>';
+                xmlArr += ''; // xml_no;
+                xmlArr += '</td>';
+
+                xmlArr += '<td>';
+                xmlArr += xml_soldto;
+                xmlArr += '</td>';
+
+                xmlArr += '<td>';
+                xmlArr += xml_order;
+                xmlArr += '</td>';
+
+                xmlArr += '<td>';
+                xmlArr += desc;
+                xmlArr += '</td>';
+
+                xmlArr += '<td>';
+                xmlArr += xml_item;
+                xmlArr += '</td>';
+
+                xmlArr += '</tr>';
+
+            }); //end loops
+
+        } else {
+            $(xml_list).find('order').each(function () {
+
+                var xml_soldto = $(this).attr('soldto');
+                if (xml_soldto == soldto) {
+
+                    xml_no++;
+                    //property fields
+                    var xml_deliver = $(this).attr('delivered');
+                    var xml_order = $(this).attr('date');
+                    var xml_price = $(this).attr('price');
+
+                    //@todo: romanize the name letter
+                    var xml_name = $(this).find('name').text();
+                    var xml_jawi = $(this).find('jawi').text();
+                    var xml_born = $(this).find('born').text();
+                    var xml_death = $(this).find('death').text();
+                    var xml_deathm = $(this).find('deathm').text();
+                    var xml_age = $(this).find('age').text();
+                    var xml_remarks = $(this).find('remarks').text();
+                    var xml_item = $(this).find('item').text();
+
+                    //compute desciption
+                    var desc = '';
+                    desc += toRoman(xml_name); // xml_name.toLowerCase();
+                    desc += ' (';
+                    if (xml_born != '') {
+                        desc += xml_born;
+                        desc += '~';
+                    }
+                    desc += xml_death;
+                    if (xml_deathm != '') {
+                        desc += '=';
+                        desc += xml_deathm;
+                    }
+                    desc += ') ';
+                    desc += xml_jawi;
+
+
+                    //able to filter upon soldto person and month only
+                    xmlArr += '<tr filterCriteria="';
+                    xmlArr += xml_soldto;
+                    xmlArr += xml_order.substring(5, 7); //extract only month value
+                    xmlArr += '"';
+
+                    //add color style
+                    xmlArr += ' class="';
+                    if (xml_item.indexOf('Batik') >= 0) {
+                        xmlArr += 'blue';
+                    } else if (xml_item.indexOf('Hijau') >= 0) {
+                        xmlArr += 'green';
+                    } else if (xml_item.indexOf('Putih') >= 0) {
+                        xmlArr += 'white';
+                    } else if (xml_item.indexOf('½') >= 0) {
+                        xmlArr += 'italic';
+                    }
+                    xmlArr += '"';
+
+                    xmlArr += '>';
+
+                    //@todo: correct the numbering. Currently not renumber after sorting
+                    xmlArr += '<td>';
+                    xmlArr += ''; // xml_no;
+                    xmlArr += '</td>';
+
+                    xmlArr += '<td>';
+                    xmlArr += xml_soldto;
+                    xmlArr += '</td>';
+
+                    xmlArr += '<td>';
+                    xmlArr += xml_order;
+                    xmlArr += '</td>';
+
+                    xmlArr += '<td>';
+                    xmlArr += desc;
+                    xmlArr += '</td>';
+
+                    xmlArr += '<td>';
+                    xmlArr += xml_item;
+                    xmlArr += '</td>';
+
+                    xmlArr += '</tr>';
+                }
+            }); //end loop
+        }
+
+        return xmlArr;
     }
 
     function xml_parser(wrapper) {
@@ -237,6 +413,22 @@ $(function () {
                         if (index == currentIndex)
                             $(this).addClass('highlight');
                     });
+
+                    //retrieve filter soldto result set
+                    $('table tbody').empty();
+
+                    //get soldto
+                    var soldto = '';
+                    $('#xml_nav li').each(function (index) {
+                        if ($(this).attr('class') == 'highlight')
+                            soldto = $(this).find('a').text();
+                    });
+                    var array = parseXml(xml_list, soldto);
+                    $(array).appendTo(wrapper + ' table tbody');
+                    window.setTimeout('$("' + wrapper + ' table").tablesorter();', 120);
+                    $(wrapper + ' table').hide().slideDown('200');
+                    //end filter soldto
+
 
                     xml_no = 0; //reset counter
                     var tr = wrapper + ' table tbody tr';
