@@ -17,17 +17,19 @@ $(function () {
             success: function (xml_list) {
 
                 var xmlArr = [];
+                var xml_no = 0; //numbering use
                 $(xml_list).find('order').each(function () {
 
                     var xml_deliver = $(this).attr('delivered');
                     if (xml_deliver == '') {
 
+                        xml_no++;
                         //property fields
                         var xml_soldto = $(this).attr('soldto');
                         var xml_order = $(this).attr('date');
                         var xml_price = $(this).attr('price');
 
-                        var xml_name = $(this).find('name').text();//@todo: romanize the name letter
+                        var xml_name = $(this).find('name').text(); //@todo: romanize the name letter
                         var xml_jawi = $(this).find('jawi').text();
                         var xml_born = $(this).find('born').text();
                         var xml_death = $(this).find('death').text();
@@ -53,9 +55,14 @@ $(function () {
                         desc += xml_jawi;
 
 
-                        xmlArr += '<tr>';
+                        //able to filter upon soldto person and month only
+                        xmlArr += '<tr filterCriteria="';
+                        xmlArr += xml_soldto;
+                        xmlArr += xml_order.substring(5, 7); //extract only month value
+                        xmlArr += '">';
 
                         xmlArr += '<td>';
+                        xmlArr += ''; // xml_no; //@todo: correct the numbering. Currently not renumber after sorting
                         xmlArr += '</td>';
 
                         xmlArr += '<td>';
@@ -84,6 +91,113 @@ $(function () {
                 //Add sort and zebra stripe to table (NOTE: this does not work as intended with sort feature)
                 window.setTimeout('$("' + wrapper + ' table").tablesorter();', 120);
                 $(wrapper + ' table').hide().slideDown('200');
+
+                //add filter by customer
+                var nav_link = $('#xml_nav li a');
+                nav_link.click(function () {
+                    var tr = wrapper + ' table tbody tr';
+                    $(tr).show(); //show all rows
+                    switch ($(this).attr('class')) {
+                        case 'filter_adi':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('ADI') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_ham':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('HAM') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_ken':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('KEN') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_sel':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('SEL') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_sem':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('SEM') >= 0);
+                            }).hide();
+                            break;
+                    }
+
+                    //$(tr).removeClass('stripe');
+                    //$(tr + ':visible:odd').addClass('stripe');
+                }); //end click
+
+                //add filter by month
+                var nav_month = $('#xml_month li a');
+                nav_month.click(function () {
+                    var tr = wrapper + ' table tbody tr';
+                    $(tr).show(); //show all rows
+                    switch ($(this).attr('class')) {
+                        case 'filter_01':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('01') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_02':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('02') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_03':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('03') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_04':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('04') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_05':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('05') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_06':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('06') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_07':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('07') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_08':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('08') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_09':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('09') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_10':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('10') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_11':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('11') >= 0);
+                            }).hide();
+                            break;
+                        case 'filter_12':
+                            $(tr).filter(function (index) {
+                                return !($(this).attr('filterCriteria').indexOf('12') >= 0);
+                            }).hide();
+                            break;
+                    }
+                });
+
             }
         }); //end ajax
     } //end function
