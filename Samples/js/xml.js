@@ -13,9 +13,9 @@ http://www.opensource.org/licenses/mit-license.php
 $(function () {
 
     /**
-     * Convert to roman letter.
-     * ie. ali bin Ahmad -> Ali bin Ahmad.
-     */
+    * Convert to roman letter.
+    * ie. ali bin Ahmad -> Ali bin Ahmad.
+    */
     function toRoman(name) {
         var roman = '';
         var words = name.toLowerCase().split(' ');
@@ -150,6 +150,22 @@ $(function () {
                 //add filter by customer
                 var nav_link = $('#xml_nav li a');
                 nav_link.click(function () {
+
+                    //get current index and reset all highlight
+                    var currentClass = $(this).attr('class');
+                    var currentIndex = -1;
+                    nav_link.parent().each(function (index) {
+                        if ($(this).find('a').attr('class') == currentClass)
+                            currentIndex = index;
+                        $(this).removeClass();
+                    });
+                    //highlist selected value
+                    nav_link.parent().each(function (index) {
+                        if (index == currentIndex)
+                            $(this).addClass('highlight');
+                    });
+                    //nav_link.parent().get(currentIndex).addClass('highlight');
+
                     xml_no = 0; //reset counter
                     var tr = wrapper + ' table tbody tr';
                     $(tr).show(); //show all rows
@@ -207,6 +223,21 @@ $(function () {
                 //add filter by month
                 var nav_month = $('#xml_month li a');
                 nav_month.click(function () {
+
+                    //get current index and reset all highlight
+                    var currentClass = $(this).attr('class');
+                    var currentIndex = -1;
+                    nav_month.parent().each(function (index) {
+                        if ($(this).find('a').attr('class') == currentClass)
+                            currentIndex = index;
+                        $(this).removeClass();
+                    });
+                    //highlist selected value
+                    nav_month.parent().each(function (index) {
+                        if (index == currentIndex)
+                            $(this).addClass('highlight');
+                    });
+
                     xml_no = 0; //reset counter
                     var tr = wrapper + ' table tbody tr';
                     $(tr).show(); //show all rows
