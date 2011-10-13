@@ -7,6 +7,9 @@ Licensed under the MIT License:
 http://www.opensource.org/licenses/mit-license.php
 */
 
+/**
+ @todo: add validation rule to highlight in red.
+*/
 $(function () {
 
     function xml_parser(wrapper) {
@@ -29,7 +32,8 @@ $(function () {
                         var xml_order = $(this).attr('date');
                         var xml_price = $(this).attr('price');
 
-                        var xml_name = $(this).find('name').text(); //@todo: romanize the name letter
+                        //@todo: romanize the name letter
+                        var xml_name = $(this).find('name').text();
                         var xml_jawi = $(this).find('jawi').text();
                         var xml_born = $(this).find('born').text();
                         var xml_death = $(this).find('death').text();
@@ -59,10 +63,26 @@ $(function () {
                         xmlArr += '<tr filterCriteria="';
                         xmlArr += xml_soldto;
                         xmlArr += xml_order.substring(5, 7); //extract only month value
-                        xmlArr += '">';
+                        xmlArr += '"';
 
+                        //add color style
+                        xmlArr += ' class="';
+                        if (xml_item.indexOf('Batik') >= 0) {
+                            xmlArr += 'blue';
+                        } else if (xml_item.indexOf('Hijau') >= 0) {
+                            xmlArr += 'green';
+                        } else if (xml_item.indexOf('Putih') >= 0) {
+                            xmlArr += 'white';
+                        } else if (xml_item.indexOf('½') >= 0) {
+                            xmlArr += 'italic';
+                        }
+                        xmlArr += '"';
+
+                        xmlArr += '>';
+
+                        //@todo: correct the numbering. Currently not renumber after sorting
                         xmlArr += '<td>';
-                        xmlArr += ''; // xml_no; //@todo: correct the numbering. Currently not renumber after sorting
+                        xmlArr += ''; // xml_no;
                         xmlArr += '</td>';
 
                         xmlArr += '<td>';
@@ -121,6 +141,12 @@ $(function () {
                         case 'filter_sem':
                             $(tr).filter(function (index) {
                                 return !($(this).attr('filterCriteria').indexOf('SEM') >= 0);
+                            }).hide();
+                            break;
+
+                        default:
+                            $(tr).filter(function (index) {
+                                return false;
                             }).hide();
                             break;
                     }
