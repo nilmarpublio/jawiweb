@@ -12,7 +12,39 @@ http://www.opensource.org/licenses/mit-license.php
 */
 $(function () {
 
+    /**
+     * Convert to roman letter.
+     * ie. ali bin Ahmad -> Ali bin Ahmad.
+     */
+    function toRoman(name) {
+        var roman = '';
+        var words = name.toLowerCase().split(' ');
+        //alert(words.length);
+        $.each(words, function (index, value) {
+
+            //except bin or bt
+            if (value == 'bin' || value == 'bt') {
+                roman += value;
+                roman += ' ';
+            } else {
+                //alert(value);
+                //alert(value.length);
+                var word = '';
+                word += value.substring(0, 1).toUpperCase();
+                word += value.substring(1, value.length);
+
+                //alert(word);
+                roman += word;
+                roman += ' ';
+            }
+        });
+        roman = roman.trim();
+
+        return roman;
+    }
+
     function xml_parser(wrapper) {
+
         $.ajax({
             type: 'GET',
             url: 'nisan.xml',
@@ -44,7 +76,7 @@ $(function () {
 
                         //compute desciption
                         var desc = '';
-                        desc += xml_name;
+                        desc += toRoman(xml_name); // xml_name.toLowerCase();
                         desc += ' (';
                         if (xml_born != '') {
                             desc += xml_born;
@@ -231,7 +263,7 @@ $(function () {
                         case 'filter_08':
                             $(tr).filter(function (index) {
                                 var yes = ($(this).attr('filterCriteria').indexOf('08') >= 0);
-                                if(yes) xml_no++;
+                                if (yes) xml_no++;
                                 return !yes;
                             }).hide();
                             break;
