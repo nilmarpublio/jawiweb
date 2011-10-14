@@ -57,6 +57,18 @@ function toRoman(name) {
 }
 
 /**
+* True if it is a valid entry otherwise false.
+* <param> name String Death person name.
+* <param> item String Item type.
+*/
+function isValidate(name, item) {
+if (name.indexOf('bin') >= 0 && item.indexOf('(P)') >= 0) return false;
+if (name.indexOf('bt') >= 0 && item.indexOf('(L)') >= 0) return false;
+
+return true;
+}
+
+/**
 * Return HTML string for table structure.
 * <param> xml_list
 * <param> soldto String soldto person.
@@ -265,7 +277,6 @@ function xml_parser(wrapper) {
                     var xml_order = $(this).attr('date');
                     var xml_price = $(this).attr('price');
 
-                    //@todo: romanize the name letter
                     var xml_name = $(this).find('name').text();
                     var xml_jawi = $(this).find('jawi').text();
                     var xml_born = $(this).find('born').text();
@@ -277,7 +288,7 @@ function xml_parser(wrapper) {
 
                     //compute desciption
                     var desc = '';
-                    desc += toRoman(xml_name); // xml_name.toLowerCase();
+                    desc += toRoman(xml_name);// romanize name
                     desc += ' (';
                     if (xml_born != '') {
                         desc += xml_born;
@@ -306,15 +317,18 @@ function xml_parser(wrapper) {
 
                     //add color style
                     xmlArr += ' class="';
-                    if (xml_item.indexOf('Batik') >= 0) {
+                    if (!isValidate(xml_name, xml_item)) {
+                        xmlArr += 'red';
+                     } else if (xml_item.indexOf('½') >= 0) {
+                        xmlArr += 'italic';
+                    } else if (xml_item.indexOf('Batik') >= 0) {
                         xmlArr += 'blue';
                     } else if (xml_item.indexOf('Hijau') >= 0) {
                         xmlArr += 'green';
                     } else if (xml_item.indexOf('Putih') >= 0) {
                         xmlArr += 'white';
-                    } else if (xml_item.indexOf('½') >= 0) {
-                        xmlArr += 'italic';
                     }
+
                     xmlArr += '"';
                     xmlArr += '>';
 
@@ -334,7 +348,7 @@ function xml_parser(wrapper) {
                     xmlArr += '<td>';
                     xmlArr += '<input type="checkbox" id="' + chk + '"';
                     xmlArr += ' onclick="setStrikeThrough(\'' + chk + '\')"';
-                    xmlArr += ' style="cursor:pointer;" />';//change cursor become a hand when hover
+                    xmlArr += ' style="cursor:pointer;" />'; //change cursor become a hand when hover
                     xmlArr += '</td>';
 
                     xmlArr += '</tr>';
@@ -553,12 +567,11 @@ function xml_parser(wrapper) {
             }); //end click on month
 
         }
-    });    //end ajax
+    });        //end ajax
 } //end function
 
 /**
-* Initialize page
-* @todo: add validation rule to highlight in red.
+* Initialize page.
 */
 $(function () {
 
