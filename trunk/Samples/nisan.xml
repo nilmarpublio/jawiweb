@@ -5069,6 +5069,29 @@
     <deathm>1431-08-20</deathm>
     <item>PV Egg</item>
   </order>
+  <order soldto="KIL" date="2011-10-13" delivered="" price="230">
+    <name>Yah Bt Said</name>
+		<jawi>يه بنت سعيد</jawi>
+    <born>1926-01-24</born>
+		<death>2011-09-14</death>
+		<deathm>1432-10-16</deathm>
+		<item>2' Batu Batik(P)</item>
+	</order>
+  <order soldto="SEM" date="2011-10-14" delivered="" price="230">
+    <name>mat kasa bin awang</name>
+    <jawi>مت كاسا بن أواڠ</jawi>
+    <death>1972-01-11</death>
+    <deathm>1391-11-25</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2011-10-14" delivered="" price="110">
+    <name></name>
+    <jawi></jawi>
+    <death></death>
+    <deathm></deathm>
+    <item>2' Batu Batik(P)</item>
+    <remarks>1 pcs blank only</remarks>
+  </order>
   <!--<order soldto="" date="" delivered="" price="230">
 		<name></name>
 		<jawi></jawi>
