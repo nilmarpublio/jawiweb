@@ -8,7 +8,29 @@ http://www.opensource.org/licenses/mit-license.php
 */
 
 /**
- @todo: add validation rule to highlight in red.
+* Set the name become strikethrough when the checkbox is checked
+* otherwise not.
+* <param> chk String A checkbox id.
+*/
+function setStrikeThrough(chk) {
+    //alert('setStrikeThrough');
+    var id = '#';
+    id += chk;
+    //@todo: get correct id then addClass('strikethrough');
+    var target = '#item_';
+    var ids = id.split('_');
+    if (ids.length > 1) {
+        target += ids[1];
+        if ($(id).is(':checked')) {
+            $(target).addClass('strikethrough');
+        } else {
+            $(target).removeClass('strikethrough');
+        }
+    }
+}
+
+/**
+@todo: add validation rule to highlight in red.
 */
 $(function () {
 
@@ -126,6 +148,10 @@ $(function () {
                 xmlArr += xml_item;
                 xmlArr += '</td>';
 
+                xmlArr += '<td>';
+                xmlArr += '<input type="checkbox"/>';
+                xmlArr += '</td>';
+
                 xmlArr += '</tr>';
 
             }); //end loops
@@ -211,6 +237,10 @@ $(function () {
                     xmlArr += xml_item;
                     xmlArr += '</td>';
 
+                    xmlArr += '<td>';
+                    xmlArr += '<input type="checkbox"/>';
+                    xmlArr += '</td>';
+
                     xmlArr += '</tr>';
                 }
             }); //end loop
@@ -266,9 +296,17 @@ $(function () {
                         desc += ') ';
                         desc += xml_jawi;
 
+                        
+                        //begin compute each row of content
+                        xmlArr += '<tr';
+
+                        //add id for each row
+                        xmlArr += ' id="item_';
+                        xmlArr += xml_no;
+                        xmlArr += '"';
 
                         //able to filter upon soldto person and month only
-                        xmlArr += '<tr filterCriteria="';
+                        xmlArr += ' filterCriteria="';
                         xmlArr += xml_soldto;
                         xmlArr += xml_order.substring(5, 7); //extract only month value
                         xmlArr += '"';
@@ -301,12 +339,30 @@ $(function () {
                         xmlArr += xml_order;
                         xmlArr += '</td>';
 
-                        xmlArr += '<td>';
+                        xmlArr += '<td';
+//                        xmlArr += ' id="item_';
+//                        xmlArr += xml_no;
+//                        xmlArr += '"';
+                        xmlArr += '>';
                         xmlArr += desc;
                         xmlArr += '</td>';
 
                         xmlArr += '<td>';
                         xmlArr += xml_item;
+                        xmlArr += '</td>';
+
+                        var chk = 'chk_';
+                        chk += xml_no;
+                        xmlArr += '<td>';
+                        //xmlArr += '<input type="checkbox" onclick="alert(\'hi\');"';
+                        xmlArr += '<input type="checkbox"';
+                        xmlArr += ' id="';
+                        xmlArr += chk;
+                        xmlArr += '"';
+                        xmlArr += ' onclick="setStrikeThrough(\'';
+                        xmlArr += chk;
+                        xmlArr += '\')"';
+                        xmlArr += '></input>';
                         xmlArr += '</td>';
 
                         xmlArr += '</tr>';
