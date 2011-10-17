@@ -5092,6 +5092,13 @@
     <item>2' Batu Batik(P)</item>
     <remarks>1 pcs blank only</remarks>
   </order>
+  <order soldto="SEM" date="2011-10-17" delivered="" price="230">
+    <name>Hj Ghazali bin puteh</name>
+    <jawi>حاج غزالي بن فوتيه</jawi>
+    <death>2011-09-11</death>
+    <deathm>1432-10-13</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
   <!--<order soldto="" date="" delivered="" price="230">
 		<name></name>
 		<jawi></jawi>
