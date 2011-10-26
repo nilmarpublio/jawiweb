@@ -4095,8 +4095,8 @@
   </rootname>
   <rootname>
     <rumi>fitri</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>فطري</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>fitriyah</rumi>
@@ -9468,8 +9468,8 @@
   </rootname>
   <rootname>
     <rumi>munir</rumi>
-    <jawi />
-    <sex>0</sex>
+	<jawi>مونير</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>munn</rumi>
@@ -12051,7 +12051,7 @@
   <rootname>
     <rumi>rogayah</rumi>
     <jawi>روڬايه</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>rohaida</rumi>
@@ -13142,6 +13142,8 @@
   </rootname>
   <rootname>
     <rumi>samion</rumi>
+	<jawi>سامعين</jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>samiun</rumi>
@@ -14156,8 +14158,8 @@
   </rootname>
   <rootname>
     <rumi>shari</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شاري</jawi
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shariah</rumi>
