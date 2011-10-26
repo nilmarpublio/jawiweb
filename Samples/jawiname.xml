@@ -157,7 +157,7 @@
   </rootname>
   <rootname>
     <rumi>abd</rumi>
-    <jawi>عبدل</jawi>
+    <jawi>عبدال</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
@@ -3431,11 +3431,13 @@
   </rootname>
   <rootname>
     <rumi>easah</rumi>
+    <jawi>ياشه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>eashah</rumi>
     <jawi>ياشه</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>ebau</rumi>
@@ -3941,7 +3943,7 @@
   </rootname>
   <rootname>
     <rumi>fatah</rumi>
-    <jawi />
+    <jawi>فته</jawi>
     <sex>0</sex>
   </rootname>
   <rootname>
@@ -5584,8 +5586,8 @@
   </rootname>
   <rootname>
     <rumi>ibramsa</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ابرامسا</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ibramsah</rumi>
@@ -6963,8 +6965,8 @@
   </rootname>
   <rootname>
     <rumi>kamaruzaman</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>كاماروزامان</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>kamaruzzaman</rumi>
@@ -9928,7 +9930,7 @@
   <rootname>
     <rumi>nasir</rumi>
     <jawi>ناصير</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>nasirulhak</rumi>
@@ -12766,8 +12768,8 @@
   </rootname>
   <rootname>
     <rumi>sahib</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ساهيب</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>sahid</rumi>
@@ -14302,11 +14304,13 @@
   </rootname>
   <rootname>
     <rumi>shifa'</rumi>
+    <jawi>شيفه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>shifah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شيفه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>shikh</rumi>
@@ -15743,8 +15747,8 @@
   </rootname>
   <rootname>
     <rumi>umi</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>اومي</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>ummal</rumi>
@@ -15753,8 +15757,8 @@
   </rootname>
   <rootname>
     <rumi>ummi</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>اومي</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>ummu</rumi>
