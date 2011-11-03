@@ -5451,4 +5451,43 @@
     <deathm>1432-10-24</deathm>
     <item>PV Budak</item>
   </order>
+  <order soldto="JEF" date="2011-11-01" delivered="" price="220">
+    <name> </name>
+    <death></death>
+    <item>2' Batu Hijau(L)</item>
+  </order>
+    <order soldto="JEF" date="2011-11-01" delivered="" price="220">
+    <name> </name>
+    <death></death>
+    <item>2' Batu Hijau(L)</item>
+  </order>
+    <order soldto="JEF" date="2011-11-01" delivered="" price="220">
+    <name> </name>
+    <death></death>
+    <item>2' Batu Hijau(L)</item>
+  </order>
+    <order soldto="JEF" date="2011-11-01" delivered="" price="220">
+    <name> </name>
+    <death></death>
+    <item>2' Batu Batik(L)</item>
+  </order>
+    <order soldto="JEF" date="2011-11-01" delivered="" price="220">
+    <name> </name>
+    <death></death>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEL" date="2011-11-03" delivered="" price="230">
+    <name>Che pah bt mat din</name>
+	<jawi>چئ فه بنت مت دين</jawi>
+    <death>2011-10-19</death>
+    <deathm>1432-11-21</deathm>
+    <item>2' Batu Putih(P)</item>
+  </order>
+  <order soldto="ADI" date="2011-11-03" delivered="" price="300">
+    <name>Siah bt metut</name>
+    <death>1989-12-16</death>
+    <deathm>1410-05-18</deathm>
+    <item>2' Batu Batik(P)</item>
+	<remarks>dua-dua batang. satu jawi satu rumi</remarks>
+  </order>
 </nisan>
