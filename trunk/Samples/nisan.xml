@@ -5344,7 +5344,7 @@
     <item>2' Sticker(L)</item>
     <remarks>4"x5" Sticker</remarks>
   </order>
-  <order soldto="HAM" date="2011-11-01" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-01" delivered="2011-11-04" price="12">
     <name>jamal mohammed bin mohd shekathi</name>
     <jawi>جمال محمد بن محمد شيكاتي</jawi>
     <death>1995-11-26</death>
@@ -5352,7 +5352,7 @@
 	<age>62</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-11-01" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-01" delivered="2011-11-04" price="12">
     <name>abd rahim@hussain bin puteh</name>
     <jawi>عبدالرحيم/حُسين بن فوتيه</jawi>
 	<born>1946-08-26</born>
@@ -5360,7 +5360,7 @@
     <deathm>1432-04-05</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-11-01" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-01" delivered="2011-11-04" price="12">
     <name>mat kasa bin mohamad</name>
     <jawi>مت كاسا بن محمد</jawi>
     <death>2011-05-25</death>
@@ -5368,7 +5368,7 @@
 	<age>70</age>
 	<item>4"x5" Sticker</item>
   </order>
-  <order soldto="HAM" date="2011-11-01" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-01" delivered="2011-11-04" price="12">
     <name>fatimah bt ishak(mak yang)</name>
     <jawi>فطمة بنت اسحاق(مك يڠ)</jawi>
     <death>2011-10-09</death>
@@ -5376,7 +5376,7 @@
 	<age>67</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-11-01" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-01" delivered="2011-11-04" price="12">
     <name>jaltunbee bt syed ibrahim shah</name>
     <jawi>جلتون بي شيد إبراهيم شه</jawi>
     <death>2011-10-21</death>
@@ -5384,7 +5384,7 @@
 	<age>58</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-11-01" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-01" delivered="2011-11-04" price="12">
     <name>wan azizi hakimi bin mohd azhar</name>
     <jawi>وان ازيزي حاكيمي بن محمد ازهار</jawi>
     <death>2011-08-08</death>
@@ -5400,7 +5400,7 @@
     <item>4" Sticker</item>
     <remarks>rumi sahaja</remarks>
   </order>
-  <order soldto="HAM" date="2011-11-02" delivered="" price="35">
+  <order soldto="HAM" date="2011-11-02" delivered="2011-11-04" price="35">
     <name>AZEHAR BIN HASSAN</name>
     <jawi>ازهار بن حسن</jawi>
     <death>2011-10-29</death>
@@ -5451,27 +5451,27 @@
     <deathm>1432-10-24</deathm>
     <item>PV Budak</item>
   </order>
-  <order soldto="JEF" date="2011-11-01" delivered="" price="220">
+  <order soldto="JEF" date="2011-11-01" delivered="2011-11-04" price="220">
     <name> </name>
     <death></death>
     <item>2' Batu Hijau(L)</item>
   </order>
-    <order soldto="JEF" date="2011-11-01" delivered="" price="220">
+    <order soldto="JEF" date="2011-11-01" delivered="2011-11-04" price="220">
     <name> </name>
     <death></death>
     <item>2' Batu Hijau(L)</item>
   </order>
-    <order soldto="JEF" date="2011-11-01" delivered="" price="220">
+    <order soldto="JEF" date="2011-11-01" delivered="2011-11-04" price="220">
     <name> </name>
     <death></death>
     <item>2' Batu Hijau(L)</item>
   </order>
-    <order soldto="JEF" date="2011-11-01" delivered="" price="220">
+    <order soldto="JEF" date="2011-11-01" delivered="2011-11-04" price="220">
     <name> </name>
     <death></death>
     <item>2' Batu Batik(L)</item>
   </order>
-    <order soldto="JEF" date="2011-11-01" delivered="" price="220">
+    <order soldto="JEF" date="2011-11-01" delivered="2011-11-04" price="220">
     <name> </name>
     <death></death>
     <item>2' Batu Batik(L)</item>
