@@ -5491,4 +5491,24 @@
     <item>2' Batu Batik(P)</item>
 	<remarks>dua-dua batang. satu jawi satu rumi</remarks>
   </order>
+    <order soldto="ChinTak" date="2011-11-04" delivered="" price="180">
+    <name>5pcs</name>
+    <item>天官(元宝)</item>
+  </order>
+  <order soldto="ChinTak" date="2011-11-04" delivered="" price="180">
+    <name>5pcs</name>
+    <item>天官(龙)</item>
+  </order>
+  <order soldto="ChinTak" date="2011-11-04" delivered="" price="180">
+    <name>5pcs</name>
+    <item>灶君</item>
+  </order>
+  <order soldto="ChinTak" date="2011-11-04" delivered="" price="180">
+    <name>2pcs</name>
+    <item>地主(元宝)浮</item>
+  </order>
+  <order soldto="ChinTak" date="2011-11-04" delivered="" price="180">
+    <name>15pcs</name>
+    <item>桌</item>
+  </order>
 </nisan>
