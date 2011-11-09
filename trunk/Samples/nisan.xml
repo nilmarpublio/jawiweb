@@ -5349,13 +5349,13 @@
     <jawi>جمال محمد بن محمد شيكاتي</jawi>
     <death>1995-11-26</death>
     <deathm>1416-07-04</deathm>
-	<age>62</age>
+    <age>62</age>
     <item>2' Sticker(L)</item>
   </order>
   <order soldto="HAM" date="2011-11-01" delivered="2011-11-04" price="12">
     <name>abd rahim@hussain bin puteh</name>
     <jawi>عبدالرحيم/حُسين بن فوتيه</jawi>
-	<born>1946-08-26</born>
+    <born>1946-08-26</born>
     <death>2011-03-10</death>
     <deathm>1432-04-05</deathm>
     <item>2' Sticker(L)</item>
@@ -5365,15 +5365,15 @@
     <jawi>مت كاسا بن محمد</jawi>
     <death>2011-05-25</death>
     <deathm>1432-06-21</deathm>
-	<age>70</age>
-	<item>4"x5" Sticker</item>
+    <age>70</age>
+    <item>4"x5" Sticker</item>
   </order>
   <order soldto="HAM" date="2011-11-01" delivered="2011-11-04" price="12">
     <name>fatimah bt ishak(mak yang)</name>
     <jawi>فطمة بنت اسحاق(مك يڠ)</jawi>
     <death>2011-10-09</death>
     <deathm>1432-11-11</deathm>
-	<age>67</age>
+    <age>67</age>
     <item>2' Sticker(P)</item>
   </order>
   <order soldto="HAM" date="2011-11-01" delivered="2011-11-04" price="12">
@@ -5381,7 +5381,7 @@
     <jawi>جلتون بي شيد إبراهيم شه</jawi>
     <death>2011-10-21</death>
     <deathm>1432-11-23</deathm>
-	<age>58</age>
+    <age>58</age>
     <item>2½' Sticker(P)</item>
   </order>
   <order soldto="HAM" date="2011-11-01" delivered="2011-11-04" price="12">
@@ -5389,10 +5389,10 @@
     <jawi>وان ازيزي حاكيمي بن محمد ازهار</jawi>
     <death>2011-08-08</death>
     <deathm>1432-09-08</deathm>
-	<age>9</age>
+    <age>9</age>
     <item>2' Sticker(L)</item>
   </order>
-    <order soldto="HAM" date="2011-11-01" delivered="2011-10-27" price="0">
+  <order soldto="HAM" date="2011-11-01" delivered="2011-10-27" price="0">
     <name>suami anak-anak tersayang</name>
     <jawi></jawi>
     <death></death>
@@ -5405,7 +5405,7 @@
     <jawi>ازهار بن حسن</jawi>
     <death>2011-10-29</death>
     <deathm>1432-12-02</deathm>
-	<age>29</age>
+    <age>29</age>
     <item>2' Sticker(L)</item>
   </order>
   <order soldto="ADI" date="2011-11-01" delivered="2011-11-08" price="35">
@@ -5420,7 +5420,7 @@
     <jawi>عبدالرحمن بن جعفر</jawi>
     <death>2011-08-25</death>
     <deathm>1432-09-25</deathm>
-	<age>76</age>
+    <age>76</age>
     <item>PV Egg</item>
   </order>
   <order soldto="ADI" date="2011-11-01" delivered="2011-11-08" price="35">
@@ -5456,42 +5456,42 @@
     <death></death>
     <item>2' Batu Hijau(L)</item>
   </order>
-    <order soldto="JEF" date="2011-11-01" delivered="2011-11-04" price="220">
+  <order soldto="JEF" date="2011-11-01" delivered="2011-11-04" price="220">
     <name> </name>
     <death></death>
     <item>2' Batu Hijau(L)</item>
   </order>
-    <order soldto="JEF" date="2011-11-01" delivered="2011-11-04" price="220">
+  <order soldto="JEF" date="2011-11-01" delivered="2011-11-04" price="220">
     <name> </name>
     <death></death>
     <item>2' Batu Hijau(L)</item>
   </order>
-    <order soldto="JEF" date="2011-11-01" delivered="2011-11-04" price="220">
+  <order soldto="JEF" date="2011-11-01" delivered="2011-11-04" price="220">
     <name> </name>
     <death></death>
     <item>2' Batu Batik(L)</item>
   </order>
-    <order soldto="JEF" date="2011-11-01" delivered="2011-11-04" price="220">
+  <order soldto="JEF" date="2011-11-01" delivered="2011-11-04" price="220">
     <name> </name>
     <death></death>
     <item>2' Batu Batik(L)</item>
   </order>
   <order soldto="SEL" date="2011-11-03" delivered="2011-11-05" price="230">
     <name>Che pah bt mat din</name>
-	<jawi>چئ فه بنت مت دين</jawi>
+    <jawi>چئ فه بنت مت دين</jawi>
     <death>2011-10-19</death>
     <deathm>1432-11-21</deathm>
     <item>2' Batu Putih(P)</item>
   </order>
   <order soldto="ADI" date="2011-11-03" delivered="" price="300">
     <name>Siah bt metut</name>
-	<jawi>سيه بنت متعة</jawi>
+    <jawi>سيه بنت متعة</jawi>
     <death>1989-12-16</death>
     <deathm>1410-05-18</deathm>
     <item>2' Batu Batik(P)</item>
-	<remarks>dua-dua batang. satu jawi satu rumi</remarks>
+    <remarks>dua-dua batang. satu jawi satu rumi</remarks>
   </order>
-    <order soldto="ChinTak" date="2011-11-04" delivered="" price="180">
+  <order soldto="ChinTak" date="2011-11-04" delivered="" price="180">
     <name>5pcs</name>
     <item>天官(元宝)</item>
   </order>
@@ -5545,5 +5545,28 @@
     <death>2003-10-13</death>
     <deathm>1424-08-17</deathm>
     <item>2' Batu Putih(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-11-08" delivered="" price="12">
+    <name>fadzil mohd bin nur hashim</name>
+    <jawi>فضيل محمد بن نور هاشيم</jawi>
+    <death>2011-10-18</death>
+    <deathm>1432-11-20</deathm>
+    <age>64</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-11-08" delivered="" price="12">
+    <name>maznah bt mohd</name>
+    <jawi>مزنه بنت محمد</jawi>
+    <death>2011-10-09</death>
+    <deathm>1432-11-11</deathm>
+    <age>69</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-11-08" delivered="" price="12">
+    <name>hjh naseeba hafsa bt hasbullah</name>
+    <jawi>حجه ناسيبا حفسا بنت حسبوالله</jawi>
+    <death>2011-07-29</death>
+    <deathm>1432-08-27</deathm>
+    <item>2' Sticker(P)</item>
   </order>
 </nisan>
