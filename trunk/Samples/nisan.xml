@@ -5511,4 +5511,39 @@
     <name>15pcs</name>
     <item>桌</item>
   </order>
+  <order soldto="SEM" date="2011-11-07" delivered="" price="230">
+    <name>ramli bin ahmad</name>
+    <jawi></jawi>
+    <death>2011-10-12</death>
+    <deathm>1432-11-14</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2011-11-07" delivered="" price="230">
+    <name>nor ipah apiqah bt pisol</name>
+    <jawi>نور عفه أبقاه بنت بصل</jawi>
+    <death>2011-10-20</death>
+    <deathm>1432-11-22</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="ADI" date="2011-11-09" delivered="" price="35">
+    <name>rubikam bt tulus</name>
+    <jawi>ربكم بنت تولوس</jawi>
+    <death>2009-04-01</death>
+    <deathm>1430-04-05</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-11-09" delivered="" price="35">
+    <name>zuryatina bt alkiah</name>
+    <jawi>ذرياتنا بنت ألقاه</jawi>
+    <death>2011-06-20</death>
+    <deathm>1432-07-18</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-11-09" delivered="" price="260">
+    <name>hj ayub bin mohd yusof</name>
+    <jawi>حاج أيوب بن محمد يوسوف</jawi>
+    <death>2003-10-13</death>
+    <deathm>1424-08-17</deathm>
+    <item>2' Batu Putih(L)</item>
+  </order>
 </nisan>
