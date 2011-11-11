@@ -123,7 +123,7 @@
   <!-- <order soldto="妖古福" date="2011-01-09" delivered="" price="40">
 	<name>francis chan kwok cheong 曾国祥</name>
 	<born>1927-12-05</born>
-	<death>2011-01-04</death> 
+	<death>2011-01-04</death>
 	<item>11½"x11½" Black</item>
 	</order> -->
   <order soldto="妖古福" date="2011-01-15" delivered="2011-01-18" price="50">
@@ -1202,10 +1202,10 @@
     <deathm>1431-03-08</deathm>
     <item>PV</item>
   </order>
-  <!--<order soldto="ADI" date="2011-03-09" delivered="2011-03-13" price="25"> 
+  <!--<order soldto="ADI" date="2011-03-09" delivered="2011-03-13" price="25">
 		<name>saibah bt hj abd karim</name>
 		<jawi>صباح بنت حاج عبدلكريم</jawi>
-		<death>2011-02-22</death> 
+		<death>2011-02-22</death>
 		<deathm>1432-03-19</deathm>
 		<item>PV</item> </order> -->
   <order soldto="ADI" date="2011-03-15" delivered="2011-03-20" price="260">
@@ -5430,19 +5430,21 @@
     <deathm>1432-08-25</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2011-11-01" delivered="" price="260">
+  <order soldto="ADI" date="2011-11-01" delivered="2011-11-09" price="260">
     <name>Basariah bt hj basri</name>
     <jawi>بسرعه بنت حاج بصري</jawi>
     <death>1980</death>
     <deathm></deathm>
     <item>2' Batu Batik(P)</item>
+    <remarks>060301211396769</remarks>
   </order>
-  <order soldto="ADI" date="2011-11-01" delivered="" price="260">
+  <order soldto="ADI" date="2011-11-01" delivered="2011-11-09" price="260">
     <name>Mohd zahari@mohd shari bin abd muttalib</name>
     <jawi>محمد زهري/محمد شاري بن عبدال مطالب</jawi>
     <death>2011-07-11</death>
     <deathm>1432-08-09</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>060301211396769</remarks>
   </order>
   <order soldto="ADI" date="2011-11-01" delivered="2011-11-08" price="35">
     <name>nur alya adriana bt mohamad zaki</name>
@@ -5489,7 +5491,7 @@
     <death>1989-12-16</death>
     <deathm>1410-05-18</deathm>
     <item>2' Batu Batik(P)</item>
-    <remarks>dua-dua batang. satu jawi satu rumi</remarks>
+    <remarks>060301211396769 dua-dua batang. satu jawi satu rumi</remarks>
   </order>
   <order soldto="ChinTak" date="2011-11-04" delivered="" price="180">
     <name>5pcs</name>
@@ -5513,7 +5515,7 @@
   </order>
   <order soldto="SEM" date="2011-11-07" delivered="" price="230">
     <name>ramli bin ahmad</name>
-    <jawi></jawi>
+    <jawi>رماي رماي أحمد</jawi>
     <death>2011-10-12</death>
     <deathm>1432-11-14</deathm>
     <item>2' Batu Batik(L)</item>
@@ -5567,6 +5569,22 @@
     <jawi>حجه ناسيبا حفسا بنت حسبوالله</jawi>
     <death>2011-07-29</death>
     <deathm>1432-08-27</deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-11-11" delivered="" price="12">
+    <name>mohd halim bin abdullah</name>
+    <jawi>محمد حليم بن عبدالله</jawi>
+    <death>2010-12-01</death>
+    <deathm>1431-12-24</deathm>
+    <age>54</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-11-11" delivered="" price="12">
+    <name>rohani bt hashim</name>
+    <jawi>روحني بنت هاشم</jawi>
+    <death>2011-11-08</death>
+    <deathm>1432-12-12</deathm>
+    <age>53</age>
     <item>2' Sticker(P)</item>
   </order>
 </nisan>
