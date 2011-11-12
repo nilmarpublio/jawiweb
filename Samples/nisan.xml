@@ -5522,7 +5522,7 @@
   </order>
   <order soldto="SEM" date="2011-11-07" delivered="" price="230">
     <name>nor ipah apiqah bt pisol</name>
-    <jawi>نور عفه أبقاه بنت بصل</jawi>
+    <jawi>نور عفه افيقه بنت بصل</jawi>
     <death>2011-10-20</death>
     <deathm>1432-11-22</deathm>
     <item>2' Batu Batik(P)</item>
@@ -5586,5 +5586,33 @@
     <deathm>1432-12-12</deathm>
     <age>53</age>
     <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="ADI" date="2011-11-12" delivered="" price="35">
+    <name>hj md ramli bin nandar@munadar</name>
+    <jawi>حاج مد رماي بن ننظر/مُناضر</jawi>
+    <death>2011-07-26</death>
+    <deathm>1432-08-24</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2011-11-12" delivered="" price="35">
+    <name>muhammad azarun naim bt sabeah</name>
+    <jawi>محمد ازارون نعيم بنت صباح</jawi>
+    <death>2009-08-23</death>
+    <deathm>1430-09-02</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2011-11-12" delivered="" price="35">
+    <name>minah bt awang</name>
+    <jawi>مينه بنت أواڠ</jawi>
+    <death>2011-10-24</death>
+    <deathm>1432-11-26</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-11-12" delivered="" price="35">
+    <name>marziah bt hj musa</name>
+    <jawi>مارزيه بنت حاج موسا</jawi>
+    <death>2011-05-23</death>
+    <deathm>1432-06-19</deathm>
+    <item>PV</item>
   </order>
 </nisan>
