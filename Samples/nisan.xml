@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
+<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="KEN" date="2011-01-03" delivered="2011-01-23" price="210">
     <name>Jamaliah Bt Saat</name>
@@ -5400,7 +5400,7 @@
     <item>4" Sticker</item>
     <remarks>rumi sahaja</remarks>
   </order>
-  <order soldto="HAM" date="2011-11-02" delivered="2011-11-04" price="35">
+  <order soldto="HAM" date="2011-11-02" delivered="2011-11-04" price="12">
     <name>AZEHAR BIN HASSAN</name>
     <jawi>ازهار بن حسن</jawi>
     <death>2011-10-29</death>
@@ -5548,7 +5548,7 @@
     <deathm>1424-08-17</deathm>
     <item>2' Batu Putih(L)</item>
   </order>
-  <order soldto="HAM" date="2011-11-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-08" delivered="2011-11-14" price="12">
     <name>fadzil mohd bin nur hashim</name>
     <jawi>فضيل محمد بن نور هاشيم</jawi>
     <death>2011-10-18</death>
@@ -5556,7 +5556,7 @@
     <age>64</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-11-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-08" delivered="2011-11-14" price="12">
     <name>maznah bt mohd</name>
     <jawi>مزنه بنت محمد</jawi>
     <death>2011-10-09</death>
@@ -5564,14 +5564,14 @@
     <age>69</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-11-08" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-08" delivered="2011-11-14" price="12">
     <name>hjh naseeba hafsa bt hasbullah</name>
     <jawi>حجه ناسيبا حفسا بنت حسبوالله</jawi>
     <death>2011-07-29</death>
     <deathm>1432-08-27</deathm>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-11-11" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-11" delivered="2011-11-14" price="12">
     <name>mohd halim bin abdullah</name>
     <jawi>محمد حليم بن عبدالله</jawi>
     <death>2010-12-01</death>
@@ -5579,7 +5579,7 @@
     <age>54</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-11-11" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-11" delivered="2011-11-14" price="12">
     <name>rohani bt hashim</name>
     <jawi>روحني بنت هاشم</jawi>
     <death>2011-11-08</death>
