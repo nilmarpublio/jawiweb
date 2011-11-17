@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
+<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="KEN" date="2011-01-03" delivered="2011-01-23" price="210">
     <name>Jamaliah Bt Saat</name>
@@ -5485,13 +5485,13 @@
     <deathm>1432-11-21</deathm>
     <item>2' Batu Putih(P)</item>
   </order>
-  <order soldto="ADI" date="2011-11-03" delivered="" price="300">
+  <order soldto="ADI" date="2011-11-03" delivered="2011-11-15" price="300">
     <name>Siah bt metut</name>
     <jawi>سيه بنت متعة</jawi>
     <death>1989-12-16</death>
     <deathm>1410-05-18</deathm>
     <item>2' Batu Batik(P)</item>
-    <remarks>060301211396769 dua-dua batang. satu jawi satu rumi</remarks>
+    <remarks>060301211396769 dua-dua batang. satu jawi satu rumi 060301211396766</remarks>
   </order>
   <order soldto="ChinTak" date="2011-11-04" delivered="" price="180">
     <name>5pcs</name>
@@ -5541,12 +5541,13 @@
     <deathm>1432-07-18</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2011-11-09" delivered="" price="260">
+  <order soldto="ADI" date="2011-11-09" delivered="2011-11-15" price="260">
     <name>hj ayub bin mohd yusof</name>
     <jawi>حاج أيوب بن محمد يوسوف</jawi>
     <death>2003-10-13</death>
     <deathm>1424-08-17</deathm>
     <item>2' Batu Putih(L)</item>
+    <remarks>060301211396766</remarks>
   </order>
   <order soldto="HAM" date="2011-11-08" delivered="2011-11-14" price="12">
     <name>fadzil mohd bin nur hashim</name>
@@ -5614,5 +5615,12 @@
     <death>2011-05-23</death>
     <deathm>1432-06-19</deathm>
     <item>PV</item>
+  </order>  
+  <order soldto="SEL" date="2011-11-17" delivered="" price="230">
+    <name>Zakaria bin che din</name>
+    <jawi>زكريا بن چئ دين</jawi>
+    <death>2011-10-31</death>
+    <deathm>1432-12-04</deathm>
+    <item>2' Batu Hitam(L)</item>
   </order>
 </nisan>
