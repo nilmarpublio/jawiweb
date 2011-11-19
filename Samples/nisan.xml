@@ -5653,4 +5653,77 @@
     <deathm>1418-05-25</deathm>
     <item>PV</item>
   </order>
+  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+    <name>sahul hameed bin md ali</name>
+    <jawi>ساهول حميد بن مد علي</jawi>
+    <death>2011-10-06</death>
+    <deathm>1432-11-08</deathm>
+    <age>54</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+    <name>wanchik bt mohamed eusoff</name>
+    <jawi>ونچيك بنت محمد يوسوف</jawi>
+    <death>2011-08-04</death>
+    <deathm>1432-09-04</deathm>
+    <age>73</age>
+    <item>2' Sticker(P)</item>
+    <remarks>all in rumi except one line of jawi name</remarks>
+  </order>
+  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+    <name>aishah bt mohd mustaffa</name>
+    <jawi>عيشه بنت محمد مُسطعفى</jawi>
+    <death>1994-05-04</death>
+    <deathm>1414-11-24</deathm>
+    <item>2' Sticker(P)</item>
+    <remarks>all in rumi except one line of jawi name</remarks>
+  </order>
+  <order soldto="HAM" date="2011-11-19" delivered="" price="0">
+    <name>mama tok</name>
+    <jawi></jawi>
+    <death></death>
+    <deathm></deathm>
+    <item>4" Sticker</item>
+    <remarks>rumi saja</remarks>
+  </order>
+  <order soldto="HAM" date="2011-11-19" delivered="" price="0">
+    <name>mak</name>
+    <jawi></jawi>
+    <death></death>
+    <deathm></deathm>
+    <item>4" Sticker</item>
+    <remarks>rumi saja</remarks>
+  </order>
+  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+    <name>balkisama bt marican</name>
+    <jawi>بالقسم بنت مريكن</jawi>
+    <death>2011-10-20</death>
+    <deathm>1432-11-22</deathm>
+    <age>76</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+    <name>leila bt ahmad shah</name>
+    <jawi>ليلى بنت أحمد شه</jawi>
+    <death>2011-11-13</death>
+    <deathm>1432-12-17</deathm>
+    <age>57</age>
+    <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+    <name>zainab bt majid</name>
+    <jawi>زاينب بنت مجيد</jawi>
+    <death>2011-10-05</death>
+    <deathm>1432-11-07</deathm>
+    <age>51</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+    <name>ismail bin hussain</name>
+    <jawi>إسماعيل بن حُسين</jawi>
+    <death>2011-09-26</death>
+    <deathm>1432-10-28</deathm>
+    <age>72</age>
+    <item>2½' Sticker(L)</item>
+  </order>
 </nisan>
