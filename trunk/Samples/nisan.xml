@@ -5623,4 +5623,34 @@
     <deathm>1432-12-04</deathm>
     <item>2' Batu Hitam(L)</item>
   </order>
+  <order soldto="ADI" date="2011-11-19" delivered="" price="260">
+    <name>mohd sahid bin sura</name>
+    <jawi>محمد ساهيد بن سورا</jawi>
+    <death>2011-10-16</death>
+    <deathm>1432-11-18</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2011-11-19" delivered="" price="260">
+    <name>ali azman bin mohd sahid</name>
+    <jawi>علي أزمان بن محمد ساهيد</jawi>
+    <death>1993-09-07</death>
+    <deathm>1414-03-21</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2011-11-19" delivered="" price="300">
+    <name>zainon bt megat mohamed</name>
+    <jawi>زاينون بنت مگت محمد</jawi>
+    <born>1942-09-01</born>
+    <death>2011-06-27</death>
+    <deathm>1432-07-25</deathm>
+    <item>2' Batu Batik(P)</item>
+    <remarks>pahat dua-dua batang satu rumi satu jawi</remarks>
+  </order>
+  <order soldto="ADI" date="2011-11-19" delivered="" price="35">
+    <name>muspiah bt ngaden</name>
+    <jawi>موسڤيه بنت ڠادن</jawi>
+    <death>1997-09-27</death>
+    <deathm>1418-05-25</deathm>
+    <item>PV</item>
+  </order>
 </nisan>
