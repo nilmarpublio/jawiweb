@@ -69,11 +69,12 @@ function isValidate(name, item) {
 
 /**
  * Generate html value for table's row.
+ * This is for filtering use.
  * @param node Xml node
  */
 function generateRow(node) {
 	
-	var xmlArr = [];
+	var output = '';
 
     //property fields
     var xml_soldto = $(node).attr('soldto');
@@ -107,54 +108,88 @@ function generateRow(node) {
 
 
     //able to filter upon soldto person and month only
-    xmlArr += '<tr filterCriteria="';
-    xmlArr += xml_soldto;
-    xmlArr += xml_order.substring(5, 7); //extract only month value
-    xmlArr += '"';
+    output += '<tr filterCriteria="';
+    output += xml_soldto;
+    output += xml_order.substring(5, 7); //extract only month value
+    output += '"';
 
     //add color style
-    xmlArr += ' class="';
+    output += ' class="';
     if (xml_item.indexOf('Batik') >= 0) {
-        xmlArr += 'blue';
+        output += 'blue';
     } else if (xml_item.indexOf('Hijau') >= 0) {
-        xmlArr += 'green';
+        output += 'green';
     } else if (xml_item.indexOf('Putih') >= 0) {
-        xmlArr += 'white';
+        output += 'white';
     } else if (xml_item.indexOf('½') >= 0) {
-        xmlArr += 'italic';
+        output += 'italic';
     }
-    xmlArr += '"';
+    output += '"';
 
-    xmlArr += '>';
+    output += '>';
 
     //TODO: correct the numbering. Currently not renumber after sorting
-    xmlArr += '<td>';
-    xmlArr += ''; // xml_no;
-    xmlArr += '</td>';
+    output += '<td>';
+    output += ''; // xml_no;
+    output += '</td>';
 
-    xmlArr += '<td>';
-    xmlArr += xml_soldto;
-    xmlArr += '</td>';
+    output += '<td>';
+    output += xml_soldto;
+    output += '</td>';
 
-    xmlArr += '<td>';
-    xmlArr += xml_order;
-    xmlArr += '</td>';
+    output += '<td>';
+    output += xml_order;
+    output += '</td>';
 
-    xmlArr += '<td>';
-    xmlArr += desc;
-    xmlArr += '</td>';
+    output += '<td>';
+    output += desc;
+    output += '</td>';
 
-    xmlArr += '<td>';
-    xmlArr += xml_item;
-    xmlArr += '</td>';
+    output += '<td>';
+    output += xml_item;
+    output += '</td>';
 
-    xmlArr += '<td>';
-    xmlArr += '<input type="checkbox"/>';
-    xmlArr += '</td>';
+    output += '<td>';
+    output += '<input type="checkbox"/>';
+    output += '</td>';
+    
+    //get aging value
+    var aging = '';
+    if(xml_order.length == 10) {
+    	
+    	if(xml_deliver.length == 10) {
+    		//deliver case
+    		var year = xml_order.substring(0,4);
+    	    var month = xml_order.substring(5,7);
+    	    var day = xml_order.substring(8,10);    	    
+    	    var from = new Date();
+    	    from.setFullYear(year,month-1,day);
+    	    
+    		var year = xml_deliver.substring(0,4);
+    	    var month = xml_deliver.substring(5,7);
+    	    var day = xml_deliver.substring(8,10);    	    
+    	    var to = new Date();
+    	    to.setFullYear(year,month-1,day);
+    	    
+    	    aging = getDifferentDays(from,to);    		
+    	} else {
+    		//compare to now
+    		var year = xml_order.substring(0,4);
+    	    var month = xml_order.substring(5,7);
+    	    var day = xml_order.substring(8,10);    	    
+    	    var from = new Date();
+    	    from.setFullYear(year,month-1,day);
+    	    
+    	    aging = getDifferentDays(from,new Date());    		
+    	}
+    }
+    output += '<td>';
+    output += aging;
+    output += '</td>';
 
-    xmlArr += '</tr>';
+    output += '</tr>';
 	
-	return xmlArr; 	
+	return output; 	
 }
 
 /**
@@ -188,6 +223,7 @@ function parseXml(xml_list, soldto) {
 
 /**
  * Compute html value with checkbox behind.
+ * This is for pending list use.
  * @param XmlNodenode Xml node
  * @param int id Unique id
  */
@@ -196,6 +232,7 @@ function generateCheckBoxRow(node,id) {
 	var output = '';
     //property fields
     var xml_soldto = $(node).attr('soldto');
+    var xml_deliver = $(node).attr('delivered');
     var xml_order = $(node).attr('date');
     var xml_price = $(node).attr('price');
     var xml_name = $(node).find('name').text();
@@ -253,7 +290,7 @@ function generateCheckBoxRow(node,id) {
     output += '"';
     output += '>';
 
-    //TODO: correct the numbering. Currently not renumber after sorting
+    //TODO: correct the numbering. Currently not remember after sorting
     output += '<td>';
     output += ''; // xml_no;
     output += '</td>';
@@ -264,13 +301,46 @@ function generateCheckBoxRow(node,id) {
     output += '<td>' + xml_item + '</td>';
 
     var chk = 'chk_';
-    chk += id;
-    
+    chk += id;    
     output += '<td>';
     output += '<input type="checkbox" id="' + chk + '"';
     output += ' onclick="setStrikeThrough(\'' + chk + '\')"';
     output += ' style="cursor:pointer;" />'; //change cursor become a hand when hover
     output += '</td>';
+    
+  //get aging value
+    var aging = '';
+    if(xml_order.length == 10) {
+    	
+    	if(xml_deliver.length == 10) {
+    		//deliver case
+    		var year = xml_order.substring(0,4);
+    	    var month = xml_order.substring(5,7);
+    	    var day = xml_order.substring(8,10);    	    
+    	    var from = new Date();
+    	    from.setFullYear(year,month-1,day);
+    	    
+    		var year = xml_deliver.substring(0,4);
+    	    var month = xml_deliver.substring(5,7);
+    	    var day = xml_deliver.substring(8,10);    	    
+    	    var to = new Date();
+    	    to.setFullYear(year,month-1,day);
+    	    
+    	    aging = getDifferentDays(from,to);    		
+    	} else {
+    		//compare to now
+    		var year = xml_order.substring(0,4);
+    	    var month = xml_order.substring(5,7);
+    	    var day = xml_order.substring(8,10);    	    
+    	    var from = new Date();
+    	    from.setFullYear(year,month-1,day);
+    	    
+    	    aging = getDifferentDays(from,new Date());    		
+    	}
+    }
+    output += '<td>';
+    output += aging;
+    output += '</td>'; 
 
     output += '</tr>';
     
@@ -291,7 +361,6 @@ function parse(wrapper) {
 
                 var xml_deliver = $(this).attr('delivered');
                 if (xml_deliver == '') {
-
                 	  xml_no++;
                       xmlArr += generateCheckBoxRow(this,xml_no);
                 }
@@ -315,14 +384,12 @@ function parse(wrapper) {
                 var currentClass = $(this).attr('class');
                 var currentIndex = -1;
                 nav_link.parent().each(function (index) {
-                    if ($(this).find('a').attr('class') == currentClass)
-                        currentIndex = index;
+                    if ($(this).find('a').attr('class') == currentClass) currentIndex = index;
                     $(this).removeClass();
                 });
                 //highlist selected value
                 nav_link.parent().each(function (index) {
-                    if (index == currentIndex)
-                        $(this).addClass('highlight');
+                    if (index == currentIndex) $(this).addClass('highlight');
                 });
                 //nav_link.parent().get(currentIndex).addClass('highlight');
 
@@ -388,14 +455,12 @@ function parse(wrapper) {
                 var currentClass = $(this).attr('class');
                 var currentIndex = -1;
                 nav_month.parent().each(function (index) {
-                    if ($(this).find('a').attr('class') == currentClass)
-                        currentIndex = index;
+                    if ($(this).find('a').attr('class') == currentClass) currentIndex = index;
                     $(this).removeClass();
                 });
                 //highlist selected value
                 nav_month.parent().each(function (index) {
-                    if (index == currentIndex)
-                        $(this).addClass('highlight');
+                    if (index == currentIndex) $(this).addClass('highlight');
                 });
 
                 //retrieve filter soldto result set
@@ -506,11 +571,38 @@ function parse(wrapper) {
 
                 //display total item
                 $('#counter').text(xml_no);
-            }); //end click on month
-
+            }); //end click on month           
         }
     });        //end ajax
 } //end function
+
+/**
+ * Return different from the date given in days.
+ * <code>
+ *  var from = new Date();
+ *  from.setFullYear(2011,10,1);
+ *  var aging = getYTDAging(from);
+ *  alert(aging+" days");
+ * </code>
+ * @param Date date Date value to compare
+ * @deprecated
+ */
+function getYTDAging(from) {
+	var now = new Date();
+	var timestampNow = Math.round(now.getTime()/1000);
+	var timestampFrom = Math.round(from.getTime()/1000);
+	return Math.round((timestampNow-timestampFrom)/(60*60*24));
+}
+/**
+ * Return different days from 2 date values.
+ * @param Date from Start date value
+ * @param Date to End date value
+ */
+function getDifferentDays(from,to) {	
+	var timestampTo = Math.round(to.getTime()/1000);	
+	var timestampFrom = Math.round(from.getTime()/1000);
+	return Math.round((timestampTo-timestampFrom)/(60*60*24));
+}
 
 /**
 * Initialize page.
