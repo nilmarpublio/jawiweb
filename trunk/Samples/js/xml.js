@@ -8,15 +8,14 @@ http://www.opensource.org/licenses/mit-license.php
 */
 
 /**
-* Set the name become strikethrough when the checkbox is checked
-* otherwise not.
-* <param> chk String A checkbox id.
+* Set the name become strikethrough when the checkbox is checked otherwise not.
+* @param chk String A checkbox id.
 */
 function setStrikeThrough(chk) {
     //alert('setStrikeThrough');
     var id = '#';
     id += chk;
-    //@todo: get correct id then addClass('strikethrough');
+    //get correct id then addClass('strikethrough');
     var target = '#item_';
     var ids = id.split('_');
     if (ids.length > 1) {
@@ -31,7 +30,7 @@ function setStrikeThrough(chk) {
 
 /**
 * Convert to roman letter.
-* ie. ali bin Ahmad -> Ali bin Ahmad.
+* ie. ali bin ahmad -> Ali bin Ahmad.
 */
 function toRoman(name) {
     var roman = '';
@@ -58,108 +57,119 @@ function toRoman(name) {
 
 /**
 * True if it is a valid entry otherwise false.
-* <param> name String Death person name.
-* <param> item String Item type.
+* @param name String Death person name.
+* @param item String Item type.
 */
 function isValidate(name, item) {
-if (name.indexOf('bin') >= 0 && item.indexOf('(P)') >= 0) return false;
-if (name.indexOf('bt') >= 0 && item.indexOf('(L)') >= 0) return false;
+	if (name.indexOf('bin') >= 0 && item.indexOf('(P)') >= 0) return false;
+	if (name.indexOf('bt') >= 0 && item.indexOf('(L)') >= 0) return false;
+	
+	return true;
+}
 
-return true;
+/**
+ * Generate html value for table's row.
+ * @param node Xml node
+ */
+function generateRow(node) {
+	
+	var xmlArr = [];
+
+    //property fields
+    var xml_soldto = $(node).attr('soldto');
+    var xml_deliver = $(node).attr('delivered');
+    var xml_order = $(node).attr('date');
+    var xml_price = $(node).attr('price');
+    var xml_name = $(node).find('name').text();
+    var xml_jawi = $(node).find('jawi').text();
+    var xml_born = $(node).find('born').text();
+    var xml_death = $(node).find('death').text();
+    var xml_deathm = $(node).find('deathm').text();
+    var xml_age = $(node).find('age').text();
+    var xml_remarks = $(node).find('remarks').text();
+    var xml_item = $(node).find('item').text();
+
+    //compute description
+    var desc = '';
+    desc += toRoman(xml_name);
+    desc += ' (';
+    if (xml_born != '') {
+        desc += xml_born;
+        desc += '~';
+    }
+    desc += xml_death;
+    if (xml_deathm != '') {
+        desc += '=';
+        desc += xml_deathm;
+    }
+    desc += ') ';
+    desc += xml_jawi;
+
+
+    //able to filter upon soldto person and month only
+    xmlArr += '<tr filterCriteria="';
+    xmlArr += xml_soldto;
+    xmlArr += xml_order.substring(5, 7); //extract only month value
+    xmlArr += '"';
+
+    //add color style
+    xmlArr += ' class="';
+    if (xml_item.indexOf('Batik') >= 0) {
+        xmlArr += 'blue';
+    } else if (xml_item.indexOf('Hijau') >= 0) {
+        xmlArr += 'green';
+    } else if (xml_item.indexOf('Putih') >= 0) {
+        xmlArr += 'white';
+    } else if (xml_item.indexOf('½') >= 0) {
+        xmlArr += 'italic';
+    }
+    xmlArr += '"';
+
+    xmlArr += '>';
+
+    //TODO: correct the numbering. Currently not renumber after sorting
+    xmlArr += '<td>';
+    xmlArr += ''; // xml_no;
+    xmlArr += '</td>';
+
+    xmlArr += '<td>';
+    xmlArr += xml_soldto;
+    xmlArr += '</td>';
+
+    xmlArr += '<td>';
+    xmlArr += xml_order;
+    xmlArr += '</td>';
+
+    xmlArr += '<td>';
+    xmlArr += desc;
+    xmlArr += '</td>';
+
+    xmlArr += '<td>';
+    xmlArr += xml_item;
+    xmlArr += '</td>';
+
+    xmlArr += '<td>';
+    xmlArr += '<input type="checkbox"/>';
+    xmlArr += '</td>';
+
+    xmlArr += '</tr>';
+	
+	return xmlArr; 	
 }
 
 /**
 * Return HTML string for table structure.
-* <param> xml_list
-* <param> soldto String soldto person.
+* @param xml_list
+* @param soldto String soldto person.
 */
 function parseXml(xml_list, soldto) {
+	
     var xmlArr = [];
     var xml_no = 0; //numbering use
+	
     if (soldto == 'ALL' || soldto == '') {
-        $(xml_list).find('order').each(function () {
-
-            xml_no++;
-            //property fields
-            var xml_soldto = $(this).attr('soldto');
-            var xml_deliver = $(this).attr('delivered');
-            var xml_order = $(this).attr('date');
-            var xml_price = $(this).attr('price');
-
-            //@todo: romanize the name letter
-            var xml_name = $(this).find('name').text();
-            var xml_jawi = $(this).find('jawi').text();
-            var xml_born = $(this).find('born').text();
-            var xml_death = $(this).find('death').text();
-            var xml_deathm = $(this).find('deathm').text();
-            var xml_age = $(this).find('age').text();
-            var xml_remarks = $(this).find('remarks').text();
-            var xml_item = $(this).find('item').text();
-
-            //compute desciption
-            var desc = '';
-            desc += toRoman(xml_name); // xml_name.toLowerCase();
-            desc += ' (';
-            if (xml_born != '') {
-                desc += xml_born;
-                desc += '~';
-            }
-            desc += xml_death;
-            if (xml_deathm != '') {
-                desc += '=';
-                desc += xml_deathm;
-            }
-            desc += ') ';
-            desc += xml_jawi;
-
-
-            //able to filter upon soldto person and month only
-            xmlArr += '<tr filterCriteria="';
-            xmlArr += xml_soldto;
-            xmlArr += xml_order.substring(5, 7); //extract only month value
-            xmlArr += '"';
-
-            //add color style
-            xmlArr += ' class="';
-            if (xml_item.indexOf('Batik') >= 0) {
-                xmlArr += 'blue';
-            } else if (xml_item.indexOf('Hijau') >= 0) {
-                xmlArr += 'green';
-            } else if (xml_item.indexOf('Putih') >= 0) {
-                xmlArr += 'white';
-            } else if (xml_item.indexOf('½') >= 0) {
-                xmlArr += 'italic';
-            }
-            xmlArr += '"';
-
-            xmlArr += '>';
-
-            //@todo: correct the numbering. Currently not renumber after sorting
-            xmlArr += '<td>';
-            xmlArr += ''; // xml_no;
-            xmlArr += '</td>';
-
-            xmlArr += '<td>';
-            xmlArr += xml_soldto;
-            xmlArr += '</td>';
-
-            xmlArr += '<td>';
-            xmlArr += xml_order;
-            xmlArr += '</td>';
-
-            xmlArr += '<td>';
-            xmlArr += desc;
-            xmlArr += '</td>';
-
-            xmlArr += '<td>';
-            xmlArr += xml_item;
-            xmlArr += '</td>';
-
-            xmlArr += '<td>';
-            xmlArr += '<input type="checkbox"/>';
-            xmlArr += '</td>';
-
-            xmlArr += '</tr>';
+        $(xml_list).find('order').each(function () {        	
+        	xmlArr += generateRow(this);
 
         }); //end loops
 
@@ -168,87 +178,7 @@ function parseXml(xml_list, soldto) {
 
             var xml_soldto = $(this).attr('soldto');
             if (xml_soldto == soldto) {
-
-                xml_no++;
-                //property fields
-                var xml_deliver = $(this).attr('delivered');
-                var xml_order = $(this).attr('date');
-                var xml_price = $(this).attr('price');
-
-                //@todo: romanize the name letter
-                var xml_name = $(this).find('name').text();
-                var xml_jawi = $(this).find('jawi').text();
-                var xml_born = $(this).find('born').text();
-                var xml_death = $(this).find('death').text();
-                var xml_deathm = $(this).find('deathm').text();
-                var xml_age = $(this).find('age').text();
-                var xml_remarks = $(this).find('remarks').text();
-                var xml_item = $(this).find('item').text();
-
-                //compute desciption
-                var desc = '';
-                desc += toRoman(xml_name); // xml_name.toLowerCase();
-                desc += ' (';
-                if (xml_born != '') {
-                    desc += xml_born;
-                    desc += '~';
-                }
-                desc += xml_death;
-                if (xml_deathm != '') {
-                    desc += '=';
-                    desc += xml_deathm;
-                }
-                desc += ') ';
-                desc += xml_jawi;
-
-
-                //able to filter upon soldto person and month only
-                xmlArr += '<tr filterCriteria="';
-                xmlArr += xml_soldto;
-                xmlArr += xml_order.substring(5, 7); //extract only month value
-                xmlArr += '"';
-
-                //add color style
-                xmlArr += ' class="';
-                if (xml_item.indexOf('Batik') >= 0) {
-                    xmlArr += 'blue';
-                } else if (xml_item.indexOf('Hijau') >= 0) {
-                    xmlArr += 'green';
-                } else if (xml_item.indexOf('Putih') >= 0) {
-                    xmlArr += 'white';
-                } else if (xml_item.indexOf('½') >= 0) {
-                    xmlArr += 'italic';
-                }
-                xmlArr += '"';
-
-                xmlArr += '>';
-
-                //@todo: correct the numbering. Currently not renumber after sorting
-                xmlArr += '<td>';
-                xmlArr += ''; // xml_no;
-                xmlArr += '</td>';
-
-                xmlArr += '<td>';
-                xmlArr += xml_soldto;
-                xmlArr += '</td>';
-
-                xmlArr += '<td>';
-                xmlArr += xml_order;
-                xmlArr += '</td>';
-
-                xmlArr += '<td>';
-                xmlArr += desc;
-                xmlArr += '</td>';
-
-                xmlArr += '<td>';
-                xmlArr += xml_item;
-                xmlArr += '</td>';
-
-                xmlArr += '<td>';
-                xmlArr += '<input type="checkbox"/>';
-                xmlArr += '</td>';
-
-                xmlArr += '</tr>';
+                xmlArr += generateRow(this);
             }
         }); //end loop
     }
@@ -256,7 +186,98 @@ function parseXml(xml_list, soldto) {
     return xmlArr;
 }
 
-function xml_parser(wrapper) {
+/**
+ * Compute html value with checkbox behind.
+ * @param XmlNodenode Xml node
+ * @param int id Unique id
+ */
+function generateCheckBoxRow(node,id) {
+	
+	var output = '';
+    //property fields
+    var xml_soldto = $(node).attr('soldto');
+    var xml_order = $(node).attr('date');
+    var xml_price = $(node).attr('price');
+    var xml_name = $(node).find('name').text();
+    var xml_jawi = $(node).find('jawi').text();
+    var xml_born = $(node).find('born').text();
+    var xml_death = $(node).find('death').text();
+    var xml_deathm = $(node).find('deathm').text();
+    var xml_age = $(node).find('age').text();
+    var xml_remarks = $(node).find('remarks').text();
+    var xml_item = $(node).find('item').text();
+
+    //compute desciption
+    var desc = '';
+    desc += toRoman(xml_name);// romanize name
+    desc += ' (';
+    if (xml_born != '') {
+        desc += xml_born;
+        desc += '~';
+    }
+    desc += xml_death;
+    if (xml_deathm != '') {
+        desc += '=';
+        desc += xml_deathm;
+    }
+    desc += ') ';
+    desc += xml_jawi;
+
+
+    //begin compute each row of content
+    output += '<tr';
+
+    //add id for each row
+    output += ' id="item_' + id + '"';
+
+    //able to filter upon soldto person and month only
+    output += ' filterCriteria="';
+    output += xml_soldto;
+    output += xml_order.substring(5, 7); //extract only month value
+    output += '"';
+
+    //add color style
+    output += ' class="';
+    if (!isValidate(xml_name, xml_item)) {
+        output += 'red';
+     } else if (xml_item.indexOf('½') >= 0) {
+        output += 'italic';
+    } else if (xml_item.indexOf('Batik') >= 0) {
+        output += 'blue';
+    } else if (xml_item.indexOf('Hijau') >= 0) {
+        output += 'green';
+    } else if (xml_item.indexOf('Putih') >= 0) {
+        output += 'white';
+    }
+
+    output += '"';
+    output += '>';
+
+    //TODO: correct the numbering. Currently not renumber after sorting
+    output += '<td>';
+    output += ''; // xml_no;
+    output += '</td>';
+
+    output += '<td>' + xml_soldto + '</td>';
+    output += '<td>' + xml_order + '</td>';
+    output += '<td>' + desc + '</td>';
+    output += '<td>' + xml_item + '</td>';
+
+    var chk = 'chk_';
+    chk += id;
+    
+    output += '<td>';
+    output += '<input type="checkbox" id="' + chk + '"';
+    output += ' onclick="setStrikeThrough(\'' + chk + '\')"';
+    output += ' style="cursor:pointer;" />'; //change cursor become a hand when hover
+    output += '</td>';
+
+    output += '</tr>';
+    
+    return output;
+}
+
+function parse(wrapper) {
 
     $.ajax({
         type: 'GET',
@@ -271,87 +292,8 @@ function xml_parser(wrapper) {
                 var xml_deliver = $(this).attr('delivered');
                 if (xml_deliver == '') {
 
-                    xml_no++;
-                    //property fields
-                    var xml_soldto = $(this).attr('soldto');
-                    var xml_order = $(this).attr('date');
-                    var xml_price = $(this).attr('price');
-
-                    var xml_name = $(this).find('name').text();
-                    var xml_jawi = $(this).find('jawi').text();
-                    var xml_born = $(this).find('born').text();
-                    var xml_death = $(this).find('death').text();
-                    var xml_deathm = $(this).find('deathm').text();
-                    var xml_age = $(this).find('age').text();
-                    var xml_remarks = $(this).find('remarks').text();
-                    var xml_item = $(this).find('item').text();
-
-                    //compute desciption
-                    var desc = '';
-                    desc += toRoman(xml_name);// romanize name
-                    desc += ' (';
-                    if (xml_born != '') {
-                        desc += xml_born;
-                        desc += '~';
-                    }
-                    desc += xml_death;
-                    if (xml_deathm != '') {
-                        desc += '=';
-                        desc += xml_deathm;
-                    }
-                    desc += ') ';
-                    desc += xml_jawi;
-
-
-                    //begin compute each row of content
-                    xmlArr += '<tr';
-
-                    //add id for each row
-                    xmlArr += ' id="item_' + xml_no + '"';
-
-                    //able to filter upon soldto person and month only
-                    xmlArr += ' filterCriteria="';
-                    xmlArr += xml_soldto;
-                    xmlArr += xml_order.substring(5, 7); //extract only month value
-                    xmlArr += '"';
-
-                    //add color style
-                    xmlArr += ' class="';
-                    if (!isValidate(xml_name, xml_item)) {
-                        xmlArr += 'red';
-                     } else if (xml_item.indexOf('½') >= 0) {
-                        xmlArr += 'italic';
-                    } else if (xml_item.indexOf('Batik') >= 0) {
-                        xmlArr += 'blue';
-                    } else if (xml_item.indexOf('Hijau') >= 0) {
-                        xmlArr += 'green';
-                    } else if (xml_item.indexOf('Putih') >= 0) {
-                        xmlArr += 'white';
-                    }
-
-                    xmlArr += '"';
-                    xmlArr += '>';
-
-                    //@todo: correct the numbering. Currently not renumber after sorting
-                    xmlArr += '<td>';
-                    xmlArr += ''; // xml_no;
-                    xmlArr += '</td>';
-
-                    xmlArr += '<td>' + xml_soldto + '</td>';
-                    xmlArr += '<td>' + xml_order + '</td>';
-                    xmlArr += '<td>' + desc + '</td>';
-                    xmlArr += '<td>' + xml_item + '</td>';
-
-                    var chk = 'chk_';
-                    chk += xml_no;
-
-                    xmlArr += '<td>';
-                    xmlArr += '<input type="checkbox" id="' + chk + '"';
-                    xmlArr += ' onclick="setStrikeThrough(\'' + chk + '\')"';
-                    xmlArr += ' style="cursor:pointer;" />'; //change cursor become a hand when hover
-                    xmlArr += '</td>';
-
-                    xmlArr += '</tr>';
+                	  xml_no++;
+                      xmlArr += generateCheckBoxRow(this,xml_no);
                 }
             }); //end loop
 
@@ -576,7 +518,7 @@ function xml_parser(wrapper) {
 $(function () {
 
     var wrapper = '#xml_wrapper';
-    xml_parser(wrapper);
+    parse(wrapper);
 
     //this line fail use inline code instead see line#337
     //change cursor become a hand when hover
