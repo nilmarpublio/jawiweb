@@ -5493,53 +5493,55 @@
     <item>2' Batu Batik(P)</item>
     <remarks>060301211396769 dua-dua batang. satu jawi satu rumi 060301211396766</remarks>
   </order>
-  <order soldto="ChinTak" date="2011-11-04" delivered="" price="180">
+  <order soldto="ChinTak" date="2011-11-04" delivered="2011-11-20" price="180">
     <name>5pcs</name>
     <item>天官(元宝)</item>
   </order>
-  <order soldto="ChinTak" date="2011-11-04" delivered="" price="180">
+  <order soldto="ChinTak" date="2011-11-04" delivered="2011-11-20" price="180">
     <name>5pcs</name>
     <item>天官(龙)</item>
   </order>
-  <order soldto="ChinTak" date="2011-11-04" delivered="" price="180">
+  <order soldto="ChinTak" date="2011-11-04" delivered="2011-11-20" price="180">
     <name>5pcs</name>
     <item>灶君</item>
   </order>
-  <order soldto="ChinTak" date="2011-11-04" delivered="" price="180">
+  <order soldto="ChinTak" date="2011-11-04" delivered="2011-11-20" price="180">
     <name>2pcs</name>
     <item>地主(元宝)浮</item>
   </order>
-  <order soldto="ChinTak" date="2011-11-04" delivered="" price="180">
+  <order soldto="ChinTak" date="2011-11-04" delivered="2011-11-20" price="180">
     <name>15pcs</name>
     <item>桌</item>
   </order>
-  <order soldto="SEM" date="2011-11-07" delivered="" price="230">
+  <order soldto="SEM" date="2011-11-07" delivered="2011-11-20" price="230">
     <name>ramli bin ahmad</name>
     <jawi>رماي رماي أحمد</jawi>
     <death>2011-10-12</death>
     <deathm>1432-11-14</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2011-11-07" delivered="" price="230">
+  <order soldto="SEM" date="2011-11-07" delivered="2011-11-20" price="230">
     <name>nor ipah apiqah bt pisol</name>
     <jawi>نور عفه افيقه بنت بصل</jawi>
     <death>2011-10-20</death>
     <deathm>1432-11-22</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="ADI" date="2011-11-09" delivered="" price="35">
+  <order soldto="ADI" date="2011-11-09" delivered="2011-11-21" price="35">
     <name>rubikam bt tulus</name>
     <jawi>ربكم بنت تولوس</jawi>
     <death>2009-04-01</death>
     <deathm>1430-04-05</deathm>
     <item>PV</item>
+    <remarks>EN478905107MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-11-09" delivered="" price="35">
+  <order soldto="ADI" date="2011-11-09" delivered="2011-11-21" price="35">
     <name>zuryatina bt alkiah</name>
     <jawi>ذرياتنا بنت ألقاه</jawi>
     <death>2011-06-20</death>
     <deathm>1432-07-18</deathm>
     <item>PV</item>
+    <remarks>EN478905107MY</remarks>
   </order>
   <order soldto="ADI" date="2011-11-09" delivered="2011-11-15" price="260">
     <name>hj ayub bin mohd yusof</name>
@@ -5588,33 +5590,37 @@
     <age>53</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="ADI" date="2011-11-12" delivered="" price="35">
+  <order soldto="ADI" date="2011-11-12" delivered="2011-11-21" price="35">
     <name>hj md ramli bin nandar@munadar</name>
     <jawi>حاج مد رماي بن ننظر/مُناضر</jawi>
     <death>2011-07-26</death>
     <deathm>1432-08-24</deathm>
     <item>PV Egg</item>
+    <remarks>EN478905107MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-11-12" delivered="" price="35">
+  <order soldto="ADI" date="2011-11-12" delivered="2011-11-21" price="35">
     <name>muhammad azarun naim bt sabeah</name>
     <jawi>محمد ازارون نعيم بنت صباح</jawi>
     <death>2009-08-23</death>
     <deathm>1430-09-02</deathm>
     <item>PV Egg</item>
+    <remarks>EN478905107MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-11-12" delivered="" price="35">
+  <order soldto="ADI" date="2011-11-12" delivered="2011-11-21" price="35">
     <name>minah bt awang</name>
     <jawi>مينه بنت أواڠ</jawi>
     <death>2011-10-24</death>
     <deathm>1432-11-26</deathm>
     <item>PV</item>
+    <remarks>EN478905107MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-11-12" delivered="" price="35">
+  <order soldto="ADI" date="2011-11-12" delivered="2011-11-21" price="35">
     <name>marziah bt hj musa</name>
     <jawi>مارزيه بنت حاج موسا</jawi>
     <death>2011-05-23</death>
     <deathm>1432-06-19</deathm>
     <item>PV</item>
+    <remarks>EN478905107MY</remarks>
   </order>  
   <order soldto="SEL" date="2011-11-17" delivered="" price="230">
     <name>Zakaria bin che din</name>
@@ -5646,12 +5652,13 @@
     <item>2' Batu Batik(P)</item>
     <remarks>pahat dua-dua batang satu rumi satu jawi</remarks>
   </order>
-  <order soldto="ADI" date="2011-11-19" delivered="" price="35">
+  <order soldto="ADI" date="2011-11-19" delivered="2011-11-21" price="35">
     <name>muspiah bt ngaden</name>
     <jawi>موسڤيه بنت ڠادن</jawi>
     <death>1997-09-27</death>
     <deathm>1418-05-25</deathm>
     <item>PV</item>
+    <remarks>EN478905107MY</remarks>
   </order>
   <order soldto="HAM" date="2011-11-19" delivered="" price="12">
     <name>sahul hameed bin md ali</name>
