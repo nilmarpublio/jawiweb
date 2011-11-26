@@ -5629,21 +5629,23 @@
     <deathm>1432-12-04</deathm>
     <item>2' Batu Hitam(L)</item>
   </order>
-  <order soldto="ADI" date="2011-11-19" delivered="" price="260">
+  <order soldto="ADI" date="2011-11-19" delivered="2011-11-22" price="260">
     <name>mohd sahid bin sura</name>
     <jawi>محمد ساهيد بن سورا</jawi>
     <death>2011-10-16</death>
     <deathm>1432-11-18</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>060301212016634</remarks>
   </order>
-  <order soldto="ADI" date="2011-11-19" delivered="" price="260">
+  <order soldto="ADI" date="2011-11-19" delivered="2011-11-22" price="260">
     <name>ali azman bin mohd sahid</name>
     <jawi>علي أزمان بن محمد ساهيد</jawi>
     <death>1993-09-07</death>
     <deathm>1414-03-21</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>060301212016634</remarks>
   </order>
-  <order soldto="ADI" date="2011-11-19" delivered="" price="300">
+  <order soldto="ADI" date="2011-11-19" delivered="2011-11-22" price="300">
     <name>zainon bt megat mohamed</name>
     <jawi>زاينون بنت مگت محمد</jawi>
     <born>1942-09-01</born>
@@ -5660,7 +5662,7 @@
     <item>PV</item>
     <remarks>EN478905107MY</remarks>
   </order>
-  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-19" delivered="2011-11-25" price="12">
     <name>sahul hameed bin md ali</name>
     <jawi>ساهول حميد بن مد علي</jawi>
     <death>2011-10-06</death>
@@ -5668,7 +5670,7 @@
     <age>54</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-19" delivered="2011-11-25" price="12">
     <name>wanchik bt mohamed eusoff</name>
     <jawi>ونچيك بنت محمد يوسوف</jawi>
     <death>2011-08-04</death>
@@ -5677,7 +5679,7 @@
     <item>2' Sticker(P)</item>
     <remarks>all in rumi except one line of jawi name</remarks>
   </order>
-  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-19" delivered="2011-11-25" price="12">
     <name>aishah bt mohd mustaffa</name>
     <jawi>عيشه بنت محمد مُسطعفى</jawi>
     <death>1994-05-04</death>
@@ -5685,7 +5687,7 @@
     <item>2' Sticker(P)</item>
     <remarks>all in rumi except one line of jawi name</remarks>
   </order>
-  <order soldto="HAM" date="2011-11-19" delivered="" price="0">
+  <order soldto="HAM" date="2011-11-19" delivered="2011-11-25" price="0">
     <name>mama tok</name>
     <jawi></jawi>
     <death></death>
@@ -5693,7 +5695,7 @@
     <item>4" Sticker</item>
     <remarks>rumi saja</remarks>
   </order>
-  <order soldto="HAM" date="2011-11-19" delivered="" price="0">
+  <order soldto="HAM" date="2011-11-19" delivered="2011-11-25" price="0">
     <name>mak</name>
     <jawi></jawi>
     <death></death>
@@ -5701,7 +5703,7 @@
     <item>4" Sticker</item>
     <remarks>rumi saja</remarks>
   </order>
-  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-19" delivered="2011-11-25" price="12">
     <name>balkisama bt marican</name>
     <jawi>بالقسم بنت مريكن</jawi>
     <death>2011-10-20</death>
@@ -5709,7 +5711,7 @@
     <age>76</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-19" delivered="2011-11-25" price="12">
     <name>leila bt ahmad shah</name>
     <jawi>ليلى بنت أحمد شه</jawi>
     <death>2011-11-13</death>
@@ -5717,7 +5719,7 @@
     <age>57</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-19" delivered="2011-11-25" price="12">
     <name>zainab bt majid</name>
     <jawi>زاينب بنت مجيد</jawi>
     <death>2011-10-05</death>
@@ -5725,12 +5727,20 @@
     <age>51</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-19" delivered="2011-11-25" price="12">
     <name>ismail bin hussain</name>
     <jawi>إسماعيل بن حُسين</jawi>
     <death>2011-09-26</death>
     <deathm>1432-10-28</deathm>
     <age>72</age>
     <item>2½' Sticker(L)</item>
+  </order>
+    <order soldto="ADI" date="2011-11-21" delivered="" price="35">
+    <name>ikhsan bin Usol</name>
+    <jawi></jawi>
+    <born>1938-07-27</born>
+    <death>2011-10-21</death>
+    <deathm>1432-11-23</deathm>
+    <item>PV Egg</item>
   </order>
 </nisan>
