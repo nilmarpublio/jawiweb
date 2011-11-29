@@ -5622,7 +5622,7 @@
     <item>PV</item>
     <remarks>EN478905107MY</remarks>
   </order>  
-  <order soldto="SEL" date="2011-11-17" delivered="" price="230">
+  <order soldto="SEL" date="2011-11-17" delivered="2011-11-27" price="330">
     <name>Zakaria bin che din</name>
     <jawi>زكريا بن چئ دين</jawi>
     <death>2011-10-31</death>
@@ -5737,10 +5737,45 @@
   </order>
     <order soldto="ADI" date="2011-11-21" delivered="" price="35">
     <name>ikhsan bin Usol</name>
-    <jawi></jawi>
+    <jawi>اخزن بن أصول</jawi>
     <born>1938-07-27</born>
     <death>2011-10-21</death>
     <deathm>1432-11-23</deathm>
     <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2011-11-29" delivered="" price="35">
+    <name>Baharuddin bin mat</name>
+    <jawi>باهاروددين بن مت</jawi>
+    <death>2009-12-29</death>
+    <deathm>v</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2011-11-29" delivered="" price="35">
+    <name>bastiah bt baiduri</name>
+    <jawi>بسته بنت بيدري</jawi>
+    <death>2011-11-21</death>
+    <deathm>1432-12-25</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2011-11-29" delivered="" price="35">
+    <name>azri azmi bin saidi</name>
+    <jawi>عزري عزمي بن سيدي</jawi>
+    <death>2011-09-05</death>
+    <deathm>1432-10-07</deathm>
+    <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2011-11-29" delivered="" price="260">
+    <name>yah bt limin</name>
+    <jawi>يه بنت لمين</jawi>
+    <death>2011-11-13</death>
+    <deathm>1432-12-17</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEL" date="2011-11-28" delivered="" price="230">
+    <name>Abdul wahab bin musa</name>
+    <jawi>عبدالواهب بن موسا</jawi>
+    <death>2011-10-06</death>
+    <deathm>1432-11-08</deathm>
+    <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
