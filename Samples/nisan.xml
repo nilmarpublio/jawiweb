@@ -5735,13 +5735,14 @@
     <age>72</age>
     <item>2½' Sticker(L)</item>
   </order>
-    <order soldto="ADI" date="2011-11-21" delivered="" price="35">
+    <order soldto="ADI" date="2011-11-21" delivered="2011-12-01" price="35">
     <name>ikhsan bin Usol</name>
     <jawi>اخزن بن أصول</jawi>
     <born>1938-07-27</born>
     <death>2011-10-21</death>
     <deathm>1432-11-23</deathm>
     <item>PV Egg</item>
+    <remarks>EN478905115MY</remarks>
   </order>
   <order soldto="ADI" date="2011-11-29" delivered="" price="35">
     <name>Baharuddin bin mat</name>
@@ -5769,13 +5770,41 @@
     <jawi>يه بنت لمين</jawi>
     <death>2011-11-13</death>
     <deathm>1432-12-17</deathm>
-    <item>2' Batu Batik(P)</item>
+    <item>2' Batu Batik(P)</item>    
   </order>
   <order soldto="SEL" date="2011-11-28" delivered="" price="230">
     <name>Abdul wahab bin musa</name>
     <jawi>عبدالواهب بن موسا</jawi>
     <death>2011-10-06</death>
     <deathm>1432-11-08</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2011-12-02" delivered="" price="230">
+    <name>ahmad bin samad</name>
+    <jawi>أحمد بن صمد</jawi>
+    <death>2011-11-18</death>
+    <deathm>1432-12-22</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2011-12-02" delivered="" price="230">
+    <name>shamsuddin bin ahmad</name>
+    <jawi>شامسوددين بن أحمد</jawi>
+    <death>2009-01-01</death>
+    <deathm>1430-01-04</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2011-12-02" delivered="" price="230">
+    <name>mohd sakir aiman bin shamsinor</name>
+    <jawi>محمد صقر أيمن بن شامسينور</jawi>
+    <death>2011-07-29</death>
+    <deathm>1432-08-27</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2011-12-02" delivered="" price="230">
+    <name>basir bin ujang</name>
+    <jawi>باسير بن اوجڠ</jawi>
+    <death>2011-04-01</death>
+    <deathm>1432-04-27</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
