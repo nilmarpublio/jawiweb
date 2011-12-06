@@ -5909,11 +5909,11 @@
 	<age>0.25</age>
     <item>1½' Sticker(P)</item>
   </order>
-    <order soldto="ADI" date="2011-12-05" delivered="" price="35">
+  <order soldto="ADI" date="2011-12-05" delivered="" price="35">
     <name>mohamad bin tompang</name>
     <jawi>محمد بن تومفڠ</jawi>
-    <death>1432-12-13</death>
-    <deathm>2011-11-09</deathm>
+	<death>2011-11-09</death>
+    <deathm>1432-12-13</deathm>
     <item>PV</item>
   </order>
   <order soldto="ADI" date="2011-12-05" delivered="" price="35">
