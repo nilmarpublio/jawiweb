@@ -5807,7 +5807,7 @@
     <deathm>1432-04-27</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2011-11-29" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-29" delivered="2011-12-14" price="12">
     <name>sharom bee bt s.s. mydin meera sahib</name>
     <jawi>شاروم بي بنت ايس٬ايس٬ مايدين ميراساحيب</jawi>
     <death>2011-08-23</death>
@@ -5823,14 +5823,14 @@
 	<age>87</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-11-29" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-29" delivered="2011-12-14" price="12">
     <name>mohd ar. raihan bin shah hazman</name>
     <jawi>محمد ار، ريحان بن شاه حزمان</jawi>
     <death>2011-07-28</death>
     <deathm>1432-08-26</deathm>
     <item>1½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-11-29" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-29" delivered="2011-12-14" price="12">
     <name>md ghouse bin mohamed</name>
     <jawi>محمد گاؤس بن محمد</jawi>
     <death>2011-09-08</death>
@@ -5854,7 +5854,7 @@
 	<age>75</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-11-29" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-29" delivered="2011-12-14" price="12">
     <name>twany mydin bin allapitchay</name>
     <jawi>تواني مايدن بن الافيڅي</jawi>
     <death>2011-11-04</death>
@@ -5967,7 +5967,7 @@
     <deathm>1432-07-30</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="HAM" date="2011-12-12" delivered="" price="12">
+  <order soldto="HAM" date="2011-12-12" delivered="2011-12-14" price="12">
     <name>bibi jan bt eusoff</name>
     <jawi>بيبي جان بنت يوسوف</jawi>
     <death>2011-10-29</death>
@@ -5983,7 +5983,7 @@
     <item>1½' Sticker(P)</item>
     <remarks>jawi saja</remarks>
   </order>
-  <order soldto="HAM" date="2011-12-12" delivered="" price="12">
+  <order soldto="HAM" date="2011-12-12" delivered="2011-12-14" price="12">
     <name>yunoos bin kassim</name>
     <jawi>يونوس بن قاسيم</jawi>
     <death>2011-11-21</death>
@@ -5998,7 +5998,7 @@
     <deathm>1432-10-29</deathm>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-12-12" delivered="" price="12">
+  <order soldto="HAM" date="2011-12-12" delivered="2011-12-14" price="12">
     <name>hj abd hamid bin hj osman</name>
     <jawi>حاج عبدالحميد بن حاج عسمن</jawi>
     <death>2011-07-26</death>
@@ -6021,14 +6021,14 @@
     <item>2' Sticker(P)</item>
   </order>
   <order soldto="HAM" date="2011-12-12" delivered="" price="12">
-    <name>hj che som bt mohd noor</name>
+    <name>hjh che som bt mohd noor</name>
     <jawi>حاج چئ سوم بنت محمد نور</jawi>
     <death>2011-12-06</death>
     <deathm>1433-01-10</deathm>
     <age>88</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-12-12" delivered="" price="12">
+  <order soldto="HAM" date="2011-12-12" delivered="2011-12-14" price="12">
     <name>hjh normah bt abd rahman</name>
     <jawi>حجه نورمه بنت عبدالرحمن</jawi>
     <death>2011-10-28</death>
@@ -6036,7 +6036,7 @@
     <age>73</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-12-12" delivered="" price="12">
+  <order soldto="HAM" date="2011-12-12" delivered="2011-12-14" price="12">
     <name>pora bt teh</name>
     <jawi>فورا بنت تيه</jawi>
     <death>2011-11-20</death>
