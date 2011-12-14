@@ -6043,5 +6043,44 @@
     <deathm>1432-12-24</deathm>
     <age>50</age>
     <item>2' Sticker(P)</item>
+  </order>  
+  <order soldto="ChinTak" date="2011-12-13" delivered="" price="2625">
+    <name>25pcs</name>
+    <item>盘</item>
+  </order>
+  <order soldto="ChinTak" date="2011-12-13" delivered="" price="540">
+    <name>6pcs</name>
+    <item>天官龙</item>
+  </order>
+  <order soldto="ChinTak" date="2011-12-13" delivered="" price="450">
+    <name>5pcs</name>
+    <item>天官</item>
+  </order>
+  <order soldto="ChinTak" date="2011-12-13" delivered="" price="330">
+    <name>3pcs</name>
+    <item>天官龙浮</item>
+  </order>
+  <order soldto="ChinTak" date="2011-12-13" delivered="" price="270">
+    <name>3pcs</name>
+    <item>灶君</item>
+  </order>
+  <order soldto="ADI" date="2011-12-13" delivered="" price="260">
+    <name>Hj mahamad shareef bin asnar kunju</name>
+	<jawi>حاج محمد شريف بن أثنار كونجو</jawi>
+    <death>2011-06-03</death>
+    <deathm>1432-07-01</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2011-12-13" delivered="" price="1500">
+    <name> </name>
+    <death></death>
+    <deathm></deathm>
+    <item>3'x6' Rehal Batik</item>
+  </order>
+  <order soldto="ADI" date="2011-12-13" delivered="" price="1500">
+    <name> </name>
+    <death></death>
+    <deathm></deathm>
+    <item>3'x6' Rehal Batik</item>
   </order>
 </nisan>
