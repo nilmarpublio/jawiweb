@@ -30,7 +30,7 @@
   </counter>
   <counter>
     <name>bin3</name>
-    <count>123</count>
+    <count>126</count>
   </counter>
   <counter>
     <name>halimah2</name>
@@ -62,7 +62,7 @@
   </counter>
   <counter>
     <name>hj</name>
-    <count>92</count>
+    <count>96</count>
   </counter>
   <counter>
     <name>bin20</name>
@@ -86,7 +86,7 @@
   </counter>
   <counter>
     <name>bin23</name>
-    <count>19</count>
+    <count>22</count>
   </counter>
   <counter>
     <name>bin24</name>
@@ -174,7 +174,7 @@
   </counter>
   <counter>
     <name>mohd4</name>
-    <count>94</count>
+    <count>97</count>
   </counter>
   <counter>
     <name>esah</name>
@@ -214,7 +214,7 @@
   </counter>
   <counter>
     <name>mohd2</name>
-    <count>68</count>
+    <count>70</count>
   </counter>
   <counter>
     <name>baharudin</name>
@@ -222,7 +222,7 @@
   </counter>
   <counter>
     <name>ghani2</name>
-    <count>1</count>
+    <count>2</count>
   </counter>
   <counter>
     <name>abdul latif</name>
@@ -266,7 +266,7 @@
   </counter>
   <counter>
     <name>bin2</name>
-    <count>83</count>
+    <count>84</count>
   </counter>
   <counter>
     <name>ramlah</name>
@@ -318,7 +318,7 @@
   </counter>
   <counter>
     <name>babjan</name>
-    <count>10</count>
+    <count>13</count>
   </counter>
   <counter>
     <name>abd rahman2</name>
@@ -434,7 +434,7 @@
   </counter>
   <counter>
     <name>ali</name>
-    <count>35</count>
+    <count>37</count>
   </counter>
   <counter>
     <name>jaafar2</name>
@@ -574,7 +574,7 @@
   </counter>
   <counter>
     <name>hashim2</name>
-    <count>7</count>
+    <count>10</count>
   </counter>
   <counter>
     <name>sofiah2</name>
@@ -638,7 +638,7 @@
   </counter>
   <counter>
     <name>bin9</name>
-    <count>6</count>
+    <count>9</count>
   </counter>
   <counter>
     <name>tam</name>
@@ -782,7 +782,7 @@
   </counter>
   <counter>
     <name>ibrahim3</name>
-    <count>2</count>
+    <count>3</count>
   </counter>
   <counter>
     <name>shafie</name>
@@ -903,5 +903,9 @@
   <counter>
     <name>bin22</name>
     <count>1</count>
+  </counter>
+  <counter>
+    <name>jusoh</name>
+    <count>2</count>
   </counter>
 </DocumentElement>

@@ -5952,20 +5952,22 @@
     <deathm>1404-11-21</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="ADI" date="2011-12-12" delivered="" price="35">
+  <order soldto="ADI" date="2011-12-12" delivered="2011-12-20" price="35">
     <name>Kismath batcha bin abd karim</name>
     <jawi>قسمته بطشا بن عبدالكريم</jawi>
     <born>1957-02-26</born>
     <death>2011-07-31</death>
     <deathm>1432-08-29</deathm>
     <item>PV Egg</item>
+    <remarks>EN478905141MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-12-12" delivered="" price="35">
+  <order soldto="ADI" date="2011-12-12" delivered="2011-12-20" price="35">
     <name>raja sulaiman bin raja yusof</name>
     <jawi>راج سُليمان بن راج يوسوف</jawi>
     <death>2011-07-02</death>
     <deathm>1432-07-30</deathm>
     <item>PV Egg</item>
+    <remarks>EN478905141MY</remarks>
   </order>
   <order soldto="HAM" date="2011-12-12" delivered="2011-12-14" price="12">
     <name>bibi jan bt eusoff</name>
@@ -6115,12 +6117,13 @@
     <deathm>1403-09-09</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2011-12-15" delivered="" price="35">
+  <order soldto="ADI" date="2011-12-15" delivered="2011-12-20" price="35">
     <name>normala bt abdullah</name>
     <jawi>نورمال بنت عبدالله</jawi>
     <death>1999-06-02</death>
     <deathm>1420-02-18</deathm>
     <item>PV</item>
+    <remarks>EN478905141MY</remarks>
   </order>
   <order soldto="ADI" date="2011-12-15" delivered="" price="260">
     <name>mohd ali bin mohd soadi</name>
