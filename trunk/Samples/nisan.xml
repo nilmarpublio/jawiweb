@@ -6103,19 +6103,19 @@
     <deathm></deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2011-12-15" delivered="" price="260">
+  <order soldto="ADI" date="2011-12-15" delivered="" price="35">
     <name>jani@hj ibrahim bin mohd sirat</name>
     <jawi>جاني/حاج إبراهيم بن محمد سيرة</jawi>
     <death>2011-05-07 22:00</death>
     <deathm>1432-06-03</deathm>
-    <item>2' Batu Batik(L)</item>
+    <item>PV</item>
   </order>
-  <order soldto="ADI" date="2011-12-15" delivered="" price="260">
+  <order soldto="ADI" date="2011-12-15" delivered="" price="35">
     <name>hj dol hashim bin arjan</name>
     <jawi>حاج دول  هاشم بن أرجان</jawi>
     <death>1983-06-19 10:30</death>
     <deathm>1403-09-09</deathm>
-    <item>2' Batu Batik(L)</item>
+    <item>PV</item>
   </order>
   <order soldto="ADI" date="2011-12-15" delivered="2011-12-20" price="35">
     <name>normala bt abdullah</name>
