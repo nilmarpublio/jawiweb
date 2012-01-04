@@ -5703,7 +5703,7 @@
     <item>4" Sticker</item>
     <remarks>rumi saja</remarks>
   </order>
-  <order soldto="HAM" date="2011-11-19" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-19" delivered="2011-12-31" price="12">
     <name>balkisama bt marican</name>
     <jawi>بالقسم بنت مريكن</jawi>
     <death>2011-10-20</death>
@@ -5846,7 +5846,7 @@
     <age>54</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-11-29" delivered="" price="12">
+  <order soldto="HAM" date="2011-11-29" delivered="2012-12-31" price="12">
     <name>hjh jaharah bt abdullah</name>
     <jawi>حجه خهاره بنت عبدلله</jawi>
     <death>2011-11-21</death>
@@ -6103,19 +6103,21 @@
     <deathm></deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2011-12-15" delivered="" price="35">
+  <order soldto="ADI" date="2011-12-15" delivered="2011-12-28" price="35">
     <name>jani@hj ibrahim bin mohd sirat</name>
     <jawi>جاني/حاج إبراهيم بن محمد سيرة</jawi>
     <death>2011-05-07 22:00</death>
     <deathm>1432-06-03</deathm>
     <item>PV</item>
+    <remarks>EN478905138MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-12-15" delivered="" price="35">
+  <order soldto="ADI" date="2011-12-15" delivered="2011-12-28" price="35">
     <name>hj dol hashim bin arjan</name>
     <jawi>حاج دول  هاشم بن أرجان</jawi>
     <death>1983-06-19 10:30</death>
     <deathm>1403-09-09</deathm>
     <item>PV</item>
+    <remarks>EN478905138MY</remarks>
   </order>
   <order soldto="ADI" date="2011-12-15" delivered="2011-12-20" price="35">
     <name>normala bt abdullah</name>
@@ -6131,13 +6133,19 @@
     <death>2011-09-08</death>
     <deathm>1432-10-10</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>060301212016643</remarks>
   </order>
-  <order soldto="ADI" date="2011-12-25" delivered="" price="35">
+    <order soldto="ADI" date="2011-12-25" delivered="" price="500">
+    <name> </name>
+    <item>3'x6' Batik Lapit</item>
+  </order>
+  <order soldto="ADI" date="2011-12-25" delivered="2011-12-28" price="35">
     <name>Asmah bt ali</name>
     <jawi>اسمه بنت علي</jawi>
     <death>2011-08-29</death>
     <deathm>1432-09-29</deathm>
     <item>PV</item>
+    <remarks>EN478905138MY</remarks>
   </order>
   <order soldto="HAM" date="2011-12-22" delivered="2011-12-31" price="12">
     <name>md yussop bin kechil</name>
@@ -6281,5 +6289,45 @@
     <death>2011-12-22</death>
     <deathm>1433-01-26</deathm>
     <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-01-03" delivered="" price="12">
+    <name>mohd jefny jufry bin jasmin</name>
+    <death>2011-06-07</death>
+    <deathm>1432-07-05</deathm>
+    <age>7</age>
+    <item>2' Sticker(L)</item>
+    <remarks>rumi sahaja</remarks>
+  </order>
+  <order soldto="HAM" date="2012-01-03" delivered="" price="12">
+    <name>hjh kechik bt din</name>
+    <jawi>حجه كچيك بنت دين</jawi>
+    <death>2011-12-04</death>
+    <deathm>1433-01-08</deathm>
+    <age>82</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-01-03" delivered="" price="12">
+    <name>jaleha bt eusoff</name>
+    <jawi>جليحا بنت يوسوف</jawi>
+    <death>2011-12-25</death>
+    <deathm>1433-01-29</deathm>
+    <age>82</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-01-03" delivered="" price="12">
+    <name>hjh rokiah bt hj omar</name>
+    <jawi>حجه روكياه بنت حاج حاج عمر</jawi>
+    <death>2011-12-16</death>
+    <deathm>1433-01-20</deathm>
+    <age>59</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-01-03" delivered="" price="12">
+    <name>hjh khisah bt hj manap</name>
+    <jawi>حجه خيسه بنت حاج مانف</jawi>
+    <death>2011-11-22</death>
+    <deathm>1432-12-26</deathm>
+    <age>72</age>
+    <item>2' Sticker(P)</item>
   </order>
 </nisan>
