@@ -6203,7 +6203,7 @@
     <age>56</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-12-28" delivered="2011-12-31" price="12">
+  <order soldto="HAM" date="2011-12-28" delivered="" price="12">
     <name>hamzah bin idrus</name>
     <jawi>حمزة بنادروس</jawi>
     <death>2011-11-26</death>
