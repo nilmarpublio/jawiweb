@@ -6219,48 +6219,54 @@
     <age>75</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="ADI" date="2011-12-29" delivered="" price="35">
+  <order soldto="ADI" date="2011-12-29" delivered="2012-01-06" price="35">
     <name>maskiah bt madon</name>
     <jawi>ماسكه بنت مادون</jawi>
     <death>2011-11-26</death>
     <deathm>1432-12-30</deathm>
     <item>PV</item>
+	<remarks>EM226002830MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-12-29" delivered="" price="35">
+  <order soldto="ADI" date="2011-12-29" delivered="2012-01-06" price="35">
     <name>mariam bt lihon</name>
     <jawi>ماريم بنت ليه</jawi>
     <death>2011-12-26</death>
     <deathm>1433-02-01</deathm>
     <item>PV</item>
+	<remarks>EM226002830MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-12-29" delivered="" price="35">
+  <order soldto="ADI" date="2011-12-29" delivered="2012-01-06" price="35">
     <name>ismail bin Ahmad</name>
     <jawi>إسماعيل بن أحمد</jawi>
     <death>2000-11-10</death>
     <deathm>1421-08-13</deathm>
     <item>PV Egg</item>
+	<remarks>EM226002830MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-12-31" delivered="" price="35">
+  <order soldto="ADI" date="2011-12-31" delivered="2012-01-06" price="35">
     <name>Aminah bt hashim</name>
     <jawi>أمينة بنت هاشم</jawi>
     <death>1997-03-03</death>
     <deathm>1417-10-24</deathm>
     <item>PV</item>
+	<remarks>EM226002830MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-12-31" delivered="" price="35">
+  <order soldto="ADI" date="2011-12-31" delivered="2012-01-06" price="35">
     <name>Yahya bin majid</name>
     <jawi>يحيى بن مجيد</jawi>
     <death>1998-05-20</death>
     <deathm>1419-01-24</deathm>
     <item>PV Egg</item>
+	<remarks>EM226002830MY</remarks>
   </order>
-  <order soldto="ADI" date="2011-12-31" delivered="" price="35">
+  <order soldto="ADI" date="2011-12-31" delivered="2012-01-06" price="35">
     <name>hjh marthodatoon bt mat kiram</name>
     <jawi>حجه مارثوداتوون بنت مت كيرم</jawi>
     <born>1941-10-01</born>
     <death>2011-12-12</death>
     <deathm>1433-01-16</deathm>
     <item>PV</item>
+	<remarks>EM226002830MY</remarks>
   </order>
   <order soldto="JEF" date="2012-01-03" delivered="" price="220">
     <name> </name>
@@ -6268,14 +6274,14 @@
     <deathm></deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2011-12-02" delivered="2012-01-01" price="230">
+  <order soldto="SEM" date="2011-12-26" delivered="" price="230">
     <name>Abdullah bin said</name>
     <jawi>عبدالله بن سعيد</jawi>
     <death>2002-03-16</death>
     <deathm>1423-01-03</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2011-12-02" delivered="2012-01-01" price="230">
+  <order soldto="SEM" date="2011-12-26" delivered="" price="230">
     <name>Brahim bin ardi</name>
     <jawi>براهيم بن أرض</jawi>
     <born>1930-07-27</born>
@@ -6283,7 +6289,7 @@
     <deathm>1433-01-01</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2011-12-02" delivered="2012-01-01" price="230">
+  <order soldto="SEM" date="2011-12-26" delivered="" price="230">
     <name>indra bin samad</name>
     <jawi>اندر بن صمد</jawi>
     <death>2011-12-22</death>
