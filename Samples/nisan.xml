@@ -6179,7 +6179,7 @@
     <age>74</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-12-22" delivered="" price="12">
+  <order soldto="HAM" date="2011-12-22" delivered="2012-01-16" price="12">
     <name>zainol abidin bin md zen</name>
     <jawi>زاينول ابيدين بن مد زين</jawi>
     <death>2011-12-08</death>
@@ -6195,7 +6195,7 @@
     <age>65</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-12-28" delivered="" price="12">
+  <order soldto="HAM" date="2011-12-28" delivered="2012-01-16" price="12">
     <name>abd shukor bin mohd esa</name>
     <jawi>عبدالشكور بن محمد عيسى</jawi>
     <death>2011-11-28</death>
@@ -6203,7 +6203,7 @@
     <age>56</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-12-28" delivered="" price="12">
+  <order soldto="HAM" date="2011-12-28" delivered="2012-01-07" price="12">
     <name>hamzah bin idrus</name>
     <jawi>حمزة بنادروس</jawi>
     <death>2011-11-26</death>
@@ -6304,7 +6304,7 @@
     <item>2' Sticker(L)</item>
     <remarks>rumi sahaja</remarks>
   </order>
-  <order soldto="HAM" date="2012-01-03" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-03" delivered="2012-01-16" price="12">
     <name>hjh kechik bt din</name>
     <jawi>حجه كچيك بنت دين</jawi>
     <death>2011-12-04</death>
@@ -6312,7 +6312,7 @@
     <age>82</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-01-03" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-03" delivered="2012-01-16" price="12">
     <name>jaleha bt eusoff</name>
     <jawi>جليحا بنت يوسوف</jawi>
     <death>2011-12-25</death>
@@ -6320,7 +6320,7 @@
     <age>82</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-01-03" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-03" delivered="2012-01-16" price="12">
     <name>hjh rokiah bt hj omar</name>
     <jawi>حجه روكياه بنت حاج حاج عمر</jawi>
     <death>2011-12-16</death>
@@ -6335,5 +6335,37 @@
     <deathm>1432-12-26</deathm>
     <age>72</age>
     <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="ADI" date="2012-01-07" delivered="" price="260">
+    <name>Abdul wahab bin aki</name>
+    <jawi>عبدالواهب بن اکي</jawi>
+    <death>2011-12-18</death>
+    <deathm>1433-01-22</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2012-01-08" delivered="" price="260">
+    <name>hj sa'ad bin brahim</name>
+	<jawi>حاج سعد بن براهيم</jawi>
+    <born>1934-10-04</born>
+	<death>2011-08-06</death>
+	<deathm>1432-09-06</deathm>
+    <item>2' Batu Marble(L)</item>
+  </order>
+    <order soldto="ADI" date="2012-01-08" delivered="" price="1390">
+    <name> </name>    
+    <item>3'x6' Rehal Marble</item>
+	<remarks>back side pahat nama rumi</remarks>
+  </order>
+  <order soldto="ADI" date="2012-01-08" delivered="" price="750">
+    <name> </name>
+    <item>3'x6' Lapit Marble</item>
+  </order>
+  <order soldto="KEN" date="2012-01-08" delivered="" price="230">
+    <name>HJ MOHAMED ARIS BIN HJ ALI</name>
+    <jawi>حاج محمد أريس بن حاج علي</jawi>
+    <death>2011-11-23</death>
+    <deathm>1432-12-27</deathm>
+	<age>73</age>
+    <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
