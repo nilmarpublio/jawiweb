@@ -441,7 +441,7 @@ TODO: move into different template so that easy to maintain since 2010-09-21
                     <xsl:text>color:blue</xsl:text>
                   </xsl:attribute>
                 </xsl:if>
-                <xsl:if test="contains(item,'Putih')='true' or contains(item,'White')='true'">
+                <xsl:if test="contains(item,'Putih')='true' or contains(item,'White')='true' or contains(item,'Marble')='true'">
                   <xsl:attribute name="style">
                     <xsl:text>color:grey</xsl:text>
                   </xsl:attribute>
