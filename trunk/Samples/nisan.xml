@@ -6163,7 +6163,7 @@
     <age>55</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-12-22" delivered="" price="12">
+  <order soldto="HAM" date="2011-12-22" delivered="2012-01-09" price="12">
     <name>mariah bt ailidin</name>
     <jawi>مرياه بنت ايليدين</jawi>
 	<born>1942-10-18</born>
@@ -6179,7 +6179,7 @@
     <age>74</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-12-22" delivered="2012-01-16" price="12">
+  <order soldto="HAM" date="2011-12-22" delivered="2012-01-09" price="12">
     <name>zainol abidin bin md zen</name>
     <jawi>زاينول ابيدين بن مد زين</jawi>
     <death>2011-12-08</death>
@@ -6195,7 +6195,7 @@
     <age>65</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2011-12-28" delivered="2012-01-16" price="12">
+  <order soldto="HAM" date="2011-12-28" delivered="2012-01-09" price="12">
     <name>abd shukor bin mohd esa</name>
     <jawi>عبدالشكور بن محمد عيسى</jawi>
     <death>2011-11-28</death>
@@ -6203,7 +6203,7 @@
     <age>56</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-12-28" delivered="2012-01-07" price="12">
+  <order soldto="HAM" date="2011-12-28" delivered="2012-01-09" price="12">
     <name>hamzah bin idrus</name>
     <jawi>حمزة بنادروس</jawi>
     <death>2011-11-26</death>
@@ -6211,7 +6211,7 @@
     <age>59</age>
     <item>1½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2011-12-28" delivered="" price="12">
+  <order soldto="HAM" date="2011-12-28" delivered="2012-01-09" price="12">
     <name>hjh kulsom bee bt abd carrim</name>
     <jawi>حجه كلسوم بي بنت عبدالكريم</jawi>
     <death>2003-06-29</death>
@@ -6296,7 +6296,7 @@
     <deathm>1433-01-26</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2012-01-03" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-03" delivered="2012-01-09" price="12">
     <name>mohd jefny jufry bin jasmin</name>
     <death>2011-06-07</death>
     <deathm>1432-07-05</deathm>
@@ -6304,7 +6304,7 @@
     <item>2' Sticker(L)</item>
     <remarks>rumi sahaja</remarks>
   </order>
-  <order soldto="HAM" date="2012-01-03" delivered="2012-01-16" price="12">
+  <order soldto="HAM" date="2012-01-03" delivered="2012-01-09" price="12">
     <name>hjh kechik bt din</name>
     <jawi>حجه كچيك بنت دين</jawi>
     <death>2011-12-04</death>
@@ -6312,7 +6312,7 @@
     <age>82</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-01-03" delivered="2012-01-16" price="12">
+  <order soldto="HAM" date="2012-01-03" delivered="2012-01-09" price="12">
     <name>jaleha bt eusoff</name>
     <jawi>جليحا بنت يوسوف</jawi>
     <death>2011-12-25</death>
@@ -6320,7 +6320,7 @@
     <age>82</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-01-03" delivered="2012-01-16" price="12">
+  <order soldto="HAM" date="2012-01-03" delivered="2012-01-09" price="12">
     <name>hjh rokiah bt hj omar</name>
     <jawi>حجه روكياه بنت حاج حاج عمر</jawi>
     <death>2011-12-16</death>
@@ -6328,7 +6328,7 @@
     <age>59</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-01-03" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-03" delivered="2012-01-09" price="12">
     <name>hjh khisah bt hj manap</name>
     <jawi>حجه خيسه بنت حاج مانف</jawi>
     <death>2011-11-22</death>
