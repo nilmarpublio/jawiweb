@@ -283,7 +283,7 @@ function generateCheckBoxRow(node,id) {
         output += 'blue';
     } else if (xml_item.indexOf('Hijau') >= 0) {
         output += 'green';
-    } else if (xml_item.indexOf('Putih') >= 0) {
+    } else if (xml_item.indexOf('Putih') >= 0 || xml_item.indexOf('Marble') >=0) {
         output += 'white';
     }
 
