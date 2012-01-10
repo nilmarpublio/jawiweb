@@ -6268,11 +6268,12 @@
     <item>PV</item>
 	<remarks>EM226002830MY</remarks>
   </order>
-  <order soldto="JEF" date="2012-01-03" delivered="" price="220">
+  <order soldto="JEF" date="2012-01-03" delivered="2012-01-09" price="220">
     <name> </name>
     <death></death>
     <deathm></deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>060301212016649</remarks>
   </order>
   <order soldto="SEM" date="2011-12-26" delivered="" price="230">
     <name>Abdullah bin said</name>
