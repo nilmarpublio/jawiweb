@@ -282,7 +282,7 @@ namespace MuslimCalendar
             return month;
         }
         /// <summary>
-        /// From Gregorian date to islamic date.
+        /// Convert Gregorian date to Islamic date.
         /// </summary>
         /// <param name="date"></param>
         public void GetDate(DateTime date)
@@ -308,7 +308,7 @@ namespace MuslimCalendar
                 DateTime ldt_To = date.Add(interval);
                 for (int i = DataSource.Rows.Count - 1; i >= 0; i--)
                 {
-                    if (date.CompareTo(Convert.ToDateTime(DataSource.Rows[i]["sun"])) > 0) //key
+                    if (date.CompareTo(Convert.ToDateTime(DataSource.Rows[i]["sun"])) >= 0) //key
                     {
                         Index = i;
 
@@ -319,7 +319,7 @@ namespace MuslimCalendar
                     }
                 }//end loops
 
-                #region last method
+                #region previous method
                 //				DataRow[] ldr_selected = DataSource.Select("sun >= '"+ldt_From.ToString("yyyy-MM-dd")+"' AND sun <= '"+ldt_To.ToString("yyyy-MM-dd")+"'", "sun ASC");
                 //				for(int i=0;i<ldr_selected.Length;i++)
                 //				{
