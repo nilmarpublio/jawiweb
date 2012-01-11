@@ -3762,8 +3762,8 @@
   </rootname>
   <rootname>
     <rumi>fadzilah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>فادزيلاه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>fadzli</rumi>
@@ -10314,8 +10314,8 @@
   </rootname>
   <rootname>
     <rumi>noraini</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>noraisyah</rumi>
@@ -14868,6 +14868,8 @@
   </rootname>
   <rootname>
     <rumi>suhana</rumi>
+    <jawi></jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>suhani</rumi>
@@ -15054,7 +15056,7 @@
   <rootname>
     <rumi>sutan</rumi>
     <jawi>سوتن</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>suwdi</rumi>
