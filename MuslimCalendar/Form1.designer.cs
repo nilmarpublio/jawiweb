@@ -81,7 +81,7 @@ namespace MuslimCalendar
             this.Controls.Add(this.dateTimePicker1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "MuslimCalendar ver 1.11.818.445";
+            this.Text = "MuslimCalendar ver 1.12.110.595";
             this.ResumeLayout(false);
             this.PerformLayout();
 
