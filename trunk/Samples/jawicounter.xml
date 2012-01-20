@@ -62,7 +62,7 @@
   </counter>
   <counter>
     <name>hj</name>
-    <count>108</count>
+    <count>110</count>
   </counter>
   <counter>
     <name>bin20</name>
@@ -214,7 +214,7 @@
   </counter>
   <counter>
     <name>mohd2</name>
-    <count>71</count>
+    <count>72</count>
   </counter>
   <counter>
     <name>baharudin</name>
@@ -290,7 +290,7 @@
   </counter>
   <counter>
     <name>bt24</name>
-    <count>96</count>
+    <count>102</count>
   </counter>
   <counter>
     <name>che3</name>
@@ -298,7 +298,7 @@
   </counter>
   <counter>
     <name>hjh12</name>
-    <count>22</count>
+    <count>28</count>
   </counter>
   <counter>
     <name>hjh8</name>
@@ -366,7 +366,7 @@
   </counter>
   <counter>
     <name>khatijah</name>
-    <count>2</count>
+    <count>5</count>
   </counter>
   <counter>
     <name>bt</name>
@@ -486,11 +486,11 @@
   </counter>
   <counter>
     <name>yusof2</name>
-    <count>25</count>
+    <count>26</count>
   </counter>
   <counter>
     <name>bee</name>
-    <count>9</count>
+    <count>11</count>
   </counter>
   <counter>
     <name>jaliha</name>
@@ -782,7 +782,7 @@
   </counter>
   <counter>
     <name>ibrahim3</name>
-    <count>8</count>
+    <count>10</count>
   </counter>
   <counter>
     <name>shafie</name>
@@ -983,5 +983,9 @@
   <counter>
     <name>rozali</name>
     <count>2</count>
+  </counter>
+  <counter>
+    <name>rejab</name>
+    <count>3</count>
   </counter>
 </DocumentElement>
