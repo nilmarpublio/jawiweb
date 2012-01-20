@@ -6337,11 +6337,11 @@
     <age>72</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="ADI" date="2012-01-07" delivered="" price="260">
+  <order soldto="ADI" date="2012-01-07" delivered="" price="230">
     <name>Abdul wahab bin aki</name>
     <jawi>عبدالواهب بن اکي</jawi>
-    <death>2011-12-18</death>
-    <deathm>1433-01-22</deathm>
+    <death>2011-12-08</death>
+    <deathm>1433-01-12</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
   <order soldto="ADI" date="2012-01-08" delivered="" price="260">
@@ -6391,7 +6391,7 @@
     <deathm>1433-01-05</deathm>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-01-11" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-11" delivered="2012-01-20" price="12">
     <name>mohd shaffiq bin mazlan</name>
     <jawi>محمد شفيق بن مزلان</jawi>
     <death>2011-12-11</death>
@@ -6399,7 +6399,7 @@
     <age>16</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-01-11" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-11" delivered="2012-01-20" price="12">
     <name>noraini bt mohd yusoff</name>
     <jawi>نوراني بنت محمد يوسوف</jawi>
     <death>2011-08-07</death>
@@ -6431,28 +6431,28 @@
     <age>53</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-01-11" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-11" delivered="2012-01-20" price="12">
     <name>long bin tina mydin</name>
     <jawi>لوڠ بن تينا مَيدين</jawi>
     <death>1954-11-02</death>
     <deathm>1374-03-06</deathm>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-01-11" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-11" delivered="2012-01-20" price="12">
     <name>fadzilah bt mohd sutan</name>
     <jawi>فادزيلاه بنت محمد سوتن</jawi>
     <death>1955-02-27</death>
     <deathm>1374-02-05</deathm>
     <item>1½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-01-11" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-11" delivered="2012-01-20" price="12">
     <name>hjh khatijah bt rejab</name>
     <jawi>حجه خطيجه بنت رجب</jawi>
     <death>1980-11-28</death>
     <deathm>1401-01-20</deathm>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-01-11" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-11" delivered="2012-01-20" price="12">
     <name>rajabee bt ibrahim</name>
     <jawi>راج بي بنت إبراهيم</jawi>
     <death>1954-12-27</death>
@@ -6467,7 +6467,7 @@
     <age>89</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-01-11" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-11" delivered="2012-01-20" price="12">
     <name>titik daryatun</name>
     <jawi>تيتيق درياتون</jawi>
     <death>2011-11-09</death>
@@ -6499,11 +6499,11 @@
     <item>PV</item>
     <remarks>EM046997790MY</remarks>
   </order>
-  <order soldto="KIL" date="2012-01-11" delivered="2012-01-14" price="230">
+  <order soldto="KIL" date="2012-01-11" delivered="" price="280">
     <name>Che jah bt taib</name>
     <jawi>چئ خه بنت طيب</jawi>
-    <death>2011-12-20</death>
-    <deathm>1433-01-24</deathm>
+    <death>2011-12-30</death>
+    <deathm>1433-02-05</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
   <order soldto="KEN" date="2012-01-12" delivered="2012-01-16" price="230">
