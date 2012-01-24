@@ -6499,7 +6499,7 @@
     <item>PV</item>
     <remarks>EM046997790MY</remarks>
   </order>
-  <order soldto="KIL" date="2012-01-11" delivered="" price="280">
+  <order soldto="KIL" date="2012-01-11" delivered="2012-01-21" price="280">
     <name>Che jah bt taib</name>
     <jawi>چئ خه بنت طيب</jawi>
     <death>2011-12-30</death>
@@ -6521,14 +6521,14 @@
     <deathm>1432-08-26</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2012-01-14" delivered="" price="35">
+  <order soldto="ADI" date="2012-01-14" delivered="2012-01-21" price="35">
     <name>mohd affandi bin hj markom</name>
 	<jawi>محمد أفندي بن حاج مرقم</jawi>
     <death>2011-12-12</death>
     <deathm>1433-01-16</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2012-01-14" delivered="" price="35">
+  <order soldto="ADI" date="2012-01-14" delivered="2012-01-21" price="35">
     <name>Itam bin bakar</name>
 	<jawi>اتم بن بكر</jawi>
     <death>2011-07-11</death>
