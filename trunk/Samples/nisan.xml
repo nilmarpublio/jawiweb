@@ -6344,14 +6344,6 @@
     <deathm>1433-01-12</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2012-01-08" delivered="" price="260">
-    <name>hj sa'ad bin brahim</name>
-    <jawi>حاج سعد بن براهيم</jawi>
-    <born>1934-10-04</born>
-    <death>2011-08-06</death>
-    <deathm>1432-09-06</deathm>
-    <item>2' Batu Marble(L)</item>
-  </order>
   <order soldto="ADI" date="2012-01-08" delivered="" price="1390">
     <name> </name>
     <item>3'x6' Rehal Marble</item>
@@ -6533,6 +6525,94 @@
 	<jawi>اتم بن بكر</jawi>
     <death>2011-07-11</death>
     <deathm>1432-08-09</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2012-01-25" delivered="" price="260">
+    <name>Hj mat sa'ad bin Brahim</name>
+	<jawi>حاج مت سعد بن براهيم</jawi>
+	<born>1934-10-04</born>
+    <death>2011-08-06</death>
+	<deathm>1432-09-06</deathm>
+    <item>2' Batu Marble(L)</item>
+  </order>
+  <order soldto="ADI" date="2012-01-25" delivered="" price="260">
+    <name>Hj md saad bin Md akkib</name>
+	<jawi>حاج مد سعد بن مد اكيب</jawi>
+	<born>1935-04-26</born>
+    <death>2011-11-13</death>
+    <deathm>1432-12-17</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+    <order soldto="ADI" date="2012-01-25" delivered="" price="35">
+    <name>hindon bt sulaiman</name>
+	<jawi>هيندون بنت سُليمان</jawi>
+	<born>1947-06-21</born>
+    <death>2011-10-29</death>
+    <deathm>1432-12-02</deathm>
+    <item>PV</item>
+  </order>
+    <order soldto="ADI" date="2012-01-25" delivered="" price="35">
+    <name>fariz bin Omar</name>
+	<jawi>فريز بن عمر</jawi>
+    <death>2011-04-28</death>
+    <deathm>1432-05-24</deathm>
+    <item>PV Egg</item>
+  </order>
+    <order soldto="ADI" date="2012-01-25" delivered="" price="35">
+    <name>harmy bin hj yahya</name>
+	<jawi>هرمي بن حاج يحيى</jawi>
+	<born>1954-07-10</born>
+    <death>2011-10-31</death>
+    <deathm>1432-12-04</deathm>
+    <item>PV Egg</item>
+  </order>
+    <order soldto="ADI" date="2012-01-25" delivered="" price="260">
+    <name>mohammad hazlan bin abdul hamid</name>
+	<jawi>محمد هزلن بن عبدولحميد</jawi>
+    <death>2012-01-10</death>
+    <deathm>1433-02-16</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+    <order soldto="ADI" date="2012-01-25" delivered="" price="35">
+    <name>nor-aini bt hashim</name>
+	<jawi>نور عيني بنت هاشم</jawi>
+    <death>2011-04-15</death>
+    <deathm>1432-05-11</deathm>
+    <item>PV</item>
+  </order>
+    <order soldto="ADI" date="2012-01-25" delivered="" price="260">
+    <name>Zahariah bt ali</name>
+	<jawi>زهريه بنت علي</jawi>
+    <death>2011-06-22</death>
+    <deathm>1432-07-20</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+    <order soldto="ADI" date="2012-01-26" delivered="" price="360">
+    <name>Hajah rogayah bt wagimon</name>
+	<jawi>حجه روڬايه بنت واݢيمون</jawi>
+    <death>2011-08-30</death>
+    <deathm>1432-10-01</deathm>
+    <item>2' Batu Hijau(P)</item>
+  </order>
+    <order soldto="ADI" date="2012-01-26" delivered="" price="35">
+    <name>aminah bt hj Mat wali</name>
+	<jawi>أمينة بنت حاج مت والي</jawi>
+    <death>2011-12-26</death>
+    <deathm>1433-02-01</deathm>
+    <item>PV</item>
+  </order>
+    <order soldto="ADI" date="2012-01-27" delivered="" price="35">
+    <name>saari bin amran</name>
+	<jawi>سعاري بن أمران</jawi>
+    <death>2011-09-30</death>
+    <deathm>1432-11-02</deathm>
+    <item>PV Egg</item>
+  </order>
+    <order soldto="ADI" date="2012-01-27" delivered="" price="35">
+    <name>Ab Rashid bin Hamzah</name>
+	<jawi>عبد راشد بن حمزة</jawi>
+    <death>2012-01-11</death>
+    <deathm>1433-02-17</deathm>
     <item>PV Egg</item>
   </order>
 </nisan>
