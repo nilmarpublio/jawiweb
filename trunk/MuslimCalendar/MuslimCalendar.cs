@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using System.Data;
 
-namespace HLGranite.Jawi
+namespace MuslimCalendar
 {
     /// <summary>
     /// Muslim calendar format.
