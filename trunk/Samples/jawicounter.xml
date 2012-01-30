@@ -30,7 +30,7 @@
   </counter>
   <counter>
     <name>bin3</name>
-    <count>144</count>
+    <count>150</count>
   </counter>
   <counter>
     <name>halimah2</name>
@@ -98,7 +98,7 @@
   </counter>
   <counter>
     <name>abd hamid2</name>
-    <count>18</count>
+    <count>20</count>
   </counter>
   <counter>
     <name>yahya</name>
@@ -190,7 +190,7 @@
   </counter>
   <counter>
     <name>md3</name>
-    <count>24</count>
+    <count>32</count>
   </counter>
   <counter>
     <name>osman2</name>
@@ -214,7 +214,7 @@
   </counter>
   <counter>
     <name>mohd2</name>
-    <count>72</count>
+    <count>74</count>
   </counter>
   <counter>
     <name>baharudin</name>
@@ -278,7 +278,7 @@
   </counter>
   <counter>
     <name>hjh11</name>
-    <count>21</count>
+    <count>22</count>
   </counter>
   <counter>
     <name>hj4</name>
@@ -290,7 +290,7 @@
   </counter>
   <counter>
     <name>bt24</name>
-    <count>102</count>
+    <count>106</count>
   </counter>
   <counter>
     <name>che3</name>
@@ -370,7 +370,7 @@
   </counter>
   <counter>
     <name>bt</name>
-    <count>13</count>
+    <count>16</count>
   </counter>
   <counter>
     <name>abdul rahman</name>
@@ -434,7 +434,7 @@
   </counter>
   <counter>
     <name>ali</name>
-    <count>38</count>
+    <count>41</count>
   </counter>
   <counter>
     <name>jaafar2</name>
@@ -474,7 +474,7 @@
   </counter>
   <counter>
     <name>bt25</name>
-    <count>4</count>
+    <count>7</count>
   </counter>
   <counter>
     <name>ibrahim</name>
@@ -546,11 +546,11 @@
   </counter>
   <counter>
     <name>saad</name>
-    <count>4</count>
+    <count>12</count>
   </counter>
   <counter>
     <name>hj3</name>
-    <count>35</count>
+    <count>39</count>
   </counter>
   <counter>
     <name>hatijah</name>
@@ -686,7 +686,7 @@
   </counter>
   <counter>
     <name>gayah</name>
-    <count>12</count>
+    <count>13</count>
   </counter>
   <counter>
     <name>zakaria</name>
@@ -810,7 +810,7 @@
   </counter>
   <counter>
     <name>zahari</name>
-    <count>10</count>
+    <count>13</count>
   </counter>
   <counter>
     <name>puteh2</name>
@@ -954,7 +954,7 @@
   </counter>
   <counter>
     <name>akib</name>
-    <count>1</count>
+    <count>5</count>
   </counter>
   <counter>
     <name>itam</name>
@@ -987,5 +987,17 @@
   <counter>
     <name>rejab</name>
     <count>3</count>
+  </counter>
+  <counter>
+    <name>hjh9</name>
+    <count>4</count>
+  </counter>
+  <counter>
+    <name>rushdi</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>idrus2</name>
+    <count>1</count>
   </counter>
 </DocumentElement>
