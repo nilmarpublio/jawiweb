@@ -2173,8 +2173,8 @@
   </rootname>
   <rootname>
     <rumi>bahri</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>بحري</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>bahroodin</rumi>
@@ -3910,7 +3910,7 @@
   <rootname>
     <rumi>faridah</rumi>
     <jawi>فريده</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>faridil</rumi>
@@ -12858,18 +12858,13 @@
   </rootname>
   <rootname>
     <rumi>saifol</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سيفعل</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>saiful</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>saifulnizam</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سيفعل</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>saim</rumi>
@@ -13299,8 +13294,8 @@
   </rootname>
   <rootname>
     <rumi>sapura</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سبورة</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>sara</rumi>
@@ -14050,8 +14045,8 @@
   </rootname>
   <rootname>
     <rumi>shaikh</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شيخ</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shail</rumi>
@@ -16598,8 +16593,8 @@
   </rootname>
   <rootname>
     <rumi>zainah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>زينه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>zainal</rumi>
