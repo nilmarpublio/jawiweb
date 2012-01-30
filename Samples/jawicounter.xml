@@ -18,7 +18,7 @@
   </counter>
   <counter>
     <name>ismail2</name>
-    <count>13</count>
+    <count>17</count>
   </counter>
   <counter>
     <name>bin4</name>
@@ -90,7 +90,7 @@
   </counter>
   <counter>
     <name>bin24</name>
-    <count>17</count>
+    <count>21</count>
   </counter>
   <counter>
     <name>saman</name>
@@ -110,7 +110,7 @@
   </counter>
   <counter>
     <name>bt21</name>
-    <count>84</count>
+    <count>90</count>
   </counter>
   <counter>
     <name>alias2</name>
@@ -194,7 +194,7 @@
   </counter>
   <counter>
     <name>osman2</name>
-    <count>9</count>
+    <count>13</count>
   </counter>
   <counter>
     <name>ariffin</name>
@@ -278,7 +278,7 @@
   </counter>
   <counter>
     <name>hjh11</name>
-    <count>22</count>
+    <count>24</count>
   </counter>
   <counter>
     <name>hj4</name>
@@ -446,7 +446,7 @@
   </counter>
   <counter>
     <name>bt20</name>
-    <count>22</count>
+    <count>23</count>
   </counter>
   <counter>
     <name>shukor</name>
@@ -458,7 +458,7 @@
   </counter>
   <counter>
     <name>siti</name>
-    <count>13</count>
+    <count>17</count>
   </counter>
   <counter>
     <name>aishah2</name>
@@ -610,7 +610,7 @@
   </counter>
   <counter>
     <name>zainal</name>
-    <count>12</count>
+    <count>15</count>
   </counter>
   <counter>
     <name>fauzi</name>
@@ -726,7 +726,7 @@
   </counter>
   <counter>
     <name>yacob</name>
-    <count>1</count>
+    <count>3</count>
   </counter>
   <counter>
     <name>roslan</name>
@@ -866,7 +866,7 @@
   </counter>
   <counter>
     <name>shamsudin</name>
-    <count>3</count>
+    <count>4</count>
   </counter>
   <counter>
     <name>basir2</name>
@@ -934,7 +934,7 @@
   </counter>
   <counter>
     <name>bt22</name>
-    <count>3</count>
+    <count>4</count>
   </counter>
   <counter>
     <name>hjh</name>
@@ -998,6 +998,22 @@
   </counter>
   <counter>
     <name>idrus2</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>mansor</name>
+    <count>3</count>
+  </counter>
+  <counter>
+    <name>shaik3</name>
+    <count>3</count>
+  </counter>
+  <counter>
+    <name>kamarul zaman</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>hawa</name>
     <count>1</count>
   </counter>
 </DocumentElement>
