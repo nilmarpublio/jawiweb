@@ -6645,7 +6645,7 @@
     <age>85</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-01-19" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-19" delivered="2012-01-30" price="12">
     <name>ismail bin osman</name>
     <jawi>إسماعيل بن عسمن</jawi>
     <death>2011-11-19</death>
@@ -6653,7 +6653,7 @@
     <age>76</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-01-19" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-19" delivered="2012-01-30" price="12">
     <name>hjh chumbee bt yaakob</name>
     <jawi>حجه چومبي بنت يعقوب</jawi>
     <death>2012-01-06</death>
@@ -6676,7 +6676,7 @@
     <age>22</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-01-29" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-29" delivered="2012-01-30" price="12">
     <name>mohd ali bin osman</name>
     <jawi>محمد علي بن عسمن</jawi>
     <death>2012-01-21</death>
@@ -6684,7 +6684,7 @@
     <age>60</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-01-29" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-29" delivered="2012-01-30" price="12">
     <name>sapura bt ramlee</name>
     <jawi>سبورة بنت رماي</jawi>
     <death>2011-09-26</death>
@@ -6692,7 +6692,7 @@
     <age>84</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-01-29" delivered="" price="0">
+  <order soldto="HAM" date="2012-01-29" delivered="2012-01-30" price="0">
     <name>CHE APON</name>
     <jawi></jawi>
     <death></death>
@@ -6700,7 +6700,7 @@
     <age></age>
     <item>4" Sticker</item>
   </order>
-  <order soldto="HAM" date="2012-01-29" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-29" delivered="2012-01-30" price="12">
     <name>faridah bt kassim</name>
     <jawi>فريده بنت قاسيم</jawi>
     <death>2012-01-18</death>
@@ -6708,7 +6708,7 @@
     <age>54</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-01-29" delivered="" price="12">
+  <order soldto="HAM" date="2012-01-29" delivered="2012-01-30" price="12">
     <name>mohamed ali bin kechil</name>
     <jawi>محمد علي بن کچيل</jawi>
     <death>2011-12-31</death>
@@ -6723,5 +6723,35 @@
     <deathm>1432-11-03</deathm>
     <age>83</age>
     <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="JEF" date="2012-01-31" delivered="" price="220">
+    <name> </name>
+    <death></death>
+    <deathm></deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2012-02-01" delivered="" price="35">
+    <name>ruzilawati bt mohamad yusman</name>
+    <jawi>روزيلاواتي بنت محمد يسمن</jawi>
+    <born>1982-09-29</born>
+    <death>2011-12-22</death>
+    <deathm>1433-01-26</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2012-02-01" delivered="" price="35">
+    <name>Muhammad adam bin rohimin</name>
+    <jawi>محمد ادام بن بن روهيمين</jawi>
+    <born>2010-10-03</born>
+    <death>2010-10-03</death>
+    <deathm>1431-10-24</deathm>
+    <item>PV Budak</item>
+  </order>
+    <order soldto="ADI" date="2012-02-01" delivered="" price="35">
+    <name>Mat kadir bin abd hamid</name>
+    <jawi>مت كادير بن عبدالحميد</jawi>
+    <death>2012-01-22</death>
+    <deathm>1433-02-28</deathm>
+    <item>PV 5"x10"</item>
+    <remarks>jawi sahaja</remarks>
   </order>
 </nisan>

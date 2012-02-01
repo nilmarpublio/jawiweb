@@ -30,7 +30,7 @@
   </counter>
   <counter>
     <name>bin3</name>
-    <count>150</count>
+    <count>158</count>
   </counter>
   <counter>
     <name>halimah2</name>
@@ -70,7 +70,7 @@
   </counter>
   <counter>
     <name>ramli</name>
-    <count>7</count>
+    <count>11</count>
   </counter>
   <counter>
     <name>abd aziz</name>
@@ -186,7 +186,7 @@
   </counter>
   <counter>
     <name>kassim2</name>
-    <count>9</count>
+    <count>12</count>
   </counter>
   <counter>
     <name>md3</name>
@@ -194,7 +194,7 @@
   </counter>
   <counter>
     <name>osman2</name>
-    <count>13</count>
+    <count>14</count>
   </counter>
   <counter>
     <name>ariffin</name>
@@ -214,7 +214,7 @@
   </counter>
   <counter>
     <name>mohd2</name>
-    <count>74</count>
+    <count>77</count>
   </counter>
   <counter>
     <name>baharudin</name>
@@ -290,7 +290,7 @@
   </counter>
   <counter>
     <name>bt24</name>
-    <count>106</count>
+    <count>109</count>
   </counter>
   <counter>
     <name>che3</name>
@@ -354,7 +354,7 @@
   </counter>
   <counter>
     <name>ahmad5</name>
-    <count>15</count>
+    <count>25</count>
   </counter>
   <counter>
     <name>ahmad6</name>
@@ -434,7 +434,7 @@
   </counter>
   <counter>
     <name>ali</name>
-    <count>41</count>
+    <count>44</count>
   </counter>
   <counter>
     <name>jaafar2</name>
@@ -482,7 +482,7 @@
   </counter>
   <counter>
     <name>kechik2</name>
-    <count>12</count>
+    <count>14</count>
   </counter>
   <counter>
     <name>yusof2</name>
@@ -534,7 +534,7 @@
   </counter>
   <counter>
     <name>bt19</name>
-    <count>6</count>
+    <count>10</count>
   </counter>
   <counter>
     <name>lim2</name>
@@ -970,7 +970,7 @@
   </counter>
   <counter>
     <name>arfah</name>
-    <count>4</count>
+    <count>7</count>
   </counter>
   <counter>
     <name>hamad</name>
@@ -1015,5 +1015,25 @@
   <counter>
     <name>hawa</name>
     <count>1</count>
+  </counter>
+  <counter>
+    <name>saiful</name>
+    <count>5</count>
+  </counter>
+  <counter>
+    <name>ahmad2</name>
+    <count>5</count>
+  </counter>
+  <counter>
+    <name>kamaruddin2</name>
+    <count>5</count>
+  </counter>
+  <counter>
+    <name>kassim</name>
+    <count>3</count>
+  </counter>
+  <counter>
+    <name>fazlina</name>
+    <count>3</count>
   </counter>
 </DocumentElement>
