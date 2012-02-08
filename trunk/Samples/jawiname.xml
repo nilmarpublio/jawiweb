@@ -3525,7 +3525,7 @@
   <rootname>
     <rumi>elias</rumi>
     <jawi>الياس</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ema</rumi>
@@ -16834,8 +16834,8 @@
   </rootname>
   <rootname>
     <rumi>zariah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ذريه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>zarina</rumi>

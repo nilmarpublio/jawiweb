@@ -18,7 +18,7 @@
   </counter>
   <counter>
     <name>ismail2</name>
-    <count>17</count>
+    <count>19</count>
   </counter>
   <counter>
     <name>bin4</name>
@@ -30,7 +30,7 @@
   </counter>
   <counter>
     <name>bin3</name>
-    <count>158</count>
+    <count>162</count>
   </counter>
   <counter>
     <name>halimah2</name>
@@ -62,7 +62,7 @@
   </counter>
   <counter>
     <name>hj</name>
-    <count>110</count>
+    <count>111</count>
   </counter>
   <counter>
     <name>bin20</name>
@@ -98,7 +98,7 @@
   </counter>
   <counter>
     <name>abd hamid2</name>
-    <count>20</count>
+    <count>21</count>
   </counter>
   <counter>
     <name>yahya</name>
@@ -166,7 +166,7 @@
   </counter>
   <counter>
     <name>mydin</name>
-    <count>6</count>
+    <count>7</count>
   </counter>
   <counter>
     <name>noor</name>
@@ -190,7 +190,7 @@
   </counter>
   <counter>
     <name>md3</name>
-    <count>32</count>
+    <count>34</count>
   </counter>
   <counter>
     <name>osman2</name>
@@ -214,7 +214,7 @@
   </counter>
   <counter>
     <name>mohd2</name>
-    <count>77</count>
+    <count>79</count>
   </counter>
   <counter>
     <name>baharudin</name>
@@ -354,11 +354,11 @@
   </counter>
   <counter>
     <name>ahmad5</name>
-    <count>25</count>
+    <count>27</count>
   </counter>
   <counter>
     <name>ahmad6</name>
-    <count>48</count>
+    <count>50</count>
   </counter>
   <counter>
     <name>mustafa</name>
@@ -550,7 +550,7 @@
   </counter>
   <counter>
     <name>hj3</name>
-    <count>39</count>
+    <count>40</count>
   </counter>
   <counter>
     <name>hatijah</name>
@@ -1035,5 +1035,13 @@
   <counter>
     <name>fazlina</name>
     <count>3</count>
+  </counter>
+  <counter>
+    <name>kadir4</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>noordin</name>
+    <count>1</count>
   </counter>
 </DocumentElement>
