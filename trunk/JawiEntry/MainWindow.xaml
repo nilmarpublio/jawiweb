@@ -1,0 +1,110 @@
+﻿<Window x:Class="JawiEntry.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Jawi Entry" Width="600" Height="600" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="Padding" Value="0"/>
+            <!--<Setter Property="HorizontalAlignment" Value="Right"/>-->
+        </Style>
+    </Window.Resources>
+    <DockPanel LastChildFill="True">
+        <GroupBox Header="Order" DockPanel.Dock="Top">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                </Grid.RowDefinitions>
+                
+                <Label Grid.Row="0" Grid.Column="0">Sold To</Label>
+                <ComboBox Grid.Row="0" Grid.Column="1" x:Name="Soldto">
+                    <ComboBoxItem>ADI</ComboBoxItem>
+                    <ComboBoxItem>HAM</ComboBoxItem>
+                    <ComboBoxItem>SEL</ComboBoxItem>
+                    <ComboBoxItem>SEM</ComboBoxItem>
+                    <ComboBoxItem>KEN</ComboBoxItem>
+                </ComboBox>
+                <Label Grid.Row="0" Grid.Column="2" Margin="10,0,0,0">Item</Label>
+                <ComboBox Grid.Row="0" Grid.Column="3" Margin="0" x:Name="Item">
+                    <ComboBoxItem Content="2' Batu Batik(L)" />
+                    <ComboBoxItem Content="2' Batu Batik(P)" />
+                    <ComboBoxItem Content="2' Batu Putih(L)" />
+                    <ComboBoxItem Content="2' Batu Putih(P)" />
+                    <ComboBoxItem Content="2' Batu Hitam(L)" />
+                    <ComboBoxItem Content="2' Batu Hitam(P)" />
+                    <ComboBoxItem Content="2' Batu Hijau(L)" />
+                    <ComboBoxItem Content="2' Batu Hijau(P)" />
+                    <ComboBoxItem Content="2' Sticker(L)" />
+                    <ComboBoxItem Content="2' Sticker(P)" />
+                    <ComboBoxItem Content="1½' Sticker(L)" />
+                    <ComboBoxItem Content="1½' Sticker(P)" />
+                    <ComboBoxItem Content="2½' Sticker(L)" />
+                    <ComboBoxItem Content="2½' Sticker(P)" />
+                    <ComboBoxItem Content="1½' Batu Batik(L)" />
+                    <ComboBoxItem Content="1½' Batu Batik(P)" />
+                    <ComboBoxItem Content="1½' Batu Putih(L)" />
+                    <ComboBoxItem Content="1½' Batu Putih(P)" />
+                    <ComboBoxItem Content="1½' Batu Hitam(L)" />
+                    <ComboBoxItem Content="1½' Batu Hitam(P)" />
+                    <ComboBoxItem Content="1½' Batu Hijau(L)" />
+                    <ComboBoxItem Content="1½' Batu Hijau(P)" />
+                    <ComboBoxItem Content="2½' Batu Batik(L)" />
+                    <ComboBoxItem Content="2½' Batu Batik(P)" />
+                    <ComboBoxItem Content="2½' Batu Putih(L)" />
+                    <ComboBoxItem Content="2½' Batu Putih(P)" />
+                    <ComboBoxItem Content="2½' Batu Hitam(L)" />
+                    <ComboBoxItem Content="2½' Batu Hitam(P)" />
+                    <ComboBoxItem Content="2½' Batu Hijau(L)" />
+                    <ComboBoxItem Content="2½' Batu Hijau(P)" />
+                    <ComboBoxItem Content="3'x6' Rehal Batik"/>
+                    <ComboBoxItem Content="3'x6' Rehal Putih"/>
+                    <ComboBoxItem Content="3'x6' Rehal Hitam"/>
+                    <ComboBoxItem Content="3'x6' Rehal Hijau"/>
+                </ComboBox>
+                
+                <Label Grid.Row="1" Grid.Column="0">Order</Label>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="Order"/>
+                <Label Grid.Row="1" Grid.Column="2" Margin="10,0,0,0">Deliver</Label>
+                <TextBox Grid.Row="1" Grid.Column="3" x:Name="Deliver"/>
+                
+                <Label Grid.Row="2" Grid.Column="0">Name</Label>
+                <TextBox Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" x:Name="Name"/>
+
+                <Label Grid.Row="3" Grid.Column="0">Jawi</Label>
+                <TextBox Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" x:Name="Jawi"/>
+
+                <Label Grid.Row="4" Grid.Column="0">Born</Label>
+                <TextBox Grid.Row="4" Grid.Column="1" x:Name="Born"/>
+                <TextBox Grid.Row="5" Grid.Column="1" TabIndex="-1" x:Name="BornM"/>
+
+                <Label Grid.Row="4" Grid.Column="2" Margin="10,0,0,0">Death</Label>
+                <TextBox Grid.Row="4" Grid.Column="3" x:Name="Death"/>
+                <TextBox Grid.Row="5" Grid.Column="3" TabIndex="-1" x:Name="DeathM"/>
+
+                <Label Grid.Row="6" Grid.Column="0">Age</Label>
+                <TextBox Grid.Row="6" Grid.Column="1" x:Name="Age" Margin="0,0,143,0" />
+
+                <Label Grid.Row="7" Grid.Column="0">Notes</Label>
+                <TextBox Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" x:Name="Note"/>
+
+                <Label Grid.Row="8" Grid.Column="0">Price(RM)</Label>
+                <TextBox Grid.Row="8" Grid.Column="1" x:Name="Price" Margin="0,0,143,0" />                
+                <Button Grid.Row="8" Grid.Column="3" x:Name="Add" Margin="152,0,0,0">Add/Update</Button>
+            </Grid>
+        </GroupBox>
+        <ListView/>
+    </DockPanel>
+</Window>
