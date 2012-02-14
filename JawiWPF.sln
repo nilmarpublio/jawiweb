@@ -46,6 +46,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "JawiWeb", "JawiWeb\", "{254
 		VWDPort = "1837"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JawiEntry", "JawiEntry\JawiEntry.csproj", "{654AA50D-864B-463C-8D0A-9DF487611955}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = JawiWPF1.vsmdi
@@ -147,6 +149,16 @@ Global
 		{254E829C-CE2F-45CC-ADCF-08915E50704A}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{254E829C-CE2F-45CC-ADCF-08915E50704A}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
 		{254E829C-CE2F-45CC-ADCF-08915E50704A}.Release|x86.ActiveCfg = Debug|Any CPU
+		{654AA50D-864B-463C-8D0A-9DF487611955}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{654AA50D-864B-463C-8D0A-9DF487611955}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{654AA50D-864B-463C-8D0A-9DF487611955}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{654AA50D-864B-463C-8D0A-9DF487611955}.Debug|x86.ActiveCfg = Debug|x86
+		{654AA50D-864B-463C-8D0A-9DF487611955}.Debug|x86.Build.0 = Debug|x86
+		{654AA50D-864B-463C-8D0A-9DF487611955}.Release|Any CPU.ActiveCfg = Release|x86
+		{654AA50D-864B-463C-8D0A-9DF487611955}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{654AA50D-864B-463C-8D0A-9DF487611955}.Release|Mixed Platforms.Build.0 = Release|x86
+		{654AA50D-864B-463C-8D0A-9DF487611955}.Release|x86.ActiveCfg = Release|x86
+		{654AA50D-864B-463C-8D0A-9DF487611955}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
