@@ -76,10 +76,14 @@ function isValidate(name, item) {
 /**
  * Generate html value for table's row. This is for filtering use.
  * 
+ * @param year
+ *            Current year value.
+ * @param index
+ *            Numbering index.
  * @param node
  *            Xml node
  */
-function generateRow(node) {
+function generateRow(year,index,node) {
 
 	var output = '';
 
@@ -120,9 +124,12 @@ function generateRow(node) {
 	desc += xml_jawi;
 
 	// able to filter upon soldto person and month only
+    // compute <tr filterCriteria='ADI07'
 	output += '<tr filterCriteria="';
-	output += xml_soldto;
-	output += xml_order.substring(5, 7); // extract only month value
+	if (xml_order.substring(0, 4) == year) {
+	    output += xml_soldto;
+	    output += xml_order.substring(5, 7); // extract only month value
+	}
 	output += '"';
 
 	// add color style
@@ -137,12 +144,11 @@ function generateRow(node) {
 		output += 'italic';
 	}
 	output += '"';
-
 	output += '>';
-
-	// TODO: correct the numbering. Currently not renumber after sorting
+	
+    // Currently not remember after sorting
 	output += '<td>';
-	output += ''; // xml_no;
+	output += index + '.';
 	output += '</td>';
 
 	output += '<td>';
@@ -216,20 +222,22 @@ function parseXml(xml_list, soldto) {
 	var xmlArr = [];
 	var xml_no = 0; // numbering use
 
+	var date = new Date();
+	var year = date.getYear() - 100 + 2000;
+
 	if (soldto == 'ALL' || soldto == '') {
-		$(xml_list).find('order').each(function() {
-			xmlArr += generateRow(this);
-
-		}); // end loops
-
+	    $(xml_list).find('order').each(function () {
+	        xml_no++;
+	        xmlArr += generateRow(year,xml_no,this);
+	    });  // end loops
 	} else {
-		$(xml_list).find('order').each(function() {
-
-			var xml_soldto = $(this).attr('soldto');
-			if (xml_soldto == soldto) {
-				xmlArr += generateRow(this);
-			}
-		}); // end loop
+	$(xml_list).find('order').each(function () {
+	    var xml_soldto = $(this).attr('soldto');
+	    if (xml_soldto == soldto) {
+	        xml_no++;
+	        xmlArr += generateRow(year,xml_no,this);
+	    }
+	});  // end loop
 	}
 
 	return xmlArr;
@@ -237,13 +245,15 @@ function parseXml(xml_list, soldto) {
 
 /**
  * Compute html value with checkbox behind. This is for pending list use.
- * 
+ *
+ * @param year
+ *            Current year value 
+ * @param id
+ *            Unique id
  * @param XmlNodenode
  *            Xml node
- * @param int
- *            id Unique id
  */
-function generateCheckBoxRow(node, id) {
+function generateCheckBoxRow(year,id,node) {
 
 	var output = '';
 	// property fields
@@ -290,8 +300,10 @@ function generateCheckBoxRow(node, id) {
 
 	// able to filter upon soldto person and month only
 	output += ' filterCriteria="';
-	output += xml_soldto;
-	output += xml_order.substring(5, 7); // extract only month value
+	if (xml_order.substring(0, 4) == year) {
+	    output += xml_soldto;
+	    output += xml_order.substring(5, 7); // extract only month value
+	}
 	output += '"';
 
 	// add color style
@@ -312,9 +324,9 @@ function generateCheckBoxRow(node, id) {
 	output += '"';
 	output += '>';
 
-	// TODO: correct the numbering. Currently not remember after sorting
+	// Currently not remember after sorting
 	output += '<td>';
-	output += ''; // xml_no;
+	output += id + '.';
 	output += '</td>';
 
 	output += '<td>' + xml_soldto + '</td>';
@@ -372,316 +384,353 @@ function generateCheckBoxRow(node, id) {
 
 function parse(wrapper) {
 
-	$
+    var date = new Date();
+    var year = date.getYear() - 100 + 2000;
+
+    $
 			.ajax({
-				type : 'GET',
-				url : 'nisan.xml',
-				dataType : 'xml',
-				success : function(xml_list) {
+			    type: 'GET',
+			    url: 'nisan.xml',
+			    dataType: 'xml',
+			    success: function (xml_list) {
 
-					var xmlArr = [];
-					var xml_no = 0; // numbering use
-					$(xml_list).find('order').each(function() {
+			        var xmlArr = [];
+			        var xml_no = 0; // numbering use
+			        $(xml_list).find('order').each(function () {
 
-						var xml_deliver = $(this).attr('delivered');
-						if (xml_deliver == '') {
-							xml_no++;
-							xmlArr += generateCheckBoxRow(this, xml_no);
-						}
-					}); // end loop
+			            var xml_deliver = $(this).attr('delivered');
+			            if (xml_deliver == '') {
+			                xml_no++;
+			                xmlArr += generateCheckBoxRow(year, xml_no, this);
+			            }
+			        }); // end loop
 
-					// append array to table
-					$(xmlArr).appendTo(wrapper + ' table tbody');
+			        // append array to table
+			        $(xmlArr).appendTo(wrapper + ' table tbody');
 
-					// Add sort and zebra stripe to table (NOTE: this does not
-					// work as intended with sort feature)
-					window.setTimeout('$("' + wrapper
+			        // Add sort and zebra stripe to table (NOTE: this does not
+			        // work as intended with sort feature)
+			        window.setTimeout('$("' + wrapper
 							+ ' table").tablesorter();', 120);
-					$(wrapper + ' table').hide().slideDown('200');
+			        $(wrapper + ' table').hide().slideDown('200');
 
-					// display total item
-					$('#counter').text(xml_no);
+			        // display total item
+			        $('#counter').text(xml_no);
 
-					// add filter by customer
-					var nav_link = $('#xml_nav li a');
-					nav_link
-							.click(function() {
+			        // add filter by customer
+			        var nav_link = $('#xml_nav li a');
+			        nav_link
+							.click(function () {
 
-								// get current index and reset all highlight
-								var currentClass = $(this).attr('class');
-								var currentIndex = -1;
-								nav_link
+							    // get current index and reset all highlight
+							    var currentClass = $(this).attr('class');
+							    var currentIndex = -1;
+							    nav_link
 										.parent()
 										.each(
-												function(index) {
-													if ($(this).find('a').attr(
+												function (index) {
+												    if ($(this).find('a').attr(
 															'class') == currentClass)
-														currentIndex = index;
-													$(this).removeClass();
+												        currentIndex = index;
+												    $(this).removeClass();
 												});
-								// highlist selected value
-								nav_link.parent().each(function(index) {
-									if (index == currentIndex)
-										$(this).addClass('highlight');
-								});
-								// nav_link.parent().get(currentIndex).addClass('highlight');
+							    // highlist selected value
+							    nav_link.parent().each(function (index) {
+							        if (index == currentIndex)
+							            $(this).addClass('highlight');
+							    });
+							    // nav_link.parent().get(currentIndex).addClass('highlight');
 
-								xml_no = 0; // reset counter
-								var tr = wrapper + ' table tbody tr';
-								$(tr).show(); // show all rows
-								switch ($(this).attr('class')) {
-								case 'filter_adi':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							    xml_no = 0; // reset counter
+							    var tr = wrapper + ' table tbody tr';
+							    $(tr).show(); // show all rows
+							    switch ($(this).attr('class')) {
+							        case 'filter_adi':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('ADI') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_ham':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_ham':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('HAM') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_ken':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_ken':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('KEN') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_sel':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_sel':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('SEL') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_sem':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_sem':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('SEM') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
+							            break;
 
-								default:
-									$(tr).filter(function(index) {
-										xml_no++;
-										return false;
-									}).hide();
-									break;
-								}
+							        default:
+							            $(tr).filter(function (index) {
+							                xml_no++;
+							                return false;
+							            }).hide();
+							            break;
+							    }
 
-								// display total item
-								$('#counter').text(xml_no);
-								// $(tr).removeClass('stripe');
-								// $(tr + ':visible:odd').addClass('stripe');
+							    // display total item
+							    $('#counter').text(xml_no);
+							    // $(tr).removeClass('stripe');
+							    // $(tr + ':visible:odd').addClass('stripe');
 							}); // end click soldto
 
-					// add filter by month
-					var nav_month = $('#xml_month li a');
-					nav_month
-							.click(function() {
+			        // add filter by month
+			        var nav_month = $('#xml_month li a');
+			        nav_month
+							.click(function () {
 
-								// get current index and reset all highlight
-								var currentClass = $(this).attr('class');
-								var currentIndex = -1;
-								nav_month
+							    // get current index and reset all highlight
+							    var currentClass = $(this).attr('class');
+							    var currentIndex = -1;
+							    nav_month
 										.parent()
 										.each(
-												function(index) {
-													if ($(this).find('a').attr(
+												function (index) {
+												    if ($(this).find('a').attr(
 															'class') == currentClass)
-														currentIndex = index;
-													$(this).removeClass();
+												        currentIndex = index;
+												    $(this).removeClass();
 												});
-								// highlist selected value
-								nav_month.parent().each(function(index) {
-									if (index == currentIndex)
-										$(this).addClass('highlight');
-								});
+							    // highlist selected value
+							    nav_month.parent().each(function (index) {
+							        if (index == currentIndex)
+							            $(this).addClass('highlight');
+							    });
 
-								// retrieve filter soldto result set
-								$('table tbody').empty();
+							    // retrieve filter soldto result set
+							    $('table tbody').empty();
 
-								// get soldto
-								var soldto = '';
-								$('#xml_nav li').each(function(index) {
-									if ($(this).attr('class') == 'highlight')
-										soldto = $(this).find('a').text();
-								});
-								var array = parseXml(xml_list, soldto);
-								$(array).appendTo(wrapper + ' table tbody');
-								window.setTimeout('$("' + wrapper
+							    // get soldto
+							    var soldto = '';
+							    $('#xml_nav li').each(function (index) {
+							        if ($(this).attr('class') == 'highlight')
+							            soldto = $(this).find('a').text();
+							    });
+							    var array = parseXml(xml_list, soldto);
+							    $(array).appendTo(wrapper + ' table tbody');
+							    window.setTimeout('$("' + wrapper
 										+ ' table").tablesorter();', 120);
-								$(wrapper + ' table').hide().slideDown('200');
-								// end filter soldto
+							    $(wrapper + ' table').hide().slideDown('200');
+							    // end filter soldto
 
-								xml_no = 0; // reset counter
-								var tr = wrapper + ' table tbody tr';
-								$(tr).show(); // show all rows
-								switch ($(this).attr('class')) {
-								case 'filter_01':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							    xml_no = 0; // reset counter
+							    var tr = wrapper + ' table tbody tr';
+							    $(tr).show(); // show all rows
+							    switch ($(this).attr('class')) {
+							        case 'filter_01':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('01') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_02':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_02':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('02') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_03':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_03':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('03') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_04':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_04':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('04') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_05':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_05':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('05') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_06':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_06':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('06') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_07':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_07':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('07') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_08':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_08':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('08') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_09':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_09':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('09') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_10':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_10':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('10') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_11':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_11':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('11') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								case 'filter_12':
-									$(tr).filter(
-											function(index) {
-												var yes = ($(this).attr(
+							            break;
+							        case 'filter_12':
+							            $(tr).filter(
+											function (index) {
+											    var yes = ($(this).attr(
 														'filterCriteria')
 														.indexOf('12') >= 0);
-												if (yes)
-													xml_no++;
-												return !yes;
+											    if (yes) {
+											        xml_no++;
+											        $(this).find('td:first').text(xml_no + '.');
+											    }
+											    return !yes;
 											}).hide();
-									break;
-								}
+							            break;
+							    }
 
-								// display total item
-								$('#counter').text(xml_no);
+							    // display total item
+							    $('#counter').text(xml_no);
 							}); // end click on month
-				}
-			}); // end ajax
+			    }
+			});                      // end ajax
 } // end function
 
 /**
@@ -719,12 +768,12 @@ function getDifferentDays(from, to) {
 /**
  * Initialize page.
  */
-$(function() {
+$(function () {
 
-	var wrapper = '#xml_wrapper';
-	parse(wrapper);
+    var wrapper = '#xml_wrapper';
+    parse(wrapper);
 
-	// this line fail use inline code instead see line#337
-	// change cursor become a hand when hover
-	// $(':checkbox').css('cursor', 'pointer');
+    // this line fail use inline code instead see line#337
+    // change cursor become a hand when hover
+    // $(':checkbox').css('cursor', 'pointer');
 });
