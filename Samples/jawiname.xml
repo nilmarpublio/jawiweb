@@ -2359,7 +2359,7 @@
   <rootname>
     <rumi>bashah</rumi>
     <jawi>باشه</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>basharah</rumi>
@@ -7594,6 +7594,8 @@
   </rootname>
   <rootname>
     <rumi>kupai</rumi>
+    <jawi>كوفي</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>kuppai</rumi>
@@ -9340,8 +9342,8 @@
   </rootname>
   <rootname>
     <rumi>muhaimi</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>موحيمي</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>muhaimin</rumi>
@@ -11309,6 +11311,11 @@
     <rumi>radimah</rumi>
     <jawi />
     <sex>0</sex>
+  </rootname>
+  <rootname>
+    <rumi>radin</rumi>
+    <jawi>راضين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>radzali</rumi>
@@ -14511,8 +14518,8 @@
   </rootname>
   <rootname>
     <rumi>sirun</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سيرون</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>sit</rumi>
