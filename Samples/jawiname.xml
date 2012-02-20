@@ -3180,8 +3180,8 @@
   </rootname>
   <rootname>
     <rumi>deraman</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>درمان</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>derani</rumi>
@@ -5882,8 +5882,8 @@
   </rootname>
   <rootname>
     <rumi>iskandar</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>إسكندر</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>islam</rumi>
@@ -11739,8 +11739,8 @@
   </rootname>
   <rootname>
     <rumi>rasul</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>رسول</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>rasullalah</rumi>
@@ -16857,7 +16857,7 @@
   <rootname>
     <rumi>zauyah</rumi>
     <jawi>زاويه</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>zawawi</rumi>
