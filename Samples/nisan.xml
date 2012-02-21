@@ -6736,7 +6736,7 @@
     <deathm></deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2012-02-01" delivered="2012-02-08" price="35">
+  <order soldto="ADI" date="2012-02-01" delivered="" price="35">
     <name>ruzilawati bt mohamad yusman</name>
     <jawi>روزيلاواتي بنت محمد يسمن</jawi>
     <born>1982-09-29</born>
@@ -7063,5 +7063,23 @@
     <death>1989-11-17</death>
     <deathm>1410-04-17</deathm>
     <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="CASH" date="2012-02-20" delivered="" price="40">
+    <name>44如意</name>
+    <item>4"x8" Black Galaxy</item>
+  </order>
+  <order soldto="ADI" date="2012-02-21" delivered="" price="35">
+    <name>siti bt hj sulaiman</name>
+    <jawi></jawi>
+    <death>2012-01-22</death>
+    <deathm>1433-02-28</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2012-02-21" delivered="" price="35">
+    <name>mamat bin tuhalus</name>
+    <jawi></jawi>
+    <death>2011-12-08</death>
+    <deathm>1433-01-12</deathm>
+    <item>PV Egg</item>
   </order>
 </nisan>
