@@ -1,11 +1,15 @@
 /*
+ * TODO: jquery write to file see http://jquery.tiddlywiki.org/twFile.html
+ */
+
+/*
 jQuery XML Parser with Sorting and Filtering
 Written by Ben Lister (darkcrimson.com) revised 25 Apr 2010
 Tutorial: http://blog.darkcrimson.com/2010/01/jquery-xml-parser/
 
 Licensed under the MIT License:
 http://www.opensource.org/licenses/mit-license.php
- */
+*/
 
 /**
  * Set the name become strikethrough when the checkbox is checked otherwise not.
