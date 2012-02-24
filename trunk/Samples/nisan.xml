@@ -6816,7 +6816,7 @@
     <item>PV Egg</item>
     <remarks>EM046999098MY</remarks>
   </order>
-  <order soldto="ADI" date="2012-02-07" delivered="" price="260">
+  <order soldto="ADI" date="2012-02-07" delivered="2012-02-13" price="260">
     <name>Mariam bt lop</name>
     <jawi>ماريم بنتموف</jawi>
     <born>1937-01-15</born>
@@ -7027,6 +7027,7 @@
     <death>2011-10-06</death>
     <deathm>1432-11-08</deathm>
     <item>2' Batu Hijau(L)</item>
+    <remarks>pahat dua batang jawi dan rumi</remarks>
   </order>
   <order soldto="ADI" date="2012-02-19" delivered="" price="260">
     <name>Kassim bin musa</name>
