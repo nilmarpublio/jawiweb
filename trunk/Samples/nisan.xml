@@ -7071,16 +7071,53 @@
   </order>
   <order soldto="ADI" date="2012-02-21" delivered="" price="35">
     <name>siti bt hj sulaiman</name>
-    <jawi></jawi>
+    <jawi>ستي بنت حاج سُليمان</jawi>
     <death>2012-01-22</death>
     <deathm>1433-02-28</deathm>
     <item>PV</item>
   </order>
   <order soldto="ADI" date="2012-02-21" delivered="" price="35">
     <name>mamat bin tuhalus</name>
-    <jawi></jawi>
+    <jawi>مامات بن توهالوس</jawi>
     <death>2011-12-08</death>
     <deathm>1433-01-12</deathm>
     <item>PV Egg</item>
+  </order>
+  <order soldto="HAM" date="2012-02-23" delivered="" price="12">
+    <name>halijah bt zakariah</name>
+	<jawi>هاليجه بنت زكريا</jawi>
+    <death>2011-12-24</death>
+    <deathm>1433-01-28</deathm>
+	<age>60</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-02-23" delivered="" price="12">
+    <name>madznah bt said</name>
+	<jawi>مزنه بنت سعيد</jawi>
+    <death>2011-12-26</death>
+    <deathm>1433-01-01</deathm>
+	<age>68</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-02-23" delivered="" price="12">
+    <name>abd rahman bin ismail</name>
+	<jawi>عبدالرحمن بن إسماعيل</jawi>
+    <death>2011-11-04</death>
+    <deathm>1432-12-08</deathm>
+	<age>56</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-02-23" delivered="" price="12">
+    <name>puan bt idris</name>
+	<jawi>فوان بنت ادريس</jawi>
+    <death>2012-02-08</death>
+    <deathm>1433-03-15</deathm>
+	<age>77</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-02-23" delivered="" price="0">
+    <name>lot 444</name>
+    <item>4" Sticker</item>
+	<remarks>font height 1½"</remarks>
   </order>
 </nisan>
