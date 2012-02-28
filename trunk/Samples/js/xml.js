@@ -69,10 +69,10 @@ function toRoman(name) {
  *            String Item type.
  */
 function isValidate(name, item) {
-	if (name.indexOf('bin') >= 0 && item.indexOf('(P)') >= 0)
+	if (name.toLowerCase().indexOf('bin') >= 0 && item.toUpperCase().indexOf('(P)') >= 0)
 		return false;
-	if (name.indexOf('bt') >= 0 && item.indexOf('(L)') >= 0)
-		return false;
+	if (name.toLowerCase().indexOf('bt') >= 0 && item.toUpperCase().indexOf('(L)') >= 0)
+        return false;
 
 	return true;
 }
@@ -138,14 +138,17 @@ function generateRow(year,index,node) {
 
 	// add color style
 	output += ' class="';
-	if (xml_item.indexOf('Batik') >= 0) {
-		output += 'blue';
-	} else if (xml_item.indexOf('Hijau') >= 0) {
-		output += 'green';
-	} else if (xml_item.indexOf('Putih') >= 0) {
-		output += 'white';
+	if (!isValidate(xml_name, xml_item)) {
+	    output += 'red';
 	} else if (xml_item.indexOf('½') >= 0) {
-		output += 'italic';
+	    output += 'italic';
+	} else if (xml_item.indexOf('Batik') >= 0) {
+	    output += 'blue';
+	} else if (xml_item.indexOf('Hijau') >= 0) {
+	    output += 'green';
+	} else if (xml_item.indexOf('Putih') >= 0
+			|| xml_item.indexOf('Marble') >= 0) {
+	    output += 'white';
 	}
 	output += '"';
 	output += '>';
