@@ -3332,7 +3332,7 @@
   <rootname>
     <rumi>dollah</rumi>
     <jawi>دوله</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>dom</rumi>
@@ -6936,6 +6936,8 @@
   </rootname>
   <rootname>
     <rumi>kamaludin</rumi>
+    <jawi>كمرلدين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>kamar</rumi>
@@ -12243,8 +12245,8 @@
   </rootname>
   <rootname>
     <rumi>rosidah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>روسيده</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>rosiyah</rumi>
@@ -13581,6 +13583,8 @@
   </rootname>
   <rootname>
     <rumi>semail</rumi>
+    <jawi></jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>seman</rumi>
@@ -16582,8 +16586,8 @@
   </rootname>
   <rootname>
     <rumi>zain</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>زين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>zainab</rumi>
