@@ -6876,7 +6876,7 @@
     <age>87</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-02-14" delivered="" price="12">
+  <order soldto="HAM" date="2012-02-14" delivered="2012-03-02" price="12">
     <name>ps. sk. abd kadir bin p. shahul hamid</name>
     <jawi>في،سي، شيك عبدالكادير بن في، شاهول حميد</jawi>
     <death>2011-04-10</death>
@@ -6923,7 +6923,7 @@
     <age>61</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-02-14" delivered="2012-03-01" price="12">
+  <order soldto="HAM" date="2012-02-14" delivered="2012-03-02" price="12">
     <name>abu bakar bin kupai</name>
     <jawi>أبو بكر بن كوفي</jawi>
     <death>1986-09-15</death>
@@ -6985,7 +6985,7 @@
     <age>50</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-02-14" delivered="" price="12">
+  <order soldto="HAM" date="2012-02-14" delivered="2012-03-02" price="12">
     <name>mohd fadzley bin radin mahtar</name>
     <jawi>محمد فظي بن راضين محتار</jawi>
     <death>2012-01-15</death>
@@ -7044,21 +7044,21 @@
     <deathm>1433-01-13</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="KEN" date="2012-02-19" delivered="2012-02-28" price="230">
+  <order soldto="KEN" date="2012-02-19" delivered="0212-03-02" price="210">
     <name>Aminah Bt Rasul</name>
     <jawi>أمينة بنت رسول</jawi>
     <death>1985-04-08</death>
     <deathm>1405-07-13</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="KEN" date="2012-02-19" delivered="2012-02-28" price="230">
+  <order soldto="KEN" date="2012-02-19" delivered="2012-02-28" price="210">
     <name>Rena Bt Deraman</name>
     <jawi>رينا بنت درمان</jawi>
     <death>1987-09-09</death>
     <deathm>1408-01-14</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="KEN" date="2012-02-19" delivered="2012-02-28" price="230">
+  <order soldto="KEN" date="2012-02-19" delivered="2012-02-28" price="210">
     <name>Siti Zauyah Bt Aziz</name>
     <jawi>ستي زاويه بنت عزيز</jawi>
     <death>1989-11-17</death>
@@ -7218,5 +7218,42 @@
     <deathm></deathm>
     <item>4" Sticker</item>
     <remarks>rumi</remarks>
+  </order>
+  <order soldto="HAM" date="2012-03-01" delivered="" price="12">
+    <name>hj aman bin jaafar</name>
+    <jawi>حاج امان بن جعفر</jawi>
+    <death>1945</death>
+    <deathm></deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-03-01" delivered="2012-03-02" price="12">
+    <name>hjh rogayah bt zahid</name>
+    <jawi>حجه روڬايه بنت زاهيد</jawi>
+    <death>2012-01-07</death>
+    <deathm>1433-02-13</deathm>
+    <age>82</age>
+    <item>3¼"x4¼" Sticker</item>
+  </order>
+  <order soldto="ADI" date="2012-03-02" delivered="" price="260">
+    <name>Hjh teh bt hj hussin</name>
+    <jawi>حجه تيه بنت حاج حُسين</jawi>
+    <death>2012-02-17 16:30</death>
+    <deathm>1433-03-25</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="ADI" date="2012-03-02" delivered="" price="35">
+    <name>Siti shakiah bt Md rawi</name>
+    <jawi>ستي شاكيه بنت مد راوي</jawi>
+    <death>2012-01-16</death>
+    <deathm>1433-02-22</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2012-03-02" delivered="" price="35">
+    <name>Saharuddin bin hj mohd hasyim</name>
+	<jawi>شهارودين بن حاج محمد هشيم</jawi>
+	<born>1963-04-17</born>
+    <death>2009-02-12</death>
+    <deathm>1430-02-16</deathm>
+    <item>PV Budak</item>
   </order>
 </nisan>
