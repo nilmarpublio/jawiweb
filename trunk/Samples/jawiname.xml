@@ -844,8 +844,8 @@
   </rootname>
   <rootname>
     <rumi>aman</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>امان</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>amani</rumi>
@@ -5187,8 +5187,8 @@
   </rootname>
   <rootname>
     <rumi>hasyim</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>هشيم</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>hat</rumi>
@@ -16509,7 +16509,7 @@
   <rootname>
     <rumi>zahid</rumi>
     <jawi>زاهيد</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>zahidi</rumi>
