@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CharacterCollectionTest.cs" />
+    <Compile Include="JawiTranslatorTest.cs" />
     <Compile Include="MuslimCalendarTest.cs" />
     <Compile Include="PathCollectionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
