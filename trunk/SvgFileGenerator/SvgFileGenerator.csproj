@@ -61,20 +61,44 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Counter.cs" />
-    <Compile Include="GraphicCollection.cs" />
-    <Compile Include="GraphicViewModel.cs" />
-    <Compile Include="nisan.cs" />
-    <Compile Include="NisanReader.cs" />
-    <Compile Include="PathCollection.cs" />
-    <Compile Include="PathViewModel.cs" />
+    <Compile Include="..\HLGranite.Jawi\Counter.cs">
+      <Link>Counter.cs</Link>
+    </Compile>
+    <Compile Include="..\HLGranite.Jawi\GraphicCollection.cs">
+      <Link>GraphicCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\HLGranite.Jawi\GraphicViewModel.cs">
+      <Link>GraphicViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\HLGranite.Jawi\nisan.cs">
+      <Link>nisan.cs</Link>
+    </Compile>
+    <Compile Include="..\HLGranite.Jawi\NisanReader.cs">
+      <Link>NisanReader.cs</Link>
+    </Compile>
+    <Compile Include="..\HLGranite.Jawi\PathCollection.cs">
+      <Link>PathCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\HLGranite.Jawi\PathViewModel.cs">
+      <Link>PathViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\HLGranite.Jawi\PunctuationCollection.cs">
+      <Link>PunctuationCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\HLGranite.Jawi\SvgReader.cs">
+      <Link>SvgReader.cs</Link>
+    </Compile>
+    <Compile Include="..\HLGranite.Jawi\SvgWriter.cs">
+      <Link>SvgWriter.cs</Link>
+    </Compile>
+    <Compile Include="..\HLGranite.Jawi\TextCollection.cs">
+      <Link>TextCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\HLGranite.Jawi\WordCollection.cs">
+      <Link>WordCollection.cs</Link>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PunctuationCollection.cs" />
-    <Compile Include="SvgReader.cs" />
-    <Compile Include="SvgWriter.cs" />
-    <Compile Include="TextCollection.cs" />
-    <Compile Include="WordCollection.cs" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

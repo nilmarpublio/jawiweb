@@ -6,18 +6,19 @@ using System.Drawing;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
+using HLGranite.Jawi;
 
 namespace MuslimCalendar
 {
     public partial class Form1 : Form
     {
-        private MuslimCalendar calendar;
+        private HLGranite.Jawi.MuslimCalendar calendar;
         public Form1()
         {
             InitializeComponent();
 
             DisplayMuslimMonth();
-            calendar = new MuslimCalendar(ReadXml("muslimcal.xml"));
+            calendar = new HLGranite.Jawi.MuslimCalendar(ReadXml("muslimcal.xml"));
             DisplayResult(DateTime.Now);
         }
         private DataTable ReadXml(string fileName)
