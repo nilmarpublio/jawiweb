@@ -47,8 +47,7 @@ namespace HLGranite.Jawi
                 //System.Diagnostics.Debug.WriteLine("Reading " + info.Name + "...");
 
                 SvgReader reader = new SvgReader(info.FullName);
-                //HACK: At this moment only support one Path in a template file.
-                //ideal case is get a group of graphic object.
+                //HACK: At this moment only support one Path in a template file. Ideal case is get a group of graphic object.
                 var elements = reader.GetXMLElements("path");
                 foreach (XElement element in elements)
                 {
