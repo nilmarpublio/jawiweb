@@ -69,17 +69,78 @@ namespace HLGranite.Jawi.Test
         [TestMethod()]
         public void GetDateTest()
         {
-            MuslimCalendar calendar = new MuslimCalendar(ReadXml(@"G:\projects\JawiWeb\HLGranite.Jawi\muslimcal.xml"));
+            MuslimCalendar calendar = new MuslimCalendar(ReadXml("muslimcal.xml"));
+
+            //2012-01-18 is 1433-02-24
+            calendar.GetDate(new DateTime(2011, 11, 27));
+            DateTime expected = new DateTime(1433, 1, 1);
+            DateTime actual = calendar.Value;
+            Assert.AreEqual(expected, actual);
+
+            calendar.GetDate(new DateTime(2011, 12, 26));
+            expected = new DateTime(1433, 2, 1);
+            actual = calendar.Value;
+            Assert.AreEqual(expected, actual);
+
+            calendar.GetDate(new DateTime(2012, 1, 24));
+            expected = new DateTime(1433, 3, 1);
+            actual = calendar.Value;
+            Assert.AreEqual(expected, actual);
+
+            calendar.GetDate(new DateTime(2012, 2, 23));
+            expected = new DateTime(1433, 4, 1);
+            actual = calendar.Value;
+            Assert.AreEqual(expected, actual);
+
+            calendar.GetDate(new DateTime(2012, 3, 24));
+            expected = new DateTime(1433, 5, 1);
+            actual = calendar.Value;
+            Assert.AreEqual(expected, actual);
+
+            calendar.GetDate(new DateTime(2012, 4, 22));
+            expected = new DateTime(1433, 6, 1);
+            actual = calendar.Value;
+            Assert.AreEqual(expected, actual);
+
+            calendar.GetDate(new DateTime(2012, 5, 22));
+            expected = new DateTime(1433, 7, 1);
+            actual = calendar.Value;
+            Assert.AreEqual(expected, actual);
+
+            calendar.GetDate(new DateTime(2012, 6, 21));
+            expected = new DateTime(1433, 8, 1);
+            actual = calendar.Value;
+            Assert.AreEqual(expected, actual);
+
+            calendar.GetDate(new DateTime(2012, 7, 20));
+            expected = new DateTime(1433, 9, 1);
+            actual = calendar.Value;
+            Assert.AreEqual(expected, actual);
+
+            calendar.GetDate(new DateTime(2012, 8, 19));
+            expected = new DateTime(1433, 10, 1);
+            actual = calendar.Value;
+            Assert.AreEqual(expected, actual);
+
+            calendar.GetDate(new DateTime(2012, 9, 17));
+            expected = new DateTime(1433, 11, 1);
+            actual = calendar.Value;
+            Assert.AreEqual(expected, actual);
+
+            calendar.GetDate(new DateTime(2012, 10, 17));
+            expected = new DateTime(1433, 12, 1);
+            actual = calendar.Value;
+            Assert.AreEqual(expected, actual);
 
             //2012-01-18 is 1433-02-24
             calendar.GetDate(new DateTime(2012, 1, 18));
-            DateTime expected = new DateTime(1433, 2, 24);
-            DateTime actual = calendar.Value;
+            expected = new DateTime(1433, 2, 24);
+            actual = calendar.Value;
             Assert.AreEqual(expected, actual);
 
             //2011-10-30 is 1432-11-03
             calendar.GetDate(new DateTime(2011, 10, 30));
-            expected = new DateTime(1432, 11, 3);
+            expected = new DateTime(1432, 12, 3);
             actual = calendar.Value;
             Assert.AreEqual(expected, actual);
 
