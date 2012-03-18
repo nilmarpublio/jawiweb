@@ -7386,4 +7386,51 @@
     <deathm>1431-10-13</deathm>
     <item>PV</item>
   </order>
+  <order soldto="HAM" date="2012-03-13" delivered="" price="12">
+    <name>ahmad jalaludin bin sk. mohd</name>
+    <jawi>أحمد جالالودين بن شيك محمد</jawi>
+    <death>1948-04-10</death>
+    <deathm>1367-06-01</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-03-13" delivered="" price="12">
+    <name>khalidazha bin abd latib</name>
+    <jawi>خاليدازا بن عبداللطيب</jawi>
+    <death>2012-02-13</death>
+    <deathm>1433-03-20</deathm>
+	<age>18</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-03-13" delivered="" price="12">
+    <name>zahrah bt othman</name>
+    <jawi>زاهره بنت عثمان</jawi>
+    <death>2012-02-01</death>
+    <deathm>1433-03-08</deathm>
+	<age>74</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-03-13" delivered="" price="12">
+    <name>nurhana bt mohd jamil</name>
+    <jawi>نورحانا بنت محمد جميل</jawi>
+    <death>2009-09-09</death>
+    <deathm>1430-09-19</deathm>
+	<age>7 bulan</age>
+    <item>1½' Sticker(P)</item>	
+  </order>
+  <order soldto="HAM" date="2012-03-13" delivered="" price="12">
+    <name>mohamulha bee bt sk dawood</name>
+    <jawi>محمولحا بي بنت شيك داؤد</jawi>
+    <death>2012-02-02</death>
+    <deathm>1433-03-09</deathm>
+	<age>67</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-03-13" delivered="" price="12">
+    <name>hj abd rashid bin adnan</name>
+    <jawi>حاج عبدالراشد بن ادنان</jawi>
+    <death>2012-03-09</death>
+    <deathm>1433-04-16</deathm>
+	<age>73</age>
+    <item>2' Sticker(L)</item>
+  </order>
 </nisan>
