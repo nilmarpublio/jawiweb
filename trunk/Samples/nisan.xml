@@ -7433,4 +7433,12 @@
 	<age>73</age>
     <item>2' Sticker(L)</item>
   </order>
+  <order soldto="SEL" date="2012-03-18" delivered="" price="230">
+    <name>Chanmekun bin karthi</name>
+    <jawi>چنمکون بن کرثي</jawi>
+	<born>1954-11-14</born>
+    <death>2012-03-09</death>
+    <deathm>1433-04-16</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
 </nisan>
