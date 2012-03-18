@@ -7350,4 +7350,40 @@
     <item>3'x6' Rehal Batik</item>
 	<remarks>kosong sahaja</remarks>
   </order>  
+  <order soldto="ADI" date="2012-03-17" delivered="" price="260">
+    <name>Umar bin sa'ad</name>
+    <jawi>عمر بن سعد</jawi>
+	<born>1939-09-15</born>
+    <death>2011-09-27</death>
+    <deathm>1432-10-29</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2012-03-17" delivered="" price="260">
+    <name>Hj mat alham bin hj osman</name>
+    <jawi>حاج مت الهم بن حاج عسمن</jawi>
+    <death>2011-06-28</death>
+    <deathm>1432-07-26</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2012-03-17" delivered="" price="260">
+    <name>Hj zainuddin bin hj abd rahman</name>
+    <jawi>حاج زاينوالدين بن حاج عبدالرحمن</jawi>
+    <death>2012-01-20</death>
+    <deathm>1433-02-26</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2012-03-17" delivered="" price="35">
+    <name>Mohd ibrahim bin Sabikam</name>
+    <jawi>محمد إبراهيم بن سبكيم</jawi>
+    <death>2011-10-31</death>
+    <deathm>1432-12-04</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2012-03-17" delivered="" price="35">
+    <name>Jamhari bin saleh</name>
+    <jawi>جمهاري بن صالح</jawi>
+    <death>2010-09-22</death>
+    <deathm>1431-10-13</deathm>
+    <item>PV</item>
+  </order>
 </nisan>
