@@ -3119,8 +3119,8 @@
   </rootname>
   <rootname>
     <rumi>dawood</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>داؤد</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>dayan</rumi>
@@ -6181,8 +6181,8 @@
   </rootname>
   <rootname>
     <rumi>jalaluddin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>جالالودين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>jalaludin</rumi>
@@ -7775,8 +7775,8 @@
   </rootname>
   <rootname>
     <rumi>latib</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>لطيب</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>latif</rumi>
@@ -14052,7 +14052,7 @@
   <rootname>
     <rumi>shaik</rumi>
     <jawi>شيك</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shaikh</rumi>
@@ -14555,8 +14555,8 @@
   </rootname>
   <rootname>
     <rumi>sk</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شيك</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>skikh</rumi>
@@ -16533,6 +16533,8 @@
   </rootname>
   <rootname>
     <rumi>zahrah</rumi>
+	<jawi>زاهره </jawi>
+	<sex>2</sex>
   </rootname>
   <rootname>
     <rumi>zaibunisah</rumi>
