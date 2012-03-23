@@ -7469,7 +7469,7 @@
   </order>
   <order soldto="HAM" date="2012-03-19" delivered="2012-03-23" price="12">
     <name>hjh che tah bt hamid</name>
-    <jawi></jawi>
+    <jawi>حجه چئ تاه بنت حميد</jawi>
     <death>2012-02-26</death>
     <deathm>1433-04-04</deathm>
 	<age>76</age>
@@ -7477,7 +7477,7 @@
   </order>
   <order soldto="HAM" date="2012-03-19" delivered="" price="12">
     <name>che som bt gulam sava</name>
-    <jawi></jawi>
+    <jawi>چئ سوم بنت گولم ساوا</jawi>
     <death>2012-02-16</death>
     <deathm>1433-03-23</deathm>
 	<age>65</age>
@@ -7485,7 +7485,7 @@
   </order>
   <order soldto="HAM" date="2012-03-19" delivered="" price="12">
     <name>hj mokhtear bin saad</name>
-    <jawi></jawi>
+    <jawi>حاج مختار بن سعد</jawi>
     <death>2012-01-25</death>
     <deathm>1433-03-01</deathm>
 	<age>71</age>
@@ -7493,7 +7493,7 @@
   </order>
   <order soldto="HAM" date="2012-03-19" delivered="2012-03-23" price="12">
     <name>rohana bt ariffin</name>
-    <jawi></jawi>
+    <jawi>روحان بنت عريفين</jawi>
     <death>2011-12-13</death>
     <deathm>1433-02-17</deathm>
 	<age>38</age>
@@ -7501,7 +7501,7 @@
   </order>
   <order soldto="HAM" date="2012-03-19" delivered="2012-03-23" price="12">
     <name>ibrahim bin muhamad</name>
-    <jawi></jawi>
+    <jawi>إبراهيم بن محمد</jawi>
     <death>2012-02-14</death>
     <deathm>1433-03-21</deathm>
 	<age>76</age>
@@ -7509,7 +7509,7 @@
   </order>
   <order soldto="HAM" date="2012-03-19" delivered="2012-03-23" price="12">
     <name>halijah bt hassan</name>
-    <jawi></jawi>
+    <jawi>هاليجه بنت حسن</jawi>
     <death>2011-11-27</death>
     <deathm>1433-01-01</deathm>
 	<age>64</age>
@@ -7517,7 +7517,7 @@
   </order>
   <order soldto="HAM" date="2012-03-19" delivered="2012-03-23" price="12">
     <name>abu bakar bin mohd ali</name>
-    <jawi></jawi>
+    <jawi>أبو بكر بن محمد علي</jawi>
     <death>2012-01-03</death>
     <deathm>1433-02-09</deathm>
 	<age>74</age>
