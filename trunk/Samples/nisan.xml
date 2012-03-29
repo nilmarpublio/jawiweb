@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
+<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="KEN" date="2011-01-03" delivered="2011-01-23" price="210">
     <name>Jamaliah Bt Saat</name>
@@ -7243,7 +7243,7 @@
     <death>2012-02-17 16:30</death>
     <deathm>1433-03-25</deathm>
     <item>2' Batu Batik(P)</item>
-	<remarks>060301212016725</remarks>
+    <remarks>060301212016725</remarks>
   </order>
   <order soldto="ADI" date="2012-03-02" delivered="2012-03-07" price="35">
     <name>Siti shakiah bt Md rawi</name>
@@ -7314,7 +7314,7 @@
     <death>2011-07-28</death>
     <deathm>1432-08-26</deathm>
     <item>2' Batu Batik(P)</item>
-	<remarks>060301212016725</remarks>
+    <remarks>060301212016725</remarks>
   </order>
   <order soldto="SEM" date="2012-03-11" delivered="" price="230">
     <name>ahmad abu hasan bin saidin</name>
@@ -7359,7 +7359,7 @@
     <death>2011-09-27</death>
     <deathm>1432-10-29</deathm>
     <item>2' Batu Batik(L)</item>
-	<remarks>060301211396764</remarks>
+    <remarks>060301211396764</remarks>
   </order>
   <order soldto="ADI" date="2012-03-17" delivered="2012-03-23" price="260">
     <name>Hj mat alham bin hj osman</name>
@@ -7367,7 +7367,7 @@
     <death>2011-06-28</death>
     <deathm>1432-07-26</deathm>
     <item>2' Batu Batik(L)</item>
-	<remarks>060301211396764</remarks>
+    <remarks>060301211396764</remarks>
   </order>
   <order soldto="ADI" date="2012-03-17" delivered="2012-03-23" price="260">
     <name>Hj zainuddin bin hj abd rahman</name>
@@ -7375,7 +7375,7 @@
     <death>2012-01-20</death>
     <deathm>1433-02-26</deathm>
     <item>2' Batu Batik(L)</item>
-	<remarks>060301211396764</remarks>
+    <remarks>060301211396764</remarks>
   </order>
   <order soldto="ADI" date="2012-03-17" delivered="2012-03-19" price="35">
     <name>Mohd ibrahim bin Sabikam</name>
@@ -7459,7 +7459,7 @@
   <order soldto="SEL" date="2012-03-22" delivered="" price="230">
     <name>Ahamad bin sarif</name>
     <jawi>أحمد بن صرف</jawi>
-	<born>1919-08-18</born>
+    <born>1919-08-18</born>
     <death>2012-03-13</death>
     <deathm>1433-04-20</deathm>
     <item>2' Batu Putih(L)</item>
@@ -7469,7 +7469,7 @@
     <jawi>حجه عيشه بنت حُسين</jawi>
     <death>2011-12-30</death>
     <deathm>1433-02-05</deathm>
-	<age>80</age>
+    <age>80</age>
     <item>2' Sticker(P)</item>
   </order>
   <order soldto="HAM" date="2012-03-19" delivered="2012-03-23" price="12">
@@ -7477,23 +7477,23 @@
     <jawi>حجه چئ تاه بنت حميد</jawi>
     <death>2012-02-26</death>
     <deathm>1433-04-04</deathm>
-	<age>76</age>
+    <age>76</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-03-19" delivered="" price="12">
+  <order soldto="HAM" date="2012-03-19" delivered="2012-03-29" price="12">
     <name>che som bt gulam sava</name>
     <jawi>چئ سوم بنت گولم ساوا</jawi>
     <death>2012-02-16</death>
     <deathm>1433-03-23</deathm>
-	<age>65</age>
+    <age>65</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-03-19" delivered="" price="12">
+  <order soldto="HAM" date="2012-03-19" delivered="2012-03-29" price="12">
     <name>hj mokhtear bin saad</name>
     <jawi>حاج مختار بن سعد</jawi>
     <death>2012-01-25</death>
     <deathm>1433-03-01</deathm>
-	<age>71</age>
+    <age>71</age>
     <item>2' Sticker(L)</item>
   </order>
   <order soldto="HAM" date="2012-03-19" delivered="2012-03-23" price="12">
@@ -7501,7 +7501,7 @@
     <jawi>روحان بنت عريفين</jawi>
     <death>2011-12-13</death>
     <deathm>1433-02-17</deathm>
-	<age>38</age>
+    <age>38</age>
     <item>2' Sticker(P)</item>
   </order>
   <order soldto="HAM" date="2012-03-19" delivered="2012-03-23" price="12">
@@ -7509,7 +7509,7 @@
     <jawi>إبراهيم بن محمد</jawi>
     <death>2012-02-14</death>
     <deathm>1433-03-21</deathm>
-	<age>76</age>
+    <age>76</age>
     <item>2½' Sticker(L)</item>
   </order>
   <order soldto="HAM" date="2012-03-19" delivered="2012-03-23" price="12">
@@ -7517,7 +7517,7 @@
     <jawi>هاليجه بنت حسن</jawi>
     <death>2011-11-27</death>
     <deathm>1433-01-01</deathm>
-	<age>64</age>
+    <age>64</age>
     <item>2½' Sticker(P)</item>
   </order>
   <order soldto="HAM" date="2012-03-19" delivered="2012-03-23" price="12">
@@ -7525,14 +7525,46 @@
     <jawi>أبو بكر بن محمد علي</jawi>
     <death>2012-01-03</death>
     <deathm>1433-02-09</deathm>
-	<age>74</age>
+    <age>74</age>
     <item>2½' Sticker(L)</item>
   </order>
-    <order soldto="SEL" date="2012-03-25" delivered="" price="230">
+  <order soldto="SEL" date="2012-03-25" delivered="" price="230">
     <name>Ismail bin md ali</name>
     <jawi>إسماعيل بن مد علي</jawi>
     <death>2012-03-22</death>
     <deathm>1433-04-29</deathm>
     <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-03-29" delivered="" price="12">
+    <name>mohamed idris bin abd kader</name>
+    <jawi>محمد ادريس بن عبدالكادير</jawi>
+    <death>2012-03-23</death>
+    <deathm>1433-04-30</deathm>
+    <age>33</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-03-29" delivered="" price="12">
+    <name>salmiah bt hashim</name>
+    <jawi>ساميه بنت هاشم</jawi>
+    <death>2012-03-04</death>
+    <deathm>1433-04-11</deathm>
+    <age>58</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-03-29" delivered="" price="12">
+    <name>mohd amin bin mohamed</name>
+    <jawi>محمد أمين بن محمد</jawi>
+    <death>1992-09-25</death>
+    <deathm>1413-03-28</deathm>
+    <age>63</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-03-29" delivered="" price="12">
+    <name>zuraidah bt mohd amin</name>
+    <jawi>ذورايده بنت محمد أمين</jawi>
+    <death>2012-01-22</death>
+    <deathm>1433-02-28</deathm>
+    <age>52</age>
+    <item>2' Sticker(P)</item>
   </order>
 </nisan>
