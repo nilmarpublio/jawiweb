@@ -27,5 +27,13 @@ namespace JawiWPF
         {
             this.Close();
         }
+
+        private void output_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                this.Close();
+            }
+        }
     }
 }

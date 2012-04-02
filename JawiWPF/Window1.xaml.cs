@@ -187,35 +187,21 @@ namespace JawiWPF
             writer.Write(this.wordManager);
             this.statusText.Text = "Export svg done";
 
-            //logic below incorrect because it is hard to count again which including puntiotion
-            //string fileName = GetInputText().Trim();
-            //when only after pressed search button.
-            //if (fileName.Length == 0) fileName = GetInlineText(richTextBox2).Trim();
-            //int inputCount = fileName.Split(new char[] { ' ' }).Length;
-            //if (this.workSpace.Children.Count - 3 == inputCount)
-            //{
-            //    fileName += ".svg";
-            //}
-            //else
-
             SimpleDialog dialog = new SimpleDialog();
             dialog.ShowDialog();
-            string fileName = dialog.output.Text.Trim() + ".svg";
 
-            if (!string.IsNullOrEmpty(fileName))
+            string fileName = dialog.output.Text.Trim() + ".svg";
+            SvgWriter writer2 = new SvgWriter(fileName);
+            bool success = writer2.Merge("output.svg");
+            string message = success ? "Merge success" : "Merge fail. Please try again";
+            this.statusText.Text = message;
+            if (success)
             {
-                SvgWriter writer2 = new SvgWriter(fileName);
-                bool success = writer2.Merge("output.svg");
-                string message = success ? "Merge success" : "Merge fail. Please try again";
-                this.statusText.Text = message;
-                if (success)
-                {
-                    if (MessageBox.Show(message) == MessageBoxResult.OK)
-                        clear_Click(clear, new RoutedEventArgs());
-                }
-                else
-                    MessageBox.Show(message);
+                if (MessageBox.Show(message) == MessageBoxResult.OK)
+                    clear_Click(clear, new RoutedEventArgs());
             }
+            else
+                MessageBox.Show(message);
         }
         /// <summary>
         /// Get input text from searchbox.
@@ -285,17 +271,17 @@ namespace JawiWPF
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            string xml = XamlWriter.Save(workSpace);
-            System.IO.FileStream fs = System.IO.File.Create("output.xaml");
-            System.IO.StreamWriter sw = new System.IO.StreamWriter(fs);
-            sw.Write(xml);
-            sw.Close();
-            fs.Close();
+        //private void Button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    string xml = XamlWriter.Save(workSpace);
+        //    System.IO.FileStream fs = System.IO.File.Create("output.xaml");
+        //    System.IO.StreamWriter sw = new System.IO.StreamWriter(fs);
+        //    sw.Write(xml);
+        //    sw.Close();
+        //    fs.Close();
 
-            this.statusText.Text = "Export xaml done";
-        }
+        //    this.statusText.Text = "Export xaml done";
+        //}
         /// <summary>
         /// SaveAs by manual work.
         /// </summary>
