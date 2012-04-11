@@ -7575,7 +7575,7 @@
     <age>66</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="ADI" date="2012-03-26" delivered="" price="35">
+  <order soldto="ADI" date="2012-03-26" delivered="2012-04-03" price="35">
     <name>Salmah bt mohamad</name>
     <jawi>سلمه بنت محمد</jawi>
     <born>1955-11-21</born>
@@ -7583,22 +7583,24 @@
     <deathm>1433-04-12</deathm>
     <age>57</age>
     <item>PV</item>
-    <remarks>rumi sahaja</remarks>
+    <remarks>EM032522431MY rumi sahaja</remarks>
   </order>
-  <order soldto="ADI" date="2012-03-26" delivered="" price="35">
+  <order soldto="ADI" date="2012-03-26" delivered="2012-04-03" price="35">
     <name>ispon bin kayat</name>
     <jawi>اسفون بن كايات</jawi>
     <death>2012-01-02</death>
     <deathm>1433-02-08</deathm>
     <item>PV Egg</item>
+    <remarks>EM032522431MY</remarks>
   </order>
-  <order soldto="ADI" date="2012-03-26" delivered="" price="35">
+  <order soldto="ADI" date="2012-03-26" delivered="2012-04-03" price="35">
     <name>Muhamad azrul bin hassan</name>
     <jawi>محمد ازرول بن حسن</jawi>
     <born>1993-11-20</born>
     <death>2012-03-18</death>
     <deathm>1433-04-25</deathm>
     <item>PV Egg</item>
+    <remarks>EM032522431MY</remarks>
   </order>
   <order soldto="HAM" date="2012-03-29" delivered="2012-04-03" price="12">
     <name>mohamed idris bin abd kader</name>
@@ -7632,19 +7634,21 @@
     <age>52</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="ADI" date="2012-03-29" delivered="" price="35">
+  <order soldto="ADI" date="2012-03-29" delivered="2012-04-03" price="35">
     <name>Natinam bt seterok</name>
     <jawi>ناتينم بنت سترك</jawi>
     <death>2012-02-16</death>
     <deathm>1433-03-24</deathm>
     <item>PV</item>
+    <remarks>EM032522431MY</remarks>
   </order>
-  <order soldto="ADI" date="2012-03-29" delivered="" price="35">
+  <order soldto="ADI" date="2012-03-29" delivered="2012-04-03" price="35">
     <name>Mohd jumari bin sukir</name>
     <jawi>محمد جومري بن صقر</jawi>
     <death>1976-06-13</death>
     <deathm>1396-06-16</deathm>
     <item>PV Egg</item>
+    <remarks>EM032522431MY</remarks>
   </order>
   <order soldto="ADI" date="2012-04-02" delivered="" price="35">
     <name>Hashim bin hj mohd radzi</name>
@@ -7653,5 +7657,64 @@
     <death>2012-03-13</death>
     <deathm>1433-04-20</deathm>
     <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2012-04-04" delivered="" price="35">
+    <name>Zamanuri bin abu</name>
+    <jawi>زامانوري بن أبو</jawi>
+    <born>1960-12-25</born>
+	<death>2012-02-05</death>
+    <deathm>1433-03-12</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2012-04-04" delivered="" price="35">
+    <name>Rakiah bt dahalan</name>
+    <jawi>روكياه بنت دحلان</jawi>
+    <death>2011-09-11</death>
+    <deathm>1432-10-13</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2012-04-04" delivered="2012-04-09" price="260">
+    <name>saudah bt karim</name>
+    <jawi>ساوده بنت كريم</jawi>
+	<born>1928-08-21</born>
+    <death>2011-11-08</death>
+    <deathm>1432-12-12</deathm>
+    <item>2' Batu Batik(P)</item>
+	<remarks>060301212016689</remarks>
+  </order>
+  <order soldto="SEM" date="2012-04-11" delivered="" price="230">
+    <name>hamid bin mat akib</name>
+    <jawi>حميد بن مت اكيب</jawi>
+    <death>2012-03-19</death>
+    <deathm>1433-04-26</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2012-04-11" delivered="" price="230">
+    <name>mohd radzi bin othman</name>
+    <jawi>محمد راضي بن عثمان</jawi>
+    <death>2012-02-23</death>
+    <deathm>1433-04-01</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2012-04-11" delivered="" price="230">
+    <name>othman bin abdullah</name>
+    <jawi>عثمان بن عبدالله</jawi>
+    <death>2012-02-05</death>
+    <deathm>1433-03-13</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2012-04-11" delivered="" price="230">
+    <name>samsiah bt idris</name>
+    <jawi>سمسياه بنت ادريس</jawi>
+    <death>2012-01-24</death>
+    <deathm>1433-03-01</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEM" date="2012-04-11" delivered="" price="230">
+    <name>saldiah bt yusof</name>
+    <jawi>صلدة بنت يوسوف</jawi>
+    <death>2012-03-26</death>
+    <deathm>1433-05-03</deathm>
+    <item>2' Batu Batik(P)</item>
   </order>
 </nisan>
