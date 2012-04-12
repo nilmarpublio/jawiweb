@@ -7662,7 +7662,7 @@
     <name>Zamanuri bin abu</name>
     <jawi>زامانوري بن أبو</jawi>
     <born>1960-12-25</born>
-	<death>2012-02-05</death>
+    <death>2012-02-05</death>
     <deathm>1433-03-12</deathm>
     <item>PV Egg</item>
   </order>
@@ -7676,11 +7676,11 @@
   <order soldto="ADI" date="2012-04-04" delivered="2012-04-09" price="260">
     <name>saudah bt karim</name>
     <jawi>ساوده بنت كريم</jawi>
-	<born>1928-08-21</born>
+    <born>1928-08-21</born>
     <death>2011-11-08</death>
     <deathm>1432-12-12</deathm>
     <item>2' Batu Batik(P)</item>
-	<remarks>060301212016689</remarks>
+    <remarks>060301212016689</remarks>
   </order>
   <order soldto="SEM" date="2012-04-11" delivered="" price="230">
     <name>hamid bin mat akib</name>
@@ -7716,5 +7716,85 @@
     <death>2012-03-26</death>
     <deathm>1433-05-03</deathm>
     <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-11" delivered="" price="12">
+    <name>abdul basheer bin shamsudin</name>
+    <jawi>عبدالبصير بن شامسوددين</jawi>
+    <death>2012-01-14</death>
+    <deathm>1433-02-20</deathm>
+    <age>59</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-11" delivered="" price="12">
+    <name>abas bin taib</name>
+    <jawi>عابس بن طيب</jawi>
+    <death>2012-03-30</death>
+    <deathm>1433-05-07</deathm>
+    <age>69</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-11" delivered="" price="12">
+    <name>fauziah bt hashim</name>
+    <jawi>فوزيه بنت هاشم</jawi>
+    <death>2012-02-18</death>
+    <deathm>1433-03-25</deathm>
+    <age>52</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-11" delivered="" price="12">
+    <name>hjh sakina bt ahmad</name>
+    <jawi>حجه ساكنة بنت أحمد</jawi>
+    <death>2012-04-01</death>
+    <deathm>1433-05-09</deathm>
+    <age>61</age>
+    <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-11" delivered="" price="12">
+    <name>razali bin abd rahim</name>
+    <jawi>رازالي بن عبدالرحيم</jawi>
+    <death>2011-08-29</death>
+    <deathm>1432-09-29</deathm>
+    <age>31</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-11" delivered="" price="12">
+    <name>repeaah bt che rose</name>
+    <jawi>رافياه بنت چئ روس</jawi>
+    <death>2011-12-14</death>
+    <deathm>1433-01-18</deathm>
+    <age>64</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-11" delivered="" price="12">
+    <name>yusof bin md zain</name>
+    <jawi>يوسوف بن مد زين</jawi>
+    <death>2012-03-05</death>
+    <deathm>1433-04-12</deathm>
+    <age>77</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-11" delivered="" price="12">
+    <name>che pah bt arshad</name>
+    <jawi>چئ فه بنت أرشد</jawi>
+    <death>2012-02-14</death>
+    <deathm>1433-03-22</deathm>
+    <age>79</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-11" delivered="" price="12">
+    <name>ahmad bin ariffin</name>
+    <jawi>أحمد بن عريفين</jawi>
+    <death>1975-08-02</death>
+    <deathm>1395-07-25</deathm>
+    <age>61</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-11" delivered="" price="12">
+    <name>rokiah bt mat</name>
+    <jawi>روكياه بنت مت</jawi>
+    <death>1974-04-11</death>
+    <deathm>1394-03-19</deathm>
+    <age>62</age>
+    <item>2' Sticker(P)</item>
   </order>
 </nisan>
