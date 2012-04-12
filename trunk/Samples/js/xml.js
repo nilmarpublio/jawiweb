@@ -140,14 +140,14 @@ function generateRow(year,index,node) {
 	output += ' class="';
 	if (!isValidate(xml_name, xml_item)) {
 	    output += 'red';
-	} else if (xml_item.indexOf('½') >= 0) {
+	} else if (xml_item.indexOf("\u00BD") > -1) { //½
 	    output += 'italic';
-	} else if (xml_item.indexOf('Batik') >= 0) {
+	} else if (xml_item.indexOf('Batik') > -1) {
 	    output += 'blue';
-	} else if (xml_item.indexOf('Hijau') >= 0) {
+	} else if (xml_item.indexOf('Hijau') > -1) {
 	    output += 'green';
-	} else if (xml_item.indexOf('Putih') >= 0
-			|| xml_item.indexOf('Marble') >= 0) {
+	} else if (xml_item.indexOf('Putih') > -1
+			|| xml_item.indexOf('Marble') > -1) {
 	    output += 'white';
 	}
 	output += '"';
@@ -317,14 +317,14 @@ function generateCheckBoxRow(year,id,node) {
 	output += ' class="';
 	if (!isValidate(xml_name, xml_item)) {
 		output += 'red';
-	} else if (xml_item.indexOf('½') >= 0) {
+    } else if (xml_item.indexOf("\u00BD") > -1) { //½
 		output += 'italic';
-	} else if (xml_item.indexOf('Batik') >= 0) {
+	} else if (xml_item.indexOf('Batik') > -1) {
 		output += 'blue';
-	} else if (xml_item.indexOf('Hijau') >= 0) {
+	} else if (xml_item.indexOf('Hijau') > -1) {
 		output += 'green';
-	} else if (xml_item.indexOf('Putih') >= 0
-			|| xml_item.indexOf('Marble') >= 0) {
+	} else if (xml_item.indexOf('Putih') > -1
+			|| xml_item.indexOf('Marble') > -1) {
 		output += 'white';
 	}
 
