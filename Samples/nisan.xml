@@ -7797,4 +7797,68 @@
     <age>62</age>
     <item>2' Sticker(P)</item>
   </order>
+  <order soldto="HAM" date="2012-04-16" delivered="" price="12">
+    <name>salina bt hj haris</name>
+    <jawi>سلينا بنت حاج هاريس</jawi>
+    <death>2012-03-15</death>
+    <deathm>1433-04-22</deathm>
+    <age>51</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-16" delivered="" price="12">
+    <name>hjh siti eshah@azizah bt hj hussein</name>
+    <jawi>حجه ستي ايسه/عزيزه بنت حاج حُسين</jawi>
+    <death>2011-12-25</death>
+    <deathm>1433-09-29</deathm>
+    <age>73</age>
+    <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-16" delivered="" price="12">
+    <name>mohd hazmin bin mohd ismail</name>
+    <jawi>محمد هازمين بن محمد إسماعيل</jawi>
+    <death>2012-04-04</death>
+    <deathm>1433-05-12</deathm>
+    <age>24</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-16" delivered="" price="12">
+    <name>hj mohamed bin mohd ariff</name>
+    <jawi>حاج محمد بن محمد عريف</jawi>
+    <death>1984-04-28</death>
+    <deathm>1404-07-27</deathm>
+    <age>71</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-16" delivered="" price="12">
+    <name>hjh rapiah bt hussain</name>
+    <jawi>حجه رافياه بنت حُسين</jawi>
+    <death>2012-03-25</death>
+    <deathm>1433-05-02</deathm>
+    <age>83</age>
+    <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-16" delivered="" price="12">
+    <name>hjh jamilah bt saad</name>
+    <jawi>حجه جميله بنت سعد</jawi>
+    <death>2012-04-12</death>
+    <deathm>1433-05-20</deathm>
+    <age>60</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-16" delivered="" price="12">
+    <name>haris bin ismail</name>
+    <jawi>هاريس بن إسماعيل</jawi>
+    <death>2011-09-09</death>
+    <deathm>1432-10-11</deathm>
+    <age>53</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-04-16" delivered="" price="12">
+    <name>rahmah bt mashood</name>
+    <jawi>رحمه بنت مشحود</jawi>
+    <death>2012-04-14</death>
+    <deathm>1433-05-22</deathm>
+    <age>64</age>
+    <item>2' Sticker(P)</item>
+  </order>
 </nisan>
