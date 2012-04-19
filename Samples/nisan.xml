@@ -7800,7 +7800,7 @@
     <age>62</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-04-16" delivered="2012-04-17" price="12">
+  <order soldto="HAM" date="2012-04-16" delivered="2012-04-19" price="12">
     <name>salina bt hj haris</name>
     <jawi>سلينا بنت حاج حاريس</jawi>
     <death>2012-03-15</death>
@@ -7808,7 +7808,7 @@
     <age>51</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-04-16" delivered="" price="12">
+  <order soldto="HAM" date="2012-04-16" delivered="2012-04-19" price="12">
     <name>hjh siti eshah@azizah bt hj hussein</name>
     <jawi>حجه ستي ايسه/عزيزه بنت حاج حُسين</jawi>
     <death>2011-12-25</death>
@@ -7816,7 +7816,7 @@
     <age>73</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-04-16" delivered="" price="12">
+  <order soldto="HAM" date="2012-04-16" delivered="2012-04-19" price="12">
     <name>mohd hazmin bin mohd ismail</name>
     <jawi>محمد هازمين بن محمد إسماعيل</jawi>
     <death>2012-04-04</death>
@@ -7824,7 +7824,7 @@
     <age>24</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-04-16" delivered="" price="12">
+  <order soldto="HAM" date="2012-04-16" delivered="2012-04-19" price="12">
     <name>hj mohamed bin mohd ariff</name>
     <jawi>حاج محمد بن محمد عريف</jawi>
     <death>1984-04-28</death>
@@ -7832,7 +7832,7 @@
     <age>71</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-04-16" delivered="2012-04-17" price="12">
+  <order soldto="HAM" date="2012-04-16" delivered="2012-04-19" price="12">
     <name>hjh rapiah bt hussain</name>
     <jawi>حجه رافياه بنت حُسين</jawi>
     <death>2012-03-25</death>
@@ -7840,7 +7840,7 @@
     <age>83</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-04-16" delivered="2012-04-17" price="12">
+  <order soldto="HAM" date="2012-04-16" delivered="2012-04-19" price="12">
     <name>hjh jamilah bt saad</name>
     <jawi>حجه جميله بنت سعد</jawi>
     <death>2012-04-12</death>
@@ -7848,7 +7848,7 @@
     <age>60</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-04-16" delivered="2012-04-17" price="12">
+  <order soldto="HAM" date="2012-04-16" delivered="2012-04-19" price="12">
     <name>haris bin ismail</name>
     <jawi>حاريس بن إسماعيل</jawi>
     <death>2011-09-09</death>
@@ -7856,7 +7856,7 @@
     <age>53</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-04-16" delivered="2012-04-17" price="12">
+  <order soldto="HAM" date="2012-04-16" delivered="2012-04-19" price="12">
     <name>rahmah bt mashood</name>
     <jawi>رحمه بنت مشحود</jawi>
     <death>2012-04-14</death>
