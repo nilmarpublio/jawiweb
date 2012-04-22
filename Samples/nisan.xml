@@ -7864,4 +7864,49 @@
     <age>64</age>
     <item>2' Sticker(P)</item>
   </order>
+  <order soldto="ADI" date="2012-04-21" delivered="" price="35">
+    <name>mohamad bin ali</name>
+    <jawi>محمد بن علي</jawi>
+    <death>1961</death>
+    <deathm></deathm>
+    <item>PV Egg</item>
+    <remarks>rumi sahaja</remarks>
+  </order>
+  <order soldto="ADI" date="2012-04-21" delivered="" price="35">
+    <name>Taksiah bt kamsah</name>
+    <jawi>تقصيه بنت كامساه</jawi>
+    <death>1984-08-05</death>
+    <deathm>1404-11-09</deathm>
+    <item>PV</item>
+    <remarks>rumi sahaja</remarks>
+  </order>
+  <order soldto="ADI" date="2012-04-21" delivered="" price="35">
+    <name>yusof bin din</name>
+    <jawi>يوسوف بن دين</jawi>
+    <death>2012-02-23</death>
+    <deathm>1433-04-01</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2012-04-21" delivered="" price="35">
+    <name>maidi bin hamzah</name>
+    <jawi>ماءيد بن حمزة</jawi>
+    <death>2011-11-20</death>
+    <deathm>1432-12-24</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2012-04-21" delivered="" price="35">
+    <name>Indasah bt abdullah</name>
+    <jawi>ايندسه بنت عبدالله</jawi>
+    <born>1951-08-10</born>
+    <death>2012-04-16</death>
+    <deathm>1433-05-24</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2012-04-21" delivered="" price="35">
+    <name>Hjh rogayah bt kamaruddin</name>
+    <jawi>حجه روڬايه بنت قمرلدين</jawi>
+    <death>2012-03-05</death>
+    <deathm>1433-04-12</deathm>
+    <item>PV</item>
+  </order>
 </nisan>
