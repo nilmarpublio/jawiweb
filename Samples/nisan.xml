@@ -7949,7 +7949,7 @@
     <deathm>1433-05-24</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2012-04-20" delivered="" price="12">
+  <order soldto="HAM" date="2012-04-20" delivered="2012-04-25" price="12">
     <name>nawabkhan bin kalakhan</name>
     <jawi>ناربخان بن كلاخان</jawi>
     <death>1989-03-14</death>
@@ -7957,14 +7957,14 @@
     <age>77</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-04-20" delivered="" price="12">
+  <order soldto="HAM" date="2012-04-20" delivered="2012-04-25" price="12">
     <name>lasiah bt hj jaafar</name>
     <jawi>لاسياه بنت حاج جعفر</jawi>
     <death>1947</death>
     <deathm></deathm>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-04-20" delivered="" price="12">
+  <order soldto="HAM" date="2012-04-20" delivered="2012-04-25" price="12">
     <name>mohd riza bin khalid</name>
     <jawi>محمد ريزا بن حاليد</jawi>
     <death>2012-04-04</death>
@@ -7972,7 +7972,7 @@
     <age>51</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-04-20" delivered="" price="12">
+  <order soldto="HAM" date="2012-04-20" delivered="2012-04-25" price="12">
     <name>ahmad bin hassan</name>
     <jawi>أحمد بن حسن</jawi>
     <death>2012-04-11</death>
@@ -7980,12 +7980,19 @@
     <age>62</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-04-20" delivered="" price="12">
+  <order soldto="HAM" date="2012-04-20" delivered="2012-04-25" price="12">
     <name>norrilah bt hassan</name>
     <jawi>نوربله بنت حسن</jawi>
     <death>2012-04-16</death>
     <deathm>1433-05-24</deathm>
     <age>56</age>
     <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="SEL" date="2012-04-24" delivered="" price="230">
+    <name>Abdul majid bin kassim</name>
+    <jawi>عبدالمجيد بن قاسيم</jawi>
+    <death>2012-04-18</death>
+    <deathm>1433-05-26</deathm>
+    <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
