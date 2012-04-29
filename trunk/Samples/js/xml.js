@@ -107,6 +107,9 @@ function generateRow(year,index,node) {
 
 	// compute description
 	var desc = '';
+	if(xml_remarks != '') {
+		desc += "*";
+	}
 	desc += toRoman(xml_name);
 	desc += ' (';
 	if (xml_born != '') {
@@ -279,6 +282,9 @@ function generateCheckBoxRow(year,id,node) {
 
 	// compute desciption
 	var desc = '';
+	if(xml_remarks != '') {
+		desc += "*";
+	}	
 	desc += toRoman(xml_name);// romanize name
 	desc += ' (';
 	if (xml_born != '') {
