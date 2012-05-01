@@ -9719,8 +9719,10 @@
     <jawi>نافيز</jawi>
     <sex>0</sex>
   </rootname>
-  <rootname>
     <rumi>nafsiah</rumi>
+  <rootname>
+	<jawi></jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>nagoor</rumi>
@@ -14125,8 +14127,8 @@
   </rootname>
   <rootname>
     <rumi>shamsuri</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شامسوري</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>shamzul</rumi>
