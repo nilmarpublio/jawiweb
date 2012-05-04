@@ -7913,20 +7913,22 @@
     <item>PV</item>
     <remarks>EM046999053MY</remarks>
   </order>
-  <order soldto="ADI" date="2012-04-22" delivered="" price="35">
+  <order soldto="ADI" date="2012-04-22" delivered="2012-05-03" price="35">
     <name>muhamad amin bin muhamad</name>
     <jawi>محمد أمين بن محمد</jawi>
     <death>2010-07-14</death>
     <deathm>1431-08-02</deathm>
     <item>PV Egg</item>
+	<remarks>EM046999040MY</remarks>
   </order>
-  <order soldto="ADI" date="2012-04-22" delivered="" price="35">
+  <order soldto="ADI" date="2012-04-22" delivered="2012-05-03" price="35">
     <name>md sujairi bin mansor</name>
     <jawi>مد سجائر بن منصور</jawi>
     <born>1944-01-02</born>
     <death>2011-10-21</death>
     <deathm>1432-11-23</deathm>
     <item>PV Egg</item>
+	<remarks>EM046999040MY</remarks>
   </order>
   <order soldto="SEM" date="2012-04-22" delivered="2012-04-29" price="230">
     <name>hjh samsiah bt ahmad</name>
@@ -8064,5 +8066,26 @@
     <death>2012-03-25</death>
     <deathm>1433-05-02</deathm>
     <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2012-05-04" delivered="" price="35">
+    <name>mohamad noor bin juremi</name>
+    <jawi>محمد نور بن جرمي</jawi>
+    <death>1992-01-24</death>
+    <deathm>1412-07-20</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2012-05-04" delivered="" price="35">
+    <name>Norazila bt sabani</name>
+    <jawi>نورازيلا بنت صابني</jawi>
+    <death>2010-06-01</death>
+    <deathm>1431-06-18</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2012-05-04" delivered="" price="35">
+    <name>muksim bin idris</name>
+    <jawi>مكسيم بن ادريس</jawi>
+    <death>2012-04-27</death>
+    <deathm>1433-06-06</deathm>
+    <item>PV Egg</item>
   </order>
 </nisan>
