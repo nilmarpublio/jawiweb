@@ -7919,7 +7919,7 @@
     <death>2010-07-14</death>
     <deathm>1431-08-02</deathm>
     <item>PV Egg</item>
-	<remarks>EM046999040MY</remarks>
+    <remarks>EM046999040MY</remarks>
   </order>
   <order soldto="ADI" date="2012-04-22" delivered="2012-05-03" price="35">
     <name>md sujairi bin mansor</name>
@@ -7928,7 +7928,7 @@
     <death>2011-10-21</death>
     <deathm>1432-11-23</deathm>
     <item>PV Egg</item>
-	<remarks>EM046999040MY</remarks>
+    <remarks>EM046999040MY</remarks>
   </order>
   <order soldto="SEM" date="2012-04-22" delivered="2012-04-29" price="230">
     <name>hjh samsiah bt ahmad</name>
@@ -8087,5 +8087,106 @@
     <death>2012-04-27</death>
     <deathm>1433-06-06</deathm>
     <item>PV Egg</item>
+  </order>
+  <order soldto="HAM" date="2012-05-05" delivered="" price="12">
+    <name>jamaludin bin sulaiman</name>
+    <jawi>جملادين بن سُليمان</jawi>
+    <death>2012-04-28</death>
+    <deathm>1433-06-06</deathm>
+    <age>64</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-05-05" delivered="" price="12">
+    <name>mohd shaari bin ahmad</name>
+    <jawi>محمد شعري بن أحمد</jawi>
+    <death>2012-04-23</death>
+    <deathm>1433-06-01</deathm>
+    <age>55</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-05-05" delivered="" price="12">
+    <name>omar bin ahmad</name>
+    <jawi>عمر بن أحمد</jawi>
+    <death>2012-04-03</death>
+    <deathm>1433-05-11</deathm>
+    <age>63</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-05-05" delivered="" price="12">
+    <name>sharifah mariam bt syed omar</name>
+    <jawi>شريفه ماريم بنت شيد عمر</jawi>
+    <death>2012-04-07</death>
+    <deathm>1433-05-15</deathm>
+    <age>67</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-05-05" delivered="" price="12">
+    <name>hj ahmad mansor bin yasin puteh</name>
+    <jawi>حاج أحمد منصور بن ياسين فوتيه</jawi>
+    <death>2012-04-18</death>
+    <deathm>1433-05-26</deathm>
+    <age>77</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-05-05" delivered="" price="12">
+    <name>noor mohamed bin abdullah</name>
+    <jawi>نور محمد بن عبدالله</jawi>
+    <death>1962-02-23</death>
+    <deathm>1381-09-20</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-05-05" delivered="" price="12">
+    <name>abdul bin mydin</name>
+    <jawi>عبدول بن مَيدين</jawi>
+    <death>1967-12-16</death>
+    <deathm>1387-09-15</deathm>
+    <age>50</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-05-05" delivered="" price="12">
+    <name>wan noh bt sheikh ahmad</name>
+    <jawi>وان نوه بنت شيخ أحمد</jawi>
+    <death>1986-03-28</death>
+    <deathm>1406-07-18</deathm>
+    <age>83</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-05-05" delivered="" price="12">
+    <name>kulsom bee bt mohd kassim</name>
+    <jawi>كلسوم بي بنت محمد قاسيم</jawi>
+    <death>2012-01-07</death>
+    <deathm>1433-02-13</deathm>
+    <age>61</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-05-05" delivered="" price="12">
+    <name>noor mohamed bin abdullah</name>
+    <death>1962-02-23</death>
+    <deathm>1381-01-20</deathm>
+    <item>2' Sticker(L)</item>
+    <remarks>rumi sahaja</remarks>
+  </order>
+  <order soldto="HAM" date="2012-05-05" delivered="" price="12">
+    <name>abdul bin mydin</name>
+    <death>1967-12-16</death>
+    <deathm>1387-09-15</deathm>
+    <item>2' Sticker(L)</item>
+    <remarks>rumi sahaja</remarks>
+  </order>
+  <order soldto="HAM" date="2012-05-05" delivered="" price="12">
+    <name>wan noh bt sheikh ahmad</name>
+    <death>1986-03-28</death>
+    <deathm>1406-07-18</deathm>
+    <age>83</age>
+    <item>2' Sticker(P)</item>
+    <remarks>rumi sahaja</remarks>
+  </order>
+  <order soldto="HAM" date="2012-05-05" delivered="" price="12">
+    <name>kulsom bee bt mohd kassim</name>
+    <death>2012-01-07</death>
+    <deathm>1433-02-13</deathm>
+    <age>61</age>
+    <item>2' Sticker(P)</item>
+    <remarks>rumi sahaja</remarks>
   </order>
 </nisan>
