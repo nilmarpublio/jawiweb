@@ -5,7 +5,7 @@
   <xsl:output method="html" omit-xml-declaration="yes"/>
   <xsl:key name="customerOrderBatch" match="order" use="@date"/>
   <xsl:variable name="customer">HAM</xsl:variable>
-  <xsl:variable name="last">2012-05-05</xsl:variable>
+  <xsl:variable name="last">2012-05-14</xsl:variable>
   <!-- @see http://stackoverflow.com/questions/586231/how-can-i-convert-a-string-to-upper-or-lower-case-with-xslt -->
   <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
   <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
@@ -107,7 +107,7 @@
                   <xsl:variable name="header" select="@date"/>
                   <h4>
                   	<xsl:if test="count(../order[@soldto=$customer and @date=$header])=0">
-						<xsl:attribute name="style">
+						        <xsl:attribute name="style">
 	                    	<xsl:text>display:none</xsl:text>
 	                    </xsl:attribute>
                   	</xsl:if>
