@@ -7976,13 +7976,13 @@
   </rootname>
   <rootname>
     <rumi>lop</rumi>
-    <jawi>موف</jawi>
+    <jawi>لوف</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>lope</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>لوف</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>lor</rumi>
@@ -9489,8 +9489,8 @@
   </rootname>
   <rootname>
     <rumi>murad</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مراد</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>murat</rumi>
@@ -12635,6 +12635,8 @@
   </rootname>
   <rootname>
     <rumi>sabrina</rumi>
+	<jawi>صابرين</jawi>
+	<sex>2</sex>
   </rootname>
   <rootname>
     <rumi>sabro</rumi>
