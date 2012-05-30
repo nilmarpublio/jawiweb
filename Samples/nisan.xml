@@ -8446,7 +8446,7 @@
     <deathm>1433-06-26</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="HAM" date="2012-05-27" delivered="" price="12">
+  <order soldto="HAM" date="2012-05-27" delivered="2012-05-31" price="12">
     <name>badriah bt salleh</name>
     <jawi>بادريه بنت صالح</jawi>
     <death>2012-04-25</death>
@@ -8454,7 +8454,7 @@
     <age>53</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-05-27" delivered="" price="12">
+  <order soldto="HAM" date="2012-05-27" delivered="2012-05-31" price="12">
     <name>hamidah bee bt noor muhd</name>
     <jawi>حميده بي بنت نورمحمد</jawi>
     <death>1993-06-04</death>
@@ -8462,7 +8462,7 @@
     <age>54</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-05-27" delivered="" price="12">
+  <order soldto="HAM" date="2012-05-27" delivered="2012-05-31" price="12">
     <name>noor asimahwati bt mohd nashar</name>
     <jawi>نوراسيمه واتي بنت محمد نشحار</jawi>
     <death>2012-05-18</death>
@@ -8470,7 +8470,7 @@
     <age>30</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-05-30" delivered="" price="12">
+  <order soldto="HAM" date="2012-05-30" delivered="2012-05-31" price="12">
     <name>zakaria bin ismail</name>
     <jawi>زكريا بن إسماعيل</jawi>
     <death>2011-10-10</death>
@@ -8478,7 +8478,7 @@
     <age>58</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-05-30" delivered="" price="12">
+  <order soldto="HAM" date="2012-05-30" delivered="2012-05-31" price="12">
     <name>fazil khan bin ismail</name>
     <jawi>فاذيل خان بن إسماعيل</jawi>
     <death>2012-05-05</death>
@@ -8486,7 +8486,7 @@
     <age>43</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-05-30" delivered="" price="12">
+  <order soldto="HAM" date="2012-05-30" delivered="2012-05-31" price="12">
     <name>hjh rukiah bt hashim</name>
     <jawi>حجه روكيه بنت هاشم</jawi>
     <death>2012-05-05</death>
@@ -8494,7 +8494,7 @@
     <age>74</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-05-30" delivered="" price="12">
+  <order soldto="HAM" date="2012-05-30" delivered="2012-05-31" price="12">
     <name>hjh siti rokiah bt hassan</name>
     <jawi>حجه ستي روكياه بنت حسن</jawi>
     <death>2011-06-24</death>
