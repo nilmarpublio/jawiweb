@@ -8384,7 +8384,7 @@
     <deathm>1433-04-08</deathm>
     <item>1½' Batu Putih(P)</item>
   </order>
-  <order soldto="HAM" date="2012-05-24" delivered="" price="12">
+  <order soldto="HAM" date="2012-05-24" delivered="2012-05-30" price="12">
     <name>murad bin hussain</name>
     <jawi>مراد بن حُسين</jawi>
     <death>2012-05-06</death>
@@ -8392,7 +8392,7 @@
     <age>48</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-05-24" delivered="" price="12">
+  <order soldto="HAM" date="2012-05-24" delivered="2012-05-30" price="12">
     <name>hjh salmah bt abdullah</name>
     <jawi>حجه سلمه بنت عبدالله</jawi>
     <death>2012-03-21</death>
@@ -8400,7 +8400,7 @@
     <age>84</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-05-24" delivered="" price="12">
+  <order soldto="HAM" date="2012-05-24" delivered="2012-05-30" price="12">
     <name>aminah beevi bt mohd yusof</name>
     <jawi>أمينة بيوي بنت محمد يوسوف</jawi>
     <death>2012-05-11</death>
@@ -8408,14 +8408,14 @@
     <age>59</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-05-24" delivered="" price="12">
+  <order soldto="HAM" date="2012-05-24" delivered="2012-05-30" price="12">
     <name>salmah bt che rose</name>
     <jawi>سلمه بنت چئ روس</jawi>
     <death>2012-05-07</death>
     <deathm>1433-06-15</deathm>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-05-24" delivered="" price="12">
+  <order soldto="HAM" date="2012-05-24" delivered="2012-05-30" price="12">
     <name>mohd zain bin mohd yusoff</name>
     <jawi>محمد زين بن محمد يوسوف</jawi>
     <death>2012-04-30</death>
@@ -8423,7 +8423,7 @@
     <age>50</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-05-24" delivered="" price="12">
+  <order soldto="HAM" date="2012-05-24" delivered="2012-05-30" price="12">
     <name>normah bt shariff</name>
     <jawi>نورمه بنت شريف</jawi>
     <death>2012-05-02</death>
@@ -8468,6 +8468,38 @@
     <death>2012-05-18</death>
     <deathm>1433-06-26</deathm>
     <age>30</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-05-30" delivered="" price="12">
+    <name>zakaria bin ismail</name>
+    <jawi>زكريا بن إسماعيل</jawi>
+    <death>2011-10-10</death>
+    <deathm>1432-11-12</deathm>
+    <age>58</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-05-30" delivered="" price="12">
+    <name>fazil khan bin ismail</name>
+    <jawi>فاذيل خان بن إسماعيل</jawi>
+    <death>2012-05-05</death>
+    <deathm>1433-06-13</deathm>
+    <age>43</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-05-30" delivered="" price="12">
+    <name>hjh rukiah bt hashim</name>
+    <jawi>حجه روكيه بنت هاشم</jawi>
+    <death>2012-05-05</death>
+    <deathm>1433-06-13</deathm>
+    <age>74</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-05-30" delivered="" price="12">
+    <name>hjh siti rokiah bt hassan</name>
+    <jawi>حجه ستي روكياه بنت حسن</jawi>
+    <death>2011-06-24</death>
+    <deathm>1432-07-22</deathm>
+    <age>51</age>
     <item>2' Sticker(P)</item>
   </order>
 </nisan>
