@@ -5576,7 +5576,7 @@
   </rootname>
   <rootname>
     <rumi>ibni</rumi>
-    <jawi />
+    <jawi>إبني</jawi>
     <sex>0</sex>
   </rootname>
   <rootname>
@@ -7029,6 +7029,8 @@
   </rootname>
   <rootname>
     <rumi>kamsiah</rumi>
+	<jawi>قمصية</jawi>
+	<sex>0</sex>
   </rootname>
   <rootname>
     <rumi>kanah</rumi>
