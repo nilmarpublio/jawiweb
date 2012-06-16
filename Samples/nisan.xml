@@ -8431,13 +8431,14 @@
     <age>54</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="ADI" date="2012-05-27" delivered="" price="35">
+  <order soldto="ADI" date="2012-05-27" delivered="2012-06-11" price="35">
     <name>hj musa bin hj ahmad</name>
     <jawi>حاج موسا بن حاج أحمد</jawi>
     <born>1920-06-17</born>
     <death>2012-03-17</death>
     <deathm>1433-04-24</deathm>
     <item>PV</item>
+    <remarks>EM046998999MY</remarks>
   </order>
   <order soldto="ADI" date="2012-05-27" delivered="2012-06-04" price="35">
     <name>sisor bin ali mukmin</name>
@@ -8519,12 +8520,13 @@
     <item>PV</item>
     <remarks>EM046999005MY</remarks>
   </order>
-  <order soldto="ADI" date="2012-05-30" delivered="" price="260">
+  <order soldto="ADI" date="2012-05-30" delivered="2012-06-11" price="260">
     <name>Selamat bin ahmad</name>
     <jawi>سلامة بن أحمد</jawi>
     <death>2012-02-10</death>
     <deathm>1433-03-18</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>060301215414645</remarks>
   </order>
   <order soldto="HAM" date="2012-05-31" delivered="2012-06-01" price="12">
     <name>RAHIMAH BEE BT MD SHARIFF</name>
@@ -8534,21 +8536,23 @@
     <age>76</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="ADI" date="2012-06-05" delivered="" price="35">
+  <order soldto="ADI" date="2012-06-05" delivered="2012-06-11" price="35">
     <name>kamaliah bt dasiman</name>
     <jawi>كامله بنت دسمان</jawi>
     <death>2012-03-27</death>
     <deathm>1433-05-04</deathm>
     <item>PV</item>
+    <remarks>EM046998999MY</remarks>
   </order>
-  <order soldto="ADI" date="2012-06-05" delivered="" price="35">
+  <order soldto="ADI" date="2012-06-05" delivered="2012-06-11" price="35">
     <name>rasmah bt aki</name>
     <jawi>رسمه بنت أقع</jawi>
     <death></death>
     <deathm></deathm>
     <item>PV</item>
+    <remarks>EM046998999MY</remarks>
   </order>
-  <order soldto="HAM" date="2012-06-06" delivered="" price="12">
+  <order soldto="HAM" date="2012-06-06" delivered="2012-06-13" price="12">
     <name>badriyah bt salleh</name>
     <jawi>بادريه بنت صالح</jawi>
     <death>2012-04-25</death>
@@ -8556,7 +8560,7 @@
     <age>53</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-06-06" delivered="" price="12">
+  <order soldto="HAM" date="2012-06-06" delivered="2012-06-13" price="12">
     <name>che ponng bt che marican</name>
     <jawi>چئ فوڠ بنت چئ مريكن</jawi>
     <death>1978-06-23</death>
@@ -8564,7 +8568,7 @@
     <age>64</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-06-06" delivered="" price="12">
+  <order soldto="HAM" date="2012-06-06" delivered="2012-06-13" price="12">
     <name>mat din bin awang</name>
     <jawi>مت دين بن أواڠ</jawi>
     <death>1988-04-21</death>
@@ -8572,7 +8576,7 @@
     <age></age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-06-06" delivered="" price="12">
+  <order soldto="HAM" date="2012-06-06" delivered="2012-06-13" price="12">
     <name>abd hamid bin ibrahim</name>
     <jawi>عبدالحميد بن إبراهيم</jawi>
     <death>2012-04-10</death>
@@ -8580,12 +8584,19 @@
     <age>61</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-06-06" delivered="" price="12">
+  <order soldto="HAM" date="2012-06-06" delivered="2012-06-13" price="12">
     <name>mohd asri bin abdullah</name>
-    <jawi>محمد العصري بن عبدالله</jawi>
+    <jawi>محمد اسري بن عبدالله</jawi>
     <death>2012-05-01</death>
     <deathm>1433-06-09</deathm>
     <age>44</age>
     <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="SEM" date="2012-06-11" delivered="" price="230">
+    <name>abd rahman bin ali ami</name>
+    <jawi>عبدالرحمن بن علي أمي</jawi>
+    <death>2012-06-06</death>
+    <deathm>1433-07-16</deathm>
+    <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
