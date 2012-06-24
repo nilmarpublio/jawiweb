@@ -8654,7 +8654,7 @@
     <age>62</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-06-11" delivered="2012-06-19" price="12">
+  <order soldto="HAM" date="2012-06-11" delivered="2012-06-19" price="0">
     <name> </name>
     <jawi>اللهم صلي على محمد وآل محمد</jawi>
     <death></death>
@@ -8727,6 +8727,7 @@
     <death>2011-10-27</death>
     <deathm>1432-11-29</deathm>
     <item>PV</item>
+    <remarks>EM046998985MY</remarks>
   </order>
   <order soldto="ADI" date="2012-06-11" delivered="2012-06-19" price="35">
     <name>Zulkefli bin sapri</name>
@@ -8734,28 +8735,31 @@
     <death>2012-03-28</death>
     <deathm>1433-05-05</deathm>
     <item>PV Egg</item>
+    <remarks>EM046998985MY</remarks>
   </order>
-  <order soldto="ADI" date="2012-06-11" delivered="" price="200">
+  <!--<order soldto="ADI" date="2012-06-11" delivered="" price="200">
     <name>Nur rasyidah bt mohd zamal</name>
     <jawi>نور رصيده بنت محمد زامل</jawi>
     <death>2000-02-20</death>
     <deathm>1420-11-16</deathm>
     <item>1½' Batu Putih(P)</item>
-  </order>
+  </order>-->
   <order soldto="ADI" date="2012-06-11" delivered="2012-06-19" price="35">
     <name>Masduki bin hj ihsan</name>
     <jawi>مصدوقي بن حاج إحسان</jawi>
     <death>1972-07-17</death>
     <deathm>1392-06-06</deathm>
     <item>PV Egg</item>
+    <remarks>EM046998985MY</remarks>
   </order>
-  <order soldto="ADI" date="2012-06-11" delivered="" price="35">
+  <order soldto="ADI" date="2012-06-11" delivered="2012-06-21" price="35">
     <name>muhammad kamal bin mohd nawawi</name>
     <jawi>محمد كامل بن محمد نووي</jawi>
     <born>1994-12-31</born>
     <death>2012-03-05</death>
     <deathm>1433-04-12</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>0603 01 215 414 661</remarks>
   </order>
   <order soldto="ADI" date="2012-06-14" delivered="2012-06-19" price="35">
     <name>mat yunus bin jasip</name>
@@ -8764,6 +8768,7 @@
     <death>2011-10-01</death>
     <deathm>1432-11-03</deathm>
     <item>PV Egg</item>
+    <remarks>EM046998985MY</remarks>
   </order>
   <order soldto="ADI" date="2012-06-14" delivered="2012-06-19" price="35">
     <name>siti noraisah bt samsudin</name>
@@ -8771,6 +8776,7 @@
     <death>2012-03-22</death>
     <deathm>1433-04-29</deathm>
     <item>PV</item>
+    <remarks>EM046998985MY</remarks>
   </order>
   <order soldto="ADI" date="2012-06-14" delivered="2012-06-19" price="35">
     <name>kamsiah ibni hawa</name>
@@ -8778,21 +8784,61 @@
     <death>2012-05-13</death>
     <deathm>1433-06-22</deathm>
     <item>PV</item>
+    <remarks>EM046998985MY</remarks>
   </order>
-  <order soldto="ADI" date="2012-06-14" delivered="" price="260">
+  <order soldto="ADI" date="2012-06-14" delivered="2012-06-21" price="260">
     <name>abdullah bin lebai noh</name>
     <jawi>عبدالله بن ليبي نوه</jawi>
     <born>1935-08-17</born>
     <death>2012-06-04</death>
     <deathm>1433-07-14</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>0603 01 215 414 661</remarks>
   </order>
-  <order soldto="ADI" date="2012-06-14" delivered="" price="400">
+  <order soldto="ADI" date="2012-06-14" delivered="2012-06-21" price="400">
     <name>roslin bt shaari</name>
     <jawi>روزلين بنت شعري</jawi>
     <death>2012-03-02</death>
     <deathm>1433-04-09</deathm>
     <item>2' Batu Hijau(P)</item>
-    <remarks>rumi dan jawi</remarks>
+    <remarks>0603 01 215 414 661 rumi dan jawi</remarks>
+  </order>
+  <order soldto="SEM" date="2012-06-19" delivered="" price="230">
+    <name>mohd shaari bin mohd nasir</name>
+    <jawi>محمد شعري بن محمد ناصير</jawi>
+    <death>2012-06-06</death>
+    <deathm>1433-07-16</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="PAS" date="2012-06-23" delivered="" price="260">
+    <name>Noorizam bt yunus</name>
+    <jawi>نوريزام بنت يونوس</jawi>
+    <born>1957-01-18</born>
+    <death>2012-01-25</death>
+    <deathm>1433-03-02</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="KEN" date="2012-06-22" delivered="" price="230">
+    <name>HUSAIN BIN DARUS</name>
+    <jawi>حسين بن داروس</jawi>
+    <born>1929-12-07</born>
+    <death>1982-11-19</death>
+    <deathm>1403-02-03</deathm>
+    <age>53</age>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEL" date="2012-06-20" delivered="" price="140">
+    <name>tugimin bin sungid</name>
+    <jawi>توݢيمين بن سوڠيد</jawi>
+    <death>2012-05-03</death>
+    <deathm>1433-06-12</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEL" date="2012-06-22" delivered="" price="230">
+    <name>Bahadon bin suri</name>
+    <jawi>بحضن بن سوري</jawi>
+    <death>2012-02-20</death>
+    <deathm>1433-03-28</deathm>
+    <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
