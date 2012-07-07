@@ -8888,7 +8888,7 @@
   </order>
   <order soldto="HAM" date="2012-07-02" delivered="" price="12">
     <name>juhari bin mister</name>
-    <jawi></jawi>
+    <jawi>جوهاري بن ميستر</jawi>
     <death>2012-05-19</death>
     <deathm>1433-06-27</deathm>
     <age>58</age>
@@ -8919,7 +8919,7 @@
   </order>
   <order soldto="HAM" date="2012-07-02" delivered="" price="12">
     <name>samsuri bin muhamad</name>
-    <jawi>سموري بن محمد</jawi>
+    <jawi>سمسوري بن محمد</jawi>
     <death>2012-06-16</death>
     <deathm>1433-07-26</deathm>
 	<age>44</age>
