@@ -6592,8 +6592,8 @@
   </rootname>
   <rootname>
     <rumi>johara</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>جوهارا</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>johari</rumi>
@@ -6808,9 +6808,6 @@
     <rumi>kader</rumi>
     <jawi>كادير</jawi>
     <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>kaderr</rumi>
   </rootname>
   <rootname>
     <rumi>kadim</rumi>
@@ -10439,8 +10436,8 @@
   </rootname>
   <rootname>
     <rumi>noriah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>نوريه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>norida</rumi>
@@ -14726,6 +14723,8 @@
   </rootname>
   <rootname>
     <rumi>soo</rumi>
+	<jawi>سو</jawi>
+	<sex>0</sex>
   </rootname>
   <rootname>
     <rumi>soom</rumi>
