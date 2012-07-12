@@ -6801,8 +6801,8 @@
   </rootname>
   <rootname>
     <rumi>kadar</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>كادير</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>kader</rumi>
@@ -12686,7 +12686,7 @@
   <rootname>
     <rumi>safar</rumi>
     <jawi>صفر</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>safari</rumi>
@@ -14820,8 +14820,8 @@
   </rootname>
   <rootname>
     <rumi>sudin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سودين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>sued</rumi>
@@ -16523,8 +16523,8 @@
   </rootname>
   <rootname>
     <rumi>zahir</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>زاهر</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>zahiruddin</rumi>
