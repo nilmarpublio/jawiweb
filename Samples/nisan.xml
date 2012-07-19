@@ -8810,14 +8810,14 @@
     <deathm>1433-07-16</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <!--<order soldto="PAS" date="2012-06-23" delivered="" price="260">
+  <order soldto="PAS" date="2012-06-23" delivered="" price="260">
     <name>Noorizam bt yunus</name>
     <jawi>نوريزام بنت يونوس</jawi>
     <born>1957-01-18</born>
     <death>2012-01-25</death>
     <deathm>1433-03-02</deathm>
     <item>2' Batu Batik(P)</item>
-  </order>-->
+  </order>
   <order soldto="KEN" date="2012-06-22" delivered="2012-06-24" price="230">
     <name>HUSAIN BIN DARUS</name>
     <jawi>حسين بن داروس</jawi>
@@ -9070,12 +9070,12 @@
     <item>PV Egg</item>
     <remarks>EM103413905MY</remarks>
   </order>
-  <order soldto="ADI" date="2012-07-08" delivered="2012-07-15" price="35">
+  <order soldto="ADI" date="2012-07-08" delivered="" price="35">
     <name>Damanhuri bin ahmad</name>
     <jawi>دمنهوري بن أحمد</jawi>
     <death>1998-11-26</death>
     <deathm>1419-08-07</deathm>
-    <item>PV</item>
+    <item>PV Egg</item>
     <remarks>EM103413905MY</remarks>
   </order>
   <order soldto="ADI" date="2012-07-08" delivered="2012-07-15" price="35">
@@ -9193,5 +9193,151 @@
     <death>2012-04-08</death>
     <deathm>1433-05-16</deathm>
     <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEM" date="2012-07-19" delivered="" price="230">
+    <name>hashim bin salleh</name>
+    <jawi>هاشم بن صالح</jawi>
+    <death>2012-05-17</death>
+    <deathm>1433-06-26</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="PAS" date="2012-07-17" delivered="" price="260">
+    <name>Awang bin munaf</name>
+    <jawi>أواڠ بن مانف</jawi>
+    <born>1953-02-20</born>
+    <death>2012-05-02</death>
+    <deathm>1433-06-10</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2012-07-15" delivered="" price="260">
+    <name>Md Ghazali bin kassim</name>
+    <jawi>مد غزالي بن قاسيم</jawi>
+    <death>2011-12-06</death>
+    <deathm>1433-01-10</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2012-07-15" delivered="" price="35">
+    <name>Ahmad rawi bin jamaluddin</name>
+    <jawi>أحمد راوي بن جملادين</jawi>
+    <born>1951-05-16</born>
+    <death>2012-02-20</death>
+    <deathm>1433-03-28</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2012-07-17" delivered="" price="260">
+    <name>Embon bin Taib</name>
+    <jawi>امبون بن طيب</jawi>
+    <death>2012-06-26</death>
+    <deathm>1433-08-06</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2012-07-18" delivered="" price="35">
+    <name>halimah bt hj sanip</name>
+    <jawi>حليمه بنت حاج سنيف</jawi>
+    <death>2008-08-04</death>
+    <deathm>1429-08-02</deathm>
+    <item>PV</item>
+    <remarks>jawi sahaja</remarks>
+  </order>
+  <order soldto="ADI" date="2012-07-18" delivered="" price="35">
+    <name>shuhadis@hj malik bin hj idris</name>
+    <jawi>شوهاديس/حاج مالك بن حاج ادريس</jawi>
+    <death>2002-05-03</death>
+    <deathm>1423-02-21</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="HAM" date="2012-07-17" delivered="" price="12">
+    <name>kulsom bee bt abu bakar</name>
+    <jawi>كلسوم بي بنت أبو بكر</jawi>
+    <death>2012-06-15</death>
+    <deathm>1433-07-25</deathm>
+    <age>58</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-07-17" delivered="" price="12">
+    <name>abu bakar bin seeni rawther</name>
+    <jawi>أبو بكر بن سيني راوتر</jawi>
+    <death>1978-01-04</death>
+    <deathm>1398-01-25</deathm>
+    <age>48</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-07-17" delivered="" price="12">
+    <name>k. jamaluddin bin mydin</name>
+    <jawi></jawi>
+    <death>1972-04-10</death>
+    <deathm>1392-02-26</deathm>
+    <age>30</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-07-17" delivered="" price="12">
+    <name>norjanbee bt abd jalil</name>
+    <jawi></jawi>
+    <death>1969-03-18</death>
+    <deathm>1388-12-29</deathm>
+    <age>28</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-07-17" delivered="" price="12">
+    <name>razali bin k. jamaluddin</name>
+    <jawi></jawi>
+    <death>1968-11-05</death>
+    <deathm>1388-08-14</deathm>
+    <age>6</age>
+    <item>1½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-07-17" delivered="" price="12">
+    <name>mohd hussain bin mohd sultan</name>
+    <jawi></jawi>
+    <death>2012-07-08</death>
+    <deathm>1433-08-18</deathm>
+    <age>34</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-07-17" delivered="" price="12">
+    <name>mat hashim bin kasim</name>
+    <jawi></jawi>
+    <death>2012-04-24</death>
+    <deathm>1433-06-02</deathm>
+    <age>67</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-07-17" delivered="" price="12">
+    <name>hjh siti salha bt abd hamid</name>
+    <jawi></jawi>
+    <death>2012-05-17</death>
+    <deathm>1433-06-25</deathm>
+    <age>85</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-07-17" delivered="" price="12">
+    <name>rahmah bt shariff</name>
+    <jawi></jawi>
+    <death>1993-06-22</death>
+    <deathm>1414-01-03</deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-07-17" delivered="" price="12">
+    <name>rahimah@che amah bt kasim</name>
+    <jawi></jawi>
+    <death>2012-05-30</death>
+    <deathm>1433-07-09</deathm>
+    <age>91</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-07-17" delivered="" price="12">
+    <name>achugbu damia</name>
+    <jawi></jawi>
+    <death>2012-07-03</death>
+    <deathm>1433-08-13</deathm>
+    <item>1½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-07-17" delivered="" price="12">
+    <name>sabina bevee bt shahul hameed</name>
+    <jawi></jawi>
+    <death>2012-06-26</death>
+    <deathm>1433-08-06</deathm>
+    <age>56</age>
+    <item>2' Sticker(P)</item>
   </order>
 </nisan>
