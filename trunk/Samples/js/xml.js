@@ -69,9 +69,9 @@ function toRoman(name) {
  *            String Item type.
  */
 function isValidate(name, item) {
-	if (name.toLowerCase().indexOf('bin') >= 0 && item.toUpperCase().indexOf('(P)') >= 0)
+	if (name.toLowerCase().indexOf(' bin ') >= 0 && item.toUpperCase().indexOf('(P)') >= 0)
 		return false;
-	if (name.toLowerCase().indexOf('bt') >= 0 && item.toUpperCase().indexOf('(L)') >= 0)
+	if (name.toLowerCase().indexOf(' bt ') >= 0 && item.toUpperCase().indexOf('(L)') >= 0)
         return false;
 
 	return true;
