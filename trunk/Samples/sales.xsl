@@ -4,8 +4,8 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" omit-xml-declaration="yes"/>
   <xsl:key name="customerOrderBatch" match="order" use="@soldto"/>
-  <xsl:variable name="year">2011</xsl:variable>
-  <xsl:variable name="month">12</xsl:variable>
+  <xsl:variable name="year">2012</xsl:variable>
+  <xsl:variable name="month">07</xsl:variable>
   <!-- @see http://stackoverflow.com/questions/586231/how-can-i-convert-a-string-to-upper-or-lower-case-with-xslt -->
   <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
   <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
