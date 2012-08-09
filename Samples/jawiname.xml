@@ -2858,8 +2858,8 @@
   </rootname>
   <rootname>
     <rumi>chin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>چين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>chk</rumi>
@@ -3703,11 +3703,13 @@
   </rootname>
   <rootname>
     <rumi>eusoff</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>يوسوف</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>eusope</rumi>
+    <jawi>يوسوف</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ezannee</rumi>
@@ -16740,8 +16742,8 @@
   </rootname>
   <rootname>
     <rumi>zakiah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>زكيه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>zakie</rumi>
