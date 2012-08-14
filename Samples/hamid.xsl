@@ -58,6 +58,16 @@
       </head>
       <body>
         <div class="headerLeft">
+          To:
+          <br /><b>En. Hamid</b>
+          <br />Kg Dodol 10150
+          <br />Jelutong, <u>Penang</u>
+          <br />Hp: 012-4513655 012-4690249
+          <br />Fax: 04-283 7729
+          <br />Email: <a href="mailto:shameer9103@yahoo.com">shameer9103@yahoo.com</a>
+        </div>
+        <div class="headerRight">
+          <!--Date: <script>document.write(todayStr());</script> -->
           From:
           <br></br>
           <b>THEN YEANG SHING</b>
@@ -67,17 +77,7 @@
           <br />Hp: 012-4711134 Fax: 04-5521 696
           <br />Email: <a href="mailto:yancyn@hotmail.com">yancyn@hotmail.com</a>
           <br />
-          <p></p>
-          To:
-          <br /><b>En. Hamid</b>
-          <br />Kg Dodol 10150
-          <br />Jelutong, <u>Penang</u>
-          <br />Hp: 012-4513655 012-4690249
-          <br /> Fax: 04-283 7729
-          <br />
-        </div>
-        <div class="headerRight">
-          <!--Date: <script>document.write(todayStr());</script> -->
+          <p/>
         </div>
         <div class="content">
           <h3>Sticker List</h3>

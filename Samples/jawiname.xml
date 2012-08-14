@@ -857,8 +857,8 @@
   </rootname>
   <rootname>
     <rumi>amat</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ambi</rumi>
@@ -10827,7 +10827,7 @@
   </rootname>
   <rootname>
     <rumi>p</rumi>
-    <jawi />
+    <jawi>في</jawi>
     <sex>0</sex>
   </rootname>
   <rootname>
@@ -13223,6 +13223,8 @@
   </rootname>
   <rootname>
     <rumi>saniah</rumi>
+    <jawi></jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>sanisah</rumi>
@@ -14749,7 +14751,7 @@
   <rootname>
     <rumi>sopiah</rumi>
     <jawi>سوفيه</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>sopian</rumi>
