@@ -9765,20 +9765,22 @@
     <deathm>1433-08-27</deathm>
     <item>2' Batu Putih(L)</item>
   </order>
-  <order soldto="ADI" date="2012-08-05" delivered="" price="35">
+  <order soldto="ADI" date="2012-08-05" delivered="2012-08-14" price="35">
     <name>maizatul akman bin ahmad</name>
     <jawi>ميزاتول اکمن بن أحمد</jawi>
     <death>2012-03-21</death>
     <deathm>1433-04-28</deathm>
     <item>PV Egg</item>
+    <remarks>EM103413595MY</remarks>
   </order>
-  <order soldto="ADI" date="2012-08-02" delivered="" price="260">
+  <order soldto="ADI" date="2012-08-02" delivered="2012-08-14" price="35">
     <name>Maskuri bin mokhtar</name>
     <jawi>معسكر بن مختار</jawi>
     <born>1961-10-25</born>
     <death>2012-03-18</death>
     <deathm>1433-04-25</deathm>
     <item>PV Egg</item>
+    <remarks>EM103413595MY</remarks>
   </order>
   <order soldto="ADI" date="2012-08-02" delivered="2012-08-06" price="300">
     <name>sazali bin abu bakar</name>
@@ -9788,7 +9790,7 @@
     <item>2' Batu Batik(L)</item>
     <remarks>pahat 2 batang</remarks>
   </order>
-  <order soldto="SEM" date="2012-08-07" delivered="" price="230">
+  <order soldto="SEM" date="2012-08-07" delivered="2012-08-15" price="230">
     <name>Omar bin abd Rashid</name>
     <jawi>عمر بن عبدالراشد</jawi>
     <death>2012-06-27</death>
@@ -9976,13 +9978,14 @@
     <age>69</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="ADI" date="2012-08-07" delivered="" price="35">
+  <order soldto="ADI" date="2012-08-07" delivered="2012-08-14" price="35">
     <name>Hjh saudah bt hj hassan</name>
     <jawi>حجه ساوده بنت حاج حسن</jawi>
     <death>1998-12-10</death>
     <deathm>1419-08-21</deathm>
     <age>63</age>
     <item>PV</item>
+    <remarks>EM103413595MY</remarks>
   </order>
   <order soldto="ADI" date="2012-08-07" delivered="" price="360">
     <name>Baki bin Abas</name>
@@ -9992,19 +9995,43 @@
     <deathm>1433-08-16</deathm>
     <item>2' Batu Hijau(L)</item>
   </order>
-  <order soldto="ADI" date="2012-08-07" delivered="" price="35">
+  <order soldto="ADI" date="2012-08-07" delivered="2012-08-14" price="35">
     <name>Saniah bt md jopri</name>
     <jawi>ثانيه بنت مد جوفري</jawi>
     <born>1961-02-21</born>
     <death>2012-04-30</death>
     <deathm>1433-06-09</deathm>
     <item>PV</item>
+    <remarks>EM103413595MY</remarks>
   </order>
-  <order soldto="ADI" date="2012-08-07" delivered="" price="35">
+  <order soldto="ADI" date="2012-08-07" delivered="2012-08-14" price="35">
     <name>Hj amat johari bin hj yasir</name>
     <jawi>حاج أمة جوهاري بن حاج ياسر</jawi>
     <death>1939-08-23</death>
     <deathm>1358-07-08</deathm>
     <item>PV Egg</item>
+    <remarks>EM103413595MY</remarks>
+  </order>
+  <order soldto="HAM" date="2012-08-14" delivered="" price="12">
+    <name>hj shariff bin ismail</name>
+    <jawi>حاج شريف بن إسماعيل</jawi>
+    <death>1974-01-12</death>
+    <deathm>1393-12-19</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-08-14" delivered="" price="12">
+    <name>hjh zaharah bt hj salleh</name>
+    <jawi>حجه زاحاره بنت حاج صالح</jawi>
+    <death>1988-02-17</death>
+    <deathm>1408-06-29</deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-08-14" delivered="" price="12">
+    <name>hjh rokiah bt hj abd razak</name>
+    <jawi>حجه روكياه بنت حاج عبدالرازق</jawi>
+    <death>1994-02-15</death>
+    <deathm>1414-09-05</deathm>
+    <age>62</age>
+    <item>2' Sticker(P)</item>
   </order>
 </nisan>
