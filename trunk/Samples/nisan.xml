@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
+<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="KEN" date="2011-01-03" delivered="2011-01-23" price="210">
     <name>Jamaliah Bt Saat</name>
@@ -9913,7 +9913,7 @@
     <age>76</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-08-09" delivered="" price="12">
+  <order soldto="HAM" date="2012-08-09" delivered="2012-08-14" price="12">
     <name>anisah bt arsina</name>
     <jawi>انيساه بنت ارسينا</jawi>
     <death>2012-05-11</death>
@@ -9921,15 +9921,15 @@
     <age>69</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-08-09" delivered="2012-08-10" price="12">
+  <order soldto="HAM" date="2012-08-09" delivered="2012-08-11" price="12">
     <name>doyah bt ahmad</name>
     <jawi>دويه بنت أحمد</jawi>
     <death>2012-02-20</death>
     <deathm>1433-03-27</deathm>
     <age>74</age>
-    <item>2' Sticker(L)</item>
+    <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-08-09" delivered="" price="12">
+  <order soldto="HAM" date="2012-08-09" delivered="2012-08-14" price="12">
     <name>nurjahan bee bt haja mohideen</name>
     <jawi>نورجاهن بي بن حاجا موحدين</jawi>
     <death>2012-08-02</death>
@@ -9952,5 +9952,59 @@
     <deathm>1417-01-02</deathm>
     <age>76</age>
     <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-08-11" delivered="2012-08-11" price="12">
+    <name>hjh sopipah bt din</name>
+    <jawi>حجه سوفيه بنت دين</jawi>
+    <born>1990</born>
+    <death>1991</death>
+    <deathm></deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-08-12" delivered="2012-08-14" price="12">
+    <name>hj abdul razak bin thurab</name>
+    <jawi>حاج عبدالرازق بن ثورب</jawi>
+    <death>2011-12-02</death>
+    <deathm>1433-01-06</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-08-12" delivered="2012-08-14" price="12">
+    <name>che ros bin mat</name>
+    <jawi>چئ روس بن مت</jawi>
+    <death>2012-08-25</death>
+    <deathm>1431-01-15</deathm>
+    <age>69</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="ADI" date="2012-08-07" delivered="" price="35">
+    <name>Hjh saudah bt hj hassan</name>
+    <jawi>حجه ساوده بنت حاج حسن</jawi>
+    <death>1998-12-10</death>
+    <deathm>1419-08-21</deathm>
+    <age>63</age>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2012-08-07" delivered="" price="360">
+    <name>Baki bin Abas</name>
+    <jawi>باقي بن عابس</jawi>
+    <born>1939-04-19</born>
+    <death>2012-07-06</death>
+    <deathm>1433-08-16</deathm>
+    <item>2' Batu Hijau(L)</item>
+  </order>
+  <order soldto="ADI" date="2012-08-07" delivered="" price="35">
+    <name>Saniah bt md jopri</name>
+    <jawi>ثانيه بنت مد جوفري</jawi>
+    <born>1961-02-21</born>
+    <death>2012-04-30</death>
+    <deathm>1433-06-09</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2012-08-07" delivered="" price="35">
+    <name>Hj amat johari bin hj yasir</name>
+    <jawi>حاج أمة جوهاري بن حاج ياسر</jawi>
+    <death>1939-08-23</death>
+    <deathm>1358-07-08</deathm>
+    <item>PV Egg</item>
   </order>
 </nisan>
