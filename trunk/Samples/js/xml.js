@@ -470,7 +470,20 @@ function parse(wrapper) {
 											    }
 											    return !yes;
 											}).hide();
-							            break;
+											break;
+							        case 'filter_ali':
+							            $(tr).filter(
+											        function (index) {
+											            var yes = ($(this).attr(
+														        'filterCriteria')
+														        .indexOf('ALI') >= 0);
+											            if (yes) {
+											                xml_no++;
+											                $(this).find('td:first').text(xml_no + '.');
+											            }
+											            return !yes;
+											        }).hide();
+							                break;
 							        case 'filter_ham':
 							            $(tr).filter(
 											function (index) {
