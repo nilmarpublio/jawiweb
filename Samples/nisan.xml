@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="KEN" date="2011-01-03" delivered="2011-01-23" price="210">
@@ -9195,7 +9195,7 @@
     <deathm>1433-05-16</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2012-07-19" delivered="" price="230">
+  <order soldto="SEM" date="2012-07-19" delivered="2012-08-26" price="230">
     <name>hashim bin salleh</name>
     <jawi>هاشم بن صالح</jawi>
     <death>2012-07-15</death>
@@ -9790,7 +9790,7 @@
     <item>2' Batu Batik(L)</item>
     <remarks>pahat 2 batang</remarks>
   </order>
-  <order soldto="SEM" date="2012-08-07" delivered="" price="230">
+  <order soldto="SEM" date="2012-08-07" delivered="2012-08-26" price="230">
     <name>Omar bin abd Rashid</name>
     <jawi>عمر بن عبدالراشد</jawi>
     <death>2012-06-27</death>
@@ -10054,11 +10054,87 @@
     <deathm></deathm>
     <item>2'x2' Sticker</item>
   </order>
-  <order soldto="SEM" date="2012-08-22" delivered="" price="230">
+  <order soldto="SEM" date="2012-08-22" delivered="2012-08-26" price="230">
     <name>yaha bin taib</name>
     <jawi>ياها بن طيب</jawi>
     <death>2012-02-08</death>
     <deathm>1433-03-16</deathm>
     <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ALI" date="2012-08-24" delivered="2012-08-26" price="10">
+    <name>fatimah bt hassan</name>
+    <jawi>فــطــبــمــه  بــنــت  حــــســـــــن</jawi>
+    <death>2012-07-09</death>
+    <deathm>1433-08-19</deathm>
+    <item>2' Sticker</item>
+  </order>
+  <order soldto="ALI" date="2012-08-24" delivered="2012-08-26" price="10">
+    <name>che tun bt a rahman</name>
+    <jawi></jawi>
+    <death>1995-12-13</death>
+    <deathm></deathm>
+    <item>2' Sticker</item>
+  </order>
+  <order soldto="ALI" date="2012-08-24" delivered="2012-08-26" price="10">
+    <name>hj abdullah bin hj salleh</name>
+    <jawi></jawi>
+    <death>2012-08-05</death>
+    <deathm>1433-09-16</deathm>
+    <item>2½' Sticker</item>
+  </order>
+  <order soldto="HAM" date="2012-08-26" delivered="" price="12">
+    <name>sharifah seha bt syed ali</name>
+    <jawi>شريفه سيحا بنت شيد علي</jawi>
+    <death>2012-08-12</death>
+    <deathm>1433-09-23</deathm>
+  	<age>68</age>
+    <item>2' Sticker(P)</item>
+  </order>
+<order soldto="HAM" date="2012-08-26" delivered="" price="12">
+    <name>ismail bin shariff</name>
+    <jawi>إسماعيل بن شريف</jawi>
+    <death>2012-07-03</death>
+    <deathm>1433-08-13</deathm>
+	<age>58</age>
+    <item>2' Sticker(L)</item>
+  </order>
+<order soldto="HAM" date="2012-08-26" delivered="" price="12">
+    <name>hjh che safiah bt abd hamid</name>
+    <jawi>حجه چئ صافيه بنت عبدالحميد</jawi>
+    <death>2012-06-02</death>
+    <deathm>1433-07-12</deathm>
+	<age>84</age>
+    <item>2' Sticker(P)</item>
+  </order>
+<order soldto="HAM" date="2012-08-26" delivered="" price="12">
+    <name>omar bin othman</name>
+    <jawi>عمر بن عثمان</jawi>
+    <death>2012-06-06</death>
+    <deathm>1433-07-16</deathm>
+	<age>69</age>
+    <item>2' Sticker(L)</item>
+  </order>
+<order soldto="ADI" date="2012-08-27" delivered="" price="35">
+    <name>Othman bin star</name>
+    <jawi>عثمان بن ستار</jawi>
+    <death>2005-09-23</death>
+    <deathm>1426-08-19</deathm>
+    <item>PV</item>
+  </order>
+<order soldto="ADI" date="2012-08-27" delivered="" price="35">
+    <name>cikgu faizah bt othman</name>
+    <jawi>چيقݢو فايزه بنت عثمان</jawi>
+	<born>1960-05-22</born>
+    <death>2012-07-19</death>
+    <deathm>1433-08-29</deathm>
+    <item>PV</item>
+  </order>
+<order soldto="ADI" date="2012-08-27" delivered="" price="35">
+    <name>Kamarul bin zaini</name>
+    <jawi>كامارول بن زايني</jawi>
+	<born>1979-11-27</born>
+    <death>2011-09-15</death>
+    <deathm>1432-10-17</deathm>
+    <item>PV Egg</item>
   </order>
 </nisan>
