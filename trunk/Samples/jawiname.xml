@@ -1,4 +1,4 @@
-<?xml version="1.0" standalone="yes"?>
+﻿<?xml version="1.0" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
 <!-- 0=uni sex, 1=male, 2=female -->
 <jawiname>
@@ -2902,6 +2902,11 @@
     <jawi>چيك</jawi>
     <sex>0</sex>
   </rootname>
+	<rootname>
+    <rumi>cikgu</rumi>
+    <jawi>چيقݢو</jawi>
+    <sex>0</sex>
+  </rootname>
   <rootname>
     <rumi>cosim</rumi>
     <jawi />
@@ -3833,8 +3838,8 @@
   </rootname>
   <rootname>
     <rumi>faizah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>فايزه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>faizal</rumi>
