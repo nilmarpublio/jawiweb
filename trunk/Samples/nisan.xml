@@ -10082,7 +10082,7 @@
     <deathm>1433-09-16</deathm>
     <item>2½' Sticker</item>
   </order>
-  <order soldto="HAM" date="2012-08-26" delivered="" price="12">
+  <order soldto="HAM" date="2012-08-26" delivered="2012-08-29" price="12">
     <name>sharifah seha bt syed ali</name>
     <jawi>شريفه سيحا بنت شيد علي</jawi>
     <death>2012-08-12</death>
@@ -10090,51 +10090,126 @@
   	<age>68</age>
     <item>2' Sticker(P)</item>
   </order>
-<order soldto="HAM" date="2012-08-26" delivered="" price="12">
+  <order soldto="HAM" date="2012-08-26" delivered="2012-08-29" price="12">
     <name>ismail bin shariff</name>
     <jawi>إسماعيل بن شريف</jawi>
     <death>2012-07-03</death>
     <deathm>1433-08-13</deathm>
-	<age>58</age>
+	  <age>58</age>
     <item>2' Sticker(L)</item>
   </order>
-<order soldto="HAM" date="2012-08-26" delivered="" price="12">
+  <order soldto="HAM" date="2012-08-26" delivered="2012-08-29" price="12">
     <name>hjh che safiah bt abd hamid</name>
     <jawi>حجه چئ صافيه بنت عبدالحميد</jawi>
     <death>2012-06-02</death>
     <deathm>1433-07-12</deathm>
-	<age>84</age>
+	  <age>84</age>
     <item>2' Sticker(P)</item>
   </order>
-<order soldto="HAM" date="2012-08-26" delivered="" price="12">
+  <order soldto="HAM" date="2012-08-26" delivered="2012-08-29" price="12">
     <name>omar bin othman</name>
     <jawi>عمر بن عثمان</jawi>
     <death>2012-06-06</death>
     <deathm>1433-07-16</deathm>
-	<age>69</age>
+	  <age>69</age>
     <item>2' Sticker(L)</item>
   </order>
-<order soldto="ADI" date="2012-08-27" delivered="" price="35">
+  <order soldto="ADI" date="2012-08-27" delivered="2012-08-29" price="35">
     <name>Othman bin star</name>
     <jawi>عثمان بن ستار</jawi>
     <death>2005-09-23</death>
     <deathm>1426-08-19</deathm>
     <item>PV</item>
   </order>
-<order soldto="ADI" date="2012-08-27" delivered="" price="35">
+  <order soldto="ADI" date="2012-08-27" delivered="2012-08-29" price="35">
     <name>cikgu faizah bt othman</name>
     <jawi>چيقݢو فايزه بنت عثمان</jawi>
-	<born>1960-05-22</born>
+	  <born>1960-05-22</born>
     <death>2012-07-19</death>
     <deathm>1433-08-29</deathm>
     <item>PV</item>
   </order>
-<order soldto="ADI" date="2012-08-27" delivered="" price="35">
+  <order soldto="ADI" date="2012-08-27" delivered="2012-08-29" price="35">
     <name>Kamarul bin zaini</name>
     <jawi>كامارول بن زايني</jawi>
-	<born>1979-11-27</born>
+	  <born>1979-11-27</born>
     <death>2011-09-15</death>
     <deathm>1432-10-17</deathm>
     <item>PV Egg</item>
+  </order>
+  <order soldto="KEN" date="2012-08-28" delivered="" price="230">
+    <name>ZAINAB BT ISMAIL</name>
+    <jawi>زاينب بنت إسماعيل</jawi>
+    <death>2012-08-15</death>
+    <deathm>1433-09-27</deathm>
+    <age>77</age>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEM" date="2012-08-29" delivered="" price="230">
+    <name>fatimah bt abas</name>
+    <jawi>فطمة بنت عابس</jawi>
+    <death>2001-12-21</death>
+    <deathm>1422-10-06</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEM" date="2012-08-29" delivered="" price="230">
+    <name>halimah bt hanifiah</name>
+    <jawi>حليمه بنت حنيفة</jawi>
+    <death>2012-03-28</death>
+    <deathm>1433-05-05</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEM" date="2012-08-29" delivered="" price="230">
+    <name>hjh dah bt mat husain</name>
+    <jawi>حجه ده بنت مت حسين</jawi>
+    <born>1936-10-07</born>
+    <death>2012-01-04</death>
+    <deathm>1433-02-10</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEM" date="2012-08-29" delivered="" price="230">
+    <name>HJ ABD SALAM BIN DAHARI</name>
+    <jawi>حاج عبدالسالام بن دهري</jawi>
+    <death>2012-08-06</death>
+    <deathm>1433-09-18</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="KIL" date="2012-08-30" delivered="" price="230">
+    <name>Abdullah bin yusoff</name>
+    <jawi>عبدالله بن يوسوف</jawi>
+    <born>1945-10-16</born>
+    <death>2012-06-19</death>
+    <deathm>1433-07-29</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEL" date="2012-08-30" delivered="" price="230">
+    <name>Nur azlin farahain bt Shaari</name>
+    <jawi>نور ازلين فرحين بنت شعري</jawi>
+    <born>1993-06-12</born>
+    <death>2012-08-08</death>
+    <deathm>1433-09-20</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEL" date="2012-08-30" delivered="" price="230">
+    <name>chik noordin bin Yoep ishak</name>
+    <jawi>چيك نوردين بن يوف اسحاق</jawi>
+    <born>1923-10-07</born>
+    <death>1973-07-06</death>
+    <deathm>1393-06-06</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="KEN" date="2012-08-30" delivered="" price="230">
+    <name>Habsah Bt Ahmad</name>
+    <jawi>حبصه بنت أحمد</jawi>
+    <death>2012-08-11</death>
+    <deathm>1433-09-22</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="KEN" date="2012-08-30" delivered="" price="230">
+    <name>Puteh Bt Mohamad</name>
+    <jawi>فوتيه بنت محمد</jawi>
+    <death>2012-03-20</death>
+    <deathm>1433-04-27</deathm>
+    <item>2' Batu Batik(P)</item>
   </order>
 </nisan>
