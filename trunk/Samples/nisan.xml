@@ -10137,7 +10137,7 @@
     <deathm>1432-10-17</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="KEN" date="2012-08-28" delivered="" price="230">
+  <order soldto="KEN" date="2012-08-28" delivered="2012-09-01" price="230">
     <name>ZAINAB BT ISMAIL</name>
     <jawi>زاينب بنت إسماعيل</jawi>
     <death>2012-08-15</death>
@@ -10145,21 +10145,21 @@
     <age>77</age>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2012-08-29" delivered="" price="230">
+  <order soldto="SEM" date="2012-08-29" delivered="2012-09-01" price="230">
     <name>fatimah bt abas</name>
     <jawi>فطمة بنت عابس</jawi>
     <death>2001-12-21</death>
     <deathm>1422-10-06</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2012-08-29" delivered="" price="230">
+  <order soldto="SEM" date="2012-08-29" delivered="2012-09-01" price="230">
     <name>halimah bt hanifiah</name>
     <jawi>حليمه بنت حنيفة</jawi>
     <death>2012-03-28</death>
     <deathm>1433-05-05</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2012-08-29" delivered="" price="230">
+  <order soldto="SEM" date="2012-08-29" delivered="2012-09-01" price="230">
     <name>hjh dah bt mat husain</name>
     <jawi>حجه ده بنت مت حسين</jawi>
     <born>1936-10-07</born>
@@ -10167,7 +10167,7 @@
     <deathm>1433-02-10</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2012-08-29" delivered="" price="230">
+  <order soldto="SEM" date="2012-08-29" delivered="2012-09-01" price="230">
     <name>HJ ABD SALAM BIN DAHARI</name>
     <jawi>حاج عبدالسالام بن دهري</jawi>
     <death>2012-08-06</death>
@@ -10198,14 +10198,14 @@
     <deathm>1393-06-06</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="KEN" date="2012-08-30" delivered="" price="230">
+  <order soldto="KEN" date="2012-08-30" delivered="2012-09-01" price="230">
     <name>Habsah Bt Ahmad</name>
     <jawi>حبصه بنت أحمد</jawi>
     <death>2012-08-11</death>
     <deathm>1433-09-22</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="KEN" date="2012-08-30" delivered="" price="230">
+  <order soldto="KEN" date="2012-08-30" delivered="2012-09-01" price="230">
     <name>Puteh Bt Mohamad</name>
     <jawi>فوتيه بنت محمد</jawi>
     <death>2012-03-20</death>
@@ -10217,39 +10217,53 @@
     <jawi>سينتا مادر بن يوسف</jawi>
     <death>2012-08-02</death>
     <deathm>1433-09-13</deathm>
-	  <age>72</age>
+	<age>72</age>
     <item>2½' Sticker(L)</item>
   </order>
-<order soldto="HAM" date="2012-08-30" delivered="" price="12">
+  <order soldto="HAM" date="2012-08-30" delivered="" price="12">
     <name>hjh thaniah bt abd haniff</name>
     <jawi>حجه تانيه بنت عبدالحانيف</jawi>
     <death>2012-08-16</death>
     <deathm>1433-09-27</deathm>
-	  <age>66</age>
+	<age>66</age>
     <item>2' Sticker(P)</item>
   </order>
-<order soldto="HAM" date="2012-08-30" delivered="" price="12">
+  <order soldto="HAM" date="2012-08-30" delivered="2012-09-01" price="12">
     <name>ibrahim bin v. merican</name>
     <jawi>ابراهيم بن وي. مريكن</jawi>
     <death>2012-08-09</death>
     <deathm>1433-09-20</deathm>
-	  <age>88</age>
+	<age>88</age>
     <item>2' Sticker(L)</item>
   </order>
-<order soldto="HAM" date="2012-08-30" delivered="" price="12">
+  <order soldto="HAM" date="2012-08-30" delivered="2012-09-01" price="12">
     <name>hasinah bt hasan</name>
     <jawi>حاسينه بنت حسن</jawi>
     <death>2012-08-03</death>
     <deathm>1433-09-14</deathm>
-	  <age>80</age>
+	<age>80</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-08-30" delivered="" price="12">
+  <order soldto="HAM" date="2012-08-30" delivered="2012-09-01" price="12">
     <name>rahima bt allapitchay</name>
     <jawi>راحيما بنت الافيحچي</jawi>
     <death>2012-07-10</death>
     <deathm>1433-08-20</deathm>
-	  <age>66</age>
+	<age>66</age>
     <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="SEM" date="2012-09-01" delivered="" price="230">
+    <name>Hj Abd Majid bin Mat Zain</name>
+    <jawi>حاج عبدالمجيد بن مت زين</jawi>
+    <death>2000-08-25</death>
+    <deathm>1421-05-25</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2012-09-01" delivered="" price="230">
+    <name>Hjh Alus bt Ayob</name>
+    <jawi>حجه ألوس بنت أيوب</jawi>
+    <death>1999-11-09</death>
+    <deathm>1420-08-01</deathm>
+    <item>2' Batu Batik(P)</item>
   </order>
 </nisan>
