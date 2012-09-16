@@ -10174,7 +10174,7 @@
     <deathm>1433-09-18</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="KIL" date="2012-08-30" delivered="" price="230">
+  <order soldto="KIL" date="2012-08-30" delivered="2012-09-11" price="230">
     <name>Abdullah bin yusoff</name>
     <jawi>عبدالله بن يوسوف</jawi>
     <born>1945-10-16</born>
@@ -10344,7 +10344,7 @@
   </order>
   <order soldto="ADI" date="2012-09-05" delivered="" price="350">
     <name>Rozali bin ismail</name>
-    <jawi></jawi>
+    <jawi>روزالي بن إسماعيل</jawi>
     <death>2012-08-11</death>
     <deathm>1433-09-23</deathm>
     <item>2' Batu Hijau(L)</item>
@@ -10364,7 +10364,7 @@
     <deathm>2012-06-21</deathm>
     <item>PV Budak</item>
   </order>
-  <order soldto="HAM" date="2012-08-30" delivered="" price="12">
+  <order soldto="HAM" date="2012-08-30" delivered="2012-09-18" price="12">
     <name>ibrahim bin v merican</name>
     <jawi>ابراهيم بن وي. مريكن</jawi>
     <death>2012-08-09</death>
@@ -10378,5 +10378,28 @@
     <death>2012-09-03</death>
     <deathm>1433-10-16</deathm>
     <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="PAS" date="2012-09-05" delivered="2012-09-17" price="260">
+    <name>Saiful izwan bin mokhtar</name>
+    <jawi></jawi>
+  	<born>1986-11-08</born>
+    <death>2012-08-20</death>
+    <deathm>1433-10-02</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="PAS" date="2012-09-05" delivered="2012-09-17" price="260">
+    <name>che esah bt yusoff</name>
+    <jawi></jawi>
+    <death>2011-07-25</death>
+    <deathm>1432-08-23</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="KIL" date="2012-09-10" delivered="" price="230">
+    <name>Ishak bin haron</name>
+    <jawi>اسحاق بن هارون</jawi>
+    <born>1923-10-23</born>
+    <death>2012-08-30</death>
+    <deathm>1433-10-12</deathm>
+    <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
