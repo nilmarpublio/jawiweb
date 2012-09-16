@@ -10268,7 +10268,7 @@
   </order>
   <order soldto="ADI" date="2012-09-05" delivered="" price="35">
     <name>Yusof bin raja ulong</name>
-    <jawi></jawi>
+    <jawi>يوسوف بن راج اولوڠ</jawi>
     <born>1944-04-01</born>
     <death>2012-08-02</death>
     <deathm>1433-09-14</deathm>
@@ -10276,7 +10276,7 @@
   </order>
   <order soldto="ADI" date="2012-09-05" delivered="" price="35">
     <name>Rohaizad bin ahmad sukri</name>
-    <jawi></jawi>
+    <jawi>راهيزاد بن أحمد سكري</jawi>
     <death>2009-06-19 15:15</death>
     <deathm>1430-06-26 Jumaat</deathm>
     <item>PV</item>
@@ -10284,7 +10284,7 @@
   </order>
   <order soldto="ADI" date="2012-09-05" delivered="" price="35">
     <name>Rohaizad bin ahmad sukri</name>
-    <jawi></jawi>
+    <jawi>راهيزاد بن أحمد سكري</jawi>
     <death>2009-06-19 15:15</death>
     <deathm>1430-06-26 Jumaat</deathm>
     <item>PV</item>
@@ -10292,14 +10292,14 @@
   </order>
   <order soldto="ADI" date="2012-09-05" delivered="" price="35">
     <name>Esa bin hassim</name>
-    <jawi></jawi>
+    <jawi>عسا بن هاسيم</jawi>
     <death>2012-07-06 18:30</death>
     <deathm>1433-08-16</deathm>
     <item>PV Egg</item>
   </order>  
   <order soldto="ADI" date="2012-09-05" delivered="" price="35">
     <name>Hj ihsan bin karto</name>
-    <jawi></jawi>
+    <jawi>حاج إحسان بن کرتو</jawi>
     <born>1903-10-31</born>
     <death>1984-03-10</death>
     <deathm>1404-06-08</deathm>
@@ -10307,14 +10307,14 @@
   </order>  
   <order soldto="ADI" date="2012-09-05" delivered="" price="35">
     <name>Mek bt yob tahir</name>
-    <jawi></jawi>
+    <jawi>ميك بنت يب طاهر</jawi>
     <death> </death>
     <deathm> </deathm>
     <item>PV</item>
   </order>  
   <order soldto="ADI" date="2012-09-05" delivered="" price="35">
     <name>muna bt bero</name>
-    <jawi></jawi>
+    <jawi>مونا بنت برو</jawi>
     <death>2008-01-15</death>
     <deathm>1429-01-06</deathm>
     <age>78</age>
@@ -10322,14 +10322,14 @@
   </order>
   <order soldto="ADI" date="2012-09-05" delivered="" price="35">
     <name>Hj ahmad natal bin hj abdul latif</name>
-    <jawi></jawi>
+    <jawi>حاج أحمد ناتال بن حاج عبداللطيف</jawi>
     <death>2012-09-01</death>
     <deathm>1433-10-14</deathm>
     <item>PV</item>
   </order>
   <order soldto="ADI" date="2012-09-05" delivered="" price="35">
     <name>Zabedah bt amran</name>
-    <jawi></jawi>
+    <jawi>زبيده بنت أمران</jawi>
     <death>2012-07-01</death>
     <deathm>1433-08-11</deathm>
     <age>70</age>
@@ -10337,7 +10337,7 @@
   </order>
   <order soldto="ADI" date="2012-09-05" delivered="" price="35">
     <name>Gulab khan bin othman khan</name>
-    <jawi></jawi>
+    <jawi>ݢولاب خان بن عثمان خان</jawi>
     <death>2012-05-19</death>
     <deathm>1433-06-28</deathm>
     <item>PV Egg</item>
@@ -10351,14 +10351,14 @@
   </order>
   <order soldto="ADI" date="2012-09-05" delivered="" price="35">
     <name>Mohamad afendi bin sudarman</name>
-    <jawi></jawi>
+    <jawi>محمد أفندي بن سودارمان</jawi>
     <death>2012-06-07</death>
     <deathm>1433-07-17</deathm>
     <item>PV Egg</item>
   </order>
   <order soldto="ADI" date="2012-09-05" delivered="" price="35">
     <name>Izziatul izni bt Izzudin</name>
-    <jawi></jawi>
+    <jawi>إززيتول ازني بنت ازذودين</jawi>
     <born>2002-01-26</born>
     <death>2012-06-21</death>
     <deathm>2012-06-21</deathm>
@@ -10401,5 +10401,33 @@
     <death>2012-08-30</death>
     <deathm>1433-10-12</deathm>
     <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2012-09-13" delivered="" price="35">
+    <name>siti halimah bt tahir</name>
+    <jawi>ستي حليمه بنت طاهر</jawi>
+    <death>2012-02-26</death>
+    <deathm>1433-04-04</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2012-09-13" delivered="" price="35">
+    <name>azizon bt bahari</name>
+    <jawi>أزيزون بنت بهاري</jawi>
+    <death>2012-06-04</death>
+    <deathm>1433-07-14</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2012-09-13" delivered="" price="35">
+    <name>Muhammad aizam bin suhaimi</name>
+    <jawi>محمد أعظم بن سوهايمي</jawi>
+    <death>2010-09-15</death>
+    <deathm>1431-10-06</deathm>
+    <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2012-09-13" delivered="" price="35">
+    <name>Muhammad aiman bin suhaimi</name>
+    <jawi>محمد أيمن بن سوهايمي</jawi>
+    <death>2011-05-31</death>
+    <deathm>1432-06-27</deathm>
+    <item>PV Budak</item>
   </order>
 </nisan>

@@ -514,8 +514,8 @@
   </rootname>
   <rootname>
     <rumi>aizam</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>أعظم</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ajar</rumi>
@@ -1805,6 +1805,8 @@
   </rootname>
   <rootname>
     <rumi>azizan</rumi>
+    <jawi>عزيزان</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>azizi</rumi>
@@ -3650,8 +3652,8 @@
   </rootname>
   <rootname>
     <rumi>esa</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>عسا</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>esah</rumi>
@@ -5664,6 +5666,11 @@
   </rootname>
   <rootname>
     <rumi>ihak</rumi>
+  </rootname>
+  <rootname>
+     <rumi>ihsan</rumi>
+     <jawi>إحسان</jawi>
+     <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ikhmal</rumi>
@@ -9450,8 +9457,8 @@
   </rootname>
   <rootname>
     <rumi>muna</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مونا</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>munah</rumi>
@@ -16450,8 +16457,8 @@
   </rootname>
   <rootname>
     <rumi>zabedah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>زبيده</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>zaberi</rumi>
