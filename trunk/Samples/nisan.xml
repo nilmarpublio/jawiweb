@@ -10212,7 +10212,7 @@
     <deathm>1433-04-27</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="HAM" date="2012-08-30" delivered="" price="12">
+  <order soldto="HAM" date="2012-08-30" delivered="2012-09-11" price="12">
     <name>sintha madar bin eusoff</name>
     <jawi>سينتا مادر بن يوسف</jawi>
     <death>2012-08-02</death>
@@ -10220,7 +10220,7 @@
 	<age>72</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-08-30" delivered="" price="12">
+  <order soldto="HAM" date="2012-08-30" delivered="2012-09-11" price="12">
     <name>hjh thaniah bt abd haniff</name>
     <jawi>حجه تانيه بنت عبدالحانيف</jawi>
     <death>2012-08-16</death>
