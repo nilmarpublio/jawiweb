@@ -949,7 +949,7 @@
   <rootname>
     <rumi>amirul</rumi>
     <jawi>أميرول</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>amirullah</rumi>
@@ -17050,8 +17050,8 @@
   </rootname>
   <rootname>
     <rumi>zul</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>زول</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>zulaiha</rumi>
