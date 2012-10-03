@@ -10807,60 +10807,11 @@
     <age>62</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-09-25" delivered="" price="12">
-    <name></name>
-    <jawi></jawi>
-    <death></death>
-    <deathm></deathm>
-    <age></age>
-    <item>2' Sticker(L)</item>
-  </order>
-  <order soldto="HAM" date="2012-09-25" delivered="" price="12">
-    <name></name>
-    <jawi></jawi>
-    <death></death>
-    <deathm></deathm>
-    <age></age>
-    <item>2' Sticker(L)</item>
-  </order>
-  <order soldto="HAM" date="2012-09-25" delivered="" price="12">
-    <name></name>
-    <jawi></jawi>
-    <death></death>
-    <deathm></deathm>
-    <age></age>
-    <item>2' Sticker(L)</item>
-  </order>
-  <order soldto="HAM" date="2012-09-25" delivered="" price="12">
-    <name></name>
-    <jawi></jawi>
-    <death></death>
-    <deathm></deathm>
-    <age></age>
-    <item>2' Sticker(L)</item>
-  </order>
-  <order soldto="HAM" date="2012-09-25" delivered="" price="12">
-    <name></name>
-    <jawi></jawi>
-    <death></death>
-    <deathm></deathm>
-    <age></age>
-    <item>2' Sticker(L)</item>
-  </order>
-  <order soldto="HAM" date="2012-09-25" delivered="" price="12">
-    <name></name>
-    <jawi></jawi>
-    <death></death>
-    <deathm></deathm>
-    <age></age>
-    <item>2' Sticker(L)</item>
-  </order>
-  <order soldto="HAM" date="2012-09-25" delivered="" price="12">
-    <name></name>
-    <jawi></jawi>
-    <death></death>
-    <deathm></deathm>
-    <age></age>
-    <item>2' Sticker(L)</item>
+  <order soldto="SEM" date="2012-10-03" delivered="" price="230">
+    <name>mohd ghani bin karim</name>
+    <jawi>محمد غنى بن كريم</jawi>
+    <death>1984-03-28</death>
+    <deathm>1404-06-26</deathm>
+    <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
