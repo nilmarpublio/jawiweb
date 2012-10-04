@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
+<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="KEN" date="2011-01-03" delivered="2011-01-23" price="210">
     <name>Jamaliah Bt Saat</name>
@@ -10446,7 +10446,7 @@
     <item>PV Budak</item>
 	<remarks>EM268624438MY</remarks>
   </order>
-  <order soldto="HAM" date="2012-09-06" delivered="" price="12">
+  <order soldto="HAM" date="2012-09-06" delivered="2012-10-03" price="12">
     <name>hasama bt ibrahim</name>
     <jawi>حاسما بنت ابراهيم</jawi>
     <death>2012-08-03</death>
@@ -10541,7 +10541,7 @@
 	  <age>54</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-09-06" delivered="" price="12">
+  <order soldto="HAM" date="2012-09-06" delivered="2012-10-03" price="12">
     <name>zawiyah bt hj imamuddin</name>
     <jawi>زويه بنت حاج ايمامودين</jawi>
     <death>2012-07-19</death>
@@ -10586,7 +10586,7 @@
     <deathm>1412-01-28</deathm>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-09-06" delivered="" price="12">
+  <order soldto="HAM" date="2012-09-06" delivered="2012-10-03" price="12">
     <name>tajul ariffin bin zainudin</name>
     <jawi>تاجول عاريفين بن زينودين</jawi>
     <death>2012-08-17</death>
@@ -10601,7 +10601,7 @@
     <deathm></deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-09-15" delivered="" price="12">
+  <order soldto="HAM" date="2012-09-15" delivered="2012-10-02" price="12">
     <name>zaizan bin hassan</name>
     <jawi>زايزن بن حسن</jawi>
     <death>2012-09-07</death>
@@ -10633,7 +10633,7 @@
     <age>70</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-09-15" delivered="" price="12">
+  <order soldto="HAM" date="2012-09-15" delivered="2012-10-02" price="12">
     <name>hj mohd yusoff bin mohd ismail</name>
     <jawi>حاج محمد يوسوف بن محمد إسماعيل</jawi>
     <death>2012-08-25</death>
@@ -10641,7 +10641,7 @@
     <age>81</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-09-15" delivered="" price="12">
+  <order soldto="HAM" date="2012-09-15" delivered="2012-10-02" price="12">
     <name>rokiah bt saman</name>
     <name2>rokiah bt besah</name2>
     <jawi>روكياه بنت سمعان</jawi>
@@ -10650,7 +10650,7 @@
     <age>57</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2012-09-15" delivered="" price="12">
+  <order soldto="HAM" date="2012-09-15" delivered="2012-10-05" price="12">
     <name>sukri bin yaccob</name>
     <jawi>سوکري بن يعقوب</jawi>
     <death>2012-08-05</death>
@@ -10814,4 +10814,295 @@
     <deathm>1404-06-26</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
+  <order soldto="ADI" date="2012-10-02" delivered="" price="35">
+    <name>Mohd ghazali bin haji mohd umar</name>
+    <jawi></jawi>
+    <death>2012-05-04</death>
+    <deathm>1433-06-13</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2012-10-02" delivered="" price="35">
+    <name>hamid bin md isa</name>
+    <jawi>حميد بن مد عيسى</jawi>
+    <born>1931-11-14</born>
+    <death>2012-07-15</death>
+    <deathm>1433-08-25</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2012-10-02" delivered="" price="35">
+    <name>Aisah bt janai</name>
+    <jawi>عيشه بنت جاني</jawi>
+    <death>2012-07-01</death>
+    <deathm>1433-08-11</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2012-10-02" delivered="" price="35">
+    <name>Hamid bin atan</name>
+    <jawi>حميد بن أتان</jawi>
+    <death>1996-07-27</death>
+    <deathm>1417-03-12</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2012-10-02" delivered="" price="35">
+    <name>Abdul hamid bin gani</name>
+    <jawi>عبدولحميد بن گاني</jawi>
+    <death>2012-09-15</death>
+    <deathm>1433-10-28</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2012-10-03" delivered="" price="35">
+    <name>Ashaari bin mat ali</name>
+    <jawi>أشار بن مت علي</jawi>
+    <born>1953-07-17</born>
+    <death>2012-09-30</death>
+    <deathm>1433-11-14</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="HAM" date="2012-10-04" delivered="2010-10-05" price="12">
+    <name>noordin bin yusof</name>
+    <jawi>نوردين بن يوسوف</jawi>
+    <death>2012-09-21</death>
+    <deathm>1433-11-05</deathm>
+    <age>80</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-10-04" delivered="" price="12">
+    <name>suria bt shahidan</name>
+    <jawi></jawi>
+    <death>2012-09-14</death>
+    <deathm>1433-10-27</deathm>
+    <age>35</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-10-04" delivered="2010-10-05" price="12">
+    <name>abd razak bin mohd razak</name>
+    <jawi></jawi>su
+    <death>1991-02-23</death>
+    <deathm>1411-08-09</deathm>
+    <age>63</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-10-04" delivered="" price="12">
+    <name>fatimah bt ramli</name>
+    <jawi></jawi>
+    <death>1964-03-03</death>
+    <deathm>1383-10-19</deathm>
+    <item>Tarazo(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-19" delivered="2010-10-05" price="12">
+    <name>HUSAINI BHAI MULLA ESMAILJEE</name>
+    <jawi></jawi>
+    <death> </death>
+    <deathm></deathm>
+    <item>7"X10"</item>
+  </order>
+  <order soldto="HAM" date="2012-09-19" delivered="2012-10-05" price="0">
+    <name>akbar bhai gulamali</name>
+    <jawi></jawi>
+    <death>2012-03-03</death>
+    <deathm>1433-05-12</deathm>
+    <item>3"X5½"</item>
+  </order>
+  <order soldto="HAM" date="2012-09-19" delivered="2010-10-05" price="12">
+    <name>mohd noor bin hashim</name>
+    <jawi></jawi>
+    <death>2012-08-06</death>
+    <deathm>1433-09-17</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-19" delivered="2010-10-05" price="12">
+    <name>hussim bin din</name>
+    <jawi></jawi>
+    <death>2012-08-11</death>
+    <deathm>1433-09-22</deathm>
+    <age>59</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-19" delivered="" price="12">
+    <name>paridah bt allahpitchay</name>
+    <jawi></jawi>
+    <death>2012-08-09</death>
+    <deathm>1433-09-20</deathm>
+    <age>53</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-19" delivered="" price="12">
+    <name>kulthom bi bt sulthan</name>
+    <jawi></jawi>
+    <death>2010-12-12</death>
+    <deathm>1432-01-06</deathm>
+    <age>87</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-19" delivered="" price="12">
+    <name>allapitchay bin meerasa</name>
+    <jawi></jawi>
+    <death>2001-08-26</death>
+    <deathm>1422-06-06</deathm>
+    <age>83</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-19" delivered="" price="12">
+    <name>abd subahani bin mohd ali</name>
+    <jawi></jawi>
+    <death>2000-06-13</death>
+    <deathm>1421-03-10</deathm>
+    <age>42</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-19" delivered="" price="12">
+    <name>jaafar bin allapitchay</name>
+    <jawi></jawi>
+    <death>1995-11-12</death>
+    <deathm>1416-06-18</deathm>
+    <age>53</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-19" delivered="" price="12">
+    <name>amanulla bin ibramshah</name>
+    <jawi></jawi>
+    <death>2002-04-21</death>
+    <deathm>1423-02-08</deathm>
+    <age>63</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-19" delivered="2010-10-05" price="12">
+    <name>yusof bin md husain</name>
+    <jawi></jawi>
+    <death>2012-05-13</death>
+    <deathm>1433-06-21</deathm>
+    <age>68</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-19" delivered="" price="12">
+    <name>fauziah bt sutan</name>
+    <jawi></jawi>
+    <death>1982-09-04</death>
+    <deathm>1402-11-16</deathm>
+    <age>21</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-19" delivered="2010-10-05" price="12">
+    <name>ramli bin sutan</name>
+    <jawi></jawi>
+    <death>2012-08-31</death>
+    <deathm>1433-10-13</deathm>
+    <age>46</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-10-01" delivered="2010-10-05" price="12">
+    <name>fatimah bt md shariff</name>
+    <jawi></jawi>
+    <death>2012-06-11</death>
+    <deathm>1433-07-21</deathm>
+    <age>78</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-10-01" delivered="" price="12">
+    <name>toh puan dato seri utama</name>
+    <name2>hjh siti zainab bt baharuddin</name2>
+    <jawi>توه فوان داتؤسري اوتام حجه سيتي زينب بنت بهارودين</jawi>
+    <death>2012-09-26</death>
+    <deathm>1433-11-10</deathm>
+    <item>2' Sticker(P)</item>
+    <remarks>print only</remarks>
+  </order>
+  <order soldto="HAM" date="2012-09-25" delivered="" price="12">
+    <name>amiru nazwan bin mahar effendi</name>
+    <jawi></jawi>
+    <death>2012-09-12</death>
+    <deathm>1433-10-25</deathm>
+    <age>32</age>
+    <item>2' Sticker(L)</item>
+    <remarks>jawi saja</remarks>
+  </order>
+  <order soldto="HAM" date="2012-09-25" delivered="" price="12">
+    <name>amiru nazwan bin mahar effendi</name>
+    <jawi></jawi>
+    <death>2012-09-12</death>
+    <deathm>1433-10-25</deathm>
+    <age>32</age>
+    <item>2' Sticker(L)</item>
+    <remarks>rumi saja</remarks>
+  </order>
+  <order soldto="HAM" date="2012-09-25" delivered="" price="12">
+    <name>rahimah bee bt hussain</name>
+    <jawi></jawi>
+    <death>2012-02-09</death>
+    <deathm>1433-03-16</deathm>
+    <age>86</age>
+    <item>2' Sticker(P)</item>
+    <remarks>jawi saja</remarks>
+  </order>
+  <order soldto="HAM" date="2012-09-25" delivered="" price="12">
+    <name>rahimah bee bt hussain</name>
+    <jawi></jawi>
+    <death>2012-02-09</death>
+    <deathm>1433-03-16</deathm>
+    <age>86</age>
+    <item>2' Sticker(P)</item>
+    <remarks>rumi saja</remarks>
+  </order>
+  <order soldto="HAM" date="2012-09-27" delivered="2010-10-05" price="12">
+    <name>hjh rokiah bt daud</name>
+    <jawi></jawi>
+    <death>2012-07-03</death>
+    <deathm>1433-08-13</deathm>
+    <age>91</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-27" delivered="" price="12">
+    <name>idrus bin ismail</name>
+    <name2>pak itam</name2>
+    <jawi></jawi>
+    <death> </death>
+    <deathm></deathm>
+    <item>Tarazo(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-27" delivered="" price="12">
+    <name>a saihoo bin s arsanor</name>
+    <jawi></jawi>
+    <death>2012-09-06</death>
+    <deathm>1433-10-19</deathm>
+    <age>65</age>
+    <item>Tarazo(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-27" delivered="" price="12">
+    <name>che nu bt mohamed</name>
+    <jawi></jawi>
+    <death>1985-07-11</death>
+    <deathm>1405-10-23</deathm>
+    <item>Tarazo(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-27" delivered="" price="12">
+    <name>hj shamsuri bin md isa</name>
+    <jawi></jawi>
+    <death>2012-08-21</death>
+    <deathm>1433-10-03</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-27" delivered="" price="12">
+    <name>slemah bt mat</name>
+    <jawi></jawi>
+    <death>2012-08-20</death>
+    <deathm>1433-10-02</deathm>
+    <age>75</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-27" delivered="" price="12">
+    <name>mohd fairul amir bin yusoff</name>
+    <jawi></jawi>
+    <death>2012-09-08</death>
+    <deathm>1433-10-21</deathm>
+    <age>26</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-09-27" delivered="" price="12">
+    <name>mawanna khudree al mohd segu</name>
+    <jawi></jawi>
+    <death>2008-09-21</death>
+    <deathm>1429-09-21</deathm>
+    <age>80</age>
+    <item>Tarazo(L)</item>
+  </order>  
 </nisan>
