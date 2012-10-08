@@ -1,5 +1,5 @@
 ﻿using HLGranite.Jawi;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System;
 
 namespace HLGranite.Jawi.Test
@@ -8,13 +8,13 @@ namespace HLGranite.Jawi.Test
     /// This is a test class for JawiTranslatorTest and is intended
     /// to contain all JawiTranslatorTest Unit Tests
     /// </summary>
-    [TestClass()]
+    [TestFixture]
     public class JawiTranslatorTest
     {
         /// <summary>
         ///A test for Translate
         ///</summary>
-        [TestMethod()]
+        [Test]
         public void TranslateTest()
         {
             JawiTranslator target = new JawiTranslator();

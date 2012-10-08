@@ -1,7 +1,9 @@
-﻿using System.Windows.Media;
+﻿using System;
+using System.Diagnostics;
+using System.Windows.Media;
 using System.Linq;
 using HLGranite.Jawi;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System.Windows.Shapes;
 
 namespace HLGranite.Jawi.Test
@@ -10,29 +12,29 @@ namespace HLGranite.Jawi.Test
     /// This is a test class for WorkspaceTest and is intended
     /// to contain all WorkspaceTest Unit Tests
     ///</summary>
-    [TestClass()]
+    [TestFixture]
     public class WorkspaceTest
     {
         /// <summary>
         /// A test for GetLabel
         /// </summary>
-        [TestMethod()]
+        [Test]
         public void GetLabelTest()
         {
-            PathCollection_Accessor target = new PathCollection_Accessor(@"E:\jawi\khots");
+            //TODO: PathCollection_Accessor target = new PathCollection_Accessor(@"E:\jawi\khots");
             string[] testers = new string[] { "file.svg", "file2.svg", "file3.svg", "nor.svg", "nor2.svg", "noor.svg", "noor2.svg", "noor21.svg", };
             string[] expecteds = new string[] { string.Empty, "2", "3", string.Empty, "2", string.Empty, "2", "21", };
             for (int i = 0; i < testers.Length; i++)
             {
                 string expected = expecteds[i];
-                string actual = actual = target.GetLabel(testers[i]);
+                string actual = string.Empty;//target.GetLabel(testers[i]);
                 Assert.AreEqual(expected, actual);
             }
         }
         /// <summary>
         /// A test for loading khot library.
         /// </summary>
-        [TestMethod()]
+        [Test]
         public void InitializeTest()
         {
             PathCollection target = new PathCollection(@"E:\jawi\khots");
@@ -41,7 +43,7 @@ namespace HLGranite.Jawi.Test
         /// <summary>
         ///A test for Select
         ///</summary>
-        [TestMethod()]
+        [Test]
         public void SelectTest()
         {
             PathCollection target = new PathCollection(@"E:\jawi\khots");
@@ -79,7 +81,7 @@ namespace HLGranite.Jawi.Test
         /// <summary>
         /// A test to determine extract a correct name for a PathViewModel.
         /// </summary>
-        [TestMethod()]
+        [Test]
         public void GetNameTest()
         {
             System.IO.DirectoryInfo directoryInfo = new System.IO.DirectoryInfo(@"G:\My Works\words");
@@ -89,7 +91,7 @@ namespace HLGranite.Jawi.Test
             {
                 //string name = info.Name.ToLower().TrimEnd(new char[] { 'g', 'v', 's', '.' });
                 string name = info.Name.ToLower().Substring(0, info.Name.Length - 4);
-                System.Diagnostics.Debug.WriteLine("Reading {0} -> {1}", info.Name, name);
+                System.Diagnostics.Debug.WriteLine("Reading "+info.Name+" -> "+name);
                 Assert.AreEqual(info.Name, name + ".svg");
             }
         }
