@@ -1,13 +1,14 @@
 ﻿using System;
 using HLGranite.Jawi;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
+
 namespace HLGranite.Jawi.Test
 {
     /// <summary>
     /// This is a test class for CharacterCollectionTest and is intended
     /// to contain all CharacterCollectionTest Unit Tests
     /// </summary>
-    [TestClass()]
+    [TestFixture]
     public class CharacterCollectionTest
     {
         public CharacterCollectionTest()
@@ -17,7 +18,7 @@ namespace HLGranite.Jawi.Test
         /// <summary>
         /// A test for CharacterCollection Constructor
         /// </summary>
-        [TestMethod()]
+        [Test]
         public void CharacterCollectionConstructorTest()
         {
             string fontFamily = "Arial";
@@ -29,7 +30,7 @@ namespace HLGranite.Jawi.Test
         /// <summary>
         /// Test a correct maximum Int16 value.
         /// </summary>
-        [TestMethod()]
+        [Test]
         public void MaxPositiveInt16Test()
         {
             int expected = 32767;
@@ -40,14 +41,14 @@ namespace HLGranite.Jawi.Test
         /// <summary>
         /// A test for UnicodeFormatter
         /// </summary>
-        [TestMethod()]
+        [Test]
         public void UnicodeFormatterTest()
         {
-            CharacterCollection_Accessor target = new CharacterCollection_Accessor("Arial");
+            //TODO: CharacterCollection_Accessor target = new CharacterCollection_Accessor("Arial");
             int i = 1069;
             string expected = "U+042D";
-            string actual;
-            actual = target.UnicodeFormatter(i);
+            string actual  = string.Empty;
+            //actual = target.UnicodeFormatter(i);
             Assert.AreEqual(expected, actual);
         }
     }

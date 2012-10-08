@@ -1,5 +1,5 @@
 ﻿using HLGranite.Jawi;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System.Windows;
 
 namespace HLGranite.Jawi.Test
@@ -8,7 +8,7 @@ namespace HLGranite.Jawi.Test
     /// This is a test class for SvgReaderTest and is intended
     /// to contain all SvgReaderTest Unit Tests
     /// </summary>
-    [TestClass()]
+    [TestFixture]
     public class SvgReaderTest
     {
         public SvgReaderTest()
@@ -18,7 +18,7 @@ namespace HLGranite.Jawi.Test
         /// <summary>
         /// Get size of an alef caligraphy.
         ///</summary>
-        [TestMethod()]
+        [Test]
         public void GetSizeTest()
         {
             //alef raw data

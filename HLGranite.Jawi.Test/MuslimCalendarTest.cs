@@ -1,5 +1,5 @@
 ﻿using HLGranite.Jawi;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using System;
 using System.Text.RegularExpressions;
 using System.Data;
@@ -10,7 +10,7 @@ namespace HLGranite.Jawi.Test
     ///This is a test class for MuslimCalendarTest and is intended
     ///to contain all MuslimCalendarTest Unit Tests
     ///</summary>
-    [TestClass()]
+    [TestFixture]
     public class MuslimCalendarTest
     {
         #region Additional test attributes
@@ -46,7 +46,7 @@ namespace HLGranite.Jawi.Test
         /// <summary>
         /// A test to determine input string is match pattern yyyy-MM-dd.
         ///</summary>
-        [TestMethod()]
+        [Test]
         public void IsTrueyyyyMMddFormatTest()
         {
             Regex regex = new Regex(@"[0-9]{4}[-][0-9]{2}[-][0-9]{2}");
@@ -56,7 +56,7 @@ namespace HLGranite.Jawi.Test
         /// <summary>
         /// A test to determine input string is match pattern yyyy-MM-dd.
         ///</summary>
-        [TestMethod()]
+        [Test]
         public void IsFalseyyyyMMddFormatTest()
         {
             Regex regex = new Regex(@"[0-9]{4}[-][0-9]{2}[-][0-9]{2}");
@@ -66,7 +66,7 @@ namespace HLGranite.Jawi.Test
         /// <summary>
         /// A test for conversion from Gregorian date to Muslim date.
         /// </summary>
-        [TestMethod()]
+        [Test]
         public void GetDateTest()
         {
             MuslimCalendar calendar = new MuslimCalendar(ReadXml("muslimcal.xml"));

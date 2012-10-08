@@ -1,49 +1,49 @@
 ﻿<Window x:Class="JawiWPF.Window1"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:h="clr-namespace:HLGranite.WPF"
-    xmlns:j="clr-namespace:HLGranite.Jawi;assembly=HLGranite.Jawi"
-    Title="Jawi Editor Beta"
-    Width="550" Height="700"
-    SizeChanged="Window_SizeChanged"
-    MouseLeftButtonDown="Window_MouseLeftButtonDown">
-    <Window.Resources>
-        <Style x:Key="WordButton" BasedOn="{StaticResource {x:Type ToggleButton}}" TargetType="{x:Type RadioButton}">
-            <Setter Property="GroupName" Value="WordGroup"/>
-        </Style>
-        <DataTemplate DataType="{x:Type j:PathViewModel}">
-            <!--<WrapPanel>-->
-            <RadioButton
-                ToolTip="{Binding Name}"
-                Style="{StaticResource WordButton}"
-                IsChecked="{Binding IsChecked,Mode=TwoWay,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
-                Visibility="{Binding Visibility,Mode=TwoWay,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
-                Checked="ToggleButton_Checked">
-                <RadioButton.ContextMenu>
-                    <ContextMenu>
-                        <MenuItem Header="_Open" Click="openWordSvg_Click"/>
-                    </ContextMenu>
-                </RadioButton.ContextMenu>
-                
-                <!-- @todo: DockPanel fail to bind though to get the same alignment of label and name at baseline -->
-                <StackPanel>
-                    <TextBlock Text="{Binding Label}" TextAlignment="Right"/>
-                    <Grid>
-                        <Path Fill="Black" Data="{Binding Path.Data}"/>
-                    </Grid>
-                    <TextBlock Text="{Binding Name}" TextAlignment="Center"/>
-                </StackPanel>
-            </RadioButton>
-        </DataTemplate>
-        <DataTemplate DataType="{x:Type j:ColorViewModel}">
-            <ToggleButton
-                x:Name="ColorButton"
-                Height="16" Width="16"
-                Background="{Binding Color}"
-                ToolTip="{Binding Name}"
-                IsChecked="{Binding IsChecked,Mode=TwoWay,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
-                Checked="ColorButton_Checked">
-                <!--<ToggleButton.Style>
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:h="clr-namespace:HLGranite.WPF"
+        xmlns:j="clr-namespace:HLGranite.Jawi;assembly=HLGranite.Jawi"
+        Title="Jawi Editor Beta"
+        Width="550" Height="700"
+        SizeChanged="Window_SizeChanged"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+	<Window.Resources>
+		<Style x:Key="WordButton" BasedOn="{StaticResource {x:Type ToggleButton}}" TargetType="{x:Type RadioButton}">
+			<Setter Property="GroupName" Value="WordGroup"/>
+		</Style>
+		<DataTemplate DataType="{x:Type j:PathViewModel}">
+			<!--<WrapPanel>-->
+			<RadioButton
+				ToolTip="{Binding Name}"
+				Style="{StaticResource WordButton}"
+				IsChecked="{Binding IsChecked,Mode=TwoWay,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
+				Visibility="{Binding Visibility,Mode=TwoWay,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
+				Checked="ToggleButton_Checked">
+				<RadioButton.ContextMenu>
+					<ContextMenu>
+						<MenuItem Header="_Open" Click="openWordSvg_Click"/>
+					</ContextMenu>
+				</RadioButton.ContextMenu>
+				
+				<!-- @todo: DockPanel fail to bind though to get the same alignment of label and name at baseline -->
+				<StackPanel>
+					<TextBlock Text="{Binding Label}" TextAlignment="Right"/>
+					<Grid>
+						<Path Fill="Black" Data="{Binding Path.Data}"/>
+					</Grid>
+					<TextBlock Text="{Binding Name}" TextAlignment="Center"/>
+				</StackPanel>
+			</RadioButton>
+		</DataTemplate>
+		<DataTemplate DataType="{x:Type j:ColorViewModel}">
+			<ToggleButton
+				x:Name="ColorButton"
+				Height="16" Width="16"
+				Background="{Binding Color}"
+				ToolTip="{Binding Name}"
+				IsChecked="{Binding IsChecked,Mode=TwoWay,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"
+				Checked="ColorButton_Checked">
+				<!--<ToggleButton.Style>
                     <Style TargetType="{x:Type ToggleButton}">
                         <Style.Triggers>
                             <Trigger Property="IsChecked" Value="True">
@@ -52,117 +52,117 @@
                         </Style.Triggers>
                     </Style>
                 </ToggleButton.Style>-->
-            </ToggleButton>
-        </DataTemplate>
-    </Window.Resources>
-    <DockPanel LastChildFill="True">
-        <Menu DockPanel.Dock="Top" IsMainMenu="True">
-            <MenuItem Header="_Help">
-                <MenuItem x:Name="characterMenu" Header="_Character Map" Click="characterMenu_Click"/>
-                <MenuItem x:Name="aboutMenu" Header="_About" Click="aboutMenu_Click"/>
-            </MenuItem>
-        </Menu>
-        <StatusBar DockPanel.Dock="Bottom" Margin="0" Height="20" x:Name="statusBar1">
-            <StatusBar.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="Auto"/>
-                        </Grid.ColumnDefinitions>
-                    </Grid>
-                </ItemsPanelTemplate>
-            </StatusBar.ItemsPanel>
-            <StatusBarItem Grid.Column="0">
-                    <TextBlock x:Name="statusText" Text="Ready"/>
-                </StatusBarItem>
-            <Separator Grid.Column="1"/>
-            <StatusBarItem Grid.Column="2">
-                <TextBlock DockPanel.Dock="Right" x:Name="wordCount" Text="0 words" ToolTip="Found in library"/>
-            </StatusBarItem>
-        </StatusBar>
-        <Grid Margin="10 10 10 0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="120"/>
-                <RowDefinition Height="200"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-
-            <GroupBox Grid.Row="0" Header="Punctuation/Character">
-                <DockPanel LastChildFill="True">
-                    <WrapPanel DockPanel.Dock="Top">
-                        <TextBox x:Name="seachCharacter" Width="60" KeyDown="seachCharacter_KeyDown"/>
-                        <Button x:Name="searchCharacterButton" Click="searchCharacterButton_Click">Search</Button>
-                    </WrapPanel>
-                    <ScrollViewer>
-                        <ItemsControl x:Name="khotSpace" KeyDown="khotSpace_KeyDown">
-                            <ItemsControl.ItemsPanel>
-                                <ItemsPanelTemplate>
-                                    <WrapPanel/>
-                                </ItemsPanelTemplate>
-                            </ItemsControl.ItemsPanel>
-                        </ItemsControl>
-                    </ScrollViewer>
-                </DockPanel>
-            </GroupBox>
-
-            <DockPanel Grid.Row="1" LastChildFill="True" Margin="0 10 0 0">
-                <h:Ruler x:Name="hRuler" DockPanel.Dock="Top" Unit="Inch" Margin="36 0 0 10"/>
-                <h:Ruler x:Name="vRuler" DockPanel.Dock="Left" Unit="Inch" Marks="Up" Length="1.5" Margin="0 10 15 0">
-                    <h:Ruler.LayoutTransform>
-                        <TransformGroup>
-                            <RotateTransform Angle="90" />
-                            <TranslateTransform X="15" />
-                        </TransformGroup>
-                    </h:Ruler.LayoutTransform>
-                </h:Ruler>
-                <DockPanel DockPanel.Dock="Bottom">
-                    <WrapPanel DockPanel.Dock="Right">
-                        <Button x:Name="print" Margin="4" Click="print_Click">Print</Button>
-                        <Button x:Name="load" Margin="4" ToolTip="Reload library" Click="load_Click">Load</Button>
-                        <Button x:Name="clear" Margin="4" Click="clear_Click">Clear</Button>
-                        <Button x:Name="save" Margin="4" Click="save_Click">Save</Button>
-                    </WrapPanel>                    
-                    <!-- @see http://visualizationtools.net/default/?p=2380 -->
-                    <WrapPanel>
-                        <ItemsControl x:Name="colorPallete" KeyDown="colorPallete_KeyDown">
-                            <ItemsControl.ItemsPanel>
-                                <ItemsPanelTemplate>
-                                    <WrapPanel/>
-                                </ItemsPanelTemplate>
-                            </ItemsControl.ItemsPanel>
-                        </ItemsControl>
-                    </WrapPanel>
-                </DockPanel>
-                <!--@todo: MouseMove="workSpace_MouseMove"-->
-                <Grid x:Name="workSpace" Width="Auto" Height="112.5" ToolTip="Click on the object to move"
-                      MouseLeftButtonDown="workSpace_MouseLeftButtonDown">
-                    <!-- guideline -->
-                    <Line Width="Auto" Stroke="Blue" StrokeDashArray="2,4" StrokeThickness="1" X1="0" Y1="0" X2="450" Y2="0"/>
-                    <!-- LightSteelBlue -->
-                    <Line Width="Auto" Stroke="Blue" StrokeDashArray="2,4" StrokeThickness="1" X1="0" Y1="100" X2="450" Y2="100"/>
-                    <Line Width="Auto" Stroke="Blue" StrokeDashArray="2,4" StrokeThickness="1" X1="0" Y1="112.5" X2="450" Y2="112.5"/>
-                </Grid>
-            </DockPanel>
-
-            <GroupBox Grid.Row="2" Header="Word Library">
-                <DockPanel LastChildFill="True">
-                    <WrapPanel DockPanel.Dock="Top">
-                        <RichTextBox x:Name="richTextBox2" Width="250" AcceptsReturn="False" KeyDown="richTextBox2_KeyDown"/>
-                        <Button x:Name="searchButton" Click="searchButton_Click">Search</Button>
-                    </WrapPanel>
-                    <ScrollViewer>
-                        <ItemsControl x:Name="wordSpace" KeyDown="wordSpace_KeyDown">
-                            <ItemsControl.ItemsPanel>
-                                <ItemsPanelTemplate>
-                                    <WrapPanel/>
-                                </ItemsPanelTemplate>
-                            </ItemsControl.ItemsPanel>
-                        </ItemsControl>
-                    </ScrollViewer>
-                </DockPanel>
-            </GroupBox>
-        </Grid>
-    </DockPanel>
+			</ToggleButton>
+		</DataTemplate>
+	</Window.Resources>
+	<DockPanel LastChildFill="True">
+		<Menu DockPanel.Dock="Top" IsMainMenu="True">
+			<MenuItem Header="_Help">
+				<MenuItem x:Name="characterMenu" Header="_Character Map" Click="characterMenu_Click"/>
+				<MenuItem x:Name="aboutMenu" Header="_About" Click="aboutMenu_Click"/>
+			</MenuItem>
+		</Menu>
+		<StatusBar DockPanel.Dock="Bottom" Margin="0" Height="20" x:Name="statusBar1">
+			<StatusBar.ItemsPanel>
+				<ItemsPanelTemplate>
+					<Grid>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="*"/>
+							<ColumnDefinition Width="Auto"/>
+							<ColumnDefinition Width="Auto"/>
+						</Grid.ColumnDefinitions>
+					</Grid>
+				</ItemsPanelTemplate>
+			</StatusBar.ItemsPanel>
+			<StatusBarItem Grid.Column="0">
+				<TextBlock x:Name="statusText" Text="Ready"/>
+			</StatusBarItem>
+			<Separator Grid.Column="1"/>
+			<StatusBarItem Grid.Column="2">
+				<TextBlock DockPanel.Dock="Right" x:Name="wordCount" Text="0 words" ToolTip="Found in library"/>
+			</StatusBarItem>
+		</StatusBar>
+		<Grid Margin="10 10 10 0">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="120"/>
+				<RowDefinition Height="200"/>
+				<RowDefinition Height="*"/>
+			</Grid.RowDefinitions>
+			
+			<GroupBox Grid.Row="0" Header="Punctuation/Character">
+				<DockPanel LastChildFill="True">
+					<WrapPanel DockPanel.Dock="Top">
+						<TextBox x:Name="seachCharacter" Width="60" KeyDown="seachCharacter_KeyDown"/>
+						<Button x:Name="searchCharacterButton" Click="searchCharacterButton_Click">Search</Button>
+					</WrapPanel>
+					<ScrollViewer>
+						<ItemsControl x:Name="khotSpace" KeyDown="khotSpace_KeyDown">
+							<ItemsControl.ItemsPanel>
+								<ItemsPanelTemplate>
+									<WrapPanel/>
+								</ItemsPanelTemplate>
+							</ItemsControl.ItemsPanel>
+						</ItemsControl>
+					</ScrollViewer>
+				</DockPanel>
+			</GroupBox>
+			
+			<DockPanel Grid.Row="1" LastChildFill="True" Margin="0 10 0 0">
+				<h:Ruler x:Name="hRuler" DockPanel.Dock="Top" Unit="Inch" Margin="36 0 0 10"/>
+				<h:Ruler x:Name="vRuler" DockPanel.Dock="Left" Unit="Inch" Marks="Up" Length="1.5" Margin="0 10 15 0">
+					<h:Ruler.LayoutTransform>
+						<TransformGroup>
+							<RotateTransform Angle="90" />
+							<TranslateTransform X="15" />
+						</TransformGroup>
+					</h:Ruler.LayoutTransform>
+				</h:Ruler>
+				<DockPanel DockPanel.Dock="Bottom">
+					<WrapPanel DockPanel.Dock="Right">
+						<Button x:Name="print" Margin="4" Click="print_Click">Print</Button>
+						<Button x:Name="load" Margin="4" ToolTip="Reload library" Click="load_Click">Load</Button>
+						<Button x:Name="clear" Margin="4" Click="clear_Click">Clear</Button>
+						<Button x:Name="save" Margin="4" Click="save_Click">Save</Button>
+					</WrapPanel>
+					<!-- @see http://visualizationtools.net/default/?p=2380 -->
+					<WrapPanel>
+						<ItemsControl x:Name="colorPallete" KeyDown="colorPallete_KeyDown">
+							<ItemsControl.ItemsPanel>
+								<ItemsPanelTemplate>
+									<WrapPanel/>
+								</ItemsPanelTemplate>
+							</ItemsControl.ItemsPanel>
+						</ItemsControl>
+					</WrapPanel>
+				</DockPanel>
+				<!--@todo: MouseMove="workSpace_MouseMove"-->
+				<Grid x:Name="workSpace" Width="Auto" Height="112.5" ToolTip="Click on the object to move"
+				      MouseLeftButtonDown="workSpace_MouseLeftButtonDown">
+					<!-- guideline -->
+					<Line Width="Auto" Stroke="Blue" StrokeDashArray="2,4" StrokeThickness="1" X1="0" Y1="0" X2="450" Y2="0"/>
+					<!-- LightSteelBlue -->
+					<Line Width="Auto" Stroke="Blue" StrokeDashArray="2,4" StrokeThickness="1" X1="0" Y1="100" X2="450" Y2="100"/>
+					<Line Width="Auto" Stroke="Blue" StrokeDashArray="2,4" StrokeThickness="1" X1="0" Y1="112.5" X2="450" Y2="112.5"/>
+				</Grid>
+			</DockPanel>
+			
+			<GroupBox Grid.Row="2" Header="Word Library">
+				<DockPanel LastChildFill="True">
+					<WrapPanel DockPanel.Dock="Top">
+						<RichTextBox x:Name="richTextBox2" Width="250" AcceptsReturn="False" KeyDown="richTextBox2_KeyDown"/>
+						<Button x:Name="searchButton" Click="searchButton_Click">Search</Button>
+					</WrapPanel>
+					<ScrollViewer>
+						<ItemsControl x:Name="wordSpace" KeyDown="wordSpace_KeyDown">
+							<ItemsControl.ItemsPanel>
+								<ItemsPanelTemplate>
+									<WrapPanel/>
+								</ItemsPanelTemplate>
+							</ItemsControl.ItemsPanel>
+						</ItemsControl>
+					</ScrollViewer>
+				</DockPanel>
+			</GroupBox>
+		</Grid>
+	</DockPanel>
 </Window>
