@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
+<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="KEN" date="2011-01-03" delivered="2011-01-23" price="210">
     <name>Jamaliah Bt Saat</name>
@@ -10709,7 +10709,7 @@
     <death>2009-09-10</death>
     <deathm>1430-09-20</deathm>
     <item>PV</item>
-    <remarks></remarks>
+    <remarks>EM322881781MY</remarks>
   </order>
   <order soldto="ADI" date="2012-09-25" delivered="2012-10-09" price="260">
     <name>zakaria bin tasir</name>
@@ -10736,7 +10736,7 @@
     <deathm>1408-02-10</deathm>
     <age>64</age>
     <item>PV Egg</item>
-    <remarks></remarks>
+    <remarks>EM322881781MY</remarks>
   </order>
   <order soldto="ADI" date="2012-09-26" delivered="2012-10-08" price="35">
     <name>hajah misri bt shujak</name>
@@ -10755,6 +10755,7 @@
     <death>2012-09-05</death>
     <deathm>1433-10-18</deathm>
     <item>PV</item>
+	<remarks>EM322881781MY</remarks>
   </order>
   <order soldto="ADI" date="2012-09-26" delivered="2012-10-15" price="35">
     <name>Ngah kechik bin hassan</name>
@@ -10763,6 +10764,7 @@
     <death>1963-12-16</death>
     <deathm>1383-07-30</deathm>
     <item>PV</item>
+	<remarks>EM322881781MY</remarks>
   </order>
   <order soldto="SEL" date="2012-10-01" delivered="2012-10-07" price="230">
     <name>noramira bt jaafar</name>
@@ -10847,6 +10849,7 @@
     <death>2012-07-01</death>
     <deathm>1433-08-11</deathm>
     <item>PV Egg</item>
+	<remarks>EM322881781MY</remarks>
   </order>
   <order soldto="ADI" date="2012-10-02" delivered="2012-10-15" price="35">
     <name>Hamid bin atan</name>
@@ -10854,6 +10857,7 @@
     <death>1996-07-27</death>
     <deathm>1417-03-12</deathm>
     <item>PV Egg</item>
+	<remarks>EM322881781MY</remarks>
   </order>
   <order soldto="ADI" date="2012-10-02" delivered="2012-10-15" price="35">
     <name>Abdul hamid bin gani</name>
@@ -10861,6 +10865,7 @@
     <death>2012-09-15</death>
     <deathm>1433-10-28</deathm>
     <item>PV Egg</item>
+	<remarks>EM322881781MY</remarks>
   </order>
   <order soldto="ADI" date="2012-10-03" delivered="2012-10-08" price="35">
     <name>Ashaari bin mat ali</name>
@@ -11170,6 +11175,7 @@
     <death>2012-07-20</death>
     <deathm>1433-09-01</deathm>
     <item>PV Egg</item>
+	<remarks>EM322881781MY</remarks>
   </order>
   <order soldto="ADI" date="2012-10-07" delivered="2012-10-08" price="35">
     <name>Hajah ton bt majid</name>
@@ -11209,6 +11215,7 @@
     <death>1965-06-28</death>
     <deathm>1385-02-29</deathm>
     <item>PV</item>
+	<remarks>EM322881781MY</remarks>
   </order>
   <order soldto="HAM" date="2012-10-10" delivered="2012-10-15" price="12">
     <name>munshi bin said</name>
@@ -11225,5 +11232,28 @@
     <deathm>1433-11-20</deathm>
     <age>68</age>
     <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-10-16" delivered="" price="12">
+    <name>balkish bt pakir mohd</name>
+    <jawi></jawi>
+    <death>2012-09-02</death>
+    <deathm>1433-10-15</deathm>
+    <age>78</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-10-18" delivered="" price="12">
+    <name>hjh rahmat bee bt mohd yusoff</name>
+    <jawi></jawi>
+    <death>2012-03-25</death>
+    <deathm>1433-05-02</deathm>
+    <age>52</age>
+    <item>2' Tarazo(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-10-18" delivered="" price="12">
+    <name>sofia bin hazrul</name>
+    <jawi></jawi>
+    <death>2012-09-22</death>
+    <deathm>1433-11-06</deathm>
+    <item>2' Tarazo(L)</item>
   </order>
 </nisan>
