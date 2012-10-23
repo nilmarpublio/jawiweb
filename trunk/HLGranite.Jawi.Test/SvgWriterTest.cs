@@ -14,7 +14,7 @@ namespace HLGranite.Jawi.Test
         }
 
         /// <summary>
-        /// TODO: A test for WriteGlyph.
+        /// A test for WriteGlyph.
         /// </summary>
         [Test]
         public void WriteGlyphTest()
