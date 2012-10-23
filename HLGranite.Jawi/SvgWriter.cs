@@ -44,18 +44,18 @@ namespace HLGranite.Jawi
                "رجب","شعبان","رمضان","شوال","ذوالقعده","ذوالحجه"
         };
         private Point[] monthCoordinates = new Point[12]{
-            new Point(263.04117,411.14032),
-            new Point(269.04117,401.14032),
-            new Point(253.04117,405.14032),
-            new Point(231.04117,401.14032),
-            new Point(245.04117,405.14032),
-            new Point(231.04117,401.14032),
-            new Point(267.04117,419.14032),
-            new Point(263.04117,403.14032),
-            new Point(267.04117,415.14032),
-            new Point(271.04117,409.14032),
-            new Point(251.04117,401.14032),
-            new Point(255.04117,409.14032),
+            new Point(173.04117,351.14032),
+            new Point(179.04117,341.14032),
+            new Point(163.04117,345.14032),
+            new Point(141.04117,341.14032),
+            new Point(155.04117,345.14032),
+            new Point(141.04117,341.14032),
+            new Point(177.04117,359.14032),
+            new Point(173.04117,343.14032),
+            new Point(177.04117,355.14032),
+            new Point(181.04117,349.14032),
+            new Point(161.04117,341.14032),
+            new Point(165.04117,349.14032),
         };
         /// <summary>
         /// Determine tolerance for relative coordinate if it is a different set template of default.
@@ -75,6 +75,32 @@ namespace HLGranite.Jawi
         private Panel workspace;
         private bool fileExist;
         #endregion
+        
+         /// <summary>
+        /// Writing mode.
+        /// </summary>
+        enum Action
+        {
+            None,
+            IsWritingName,
+            IsWritingJawi,
+            IsWritingDeath,
+            IsWritingMuslimDeath,
+            /// <summary>
+            /// Lookup correct arabic character then.
+            /// </summary>
+            IsWritingMuslimMonth,
+            /// <summary>
+            /// Determine muslim month lookup a template svg template file.
+            /// </summary>
+            IsWritingMuslimMonthGlyph,
+            IsWritingBorn,
+            /// <summary>
+            /// Temporarily stop writing until svg read to valid line.
+            /// </summary>
+            StopWriting,
+            IsWritingAge,
+        }
 
         /// <summary>
         /// Recommended constructor.
@@ -99,16 +125,24 @@ namespace HLGranite.Jawi
              * If maintain age as well use 'nisan_L3.svg'.
              */
             string file = string.Empty;
+            if(!string.IsNullOrEmpty(order.death))
+              	file = templatePath.Replace(".svg", "0.svg");
+            else if(!string.IsNullOrEmpty(order.age) && !string.IsNullOrEmpty(order.born))
+            {
+               	//tolerance for born template
+                file = templatePath.Replace(".svg", "4.svg");
+                this.tolerance = new Point(0, -20.00);
+            }
             if (!string.IsNullOrEmpty(order.age))
             {
+            	//tolerance for age template
                 file = templatePath.Replace(".svg", "3.svg");
-                //tolerance for age template
                 this.tolerance = new Point(0, -4.00);
             }
             else if (!string.IsNullOrEmpty(order.born))
             {
+            	//tolerance for born template
                 file = templatePath.Replace(".svg", "2.svg");
-                //tolerance for born template
                 this.tolerance = new Point(0, -20.00);
             }
             else
@@ -136,8 +170,6 @@ namespace HLGranite.Jawi
         /// <param name="workspace"></param>
         public SvgWriter(string fileName, Panel workspace)
         {
-            //this.sourceFile = fileName;
-            //if (File.Exists(this.sourceFile)) fileExist = true;
             this.writer = new StreamWriter(fileName);
             this.workspace = workspace;
         }
@@ -309,10 +341,7 @@ namespace HLGranite.Jawi
                     newLine += value;
                     int end = line.IndexOf('<');
                     if (end > -1)
-                    {
-                        //string original = line.Substring(start + 1, end - start - 1);
-                        newLine += line.Substring(end, line.Length - end);
-                    }
+                    	newLine += line.Substring(end, line.Length - end);
 
                     writer.WriteLine(newLine);
                 }
@@ -398,7 +427,6 @@ namespace HLGranite.Jawi
             if (order.age == null) return;
             WriteElement(order.age, line);
         }
-
         private void WaitToWriteMuslimMonthGlyph(string line)
         {
             IEnumerable<XElement> path = null;
@@ -459,6 +487,7 @@ namespace HLGranite.Jawi
             else
                 WriteElement(string.Empty, line);
         }
+        
         private void CheckEndTag(string source, out string output)
         {
             output = string.Empty;
@@ -556,14 +585,15 @@ namespace HLGranite.Jawi
 
             try
             {
-                writer.WriteLine("<?xml version=\"1.0\"?>");
-                writer.WriteLine("<svg>");
+                //writer.WriteLine("<?xml version=\"1.0\"?>");
+                //writer.WriteLine("<svg>");                
+                writer.WriteLine("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>");
+                writer.WriteLine("<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">");
+                writer.WriteLine("<svg viewBox=\"0 0 600 600\" version=\"1.1\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">");
                 foreach (UIElement child in this.workspace.Children)
                 {
                     if (child is System.Windows.Shapes.Path)
-                    {
                         writer.WriteLine(ConvertToSvgPathSyntax(child as System.Windows.Shapes.Path));
-                    }
                 }
 
                 writer.WriteLine("</svg>");
@@ -634,7 +664,7 @@ namespace HLGranite.Jawi
 
                 bool start = false;
                 append += "<g id=\"jawi\"" + "\n";
-                append += string.Format("\ttransform=\"translate({0},{1})\">", 112.5, 176);//with size 4.5 x 1.25in align center of frame
+                append += string.Format("\ttransform=\"translate({0},{1})\">", -60, 132);//align center of frame
                 TextReader targetReader = new StreamReader(targetFile);
                 while (!string.IsNullOrEmpty(line = targetReader.ReadLine()))
                 {
@@ -662,32 +692,6 @@ namespace HLGranite.Jawi
             finally { if (null != this.writer) this.writer.Close(); }
         }
         #endregion
-
-        /// <summary>
-        /// Writing mode.
-        /// </summary>
-        enum Action
-        {
-            None,
-            IsWritingName,
-            IsWritingJawi,
-            IsWritingDeath,
-            IsWritingMuslimDeath,
-            /// <summary>
-            /// Lookup correct arabic character then.
-            /// </summary>
-            IsWritingMuslimMonth,
-            /// <summary>
-            /// Determine muslim month lookup a template svg template file.
-            /// </summary>
-            IsWritingMuslimMonthGlyph,
-            IsWritingBorn,
-            /// <summary>
-            /// Temporarily stop writing until svg read to valid line.
-            /// </summary>
-            StopWriting,
-            IsWritingAge,
-        }
 
         #region Obsolete
         /// <summary>
