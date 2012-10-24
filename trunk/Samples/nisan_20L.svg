@@ -11,7 +11,7 @@
      style="fill:#ff0000;stroke:none" />
   <text
      id="name"
-     style="font-size:35.82610703px;text-align:center;stroke:#000000;stroke-width:1;font-family:Arial Black"
+     style="font-size:36px;text-align:center;stroke:#000000;font-family:Arial Black"
      x="23.2407"
      y="264.66602"
      transform="scale(0.96667356,1.0344754)">YAHYA BIN CHE MAT</text>
@@ -21,7 +21,7 @@
      style="fill:#ff0000;stroke:none" />
   <text
      id="deathmuslim"
-     style="font-size:48px;text-align:center;stroke:#000000;stroke-width:1;font-family:jawi"
+     style="font-size:48px;text-align:center;stroke:#000000;font-family:jawi"
      x="40.617294"
      y="381.97043"
      dx="0 7.074275 0 0 192.77707">143129</text>
@@ -39,11 +39,10 @@
      style="fill:none;stroke:none"
      d="M 79.990644,431.53654 C 138.27303,511.5817 250.53887,529.24426 330.58403,470.96188 C 410.62919,412.67949 428.29173,300.41365 370.00936,220.36848 C 311.72697,140.32332 199.46113,122.66077 119.41596,180.94315 C 39.370804,239.22553 21.708264,351.49137 79.990644,431.53654 z" />
   <text
-     style="font-size:48px;text-align:center;stroke:#000000;stroke-width:1;font-family:jawi"
-     id="text12">
+     style="font-size:48px;text-align:center;stroke:#000000;font-family:jawi">
     <textPath
+	   id="death"
        xlink:href="#circle"
-       id="death"
        dx="6.8696022 8.2435226 8.2435226 8.2435226 8.2435226 11.272625 11.272625 8.2435226 11.272625">14.4.2010</textPath>
   </text>
 </svg>
