@@ -10766,14 +10766,14 @@
     <item>PV</item>
 	<remarks>EM322881781MY</remarks>
   </order>
-  <order soldto="SEL" date="2012-10-01" delivered="" price="230">
+  <order soldto="SEL" date="2012-10-01" delivered="2012-10-21" price="230">
     <name>noramira bt jaafar</name>
     <jawi>نريميرا بنت جعفر</jawi>
     <death>2012-09-16</death>
     <deathm>1433-10-29</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEL" date="2012-10-01" delivered="" price="230">
+  <order soldto="SEL" date="2012-10-01" delivered="2012-10-21" price="230">
     <name>Awang bin Idris</name>
     <jawi>أواڠ بن ادريس</jawi>
     <death>2012-07-14</death>
@@ -11148,7 +11148,7 @@
     <age>89</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="KEN" date="2012-10-05" delivered="" price="230">
+  <order soldto="KEN" date="2012-10-05" delivered="2012-10-25" price="230">
     <name>Mat Kassim Bin Mat Desa</name>
     <jawi>مت قاسيم بن مت ديسا</jawi>
     <death>2012-09-23</death>
@@ -11295,15 +11295,15 @@
     <deathm>1433-11-06</deathm>
     <item>2' Tarazo(L)</item>
   </order>
-  <order soldto="ADI" date="2012-10-15" delivered="" price="400">
+  <order soldto="ADI" date="2012-10-15" delivered="2012-10-23" price="400">
     <name>Azizuddin bin ahmad hanaffi</name>
     <jawi>أزيزودين بن أحمد حنافي</jawi>
     <death>2012-05-17</death>
     <deathm>1433-06-26</deathm>
     <item>2' Batu Hijau(L)</item>
-    <remarks>pahat 2 batang</remarks>
+    <remarks>pahat 2 batang 0603 01 215 414 703</remarks>
   </order>
-  <order soldto="ADI" date="2012-10-17" delivered="" price="35">
+  <order soldto="ADI" date="2012-10-17" delivered="2012-10-30" price="35">
     <name>Badrus bin hj dollah satari</name>
     <jawi>بدروس بن حاج دوله ستري</jawi>
     <born>1918</born>
@@ -11311,7 +11311,7 @@
     <deathm>1417-05-28</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2012-10-17" delivered="" price="35">
+  <order soldto="ADI" date="2012-10-17" delivered="2012-10-30" price="35">
     <name>Zulkifli bin ahmad shah</name>
     <jawi>زوالكيفلي بن أحمد شه</jawi>
     <born>1957-07-23</born>
@@ -11319,14 +11319,14 @@
     <deathm></deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2012-10-17" delivered="" price="35">
+  <order soldto="ADI" date="2012-10-17" delivered="2012-10-30" price="35">
     <name>Hashim bin talip</name>
     <jawi>هاشم بن طالف</jawi>
     <death>2012-09-27</death>
     <deathm>1433-11-11</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2012-10-17" delivered="" price="35">
+  <order soldto="ADI" date="2012-10-17" delivered="2012-10-30" price="35">
     <name>Pardi bin hj sadali@Ghazali</name>
     <jawi>فردي بن حاج سيدعلي/غزالي</jawi>
     <born>1944-02-14</born>
@@ -11335,21 +11335,21 @@
     <item>PV Egg</item>
     <remarks>7:10am</remarks>
   </order>
-  <order soldto="ADI" date="2012-10-17" delivered="" price="35">
+  <order soldto="ADI" date="2012-10-17" delivered="2012-10-30" price="35">
     <name>Rajamah bt mat wali</name>
     <jawi>رجمه بنت مت والي</jawi>
     <death>2011-03-29</death>
     <deathm>1432-04-24</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2012-10-17" delivered="" price="35">
+  <order soldto="ADI" date="2012-10-17" delivered="2012-10-30" price="35">
     <name>Zainabon bt che nan</name>
     <jawi>زينبون بنت چئ نن</jawi>
     <death>2008-06-24</death>
     <deathm>1429-06-20</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2012-10-17" delivered="" price="35">
+  <order soldto="ADI" date="2012-10-17" delivered="2012-10-30" price="35">
     <name>Shahbanon bt itam jaapar</name>
     <jawi>شاهبانون بنت اتم جعفر</jawi>
     <death>2012-04-24</death>
@@ -11391,7 +11391,7 @@
     <deathm></deathm>
     <item>3'x6' Rehal Batik</item>
   </order>
-  <order soldto="PAS" date="2012-10-22" delivered="" price="260">
+  <order soldto="PAS" date="2012-10-22" delivered="2012-10-26" price="260">
     <name>Bidah bt mat</name>
     <jawi>بيده بنت مت</jawi>
   	<born>1929</born>
@@ -11399,5 +11399,14 @@
     <deathm>1432-10-02</deathm>
   	<age>83</age>
     <item>2' Batu Batik(P)</item>
+	<remarks>0603 01 414 215 701</remarks>
+  </order>
+  <order soldto="ADI" date="2012-10-25" delivered="" price="300">
+    <name>Abu jamil bin yahya</name>
+    <jawi>أبو جميل بن يحيى</jawi>
+    <death>2012-07-05</death>
+    <deathm>1433-08-15</deathm>
+    <item>2' Batu Batik(L)</item>
+	<remarks>pahat 2 batang</remarks>
   </order>
 </nisan>
