@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Windows.Controls;
 
 namespace JawiEntry
 {
@@ -27,6 +28,7 @@ namespace JawiEntry
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             Soldto.Focus();
+            Order.SelectedDate = DateTime.Now;
         }
     }
 }
