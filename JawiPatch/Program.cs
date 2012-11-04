@@ -38,7 +38,7 @@ namespace JawiPatch
        */
       
       //20121104
-      SvgRepair repair = new SvgRepair(@"G:\works\Output");
+      SvgRepair repair = new SvgRepair();//@"G:\works\Output");
       repair.Patch();
       
       Console.Read();
