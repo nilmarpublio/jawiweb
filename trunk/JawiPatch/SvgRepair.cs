@@ -27,16 +27,17 @@ namespace JawiPatch
     public string PatchLine(string original)
     {
       string output = original;
+      output = original.Replace("connector-curvature=\"0\"","");
       
       string cell = "a-zA-Z0-9%-.";
-      Match match = Regex.Match(original,"inkscape:[a-zA-Z0-9%-.]+=\"[a-zA-Z0-9%-.]+\"");
+      Match match = Regex.Match(original, string.Format("inkscape:[{0}]+=\"[{0}]+\"",cell));
       if(match.Success)
       {
         string toReplace = match.Groups[0].Value;
         output = original.Replace(toReplace,"");
       }
       
-      match = Regex.Match(original,"sodipodi:[a-zA-Z0-9%-.]+=\"[a-zA-Z0-9%-.]+\"");
+      match = Regex.Match(original,string.Format("sodipodi:[{0}]+=\"[{0}]+\"",cell));
       if(match.Success)
       {
         string toReplace = match.Groups[0].Value;
@@ -69,24 +70,30 @@ namespace JawiPatch
         System.Diagnostics.Debug.WriteLine(fileInfo.Name);
         Console.WriteLine(fileInfo.Name);
         
-        string newFileName = @"D:\Output\"+fileInfo.Name;//TODO: change destination directory
+        string newFileName = @"D:\Output2\"+fileInfo.Name;//TODO: change destination directory
         FileInfo newFileInfo = fileInfo.CopyTo(newFileName,true);
         TextWriter writer = newFileInfo.CreateText();        
         writer.WriteLine("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>");
         writer.WriteLine("<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">");
-        writer.WriteLine("<svg viewBox = \"0 0 600 600\" version = \"1.1\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">");
+        writer.WriteLine("<svg viewBox = \"0 0 600 600\" version = \"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">");
         
         StreamReader reader = new StreamReader(fileInfo.FullName);
         bool startClone = false;
+        bool containsSodipodi = false;
         string line = string.Empty;
         while((line = reader.ReadLine()) != null)
         {
-          if(line.Contains("path")) startClone = true;
-          if(line.Contains("<svg>")) startClone = true;
-          if(line.Contains("<g")) startClone = true;
-          
+          //if(line.Contains("sodipodi")) containsSodipodi = true;          
+          if(line.Contains("path")) startClone = true;//&& containsSodipodi== true
+          if(line.Contains("<g")) startClone = true;          
           if(startClone)
-            writer.WriteLine(PatchLine(line));
+          {
+            string newLine = PatchLine(line);
+            if(newLine.Length>0) writer.WriteLine(newLine);
+          }
+          
+          //only start clone after next line
+          if(line.Contains("<svg>")) startClone = true;
         }
         reader.Close();        
         writer.Flush();
