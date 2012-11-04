@@ -97,7 +97,7 @@ namespace JawiPatch
           if(startClone)
           {
             string newLine = PatchLine(line);
-            if(newLine.Length>0) writer.WriteLine(newLine);
+            if(newLine.Trim().Length>0) writer.WriteLine(newLine);
           }
           
           //only start clone after next line
