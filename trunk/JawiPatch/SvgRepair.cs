@@ -15,11 +15,15 @@ using System.Text.RegularExpressions;
 namespace JawiPatch
 {
   /// <summary>
-  /// TODO: Repair svg file to basic format it can be preview under explorer.
+  /// Repair svg file to basic format it can be preview under explorer.
   /// </summary>
   public class SvgRepair
   {
     private string directory;
+    public SvgRepair()
+    {
+      this.directory = AppDomain.CurrentDomain.BaseDirectory;
+    }
     public SvgRepair(string directory)
     {
       this.directory = directory;
@@ -70,21 +74,25 @@ namespace JawiPatch
         System.Diagnostics.Debug.WriteLine(fileInfo.Name);
         Console.WriteLine(fileInfo.Name);
         
-        string newFileName = @"D:\Output2\"+fileInfo.Name;//TODO: change destination directory
-        FileInfo newFileInfo = fileInfo.CopyTo(newFileName,true);
-        TextWriter writer = newFileInfo.CreateText();        
+        //store file content into memory
+        DateTime[] dates = new DateTime[] { fileInfo.CreationTime, fileInfo.LastAccessTime, fileInfo.LastWriteTime};
+        StreamReader reader = new StreamReader(fileInfo.FullName);
+        string content = reader.ReadToEnd();
+        reader.Close();        
+        
+        //string newFileName = @"D:\Output\"+fileInfo.Name;//TODO: change destination directory
+        //FileInfo newFileInfo = fileInfo.CopyTo(newFileName,true);
+        TextWriter writer = fileInfo.CreateText();
         writer.WriteLine("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>");
         writer.WriteLine("<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">");
-        writer.WriteLine("<svg viewBox = \"0 0 600 600\" version = \"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">");
+        writer.WriteLine("<svg viewBox=\"0 0 600 600\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">");
         
-        StreamReader reader = new StreamReader(fileInfo.FullName);
         bool startClone = false;
-        bool containsSodipodi = false;
-        string line = string.Empty;
-        while((line = reader.ReadLine()) != null)
+        string[] lines = content.Split(new char[]{'\n'});
+        //while((line = reader.ReadLine()) != null)
+        foreach(string line in lines)
         {
-          //if(line.Contains("sodipodi")) containsSodipodi = true;          
-          if(line.Contains("path")) startClone = true;//&& containsSodipodi== true
+          if(line.Contains("path")) startClone = true;
           if(line.Contains("<g")) startClone = true;          
           if(startClone)
           {
@@ -95,14 +103,13 @@ namespace JawiPatch
           //only start clone after next line
           if(line.Contains("<svg>")) startClone = true;
         }
-        reader.Close();        
         writer.Flush();
         writer.Close();
         
-        newFileInfo.Attributes = fileInfo.Attributes;
-        newFileInfo.CreationTime = fileInfo.CreationTime;
-        newFileInfo.LastAccessTime = fileInfo.LastAccessTime;
-        newFileInfo.LastWriteTime = fileInfo.LastWriteTime;
+        //fileInfo.Attributes = tempInfo.Attributes;
+        fileInfo.CreationTime = dates[0];
+        fileInfo.LastAccessTime = dates[1];
+        fileInfo.LastWriteTime = dates[2];
       }//end loops      
       
       //set the last access file as the latest patch date
@@ -113,6 +120,7 @@ namespace JawiPatch
       appSection.Settings.Remove("LastSvgPatch");
       appSection.Settings.Add("LastSvgPatch",lastPatch.ToString());//TODO: convert to UTC time ToUniversalTime()
       config.Save(ConfigurationSaveMode.Modified);
+      Console.WriteLine("done");
     }
   }
 }
