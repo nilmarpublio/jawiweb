@@ -43,6 +43,7 @@ namespace HLGranite.Jawi
                "محرّم","صفر","ربيع الاول","ربيع الاخير","جمادالاول","جمادالاخير",
                "رجب","شعبان","رمضان","شوال","ذوالقعده","ذوالحجه"
         };
+        //TODO: relocate month glym position
         private Point[] monthCoordinates = new Point[12]{
             new Point(173.04117,351.14032),
             new Point(179.04117,341.14032),
