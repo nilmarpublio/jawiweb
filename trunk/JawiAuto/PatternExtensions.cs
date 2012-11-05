@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Automation;
 
-namespace Fs2Svg
+namespace JawiAuto
 {
 	public static class PatternExtensions
 	{

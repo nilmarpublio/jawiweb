@@ -13,7 +13,7 @@ using System.Windows;
 using System.Windows.Automation;
 using System.Windows.Forms;
 
-namespace Fs2Svg
+namespace JawiAuto
 {
 	public enum InkscapeMenu
 	{
