@@ -15,7 +15,7 @@ using System.IO;
 using NUnit;
 using NUnit.Framework;
 
-namespace Fs2Svg
+namespace JawiAuto
 {
   /// <summary>
   /// Description of FlexisignTests.

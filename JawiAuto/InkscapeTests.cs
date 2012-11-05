@@ -14,7 +14,7 @@ using System.Threading;
 using NUnit;
 using NUnit.Framework;
 
-namespace Fs2Svg
+namespace JawiAuto
 {
 	/// <summary>
 	/// Description of MyClass.
@@ -63,6 +63,16 @@ namespace Fs2Svg
 		{
 			Inkscape target = new Inkscape();
 			target.SaveAsFile(@"G:\works\words\talib.hpgl");
+		}
+		
+		
+		/// <summary>
+		/// TODO: Automate UniConvertor export the svg file to plt.
+		/// </summary>
+		[Test]
+		public void ExportToPLTTest()
+		{
+			
 		}
 	}
 }
