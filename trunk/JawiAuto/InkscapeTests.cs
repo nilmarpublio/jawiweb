@@ -56,7 +56,8 @@ namespace JawiAuto
 		public void OpenFileTest()
 		{
 			Inkscape target = new Inkscape();
-			target.OpenFile(@"G:\works\words\talib.svg");//.ToUpper());
+			//target.OpenFile(@"G:\works\words\talib.svg");//.ToUpper());
+			target.OpenFile(@"G:\works\Output\mat saad bin jusoh.svg");
 		}
 		[Test]
 		public void SaveAsFileTest()
@@ -65,14 +66,36 @@ namespace JawiAuto
 			target.SaveAsFile(@"G:\works\words\talib.hpgl");
 		}
 		
-		
+		[Test]
+		public void BreakApartTest()
+		{
+			Inkscape target = new Inkscape();
+			target.OpenFile(@"G:\works\Output\abu bakar bin mohd hassan.svg");//mat saad bin jusoh.svg");
+			target.BreakApart(@"D:\Export\abu bakar bin mohd hassan.svg");//mat saad bin jusoh.svg");
+			target.Dispose();
+		}
+		[Test]
+		public void SaveAsPLTTest()
+		{
+			string source = @"D:\Export\mat saad bin jusoh.svg";
+			Inkscape target = new Inkscape();
+			target.SaveAsPLT(source,source.Replace(".svg",".plt"));
+			target.Dispose();
+		}
 		/// <summary>
 		/// TODO: Automate UniConvertor export the svg file to plt.
 		/// </summary>
 		[Test]
 		public void ExportToPLTTest()
 		{
+			string from = @"G:\works\Output\mat saad bin jusoh.svg.svg";
+			string to = @"D:\Export\mat saad bin jusoh.svg.svg";
 			
+			Inkscape target = new Inkscape();
+			target.OpenFile(from);
+			target.BreakApart(to);
+			target.SaveAsPLT(to,to.Replace(".svg",".plt"));
+			target.Dispose();
 		}
 	}
 }
