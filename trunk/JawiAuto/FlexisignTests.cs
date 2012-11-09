@@ -38,16 +38,25 @@ namespace JawiAuto
     public void OpenFileTest()
     {
       Flexisign target = new Flexisign();
+      target.OpenFile(@"D:\JawiName\abas bin din.FS");
+      //target.CloseFile();
+      //Thread.Sleep(2000);
+    }
+    [Test]
+    public void AutomateExport()
+    {
+      Flexisign target = new Flexisign();
       DirectoryInfo directoryInfo = new DirectoryInfo(@"D:\JawiName");
       int counter = 0;
       foreach(FileInfo fileInfo in directoryInfo.GetFiles())
-      {      
-        ++counter;        
-        if(counter == 5) break;
+      {
+        counter++;
+        if(!fileInfo.Extension.ToLower().Contains("fs")) continue;
         
         target.OpenFile(fileInfo.FullName);
         target.CloseFile();
-      }      
+        Thread.Sleep(2000);
+      }
     }
     [Test]
     public void ExitTest()
