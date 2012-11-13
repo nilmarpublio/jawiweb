@@ -43,6 +43,14 @@ namespace JawiAuto
       //Thread.Sleep(2000);
     }
     [Test]
+    public void ExitTest()
+    {
+      Flexisign target = new Flexisign();
+      target.Exit();
+    }
+    
+    
+    [Test]
     public void AutomateExport()
     {
       Flexisign target = new Flexisign();
@@ -53,16 +61,12 @@ namespace JawiAuto
         counter++;
         if(!fileInfo.Extension.ToLower().Contains("fs")) continue;
         
+        System.Diagnostics.Debug.WriteLine("opening "+fileInfo.FullName+"...");
         target.OpenFile(fileInfo.FullName);
+        //target.ExportPLT(fileInfo.Name);
         target.CloseFile();
         Thread.Sleep(2000);
       }
-    }
-    [Test]
-    public void ExitTest()
-    {
-      Flexisign target = new Flexisign();
-      target.Exit();
     }
   }
 }

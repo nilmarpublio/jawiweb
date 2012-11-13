@@ -40,7 +40,7 @@ namespace JawiAuto
         window = AutomationElement.RootElement.FindChildByProcessId(process.Id);
       }
       while(window == null);
-      System.Diagnostics.Debug.WriteLine("Found the first child by process id: "+process.ProcessName);
+      //System.Diagnostics.Debug.WriteLine("Found the first child by process id: "+process.ProcessName);
     }
     public void Dispose()
     {
@@ -55,7 +55,7 @@ namespace JawiAuto
     /// <seealso cref="http://social.msdn.microsoft.com/Forums/en-US/windowsaccessibilityandautomation/thread/061f9ef1-2e34-4176-b3f2-530ef3468047">UIAutomation: Missing MenuBar Items</seealso>
     public void OpenFile(string fileName)
     {
-      System.Diagnostics.Debug.WriteLine("opening "+fileName+"...");
+      //System.Diagnostics.Debug.WriteLine("opening "+fileName+"...");
       //OpenMenu(FlexisignMenu.File);
       
       //looking file at menu bar in application
@@ -66,7 +66,7 @@ namespace JawiAuto
       AutomationElement fileMenu = menuBar.FindFirst(TreeScope.Descendants,nameCondition);
       if(fileMenu == null)
       {
-        System.Diagnostics.Debug.WriteLine("file menu not found");
+        //System.Diagnostics.Debug.WriteLine("file menu not found");
         return;
       }
       
@@ -77,7 +77,7 @@ namespace JawiAuto
       AutomationElement openMenuItem = fileMenu.FindFirst(TreeScope.Descendants, idCondition);
       if(fileMenu == null)
       {
-        System.Diagnostics.Debug.WriteLine("open menu not found");
+        //System.Diagnostics.Debug.WriteLine("open menu not found");
         return;
       }
       
@@ -96,12 +96,12 @@ namespace JawiAuto
           break;
       }
       
-      //export to PLT
+      #region export to PLT
       nameCondition = new PropertyCondition(AutomationElement.NameProperty,"File");
       fileMenu = menuBar.FindFirst(TreeScope.Descendants,nameCondition);
       if(fileMenu == null)
       {
-        System.Diagnostics.Debug.WriteLine("file menu not found");
+        //System.Diagnostics.Debug.WriteLine("file menu not found");
         return;
       }
       
@@ -113,7 +113,7 @@ namespace JawiAuto
       AutomationElement menuItem = fileMenu.FindFirst(TreeScope.Descendants, idCondition);
       if(menuItem == null)
       {
-        System.Diagnostics.Debug.WriteLine(id+" not found");
+        //System.Diagnostics.Debug.WriteLine(id+" not found");
         return;
       }
       
@@ -127,24 +127,24 @@ namespace JawiAuto
       AutomationElement dialog = window.FindFirst(TreeScope.Children, nameCondition);
       if(dialog == null)
       {
-        System.Diagnostics.Debug.WriteLine(dialogName+" dialog not found");
+        //System.Diagnostics.Debug.WriteLine(dialogName+" dialog not found");
         return;
       }
       
-      System.Diagnostics.Debug.WriteLine("launching "+dialogName+" Dialog...");
+      //System.Diagnostics.Debug.WriteLine("launching "+dialogName+" Dialog...");
       Thread.Sleep(1000);
       
       //select export type as HPGL (*.PLT)"
-      idCondition = new PropertyCondition(AutomationElement.AutomationIdProperty, "1136");
-      AutomationElement exportComboBox = dialog.FindFirst(TreeScope.Children,idCondition);
-      if(exportComboBox == null)
-      {
-        System.Diagnostics.Debug.WriteLine("export combobox not found");
-        return;
-      }
-      
-      System.Diagnostics.Debug.WriteLine("found export combobox");
-      SetSelectedComboBoxItem(exportComboBox,"HPGL (*.PLT)");     
+//      idCondition = new PropertyCondition(AutomationElement.AutomationIdProperty, "1136");
+//      AutomationElement exportComboBox = dialog.FindFirst(TreeScope.Children,idCondition);
+//      if(exportComboBox == null)
+//      {
+//        System.Diagnostics.Debug.WriteLine("export combobox not found");
+//        return;
+//      }
+//      
+//      System.Diagnostics.Debug.WriteLine("found export combobox");
+//      SetSelectedComboBoxItem(exportComboBox,"HPGL (*.PLT)");     
       
       //press first button
       PropertyCondition typeCondition = new PropertyCondition(AutomationElement.ControlTypeProperty, ControlType.Button);
@@ -154,15 +154,16 @@ namespace JawiAuto
         InvokePattern button = e.GetCurrentPattern(InvokePattern.Pattern) as InvokePattern;
         if(button == null)
         {
-          System.Diagnostics.Debug.WriteLine("not a valid button press");
+          //System.Diagnostics.Debug.WriteLine("not a valid button press");
           return;
         }
 
-        System.Diagnostics.Debug.WriteLine("Click on button "+e.Current.AutomationId);
+        //System.Diagnostics.Debug.WriteLine("Click on button "+e.Current.AutomationId);
         button.Invoke();
         Thread.Sleep(1000);
         break;
       }
+      #endregion
     }
     public static void SetSelectedComboBoxItem(AutomationElement comboBox, string item)
     {
@@ -192,38 +193,38 @@ namespace JawiAuto
     }
     public void CloseFile()
     {
-      System.Diagnostics.Debug.WriteLine("closing file...");
+      //System.Diagnostics.Debug.WriteLine("closing file...");
       PropertyCondition idCondition = new PropertyCondition(AutomationElement.AutomationIdProperty, "MenuBar");
       AutomationElement menuBar = window.FindFirst(TreeScope.Children,idCondition);
       
       PropertyCondition nameCondition = new PropertyCondition(AutomationElement.NameProperty,"File");
       AutomationElement fileMenu = menuBar.FindFirst(TreeScope.Descendants,nameCondition);
-      if(fileMenu == null) System.Diagnostics.Debug.WriteLine("file menu not found");
+      //if(fileMenu == null) System.Diagnostics.Debug.WriteLine("file menu not found");
       ExpandCollapsePattern fileECPat = fileMenu.GetCurrentPattern(ExpandCollapsePattern.Pattern) as ExpandCollapsePattern;
       fileECPat.Expand();
       
       idCondition = new PropertyCondition(AutomationElement.AutomationIdProperty, "Item 57602");
       AutomationElement menuItem = fileMenu.FindFirst(TreeScope.Descendants, idCondition);
-      if(menuItem == null) System.Diagnostics.Debug.WriteLine("close file menu not found");
+      //if(menuItem == null) System.Diagnostics.Debug.WriteLine("close file menu not found");
       InvokePattern menuClick = menuItem.GetCurrentPattern(InvokePattern.Pattern) as InvokePattern;
       menuClick.Invoke();
     }
     public void Exit()
     {
-      System.Diagnostics.Debug.WriteLine("closing...");
+      //System.Diagnostics.Debug.WriteLine("closing...");
       PropertyCondition idCondition = new PropertyCondition(AutomationElement.AutomationIdProperty, "MenuBar");
       AutomationElement menuBar = window.FindFirst(TreeScope.Children,idCondition);
       
       PropertyCondition nameCondition = new PropertyCondition(AutomationElement.NameProperty,"File");
       AutomationElement fileMenu = menuBar.FindFirst(TreeScope.Descendants,nameCondition);
-      if(fileMenu == null) System.Diagnostics.Debug.WriteLine("file menu not found");
+      //if(fileMenu == null) System.Diagnostics.Debug.WriteLine("file menu not found");
       ExpandCollapsePattern fileECPat = fileMenu.GetCurrentPattern(ExpandCollapsePattern.Pattern) as ExpandCollapsePattern;
       fileECPat.Expand();
       Thread.Sleep(100);
       
       idCondition = new PropertyCondition(AutomationElement.AutomationIdProperty, "Item 57665");
       AutomationElement closeMenuItem = fileMenu.FindFirst(TreeScope.Descendants, idCondition);
-      if(fileMenu == null) System.Diagnostics.Debug.WriteLine("close menu not found");
+      //if(fileMenu == null) System.Diagnostics.Debug.WriteLine("close menu not found");
       InvokePattern closeInvPat = closeMenuItem.GetCurrentPattern(InvokePattern.Pattern) as InvokePattern;
       closeInvPat.Invoke();
     }
