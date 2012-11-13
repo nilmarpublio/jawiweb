@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
+using System.IO;
 
 using NUnit;
 using NUnit.Framework;
@@ -77,7 +78,7 @@ namespace JawiAuto
 		[Test]
 		public void SaveAsPLTTest()
 		{
-			string source = @"D:\Export\mat saad bin jusoh.svg";
+			string source = @"D:\JawiExport\abd karim bin ishak.svg";
 			Inkscape target = new Inkscape();
 			target.SaveAsPLT(source,source.Replace(".svg",".plt"));
 			target.Dispose();
@@ -96,6 +97,29 @@ namespace JawiAuto
 			target.BreakApart(to);
 			target.SaveAsPLT(to,to.Replace(".svg",".plt"));
 			target.Dispose();
+		}
+		
+		
+    [Test]
+		public void SaveAsSvgTest()
+		{
+			string source = @"D:\JawiExport\abd karim bin ishak.plt";
+			Inkscape.SaveAsSvg(source);			
+			//TODO: make svg file able to preview under Windoe Explorer directly.
+		}
+		[Test]
+		public void BatchSaveAsSvgTest()
+		{
+		  DirectoryInfo directoryInfo = new DirectoryInfo(@"D:\JawiExport");
+      int counter = 0;
+      foreach(FileInfo fileInfo in directoryInfo.GetFiles())
+      {
+        counter++;
+        if(!fileInfo.Extension.ToLower().Equals(".plt")) continue;
+        Inkscape.SaveAsSvg(fileInfo.FullName);
+        
+        if(counter == 5) break;
+      }
 		}
 	}
 }

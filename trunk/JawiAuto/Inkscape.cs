@@ -9,6 +9,8 @@
 using System;
 using System.Diagnostics;
 using System.Threading;
+using System.IO;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Automation;
 using System.Windows.Forms;
@@ -161,6 +163,46 @@ namespace JawiAuto
 			console.FileName = program;// "cmd";
 			console.Arguments = command;
 			Process.Start(console);
+		}
+		/// <summary>
+		/// Convert PLT to svg file format and make it able to preview under explorer.
+		/// </summary>
+		/// <param name="source"></param>
+		public static void SaveAsSvg(string source)
+		{			
+			string program = @"C:\Program Files\sK1 Project\UniConvertor-1.1.5\uniconvertor.cmd";
+			string target = source.Replace(".plt",".svg");
+			string command = string.Format("\"{0}\" \"{1}\" \"{2}\"",program,source,target);
+			System.Diagnostics.Debug.WriteLine(command);
+			
+			ProcessStartInfo console = new ProcessStartInfo();
+			console.FileName = program;
+			console.Arguments = command;
+			Process.Start(console);
+			System.Threading.Thread.Sleep(5000);
+			
+			//patch to previewable
+			StreamReader reader = new StreamReader(target);
+			string line = string.Empty;
+			List<string> lines = new List<string>();
+			int i = 0;
+			while( (line = reader.ReadLine()) != null)
+			{
+			  if(i>4) lines.Add(line.Replace(
+			    "style=\"stroke:#000000; stroke-dasharray:; stroke-width:0.85; stroke-linejoin:round; stroke-linecap:round; fill:none\"",
+			    "style=\"stroke:none; fill:#000000\""));
+			  i++;
+			}
+			reader.Close();
+			
+			TextWriter writer = new StreamWriter(target);
+			writer.WriteLine("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>");
+			writer.WriteLine("<!-- Created with sK1/UniConvertor (http://sk1project.org/) -->");
+			writer.WriteLine("<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">");
+			foreach(string l in lines)
+			  writer.WriteLine(l);
+			writer.Flush();
+			writer.Close();
 		}
 		/// <summary>
 		/// FAIL

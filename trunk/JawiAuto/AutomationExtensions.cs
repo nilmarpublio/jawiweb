@@ -172,11 +172,11 @@ namespace JawiAuto
       AutomationElement dialog = root.FindFirst(TreeScope.Children, nameCondition);
       if(dialog == null)
       {
-        System.Diagnostics.Debug.WriteLine(dialogName+" dialog not found");
+        //System.Diagnostics.Debug.WriteLine(dialogName+" dialog not found");
         return false;
       }
-      else
-        System.Diagnostics.Debug.WriteLine("launching "+dialogName+" Dialog...");
+      //else
+        //System.Diagnostics.Debug.WriteLine("launching "+dialogName+" Dialog...");
       Thread.Sleep(1000);
       
       //set file name in textbox
@@ -197,12 +197,12 @@ namespace JawiAuto
         InvokePattern button = e.GetCurrentPattern(InvokePattern.Pattern) as InvokePattern;
         if(button == null)
         {
-          System.Diagnostics.Debug.WriteLine("not a valid button press");
+          //System.Diagnostics.Debug.WriteLine("not a valid button press");
           return false;
         }
         else
         {
-          System.Diagnostics.Debug.WriteLine("Click on button "+e.Current.AutomationId);
+          //System.Diagnostics.Debug.WriteLine("Click on button "+e.Current.AutomationId);
           button.Invoke();
           Thread.Sleep(1000);
           return true;
