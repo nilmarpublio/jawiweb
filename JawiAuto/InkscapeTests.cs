@@ -116,9 +116,8 @@ namespace JawiAuto
       {
         counter++;
         if(!fileInfo.Extension.ToLower().Equals(".plt")) continue;
-        Inkscape.SaveAsSvg(fileInfo.FullName);
-        
-        if(counter == 5) break;
+        Inkscape.SaveAsSvg(fileInfo.FullName);        
+        //if(counter == 5) break;
       }
 		}
 	}
