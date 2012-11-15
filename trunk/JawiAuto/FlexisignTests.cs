@@ -86,8 +86,8 @@ namespace JawiAuto
     [Test]
     public void CheckDiff()
     {
-      DirectoryInfo directoryInfo1 = new DirectoryInfo(@"D:\JawiDone");
-      DirectoryInfo directoryInfo2 = new DirectoryInfo(@"D:\JawiExport");
+      DirectoryInfo directoryInfo1 = new DirectoryInfo(@"D:\JawiExport");
+      DirectoryInfo directoryInfo2 = new DirectoryInfo(@"D:\JawiSvg");
       
       List<string> files1 = new List<string>();
       List<string> files2 = new List<string>();
@@ -111,22 +111,38 @@ namespace JawiAuto
       int j = files2.Count-1;
       for(int i=files1.Count-1;i>=0;i--)
       {
-        if(files1[i].CompareTo(files2[j]) > 0)
+        if(j>-1)
         {
-          diffFiles.Add(files1[i]);
-          files1.RemoveAt(i);
+          if(files1[i].CompareTo(files2[j]) > 0)
+          {
+            diffFiles.Add(files1[i]);
+            files1.RemoveAt(i);
+          }
+          else
+          {
+            j--;
+            
+            //if found different move to another folder
+            string source = @"D:\JawiExport\"+files1[i]+".plt";
+            string destination = @"D:\JawiPlt\"+files1[i]+".plt";
+            File.Move(source,destination);
+          }
         }
         else
         {
-          j--;
+          diffFiles.Add(files1[i]);
+          
+          //if found different move to another folder
+          string source = @"D:\JawiExport\"+files1[i]+".plt";
+          string destination = @"D:\JawiPlt\"+files1[i]+".plt";
+          File.Move(source,destination);
         }
       }
       
-      //TODO: if found different move to anther folder
-      System.Diagnostics.Debug.WriteLine("Diff files:");
+      //show different files
       foreach(string file in diffFiles)
       {
-        System.Diagnostics.Debug.WriteLine(file);        
+        System.Diagnostics.Debug.WriteLine(file);
         //string source = file+".FS";
         //string destination = source.Replace("JawiDone","JawiName");
         //File.Move(source,destination);
@@ -134,6 +150,7 @@ namespace JawiAuto
       
       
       int actual = diffFiles.Count;
+      System.Diagnostics.Debug.WriteLine("diff files: "+actual);
       Assert.AreEqual(expected,actual);
     }
     public class NameComparer: IComparer<string>
