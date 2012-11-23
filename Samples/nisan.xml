@@ -11615,21 +11615,21 @@
   	<deathm>1433-03-16</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2012-11-13" delivered="" price="12">
+  <order soldto="HAM" date="2012-11-13" delivered="2012-11-20" price="12">
     <name>mohd zakaria bin hussein</name>
     <jawi>محمد زكريا بن حُسين</jawi>
     <death>1993-07-13</death>
     <deathm>1414-01-23</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-11-13" delivered="" price="12">
+  <order soldto="HAM" date="2012-11-13" delivered="2012-11-22" price="12">
     <name>mohd arief zikrie bin zulkefle</name>
     <jawi>محمد عريف زكري بن زوالكيفلي</jawi>
     <death>2012-11-06</death>
     <deathm>1433-12-21</deathm>
     <item>1½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-11-13" delivered="" price="12">
+  <order soldto="HAM" date="2012-11-13" delivered="2012-11-20" price="12">
     <name>adam bin muhd azuddin</name>
     <jawi>ادام بن محمد ازو الدين</jawi>
     <death>2012-09-01</death>
@@ -11638,7 +11638,7 @@
     <item>1½' Sticker(L)</item>
     <remarks>1 bulan</remarks>
   </order>
-  <order soldto="HAM" date="2012-11-13" delivered="" price="12">
+  <order soldto="HAM" date="2012-11-13" delivered="2012-11-20" price="12">
     <name>hj ahmad bin hj md din</name>
     <jawi>حاج أحمد بن حاج مد دين</jawi>
     <death>2012-10-30</death>
@@ -11646,7 +11646,7 @@
     <age>84</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-11-13" delivered="" price="12">
+  <order soldto="HAM" date="2012-11-13" delivered="2012-11-20" price="12">
     <name>hj mohd tahir bin hj wan</name>
     <jawi>حاج محمد طاهر بن حاج وان</jawi>
     <death>2011-07-22</death>
@@ -11654,7 +11654,7 @@
     <age>86</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-11-13" delivered="" price="12">
+  <order soldto="HAM" date="2012-11-13" delivered="2012-11-20" price="12">
     <name>nur hayati bt mohd rosli</name>
     <jawi>نور حياتي بنت روسلي</jawi>
     <death>2012-08-18</death>
@@ -11662,14 +11662,14 @@
     <age>21</age>
     <item>2' Tarazo(P)</item>
   </order>
-  <order soldto="HAM" date="2012-11-13" delivered="" price="12">
-    <name>ingat yang tersayang</name>
+  <order soldto="HAM" date="2012-11-13" delivered="2012-11-20" price="12">
+    <name></name>
     <jawi>أيهندايڠترسايڠ</jawi>
     <death></death>
     <deathm></deathm>
     <item>2"x14" Sticker</item>
   </order>
-  <order soldto="HAM" date="2012-11-13" delivered="" price="12">
+  <order soldto="HAM" date="2012-11-13" delivered="2012-11-20" price="0">
     <name>lot no 21</name>
     <jawi></jawi>
     <death> </death>
