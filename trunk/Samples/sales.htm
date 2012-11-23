@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+	<title>Sales Report</title>	
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<link rel="stylesheet" type="text/css" href="style/graph.css" />
+	<style type="text/css">
+		#summary {
+			position: absolute;
+			top: 50px;
+			left: 630px;
+		}
+		table tr td {text-align: right;}
+		
+		#results tr:nth-child(odd) {background: #C5BB2E; }
+		#results tr:nth-child(even) {background: white;}
+	</style>
+	
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/jshashtable-2.1.js"></script>
+	<script type="text/javascript" src="js/jquery.numberformatter-1.2.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flot.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flot.stack.min.js"></script>
+	<script type="text/javascript" src="js/sales.js"></script>
+</head>
+<body>
+	<h1>Sales Report</h1>
+	<!-- Graph HTML -->
+	<div id="graph-wrapper">
+		<div class="graph-info">
+			<a href="javascript:void(0)" class="hamid">HAM</a>
+			<a href="javascript:void(0)" class="addin">ADI</a>
+			<a href="javascript:void(0)" class="selama">SEL</a>
+			<a href="javascript:void(0)" class="semanggol">SEM</a>
+			<a href="javascript:void(0)" class="etc">etc</a>
+			
+			<a href="#" id="bars" title="show bars"><span></span></a>
+      		<a href="#" id="lines" class="active" title="show lines"><span></span></a>
+		</div>
+		
+		<div class="graph-container">
+			<div id="graph-lines"></div>
+			<div id="graph-bars"></div>
+		</div>
+	</div>
+	<br/>
+	<!-- end Graph HTML-->
+	<div id="summary">
+		<h2>Summary</h2>
+		<table id="results" cellpadding="3">
+		</table>
+	</div>
+	
+</body>
+</html>

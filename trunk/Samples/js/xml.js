@@ -400,8 +400,7 @@ function parse(wrapper) {
     var date = new Date();
     var year = date.getYear() - 100 + 2000;
 
-    $
-			.ajax({
+    $.ajax({
 			    type: 'GET',
 			    url: 'nisan.xml',
 			    dataType: 'xml',
@@ -423,8 +422,7 @@ function parse(wrapper) {
 
 			        // Add sort and zebra stripe to table (NOTE: this does not
 			        // work as intended with sort feature)
-			        window.setTimeout('$("' + wrapper
-							+ ' table").tablesorter();', 120);
+			        window.setTimeout('$("' + wrapper + ' table").tablesorter();', 120);
 			        $(wrapper + ' table').hide().slideDown('200');
 
 			        // display total item
@@ -432,14 +430,12 @@ function parse(wrapper) {
 
 			        // add filter by customer
 			        var nav_link = $('#xml_nav li a');
-			        nav_link
-							.click(function () {
+			        nav_link.click(function () {
 
 							    // get current index and reset all highlight
 							    var currentClass = $(this).attr('class');
 							    var currentIndex = -1;
-							    nav_link
-										.parent()
+							    nav_link.parent()
 										.each(
 												function (index) {
 												    if ($(this).find('a').attr(
@@ -553,8 +549,7 @@ function parse(wrapper) {
 
 			        // add filter by month
 			        var nav_month = $('#xml_month li a');
-			        nav_month
-							.click(function () {
+			        nav_month.click(function () {
 
 							    // get current index and reset all highlight
 							    var currentClass = $(this).attr('class');
