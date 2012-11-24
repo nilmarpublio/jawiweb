@@ -67,47 +67,46 @@ function showTable() {
 	var row = "<tr>";
 	row += "<td></td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td><td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td><td>Nov</td><td>Dec</td>";
 	row += "</tr>";
-	$("#results").append(row);
+	$("#results").append(row);	
 	
-	row = "<tr><td>HAM</td>";
-	for(var i=0;i<hamids.length;i++) {
-		row += "<td>"+hamids[i]+"</td>";
-	}
-	row += "</tr>";
-	$("#results").append(row);
 	
 	row = "<tr><td>ADI</td>";
-	for(var i=0;i<addins.length;i++) {
-		row += "<td>"+addins[i]+"</td>";
-	}
+	for(var i=0;i<addins.length;i++)
+	 row += "<td>"+addins[i]+"</td>";
 	row += "</tr>";
 	$("#results").append(row);
 	
-	row = "<tr><td>SEL</td>";
-	for(var i=0;i<selamas.length;i++) {
-		row += "<td>"+selamas[i]+"</td>";
-	}
-	row += "</tr>";
-	$("#results").append(row);
 	
 	row = "<tr><td>SEM</td>";
-	for(var i=0;i<semanggols.length;i++) {
-		row += "<td>"+semanggols[i]+"</td>";
-	}
+	for(var i=0;i<semanggols.length;i++)
+	 row += "<td>"+semanggols[i]+"</td>";
+	row += "</tr>";
+	$("#results").append(row);
+	
+	
+	row = "<tr><td>SEL</td>";
+	for(var i=0;i<selamas.length;i++)
+	 row += "<td>"+selamas[i]+"</td>";
+	row += "</tr>";
+	$("#results").append(row);	
+	
+	
+	row = "<tr><td>HAM</td>";
+	for(var i=0;i<hamids.length;i++)
+	 row += "<td>"+hamids[i]+"</td>";
 	row += "</tr>";
 	$("#results").append(row);
 	
 	row = "<tr><td>etc</td>";
-	for(var i=0;i<etc.length;i++) {
+	for(var i=0;i<etc.length;i++)
 		row += "<td>"+etc[i]+"</td>";
-	}
 	row += "</tr>";
 	$("#results").append(row);
 	
+	
 	row = "<tr style='font-weight:bold;'><td>Total</td>";
-	for(var i=0;i<sales.length;i++) {
+	for(var i=0;i<sales.length;i++)
 		row += "<td>"+sales[i]+"</td>";
-	}
 	row += "</tr>";
 	$("#results").append(row);
 }
@@ -149,21 +148,21 @@ function showGraph() {
   	//alert("other: "+epoints);
   	
 	var graphData = [{
-	        data: hpoints,
-	        color: '#71c73e',
-	        points: { radius: 4, fillColor: '#71c73e' }
-	    }, {
 	        data: apoints,
 	        color: '#944117',
 	        points: { radius: 4, fillColor: '#944117' }
-	    }, {
+      }, {
+	        data: mpoints,
+	        color: '#E47C47',
+	        points: { radius: 4, fillColor: '#E47C47' }
+      }, {
 	        data: spoints,
 	        color: '#77b7c5',
 	        points: { radius: 4, fillColor: '#77b7c5' }
 	    }, {
-	        data: mpoints,
-	        color: '#E47C47',
-	        points: { radius: 4, fillColor: '#E47C47' }
+	        data: hpoints,
+	        color: '#71c73e',
+	        points: { radius: 4, fillColor: '#71c73e' }
 	    }, {
 	        data: epoints,
 	        color: '#d2ec72',
