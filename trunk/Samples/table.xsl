@@ -3,7 +3,7 @@
   <!-- @see http://stackoverflow.com/questions/586231/how-can-i-convert-a-string-to-upper-or-lower-case-with-xslt -->  
   <xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'"/>
   <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
-  <xsl:variable name="customer">ADI</xsl:variable>
+  <xsl:variable name="customer">PAS</xsl:variable>
   <xsl:variable name="last">2012-01-01</xsl:variable>
   
   <xsl:template name="laterThan">

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="table.xsl"?>
+<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="KEN" date="2011-01-03" delivered="2011-01-23" price="210">
     <name>Jamaliah Bt Saat</name>
@@ -11676,11 +11676,99 @@
     <deathm></deathm>
     <item>1" Sticker</item>
   </order>
-  <order soldto="SEL" date="2012-11-16" delivered="" price="230">
+  <order soldto="SEL" date="2012-11-16" delivered="2012-11-24" price="230">
     <name>Halijah bt amat</name>
     <jawi>هاليجه بنت أمة</jawi>
     <death>2012-10-24</death>
     <deathm>1433-12-08</deathm>
     <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="ADI" date="2012-11-24" delivered="" price="35">
+    <name>Mudiah bt abas</name>
+    <jawi>موضعية بنت عابس</jawi>
+    <born>1915-02-20</born>
+    <death>2012-08-14</death>
+    <deathm>1433-09-26</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2012-11-24" delivered="" price="35">
+    <name>Maarof bin abu bakar</name>
+    <jawi>معروف بن أبو بكر</jawi>
+    <born>1953-04-08</born>
+    <death>2012-09-27</death>
+    <deathm>1433-11-11</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2012-11-24" delivered="" price="35">
+    <name>Sakiah bt bahran</name>
+    <jawi>ساقيه بنت بحران</jawi>
+    <death>2011-10-23</death>
+    <deathm>1432-11-25</deathm>
+    <item>PV</item>
+    <remarks>ahad</remarks>
+  </order>
+  <order soldto="ADI" date="2012-11-28" delivered="" price="260">
+    <name>hj ahmad dahlan bin hj mahudin</name>
+    <jawi>حاج أحمد دحلان بن حاج ماهودين</jawi>
+    <born>1944-09-18</born>
+    <death>2012-09-02</death>
+    <deathm>1433-10-15</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2012-12-01" delivered="" price="360">
+    <name>Kamaruddin bin mohd noor</name>
+    <jawi>قمرلدين بن محمد نور</jawi>
+    <born>1957-05-31</born>
+    <death>2012-10-08</death>
+    <deathm>1433-11-22</deathm>
+    <item>2' Batu Hijau(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-11-26" delivered="" price="12">
+    <name>julia bt johari</name>
+    <jawi>جوليا بنت جوهاري</jawi>
+    <death>2012-11-07</death>
+    <deathm>1433-12-22</deathm>
+    <age>56</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-11-26" delivered="" price="12">
+    <name>hjh romlah bt ismail</name>
+    <jawi>حجه رملة بنت إسماعيل</jawi>
+    <death>2012-09-01</death>
+    <deathm>1433-10-14</deathm>
+    <age>80</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-11-26" delivered="" price="12">
+    <name>nordin bin hashim</name>
+    <jawi>sex بن هاشم</jawi>
+    <death>2012-11-20</death>
+    <deathm>1434-01-06</deathm>
+    <age>61</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-11-26" delivered="" price="12">
+    <name>sabariah bt shariff</name>
+    <jawi>سباريه بنت شريف</jawi>
+    <death>2012-11-18</death>
+    <deathm>1434-01-04</deathm>
+    <age>78</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2012-11-26" delivered="" price="12">
+    <name>abd rahman bin kechek</name>
+    <jawi>عبدالرحمن بن كچيك</jawi>
+    <death>2012-11-14</death>
+    <deathm>1433-12-29</deathm>
+    <age>73</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2012-11-26" delivered="" price="12">
+    <name>rozilah bt abd rahman</name>
+    <jawi>روذيلة بنت عبدالرحمن</jawi>
+    <death>1983-02-01</death>
+    <deathm>1403-04-18</deathm>
+    <age>18</age>
+    <item>2' Sticker(P)</item>
   </order>
 </nisan>
