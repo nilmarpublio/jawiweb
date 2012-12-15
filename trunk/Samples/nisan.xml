@@ -11937,4 +11937,36 @@
     <item>2' Sticker(L)</item>
 	<remarks>rumi saja</remarks>
   </order>
+  <order soldto="PAS" date="2012-11-27" delivered="" price="260">
+    <name>maisarah bt mohd ali</name>
+    <jawi>ماءيساراه بنت محمد علي</jawi>
+    <born>1978-01-10</born>
+    <death>2012-08-18</death>
+    <deathm>1433-09-29</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+<order soldto="PAS" date="2012-11-27" delivered="" price="200">
+    <name>zakiah hanim bt uda</name>
+    <jawi>زكيه هانم بنت عودا</jawi>
+    <born>2008-12-07</born>
+    <death>2012-08-18</death>
+    <deathm>1433-09-29</deathm>
+    <item>1½' Batu Batik(P)</item>
+  </order>
+<order soldto="PAS" date="2012-11-27" delivered="" price="200">
+    <name>rasyidah bt uda</name>
+    <jawi>رصيده بنت عودا</jawi>
+    <born>2010-08-21</born>
+    <death>2012-08-18</death>
+    <deathm>1433-09-29</deathm>
+    <item>1½' Batu Batik(P)</item>
+  </order>
+<order soldto="PAS" date="2012-11-27" delivered="" price="200">
+    <name>nur darwisya bt mohd zulkarnaini</name>
+    <jawi>نور درويشا بنت محمد زولكارنيني</jawi>
+    <born>2012-10-10</born>
+    <death>2012-11-11</death>
+    <deathm>1433-12-26</deathm>
+    <item>1½' Batu Batik(P)</item>
+  </order>
 </nisan>
