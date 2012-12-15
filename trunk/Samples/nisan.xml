@@ -11814,7 +11814,7 @@
     <jawi>حجه نيه بنت مُسطعفى</jawi>
     <death>2012-09-01</death>
     <deathm>1433-10-14</deathm>
-	<age>75</age>
+	  <age>75</age>
     <item>PV</item>
   </order>
   <order soldto="ADI" date="2012-12-08" delivered="" price="35">
@@ -11851,7 +11851,7 @@
     <jawi>نورجاناتون نايمه بنت قادمين</jawi>
     <death> </death>
     <deathm></deathm>
-	<age>3</age>
+	  <age>3</age>
     <item>PV Budak</item>
   </order>
   <order soldto="ADI" date="2012-12-08" delivered="" price="35">
@@ -11859,9 +11859,8 @@
     <jawi>محمد فضلي فهمي بن جعفر</jawi>
     <death>2005-05-18</death>
     <deathm>1426-04-09</deathm>
-	<age>6</age>
+	  <age>0.5</age>
     <item>PV Budak</item>
-	<remarks>6 bulan</remarks>
   </order>
   <order soldto="HAM" date="2012-11-30" delivered="" price="12">
     <name>ummul salamathu begam bt shamsudin</name>
