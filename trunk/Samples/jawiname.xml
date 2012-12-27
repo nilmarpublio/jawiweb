@@ -411,8 +411,8 @@
   </rootname>
   <rootname>
     <rumi>akhir</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>آخر</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>akhma</rumi>
@@ -3405,7 +3405,7 @@
   <rootname>
     <rumi>embi</rumi>
     <jawi>امبي</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>embon</rumi>
@@ -4214,8 +4214,8 @@
   </rootname>
   <rootname>
     <rumi>habibah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>حبيبه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>habibullah</rumi>
@@ -4942,6 +4942,8 @@
   </rootname>
   <rootname>
     <rumi>hasib</rumi>
+	<jawi>حاسب</jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>hasif</rumi>
@@ -6809,7 +6811,7 @@
   </rootname>
   <rootname>
     <rumi>kamariah</rumi>
-    <jawi></jawi>
+    <jawi>قمريه</jawi>
     <sex>2</sex>
   </rootname>
   <rootname>
@@ -7655,8 +7657,8 @@
   </rootname>
   <rootname>
     <rumi>latifah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>لاتيفه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>latiff</rumi>
@@ -10805,8 +10807,8 @@
   </rootname>
   <rootname>
     <rumi>panjang</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>panji</rumi>
@@ -14077,8 +14079,8 @@
   </rootname>
   <rootname>
     <rumi>shariffah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>شريفه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>shariffbhai</rumi>
@@ -14402,11 +14404,6 @@
     <sex>1</sex>
   </rootname>
   <rootname>
-    <rumi>sit</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
     <rumi>sitah</rumi>
     <jawi>صيته</jawi>
     <sex>2</sex>
@@ -14420,14 +14417,6 @@
     <rumi>siti</rumi>
     <jawi>ستي</jawi>
     <sex>2</sex>
-  </rootname>
-  <rootname>
-    <rumi>sitte</rumi>
-  </rootname>
-  <rootname>
-    <rumi>sivanantam</rumi>
-    <jawi />
-    <sex>0</sex>
   </rootname>
   <rootname>
     <rumi>sk</rumi>
@@ -16512,8 +16501,8 @@
   </rootname>
   <rootname>
     <rumi>zainiah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>زينيه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>zainidi</rumi>
