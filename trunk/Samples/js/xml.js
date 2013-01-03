@@ -131,8 +131,10 @@ function generateRow(year,index,node) {
 	desc += xml_jawi;
 
 	// able to filter upon soldto person and month only
-    // compute <tr filterCriteria='ADI07'
-	output += '<tr filterCriteria="';
+    // compute <tr filtercriteria='ADI07'
+    // @HACK: All the filtering will fail when crossing to a new year
+    // due to all filtering always refer to current year.
+	output += '<tr filtercriteria="';
 	if (xml_order.substring(0, 4) == year) {
 	    output += xml_soldto;
 	    output += xml_order.substring(5, 7); // extract only month value
@@ -312,7 +314,7 @@ function generateCheckBoxRow(year,id,node) {
 	output += ' id="item_' + id + '"';
 
 	// able to filter upon soldto person and month only
-	output += ' filterCriteria="';
+	output += ' filtercriteria="';
 	if (xml_order.substring(0, 4) == year) {
 	    output += xml_soldto;
 	    output += xml_order.substring(5, 7); // extract only month value
@@ -435,8 +437,7 @@ function parse(wrapper) {
 							    // get current index and reset all highlight
 							    var currentClass = $(this).attr('class');
 							    var currentIndex = -1;
-							    nav_link.parent()
-										.each(
+							    nav_link.parent().each(
 												function (index) {
 												    if ($(this).find('a').attr(
 															'class') == currentClass)
@@ -457,9 +458,7 @@ function parse(wrapper) {
 							        case 'filter_adi':
 							            $(tr).filter(
 											function (index) {
-											    var yes = ($(this).attr(
-														'filterCriteria')
-														.indexOf('ADI') >= 0);
+											    var yes = ($(this).attr('filtercriteria').indexOf('ADI') >= 0);
 											    if (yes) {
 											        xml_no++;
 											        $(this).find('td:first').text(xml_no + '.');
@@ -470,9 +469,7 @@ function parse(wrapper) {
 							        case 'filter_ali':
 							            $(tr).filter(
 											        function (index) {
-											            var yes = ($(this).attr(
-														        'filterCriteria')
-														        .indexOf('ALI') >= 0);
+											            var yes = ($(this).attr('filtercriteria').indexOf('ALI') >= 0);
 											            if (yes) {
 											                xml_no++;
 											                $(this).find('td:first').text(xml_no + '.');
@@ -483,9 +480,7 @@ function parse(wrapper) {
 							        case 'filter_ham':
 							            $(tr).filter(
 											function (index) {
-											    var yes = ($(this).attr(
-														'filterCriteria')
-														.indexOf('HAM') >= 0);
+											    var yes = ($(this).attr('filtercriteria').indexOf('HAM') >= 0);
 											    if (yes) {
 											        xml_no++;
 											        $(this).find('td:first').text(xml_no + '.');
@@ -496,9 +491,7 @@ function parse(wrapper) {
 							        case 'filter_ken':
 							            $(tr).filter(
 											function (index) {
-											    var yes = ($(this).attr(
-														'filterCriteria')
-														.indexOf('KEN') >= 0);
+											    var yes = ($(this).attr('filtercriteria').indexOf('KEN') >= 0);
 											    if (yes) {
 											        xml_no++;
 											        $(this).find('td:first').text(xml_no + '.');
@@ -509,9 +502,7 @@ function parse(wrapper) {
 							        case 'filter_sel':
 							            $(tr).filter(
 											function (index) {
-											    var yes = ($(this).attr(
-														'filterCriteria')
-														.indexOf('SEL') >= 0);
+											    var yes = ($(this).attr('filtercriteria').indexOf('SEL') >= 0);
 											    if (yes) {
 											        xml_no++;
 											        $(this).find('td:first').text(xml_no + '.');
@@ -522,9 +513,7 @@ function parse(wrapper) {
 							        case 'filter_sem':
 							            $(tr).filter(
 											function (index) {
-											    var yes = ($(this).attr(
-														'filterCriteria')
-														.indexOf('SEM') >= 0);
+											    var yes = ($(this).attr('filtercriteria').indexOf('SEM') >= 0);
 											    if (yes) {
 											        xml_no++;
 											        $(this).find('td:first').text(xml_no + '.');
@@ -593,7 +582,7 @@ function parse(wrapper) {
 							            $(tr).filter(
 											function (index) {
 											    var yes = ($(this).attr(
-														'filterCriteria')
+														'filtercriteria')
 														.indexOf('01') >= 0);
 											    if (yes) {
 											        xml_no++;
@@ -606,7 +595,7 @@ function parse(wrapper) {
 							            $(tr).filter(
 											function (index) {
 											    var yes = ($(this).attr(
-														'filterCriteria')
+														'filtercriteria')
 														.indexOf('02') >= 0);
 											    if (yes) {
 											        xml_no++;
@@ -619,7 +608,7 @@ function parse(wrapper) {
 							            $(tr).filter(
 											function (index) {
 											    var yes = ($(this).attr(
-														'filterCriteria')
+														'filtercriteria')
 														.indexOf('03') >= 0);
 											    if (yes) {
 											        xml_no++;
@@ -632,7 +621,7 @@ function parse(wrapper) {
 							            $(tr).filter(
 											function (index) {
 											    var yes = ($(this).attr(
-														'filterCriteria')
+														'filtercriteria')
 														.indexOf('04') >= 0);
 											    if (yes) {
 											        xml_no++;
@@ -645,7 +634,7 @@ function parse(wrapper) {
 							            $(tr).filter(
 											function (index) {
 											    var yes = ($(this).attr(
-														'filterCriteria')
+														'filtercriteria')
 														.indexOf('05') >= 0);
 											    if (yes) {
 											        xml_no++;
@@ -658,7 +647,7 @@ function parse(wrapper) {
 							            $(tr).filter(
 											function (index) {
 											    var yes = ($(this).attr(
-														'filterCriteria')
+														'filtercriteria')
 														.indexOf('06') >= 0);
 											    if (yes) {
 											        xml_no++;
@@ -671,7 +660,7 @@ function parse(wrapper) {
 							            $(tr).filter(
 											function (index) {
 											    var yes = ($(this).attr(
-														'filterCriteria')
+														'filtercriteria')
 														.indexOf('07') >= 0);
 											    if (yes) {
 											        xml_no++;
@@ -684,7 +673,7 @@ function parse(wrapper) {
 							            $(tr).filter(
 											function (index) {
 											    var yes = ($(this).attr(
-														'filterCriteria')
+														'filtercriteria')
 														.indexOf('08') >= 0);
 											    if (yes) {
 											        xml_no++;
@@ -697,7 +686,7 @@ function parse(wrapper) {
 							            $(tr).filter(
 											function (index) {
 											    var yes = ($(this).attr(
-														'filterCriteria')
+														'filtercriteria')
 														.indexOf('09') >= 0);
 											    if (yes) {
 											        xml_no++;
@@ -710,7 +699,7 @@ function parse(wrapper) {
 							            $(tr).filter(
 											function (index) {
 											    var yes = ($(this).attr(
-														'filterCriteria')
+														'filtercriteria')
 														.indexOf('10') >= 0);
 											    if (yes) {
 											        xml_no++;
@@ -723,7 +712,7 @@ function parse(wrapper) {
 							            $(tr).filter(
 											function (index) {
 											    var yes = ($(this).attr(
-														'filterCriteria')
+														'filtercriteria')
 														.indexOf('11') >= 0);
 											    if (yes) {
 											        xml_no++;
@@ -736,7 +725,7 @@ function parse(wrapper) {
 							            $(tr).filter(
 											function (index) {
 											    var yes = ($(this).attr(
-														'filterCriteria')
+														'filtercriteria')
 														.indexOf('12') >= 0);
 											    if (yes) {
 											        xml_no++;
