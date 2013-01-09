@@ -6146,4 +6146,54 @@
     <deathm>1385-06-08</deathm>
     <item>PV Egg</item>
   </order>
+  <order soldto="HAM" date="2013-01-07" delivered="" price="12">
+    <name>zainuddin bin ahmad</name>
+    <jawi>زاينوالدين بن أحمد</jawi>
+    <death>2012-10-25</death>
+    <deathm>1433-12-09</deathm>
+  	<age>44</age>
+    <item>2½' Sticker(L)</item>
+    <remarks>jawi saja</remarks>
+  </order>
+    <order soldto="HAM" date="2013-01-07" delivered="" price="12">
+    <name>zainuddin bin ahmad</name>
+    <jawi>زاينوالدين بن أحمد</jawi>
+    <death>2012-10-25</death>
+    <deathm>1433-12-09</deathm>
+  	<age>44</age>
+    <item>2½' Sticker(L)</item>
+    <remarks>rumi saja</remarks>
+  </order>
+  <order soldto="HAM" date="2013-01-07" delivered="" price="12">
+    <name>puteh bt tahir</name>
+    <jawi>فوتيه بنت طاهر</jawi>
+    <death>2012-09-14</death>
+    <deathm>1433-10-27</deathm>
+  	<age>70</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-01-07" delivered="" price="12">
+    <name>safabri bt maidin</name>
+    <jawi>سافابري بنت مأيدين</jawi>
+    <death>2012-12-21</death>
+    <deathm>1434-02-07</deathm>
+  	<age>76</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-01-07" delivered="" price="12">
+    <name>maimunah bt abd daim</name>
+    <jawi>مايمونه بنت عبدالدايم</jawi>
+    <death>2012-09-16</death>
+    <deathm>1433-10-29</deathm>
+  	<age>73</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-01-07" delivered="" price="12">
+    <name>bakar bin osman</name>
+    <jawi>بكر بن عسمن</jawi>
+    <death>2012-10-25</death>
+    <deathm>1433-12-09</deathm>
+  	<age>83</age>
+    <item>2' Sticker(L)</item>
+  </order>
 </nisan>
