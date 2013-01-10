@@ -8,28 +8,6 @@
     <item>2' Batu Batik(L)</item>
     <remarks>060301212016649</remarks>
   </order>
-  <order soldto="SEM" date="2011-12-26" delivered="2012-01-14" price="230">
-    <name>Abdullah bin said</name>
-    <jawi>عبدالله بن سعيد</jawi>
-    <death>2002-03-16</death>
-    <deathm>1423-01-03</deathm>
-    <item>2' Batu Batik(L)</item>
-  </order>
-  <order soldto="SEM" date="2011-12-26" delivered="2012-02-26" price="280">
-    <name>Brahim bin hj mohd ardi</name>
-    <jawi>براهيم بنحاج محمد اردي</jawi>
-    <born>1930-07-27</born>
-    <death>2011-11-27</death>
-    <deathm>1433-01-01</deathm>
-    <item>2' Batu Batik(L)</item>
-  </order>
-  <order soldto="SEM" date="2011-12-26" delivered="2012-01-14" price="230">
-    <name>indra bin samad</name>
-    <jawi>اندر بن صمد</jawi>
-    <death>2011-12-22</death>
-    <deathm>1433-01-26</deathm>
-    <item>2' Batu Batik(L)</item>
-  </order>
   <order soldto="HAM" date="2012-01-03" delivered="2012-01-09" price="12">
     <name>mohd jefny jufry bin jasmin</name>
     <death>2011-06-07</death>
@@ -6018,23 +5996,23 @@
     <item>PV Budak</item>
     <remarks>EM301732169MY</remarks>
   </order>
-  <order soldto="ADI" date="2012-12-28" delivered="" price="260">
+  <order soldto="ADI" date="2012-12-28" delivered="2013-01-09" price="260">
     <name>Saerah bt idris</name>
   	<jawi>ساره بنت ادريس</jawi>
     <born>1946-04-15</born>
     <death>2012-11-07 00:05</death>
     <deathm>1433-12-22</deathm>
     <item>2' Batu Batik(P)</item>
-	<remarks>Jam 12.05 malam</remarks>
+	<remarks>060301601970183</remarks>
   </order>
-  <order soldto="ADI" date="2012-12-28" delivered="" price="260">
+  <order soldto="ADI" date="2012-12-28" delivered="2013-01-09" price="260">
     <name>hj misbah bin hj abd salam</name>
   	<jawi>حاج مصباح بن حاج عبدالسالام</jawi>
 	<born>1934-06-14</born>
     <death>2012-07-25 02:30</death>
 	<deathm>1433-09-06</deathm>
     <item>2' Batu Putih(L)</item>
-	<remarks>Jam 2.30 pagi</remarks>
+	<remarks>060301601970183</remarks>
   </order>
   <order soldto="HAM" date="2012-12-31" delivered="2013-01-04" price="12">
     <name>hjh zaiton bt noor shah</name>
@@ -6060,7 +6038,7 @@
 	<age>65</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2012-12-31" delivered="" price="12">
+  <order soldto="HAM" date="2012-12-31" delivered="2013-01-10" price="12">
     <name>intan sapinas bt rafeei</name>
     <jawi>اينتان سافيناس بنت رافعي</jawi>
     <death>2012-12-09</death>
@@ -6146,7 +6124,7 @@
     <deathm>1385-06-08</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="HAM" date="2013-01-07" delivered="" price="12">
+  <order soldto="HAM" date="2013-01-07" delivered="2013-01-10" price="12">
     <name>zainuddin bin ahmad</name>
     <jawi>زاينوالدين بن أحمد</jawi>
     <death>2012-10-25</death>
@@ -6155,7 +6133,7 @@
     <item>2½' Sticker(L)</item>
     <remarks>jawi saja</remarks>
   </order>
-    <order soldto="HAM" date="2013-01-07" delivered="" price="12">
+    <order soldto="HAM" date="2013-01-07" delivered="2013-01-10" price="12">
     <name>zainuddin bin ahmad</name>
     <jawi>زاينوالدين بن أحمد</jawi>
     <death>2012-10-25</death>
@@ -6164,7 +6142,7 @@
     <item>2½' Sticker(L)</item>
     <remarks>rumi saja</remarks>
   </order>
-  <order soldto="HAM" date="2013-01-07" delivered="" price="12">
+  <order soldto="HAM" date="2013-01-07" delivered="2013-01-10" price="12">
     <name>puteh bt tahir</name>
     <jawi>فوتيه بنت طاهر</jawi>
     <death>2012-09-14</death>
@@ -6172,7 +6150,7 @@
   	<age>70</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-01-07" delivered="" price="12">
+  <order soldto="HAM" date="2013-01-07" delivered="2013-01-10" price="12">
     <name>safabri bt maidin</name>
     <jawi>سافابري بنت مأيدين</jawi>
     <death>2012-12-21</death>
@@ -6180,7 +6158,7 @@
   	<age>76</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-01-07" delivered="" price="12">
+  <order soldto="HAM" date="2013-01-07" delivered="2013-01-10" price="12">
     <name>maimunah bt abd daim</name>
     <jawi>مايمونه بنت عبدالدايم</jawi>
     <death>2012-09-16</death>
@@ -6188,7 +6166,7 @@
   	<age>73</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-01-07" delivered="" price="12">
+  <order soldto="HAM" date="2013-01-07" delivered="2013-01-10" price="12">
     <name>bakar bin osman</name>
     <jawi>بكر بن عسمن</jawi>
     <death>2012-10-25</death>

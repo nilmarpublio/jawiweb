@@ -6268,4 +6268,26 @@
     <item>PV</item>
     <remarks>EM226002830MY</remarks>
   </order>
+    <order soldto="SEM" date="2011-12-26" delivered="2012-01-14" price="230">
+    <name>Abdullah bin said</name>
+    <jawi>عبدالله بن سعيد</jawi>
+    <death>2002-03-16</death>
+    <deathm>1423-01-03</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2011-12-26" delivered="2012-02-26" price="280">
+    <name>Brahim bin hj mohd ardi</name>
+    <jawi>براهيم بنحاج محمد اردي</jawi>
+    <born>1930-07-27</born>
+    <death>2011-11-27</death>
+    <deathm>1433-01-01</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2011-12-26" delivered="2012-01-14" price="230">
+    <name>indra bin samad</name>
+    <jawi>اندر بن صمد</jawi>
+    <death>2011-12-22</death>
+    <deathm>1433-01-26</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
 </nisan>
