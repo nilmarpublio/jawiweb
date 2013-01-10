@@ -8,14 +8,22 @@ var addins = [0,0,0,0,0,0,0,0,0,0,0,0];//#944117
 var selamas = [0,0,0,0,0,0,0,0,0,0,0,0];//#77b7c5
 var semanggols = [0,0,0,0,0,0,0,0,0,0,0,0];//#E47C47
 var etc = [0,0,0,0,0,0,0,0,0,0,0,0];//#d2ec72
-
+	
 /**
  * Process data into months dimension.
  */
-function processData(wrapper) {
-	console.log("processData()");
-	var today = new Date();
-	var year = today.getYear()+1900;
+function processData(year) {
+	
+	console.log("processData("+year+")");
+	
+	//reset
+	sales = [0,0,0,0,0,0,0,0,0,0,0,0];
+	hamids = [0,0,0,0,0,0,0,0,0,0,0,0];//#71c73e
+	addins = [0,0,0,0,0,0,0,0,0,0,0,0];//#944117
+	selamas = [0,0,0,0,0,0,0,0,0,0,0,0];//#77b7c5
+	semanggols = [0,0,0,0,0,0,0,0,0,0,0,0];//#E47C47
+	etc = [0,0,0,0,0,0,0,0,0,0,0,0];//#d2ec72
+	
 	$.ajax({
 		type: "GET",
 		url: "nisan.xml",
@@ -221,8 +229,6 @@ function convertToMonth(i) {
 
 
 $(function() {
-
-	processData();
 	
 	/* toggle graph */
 	$('#graph-bars').hide(); 
@@ -241,6 +247,11 @@ $(function() {
 	    $('#graph-bars').fadeIn().removeClass('hidden');
 	    e.preventDefault();
 	});
+	
+	var today = new Date();
+	var year = today.getYear()+1900;
+	$("#year").val(year);
+	processData(year);
 	
 	/**
 	 * Show tooltip
@@ -266,6 +277,13 @@ $(function() {
 	        $('#tooltip').remove();
 	        previousPoint = null;
 	    }
+	});
+	
+	/**
+	 * Year selection onchange event.
+	 */
+	$("#year").change(function() {
+		processData($(this).val());
 	});
 
 });

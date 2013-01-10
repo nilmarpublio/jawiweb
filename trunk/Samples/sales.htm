@@ -33,9 +33,9 @@
 			<a href="javascript:void(0)" class="selama">SEL</a>
 			<a href="javascript:void(0)" class="hamid">HAM</a>
 			<a href="javascript:void(0)" class="etc">etc</a>
-			
+						
 			<a href="#" id="bars" title="show bars"><span></span></a>
-      <a href="#" id="lines" class="active" title="show lines"><span></span></a>
+      		<a href="#" id="lines" class="active" title="show lines"><span></span></a>
 		</div>
 		
 		<div class="graph-container">
@@ -47,7 +47,18 @@
 	<!-- end Graph HTML-->
 	
 	<div id="summary">
+		<!--  @todo: how to handle json lookup for multiple xml or combine several xml into one for filter previous data -->
 		<h2>Summary</h2>
+		Year
+		<select id="year">
+			<option>2010</option>
+			<option>2011</option>
+			<option>2012</option>
+			<option>2013</option>
+			<option>2014</option>
+			<option>2015</option>
+			<option>2016</option>
+		</select>
 		<table id="results" cellpadding="3">
 		</table>
 	</div>
