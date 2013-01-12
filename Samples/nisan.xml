@@ -6174,4 +6174,57 @@
   	<age>83</age>
     <item>2' Sticker(L)</item>
   </order>
+  <order soldto="HAM" date="2013-01-11" delivered="" price="12">
+    <name>shamsuddin bin puteh</name>
+    <jawi>شامسوددين بن فوتيه</jawi>
+    <death>2012-12-11</death>
+    <deathm>1434-01-27</deathm>
+  	<age>58</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-01-11" delivered="" price="12">
+    <name>hashim bin kasa</name>
+    <jawi>هاشم بن كاسا</jawi>
+    <death>1972</death>
+    <deathm></deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-01-11" delivered="" price="12">
+    <name>pah bt salleh</name>
+    <jawi>فه بنت صالح</jawi>
+    <death> </death>
+    <deathm></deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-01-11" delivered="" price="12">
+    <name>lail bt abdullah</name>
+    <jawi>لأيد بنت عبدالله</jawi>
+    <death> </death>
+    <deathm></deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-01-11" delivered="" price="12">
+    <name>azam bin ishak</name>
+    <jawi>ازام بن اسحاق</jawi>
+    <death>2012-01-04</death>
+    <deathm>1434-02-21</deathm>
+  	<age>54</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-01-11" delivered="" price="12">
+    <name>hjh ramlah bt ismail</name>
+    <jawi>حجه رملة بنت إسماعيل</jawi>
+    <death>2002-05-15</death>
+    <deathm>1423-03-02</deathm>
+  	<age>66</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-01-11" delivered="" price="12">
+    <name>yahaya bin othman</name>
+    <jawi>يحيي بن عثمان</jawi>
+    <death>2012-10-16</death>
+    <deathm>1433-11-30</deathm>
+  	<age>68</age>
+    <item>2' Tarazo(L)</item>
+  </order>
 </nisan>
