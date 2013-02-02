@@ -439,8 +439,8 @@
   </rootname>
   <rootname>
     <rumi>akit</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>اكيت</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>akma</rumi>
@@ -5699,6 +5699,8 @@
   </rootname>
   <rootname>
     <rumi>isah</rumi>
+    <jawi>عساه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>isahak</rumi>
@@ -5962,7 +5964,7 @@
   <rootname>
     <rumi>jah</rumi>
     <jawi>خه</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>jahan</rumi>
@@ -6801,7 +6803,7 @@
   </rootname>
   <rootname>
     <rumi>kamaludin</rumi>
-    <jawi>كمرلدين</jawi>
+    <jawi>كمالودين</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
@@ -11778,8 +11780,8 @@
   </rootname>
   <rootname>
     <rumi>remah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>رماح</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>remlee</rumi>
