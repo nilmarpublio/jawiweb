@@ -6414,7 +6414,7 @@
     <deathm>1414-05-26</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-01-25" delivered="" price="12">
+  <order soldto="HAM" date="2013-01-25" delivered="2013-02-04" price="12">
     <name>jah bt ali</name>
     <jawi>خه بنت علي</jawi>
     <death>1980-09-03</death>
@@ -6441,5 +6441,69 @@
     <death> </death>
     <deathm></deathm>
     <item>1½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-02-03" delivered="" price="12">
+    <name>md rais bin hashim</name>
+    <jawi>مد رأيس بن هاشم</jawi>
+    <death>2012-11-14</death>
+    <deathm>1433-12-29</deathm>
+    <age>66</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-02-03" delivered="" price="12">
+    <name>muhammad bin che din</name>
+    <jawi>محمد بن چئ دين</jawi>
+    <death>2012-09-16</death>
+    <deathm>1433-10-29</deathm>
+    <age>74</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-02-03" delivered="" price="12">
+    <name>azizah bt puteh</name>
+    <jawi>عزيزه بنت فوتيه</jawi>
+    <death>2012-12-07</death>
+    <deathm>1434-01-23</deathm>
+    <age>54</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-02-03" delivered="" price="12">
+    <name>ismail bin embee</name>
+    <jawi>إسماعيل بن امبي</jawi>
+    <death>1995-10-24</death>
+    <deathm>1416-05-30</deathm>
+    <age>65</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-02-03" delivered="" price="12">
+    <name>mariam bt embee</name>
+    <jawi>ماريم بنت امبي</jawi>
+    <death>2013-01-15</death>
+    <deathm>1434-03-03</deathm>
+    <age>79</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-02-03" delivered="" price="12">
+    <name>mohd tahir bin hatim mohd</name>
+    <jawi>محمد طاهر بن حاتيم محمد</jawi>
+    <death>2012-12-15</death>
+    <deathm>1434-02-01</deathm>
+    <age>54</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-02-03" delivered="" price="12">
+    <name>raffiah bt hussain</name>
+    <jawi>رافياه بنت حُسين</jawi>
+    <death>1995-12-05</death>
+    <deathm>1416-07-13</deathm>
+    <age>66</age>
+    <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-02-03" delivered="" price="12">
+    <name>azman bin k. saur mydin</name>
+    <jawi>أزمان بن كي، ساور مَيدين</jawi>
+    <death>2012-12-22</death>
+    <deathm>1434-02-08</deathm>
+    <age>43</age>
+    <item>2' Tarazo(L)</item>
   </order>
 </nisan>
