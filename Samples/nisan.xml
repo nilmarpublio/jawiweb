@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="hamid.xsl"?>
+<?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="JEF" date="2012-01-03" delivered="2012-01-09" price="220">
     <name> </name>
@@ -6234,19 +6234,21 @@
     <deathm>1430-04-21</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2013-01-23" delivered="" price="35">
+  <order soldto="ADI" date="2013-01-23" delivered="2013-02-05" price="35">
     <name>Abd rashid bin latip</name>
     <jawi>عبدالراشد بن لطيف</jawi>
     <death>2012-10-17</death>
     <deathm>1433-12-01</deathm>
     <item>PV</item>
+    <remarks>Em032522502MY</remarks>
   </order>
-  <order soldto="ADI" date="2013-01-23" delivered="" price="35">
+  <order soldto="ADI" date="2013-01-23" delivered="2013-02-05" price="35">
     <name>Yusof bin daud</name>
     <jawi>يوسوف بن داود</jawi>
     <death>2012-11-19</death>
     <deathm>1434-01-05</deathm>
     <item>PV Egg</item>
+    <remarks>Em032522502MY</remarks>
   </order>
   <order soldto="ADI" date="2013-01-23" delivered="2013-01-31" price="260">
     <name>Madar bin amir</name>
@@ -6281,13 +6283,14 @@
     <deathm>1434-01-17</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2013-01-23" delivered="" price="35">
+  <order soldto="ADI" date="2013-01-23" delivered="2013-02-05" price="35">
     <name>Zaidah bt ngah hamid</name>
     <jawi>زايده بنت غه حميد</jawi>
   	<born>1923-01-09</born>
     <death>2012-11-18</death>
     <deathm>1433-01-04</deathm>
     <item>PV</item>
+    <remarks>Em032522502MY</remarks>
   </order>
   <order soldto="PAS" date="2013-01-20" delivered="" price="260">
     <name>Zulkifle bin bakar</name>
@@ -6428,14 +6431,14 @@
     <deathm></deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-01-25" delivered="" price="12">
+  <order soldto="HAM" date="2013-01-25" delivered="2013-01-05" price="12">
     <name>che remah bt che mat</name>
     <jawi>چئ رماح بنت چئ مت</jawi>
     <death> </death>
     <deathm></deathm>
     <item>1½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-01-25" delivered="" price="12">
+  <order soldto="HAM" date="2013-01-25" delivered="2013-01-05" price="12">
     <name>abd hamid bin che mat</name>
     <jawi>عبدالحميد بن چئ مت</jawi>
     <death> </death>
@@ -6505,5 +6508,62 @@
     <deathm>1434-02-08</deathm>
     <age>43</age>
     <item>2' Tarazo(L)</item>
+  </order>
+  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+    <name>Hashim bin haji nawawi</name>
+    <jawi>هاشم بن حاج نووي</jawi>
+    <death>2012-10-29</death>
+    <deathm>1433-12-13</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+    <name>Mohd radzi bin chik</name>
+    <jawi>محمد راضي بن چيك</jawi>
+    <death>2009-11-22</death>
+    <deathm>1430-12-05</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+    <name>Saiman bin mat</name>
+    <jawi>سيمان بن مت</jawi>
+    <death>2012-10-16</death>
+    <deathm>1433-11-30</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+    <name>Khamariah bt hj sa'at</name>
+    <jawi>خمرية بنت حاج سعت</jawi>
+    <born>1942-09-12</born>
+    <death>2012-09-22</death>
+    <deathm>1433-11-06</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+    <name>Mahani bt yusop</name>
+    <jawi>مهني بنت يوسوف</jawi>
+    <death>1976-10-12 02:25</death>
+    <deathm>1396-10-19</deathm>
+    <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+    <name>Hani mastura bt nor akbar</name>
+    <jawi>هاني مستورة بنت نور أكبر</jawi>
+    <death>2002-10-02 16:30</death>
+    <deathm>1423-07-26</deathm>
+    <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+    <name>Fatimah bt hj omar</name>
+    <jawi>فطمة بنت حاج عمر</jawi>
+    <death> </death>
+    <deathm></deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+    <name>Mohd alies bin hj wahab</name>
+    <jawi>محمد اليس بن حاج واهب</jawi>
+    <death>2013-01-27</death>
+    <deathm>1434-03-15</deathm>
+    <item>PV</item>
   </order>
 </nisan>
