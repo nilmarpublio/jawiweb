@@ -4697,8 +4697,8 @@
   </rootname>
   <rootname>
     <rumi>hani</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>هاني</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>hanif</rumi>
@@ -5306,7 +5306,7 @@
   </rootname>
   <rootname>
     <rumi>hizan</rumi>
-    <jawi />
+    <jawi></jawi>
     <sex>0</sex>
   </rootname>
   <rootname>
@@ -7202,8 +7202,8 @@
   </rootname>
   <rootname>
     <rumi>khamariah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>خمرية</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>khami</rumi>
@@ -8033,8 +8033,8 @@
   </rootname>
   <rootname>
     <rumi>mahani</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مهني</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>maharanee</rumi>
@@ -12449,6 +12449,8 @@
   </rootname>
   <rootname>
     <rumi>sa'at</rumi>
+    <jawi>سعت</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>saatiah</rumi>
