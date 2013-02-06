@@ -5663,23 +5663,23 @@
     <item>2' Batu Batik(P)</item>
     <remarks>0603 01 601 970 194</remarks>
   </order>
-  <order soldto="PAS" date="2012-11-27" delivered="" price="200">
+  <order soldto="PAS" date="2012-11-27" delivered="2013-02-06" price="200">
     <name>zakiah hanim bt uda</name>
     <jawi>زكيه هانم بنت عودا</jawi>
     <born>2008-12-07</born>
     <death>2012-08-18</death>
     <deathm>1433-09-29</deathm>
     <item>1½' Batu Batik(P)</item>
-    <remarks>0603 01 601 970 194</remarks>
+    <remarks>0603 01 601 970 194, 0603 01 601 970 170</remarks>
   </order>
-  <order soldto="PAS" date="2012-11-27" delivered="" price="200">
+  <order soldto="PAS" date="2012-11-27" delivered="2013-02-06" price="200">
     <name>rasyidah bt uda</name>
     <jawi>رصيده بنت عودا</jawi>
     <born>2010-08-21</born>
     <death>2012-08-18</death>
     <deathm>1433-09-29</deathm>
     <item>1½' Batu Batik(P)</item>
-    <remarks>0603 01 601 970 194</remarks>
+    <remarks>0603 01 601 970 194, 0603 01 601 970 170</remarks>
   </order>
   <order soldto="PAS" date="2012-11-27" delivered="2012-12-20" price="200">
     <name>nur darwisya bt mohd zulkarnaini</name>
@@ -6292,21 +6292,23 @@
     <item>PV</item>
     <remarks>Em032522502MY</remarks>
   </order>
-  <order soldto="PAS" date="2013-01-20" delivered="" price="260">
+  <order soldto="PAS" date="2013-01-20" delivered="2013-02-06" price="260">
     <name>Zulkifle bin bakar</name>
     <jawi>زوالكيفلي بن بكر</jawi>
   	<born>1962-09-14</born>
     <death>2012-12-16</death>
     <deathm>1434-02-03</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>0603 01 601 970 170</remarks>
   </order>
-  <order soldto="PAS" date="2013-01-20" delivered="" price="260">
+  <order soldto="PAS" date="2013-01-20" delivered="2013-02-06" price="260">
     <name>Rosmadi bin abdul manaf</name>
     <jawi>روسمادي بن عبدول مانف</jawi>
   	<born>1964-12-03</born>
     <death>2012-12-12</death>
     <deathm>1434-01-28</deathm>
     <item>2' Batu Batik(L)</item>
+    <remarks>0603 01 601 970 170</remarks>
   </order>
   <order soldto="HAM" date="2013-01-21" delivered="2013-01-30" price="12">
     <name>suhaime bin kamaludin</name>
@@ -6565,5 +6567,34 @@
     <death>2013-01-27</death>
     <deathm>1434-03-15</deathm>
     <item>PV</item>
+  </order>
+  <order soldto="SEM" date="2013-02-03" delivered="" price="230">
+    <name>Nor zarina bt harun</name>
+    <jawi>نور زرعنا بنت هارون</jawi>
+    <death>1996-12-22</death>
+    <deathm>1417-08-11</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEM" date="2013-02-03" delivered="" price="230">
+    <name>meriam bt said</name>
+    <jawi>مريم بنت سعيد</jawi>
+    <death>1994-08-30</death>
+    <deathm>1415-03-24</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEM" date="2013-02-03" delivered="" price="230">
+    <name>yuslina bt mokhtar</name>
+    <jawi>يوصلنا بنت مختار</jawi>
+    <death>2013-01-08</death>
+    <deathm>1434-02-26</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-02-06" delivered="" price="12">
+    <name>yahaya bin othman</name>
+    <jawi>يحيي بن عثمان</jawi>
+    <death>2012-10-16</death>
+    <deathm>1433-11-30</deathm>
+  	<age>68</age>
+    <item>2' Tarazo(L)</item>
   </order>
 </nisan>
