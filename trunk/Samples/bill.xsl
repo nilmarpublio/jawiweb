@@ -72,12 +72,12 @@
           <span class="deliver">Delivered</span>
           <span class="name">Description</span>
           <hr></hr>
-          <xsl:variable name="last">2010-02-26</xsl:variable>
-          <xsl:variable name="today">2010-03-01</xsl:variable>
+          <xsl:variable name="last">2012-11-01</xsl:variable>
+          <xsl:variable name="today">2013-02-05</xsl:variable>
           <ol>
             <xsl:for-each select="nisan/order">
               <xsl:sort select="@date" data-type="text" order="ascending" />
-              <xsl:if test="@soldto='HAM'
+              <xsl:if test="@soldto='ADI'
                       and (@delivered=$last or @delivered=''
                       or
                       (substring(@date,1,4) >= substring($last,1,4)
