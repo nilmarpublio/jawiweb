@@ -157,11 +157,6 @@
     <sex>1</sex>
   </rootname>
   <rootname>
-    <rumi>aboo</rumi>
-    <jawi>أبو</jawi>
-    <sex>1</sex>
-  </rootname>
-  <rootname>
     <rumi>abu</rumi>
     <jawi>أبو</jawi>
     <sex>1</sex>
@@ -170,14 +165,6 @@
     <rumi>adam</rumi>
     <jawi>ادام</jawi>
     <sex>1</sex>
-  </rootname>
-  <rootname>
-    <rumi>adawiyah</rumi>
-  </rootname>
-  <rootname>
-    <rumi>adbullah</rumi>
-    <jawi>عبدالله</jawi>
-    <sex>0</sex>
   </rootname>
   <rootname>
     <rumi>adnan</rumi>
@@ -5757,8 +5744,8 @@
   </rootname>
   <rootname>
     <rumi>islam</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>إسلام</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>islamiah</rumi>
@@ -6767,9 +6754,6 @@
     <rumi>kalsom</rumi>
     <jawi>كلسوم</jawi>
     <sex>2</sex>
-  </rootname>
-  <rootname>
-    <rumi>kalsombee</rumi>
   </rootname>
   <rootname>
     <rumi>kalsum</rumi>
@@ -8974,6 +8958,8 @@
   </rootname>
   <rootname>
     <rumi>mia</rumi>
+    <jawi>ميا</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>miah</rumi>
