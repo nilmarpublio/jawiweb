@@ -6227,7 +6227,7 @@
   	<age>68</age>
     <item>2' Tarazo(L)</item>
   </order>
-  <order soldto="ADI" date="2013-01-23" delivered="" price="35">
+  <order soldto="ADI" date="2013-01-23" delivered="2013-02-05" price="35">
     <name>Bidah bt sontor</name>
     <jawi>بيده بنت سونبور</jawi>
     <death>2009-04-17</death>
@@ -6268,7 +6268,7 @@
     <item>2' Batu Hitam(L)</item>
     <remarks>0603 01 970 166</remarks>
   </order>
-  <order soldto="ADI" date="2013-01-28" delivered="" price="35">
+  <order soldto="ADI" date="2013-01-28" delivered="2013-02-05" price="35">
     <name>Ayeesha nur balqis bt mohd shafarin</name>
     <jawi>عايشة نور بلقيس بنت محمد شافارين</jawi>
   	<born>2011-11-20</born>
@@ -6276,7 +6276,7 @@
     <deathm>1434-02-18</deathm>
     <item>PV Budak</item>
   </order>
-  <order soldto="ADI" date="2013-01-28" delivered="" price="35">
+  <order soldto="ADI" date="2013-01-28" delivered="2013-02-05" price="35">
     <name>hjh rafeah bt hj sedek</name>
     <jawi>حجه رفعه بنت حاج صيديق</jawi>
     <death>2012-12-01</death>
@@ -6684,5 +6684,72 @@
     <deathm></deathm>
   	<age></age>
     <item>1'x2' Sticker</item>
+  </order>
+  <order soldto="ADI" date="2013-02-19" delivered="" price="35">
+    <name>Ramaddan bin andi ruslan</name>
+    <jawi>رمضان بن عندي روسلن</jawi>
+    <death>2013-01-17</death>
+    <deathm>1434-03-05</deathm>
+    <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2013-02-19" delivered="" price="35">
+    <name>Muhammad shahmer bin zamha</name>
+    <jawi>محمد شاهمر بن زعمها</jawi>
+    <death>2012-07-16</death>
+    <deathm>1433-08-26</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-02-19" delivered="" price="35">
+    <name>Normala bt hamdan</name>
+    <jawi>نورمال بنت حمدان</jawi>
+    <death>2012-10-12</death>
+    <deathm>1433-11-26</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-02-19" delivered="" price="35">
+    <name>Hajah hamsah bt hj shamsuri</name>
+    <jawi>حجه همسه بنت حاج شامسوري</jawi>
+    <death>2013-01-02</death>
+    <deathm>1434-02-20</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-02-19" delivered="" price="35">
+    <name>Salbiah binti abd aziz</name>
+    <jawi>سلبيه بنت عبدالعزيز</jawi>
+    <born>1952-06-03</born>
+    <death>2012-09-12</death>
+    <deathm>1433-10-25</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-02-19" delivered="" price="35">
+    <name>Norhanah bt ahmad yahya</name>
+    <jawi>نورهنه بنت أحمد يحيى</jawi>
+    <death>2013-01-15</death>
+    <deathm>1434-03-03</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-02-19" delivered="" price="35">
+    <name>Hamisah bt abdul raoh</name>
+    <jawi>هميسه بنت عبدول راوح</jawi>
+    <born>1943-04-01</born>
+    <death>2012-11-29</death>
+    <deathm>1434-01-15</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="PAS" date="2013-02-07" delivered="" price="260">
+    <name>Roswadi bin ab manaf</name>
+    <jawi>روسوادي بن عبدالمانف</jawi>
+    <born>1964-12-03</born>
+    <death>2012-12-12</death>
+    <deathm>1434-01-28</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+    <order soldto="PAS" date="2013-02-07" delivered="" price="260">
+    <name>Tuan guru hj ab rahman bin hamidah</name>
+    <jawi>توان ݢورو حاج عبدالرحمن بن هاميده</jawi>
+    <death>2008-04-20</death>
+    <deathm>1429-04-13</deathm>
+    <item>2' Batu Batik(L)</item>
+    <remarks>pengasas pondok hj yaacob sambal 1998</remarks>
   </order>
 </nisan>
