@@ -4599,7 +4599,7 @@
   <rootname>
     <rumi>hamisah</rumi>
     <jawi>هميسه</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>hamisha</rumi>
@@ -11425,8 +11425,8 @@
   </rootname>
   <rootname>
     <rumi>ramadhan</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>رمضان</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ramah</rumi>
