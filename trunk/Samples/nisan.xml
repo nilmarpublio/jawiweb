@@ -6404,7 +6404,7 @@
     <age>62</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-01-25" delivered="2013-02-04" price="12">
+  <order soldto="HAM" date="2013-01-25" delivered="2013-02-22" price="12">
     <name>aminah bt amin</name>
     <jawi>أمينة بنت أمين</jawi>
     <death>2013-01-22</death>
@@ -6605,7 +6605,7 @@
   	<age>38</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-02-12" delivered="" price="12">
+  <order soldto="HAM" date="2013-02-12" delivered="2013-02-22" price="12">
     <name>mohamad bin abdullah</name>
     <jawi>محمد بن عبدالله</jawi>
     <death>2012-08-10</death>
@@ -6613,7 +6613,7 @@
   	<age>61</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-02-12" delivered="" price="12">
+  <order soldto="HAM" date="2013-02-12" delivered="2013-02-22" price="12">
     <name>sharifah thalha bt syed hassan albaharom@alharu</name>
     <jawi></jawi>
     <death>1964</death>
@@ -6645,7 +6645,7 @@
   	<age>68</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-02-12" delivered="" price="12">
+  <order soldto="HAM" date="2013-02-12" delivered="2013-02-22" price="12">
     <name>mohd dahlan bin abd latif</name>
     <jawi>محمد دحلان بن عبداللطيف</jawi>
     <death>2012-12-25</death>
@@ -6653,7 +6653,7 @@
   	<age>69</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-02-12" delivered="" price="12">
+  <order soldto="HAM" date="2013-02-12" delivered="2013-02-22" price="12">
     <name>azelan bin othman</name>
     <jawi>ازلن بن عثمان</jawi>
     <death>2013-01-30</death>
@@ -6661,7 +6661,7 @@
   	<age>64</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-02-12" delivered="" price="12">
+  <order soldto="HAM" date="2013-02-12" delivered="2013-02-22" price="12">
     <name>kelsom bee bt ahmad</name>
     <jawi>كلسوم بي بنت أحمد</jawi>
     <death>2012-07-17</death>
@@ -6669,7 +6669,7 @@
   	<age>67</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-02-12" delivered="" price="12">
+  <order soldto="HAM" date="2013-02-12" delivered="2013-02-22" price="12">
     <name>hj syed bin abu bakar</name>
     <jawi>حاج شيد بن أبو بكر</jawi>
     <death>2013-01-24</death>
@@ -6744,7 +6744,7 @@
     <deathm>1434-01-28</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-    <order soldto="PAS" date="2013-02-07" delivered="" price="260">
+  <order soldto="PAS" date="2013-02-07" delivered="" price="260">
     <name>Tuan guru hj ab rahman bin hamidah</name>
     <jawi>توان ݢورو حاج عبدالرحمن بن هاميده</jawi>
     <death>2008-04-20</death>
