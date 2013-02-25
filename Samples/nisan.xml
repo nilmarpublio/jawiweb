@@ -6576,21 +6576,21 @@
     <item>PV</item>
 	<remarks>EM032522493MY</remarks>
   </order>
-  <order soldto="SEM" date="2013-02-03" delivered="" price="230">
+  <order soldto="SEM" date="2013-02-03" delivered="2013-02-23" price="230">
     <name>Nor zarina bt harun</name>
     <jawi>نور زرعنا بنت هارون</jawi>
     <death>1996-12-22</death>
     <deathm>1417-08-11</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2013-02-03" delivered="" price="230">
+  <order soldto="SEM" date="2013-02-03" delivered="2013-02-23" price="230">
     <name>meriam bt said</name>
     <jawi>مريم بنت سعيد</jawi>
     <death>1994-08-30</death>
     <deathm>1415-03-24</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2013-02-03" delivered="" price="230">
+  <order soldto="SEM" date="2013-02-03" delivered="2013-02-23" price="230">
     <name>yuslina bt mokhtar</name>
     <jawi>يوصلنا بنت مختار</jawi>
     <death>2013-01-08</death>
