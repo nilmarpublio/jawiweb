@@ -6511,62 +6511,70 @@
     <age>43</age>
     <item>2' Tarazo(L)</item>
   </order>
-  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-02-04" delivered="2013-02-25" price="35">
     <name>Hashim bin haji nawawi</name>
     <jawi>هاشم بن حاج نووي</jawi>
     <death>2012-10-29</death>
     <deathm>1433-12-13</deathm>
     <item>PV</item>
+	<remarks>EM032522493MY</remarks>
   </order>
-  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-02-04" delivered="2013-02-25" price="35">
     <name>Mohd radzi bin chik</name>
     <jawi>محمد راضي بن چيك</jawi>
     <death>2009-11-22</death>
     <deathm>1430-12-05</deathm>
     <item>PV Egg</item>
+	<remarks>EM032522493MY</remarks>
   </order>
-  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-02-04" delivered="2013-02-25" price="35">
     <name>Saiman bin mat</name>
     <jawi>سيمان بن مت</jawi>
     <death>2012-10-16</death>
     <deathm>1433-11-30</deathm>
     <item>PV Egg</item>
+	<remarks>EM032522493MY</remarks>
   </order>
-  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-02-04" delivered="2013-02-25" price="35">
     <name>Khamariah bt hj sa'at</name>
     <jawi>خمرية بنت حاج سعت</jawi>
     <born>1942-09-12</born>
     <death>2012-09-22</death>
     <deathm>1433-11-06</deathm>
     <item>PV</item>
+	<remarks>EM032522493MY</remarks>
   </order>
-  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-02-04" delivered="2013-02-25" price="35">
     <name>Mahani bt yusop</name>
     <jawi>مهني بنت يوسوف</jawi>
     <death>1976-10-12 02:25</death>
     <deathm>1396-10-19</deathm>
     <item>PV Budak</item>
+	<remarks>EM032522493MY</remarks>
   </order>
-  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-02-04" delivered="2013-02-25" price="35">
     <name>Hani mastura bt nor akbar</name>
     <jawi>هاني مستورة بنت نور أكبر</jawi>
     <death>2002-10-02 16:30</death>
     <deathm>1423-07-26</deathm>
     <item>PV Budak</item>
+	<remarks>EM032522493MY</remarks>
   </order>
-  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-02-04" delivered="2013-02-25" price="35">
     <name>Fatimah bt hj omar</name>
     <jawi>فطمة بنت حاج عمر</jawi>
     <death> </death>
     <deathm></deathm>
     <item>PV</item>
+	<remarks>EM032522493MY</remarks>
   </order>
-  <order soldto="ADI" date="2013-02-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-02-04" delivered="2013-02-25" price="35">
     <name>Mohd alies bin hj wahab</name>
     <jawi>محمد اليس بن حاج واهب</jawi>
     <death>2013-01-27</death>
     <deathm>1434-03-15</deathm>
     <item>PV</item>
+	<remarks>EM032522493MY</remarks>
   </order>
   <order soldto="SEM" date="2013-02-03" delivered="" price="230">
     <name>Nor zarina bt harun</name>
@@ -6597,7 +6605,7 @@
   	<age>68</age>
     <item>2' Tarazo(L)</item>
   </order>
-  <order soldto="HAM" date="2013-02-12" delivered="" price="12">
+  <order soldto="HAM" date="2013-02-12" delivered="2013-02-25" price="12">
     <name>azahar bin islam</name>
     <jawi>ازهار بن إسلام</jawi>
     <death>2013-01-25</death>
@@ -6621,7 +6629,7 @@
   	<age></age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-02-12" delivered="" price="12">
+  <order soldto="HAM" date="2013-02-12" delivered="2013-02-25" price="12">
     <name>aisa bt sawin</name>
     <jawi>ايسا بنت ساوين</jawi>
     <death>2013-01-20</death>
@@ -6629,7 +6637,7 @@
   	<age>83</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-02-12" delivered="" price="12">
+  <order soldto="HAM" date="2013-02-12" delivered="2013-02-25" price="12">
     <name>zaharah bt che mia</name>
     <jawi>زاحاره بنت چئ ميا</jawi>
     <death>2012-12-07</death>
@@ -6637,7 +6645,7 @@
   	<age>65</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-02-12" delivered="" price="12">
+  <order soldto="HAM" date="2013-02-12" delivered="2013-02-25" price="12">
     <name>mohd rosly bin md sulaiman</name>
     <jawi>محمد روسلي بن مد سُليمان</jawi>
     <death>2013-01-29</death>
