@@ -1,23 +1,14 @@
 ﻿/**
  * @see http://colorschemedesigner.com/#2c61TowoHw0w0
  */
-html, body, h1, form, fieldset, legend, ol, li {
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-	text-transform: uppercase;
-	clear: both;
-}
-
+html, body, h1, form, fieldset, legend, ol, li {margin: 0;padding: 0;}
+h1 {text-transform: uppercase;clear: both;}
 body {
     background: #ffffff;
     color: #111111;
     font-family: Georgia, "Times New Roman", Times, serif;
     padding : 20px;
 }
-
 
 .box,
 form {
@@ -30,15 +21,10 @@ form {
 }
 
 .box fieldset,
-form fieldset {
-    border: none;
-    margin-bottom: 10px;
-}
+form fieldset {border: none;margin-bottom: 10px;}
 
 .box fieldset:last-of-type,
-form fieldset:last-of-type {
-    margin-bottom: 0;
-}
+form fieldset:last-of-type {margin-bottom: 0;}
 
 .box legend,
 form legend {
@@ -79,18 +65,10 @@ form ol li {
 }
 
 .box ol ol li,
-form ol ol li {
-    background: none;
-    border: none;
-    float: left;
-}
+form ol ol li {background: none;border: none;float: left;}
 
 .box label,
-form label {
-    float: left;
-    font-size: 13px;
-    width: 110px;
-}
+form label {float: left;font-size: 13px;width: 110px;}
 
 .box fieldset fieldset label,
 form fieldset fieldset label {
@@ -101,9 +79,7 @@ form fieldset fieldset label {
 }
 
 .box fieldset fieldset label:hover,
-form fieldset fieldset label:hover {
-    cursor: pointer;
-}
+form fieldset fieldset label:hover {cursor: pointer;}
 
 .box textarea,
 form textarea {
@@ -121,9 +97,7 @@ form textarea {
 .box input:not([type=submit]):focus,
 form input:not([type=submit]):focus,
 .box textarea:focus,
-form textarea:focus {
-    background: #eaeaea;
-}
+form textarea:focus {background: #eaeaea;}
 
 button,
 .box button,
@@ -148,20 +122,14 @@ form button {
 
 button:hover,
 .box button:hover,
-form button:hover {
-    background: #1e2506;
-    cursor: pointer;
-}
+form button:hover {background: #1e2506;cursor: pointer;}
 
 /**
  * Make input like a label for those readonly attribute.
  */
 input[readonly="readonly"],
 .box input[readonly="readonly"],
-form input[readonly="readonly"] {
-	border: none;
-	background: transparent;
-}
+form input[readonly="readonly"] {border: none;background: transparent;}
 
 #results li {
 	list-style-type: decimal;
@@ -176,20 +144,18 @@ form input[readonly="readonly"] {
 #results li:nth-child(even) { background: #CCC;}
 #results li:nth-child(odd) {background: #FFF;}
 
-
 img:hover {cursor: hand;}
 
 /**
  * Apply to numeric input.
  */
-.numberBox {
-	text-align: right;
-	width: 60px;
-}
+.numberBox {text-align: right;width: 60px;}
 
-/**
- * Apply to date control.
- */
-.dateBox {
-	text-align: right;
-}
+/** Apply to date control */
+.dateBox {text-align: right;}
+
+#summary {position: absolute;top: 50px;left: 630px;}
+table tr td {text-align: right;}
+
+#results tr:nth-child(odd) {background: #C5BB2E; }
+#results tr:nth-child(even) {background: white;}

@@ -3,50 +3,7 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title>Pending List</title>
-        <style type="text/css">
-            html {font-family:Tahoma,Calibri,Verdana,Arial;font-size:9pt;}
-            .headerRight {float:right;margin: 0 0 10px 80px;font-size:10px;text-align:right;}
-            h3 {font-variant:small-caps;text-align:center;}
-            th {background:lightgrey;}
-            
-            .blue {color:blue;}
-            .red {color:red;text-decoration:blink;}
-            .green {color:green;}
-            .white {color:gray;}
-            .italic {font-style: italic;}
-            .highlight {background:lightgrey;}
-            .strikethrough {text-decoration:line-through;}
-            
-            h3 ol,ul {margin:0;padding:0;list-style-type:none;display:inline;}
-            ul li {list-style-type:none;display:inline;}
-            ul li a {color:Black;}            
-            #xml_wrapper ul {margin-left:0;}            
-            
-            #xml_wrapper table th {
-                font-weight:normal;
-                text-align: left;
-	            background: lightgrey;
-	            cursor: pointer;
-            }
-            #xml_wrapper table th:first-child { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px }
-            #xml_wrapper table th:last-child { -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px }
-            #xml_wrapper table tbody td {margin-right:10px;}
-            
-            .th_hover { color: #ccc}  
-            .headerSortDown,.headerSortUp { font-weight: bold !important }
-            
-            /*For zebra stiping in table*/		
-            /* NOTE: This does not work as intended with filtering */	
-            .odd {}
-            .even {}
-            .stripe { background: gainsboro !important}
-            
-			.footer { float:left;bottom:10px;font-size:10px;}
-			.footer ul li { list-style:none;display:inline;}
-          	.left {float:left;}
-          	.right {float:right;}
-        </style>
-        
+        <link rel="stylesheet" type="text/css" href="style/common.css"/>
         <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
         <script type="text/javascript" src="js/xml.js"></script>
         <script type="text/javascript" src="js/table_sort.js"></script>
