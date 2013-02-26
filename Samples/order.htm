@@ -20,7 +20,7 @@
           .order {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
           .deliver {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
           .name { display:inline-table;width:420px;padding:0 6px 0 0; }
-          .item {display:inline-table;width:84px;padding:0 6px 0 0;}
+          .item {display:inline-table;width:90px;padding:0 6px 0 0;}
           .jawi { }
 
           .price {display:inline-table;width:40px;text-align:right;}
@@ -45,6 +45,10 @@
         
         	$("#datepicker").datepicker({dateFormat:"yy-mm-dd"});
         	
+        	/**
+        	 * Generate xml output with xslt on the fly.
+        	 * @see http://stackoverflow.com/questions/6578154/can-you-use-jquery-to-transfrom-xml-to-xml-via-xslt
+        	 */
         	$("#submit").click(function(){
         		console.log("getting report for "+$("#soldto").val()+" since "+$("#datepicker").val());
         		
