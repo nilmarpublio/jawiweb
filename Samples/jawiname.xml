@@ -3605,8 +3605,8 @@
   </rootname>
   <rootname>
     <rumi>fadzil</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>فاضيل</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>fadzilah</rumi>
@@ -4115,8 +4115,8 @@
   </rootname>
   <rootname>
     <rumi>ghouse</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>غأوص</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ghulam</rumi>
@@ -5590,8 +5590,8 @@
   </rootname>
   <rootname>
     <rumi>imran</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>عمران</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>in</rumi>
@@ -6214,7 +6214,7 @@
   <rootname>
     <rumi>jani</rumi>
     <jawi>جاني</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>jannah</rumi>
@@ -7167,6 +7167,11 @@
     <rumi>khalidi</rumi>
     <jawi />
     <sex>0</sex>
+  </rootname>
+  <rootname>
+    <rumi>khalif</rumi>
+    <jawi>خليف</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>khalifah</rumi>
