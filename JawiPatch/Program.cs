@@ -117,7 +117,7 @@ namespace JawiPatch
 			wordScales.Option = WordScalesOption.Word;
 
 			string content = string.Empty;
-			DirectoryInfo directoryInfo = new DirectoryInfo(@"D:\JawiName");
+			DirectoryInfo directoryInfo = new DirectoryInfo(@"E:\JawiName");
 			FileInfo[] files = directoryInfo.GetFiles();
 			foreach (FileInfo file in files)
 				content += file.Name.ToLower() + " ";
@@ -169,6 +169,60 @@ namespace JawiPatch
 			table.WriteXml("nisan2.xml");
 			
 			Console.WriteLine("Complete");
+		}
+		
+		/// <summary>
+		/// A task to fill up all jawi with rumi whatever we have up to date.
+		/// </summary>
+		/// <remarks>
+		/// Since 2013-02-07
+		/// </remarks>
+		[Test]
+		public void FillJawiForRumi()
+		{
+			DataSet dataSet = new DataSet();
+			dataSet.ReadXml("e:\\works\\nisan.xml");
+			DataTable table = dataSet.Tables[0].Copy();
+			dataSet.Dispose();
+			
+			Dictionary<string, List<string>> dictionary = new Dictionary<string, List<string>>();
+			foreach(DataRow row in table.Rows)
+			{
+				//Console.WriteLine(row["name"].ToString());
+				//Console.WriteLine(row["jawi"].ToString());
+				
+				char[] delimiters = new char[]{' ', '@', '/', '\\','.','.','،'};
+				string[] rumis = row["name"].ToString().ToLower().Split(delimiters);
+				string[] jawis = row["jawi"].ToString().Split(delimiters);
+				if(rumis.Length == jawis.Length)
+				{
+					for(int i=0;i<rumis.Length;i++)
+					{
+						if(!dictionary.ContainsKey(rumis[i]))
+						{
+							List<string> jawi = new List<string>();
+							jawi.Add(jawis[i]);
+							dictionary.Add(rumis[i], jawi);
+						}
+						else
+						{
+							List<string> jawi = dictionary[rumis[i]];
+							if(!jawi.Contains(jawis[i]))
+								dictionary[rumis[i]].Add(jawis[i]);
+						}
+					}
+				}
+			}
+			
+			//write out result
+			foreach(KeyValuePair<string, List<string>> dict in dictionary)
+			{
+				string output = string.Empty;
+				output += dict.Key;
+				foreach(string v in dict.Value)
+					output += "\t" + v;
+				Console.WriteLine(output);
+			}
 		}
 	}
 }

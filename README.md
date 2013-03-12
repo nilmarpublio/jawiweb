@@ -13,13 +13,15 @@ UI Automation
 cmd > uniconvertor "bidah bt mat.svg" "bidah bt mat.plt"
 
 
-Issues
------
-JawiAuto.FlexisignTests.AutomateExport: System.InvalidOperationException: Operation cannot be performed.
 
-at MS.Internal.AutomationProxies.WindowsMenu.MenuItem.System.Windows.Automation.Provider.IExpandCollapseProvider.Expand()
-at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
-at MS.Internal.Automation.UiaCoreApi.CheckError(Int32 hr)
-at System.Windows.Automation.ExpandCollapsePattern.Expand()
-at JawiAuto.Flexisign.OpenFile(String fileName)
-at JawiAuto.FlexisignTests.AutomateExport()
+
+WPF
+-------
+
+[Ribbon Control](http://msdn.microsoft.com/en-us/library/ff799534.aspx)
+--------------------
+- [Guideline](http://msdn.microsoft.com/en-us/library/cc872782.aspx)
+
+Examples
+-------------
+- [Family.Show](http://familyshow.codeplex.com/)
