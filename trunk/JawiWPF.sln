@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-# SharpDevelop 4.2.1.8805
+# SharpDevelop 4.3
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{BAABA82D-FB4B-424B-A597-F1ADFE632853}"
 	ProjectSection(SolutionItems) = preProject
 		Libraries\WPFToolkit.dll = Libraries\WPFToolkit.dll
@@ -47,8 +47,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JawiEntry", "JawiEntry\JawiEntry.csproj", "{654AA50D-864B-463C-8D0A-9DF487611955}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HLGranite.Jawi.Test", "HLGranite.Jawi.Test\HLGranite.Jawi.Test.csproj", "{CE2C9B25-43C4-44BF-8A9C-CA7DE07508C9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JawiPatch.Test", "JawiPatch.Test\JawiPatch.Test.csproj", "{4FADDAA8-EED3-4711-B122-6EA0E857CB15}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JawiPath.Test", "JawiPath.Test\JawiPath.Test.csproj", "{DB5DF05B-16D8-4129-86D6-9FA7D7AE6397}"
 EndProject
@@ -168,18 +166,6 @@ Global
 		{CE2C9B25-43C4-44BF-8A9C-CA7DE07508C9}.Release|Mixed Platforms.ActiveCfg = Release|x86
 		{CE2C9B25-43C4-44BF-8A9C-CA7DE07508C9}.Release|x86.Build.0 = Release|x86
 		{CE2C9B25-43C4-44BF-8A9C-CA7DE07508C9}.Release|x86.ActiveCfg = Release|x86
-		{4FADDAA8-EED3-4711-B122-6EA0E857CB15}.Debug|Any CPU.Build.0 = Debug|x86
-		{4FADDAA8-EED3-4711-B122-6EA0E857CB15}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{4FADDAA8-EED3-4711-B122-6EA0E857CB15}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{4FADDAA8-EED3-4711-B122-6EA0E857CB15}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{4FADDAA8-EED3-4711-B122-6EA0E857CB15}.Debug|x86.Build.0 = Debug|x86
-		{4FADDAA8-EED3-4711-B122-6EA0E857CB15}.Debug|x86.ActiveCfg = Debug|x86
-		{4FADDAA8-EED3-4711-B122-6EA0E857CB15}.Release|Any CPU.Build.0 = Release|x86
-		{4FADDAA8-EED3-4711-B122-6EA0E857CB15}.Release|Any CPU.ActiveCfg = Release|x86
-		{4FADDAA8-EED3-4711-B122-6EA0E857CB15}.Release|Mixed Platforms.Build.0 = Release|x86
-		{4FADDAA8-EED3-4711-B122-6EA0E857CB15}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{4FADDAA8-EED3-4711-B122-6EA0E857CB15}.Release|x86.Build.0 = Release|x86
-		{4FADDAA8-EED3-4711-B122-6EA0E857CB15}.Release|x86.ActiveCfg = Release|x86
 		{DB5DF05B-16D8-4129-86D6-9FA7D7AE6397}.Debug|Any CPU.Build.0 = Debug|x86
 		{DB5DF05B-16D8-4129-86D6-9FA7D7AE6397}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{DB5DF05B-16D8-4129-86D6-9FA7D7AE6397}.Debug|Mixed Platforms.Build.0 = Debug|x86
