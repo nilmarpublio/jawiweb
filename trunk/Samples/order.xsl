@@ -15,6 +15,29 @@
       <head>
         <title>Customer Order List</title>
         <script type="text/javascript">
+		/**
+		 * Return month in word.
+		 * @month interger Month in integer.
+		 */
+		function getMonth(month) {
+			switch(month) {
+				case 1: return "Jan";
+				case 2: return "Feb";
+				case 3: return "Mar";
+				case 4: return "Apr";
+				case 5: return "May";
+				case 6: return "Jun";
+				case 7: return "Jul";
+				case 8: return "Aug";
+				case 9: return "Sep";
+				case 10: return "Oct";
+				case 11: return "Nov";
+				case 12: return "Dec";
+			}
+			
+			return "Unknown";
+		}
+		
         /*
          * Returns the current date in 'dd MM yyyy' format as a string.
          *
@@ -22,7 +45,7 @@
          */
         function todayStr() {
 			var today=new Date();
-	        return today.getDate()+"-"+(today.getMonth()+1)+"-"+today.getFullYear();
+	        return today.getDate() + "-" + getMonth(today.getMonth()+1) + "-" + today.getFullYear();
         }
       	
       	$(function() {
