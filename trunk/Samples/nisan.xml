@@ -6750,7 +6750,7 @@
     <item>PV</item>
     <remarks>EM032522459MY</remarks>
   </order>
-  <order soldto="PAS" date="2013-02-07" delivered="2013-02-23" price="260">
+  <order soldto="PAS" date="2013-02-07" delivered="2013-02-23" price="50">
     <name>Roswadi bin ab manaf</name>
     <jawi>روسوادي بن عبدالمانف</jawi>
     <born>1964-12-03</born>
@@ -6846,21 +6846,21 @@
   	<age>77</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="ADI" date="2013-03-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-03-04" delivered="2013-03-18" price="35">
     <name>arpah bt ahmad</name>
     <jawi>أرباح بنت أحمد</jawi>
     <death>2013-02-05</death>
     <deathm>1434-03-24</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2013-03-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-03-04" delivered="2013-03-18" price="35">
     <name>Surti bt sardi</name>
     <jawi>صورتي بنت سردي</jawi>
     <death>2013-02-26</death>
     <deathm>1434-04-15</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2013-03-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-03-04" delivered="2013-03-18" price="35">
     <name>Kasmon bin yamin</name>
     <jawi>قسمون بن يامين</jawi>
   	<born>1932-12-15</born>
@@ -6889,21 +6889,21 @@
     <deathm>1434-03-27</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2013-03-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-03-04" delivered="2013-03-18" price="35">
     <name>Tuan guru hj abdul aziz bin muhammad aqib</name>
     <jawi>توان ݢورو حاج عبدالعزيز بن محمد عقيب</jawi>
     <death>1951-05-01</death>
     <deathm>1370-07-24</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2013-03-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-03-04" delivered="2013-03-18" price="35">
     <name>Abu nain bin yahaya</name>
     <jawi>أبو نعين بن يحيي</jawi>
     <death>2012-10-09</death>
     <deathm>1433-11-23</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2013-03-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-03-04" delivered="2013-03-18" price="35">
     <name>Jeton bin latif</name>
     <jawi>جيتون بن لطيف</jawi>
   	<born>1932-05-12</born>
@@ -6911,7 +6911,7 @@
     <deathm>1433-12-05</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2013-03-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-03-04" delivered="2013-03-18" price="35">
     <name>Mat tohid bin budin</name>
     <jawi>مت توحيد بن بودين</jawi>
     <death>2012-12-12</death>
@@ -6935,7 +6935,7 @@
     <item>2' Batu Putih(P)</item>
 	<remarks>0603 01 603 029 081</remarks>
   </order>
-  <order soldto="ADI" date="2013-02-19" delivered="" price="35">
+  <order soldto="ADI" date="2013-02-19" delivered="2013-03-18" price="35">
     <name>Sapiah bt yusuf</name>
     <jawi>صفيه بنت يوسف</jawi>
     <born>1929-09-17</born>
@@ -6944,7 +6944,7 @@
     <age>84</age>
     <item>PV</item>
   </order>
-  <order soldto="SEM" date="2013-03-06" delivered="" price="230">
+  <order soldto="SEM" date="2013-03-06" delivered="2013-03-07" price="230">
     <name>che wan bt lazim</name>
     <jawi>چئ وان بنت لازيم</jawi>
     <death>2013-01-24</death>
@@ -7023,21 +7023,21 @@
   	<age>63</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="SEM" date="2013-03-10" delivered="" price="230">
+  <order soldto="SEM" date="2013-03-10" delivered="2013-03-07" price="330">
     <name>Halijah bt abdullah</name>
     <jawi>هاليجه بنت عبدالله</jawi>
     <death>2013-02-13</death>
     <deathm>1434-04-02</deathm>
     <item>2' Batu Hitam(P)</item>
   </order>
-  <order soldto="ALI" date="2013-03-10" delivered="" price="330">
+  <order soldto="ALI" date="2013-03-10" delivered="2013-03-15" price="330">
     <name>hussin bin abdullah</name>
     <jawi>سين بن عبدالله</jawi>
     <death>2013-01-29</death>
     <deathm>1434-03-17</deathm>
     <item>2½' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2013-03-10" delivered="" price="12">
+  <order soldto="HAM" date="2013-03-10" delivered="2013-03-18" price="12">
     <name>syed omar aidid bin syed abdullah</name>
     <jawi>شيد عمر ايديد بن شيد عبدالله</jawi>
     <death>2013-01-01</death>
@@ -7045,7 +7045,7 @@
   	<age>66</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-03-10" delivered="" price="12">
+  <order soldto="HAM" date="2013-03-10" delivered="2013-03-15" price="12">
     <name>ali bin daud</name>
     <jawi>علي بن داود</jawi>
     <death>2013-01-30</death>
@@ -7053,7 +7053,7 @@
   	<age>77</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-03-10" delivered="" price="12">
+  <order soldto="HAM" date="2013-03-10" delivered="2013-03-15" price="12">
     <name>mohamad bin ali</name>
     <jawi>محمد بن علي</jawi>
     <death>2013-02-02</death>
@@ -7061,7 +7061,7 @@
   	<age>5</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-03-10" delivered="" price="12">
+  <order soldto="HAM" date="2013-03-10" delivered="2013-03-15" price="12">
     <name>ramli bin che zain</name>
     <jawi>رماي بن چئ زين</jawi>
     <death>2013-02-13</death>
@@ -7069,7 +7069,7 @@
   	<age>35</age>
     <item>2' Tarazo(L)</item>
   </order>
-  <order soldto="HAM" date="2013-03-10" delivered="" price="12">
+  <order soldto="HAM" date="2013-03-10" delivered="2013-03-18" price="12">
     <name>abd aziz bin mydin pitchay</name>
     <jawi>عبدالعزيز بن يدين فييڅي</jawi>
     <death>2013-02-07</death>
@@ -7077,19 +7077,59 @@
   	<age>57</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-03-10" delivered="" price="12">
+  <order soldto="HAM" date="2013-03-10" delivered="2013-03-18" price="12">
     <name>siti aishah bt mohd faiz</name>
     <jawi>ستي عيشه بنت محمد فأيز</jawi>
     <death>2013-02-15</death>
     <deathm>1434-04-04</deathm>
     <item>1½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-03-10" delivered="" price="12">
+  <order soldto="HAM" date="2013-03-10" delivered="2013-03-18" price="12">
     <name>mohamed bin putih</name>
     <jawi>محمد بن فوتيه</jawi>
     <death>2013-02-24</death>
     <deathm>1434-04-13</deathm>
   	<age>72</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-03-21" delivered="" price="12">
+    <name>a.m.m. sariffdin bin mohd sultan</name>
+    <jawi></jawi>
+    <death>2012-12-07</death>
+    <deathm>1434-01-23</deathm>
+  	<age>74</age>
+    <item>2' Sticker(L)</item>
+  </order>
+    <order soldto="HAM" date="2013-03-21" delivered="" price="12">
+    <name>md abd kader jellani bin abd rahman</name>
+    <jawi>مد عبدالكادير جيلاني بن عبدالرحمن</jawi>
+    <death>2013-02-20</death>
+    <deathm>1434-04-09</deathm>
+  	<age>67</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+    <order soldto="HAM" date="2013-03-21" delivered="" price="12">
+    <name>rahmah bt che lah</name>
+    <jawi>رحمه بنت چئ له</jawi>
+    <death>2013-01-26</death>
+    <deathm>1434-03-14</deathm>
+  	<age>61</age>
+    <item>2' Sticker(P)</item>
+  </order>
+    <order soldto="HAM" date="2013-03-21" delivered="" price="12">
+    <name>hjh aminah bt abd rahim</name>
+    <jawi>حجه أمينة بنت عبدالرحيم</jawi>
+    <death>2013-02-12</death>
+    <deathm>1434-04-01</deathm>
+  	<age>67</age>
+    <item>2½' Sticker(P)</item>
+  </order>
+    <order soldto="HAM" date="2013-03-21" delivered="" price="12">
+    <name>mohd faisal bin rosli</name>
+    <jawi>محمد فيرال بن روسلي</jawi>
+    <death>2013-02-25</death>
+    <deathm>1434-04-14</deathm>
+  	<age>27</age>
     <item>2' Sticker(L)</item>
   </order>
 </nisan>
