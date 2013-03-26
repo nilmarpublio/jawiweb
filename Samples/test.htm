@@ -1,0 +1,25 @@
+﻿<html>
+<head>
+<title>Test</title>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="jquery-ui.js"></script>
+<script type="text/javascript">
+	jQuery(function() {
+		jQuery("#soLink").click(function() {
+			console.log("click");
+			var dialog = $("<div></div>").html("Sand Owner")
+			.dialog({
+				height : 400,
+				width : 400,
+				title : "Sand Owner"
+			});
+			dialog.dialog("open");
+			dialog.html("Project Lead: Tim Murphy<br/>Software: Mike Tallroth");	
+		});
+	});
+</script>
+</head>
+<body>
+	<a href="#" id="soLink">Show</a>
+</body>
+</html>
