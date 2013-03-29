@@ -3,23 +3,41 @@
 <title>Test</title>
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="jquery-ui.js"></script>
+
+<style type="text/css">
+.hidePanel {visibility: hidden; width:0; height:0;}
+.hidePanel visiblePanel {visibility: visible;}
+#soContent {border: solid 1px black; background: whitesmoke;}
+</style>
 <script type="text/javascript">
-	jQuery(function() {
+	jQuery(document).ready(function() {
+		
+		jQuery("#soContent").draggable();
+		
 		jQuery("#soLink").click(function() {
-			console.log("click");
-			var dialog = $("<div></div>").html("Sand Owner")
-			.dialog({
-				height : 400,
-				width : 400,
-				title : "Sand Owner"
-			});
-			dialog.dialog("open");
-			dialog.html("Project Lead: Tim Murphy<br/>Software: Mike Tallroth");	
+			console.log("show");
+			jQuery("#soContent").css({"visibility": "visible"});//.toggleClass("visiblePanel");
+			jQuery("#soContent").css({"display": "block"});
+			jQuery("#soContent").css({"width":"100px"});
+			jQuery("#soContent").css({"height":"100px"});
+		});
+		
+		jQuery("#closeButton").click(function() {
+			console.log("close");
+			jQuery("#soContent").css({"visibility": "hidden"});
+			jQuery("#soContent").css({"width":"0"});
+			jQuery("#soContent").css({"height":"0"});
 		});
 	});
 </script>
 </head>
 <body>
 	<a href="#" id="soLink">Show</a>
+	<div id="soContent" class="hidePanel">
+		Project Lead: Tim Murphy<br/>
+		Software: Mike Tallroth
+		<a href="#" id="closeButton">Close</a>		
+	</div>
+	<p>This is new paragraph</p>
 </body>
 </html>

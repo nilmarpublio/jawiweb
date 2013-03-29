@@ -3642,11 +3642,6 @@
     <rumi>fahteh</rumi>
   </rootname>
   <rootname>
-    <rumi>faidzul</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
     <rumi>fairis</rumi>
     <jawi />
     <sex>0</sex>
@@ -3693,8 +3688,13 @@
     <sex>0</sex>
   </rootname>
   <rootname>
+    <rumi>faizol</rumi>
+    <jawi>فيزال</jawi>
+    <sex>1</sex>
+  </rootname>
+  <rootname>
     <rumi>faizul</rumi>
-    <jawi></jawi>
+    <jawi>فيزال</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
