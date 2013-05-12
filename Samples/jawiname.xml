@@ -2396,8 +2396,8 @@
   </rootname>
   <rootname>
     <rumi>bidi</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>بيدي</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>bidin</rumi>
@@ -9147,8 +9147,8 @@
   </rootname>
   <rootname>
     <rumi>moon</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>مون</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>moosa</rumi>
@@ -12173,8 +12173,8 @@
   </rootname>
   <rootname>
     <rumi>rosmawati</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>روسماواتي</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>rosme</rumi>
