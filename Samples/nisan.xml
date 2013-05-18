@@ -7709,4 +7709,12 @@
 	<deathm>1434-06-26</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
+  <order soldto="KEN" date="2013-05-17" delivered="" price="230">
+    <name>ROKIAH BT SHAFIE</name>
+    <jawi>روكياه بنت شافعي</jawi>
+    <death>2013-05-13</death>
+	<deathm>1434-07-03</deathm>
+  	<age>68</age>
+    <item>2' Batu Batik(P)</item>
+  </order>
 </nisan>
