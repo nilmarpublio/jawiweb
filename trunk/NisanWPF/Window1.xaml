@@ -1,8 +1,6 @@
 <Window
 	x:Class="NisanWPF.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	Title="NisanWPF"
-	Height="600"
-	Width="600">
+	Title="NisanWPF" Height="600" Width="600">
 	<Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="80" />
@@ -27,16 +25,16 @@
 						<Image Height="24" Width="24" Source="Resources\page_go.png" ToolTip="Import"/>
 					</Button>
 					<Button>
-						<Image Height="24" Width="24" Source="Resources\add.png" ToolTip="Add"/>
+						<Image Height="24" Width="24" Source="Resources\add.png" ToolTip="New order"/>
 					</Button>
 					<Button>
-						<Image Height="24" Width="24" Source="Resources\delete.png" ToolTip="Delete"/>
+						<Image Height="24" Width="24" Source="Resources\delete.png" ToolTip="Delete order"/>
 					</Button>
 					<Button>
-						<Image Height="24" Width="24" Source="Resources\inkscape.png" ToolTip="Convert"/>
+						<Image Height="24" Width="24" Source="Resources\inkscape.png" ToolTip="Convert to svg"/>
 					</Button>
 					<Button>
-						<Image Height="24" Width="24" Source="Resources\cut_red.png" ToolTip="Plot"/>
+						<Image Height="24" Width="24" Source="Resources\cut_red.png" ToolTip="Send to plotter"/>
 					</Button>
 					<Separator/>
 					<Button>
