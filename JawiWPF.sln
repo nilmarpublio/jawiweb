@@ -52,7 +52,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JawiPath.Test", "JawiPath.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractMalayDictionary", "ExtractMalayDictionary\ExtractMalayDictionary.csproj", "{2A835F19-70F0-4AEF-AA58-582FEC21535A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadJawi", "DownloadJawi\DownloadJawi.csproj", "{3D9F66AF-A5E7-43EA-A392-82049C25ABA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadJawi", "DownloadJawi\DownloadJawi.csproj", "F9F0EE19-D921-4C7D-A6A3-F5DD8B2D03C0"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -194,18 +194,18 @@ Global
 		{2A835F19-70F0-4AEF-AA58-582FEC21535A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{2A835F19-70F0-4AEF-AA58-582FEC21535A}.Release|x86.Build.0 = Release|Any CPU
 		{2A835F19-70F0-4AEF-AA58-582FEC21535A}.Release|x86.ActiveCfg = Release|Any CPU
-		{3D9F66AF-A5E7-43EA-A392-82049C25ABA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D9F66AF-A5E7-43EA-A392-82049C25ABA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D9F66AF-A5E7-43EA-A392-82049C25ABA3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{3D9F66AF-A5E7-43EA-A392-82049C25ABA3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{3D9F66AF-A5E7-43EA-A392-82049C25ABA3}.Debug|x86.Build.0 = Debug|Any CPU
-		{3D9F66AF-A5E7-43EA-A392-82049C25ABA3}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{3D9F66AF-A5E7-43EA-A392-82049C25ABA3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D9F66AF-A5E7-43EA-A392-82049C25ABA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D9F66AF-A5E7-43EA-A392-82049C25ABA3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{3D9F66AF-A5E7-43EA-A392-82049C25ABA3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{3D9F66AF-A5E7-43EA-A392-82049C25ABA3}.Release|x86.Build.0 = Release|Any CPU
-		{3D9F66AF-A5E7-43EA-A392-82049C25ABA3}.Release|x86.ActiveCfg = Release|Any CPU
+		F9F0EE19-D921-4C7D-A6A3-F5DD8B2D03C0.Debug|Any CPU.Build.0 = Debug|Any CPU
+		F9F0EE19-D921-4C7D-A6A3-F5DD8B2D03C0.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		F9F0EE19-D921-4C7D-A6A3-F5DD8B2D03C0.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		F9F0EE19-D921-4C7D-A6A3-F5DD8B2D03C0.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		F9F0EE19-D921-4C7D-A6A3-F5DD8B2D03C0.Debug|x86.Build.0 = Debug|Any CPU
+		F9F0EE19-D921-4C7D-A6A3-F5DD8B2D03C0.Debug|x86.ActiveCfg = Debug|Any CPU
+		F9F0EE19-D921-4C7D-A6A3-F5DD8B2D03C0.Release|Any CPU.Build.0 = Release|Any CPU
+		F9F0EE19-D921-4C7D-A6A3-F5DD8B2D03C0.Release|Any CPU.ActiveCfg = Release|Any CPU
+		F9F0EE19-D921-4C7D-A6A3-F5DD8B2D03C0.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		F9F0EE19-D921-4C7D-A6A3-F5DD8B2D03C0.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		F9F0EE19-D921-4C7D-A6A3-F5DD8B2D03C0.Release|x86.Build.0 = Release|Any CPU
+		F9F0EE19-D921-4C7D-A6A3-F5DD8B2D03C0.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
