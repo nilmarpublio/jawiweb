@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-# SharpDevelop 4.2.1.8805
+# SharpDevelop 4.3
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{52F906E9-7B83-4563-A202-C5FC5876E997}"
 	ProjectSection(SolutionItems) = postProject
 		Libraries\nunit.framework.dll = Libraries\nunit.framework.dll
@@ -31,5 +31,9 @@ Global
 		{DBD370A7-3967-40F5-9CBE-CA4BC15BB2E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DBD370A7-3967-40F5-9CBE-CA4BC15BB2E0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DBD370A7-3967-40F5-9CBE-CA4BC15BB2E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52EE131F-56E7-49C6-8850-F56DBC066971}.Debug|Any CPU.Build.0 = Debug|x86
+		{52EE131F-56E7-49C6-8850-F56DBC066971}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{52EE131F-56E7-49C6-8850-F56DBC066971}.Release|Any CPU.Build.0 = Release|x86
+		{52EE131F-56E7-49C6-8850-F56DBC066971}.Release|Any CPU.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal
