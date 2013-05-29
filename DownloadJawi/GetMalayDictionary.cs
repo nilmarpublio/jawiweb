@@ -71,10 +71,13 @@ namespace DownloadJawi
 								{
 									string chop = match2.Groups[0].Value;
 									//System.Diagnostics.Debug.WriteLine(chop);
-									string word = chop.Substring(2, chop.Length-6);
+									string word = chop.Substring(2, chop.Length-6).ToLower();
 									System.Diagnostics.Debug.WriteLine(word);
 									if(!dictionary.ContainsKey(word))
-										dictionary.Add(word, string.Empty);
+									{
+										if(isValidWord(word))
+											dictionary.Add(word, string.Empty);
+									}
 								}
 							}
 						}
@@ -92,6 +95,21 @@ namespace DownloadJawi
 		}
 		
 		/// <summary>
+		/// True if it is a valid Malay vocalburary otherwise false.
+		/// </summary>
+		/// <param name="word"></param>
+		/// <returns></returns>
+		private bool isValidWord(string word)
+		{
+			bool valid = true;
+			if(word.Contains("*")) return false;
+			//if(word.Contains("-")) return false;
+			if(word.Contains("?")) return false;
+			
+			return valid;
+		}
+		
+		/// <summary>
 		/// Write output as xml.
 		/// </summary>
 		private void WriteXml()
@@ -102,7 +120,7 @@ namespace DownloadJawi
 				if(!entry.Key.Contains(" "))
 				{
 					DataRow row = table.NewRow();
-					row["rumi"] = entry.Key.ToLower();
+					row["rumi"] = entry.Key;
 					table.Rows.Add(row);
 				}
 			}
