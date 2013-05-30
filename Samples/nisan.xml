@@ -7705,14 +7705,14 @@
 	<deathm>1433-11-07</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="KEN" date="2013-05-16" delivered="" price="230">
+  <order soldto="KEN" date="2013-05-16" delivered="2013-05-31" price="230">
     <name>Mohammad Zulhilmi Bin Radzuan</name>
     <jawi>محمد زولحلمي بن رضوان</jawi>
     <death>2013-05-07</death>
 	<deathm>1434-06-26</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="KEN" date="2013-05-17" delivered="" price="230">
+  <order soldto="KEN" date="2013-05-17" delivered="2013-05-31" price="230">
     <name>ROKIAH BT SHAFIE</name>
     <jawi>روكياه بنت شافعي</jawi>
     <death>2013-05-13</death>
@@ -7740,5 +7740,74 @@
     <death></death>
 	<deathm></deathm>
     <item>PV</item>
+  </order>
+  <order soldto="HAM" date="2013-05-21" delivered="" price="12">
+    <name>muhamed rowther bin m.m. sultan</name>
+    <jawi>محمد راوتر بن ايم, ايم, سلطان</jawi>
+    <death>2013-05-08</death>
+	<deathm>1434-06-27</deathm>
+	<age>66</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-05-21" delivered="" price="12">
+    <name>zainul abidin bin ali</name>
+    <jawi>زاينول ابيدين بن علي</jawi>
+    <death>2013-04-02</death>
+	<deathm>1434-05-21</deathm>
+	<age>64</age>
+    <item>2' Tarazo(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-05-29" delivered="" price="12">
+    <name>shuib bin md noor</name>
+    <jawi>شؤيب بن مد نور</jawi>
+    <death>2013-02-14</death>
+	<deathm>1434-04-03</deathm>
+	<age>85</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-05-29" delivered="" price="12">
+    <name>hj mohd ali bin salleh</name>
+    <jawi>حاج محمد علي بن صالح</jawi>
+    <death>2013-05-23</death>
+	<deathm>1434-07-13</deathm>
+	<age>60</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-05-29" delivered="" price="12">
+    <name>mohd ismail bin abd kareem</name>
+    <jawi>محمد إسماعيل بن عبدالكريم</jawi>
+    <death>2013-05-22</death>
+	<deathm>1434-07-12</deathm>
+	<age>68</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-05-29" delivered="" price="12">
+    <name>che nab bt hashim</name>
+    <jawi>چئ نب بنت هاشم</jawi>
+    <death>2005-02-15</death>
+	<deathm>1426-01-06</deathm>
+	<age>82</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="SEM" date="2013-05-30" delivered="" price="230">
+    <name>abd rahman bin abd karim</name>
+    <jawi>عبدالرحمن بن عبدالكريم</jawi>
+    <death>2013-03-17</death>
+	<deathm>1434-05-05</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2013-05-30" delivered="" price="230">
+    <name>shamsuri bin ahmad</name>
+    <jawi>شامسوري بن أحمد</jawi>
+    <death>2013-03-24</death>
+	<deathm>1434-05-12</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2013-05-30" delivered="" price="230">
+    <name>wahab bin hamzah</name>
+    <jawi>واهب بن حمزة</jawi>
+    <death>2012-12-18</death>
+	<deathm>1434-02-05</deathm>
+    <item>2' Batu Batik(L)</item>
   </order>
 </nisan>

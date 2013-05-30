@@ -7909,7 +7909,7 @@
   </rootname>
   <rootname>
     <rumi>m</rumi>
-    <jawi />
+    <jawi></jawi>
     <sex>0</sex>
   </rootname>
   <rootname>
@@ -9501,7 +9501,7 @@
   <rootname>
     <rumi>nab</rumi>
     <jawi>نب</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>nabeezah</rumi>
@@ -12199,8 +12199,7 @@
   </rootname>
   <rootname>
     <rumi>rostom</rumi>
-    <jawi />
-    
+    <jawi />    
     <sex>0</sex>
   </rootname>
   <rootname>
@@ -12210,6 +12209,8 @@
   </rootname>
   <rootname>
     <rumi>rowther</rumi>
+	<jawi>راوتر</jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>rozaidi</rumi>
