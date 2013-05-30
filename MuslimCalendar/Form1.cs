@@ -96,26 +96,41 @@ namespace MuslimCalendar
             if (e.KeyData == Keys.Enter)
             {
                 string input = textBox2.Text.Trim();
-                //todo: validate the input text has valid format 2011-08-22
-                Regex regex = new Regex(@"[0-9]{4}[-][0-9]{2}[-][0-9]{2}");
-                if (regex.IsMatch(input))
+                input = input.Substring(0, 10);
+                string year = input.Substring(0, 4);
+                string month = input.Substring(5, 2);
+                string day = input.Substring(8, 2);
+                
+                try
                 {
-                    string year = input.Substring(0, 4);
-                    string month = input.Substring(5, 2);
-                    string day = input.Substring(8, 2);
-                    try
-                    {
-                        DateTime date = new DateTime(Convert.ToInt16(year), Convert.ToInt16(month), Convert.ToInt16(day));
-                        DisplayResult(date);
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show(ex.Message);
-                        return;
-                    }
+                	//Regex regex = new Regex(@"[0-9]{4}[-][0-9]{2}[-][0-9]{2}");// validate the input text has valid format 2011-08-22
+                	Regex regex = new Regex(@"[0-9]{4}");
+	                if (!regex.IsMatch(year))
+	                {
+	                	MessageBox.Show("Incorrect date format, please try again.");
+	                	return;
+	                }
+	                regex = new Regex(@"[0-9]{2}");
+	                if (!regex.IsMatch(month))
+	                {
+	                	MessageBox.Show("Incorrect date format, please try again.");
+	                	return;
+	                }
+	                regex = new Regex(@"[0-9]{2}");
+	                if (!regex.IsMatch(day))
+	                {
+	                	MessageBox.Show("Incorrect date format, please try again.");
+	                	return;
+	                }
+	                
+                    DateTime date = new DateTime(Convert.ToInt16(year), Convert.ToInt16(month), Convert.ToInt16(day));
+                    DisplayResult(date);
                 }
-                else
-                    MessageBox.Show("Incorrect date format, please try again.");
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    return;
+                }               
             }
         }
     }
