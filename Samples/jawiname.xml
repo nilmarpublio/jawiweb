@@ -44,7 +44,7 @@
   </character>
   <character>
     <english>k</english>
-    <arabic>ك</arabic>
+    <arabic>كي</arabic>
   </character>
   <character>
     <english>l</english>
@@ -11463,8 +11463,8 @@
   </rootname>
   <rootname>
     <rumi>ramlan</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>راملن</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ramle</rumi>
