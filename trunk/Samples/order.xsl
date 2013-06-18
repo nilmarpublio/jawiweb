@@ -167,6 +167,18 @@
           <hr />
 
           <div style="padding: 0 5px 0 0;float:right;font-weight:bold;">
+            <xsl:value-of select="count(order/@price[../@soldto=$customer
+                                                    and (
+                                                    (substring(../@date,1,4) >= substring($last,1,4)
+                                                    and substring(../@date,6,2) >= substring($last,6,2)
+                                                    and substring(../@date,9,2) >= substring($last,9,2))
+
+                                                    or (substring(../@date,1,4) >= substring($last,1,4)
+                                                    and substring(../@date,6,2) > substring($last,6,2))
+
+                                                    or (substring(../@date,1,4) > substring($last,1,4))
+                                                    )
+                                                    ])"/>pcs
             Total RM
             <xsl:value-of select="sum(order/@price[../@soldto=$customer
                                                     and (

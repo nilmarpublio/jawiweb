@@ -7180,7 +7180,7 @@
   </rootname>
   <rootname>
     <rumi>khalijah</rumi>
-    <jawi></jawi>
+    <jawi>خليجه</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
@@ -16258,8 +16258,8 @@
   </rootname>
   <rootname>
     <rumi>yussof</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>يوسوف</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>yusu</rumi>
@@ -16268,6 +16268,8 @@
   </rootname>
   <rootname>
     <rumi>yusub</rumi>
+	<jawi>يوسوب</jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>yusuf</rumi>

@@ -7863,7 +7863,7 @@
     <item>PV</item>
     <remarks>EM628348110MY</remarks>
   </order>
-  <order soldto="HAM" date="2013-06-08" delivered="" price="12">
+  <order soldto="HAM" date="2013-06-08" delivered="2013-06-18" price="12">
     <name>sahillah bt ahmad</name>
     <jawi>ساهيله بنت أحمد</jawi>
     <death>2013-04-14</death>
@@ -7871,7 +7871,7 @@
     <age>54</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-06-08" delivered="" price="12">
+  <order soldto="HAM" date="2013-06-08" delivered="2013-06-18" price="12">
     <name>Johari Bin Che Meh</name>
     <jawi>جوهاري بن چئ مه</jawi>
     <death>2012-07-26</death>
@@ -7969,7 +7969,7 @@
     <deathm>1386-11-02</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-06-08" delivered="" price="12">
+  <order soldto="HAM" date="2013-06-08" delivered="2013-06-18" price="12">
     <name>K. fathima Beevi Athiyuthu</name>
     <jawi>كي, فطمة بيوي اتهييوتهو</jawi>
     <death>2011-06-08</death>
@@ -8031,13 +8031,22 @@
 	<deathm>1434-04-03 Khamis</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="HAM" date="2013-06-11" delivered="" price="12">
+  <order soldto="HAM" date="2013-06-11" delivered="2013-06-18" price="12">
     <name>kateja bebe bt allah picthy</name>
     <jawi>قطيجابي بي بنت الله فيجي</jawi>
     <death>2013-03-16</death>
     <deathm>1434-05-04</deathm>
     <age>70</age>
     <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-06-11" delivered="2013-06-18" price="12">
+    <name>kateja bebe bt allah picthy</name>
+    <jawi>قطيجابي بي بنت الله فيجي</jawi>
+    <death>2013-03-16</death>
+    <deathm>1434-05-04</deathm>
+    <age>70</age>
+    <item>2' Sticker(P)</item>
+    <remarks>rumi saja</remarks>
   </order>
   <order soldto="HAM" date="2013-06-16" delivered="" price="12">
     <name>hj idris bin hj osman</name>
@@ -8078,7 +8087,7 @@
     <deathm>1434-06-25</deathm>
     <item>1½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-06-16" delivered="" price="12">
+  <order soldto="HAM" date="2013-06-16" delivered="2013-06-18" price="12">
     <name>hasan bin shariff</name>
     <jawi>حسن بن شريف</jawi>
     <death>1986-02-05</death>
