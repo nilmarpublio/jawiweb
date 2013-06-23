@@ -596,7 +596,12 @@
   <rootname>
     <rumi>allahyarham</rumi>
     <jawi>الله يرحم</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
+  </rootname>
+    <rootname>
+    <rumi>allahyarhamah</rumi>
+    <jawi>الله يرحمه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>alli</rumi>
@@ -3511,8 +3516,8 @@
   </rootname>
   <rootname>
     <rumi>eshak</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>اسحاق</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>eshamudin</rumi>
@@ -11787,22 +11792,22 @@
   </rootname>
   <rootname>
     <rumi>ridhwan</rumi>
-    <jawi>رضوان</jawi>
+    <jawi>ريضوان</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ridwan</rumi>
-    <jawi>رضوان</jawi>
+    <jawi>ريضوان</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ridzuan</rumi>
-    <jawi>رضوان</jawi>
+    <jawi>ريضوان</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ridzwan</rumi>
-    <jawi>رضوان</jawi>
+    <jawi>ريضوان</jawi>
     <sex>1</sex>
   </rootname>
   <rootname>
@@ -15948,7 +15953,7 @@
   <rootname>
     <rumi>yam</rumi>
     <jawi>يام</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>yaman</rumi>
