@@ -8,26 +8,38 @@
       <head>
         <title>Jawi Name Index</title>
         <style type="text/css">
-          html {font-family:Tahoma,Verdana,Arial;}
+          html {font-family:Amiri,Tahoma,Verdana,Arial;}
           body > .header {position:fixed;}
           .rumi {padding-right:10px;}
+
           .header {
             background:#DDDDDD none repeat scroll 0 0;
-            /*height:8em;*/
             left:0;
             overflow:auto;
             position:absolute;
             top:0;
             width:100%;
+            padding: 10px;
           }
           .content {margin-top:150px;}
-          /*.tab {width:10px;}*/
-          /*.jawi{text-align:right;float:right;}*/
-          li {list-style:none;display:inline-block;padding-right:20px;}
+
+          li,
+          #legend {
+            border:solid 1px;
+            padding-left: 4px;
+            padding-right:20px;
+            margin: 4px;
+            border: solid 1px;
+            border-radius: 10px;
+          }
+
+          li {list-style:none;display:inline-block;}
           h3 a {text-transform:uppercase;}
           h4 {float:left;width:30px;padding:0;margin:0;text-transform:uppercase;}
-          .count{float:left;font-size:smaller;margin-left:10px;}
-          .block {background:gainsboro;margin:0 0 20px 0;}
+          .count {float:left;font-size:smaller;margin-left:10px;}
+          .block {background:gainsboro;margin:0 0 20px 0; padding: 10px;}
+          .male {background:blue; color:white;}
+          .female {background: red;}
         </style>
       </head>
       <body>
@@ -44,12 +56,11 @@
               </a> |
             </xsl:for-each>
           </h3>
-          <div class="legend">
-            Total <xsl:value-of select="count(//rumi)"/>
-            names - share
-            <span style="color:blue"> male</span>
-            <span style="color:orangered"> female</span>
-          </div>
+          Total <xsl:value-of select="count(//rumi)"/>
+          names -
+          <span id="legend">share</span>
+          <span class="male" id="legend">male</span>
+          <span class="female" id="legend">female</span>
         </div>
 
         <div class="content">
@@ -76,13 +87,13 @@
                   <xsl:if test="starts-with(rumi,$character)">
                     <li>
                       <xsl:if test="sex='1'">
-                        <xsl:attribute name="style">
-                          <xsl:text>color:blue;</xsl:text>
+                        <xsl:attribute name="class">
+                          <xsl:text>male</xsl:text>
                         </xsl:attribute>
                       </xsl:if>
                       <xsl:if test="sex='2'">
-                        <xsl:attribute name="style">
-                          <xsl:text>color:orangered;</xsl:text>
+                        <xsl:attribute name="class">
+                          <xsl:text>female</xsl:text>
                         </xsl:attribute>
                       </xsl:if>
                       <span class="rumi">
