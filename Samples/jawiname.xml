@@ -58,10 +58,10 @@
     <english>n</english>
     <arabic>ن</arabic>
   </character>
-	<character>
-	<english>ng</english>
-	<arabic>ڠ</arabic>
-	</character>
+  <character>
+    <english>ng</english>
+    <arabic>ڠ</arabic>
+  </character>
   <character>
     <english>o</english>
     <arabic>و</arabic>
@@ -110,7 +110,6 @@
     <english>z</english>
     <arabic>ز</arabic>
   </character>
-  
   <rootname>
     <rumi>a</rumi>
     <jawi>ا</jawi>
@@ -175,7 +174,7 @@
     <rumi>adriana</rumi>
     <jawi>أدريانا</jawi>
     <sex>2</sex>
-  </rootname>  
+  </rootname>
   <rootname>
     <rumi>afandi</rumi>
     <jawi>افندي</jawi>
@@ -598,7 +597,7 @@
     <jawi>الله يرحم</jawi>
     <sex>1</sex>
   </rootname>
-    <rootname>
+  <rootname>
     <rumi>allahyarhamah</rumi>
     <jawi>الله يرحمه</jawi>
     <sex>2</sex>
@@ -2495,8 +2494,8 @@
   </rootname>
   <rootname>
     <rumi>buang</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>budi</rumi>
@@ -4934,8 +4933,8 @@
   </rootname>
   <rootname>
     <rumi>hasib</rumi>
-	<jawi>حاسب</jawi>
-	<sex>1</sex>
+    <jawi>حاسب</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>hasif</rumi>
@@ -6883,7 +6882,7 @@
     <jawi />
     <sex>0</sex>
   </rootname>
-    <rootname>
+  <rootname>
     <rumi>kamsah</rumi>
     <jawi>قمصة</jawi>
     <sex>1</sex>
@@ -9051,8 +9050,8 @@
   </rootname>
   <rootname>
     <rumi>misbah</rumi>
-	<jawi></jawi>
-	<sex>1</sex>
+    <jawi></jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>miseni</rumi>
@@ -12204,7 +12203,7 @@
   </rootname>
   <rootname>
     <rumi>rostom</rumi>
-    <jawi />    
+    <jawi />
     <sex>0</sex>
   </rootname>
   <rootname>
@@ -12214,8 +12213,8 @@
   </rootname>
   <rootname>
     <rumi>rowther</rumi>
-	<jawi>راوتر</jawi>
-	<sex>1</sex>
+    <jawi>راوتر</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>rozaidi</rumi>
@@ -16163,7 +16162,7 @@
   <rootname>
     <rumi>yunan</rumi>
   </rootname>
-  <rootname>ho
+  <rootname>
     <rumi>yunos</rumi>
     <jawi />
     <sex>0</sex>
@@ -16273,8 +16272,8 @@
   </rootname>
   <rootname>
     <rumi>yusub</rumi>
-	<jawi>يوسوب</jawi>
-	<sex>1</sex>
+    <jawi>يوسوب</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>yusuf</rumi>
