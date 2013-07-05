@@ -5654,8 +5654,8 @@
   </rootname>
   <rootname>
     <rumi>iqbal</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>إقبال</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>iqbar</rumi>
@@ -8560,6 +8560,8 @@
   </rootname>
   <rootname>
     <rumi>masir</rumi>
+	<jawi></jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>masitah</rumi>
@@ -16315,8 +16317,8 @@
   </rootname>
   <rootname>
     <rumi>zabidah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>زبيده</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>zabidi</rumi>
