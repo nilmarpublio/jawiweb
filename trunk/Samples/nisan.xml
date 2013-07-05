@@ -8411,7 +8411,7 @@
     <age>46</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-06-28" delivered="" price="12">
+  <order soldto="HAM" date="2013-06-28" delivered="2013-07-05" price="12">
     <name>hjh habimah bt salikam</name>
     <jawi>حجه حابيمه بنت ساليكم</jawi>
     <death>2013-05-05</death>
@@ -8419,7 +8419,7 @@
     <age>52</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-06-28" delivered="" price="12">
+  <order soldto="HAM" date="2013-06-28" delivered="2013-07-05" price="12">
     <name>al siraj khan bin said sultan ismail</name>
     <jawi>ألسيراج خان بن سعيد سلطان إسماعيل</jawi>
     <born>1971-10-24</born>
@@ -8427,18 +8427,95 @@
     <deathm>1414-07-17</deathm>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-06-28" delivered="" price="12">
+  <order soldto="HAM" date="2013-06-28" delivered="2013-07-05" price="12">
     <name>s.k. abdul mutalif bin s.k. mydin pillay</name>
     <jawi>ايس،كي، عبدولمطابيف بن أيس،كي، مَيدين فياي</jawi>
     <death>2012-12-07</death>
     <deathm>1434-01-23</deathm>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-06-28" delivered="" price="12">
+  <order soldto="HAM" date="2013-06-28" delivered="2013-07-05" price="12">
     <name>m.p. patimuttu bt m.p. mohamad</name>
     <jawi>ايم،في، فاتيموتو بنت ايم،في،محمد</jawi>
     <death>2004-09-08</death>
     <deathm>1425-07-23</deathm>
     <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-07-01" delivered="" price="12">
+    <name>muhd tajudin marikan bin hj kassim marikan</name>
+    <jawi>محمد تجدين مريكن بن حاج قاسيم مريكن</jawi>
+    <death>1956-11-11</death>
+    <deathm>1376-04-08</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-07-01" delivered="" price="12">
+    <name>mansor bin hj hashim</name>
+    <jawi>منصور بن حاج هاشم</jawi>
+    <death>2012-11-19</death>
+    <deathm>1434-01-05</deathm>
+    <age>60</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-07-01" delivered="" price="12">
+    <name>hj abd majid bin ishak</name>
+    <jawi>حاج عبدالمجيد بن اسحاق</jawi>
+    <death>2013-05-28</death>
+    <deathm>1434-07-18</deathm>
+    <age>74</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-07-04" delivered="" price="12">
+    <name>roslina bt sulieman</name>
+    <jawi>روسلي بنت سُليمان</jawi>
+    <death>2013-07-01</death>
+    <deathm>1434-08-22</deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-07-04" delivered="" price="12">
+    <name>mohd ismail bin mohd sultan</name>
+    <jawi>محمد إسماعيل بن محمد سلطان</jawi>
+    <death>2002-05-04</death>
+    <deathm>1423-02-21</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-07-04" delivered="" price="12">
+    <name>hawa bee bt abd rahman</name>
+    <jawi>حواى بي بنت عبدالرحمن</jawi>
+    <death>2001-05-14</death>
+    <deathm>1422-02-20</deathm>
+    <age>81</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-07-04" delivered="" price="12">
+    <name>abd razak bin abdullah</name>
+    <jawi>عبدالرازق بن عبدالله</jawi>
+    <death>2013-06-01</death>
+    <deathm>1434-07-22</deathm>
+    <age>80</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-07-04" delivered="" price="12">
+    <name>sonyer bt ali</name>
+    <jawi>سونير بنت علي</jawi>
+    <death>2003-08-12</death>
+    <deathm>1424-06-14</deathm>
+    <age>79</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-07-04" delivered="" price="12">
+    <name>zainab bt suadi</name>
+    <jawi>زاينب بنت سوادي </jawi>
+    <death>2013-05-04</death>
+    <deathm>1434-06-23</deathm>
+    <age>76</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-07-04" delivered="" price="12">
+    <name>khalib bin yusuff</name>
+    <jawi>خاليب بن يوسوف</jawi>
+    <death>2013-06-15</death>
+    <deathm>1434-08-06</deathm>
+    <age>51</age>
+    <item>2' Sticker(L)</item>
   </order>
 </nisan>
