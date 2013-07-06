@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="JEF" date="2012-01-03" delivered="2012-01-09" price="220">
@@ -8170,7 +8170,7 @@
     <item>2' Batu Batik(P)</item>
     <remarks>Nama dua belah 060301603070882</remarks>
   </order>
-  <order soldto="PAS" date="2013-06-20" delivered="" price="260">
+  <order soldto="PAS" date="2013-06-20" delivered="2013-07-02" price="260">
     <name>Mat ali bin husain</name>
     <jawi>مت علي بن حسين</jawi>
     <born>1938-10-02</born>
@@ -8178,7 +8178,7 @@
     <deathm>1434-03-27</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="PAS" date="2013-06-20" delivered="" price="260">
+  <order soldto="PAS" date="2013-06-20" delivered="2013-07-02" price="260">
     <name>HJ ARIFIN BIN HJ HANAFI</name>
     <jawi>حاج عريفين بن حاج حنافي</jawi>
     <death>2013-02-05</death>
@@ -8256,13 +8256,6 @@
     <death>1972-06-09</death>
     <deathm>1392</deathm>
     <item>2' Sticker(P)</item>
-  </order>f
-  <order soldto="SEM" date="2013-06-23" delivered="" price="230">
-    <name>hjh haminah bt buang</name>
-    <jawi>حجه همينه بنت بواڠ</jawi>
-    <death>2013-05-13</death>
-    <deathm>1434-07-03</deathm>
-    <item>2' Batu Batik(P)</item>
   </order>
   <order soldto="SEM" date="2013-06-23" delivered="2013-06-30" price="230">
     <name>sahidan bin saad</name>
@@ -8518,4 +8511,11 @@
     <age>51</age>
     <item>2' Sticker(L)</item>
   </order>
+    <order soldto="SEM" date="2013-06-23" delivered="" price="230">
+        <name>Hjh jaminah bt buang</name>
+        <jawi></jawi>
+        <death>2013-05-13</death>
+        <deathm>1434-07-03</deathm>
+        <item>2' Batu Batik(P)</item>
+    </order>
 </nisan>
