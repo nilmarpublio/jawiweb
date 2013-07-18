@@ -8700,4 +8700,25 @@
     <deathm>1434-07-23</deathm>
     <item>2' Sticker(P)</item>
   </order>
+  <order soldto="ADI" date="2013-07-18" delivered="" price="35">
+    <name>Juwariah bt hj husin</name>
+    <jawi>جوريه بنت حاج حوسين</jawi>
+    <death>1986</death>
+    <deathm></deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-07-18" delivered="" price="35">
+    <name>Ismail bin kamaruzaman</name>
+    <jawi>إسماعيل بن كاماروزامان</jawi>
+    <death>2013-05-02</death>
+    <deathm>1434-06-21</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-07-18" delivered="" price="35">
+    <name>Saniah bt Saleh</name>
+    <jawi>ثانيه بنت صالح</jawi>
+    <death>2012-05-14</death>
+    <deathm>1433-06-23</deathm>
+    <item>PV</item>
+  </order>
 </nisan>
