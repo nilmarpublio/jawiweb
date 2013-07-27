@@ -8639,7 +8639,7 @@
     <deathm>1433-11-25</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-07-14" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-14" delivered="2013-07-25" price="12">
     <name>ahmad fuad bin hussain</name>
     <jawi>أحمد فوعد بن حُسين</jawi>
     <death>2013-06-10</death>
@@ -8647,7 +8647,7 @@
     <age>42</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-07-14" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-14" delivered="2013-07-25" price="12">
     <name>shaik abd rahman bin shaik mohd</name>
     <jawi>شيك عبدالرحمن بن شيك محمد</jawi>
     <death>1963-11-14</death>
@@ -8662,7 +8662,7 @@
     <age>73</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-07-14" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-14" delivered="2013-07-25" price="12">
     <name>nun bt karim</name>
     <jawi>نون بنت كريم</jawi>
     <death>2013-01-28</death>
@@ -8670,7 +8670,7 @@
     <age>67</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-07-14" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-14" delivered="2013-07-25" price="12">
     <name>hj kamaruzaman@rosley bin sidek</name>
     <jawi>حاج كاماروزامان/روسلي بن صيديق</jawi>
     <death>2013-05-12</death>
@@ -8686,14 +8686,14 @@
     <age>69</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-07-17" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-17" delivered="2013-07-25" price="12">
     <name>salizawati bt abd jalal</name>
     <jawi>ساليزاواتي بنت عبدالجلال</jawi>
     <death>2013-03-23</death>
     <deathm>1434-05-11</deathm>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-07-17" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-17" delivered="2013-07-25" price="12">
     <name>rokiah bt rabiah</name>
     <jawi>روكيه بنت رابيه</jawi>
     <death>2013-06-02</death>
@@ -8749,7 +8749,7 @@
     <deathm>1417-09-15</deathm>
     <item>PV</item>
   </order>
-  <order soldto="HAM" date="2013-07-22" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-22" delivered="2013-07-25" price="12">
     <name>sabariah bt othman</name>
     <jawi>سباريه بنت عثمان</jawi>
     <death>2013-06-19</death>
@@ -8757,7 +8757,7 @@
 	<age>50</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-07-22" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-22" delivered="2013-07-25" price="12">
     <name>suppiah bt daud</name>
     <jawi>صوفيه بنت داود</jawi>
     <death>2013-06-12</death>
@@ -8765,7 +8765,7 @@
 	<age>71</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-07-22" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-22" delivered="2013-07-25" price="12">
     <name>mat bin md nor</name>
     <jawi>مت بن مد نور</jawi>
     <death>2013-07-10</death>
@@ -8773,14 +8773,14 @@
 	<age>69</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-07-22" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-22" delivered="2013-07-25" price="12">
     <name>abdul sani bin aziz</name>
     <jawi>عبدالساني بن عزيز</jawi>
     <death>2013-05-29</death>
     <deathm>1434-07-19</deathm>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-07-22" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-22" delivered="2013-07-25" price="12">
     <name>said raman bin nasir ali</name>
     <jawi>سعيد رامن بن ناصير علي</jawi>
     <death>2013-04-06</death>
