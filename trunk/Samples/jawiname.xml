@@ -1988,8 +1988,8 @@
   </rootname>
   <rootname>
     <rumi>baharin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>بحرين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>baharom</rumi>
@@ -6006,8 +6006,8 @@
   </rootname>
   <rootname>
     <rumi>jainab</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>جاينب</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>jainah</rumi>
@@ -12068,6 +12068,8 @@
   </rootname>
   <rootname>
     <rumi>ropiah</rumi>
+	<jawi>روفيه</jawi>
+	<sex>2</sex>
   </rootname>
   <rootname>
     <rumi>ros</rumi>
