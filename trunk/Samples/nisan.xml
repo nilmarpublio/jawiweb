@@ -8906,7 +8906,7 @@
     <deathm>1434-09-11</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="HAM" date="2013-07-25" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-25" delivered="2013-08-02" price="12">
     <name>hjh m.n. zanumbu bee bt naina mohd</name>
     <jawi>حجه ايم، عين، زنيومبو بي بنت ناينا محمد</jawi>
 	<born>1931-12-01</born>
@@ -8970,7 +8970,7 @@
     <item>PV</item>
 	<remarks>EF04802375MY</remarks>
   </order>
-  <order soldto="HAM" date="2013-07-29" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-29" delivered="2013-08-02" price="12">
     <name>shabri bin md zain</name>
     <jawi>شبري بن مد زين</jawi>
     <death>2013-06-02</death>
@@ -9042,7 +9042,7 @@
     <deathm>1434-09-01</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2013-07-31" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-31" delivered="2013-08-02" price="12">
     <name>siti zaleha bt abd hamid</name>
     <jawi>ستي زاليحا بنت عبدالحميد</jawi>
     <death>1987-05-26</death>
@@ -9050,7 +9050,7 @@
 	<age>63</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-07-31" delivered="" price="12">
+  <order soldto="HAM" date="2013-07-31" delivered="2013-08-02" price="12">
     <name>jainab bt mat asain</name>
     <jawi>جاينب بنت مت اساين</jawi>
     <death>2012-12-03</death>
@@ -9063,6 +9063,35 @@
     <jawi>سلامه بنت أواڠ</jawi>
     <death>2013-07-17</death>
     <deathm>1434-09-08</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+    <order soldto="HAM" date="2013-07-31" delivered="2013-08-02" price="12">
+    <name>MUHAMMAD BIN MOHD ZAMRI</name>
+    <jawi>محمد بن محمد زامري</jawi>
+    <death>2013-07-02</death>
+    <deathm>1434-08-23</deathm>
+    <item>1½' Sticker(L)</item>
+  </order>
+  <order soldto="SEL" date="2013-08-02" delivered="" price="230">
+    <name>Siti mimah bt lateh</name>
+    <jawi>ستي ميمه بنت لاتيه</jawi>
+	<born>1955-10-16</born>
+    <death>2013-06-14</death>
+    <deathm>1434-08-05</deathm>
+    <item>2' Batu Putih(P)</item>
+  </order>
+  <order soldto="SEL" date="2013-08-02" delivered="" price="230">
+    <name>aziz bin Kasim</name>
+    <jawi>عزيز بن قاسيم</jawi>
+    <death>2013-07-16</death>
+    <deathm>1434-09-07</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEL" date="2013-08-02" delivered="" price="230">
+    <name>romlah bt md ali</name>
+    <jawi>رملة بنت مد علي</jawi>
+    <death>2013-08-01</death>
+    <deathm>1434-09-23</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
 </nisan>
