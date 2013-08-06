@@ -8512,11 +8512,11 @@
     <age>51</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="SEM" date="2013-06-23" delivered="2013-07-13" price="230">
+  <order soldto="SEM" date="2013-06-23" delivered="" price="370">
     <name>Hjh jaminah bt buang</name>
     <jawi>حجه جامعنه بنت بواڠ</jawi>
-    <death>2013-05-13</death>
-    <deathm>1434-07-03</deathm>
+    <death>2013-05-31</death>
+    <deathm>1434-07-21</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
   <order soldto="ADI" date="2013-07-06" delivered="2013-07-22" price="35">
@@ -8549,11 +8549,12 @@
     <deathm>1434-07-29</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-    <order soldto="PAS" date="2013-07-06" delivered="2013-07-30" price="260">
+    <order soldto="PAS" date="2013-07-06" delivered="" price="120">
     <name>Fatimah bt abdullah</name>
 	<jawi>فطمة بنت عبدالله</jawi>
-    <death>1941-07-28</death>
-    <deathm>1360-07-05</deathm>
+    <born>1941-07-28</born>
+	<death>2013-06-30</death>
+    <deathm>1434-08-21</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
   <order soldto="HAM" date="2013-07-09" delivered="2013-07-12" price="12">
@@ -9012,7 +9013,7 @@
     <item>PV Egg</item>
 	<remarks>EF04802375MY</remarks>
   </order>
-  <order soldto="ADI" date="2013-07-30" delivered="" price="35">
+  <order soldto="ADI" date="2013-07-30" delivered="2013-08-04" price="35">
     <name>Ropiah bt abdul razak</name>
     <jawi>روفيه بنت عبدالرازق</jawi>
     <death>2013-05-15</death>
@@ -9028,14 +9029,21 @@
     <item>PV Budak</item>
 	<remarks>EF04802375MY</remarks>
   </order>
-  <order soldto="SEM" date="2013-07-31" delivered="" price="230">
+  <order soldto="SEM" date="2013-07-31" delivered="2013-08-04" price="230">
     <name>Rosnas bt barus</name>
     <jawi>روسناس بنت بروس</jawi>
     <death>2013-07-26</death>
     <deathm>1434-09-17</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2013-07-31" delivered="" price="230">
+  <order soldto="SEM" date="2013-08-05" delivered="" price="140">
+    <name>Rosnah bt darus</name>
+    <jawi>روسنه بنت داروس</jawi>
+    <death>2013-07-26</death>
+    <deathm>1434-09-17</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEM" date="2013-07-31" delivered="2013-08-04" price="230">
     <name>Abu bakar bin abd mutalib</name>
     <jawi>أبو بكر بن عبدال مطالب</jawi>
     <death>2013-07-10</death>
@@ -9058,7 +9066,7 @@
 	<age>95</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="SEM" date="2013-08-01" delivered="" price="230">
+  <order soldto="SEM" date="2013-08-01" delivered="2013-08-04" price="230">
     <name>salamah bt awang</name>
     <jawi>سلامه بنت أواڠ</jawi>
     <death>2013-07-17</death>
@@ -9072,7 +9080,7 @@
     <deathm>1434-08-23</deathm>
     <item>1½' Sticker(L)</item>
   </order>
-  <order soldto="SEL" date="2013-08-02" delivered="" price="230">
+  <order soldto="SEL" date="2013-08-02" delivered="2013-08-04" price="230">
     <name>Siti mimah bt lateh</name>
     <jawi>ستي ميمه بنت لاتيه</jawi>
 	<born>1955-10-16</born>
@@ -9080,14 +9088,14 @@
     <deathm>1434-08-05</deathm>
     <item>2' Batu Putih(P)</item>
   </order>
-  <order soldto="SEL" date="2013-08-02" delivered="" price="230">
+  <order soldto="SEL" date="2013-08-02" delivered="2013-08-04" price="230">
     <name>aziz bin Kasim</name>
     <jawi>عزيز بن قاسيم</jawi>
     <death>2013-07-16</death>
     <deathm>1434-09-07</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEL" date="2013-08-02" delivered="" price="230">
+  <order soldto="SEL" date="2013-08-02" delivered="2013-08-04" price="230">
     <name>romlah bt md ali</name>
     <jawi>رملة بنت مد علي</jawi>
     <death>2013-08-01</death>
