@@ -7,6 +7,11 @@
         <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
         <script type="text/javascript" src="js/xml.js"></script>
         <script type="text/javascript" src="js/table_sort.js"></script>
+        <script>
+        $(function() {
+        	$('#calendar').load('calendar.html');
+        });
+        </script>
 </head>
 <body>
     <div id="xml_wrapper">
@@ -75,6 +80,7 @@
          <li>SEM - Semanggol</li>
        </ul>
        <br/><br/>
+       <div id="calendar" style="float:left"></div>
        <span class="left">
          Bulan Melayu:
          <ol>
@@ -109,6 +115,6 @@
            <li>ذوالحجه</li>
          </ol>
        </span>
-     </div>
+    </div>
 </body>
 </html>

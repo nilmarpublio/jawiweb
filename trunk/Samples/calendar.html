@@ -81,43 +81,45 @@
 				},
 		]};
 		
-		$('#aug').fullCalendar({
-			header: {right: ''},
-			year: 2013,
-			month: 8-1,
-			events: json.events,
-		});
+		var date = new Date();
+		var y = date.getFullYear();		
+		for(var i=1;i<=12;i++) {
+			$('#'+i).fullCalendar({
+				header: {right: ''},
+				titleFormat: {month: 'MMM yyyy'},
+				year: y,
+				month: i-1,
+				dayNamesShort: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+				events: json.events,
+			});
+		}
 		
 	});
 
 </script>
-<style>
-	body {
-		margin-top: 40px;
-		text-align: center;
-		font-size: 10px;
-		font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
-		}
-
-	#aug {
-		width: 200px;
-		margin: 0 auto;
-		}
-
-</style>
 </head>
 <body>
-<div id='jan'></div>
-<div id='feb'></div>
-<div id='mar'></div>
-<div id='apr'></div>
-<div id='may'></div>
-<div id='jun'></div>
-<div id='jul'></div>
-<div id='aug'></div>
-<div id='sep'></div>
-<div id='oct'></div>
-<div id='nov'></div>
-<div id='dec'></div>
+<table cellspacing="10px">
+<!--<tr>
+	<td><div id='1'></div></td>
+	<td><div id='2'></div></td>
+	<td><div id='3'></div></td>
+</tr>
+<tr>
+	<td><div id='4'></div></td>
+	<td><div id='5'></div></td>
+	<td><div id='6'></div></td>
+</tr>-->
+<tr>
+	<td><div id='7'></div></td>
+	<td><div id='8'></div></td>
+	<td><div id='9'></div></td>
+</tr>
+<tr>
+	<td><div id='10'></div></td>
+	<td><div id='11'></div></td>
+	<td><div id='12'></div></td>
+</tr>
+</table>
 </body>
 </html>
