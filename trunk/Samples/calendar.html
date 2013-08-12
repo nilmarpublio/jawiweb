@@ -10,17 +10,7 @@
 <script>
 
 	$(document).ready(function() {
-		var events = new Array();
-	
-		var date = new Date();
-		var d = date.getDate();
-		var m = date.getMonth();
-		var y = date.getFullYear();
-		
-		$('#calendar').fullCalendar({
-			header: {right: ''},
-			editable: true,
-			events: [
+		var json = {"events" : [
 				{
 					title: '3',
 					start: new Date(2013,1-1,13)
@@ -89,7 +79,13 @@
 					title: '7',
 					start: new Date(2014,4-1,30)
 				},
-			]
+		]};
+		
+		$('#aug').fullCalendar({
+			header: {right: ''},
+			year: 2013,
+			month: 8-1,
+			events: json.events,
 		});
 		
 	});
@@ -99,11 +95,11 @@
 	body {
 		margin-top: 40px;
 		text-align: center;
-		font-size: 14px;
+		font-size: 10px;
 		font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
 		}
 
-	#calendar {
+	#aug {
 		width: 200px;
 		margin: 0 auto;
 		}
@@ -111,6 +107,17 @@
 </style>
 </head>
 <body>
-<div id='calendar'></div>
+<div id='jan'></div>
+<div id='feb'></div>
+<div id='mar'></div>
+<div id='apr'></div>
+<div id='may'></div>
+<div id='jun'></div>
+<div id='jul'></div>
+<div id='aug'></div>
+<div id='sep'></div>
+<div id='oct'></div>
+<div id='nov'></div>
+<div id='dec'></div>
 </body>
 </html>
