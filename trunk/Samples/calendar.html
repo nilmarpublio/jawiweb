@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- source: http://arshaw.com/fullcalendar/ -->
+<html>
+<head>
+<link href='style/fullcalendar.css' rel='stylesheet' />
+<link href='style/fullcalendar.print.css' rel='stylesheet' media='print' />
+<script src='js/jquery-1.10.2.min.js'></script>
+<script src='js/jquery-ui-1.10.3.custom.min.js'></script>
+<script src='js/fullcalendar.min.js'></script>
+<script>
+
+	$(document).ready(function() {
+		var events = new Array();
+	
+		var date = new Date();
+		var d = date.getDate();
+		var m = date.getMonth();
+		var y = date.getFullYear();
+		
+		$('#calendar').fullCalendar({
+			editable: true,
+			events: [
+				{
+					title: '1 Rabiulawal 1434',
+					start: new Date(2013,1-1,13)
+				},
+				{
+					title: '1 Rabiulakhir 1434',
+					start: new Date(2013,2-1,12)
+				},
+				{
+					title: '1 Jamadilawal 1434',
+					start: new Date(2013,3-1,13)
+				},
+				{
+					title: '1 Jamadilakhir 1434',
+					start: new Date(2013,4-1,12)
+				},
+				{
+					title: '1 Rejab 1434',
+					start: new Date(2013,5-1,11)
+				},
+				{
+					title: '1 Syaaban 1434',
+					start: new Date(2013,6-1,10)
+				},
+				{
+					title: '1 Ramadhan 1434',
+					start: new Date(2013,7-1,10)
+				},
+				{
+					title: '1 Syawal 1434',
+					start: new Date(2013,8-1,8)
+				},
+				{
+					title: '1 Zulkaedah 1434',
+					start: new Date(2013,9-1,7)
+				},
+				{
+					title: '1 Zulhijjah 1434',
+					start: new Date(2013,10-1,6)
+				},
+				{
+					title: '1 Muharram 1435',
+					start: new Date(2013,11-1,5)
+				},
+				{
+					title: '1 Safar 1435',
+					start: new Date(2013,12-1,4)
+				},
+				{
+					title: '1 Rabiulawal 1435',
+					start: new Date(2014,1-1,2)
+				},
+				{
+					title: '1 Rabiulakhir 1435',
+					start: new Date(2014,2-1,1)
+				},
+				{
+					title: '1 Jamadilawal 1435',
+					start: new Date(2014,3-1,2)
+				},
+				{
+					title: '1 Jamadilakhir 1435',
+					start: new Date(2014,4-1,1)
+				},
+				{
+					title: '1 Rejab 1435',
+					start: new Date(2014,4-1,30)
+				},
+			]
+		});
+		
+	});
+
+</script>
+<style>
+	body {
+		margin-top: 40px;
+		text-align: center;
+		font-size: 14px;
+		font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+		}
+
+	#calendar {
+		width: 400px;
+		margin: 0 auto;
+		}
+
+</style>
+</head>
+<body>
+<div id='calendar'></div>
+</body>
+</html>
