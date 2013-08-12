@@ -9102,4 +9102,19 @@
     <deathm>1434-09-23</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
+  <order soldto="ADI" date="2013-08-10" delivered="" price="35">
+    <name>Md salji bin abdullah</name>
+    <jawi>مد ثلجي بن عبدالله</jawi>
+    <death>2013-03-18 Isnin</death>
+    <deathm>1434-05-06</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-08-10" delivered="" price="35">
+    <name>Ariffin bin taib</name>
+    <jawi>عريفين بن طيب</jawi>
+	<born>1945-03-30</born>
+    <death>2013-05-07</death>
+    <deathm>1434-06-26</deathm>
+    <item>PV Egg</item>
+  </order>
 </nisan>
