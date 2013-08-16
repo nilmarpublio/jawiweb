@@ -8512,7 +8512,7 @@
     <age>51</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="SEM" date="2013-06-23" delivered="" price="370">
+  <order soldto="SEM" date="2013-06-23" delivered="" price="345">
     <name>Hjh jaminah bt buang</name>
     <jawi>حجه جامعنه بنت بواڠ</jawi>
     <death>2013-05-31</death>
@@ -9036,7 +9036,7 @@
     <deathm>1434-09-17</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2013-08-05" delivered="" price="140">
+  <order soldto="SEM" date="2013-08-05" delivered="" price="255">
     <name>Rosnah bt darus</name>
     <jawi>روسنه بنت داروس</jawi>
     <death>2013-07-26</death>
@@ -9116,5 +9116,12 @@
     <death>2013-05-07</death>
     <deathm>1434-06-26</deathm>
     <item>PV Egg</item>
+  </order>
+  <order soldto="SEM" date="2013-08-16" delivered="" price="230">
+    <name>jaffar bin husain</name>
+    <jawi>جعفر بن حسين</jawi>
+    <death>1991-08-25</death>
+    <deathm>1414-03-07</deathm>
+    <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
