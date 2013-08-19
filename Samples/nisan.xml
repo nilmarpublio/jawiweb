@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="pending.xsl"?>
 <nisan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nisan.xsd">
   <order soldto="JEF" date="2012-01-03" delivered="2012-01-09" price="220">
@@ -8512,7 +8512,7 @@
     <age>51</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="SEM" date="2013-06-23" delivered="" price="345">
+  <order soldto="SEM" date="2013-06-23" delivered="2013-08-18" price="345">
     <name>Hjh jaminah bt buang</name>
     <jawi>حجه جامعنه بنت بواڠ</jawi>
     <death>2013-05-31</death>
@@ -9036,7 +9036,7 @@
     <deathm>1434-09-17</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2013-08-05" delivered="" price="255">
+  <order soldto="SEM" date="2013-08-05" delivered="2013-08-18" price="255">
     <name>Rosnah bt darus</name>
     <jawi>روسنه بنت داروس</jawi>
     <death>2013-07-26</death>
@@ -9102,14 +9102,14 @@
     <deathm>1434-09-23</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="ADI" date="2013-08-10" delivered="" price="35">
+  <order soldto="ADI" date="2013-08-10" delivered="2013-08-19" price="35">
     <name>Md salji bin abdullah</name>
     <jawi>مد ثلجي بن عبدالله</jawi>
     <death>2013-03-18 Isnin</death>
     <deathm>1434-05-06</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2013-08-10" delivered="" price="35">
+  <order soldto="ADI" date="2013-08-10" delivered="2013-08-19" price="35">
     <name>Ariffin bin taib</name>
     <jawi>عريفين بن طيب</jawi>
 	<born>1945-03-30</born>
@@ -9117,7 +9117,7 @@
     <deathm>1434-06-26</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="SEM" date="2013-08-16" delivered="" price="230">
+  <order soldto="SEM" date="2013-08-16" delivered="2013-08-18" price="230">
     <name>jaffar bin husain</name>
     <jawi>جعفر بن حسين</jawi>
     <death>1991-08-25</death>
@@ -9169,28 +9169,28 @@
     <item>2' Sticker(L)</item>
 	<age>37</age>
   </order>
-  <order soldto="ADI" date="2013-08-17" delivered="" price="35">
+  <order soldto="ADI" date="2013-08-17" delivered="2013-08-19" price="35">
     <name>musirah bt abd rahman</name>
     <jawi>مصيره بنت عبدالرحمن</jawi>
     <death>2013-08-12 isnin</death>
     <deathm>1434-10-05</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2013-08-17" delivered="" price="35">
+  <order soldto="ADI" date="2013-08-17" delivered="2013-08-19" price="35">
     <name>mohd mahbol bin abdul rahman</name>
     <jawi>محمد مهبول بن عبدالرحمن</jawi>
     <death>2013-03-02</death>
     <deathm>1434-04-19</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2013-08-17" delivered="" price="35">
+  <order soldto="ADI" date="2013-08-17" delivered="2013-08-19" price="35">
     <name>Mansor bin yusoff</name>
     <jawi>منصور بن يوسوف</jawi>
     <death>2013-04-03</death>
     <deathm>1434-05-22</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2013-08-17" delivered="" price="35">
+  <order soldto="ADI" date="2013-08-17" delivered="2013-08-19" price="35">
     <name>mahajil bin suratman</name>
     <jawi>ماهاجيل بن سورةمن</jawi>
 	<born>1939-07-01</born>
@@ -9198,7 +9198,7 @@
     <deathm>1425-09-24</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2013-08-17" delivered="" price="35">
+  <order soldto="ADI" date="2013-08-17" delivered="2013-08-19" price="35">
     <name>Halimah bt mohd uda</name>
     <jawi>حليمه بنت محمد عودا</jawi>
     <death>2013-03-24</death>
