@@ -40,7 +40,6 @@
 		
         /*
          * Returns the current date in 'dd MM yyyy' format as a string.
-         *
          * @example 31-12-2007
          */
         function todayStr() {
@@ -50,14 +49,29 @@
       	
       	$(function() {
       		$("#date").html(todayStr);
+      	    console.log($("#customer").val());
       		$('#calendar').load('calendar.html');
       	});
         </script>
       </head>
       <body>
         <div class="headerLeft">
-          To:
-          <br /><b><span id="f"><xsl:value-of select="$customer"/></span></b>
+          To:<br />
+      	  <div id="address">
+        	<xsl:if test="$customer = 'HAM'">
+        		<b>En. Hamid</b> 012-469 0249<br/>
+      	  		Kampung Dodol<br/>
+				Jelutong 11600<br/>
+				Penang, Malaysia
+      	  	</xsl:if>
+        	<xsl:if test="$customer = 'ADI'">
+        		<b>Addin Marble</b> 013-362 4363<br/>
+      	  		F78 Parit 18<br/>
+      	  		Kampung Baru<br/>
+      	  		36400 Hutan Melintang<br/>
+      	  		Perak
+      	  	</xsl:if>
+          </div>
         </div>
         <div class="headerRight">
           Date: <span id="date"></span><br/>
