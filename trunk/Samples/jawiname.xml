@@ -2198,8 +2198,8 @@
   </rootname>
   <rootname>
     <rumi>basha</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>باشا</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>bashah</rumi>
@@ -9117,6 +9117,8 @@
   </rootname>
   <rootname>
     <rumi>mohiddeen</rumi>
+	<jawi>مهيدين</jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>mojit</rumi>
@@ -15479,8 +15481,8 @@
   </rootname>
   <rootname>
     <rumi>ton</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>تون</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>tong</rumi>
