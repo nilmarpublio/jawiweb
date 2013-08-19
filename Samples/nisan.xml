@@ -9073,7 +9073,7 @@
     <deathm>1434-09-08</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-    <order soldto="HAM" date="2013-07-31" delivered="2013-08-02" price="12">
+  <order soldto="HAM" date="2013-07-31" delivered="2013-08-02" price="12">
     <name>MUHAMMAD BIN MOHD ZAMRI</name>
     <jawi>محمد بن محمد زامري</jawi>
     <death>2013-07-02</death>
@@ -9123,5 +9123,86 @@
     <death>1991-08-25</death>
     <deathm>1414-03-07</deathm>
     <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-08-11" delivered="2013-08-19" price="12">
+    <name>puteh bt ismail</name>
+    <jawi>فوتيه بنت إسماعيل</jawi>
+	<born>1910-10-10</born>
+    <death>1975-10-02</death>
+    <deathm>1395-09-28</deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-08-11" delivered="2013-08-19" price="12">
+    <name>che ton bt hassan</name>
+    <jawi>چئ تون بنت حسن</jawi>
+    <death>2013-07-22</death>
+    <deathm>1434-09-13</deathm>
+	<age>72</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-08-11" delivered="2013-08-19" price="12">
+    <name>ramli bin ismail</name>
+    <jawi>رماي بن إسماعيل</jawi>
+    <death>1972-12-18</death>
+    <deathm>1392-11-12</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-08-11" delivered="2013-08-19" price="12">
+    <name>mohideen basha bin mohd sultan</name>
+    <jawi>مهيدين باشا بن محمد سلطان</jawi>
+    <death>1962-09-08</death>
+    <deathm>1382-04-09</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-08-11" delivered="2013-08-19" price="12">
+    <name>che doan bt hj mansoor</name>
+    <jawi>چئ دون بنت حاج منصور</jawi>
+    <death>1985-06-16</death>
+    <deathm>1405-09-29</deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-08-11" delivered="2013-08-19" price="12">
+    <name>mohd fauzi bin mohammad</name>
+    <jawi>محمد فوزي بن محمد</jawi>
+    <death>2013-07-14</death>
+    <deathm>1434-09-05</deathm>
+    <item>2' Sticker(L)</item>
+	<age>37</age>
+  </order>
+  <order soldto="ADI" date="2013-08-17" delivered="" price="35">
+    <name>musirah bt abd rahman</name>
+    <jawi>مصيره بنت عبدالرحمن</jawi>
+    <death>2013-08-12 isnin</death>
+    <deathm>1434-10-05</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-08-17" delivered="" price="35">
+    <name>mohd mahbol bin abdul rahman</name>
+    <jawi>محمد مهبول بن عبدالرحمن</jawi>
+    <death>2013-03-02</death>
+    <deathm>1434-04-19</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-08-17" delivered="" price="35">
+    <name>Mansor bin yusoff</name>
+    <jawi>منصور بن يوسوف</jawi>
+    <death>2013-04-03</death>
+    <deathm>1434-05-22</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-08-17" delivered="" price="35">
+    <name>mahajil bin suratman</name>
+    <jawi>ماهاجيل بن سورةمن</jawi>
+	<born>1939-07-01</born>
+    <death>2004-11-08</death>
+    <deathm>1425-09-24</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-08-17" delivered="" price="35">
+    <name>Halimah bt mohd uda</name>
+    <jawi>حليمه بنت محمد عودا</jawi>
+    <death>2013-03-24</death>
+    <deathm>1434-05-12</deathm>
+    <item>PV</item>
   </order>
 </nisan>
