@@ -41,7 +41,7 @@
         /*
          * Returns the current date in 'dd MM yyyy' format as a string.
          *
-         @example 31-12-2007
+         * @example 31-12-2007
          */
         function todayStr() {
 			var today=new Date();
@@ -50,6 +50,7 @@
       	
       	$(function() {
       		$("#date").html(todayStr);
+      		$('#calendar').load('calendar.html');
       	});
         </script>
       </head>
@@ -202,6 +203,7 @@
           <a href="http://www.hlgranite.com/nisan/calendar.aspx">http://www.hlgranite.com/nisan/calendar.aspx</a>
         </div>
         <br />
+      	<div id="calendar" style="float:left"></div>
         <div class="footer">
           <span class="left">
             <span class="left">

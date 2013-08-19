@@ -4,7 +4,8 @@
 <head>
 <link href='style/fullcalendar.css' rel='stylesheet' />
 <link href='style/fullcalendar.print.css' rel='stylesheet' media='print' />
-<!--<script src='js/jquery-1.10.2.min.js'></script>-->
+<!-- Included in parent html -->
+<!-- <script src='js/jquery-1.10.2.min.js'></script>-->
 <script src='js/jquery-ui-1.10.3.custom.min.js'></script>
 <script src='js/fullcalendar.min.js'></script>
 <script>
@@ -82,7 +83,7 @@
 		]};
 		
 		var date = new Date();
-		var y = date.getFullYear();		
+		var y = date.getFullYear();
 		for(var i=1;i<=12;i++) {
 			$('#'+i).fullCalendar({
 				header: {right: ''},
