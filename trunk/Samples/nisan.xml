@@ -9362,4 +9362,87 @@
 	<age>66</age>
     <item>2½' Sticker(P)</item>
   </order>
+  <order soldto="SEL" date="2013-08-18" delivered="" price="230">
+    <name>Muhamad bin Abdullah</name>
+	<jawi>محمد بن عبدال</jawi>
+	<born>1956-08-17</born>
+    <death>2013-07-29</death>
+    <deathm>1434-09-20</deathm>
+    <item>2' Batu Batik(L)</item>
+	<remarks>buat 2 nama,kepala jawi,kaki rumi</remarks>
+  </order>
+  <order soldto="ADI" date="2013-09-01" delivered="" price="35">
+    <name>Hjh siti fatimah bt sariban</name>
+	<jawi>حجه ستي فطمة بنت ساريبن</jawi>
+    <death>2013-07-26</death>
+    <deathm>1434-09-17</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-09-01" delivered="" price="35">
+    <name>Mohd munir bin hj yatmuri</name>
+	<jawi>محمد منير بن حاج يتموري</jawi>
+    <death>1959-01-01</death>
+    <deathm>1378-06-21</deathm>
+    <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2013-09-01" delivered="" price="35">
+    <name>Khairul anuar bin mohd dagang</name>
+	<jawi>خيرل انوار بن محمد داݢڠ</jawi>
+	<born>1978-02-28</born>
+    <death>2012-12-09</death>
+    <deathm>1434-01-25</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-09-01" delivered="" price="35">
+    <name>Mohd tauhid bin sumar</name>
+	<jawi>محمد توحيد بن سومر</jawi>
+    <death>2013-04-28</death>
+    <deathm>1434-06-17</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-09-01" delivered="" price="35">
+    <name>Saipol anuar bin mohd tauhid</name>
+	<jawi>سيفعل انوار بن محمد توحيد</jawi>
+    <death>1987</death>
+    <deathm></deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-09-01" delivered="" price="35">
+    <name>Siti fatimah bt kamari</name>
+	<jawi>ستي فطمة بنت كامري</jawi>
+    <death>1986-06-16</death>
+    <deathm>1406-10-09</deathm>
+    <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2013-09-01" delivered="" price="35">
+    <name>Mohajil bin suratman</name>
+	<jawi>موهاجيل بن سورتمن</jawi>
+	<born>1939-07-01</born>
+    <death>2004-11-08</death>
+	<deathm>1425-09-24</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-09-04" delivered="" price="35">
+    <name>Abdul aziz bin shamsuddin</name>
+	<jawi>عبدولعزيز بن شامسوددين</jawi>
+	<born>1933-05-10</born>
+    <death>2013-07-18</death>
+    <deathm>1434-09-09</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-09-04" delivered="" price="35">
+    <name>abd Raoff bin hj tarhip</name>
+	<jawi>عبدالرف بن حاج ترحيب</jawi>
+	<born>1961-04-02</born>
+    <death>2013-08-03</death>
+    <deathm>1434-09-25</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-09-04" delivered="" price="260">
+    <name>Rohayzi bin mohamad</name>
+	<jawi>روهايزي بن محمد</jawi>
+    <death>2013-07-26</death>
+    <deathm>1434-09-17</deathm>
+    <item>2' Batu Putih(L)</item>
+  </order>
 </nisan>
