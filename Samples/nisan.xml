@@ -9354,7 +9354,7 @@
 	<age>82</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-08-25" delivered="" price="12">
+  <order soldto="HAM" date="2013-08-25" delivered="2013-09-12" price="12">
     <name>hjh kusma hatun bt abd latif</name>
 	<jawi>حجه كوسما حاتون بنت عبداللطيف</jawi>
     <death>2013-08-21</death>
@@ -9378,27 +9378,30 @@
     <deathm>1434-09-17</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2013-09-01" delivered="" price="35">
+  <order soldto="ADI" date="2013-09-01" delivered="2013-09-12" price="35">
     <name>Mohd munir bin hj yatmuri</name>
 	<jawi>محمد منير بن حاج يتموري</jawi>
     <death>1959-01-01</death>
     <deathm>1378-06-21</deathm>
     <item>PV Budak</item>
+	<remarks>EF062633762MY</remarks>
   </order>
-  <order soldto="ADI" date="2013-09-01" delivered="" price="35">
+  <order soldto="ADI" date="2013-09-01" delivered="2013-09-12" price="35">
     <name>Khairul anuar bin mohd dagang</name>
 	<jawi>خيرل انوار بن محمد داݢڠ</jawi>
 	<born>1978-02-28</born>
     <death>2012-12-09</death>
     <deathm>1434-01-25</deathm>
     <item>PV Egg</item>
+	<remarks>EF062633762MY</remarks>
   </order>
-  <order soldto="ADI" date="2013-09-01" delivered="" price="35">
+  <order soldto="ADI" date="2013-09-01" delivered="2013-09-12" price="35">
     <name>Mohd tauhid bin sumar</name>
 	<jawi>محمد توحيد بن سومر</jawi>
     <death>2013-04-28</death>
     <deathm>1434-06-17</deathm>
     <item>PV</item>
+	<remarks>EF062633762MY</remarks>
   </order>
   <order soldto="ADI" date="2013-09-01" delivered="" price="35">
     <name>Saipol anuar bin mohd tauhid</name>
@@ -9422,21 +9425,23 @@
 	<deathm>1425-09-24</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2013-09-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-09-04" delivered="2013-09-12" price="35">
     <name>Abdul aziz bin shamsuddin</name>
 	<jawi>عبدولعزيز بن شامسوددين</jawi>
 	<born>1933-05-10</born>
     <death>2013-07-18</death>
     <deathm>1434-09-09</deathm>
     <item>PV</item>
+	<remarks>EF062633762MY</remarks>
   </order>
-  <order soldto="ADI" date="2013-09-04" delivered="" price="35">
+  <order soldto="ADI" date="2013-09-04" delivered="2013-09-12" price="35">
     <name>abd Raoff bin hj tarhip</name>
 	<jawi>عبدالرف بن حاج ترحيب</jawi>
 	<born>1961-04-02</born>
     <death>2013-08-03</death>
     <deathm>1434-09-25</deathm>
     <item>PV Egg</item>
+	<remarks>EF062633762MY</remarks>
   </order>
   <order soldto="ADI" date="2013-09-04" delivered="" price="260">
     <name>Rohayzi bin mohamad</name>
@@ -9444,5 +9449,103 @@
     <death>2013-07-26</death>
     <deathm>1434-09-17</deathm>
     <item>2' Batu Putih(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-09-02" delivered="2013-09-12" price="12">
+    <name>amir khan bin abd rahim khan</name>
+    <jawi>أمير خان بن عبدالرحيم خان</jawi>
+    <death>2013-07-30</death>
+    <deathm>1434-09-21</deathm>
+    <age>63</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-09-02" delivered="2013-09-12" price="12">
+    <name>hj che muhamed bin hj ali</name>
+    <jawi>حاج چئ محمد بن حاج علي</jawi>
+	<born>1941-07-01</born>
+    <death>2013-07-02</death>
+    <deathm>1434-08-23</deathm>
+    <age>72</age>
+    <item>2' Sticker(L)</item>
+	<remarks>rumi saja</remarks>
+  </order>
+  <order soldto="HAM" date="2013-09-02" delivered="2013-09-12" price="12">
+    <name>hj ibrahim bin shaik daud</name>
+    <jawi>حاج إبراهيم بن شيك داود</jawi>
+    <death>2013-08-24</death>
+    <deathm>1434-10-17</deathm>
+    <age>91</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-09-02" delivered="2013-09-12" price="12">
+    <name>abd hamid bin ismail</name>
+    <jawi>عبدالحميد بن إسماعيل</jawi>
+    <death>2013-06-24</death>
+    <deathm>1434-08-15</deathm>
+    <age>63</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-09-02" delivered="2013-09-12" price="12">
+    <name>mariam bt mohd hassan</name>
+    <jawi>ماريم بنت محمد حسن</jawi>
+    <death>1987-05-02</death>
+    <deathm>1407-09-04</deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-09-08" delivered="2013-09-13" price="24">
+    <name>habib syed hassan bin syed haroon@alharu</name>
+	<jawi></jawi>
+    <death> </death>
+    <deathm></deathm>
+    <item>12"x24" Sticker</item>
+  </order>
+  <order soldto="HAM" date="2013-09-08" delivered="2013-09-12" price="12">
+    <name>che mey bin ahmad</name>
+    <jawi>چئ مي بن أحمد</jawi>
+    <death>2013-08-21</death>
+    <deathm>1434-10-14</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="ADI" date="2013-09-12" delivered="" price="35">
+    <name>sakam bt ali othman</name>
+	<jawi>ساکم بنت الي عثمان</jawi>
+    <death>2013-03-19</death>
+    <deathm>1434-05-07</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-09-12" delivered="" price="35">
+    <name>Safaly bin sharif</name>
+	<jawi>صفالي بن شريف</jawi>
+    <death>2013-08-01</death>
+    <deathm>1434-09-23</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-09-12" delivered="" price="35">
+    <name>siti fatimah bt idris</name>
+	<jawi>سيتي فاطمه بنت ادريس</jawi>
+    <death>2008-10-29</death>
+    <deathm>1429-10-29</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-09-12" delivered="" price="35">
+    <name>kastum bin samiran</name>
+	<jawi>کستوم بن ساميرن</jawi>
+    <death>2013-08-03</death>
+    <deathm>1434-09-25</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-09-12" delivered="" price="35">
+    <name>hj mohd sani bin mohd tahir</name>
+	<jawi>حاج محمد سني بن محمد طاهر</jawi>
+    <death>2013-05-16 Khamis</death>
+    <deathm>1434-07-06</deathm>
+    <item>PV Egg</item>
+	<remarks>khamis</remarks>
+  </order>
+  <order soldto="ADI" date="2013-09-12" delivered="" price="35">
+    <name>Humayah bt keriti</name>
+	<jawi>هوميه بنت کريتي</jawi>
+    <death>2013-06-27</death>
+    <deathm>1434-08-18</deathm>
+    <item>PV</item>
   </order>
 </nisan>
