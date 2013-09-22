@@ -9597,4 +9597,68 @@
     <deathm>1434-10-17</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
+  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+    <name>mohd azmir bin mohd kupei</name>
+    <jawi>محمد ازمير بن محمد كوفي</jawi>
+    <death>2006-06-11</death>
+    <deathm>1427-05-14</deathm>
+	<age>24</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+    <name>amran bin abdul aziz</name>
+    <jawi>أمران بن عبدالعزبز</jawi>
+    <death>2013-08-30</death>
+    <deathm>1434-10-23</deathm>
+	<age>38</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+    <name>zaleha bt osman</name>
+    <jawi>زاليحا بنت عشمان</jawi>
+    <death>2013-09-10</death>
+    <deathm>1434-11-04</deathm>
+	<age>46</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+    <name>syed fatima bt k.k. mohd</name>
+    <jawi>سيد فطيمابنت كي،كي،محمد</jawi>
+    <death>2013-08-04</death>
+    <deathm>1434-09-26</deathm>
+	<age>71</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+    <name>tuan teh bt sharif haroon</name>
+    <jawi>توان تيه بنت شاريف هارون</jawi>
+    <death>2013-09-11</death>
+    <deathm>1434-11-05</deathm>
+	<age>93</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+    <name>mohamed ismail bin mohmed zain(pak wan)</name>
+    <jawi>محمد اسماعيل بن</jawi>
+    <death>2013-09-12</death>
+    <deathm>1434-11-06</deathm>
+	<age>75</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+    <name>abd kuthus bin mohd kassim</name>
+    <jawi>عبدالكوتوس ين محمدقاسيم</jawi>
+    <death>2013-09-04</death>
+    <deathm>1434-10-28</deathm>
+	<age>62</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+    <name>hjh noorain bt hassan</name>
+    <jawi>حجه نورعين بنت حسن</jawi>
+    <death>2013-08-10</death>
+    <deathm>1434-10-03</deathm>
+	<age>88</age>
+    <item>2' Sticker(P)</item>
+  </order>
 </nisan>
