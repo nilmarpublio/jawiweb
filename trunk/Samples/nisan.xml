@@ -9548,7 +9548,7 @@
     <deathm>1434-08-18</deathm>
     <item>PV</item>
   </order>
-  <order soldto="SEM" date="2013-09-16" delivered="" price="230">
+  <order soldto="SEM" date="2013-09-16" delivered="2013-09-22" price="230">
     <name>hamidah bt L. din</name>
     <jawi>هاميه بنت ك،دين</jawi>
     <death>2013-07-11</death>
@@ -9562,14 +9562,14 @@
     <deathm>1433-08-17</deathm>
     <item>2' Batu Hijau(L)</item>
   </order>
-  <order soldto="SEM" date="2013-09-16" delivered="" price="230">
+  <order soldto="SEM" date="2013-09-16" delivered="2013-09-22" price="230">
     <name>hj zainol bin hj ismail</name>
     <jawi>حاج زاينول بن حاج إسماعيل</jawi>
     <death>2013-02-28</death>
     <deathm>1434-04-17</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2013-09-16" delivered="" price="230">
+  <order soldto="SEM" date="2013-09-16" delivered="2013-09-22" price="230">
     <name>che gayah bt yon</name>
     <jawi>چئ ڬاته بنت يون</jawi>
     <death>1997-07-24</death>
@@ -9583,21 +9583,21 @@
     <deathm>1434-11-06</deathm>
     <item>2' Batu Hitam(L)</item>
   </order>
-  <order soldto="SEM" date="2013-09-16" delivered="" price="230">
+  <order soldto="SEM" date="2013-09-16" delivered="2013-09-22" price="230">
     <name>muhammad bin ali</name>
     <jawi>محمد بن علي</jawi>
     <death>1997-06-19</death>
     <deathm>1418-02-13</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2013-09-16" delivered="" price="230">
+  <order soldto="SEM" date="2013-09-16" delivered="2013-09-22" price="230">
     <name>teh bt harun</name>
     <jawi>تيه بنت هارون</jawi>
     <death>2013-08-24</death>
     <deathm>1434-10-17</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+  <order soldto="HAM" date="2013-09-19" delivered="2013-09-23" price="12">
     <name>mohd azmir bin mohd kupei</name>
     <jawi>محمد ازمير بن محمد كوفي</jawi>
     <death>2006-06-11</death>
@@ -9605,7 +9605,7 @@
 	<age>24</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+  <order soldto="HAM" date="2013-09-19" delivered="2013-09-23" price="12">
     <name>amran bin abdul aziz</name>
     <jawi>أمران بن عبدالعزبز</jawi>
     <death>2013-08-30</death>
@@ -9613,7 +9613,7 @@
 	<age>38</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+  <order soldto="HAM" date="2013-09-19" delivered="2013-09-23" price="12">
     <name>zaleha bt osman</name>
     <jawi>زاليحا بنت عشمان</jawi>
     <death>2013-09-10</death>
@@ -9621,15 +9621,15 @@
 	<age>46</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+  <order soldto="HAM" date="2013-09-19" delivered="2013-09-23" price="12">
     <name>syed fatima bt k.k. mohd</name>
     <jawi>سيد فطيمابنت كي،كي،محمد</jawi>
     <death>2013-08-04</death>
     <deathm>1434-09-26</deathm>
-	<age>71</age>
+	<age>-71</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+  <order soldto="HAM" date="2013-09-19" delivered="2013-09-23" price="12">
     <name>tuan teh bt sharif haroon</name>
     <jawi>توان تيه بنت شاريف هارون</jawi>
     <death>2013-09-11</death>
@@ -9637,7 +9637,7 @@
 	<age>93</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+  <order soldto="HAM" date="2013-09-19" delivered="2013-09-23" price="12">
     <name>mohamed ismail bin mohmed zain(pak wan)</name>
     <jawi>محمد اسماعيل بن</jawi>
     <death>2013-09-12</death>
@@ -9645,7 +9645,7 @@
 	<age>75</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+  <order soldto="HAM" date="2013-09-19" delivered="2013-09-23" price="12">
     <name>abd kuthus bin mohd kassim</name>
     <jawi>عبدالكوتوس ين محمدقاسيم</jawi>
     <death>2013-09-04</death>
@@ -9653,7 +9653,7 @@
 	<age>62</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-09-19" delivered="" price="12">
+  <order soldto="HAM" date="2013-09-19" delivered="2013-09-23" price="12">
     <name>hjh noorain bt hassan</name>
     <jawi>حجه نورعين بنت حسن</jawi>
     <death>2013-08-10</death>
