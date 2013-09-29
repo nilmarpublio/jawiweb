@@ -9436,7 +9436,7 @@
   </order>
   <order soldto="ADI" date="2013-09-04" delivered="2013-09-12" price="35">
     <name>abd Raoff bin hj tarhip</name>
-	<jawi>عبدالرف بن حاج ترحيب</jawi>
+	<jawi>عبدال رأوف بن حاج تراحياف</jawi>
 	<born>1961-04-02</born>
     <death>2013-08-03</death>
     <deathm>1434-09-25</deathm>
@@ -9661,7 +9661,7 @@
 	<age>88</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-09-23" delivered="" price="12">
+  <order soldto="HAM" date="2013-09-23" delivered="2013-09-27" price="12">
     <name>siti rohani bt hassan</name>
     <jawi>ستي روحني بنت حسن</jawi>
     <death>2013-01-06</death>
@@ -9669,7 +9669,7 @@
 	<age>65</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-09-23" delivered="" price="12">
+  <order soldto="HAM" date="2013-09-23" delivered="2013-09-27" price="12">
     <name>yusoff bin mak min</name>
     <jawi>يوسوف بن مك مين</jawi>
     <death>1987-01-06</death>
@@ -9677,14 +9677,14 @@
 	<age>46</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-09-23" delivered="" price="12">
+  <order soldto="HAM" date="2013-09-23" delivered="2013-09-27" price="12">
     <name>azizah bt shaik abd aziz</name>
     <jawi>عزيزه بنت شيك عبدالعزيز</jawi>
     <death>2013-08-23</death>
     <deathm>1434-10-16</deathm>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-09-23" delivered="" price="12">
+  <order soldto="HAM" date="2013-09-23" delivered="2013-09-27" price="12">
     <name>ariffin bin mohd yusoff</name>
     <jawi>عريفين بن محمد يوسوف</jawi>
     <death>2013-09-20</death>
