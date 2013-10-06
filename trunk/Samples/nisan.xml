@@ -9212,7 +9212,7 @@
     <deathm>1395-06-13</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2013-08-25" delivered="" price="230">
+  <order soldto="SEM" date="2013-08-25" delivered="2013-09-16" price="230">
     <name>abd rahman bin ali</name>
     <jawi>عبدال رحمن بن علي</jawi>
     <death>2013-06-06</death>
@@ -9362,7 +9362,7 @@
 	<age>66</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="SEL" date="2013-08-18" delivered="" price="230">
+  <order soldto="SEL" date="2013-08-18" delivered="2013-10-01" price="230">
     <name>Muhamad bin Abdullah</name>
 	<jawi>محمد بن عبدال</jawi>
 	<born>1956-08-17</born>
@@ -9819,5 +9819,61 @@
     <deathm></deathm>
     <item>5" Sticker</item>
 	<remarks>nama rumi saja</remarks>
+  </order>
+  <order soldto="KEN" date="2013-09-30" delivered="" price="230">
+    <name>Sharifah maheran Bt Syed Ibrahim</name>
+    <jawi>شريفه ماهيرن بنت شيد إبراهيم</jawi>
+    <death>2013-05-22</death>
+    <deathm>1434-07-12</deathm>
+	<age>81</age>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-10-03" delivered="" price="12">
+    <name>aishah bt said</name>
+    <jawi>عيشه بنت سعيد</jawi>
+    <death>2013-09-29</death>
+    <deathm>1434-11-23</deathm>
+	<age>86</age>
+    <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-10-03" delivered="" price="12">
+    <name>normah bt sutan</name>
+    <jawi>نورمه بنت سوتن</jawi>
+    <death>2013-09-29</death>
+    <deathm>1434-11-23</deathm>
+	<age>69</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-10-03" delivered="" price="12">
+    <name>zal-azri bin abd somad</name>
+    <jawi>زال ازري بن عبدالصومد</jawi>
+    <death>2013-09-23</death>
+    <deathm>1434-11-17</deathm>
+	<age>31</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-10-03" delivered="" price="12">
+    <name>hj abu bakar bin hasan</name>
+    <jawi>حاج أبو بكر بن حسن</jawi>
+    <death>2013-09-05</death>
+    <deathm>1434-10-29</deathm>
+	<age>76</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="ADI" date="2013-10-03" delivered="" price="35">
+    <name>Mohamad apandi bin harun</name>
+	<jawi>محمد افندي بن هارون</jawi>
+    <death>2013-07-18</death>
+    <deathm>1434-09-09</deathm>
+    <item>PV</item>
+	<remarks>jawi saja</remarks>
+  </order>
+  <order soldto="ADI" date="2013-10-03" delivered="" price="35">
+    <name>Mohamad apandi bin harun</name>
+	<jawi>محمد افندي بن هارون</jawi>
+    <death>2013-07-18</death>
+    <deathm>1434-09-09</deathm>
+    <item>PV</item>
+	<remarks>rumi saja</remarks>
   </order>
 </nisan>
