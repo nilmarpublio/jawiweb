@@ -9828,7 +9828,7 @@
 	<age>81</age>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="HAM" date="2013-10-03" delivered="" price="12">
+  <order soldto="HAM" date="2013-10-03" delivered="2013-10-07" price="12">
     <name>aishah bt said</name>
     <jawi>عيشه بنت سعيد</jawi>
     <death>2013-09-29</death>
@@ -9836,7 +9836,7 @@
 	<age>86</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-10-03" delivered="" price="12">
+  <order soldto="HAM" date="2013-10-03" delivered="2013-10-07" price="12">
     <name>normah bt sutan</name>
     <jawi>نورمه بنت سوتن</jawi>
     <death>2013-09-29</death>
@@ -9844,7 +9844,7 @@
 	<age>69</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2013-10-03" delivered="" price="12">
+  <order soldto="HAM" date="2013-10-03" delivered="2013-10-07" price="12">
     <name>zal-azri bin abd somad</name>
     <jawi>زال ازري بن عبدالصومد</jawi>
     <death>2013-09-23</death>
@@ -9852,7 +9852,7 @@
 	<age>31</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2013-10-03" delivered="" price="12">
+  <order soldto="HAM" date="2013-10-03" delivered="2013-10-07" price="12">
     <name>hj abu bakar bin hasan</name>
     <jawi>حاج أبو بكر بن حسن</jawi>
     <death>2013-09-05</death>
@@ -9860,20 +9860,85 @@
 	<age>76</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="ADI" date="2013-10-03" delivered="" price="35">
+  <order soldto="ADI" date="2013-10-03" delivered="2013-10-07" price="35">
     <name>Mohamad apandi bin harun</name>
 	<jawi>محمد افندي بن هارون</jawi>
     <death>2013-07-18</death>
     <deathm>1434-09-09</deathm>
     <item>PV</item>
-	<remarks>jawi saja</remarks>
+	<remarks>jawi saja EF062051095MY</remarks>
   </order>
-  <order soldto="ADI" date="2013-10-03" delivered="" price="35">
+  <order soldto="ADI" date="2013-10-03" delivered="2013-10-07" price="35">
     <name>Mohamad apandi bin harun</name>
 	<jawi>محمد افندي بن هارون</jawi>
     <death>2013-07-18</death>
     <deathm>1434-09-09</deathm>
     <item>PV</item>
-	<remarks>rumi saja</remarks>
+	<remarks>rumi saja EF062051095MY</remarks>
+  </order>
+  <order soldto="HAM" date="2013-10-06" delivered="" price="12">
+    <name>hjh che gayah bt mahmud</name>
+    <jawi>حجه چئ ڬاته بنت محمود</jawi>
+    <death>2013-08-20</death>
+    <deathm>1434-10-13</deathm>
+	<age>83</age>
+    <item>2' Sticker(P)</item>
+	<remarks>4"x5½" Sticker(P)</remarks>
+  </order>
+  <order soldto="HAM" date="2013-10-06" delivered="" price="12">
+    <name>siti sakinah bt mohd hussain</name>
+    <jawi>ستي ساكينه بنت محمد حُسين</jawi>
+    <death>1953</death>
+    <deathm></deathm>
+    <item>1½' Sticker(P)</item>
+	<remarks>Bulan March</remarks>
+  </order>
+  <order soldto="HAM" date="2013-10-06" delivered="" price="12">
+    <name>hjh kamiliah bt tahir</name>
+    <jawi>حجه كاميليه بنت طاهر</jawi>
+    <death>2013-09-20</death>
+    <deathm>1434-11-14</deathm>
+	<age>62</age>
+    <item>2' Sticker(P)</item>
+	<remarks>4"x5½" Sticker(L)</remarks>
+  </order>
+  <order soldto="HAM" date="2013-10-06" delivered="" price="12">
+    <name>nur qarirah amni bt abd azahar</name>
+    <jawi>نور خريره امني بنت عبدالأزهر</jawi>
+    <death>2013-08-13</death>
+    <deathm>1434-10-06</deathm>
+	<age>8</age>
+    <item>1½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-10-06" delivered="" price="12">
+    <name>wan noriyah bt shaik mohd</name>
+    <jawi>وان نوريه بنت شيك محمد</jawi>
+    <death>2013-06-10</death>
+    <deathm>1434-08-02</deathm>
+	<age>56</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-10-06" delivered="" price="12">
+    <name>hjh che mah bt hj wan</name>
+    <jawi>حجه چئ مه بنت حاج وان</jawi>
+    <death>2013-04-11</death>
+    <deathm>1434-06-01</deathm>
+	<age>62</age>
+    <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-10-06" delivered="" price="12">
+    <name>hj ariffin bin puteh</name>
+    <jawi>حاج عريفين بن فوتيه</jawi>
+    <death>2013-07-10</death>
+    <deathm>1434-09-01</deathm>
+	<age>76</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-10-06" delivered="" price="12">
+    <name>hj ajis bin hj nasar</name>
+    <jawi>حاج اجيس بن حاج نصر</jawi>
+    <death>2013-09-07</death>
+    <deathm>1434-11-01</deathm>
+    <item>2' Sticker(L)</item>
   </order>
 </nisan>
