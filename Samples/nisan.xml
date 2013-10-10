@@ -8549,14 +8549,14 @@
     <deathm>1434-07-29</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="PAS" date="2013-07-06" delivered="" price="120">
+  <!--<order soldto="PAS" date="2013-07-06" delivered="" price="120">
     <name>Fatimah bt abdullah</name>
     <jawi>فطمة بنت عبدالله</jawi>
     <born>1941-07-28</born>
     <death>2013-06-30</death>
     <deathm>1434-08-21</deathm>
     <item>2' Batu Batik(P)</item>
-  </order>
+  </order>-->
   <order soldto="HAM" date="2013-07-09" delivered="2013-07-12" price="12">
     <name>che chak bt md kassim merican</name>
     <jawi>چئ چق بنت مد قاسيم مريكن</jawi>
@@ -9820,7 +9820,7 @@
     <item>5" Sticker</item>
     <remarks>nama rumi saja</remarks>
   </order>
-  <order soldto="KEN" date="2013-09-30" delivered="" price="230">
+  <order soldto="KEN" date="2013-09-30" delivered="2013-10-06" price="230">
     <name>Sharifah maheran Bt Syed Ibrahim</name>
     <jawi>شريفه ماهيرن بنت شيد إبراهيم</jawi>
     <death>2013-05-22</death>
@@ -9949,7 +9949,7 @@
     <deathm>1434-11-02</deathm>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="SEM" date="2013-10-09" delivered="" price="230">
+  <order soldto="SEL" date="2013-10-09" delivered="" price="230">
     <name>Hasan bin yaakob</name>
     <jawi>حسن بن يعقوب</jawi>
     <death>2012-09-19</death>
