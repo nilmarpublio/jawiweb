@@ -4,6 +4,10 @@
 <head>
 <link href='style/fullcalendar.css' rel='stylesheet' />
 <link href='style/fullcalendar.print.css' rel='stylesheet' media='print' />
+<style>
+	#calendar ul {list-style-type:none;}
+	#calendar ul li {width: 150px;float:left;margin-right:10px;}
+</style>
 <!-- Included in parent html -->
 <!--<script src='js/jquery-1.10.2.min.js'></script>-->
 <script src='js/jquery-ui-1.10.3.custom.min.js'></script>
@@ -95,60 +99,40 @@
 			});
 		}
 		
-		/*var today = new Date();
-		var month = today.getMonth()+1;
-		var quarter = Math.ceil(month/3)*3;
-		for(var i=1;i<=12;i++) {
-			if(i>quarter) {
-				$('#'+i).hide();
+		// only view past 6 months
+		var today = new Date();
+		var current = today.getMonth();//+1;
+		//console.log("Current: "+current);
+		var j=0;
+		for(var i=current+1;i<current+13;i++) {
+			if(j<6) {
+				$('#'+(i%12+1)).hide();
+			} else {
+				//console.log("show month: "+(i%12+1));
 			}
-		}*/
-		
-		/*var month = new Date().getMonth();
-		var quarter = Math.ceil(month/3)*3;
-		var isNextQuarter = false;
-		var counter = 0;
-		for(var i=0;i<12;i++) {
-			var current = ((month+i)%12)+1;
-			if(isNextQuarter == true && counter <3) {
-				counter++;
-				console.log('hide: '+current);
-				$('#'+current).hide();
-				if(counter == 3) isNextQuarter = false;
-			} else console.log('show: '+current);
-			
-			// Only hide next quarter
-			if(!isNextQuarter && current%3 == 0) {
-				isNextQuarter = true;
-			}
-		} */
+			j++;
+		}
 		
 	});
 
 </script>
 </head>
 <body>
-<table cellspacing="10px">
-<tr>
-	<td><div id='1'></div></td>
-	<td><div id='2'></div></td>
-	<td><div id='3'></div></td>
-</tr>
-<tr>
-	<td><div id='4'></div></td>
-	<td><div id='5'></div></td>
-	<td><div id='6'></div></td>
-</tr>
-<tr>
-	<td><div id='7'></div></td>
-	<td><div id='8'></div></td>
-	<td><div id='9'></div></td>
-</tr>
-<tr>
-	<td><div id='10'></div></td>
-	<td><div id='11'></div></td>
-	<td><div id='12'></div></td>
-</tr>
-</table>
+<div id="calendar">
+	<ul>
+		<li><div id='1'></div><li>
+		<li><div id='2'></div><li>
+		<li><div id='3'></div><li>
+		<li><div id='4'></div><li>
+		<li><div id='5'></div><li>
+		<li><div id='6'></div><li>
+		<li><div id='7'></div><li>
+		<li><div id='8'></div><li>
+		<li><div id='9'></div><li>
+		<li><div id='10'></div><li>
+		<li><div id='11'></div><li>
+		<li><div id='12'></div><li>
+	</ul>
+</div>
 </body>
 </html>
