@@ -217,7 +217,6 @@
           <a href="http://www.hlgranite.com/nisan/calendar.aspx">http://www.hlgranite.com/nisan/calendar.aspx</a>
         </div>
         <br />
-      	<div id="calendar" style="float:left"></div>
         <div class="footer">
           <span class="left">
             <span class="left">
@@ -255,6 +254,7 @@
             </ol>
           </span>
         </div>
+		<div id="calendar" style="float:left;width:500px;margin-left:30px;"></div>
 		<!-- TODO: Embed svg in xsl stylesheet -->
 		<!-- embed src="G:\My Works\Hamid\AHLAWAHSAHLAYARAMADAN.svg" width="300" height="100" type="image/svg+xml" pluginspage="http://www.adobe.com/svg/viewer/install/" -->
       </body>
