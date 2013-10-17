@@ -9949,7 +9949,7 @@
     <deathm>1434-11-02</deathm>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="SEL" date="2013-10-09" delivered="" price="230">
+  <order soldto="SEL" date="2013-10-09" delivered="2013-10-13" price="230">
     <name>Hasan bin yaakob</name>
     <jawi>حسن بن يعقوب</jawi>
     <death>2012-09-19</death>
@@ -10003,6 +10003,22 @@
     <jawi>حسنه بنت إبراهيم</jawi>
     <death>2013-08-29</death>
     <deathm>1434-10-22</deathm>
+	<age>67</age>
+    <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-10-17" delivered="" price="12">
+    <name>hussain bin kachi mydin</name>
+    <jawi>حُسين بن حاچي مَيدين</jawi>
+    <death>2013-10-01</death>
+    <deathm>1434-11-25</deathm>
+	<age>70</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-10-17" delivered="" price="12">
+    <name>hjh gayah bt hj jali</name>
+    <jawi>حجه ڬاته بنت حاج حالي</jawi>
+    <death>2013-09-01</death>
+    <deathm>1434-10-25</deathm>
 	<age>67</age>
     <item>2½' Sticker(P)</item>
   </order>
