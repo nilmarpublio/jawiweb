@@ -30,7 +30,7 @@ namespace HLGranite.Jawi
             string html = string.Empty;
             string queryString = "http://www.ejawi.net/v3/getTranslationRumiJawi.php?rumi={0}&jenis=RJ&teknik=DK";
             WebRequest req = WebRequest.Create(string.Format(queryString, rumi));
-            req.Proxy = GetProxy();
+            //req.Proxy = GetProxy();
             if (req.Proxy != null) req.Credentials = req.Proxy.Credentials;
             using (WebResponse res = req.GetResponse())
             {
