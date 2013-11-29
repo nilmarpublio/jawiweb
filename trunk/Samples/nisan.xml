@@ -10660,4 +10660,72 @@
     <deathm>1395-05-19</deathm>
     <item>2' Sticker(L)</item>
   </order>
+  <order soldto="PAS" date="2013-11-28" delivered="" price="260">
+    <name>ibrahim bin daud</name>
+    <jawi>إبراهيم بن داود</jawi>
+    <death>1979-03-31</death>
+    <deathm>1399-05-03</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="PAS" date="2013-11-28" delivered="" price="260">
+    <name>hasanah bt hj yaacob</name>
+    <jawi>حسنه بنت حاج يعقوب</jawi>
+    <death>1978-12-19</death>
+    <deathm>1399-01-19</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="PAS" date="2013-11-28" delivered="" price="260">
+    <name>khadijah bt hj ismail</name>
+    <jawi>خطيجه بنت حاج إسماعيل</jawi>
+    <death>1994-12-10</death>
+    <deathm>1415-07-08</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="HAM" date="2013-11-29" delivered="" price="12">
+    <name>hjh che su bt sabdin</name>
+    <jawi>حاجه چي سو بنت سبدين</jawi>
+    <death>2013-11-11</death>
+    <deathm>1435-01-07</deathm>
+    <item>2' Sticker(P)</item>
+	<age>75</age>
+  </order>
+  <order soldto="HAM" date="2013-11-29" delivered="" price="12">
+    <name>kamaruddin francis bin abdullah</name>
+    <jawi>کامروددين فران سيس بن عبدالله</jawi>
+    <death>2013-11-12</death>
+    <deathm>1435-01-08</deathm>
+	<age>49</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-11-29" delivered="" price="12">
+    <name>ahmad bin yahaya</name>
+    <jawi>احمد بن يحئ</jawi>
+    <death>2013-10-19</death>
+    <deathm>1434-12-14</deathm>
+	<age>56</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-11-29" delivered="" price="12">
+    <name>shariff bin ismail</name>
+    <jawi>شاريف بن اسماعيل</jawi>
+    <death>2013-11-10</death>
+    <deathm>1435-01-06</deathm>
+	<age>88</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-11-29" delivered="" price="12">
+    <name>hj md osman bin abd kadir</name>
+    <jawi>حاج مد عثمان بن عبدالكادير</jawi>
+    <death>2013-10-25</death>
+    <deathm>1434-12-20</deathm>
+	<age>69</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2013-11-29" delivered="" price="12">
+    <name>nurul fazilah bt mohd noor</name>
+    <jawi>نورال فظيله بنت محمد نور</jawi>
+    <death>2001-05-12</death>
+    <deathm>1422-02-19</deathm>
+    <item>1½' Tarazo(P)</item>
+  </order>  
 </nisan>
