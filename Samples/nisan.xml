@@ -10921,4 +10921,101 @@
     <age>48</age>
     <item>2' Sticker(L)</item>
   </order>
+  <order soldto="SEL" date="2013-12-08" delivered="" price="230">
+    <name>Zainuddin bin Majid</name>
+    <jawi>زاينوددين بن مجيد</jawi>
+	<born>1964-05-15</born>
+    <death>2013-11-26</death>
+    <deathm>1435-01-22</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2013-12-16" delivered="" price="35">
+    <name>sariazimah bt ahmad</name>
+    <jawi>ساريعظيمه بنت احمد</jawi>
+	<born>1970-08-17</born>
+    <death>2013-09-24</death>
+    <deathm>1434-11-18</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-12-16" delivered="" price="35">
+    <name>sariah bt majid</name>
+    <jawi>ساريه بنت مجيد</jawi>
+    <death>2013-07-21</death>
+    <deathm>1434-09-12</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-12-16" delivered="" price="35">
+    <name>mohamad nor azman bin yatmuri</name>
+    <jawi>محمد نور عزمن بن يتموري</jawi>
+    <death>2013-10-31</death>
+    <deathm>1434-12-26</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-12-16" delivered="" price="35">
+    <name>mat yunus bin abdul aziz</name>
+    <jawi>مت يونس بن عبدالعزيز</jawi>
+	<born>1960-05-02</born>
+    <death>2013-06-08</death>
+    <deathm>1434-07-29</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-12-16" delivered="" price="35">
+    <name>hj hambali bin marsad</name>
+    <jawi>حاج همبالي بن مرسد</jawi>
+	<born>1932-11-15</born>
+    <death>2012-08-24</death>
+    <deathm>1433-10-06</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-12-16" delivered="" price="35">
+    <name>mat bekeri bin muhamad</name>
+    <jawi>مت بکري بن محمد</jawi>
+    <death>2013-11-14</death>
+    <deathm>1435-01-10</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2013-12-16" delivered="" price="35">
+    <name>talib bin kassim</name>
+    <jawi>طالب بن قاسيم</jawi>
+	<born>1942-03-01</born>
+    <death>2013-11-03</death>
+    <deathm>1434-12-29</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-12-16" delivered="" price="35">
+    <name>saad bin basri</name>
+    <jawi>سعد بن بصري</jawi>
+    <death>2013-11-01</death>
+    <deathm>1434-12-27</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-12-16" delivered="" price="35">
+    <name>mahrojan bin basri</name>
+    <jawi>مهروجن بن بصري</jawi>
+    <death>2008-08-21</death>
+    <deathm>1429-08-19</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-12-16" delivered="" price="260">
+    <name>zakiah binti shamsi</name>
+    <jawi>زکية بنت شمسي</jawi>
+    <death>2013-09-06</death>
+    <deathm>1434-10-30</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="ADI" date="2013-12-18" delivered="" price="35">
+    <name>MUHAMAD SYAFIQ BIN MAT TERJERI</name>
+    <jawi>محمد شافق بن مت ترجري</jawi>
+	<born>1998-05-14</born>
+    <death>2013-10-05</death>
+    <deathm>1434-11-29</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2013-12-19" delivered="" price="35">
+    <name>junidi bin aala</name>
+    <jawi>جونيد بن االا</jawi>
+    <death>2013-08-25</death>
+    <deathm>1434-10-18</deathm>
+    <item>PV Egg</item>
+  </order>
 </nisan>
