@@ -6489,8 +6489,8 @@
   </rootname>
   <rootname>
     <rumi>joriah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>جوريه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>joyah</rumi>
@@ -9229,8 +9229,8 @@
   </rootname>
   <rootname>
     <rumi>muhaimin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>موهيمين</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>muhaizaifah</rumi>
@@ -10380,7 +10380,7 @@
   <rootname>
     <rumi>norma</rumi>
     <jawi>نورما</jawi>
-    <sex>0</sex>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>normah</rumi>
@@ -12665,6 +12665,8 @@
   </rootname>
   <rootname>
     <rumi>sahat</rumi>
+	<jawi></jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>sahib</rumi>
