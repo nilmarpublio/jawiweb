@@ -17,30 +17,6 @@
 	$(document).ready(function() {
 		var json = {"events" : [
 				{
-					title: '3',
-					start: new Date(2013,1-1,13)
-				},
-				{
-					title: '4',
-					start: new Date(2013,2-1,12)
-				},
-				{
-					title: '5',
-					start: new Date(2013,3-1,13)
-				},
-				{
-					title: '6',
-					start: new Date(2013,4-1,12)
-				},
-				{
-					title: '7',
-					start: new Date(2013,5-1,11)
-				},
-				{
-					title: '8',
-					start: new Date(2013,6-1,10)
-				},
-				{
 					title: '9',
 					start: new Date(2013,7-1,10)
 				},
@@ -66,7 +42,7 @@
 				},
 				{
 					title: '3',
-					start: new Date(2014,1-1,2)
+					start: new Date(2014,1-1,3)
 				},
 				{
 					title: '4',
@@ -74,7 +50,7 @@
 				},
 				{
 					title: '5',
-					start: new Date(2014,3-1,2)
+					start: new Date(2014,3-1,3)
 				},
 				{
 					title: '6',
@@ -82,7 +58,39 @@
 				},
 				{
 					title: '7',
-					start: new Date(2014,4-1,30)
+					start: new Date(2014,5-1,1)
+				},
+				{
+					title: '8',
+					start: new Date(2014,5-1,30)
+				},
+				{
+					title: '9',
+					start: new Date(2014,6-1,29)
+				},
+				{
+					title: '10',
+					start: new Date(2014,7-1,28)
+				},
+				{
+					title: '11',
+					start: new Date(2014,8-1,27)
+				},
+				{
+					title: '12',
+					start: new Date(2014,9-1,26)
+				},
+				{
+					title: '1',
+					start: new Date(2014,10-1,25)
+				},
+				{
+					title: '2',
+					start: new Date(2014,11-1,24)
+				},
+				{
+					title: '3',
+					start: new Date(2014,12-1,23)
 				},
 		]};
 		
@@ -104,6 +112,7 @@
 		var current = today.getMonth();//+1;
 		//console.log("Current: "+current);
 		var j=0;
+		// TODO: Year wrong when it is crossing year happened at Jan.
 		for(var i=current+1;i<current+13;i++) {
 			if(j<6) {
 				$('#'+(i%12+1)).hide();
