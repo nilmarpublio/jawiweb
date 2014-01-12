@@ -11353,4 +11353,11 @@
     <deathm>1435-02-24</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
+  <order soldto="ADI" date="2014-01-11" delivered="" price="260">
+    <name>Waliah bt samsuri</name>
+    <jawi></jawi>
+    <death>2013-12-18</death>
+    <deathm>1435-02-15</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
 </nisan>
