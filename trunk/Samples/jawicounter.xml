@@ -22,7 +22,7 @@
   </counter>
   <counter>
     <name>bin4</name>
-    <count>544</count>
+    <count>556</count>
   </counter>
   <counter>
     <name>nayan</name>
@@ -30,7 +30,7 @@
   </counter>
   <counter>
     <name>bin3</name>
-    <count>1224</count>
+    <count>1231</count>
   </counter>
   <counter>
     <name>halimah2</name>
@@ -110,7 +110,7 @@
   </counter>
   <counter>
     <name>bt21</name>
-    <count>976</count>
+    <count>985</count>
   </counter>
   <counter>
     <name>alias2</name>
@@ -150,7 +150,7 @@
   </counter>
   <counter>
     <name>hjh6</name>
-    <count>59</count>
+    <count>64</count>
   </counter>
   <counter>
     <name>bakar</name>
@@ -174,11 +174,11 @@
   </counter>
   <counter>
     <name>mohd4</name>
-    <count>242</count>
+    <count>243</count>
   </counter>
   <counter>
     <name>esah</name>
-    <count>22</count>
+    <count>23</count>
   </counter>
   <counter>
     <name>hamid</name>
@@ -214,7 +214,7 @@
   </counter>
   <counter>
     <name>mohd2</name>
-    <count>527</count>
+    <count>533</count>
   </counter>
   <counter>
     <name>baharudin</name>
@@ -238,7 +238,7 @@
   </counter>
   <counter>
     <name>che5</name>
-    <count>108</count>
+    <count>111</count>
   </counter>
   <counter>
     <name>bt5</name>
@@ -366,7 +366,7 @@
   </counter>
   <counter>
     <name>khatijah</name>
-    <count>26</count>
+    <count>31</count>
   </counter>
   <counter>
     <name>bt</name>
@@ -478,7 +478,7 @@
   </counter>
   <counter>
     <name>ibrahim</name>
-    <count>70</count>
+    <count>74</count>
   </counter>
   <counter>
     <name>kechik2</name>
@@ -490,7 +490,7 @@
   </counter>
   <counter>
     <name>bee</name>
-    <count>115</count>
+    <count>120</count>
   </counter>
   <counter>
     <name>jaliha</name>
@@ -546,7 +546,7 @@
   </counter>
   <counter>
     <name>saad</name>
-    <count>58</count>
+    <count>68</count>
   </counter>
   <counter>
     <name>hj3</name>
@@ -570,7 +570,7 @@
   </counter>
   <counter>
     <name>hjh2</name>
-    <count>47</count>
+    <count>48</count>
   </counter>
   <counter>
     <name>hashim2</name>
@@ -586,7 +586,7 @@
   </counter>
   <counter>
     <name>ahmad4</name>
-    <count>153</count>
+    <count>159</count>
   </counter>
   <counter>
     <name>din3</name>
@@ -754,7 +754,7 @@
   </counter>
   <counter>
     <name>yusof</name>
-    <count>85</count>
+    <count>92</count>
   </counter>
   <counter>
     <name>yasin</name>
@@ -962,7 +962,7 @@
   </counter>
   <counter>
     <name>taib</name>
-    <count>21</count>
+    <count>24</count>
   </counter>
   <counter>
     <name>hatijah2</name>
@@ -1098,7 +1098,7 @@
   </counter>
   <counter>
     <name>jamilah</name>
-    <count>15</count>
+    <count>17</count>
   </counter>
   <counter>
     <name>beevi</name>
@@ -1214,7 +1214,7 @@
   </counter>
   <counter>
     <name>abd kader</name>
-    <count>25</count>
+    <count>30</count>
   </counter>
   <counter>
     <name>salmiah</name>
@@ -1286,7 +1286,7 @@
   </counter>
   <counter>
     <name>long</name>
-    <count>11</count>
+    <count>13</count>
   </counter>
   <counter>
     <name>shaiful</name>
@@ -1406,7 +1406,7 @@
   </counter>
   <counter>
     <name>mokhtar</name>
-    <count>25</count>
+    <count>32</count>
   </counter>
   <counter>
     <name>manjan</name>
@@ -1631,5 +1631,9 @@
   <counter>
     <name>habib</name>
     <count>4</count>
+  </counter>
+  <counter>
+    <name>jam</name>
+    <count>3</count>
   </counter>
 </DocumentElement>
