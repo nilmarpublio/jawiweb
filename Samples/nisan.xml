@@ -10628,7 +10628,7 @@
     <deathm>1435-01-15</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="PAS" date="2013-11-26" delivered="" price="260">
+  <order soldto="PAS" date="2013-11-26" delivered="2014-01-21" price="260">
     <name>Che yam bt wan lijah</name>
     <jawi>چي يم بنت وان ليجه</jawi>
     <death>2013-11-24</death>
@@ -10681,14 +10681,14 @@
     <deathm>1395-05-19</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="PAS" date="2013-11-28" delivered="" price="260">
+  <order soldto="PAS" date="2013-11-28" delivered="2014-01-21" price="260">
     <name>ibrahim bin daud</name>
     <jawi>إبراهيم بن داود</jawi>
     <death>1979-03-31</death>
     <deathm>1399-05-03</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="PAS" date="2013-11-28" delivered="" price="260">
+  <order soldto="PAS" date="2013-11-28" delivered="2014-01-21" price="260">
     <name>hasanah bt hj yaacob</name>
     <jawi>حسنه بنت حاج يعقوب</jawi>
     <death>1978-12-19</death>
