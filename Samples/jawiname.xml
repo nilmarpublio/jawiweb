@@ -178,7 +178,7 @@
   <rootname>
     <rumi>afandi</rumi>
     <jawi>افندي</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>affendi</rumi>
@@ -13003,8 +13003,8 @@
   </rootname>
   <rootname>
     <rumi>samah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>saman</rumi>
