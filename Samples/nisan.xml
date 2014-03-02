@@ -11853,14 +11853,14 @@
     <deathm>1434-04-15</deathm>
     <item>PV</item>
   </order>
-  <order soldto="SEM" date="2014-02-15" delivered="" price="230">
+  <order soldto="SEM" date="2014-02-15" delivered="2014-03-03" price="330">
     <name>Abd majid bin dahaman</name>
 	<jawi>عبدالمجيد بن دهامان</jawi>
     <death>2014-01-13</death>
     <deathm>1435-03-11</deathm>
     <item>2' Batu Hitam(L)</item>
   </order>
-  <order soldto="SEM" date="2014-02-15" delivered="" price="230">
+  <order soldto="SEM" date="2014-02-15" delivered="" price="330">
     <name>hj omar bin hj ismail</name>
 	<jawi>حاج عمربن حاج إسماعيل</jawi>
     <death>2013-12-13</death>
@@ -12091,5 +12091,65 @@
     <deathm>1435-04-24</deathm>
 	<age>63</age>
     <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="ADI" date="2014-03-01" delivered="2014-03-03" price="35">
+    <name>megat shahdinaabas bin suliman</name>
+	<jawi>مگت شهديناابس بن سليمان</jawi>
+	<born>1992-10-21</born>
+    <death>2013-09-08</death>
+    <deathm>1434-11-02</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-03-01" delivered="2014-03-03" price="35">
+    <name>suratmi binti setam</name>
+	<jawi>سورتمي بنت سطام</jawi>
+	<death>2013-12-06</death>
+    <deathm>1435-02-03</deathm>
+    <item>PV</item>
+	<remarks>jumaat</remarks>
+  </order>
+  <order soldto="ADI" date="2014-03-01" delivered="2014-03-03" price="35">
+    <name>hj mukhtar bin hj ta'arif</name>
+	<jawi>حاج مختار بن حاج تعاريف</jawi>
+    <death>2013-05-29</death>
+    <deathm>1434-07-19</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-03-01" delivered="2014-03-03" price="35">
+    <name>hj ta'arif bin hj pengiran</name>
+	<jawi>حاج تعاريف بن حاج ڤڠيرن</jawi>
+    <death> </death>
+    <deathm></deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-03-01" delivered="2014-03-03" price="35">
+    <name>tilo bin durong</name>
+	<jawi> تيلو بن دوروڠ</jawi>
+    <death> </death>
+    <deathm></deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2014-03-01" delivered="2014-03-03" price="35">
+    <name>hj ismail bin mat wali</name>
+	<jawi>حاج إسماعيل بن مت والي</jawi>
+	<born>1936</born>
+    <death>2013-11-03</death>
+    <deathm>1434-12-29</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-03-01" delivered="2014-03-03" price="260">
+    <name>Hamidah bt awang</name>
+	<jawi>هاميه بنت أواڠ</jawi>
+    <death>2013-11-05</death>
+    <deathm>1435-01-01</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2014-03-01" delivered="" price="35">
+    <name>hj bakar bin awang@sirun</name>
+	<jawi>حاج بكر بن أواڠ/سيرون</jawi>
+	<born>1942-06-24</born>
+    <death>2013-11-14</death>
+    <deathm>1435-01-10</deathm>
+    <item>2' Batu Putih(L)</item>
   </order>
 </nisan>

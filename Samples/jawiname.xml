@@ -9281,8 +9281,8 @@
   </rootname>
   <rootname>
     <rumi>mukhtar</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi></jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>mukhtaroh</rumi>
@@ -14828,7 +14828,7 @@
   <rootname>
     <rumi>suliman</rumi>
     <jawi>سليمان</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>sulong</rumi>
