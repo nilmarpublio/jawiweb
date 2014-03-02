@@ -12152,4 +12152,11 @@
     <deathm>1435-01-10</deathm>
     <item>2' Batu Putih(L)</item>
   </order>
+  <order soldto="KEN" date="2014-02-24" delivered="" price="230">
+    <name>Che Tom Bt Omar</name>
+	<jawi>چئ توم بنت عمر</jawi>
+    <death>2014-02-12</death>
+    <deathm>1435-04-12</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
 </nisan>
