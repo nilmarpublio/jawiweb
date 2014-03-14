@@ -10695,7 +10695,7 @@
     <deathm>1399-01-19</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="PAS" date="2013-11-28" delivered="" price="260">
+  <order soldto="PAS" date="2013-11-28" delivered="2014-03-05" price="260">
     <name>khadijah bt hj ismail</name>
     <jawi>خطيجه بنت حاج إسماعيل</jawi>
     <death>1994-12-10</death>
@@ -10842,7 +10842,7 @@
     <deathm>1434-12-20</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="PAS" date="2013-12-11" delivered="" price="260">
+  <order soldto="PAS" date="2013-12-11" delivered="2014-03-05" price="260">
 	<name>deris bin awang hamat</name>
 	<jawi>دريس بن أواڠ هامة</jawi>
 	<death>2013-10-31</death>
@@ -11194,13 +11194,12 @@
     <item>PV Egg</item>
 	<remarks>EF196625927MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-01-01" delivered="2014-01-06" price="35">
-    <name>hamidah binti awang</name>
-    <jawi>هاميه بنت أواڠ</jawi>
+  <order soldto="ADI" date="2014-01-01" delivered="" price="35">
+    <name>hamidah bt awang</name>
+    <jawi>حميدة بنت أواڠ</jawi>
     <death>2013-11-05</death>
     <deathm>1435-01-01</deathm>
     <item>PV</item>
-	<remarks>EF196625927MY</remarks>
   </order>
   <order soldto="ADI" date="2014-01-01" delivered="2014-01-06" price="35">
     <name>abd manan bin abd rapor</name>
@@ -11895,7 +11894,7 @@
     <deathm>1435-03-27</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2014-02-20" delivered="" price="330">
+  <order soldto="SEM" date="2014-02-20" delivered="2014-03-08" price="330">
     <name>hj abu samah bin abd raos</name>
     <jawi>حاج أبو سماح بن عبدالراوس</jawi>
     <death>2014-01-28</death>
@@ -12141,14 +12140,6 @@
     <item>PV Egg</item>
 	<remarks>EF189216388MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-03-01" delivered="2014-03-03" price="35">
-    <name>Hamidah bt awang</name>
-	<jawi>هاميه بنت أواڠ</jawi>
-    <death>2013-11-05</death>
-    <deathm>1435-01-01</deathm>
-    <item>PV</item>
-	<remarks>EF189216388MY</remarks>
-  </order>
   <order soldto="ADI" date="2014-03-01" delivered="" price="260">
     <name>hj bakar bin awang@sirun</name>
 	<jawi>حاج بكر بن أواڠ/سيرون</jawi>
@@ -12157,7 +12148,7 @@
     <deathm>1435-01-10</deathm>
     <item>2' Batu Putih(L)</item>
   </order>
-  <order soldto="KEN" date="2014-02-24" delivered="" price="230">
+  <order soldto="KEN" date="2014-02-24" delivered="2014-03-08" price="220">
     <name>Che Tom Bt Omar</name>
 	<jawi>چئ توم بنت عمر</jawi>
     <death>2014-02-12</death>
@@ -12187,7 +12178,7 @@
     <deathm>1435-04-28</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2014-03-02" delivered="" price="12">
+  <order soldto="HAM" date="2014-03-02" delivered="2014-03-10" price="12">
     <name>zainab bt hassan</name>
 	<jawi>زاينب بنت حسن</jawi>
     <death>2014-02-19</death>
@@ -12195,7 +12186,7 @@
 	<age>63</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-03-02" delivered="" price="12">
+  <order soldto="HAM" date="2014-03-02" delivered="2014-03-10" price="12">
     <name>hjh zarinah beham bt k.a. razak</name>
 	<jawi>حجه زارينه بيهام بنت كي،أ،رازق</jawi>
     <death>2014-02-01</death>
@@ -12203,12 +12194,93 @@
 	<age>57</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-03-02" delivered="" price="12">
+  <order soldto="HAM" date="2014-03-02" delivered="2014-03-10" price="12">
     <name>rahmah bt sulaiman</name>
 	<jawi>رحمه بنت سُليمان</jawi>
     <death>2014-01-29</death>
     <deathm>1435-03-27</deathm>
 	<age>82</age>
     <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="ADI" date="2014-03-05" delivered="" price="35">
+    <name>Kamaruddin bin mukri</name>
+	<jawi>قمرلدين بن موکري</jawi>
+    <death>2013-05-08</death>
+    <deathm>1434-06-27</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-03-05" delivered="" price="35">
+    <name>Ariffin bin Abbas</name>
+	<jawi>عريفين بن عابس</jawi>
+    <death>2008-09-15</death>
+    <deathm>1429-09-15</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="HAM" date="2014-03-05" delivered="2014-03-10" price="12">
+    <name>hj abu bakar bin mohd</name>
+	<jawi>حاج أبو بكر بن محمد</jawi>
+    <death>2014-02-13</death>
+    <deathm>1435-04-13</deathm>
+	<age>72</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-03-05" delivered="2014-03-10" price="12">
+    <name>fatimah bt mat tahir</name>
+	<jawi>فطمة بنت مت طاهر</jawi>
+    <death>2014-02-03</death>
+    <deathm>1435-04-03</deathm>
+	<age>95</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-03-05" delivered="2014-03-10" price="12">
+    <name>husain bin ibrahim</name>
+	<jawi>حسين بن إبراهيم</jawi>
+    <death>1991-10-13</death>
+    <deathm>1412-04-05</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-03-05" delivered="2014-03-10" price="12">
+    <name>halimah (tok wan)</name>
+	<jawi>حليمه/توک وان</jawi>
+	<born>1404</born>
+    <death>1984</death>
+    <deathm></deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="SEL" date="2014-03-09" delivered="2013-03-08" price="230">
+    <name>ahamad zaidi bin hj harun</name>
+	<jawi>احمد زايدي بن حاج هارون</jawi>
+    <death>2014-02-23</death>
+    <deathm>1435-04-23</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEL" date="2014-03-12" delivered="" price="230">
+    <name>Muhamad bin Ibrahim</name>
+	<jawi>محمد بن إبراهيم</jawi>
+    <death>2014-03-05</death>
+    <deathm>1435-05-03</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2014-03-14" delivered="" price="230">
+    <name>mohd nazri bin ahmad</name>
+	<jawi>محمد نزري بن أحمد</jawi>
+    <death>2013-12-23</death>
+    <deathm>1435-02-20</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2014-03-11" delivered="" price="35">
+    <name>Hjh tusiam bt munawar</name>
+	<jawi>حجه توسيعام بنت مونور</jawi>
+    <death>2014-02-03</death>
+    <deathm>1435-04-03</deathm>
+    <item>2' Batu Hitam(P)</item>
+  </order>
+  <order soldto="ADI" date="2014-03-11" delivered="" price="35">
+    <name>Saeiah bt hamdan</name>
+	<jawi>سعيه بنت همدان</jawi>
+	<born>1946-10-31</born>
+    <death>2014-01-26</death>
+    <deathm>1435-03-24</deathm>
+    <item>PV</item>
   </order>
 </nisan>
