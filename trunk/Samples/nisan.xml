@@ -12140,7 +12140,7 @@
     <item>PV Egg</item>
 	<remarks>EF189216388MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-03-01" delivered="" price="260">
+  <order soldto="ADI" date="2014-03-01" delivered="2014-03-10" price="260">
     <name>hj bakar bin awang@sirun</name>
 	<jawi>حاج بكر بن أواڠ/سيرون</jawi>
 	<born>1942-06-24</born>
@@ -12282,5 +12282,57 @@
     <death>2014-01-26</death>
     <deathm>1435-03-24</deathm>
     <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2014-03-14" delivered="" price="35">
+    <name>Hj radikin bin Hassan</name>
+	<jawi>حاج راديکين بن حسن</jawi>
+    <death>2013-11-08</death>
+    <deathm>1435-01-04</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-03-14" delivered="" price="35">
+    <name>Hj Markum bin hj saleh</name>
+	<jawi>حاج مرقوم بن حاج صالح</jawi>
+    <death>2005-02-09</death>
+    <deathm>1425-01-04</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-03-14" delivered="" price="35">
+    <name>Hjh rafeah bt abdullah</name>
+	<jawi>حجه رفعه بنت عبدالله</jawi>
+    <death>2014-03-07</death>
+    <deathm>1435-05-05</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2014-03-14" delivered="" price="35">
+    <name>Mohamed hashim bin N.k.ambi</name>
+	<jawi>محمد هاشم بن أن،كي، امبي</jawi>
+    <death>2013-10-08</death>
+    <deathm>1434-12-03</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="HAM" date="2014-03-12" delivered="" price="12">
+    <name>ibrahim bin kader mydin</name>
+	<jawi>إبراهيم بن كادير مَيدين</jawi>
+    <death>2014-02-12</death>
+    <deathm>1435-04-12</deathm>
+	<age>64</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-03-12" delivered="" price="12">
+    <name>hj mohamed bin saini</name>
+	<jawi>حاج محمد بن سايني</jawi>
+    <death>2014-02-18</death>
+    <deathm>1435-04-18</deathm>
+	<age>74</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-03-12" delivered="" price="12">
+    <name>noriah bt mohd ayob</name>
+	<jawi>نوريه بنت محمد أيوب</jawi>
+    <death>2014-03-06</death>
+    <deathm>1435-05-04</deathm>
+	<age>56</age>
+    <item>2' Sticker(P)</item>
   </order>
 </nisan>

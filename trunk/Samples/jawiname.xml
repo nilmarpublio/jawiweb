@@ -715,6 +715,8 @@
   </rootname>
   <rootname>
     <rumi>ambi</rumi>
+	<jawi>امبي</jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ambia</rumi>
@@ -12776,8 +12778,8 @@
   </rootname>
   <rootname>
     <rumi>saini</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سايني</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>saion</rumi>
