@@ -22,7 +22,7 @@
   </counter>
   <counter>
     <name>bin4</name>
-    <count>589</count>
+    <count>591</count>
   </counter>
   <counter>
     <name>nayan</name>
@@ -30,7 +30,7 @@
   </counter>
   <counter>
     <name>bin3</name>
-    <count>1396</count>
+    <count>1397</count>
   </counter>
   <counter>
     <name>halimah2</name>
@@ -130,7 +130,7 @@
   </counter>
   <counter>
     <name>abu2</name>
-    <count>140</count>
+    <count>141</count>
   </counter>
   <counter>
     <name>abidin</name>
@@ -790,7 +790,7 @@
   </counter>
   <counter>
     <name>basri</name>
-    <count>27</count>
+    <count>28</count>
   </counter>
   <counter>
     <name>mutalib</name>
@@ -866,7 +866,7 @@
   </counter>
   <counter>
     <name>shamsudin</name>
-    <count>50</count>
+    <count>52</count>
   </counter>
   <counter>
     <name>basir2</name>
@@ -1134,7 +1134,7 @@
   </counter>
   <counter>
     <name>jaafar</name>
-    <count>42</count>
+    <count>44</count>
   </counter>
   <counter>
     <name>zain</name>
@@ -1642,6 +1642,10 @@
   </counter>
   <counter>
     <name>rostom</name>
+    <count>1</count>
+  </counter>
+  <counter>
+    <name>bu</name>
     <count>1</count>
   </counter>
 </DocumentElement>
