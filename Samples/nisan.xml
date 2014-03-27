@@ -12496,4 +12496,42 @@
 	<age>38</age>
     <item>2' Sticker(L)</item>
   </order>
+  <order soldto="HAM" date="2014-03-26" delivered="" price="12">
+    <name>mohd shariff bin kechik</name>
+	<jawi>محمد شريف بن كچيك</jawi>
+    <death>1952</death>
+    <deathm></deathm>
+	<age>5</age>
+    <item>1½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-03-26" delivered="" price="12">
+    <name>roszana bt che rose</name>
+	<jawi>روزانا بنت چئ روس</jawi>
+    <death>2014-02-14</death>
+    <deathm>1435-04-14</deathm>
+	<age>36</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-03-26" delivered="" price="12">
+    <name>saied batcha bin seeni ghani</name>
+	<jawi>سعيد باچا بن سيني غنى</jawi>
+    <death>1963</death>
+    <deathm></deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-03-26" delivered="" price="12">
+    <name>hanifah bt saied batcha</name>
+	<jawi>حنيفه بنت سعيد باچا</jawi>
+    <death>1962</death>
+    <deathm></deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-03-26" delivered="" price="12">
+    <name>fatimah bee bt shaik mohd</name>
+	<jawi>فطمة بي بنت شيك محمد</jawi>
+    <death>1981-03-08</death>
+    <deathm>1401-05-03</deathm>
+	<age>67</age>
+    <item>2' Sticker(P)</item>
+  </order>
 </nisan>
