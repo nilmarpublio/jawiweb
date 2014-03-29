@@ -12411,13 +12411,6 @@
     <deathm>1435-02-15</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2014-03-25" delivered="" price="330">
-    <name></name>
-	<jawi></jawi>
-    <death></death>
-    <deathm></deathm>
-    <item>2' Batu Hitam(P)</item>
-  </order>
   <order soldto="SEM" date="2014-03-25" delivered="" price="230">
     <name>abdullah bin safiee</name>
 	<jawi>عبدالله بن شافعي</jawi>
@@ -12441,7 +12434,7 @@
 	<age>75</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-03-24" delivered="" price="12">
+  <order soldto="HAM" date="2014-03-24" delivered="2014-03-31" price="12">
     <name>fatimah bt noor</name>
 	<jawi>فطمة بنت نور</jawi>
     <death>2014-03-06</death>
@@ -12465,7 +12458,7 @@
 	<age>72</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-03-24" delivered="" price="12">
+  <order soldto="HAM" date="2014-03-24" delivered="2014-03-31" price="12">
     <name>ismail bin kassim</name>
 	<jawi>إسماعيل بن قاسيم</jawi>
     <death>2014-03-08</death>
@@ -12473,14 +12466,14 @@
 	<age>55</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-03-24" delivered="" price="12">
+  <order soldto="HAM" date="2014-03-24" delivered="2014-03-31" price="12">
     <name>zainol bin saaidin</name>
 	<jawi>زاينول بن سعيدين</jawi>
     <death>1996-04-12</death>
-    <deathm>116-11-23</deathm>
+    <deathm>1416-11-23</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-03-24" delivered="" price="12">
+  <order soldto="HAM" date="2014-03-24" delivered="2014-03-31" price="12">
     <name>salmiah bt kechik</name>
 	<jawi>ساميه بنت كچيك</jawi>
     <death>1983-04-20</death>
@@ -12496,7 +12489,7 @@
 	<age>38</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-03-26" delivered="" price="12">
+  <order soldto="HAM" date="2014-03-26" delivered="2014-03-31" price="12">
     <name>mohd shariff bin kechik</name>
 	<jawi>محمد شريف بن كچيك</jawi>
     <death>1952</death>
@@ -12504,7 +12497,7 @@
 	<age>5</age>
     <item>1½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-03-26" delivered="" price="12">
+  <order soldto="HAM" date="2014-03-26" delivered="2014-03-31" price="12">
     <name>roszana bt che rose</name>
 	<jawi>روزانا بنت چئ روس</jawi>
     <death>2014-02-14</death>
@@ -12519,14 +12512,14 @@
     <deathm></deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-03-26" delivered="" price="12">
+  <order soldto="HAM" date="2014-03-26" delivered="2014-03-31" price="12">
     <name>hanifah bt saied batcha</name>
 	<jawi>حنيفه بنت سعيد باچا</jawi>
     <death>1962</death>
     <deathm></deathm>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-03-26" delivered="" price="12">
+  <order soldto="HAM" date="2014-03-26" delivered="2014-03-31" price="12">
     <name>fatimah bee bt shaik mohd</name>
 	<jawi>فطمة بي بنت شيك محمد</jawi>
     <death>1981-03-08</death>
