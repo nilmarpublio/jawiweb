@@ -387,8 +387,8 @@
   </rootname>
   <rootname>
     <rumi>akbar</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>اكبر</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>akher</rumi>
@@ -5245,8 +5245,8 @@
   </rootname>
   <rootname>
     <rumi>hindun</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>هيندون</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>hisan</rumi>
@@ -14636,28 +14636,8 @@
     <sex>0</sex>
   </rootname>
   <rootname>
-    <rumi>spitchay</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
     <rumi>sri</rumi>
     <jawi>سري</jawi>
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>ss</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>stan</rumi>
-    <jawi />
-    <sex>0</sex>
-  </rootname>
-  <rootname>
-    <rumi>stapa</rumi>
-    <jawi />
     <sex>0</sex>
   </rootname>
   <rootname>
@@ -16262,7 +16242,7 @@
   <rootname>
     <rumi>yusri</rumi>
     <jawi>يسري</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>yusriza</rumi>
