@@ -12599,7 +12599,7 @@
     <deathm>1428-09-12</deathm>
     <item>2' Batu Hijau(P)</item>
   </order>
-  <order soldto="HAM" date="2014-04-03" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-03" delivered="2014-04-14" price="12">
     <name>hj md yusuff bin salleh</name>
 	<jawi>حاج مد يوسف بن صالح</jawi>
     <death>2014-03-05</death>
@@ -12607,7 +12607,7 @@
 	<age>79</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-04-03" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-03" delivered="2014-04-14" price="12">
     <name>khairul anuar bin ibrahim</name>
 	<jawi>خيرل انوار بن إبراهيم</jawi>
     <death>2014-03-07</death>
@@ -12615,7 +12615,7 @@
 	<age>52</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-04-03" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-03" delivered="2014-04-14" price="12">
     <name>jaafar bin nahrawi</name>
 	<jawi>جعفر بن نهراوي</jawi>
     <death>2014-02-27</death>
@@ -12623,7 +12623,7 @@
 	<age>78</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-04-03" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-03" delivered="2014-04-14" price="12">
     <name>zulkifli bin ashaari</name>
 	<jawi>زوالكيفلي بن اشعاري</jawi>
     <death>2014-01-22</death>
@@ -12631,7 +12631,7 @@
 	<age>57</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-04-03" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-03" delivered="2014-04-14" price="12">
     <name>hjh bee bt mohamed</name>
 	<jawi>حجه بي بنت محمد</jawi>
     <death>2014-03-27</death>
@@ -12639,7 +12639,7 @@
 	<age>65</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-04-03" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-03" delivered="2014-04-14" price="12">
     <name>tamsir rizal bin ali akbar</name>
 	<jawi>تمسير ريزال بن علي اكبر</jawi>
     <death>2013-12-31</death>
@@ -12647,7 +12647,7 @@
 	<age>37</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-04-03" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-03" delivered="2014-04-14" price="12">
     <name>saadiyah bt mohd</name>
 	<jawi>سعديه بنت محمد</jawi>
     <death>2014-03-18</death>
@@ -12655,7 +12655,7 @@
 	<age>65</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-04-03" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-03" delivered="2014-04-14" price="12">
     <name>hj mahmood bin salim</name>
 	<jawi>حاج محمود بن سالم</jawi>
     <death>2014-03-25</death>
@@ -12663,14 +12663,14 @@
 	<age>83</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-04-03" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-03" delivered="2014-04-14" price="12">
     <name>bibi bt mydin</name>
 	<jawi>بيبي بنت مَيدين</jawi>
     <death>1961-12-30</death>
     <deathm>1381-07-23</deathm>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-04-03" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-03" delivered="2014-04-14" price="12">
     <name>ashiah bt arope</name>
 	<jawi>أشيه بنت اروف</jawi>
     <death>2014-03-29</death>
@@ -12678,14 +12678,14 @@
 	<age>74</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-04-03" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-03" delivered="2014-04-14" price="12">
     <name>jamilah bt mamat</name>
 	<jawi>جميله بنت مامات</jawi>
     <death>2013-12-11</death>
     <deathm>1435-02-08</deathm>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-04-03" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-03" delivered="2014-04-14" price="100">
     <name>sulaiman bin abdullah @ lim chew teng</name>
 	<jawi>سُليمان بن عبدالله</jawi>
 	<born>1958-06-18</born>
@@ -12693,7 +12693,7 @@
     <deathm>1434-02-23</deathm>
     <item>18"x17½" Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-04-10" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-10" delivered="2014-04-14" price="12">
     <name>ahmad bin puteh</name>
 	<jawi>أحمد بن فوتيه</jawi>
     <death>2001-08-05</death>
@@ -12701,7 +12701,7 @@
 	<age>60</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-04-10" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-10" delivered="2014-04-14" price="12">
     <name>mohd salleh bin mohd noor</name>
 	<jawi>محمد صالح بن محمد نور</jawi>
     <death>2014-03-12</death>
@@ -12709,7 +12709,7 @@
 	<age>64</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-04-10" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-10" delivered="2014-04-14" price="12">
     <name>zukefley bin zakaria</name>
 	<jawi>زوالكيفلي بن زكريا</jawi>
     <death>2014-03-24</death>
@@ -12741,7 +12741,7 @@
 	<age>64</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-04-10" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-10" delivered="2014-04-14" price="12">
     <name>hjh ishabee bt shariff</name>
 	<jawi>حجه ايشا بنت شريف</jawi>
     <death>2014-03-16</death>
@@ -12749,7 +12749,7 @@
 	<age>63</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-04-10" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-10" delivered="2014-04-14" price="12">
     <name>azizah bt ahmad</name>
 	<jawi>عزيزه بنت أحمد</jawi>
     <death>2014-03-20</death>
@@ -12757,7 +12757,7 @@
 	<age>61</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-04-12" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-12" delivered="2014-04-14" price="12">
     <name>ISHAK BIN YUSOFF</name>
 	<jawi>اسحاق بن يوسوف</jawi>
     <death>2014-02-18</death>
@@ -12765,7 +12765,7 @@
 	<age>71</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-04-12" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-12" delivered="2014-04-14" price="12">
     <name>YAHAYA BIN MUSA</name>
 	<jawi>يحيي بن موسا</jawi>
     <death>1999-05-23</death>
@@ -12773,7 +12773,7 @@
 	<age>46</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-04-12" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-12" delivered="2014-04-14" price="12">
     <name>MUHAMAD REZAIDI BIN ABDUL HAMID</name>
 	<jawi>محمد ريزيدي بن عبدالحميد</jawi>
     <death>2014-04-03</death>
@@ -12781,7 +12781,7 @@
 	<age>30</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-04-12" delivered="" price="12">
+  <order soldto="HAM" date="2014-04-12" delivered="2014-04-14" price="12">
     <name>YUSRI BIN ISHAK</name>
 	<jawi>يسري بن اسحاق</jawi>
     <death>2014-04-02</death>
