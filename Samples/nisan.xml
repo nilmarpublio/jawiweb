@@ -13214,6 +13214,7 @@
     <death>2013-09-06</death>
     <deathm>1434-10-30 jumaat</deathm>
     <item>PV</item>
+	<remarks>hari jumaat</remarks>
   </order>
   <order soldto="SEM" date="2014-05-08" delivered="" price="230">
     <name>halimah bt abdullah</name>
@@ -13252,6 +13253,7 @@
     <deathm>1435-06-04 jumaat</deathm>
 	<age>56</age>
     <item>PV</item>
+	<remarks>hari jumaat</remarks>
   </order>
   <order soldto="ADI" date="2014-05-07" delivered="" price="35">
     <name>hj kamidi bin hj kassan</name>
