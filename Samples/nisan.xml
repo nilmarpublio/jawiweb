@@ -13171,35 +13171,35 @@
     <deathm>1418-12-21</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="ADI" date="2014-05-03" delivered="" price="35">
+  <order soldto="ADI" date="2014-05-03" delivered="2014-05-12" price="35">
     <name>Mohamad kassim bin alang</name>
 	<jawi>محمد قاسيم بن الڠ</jawi>
     <death>2004-06-20</death>
     <deathm>1425-05-02</deathm>
     <item>PV 6"x12"</item>
   </order>
-  <order soldto="ADI" date="2014-05-05" delivered="" price="35">
+  <order soldto="ADI" date="2014-05-05" delivered="2014-05-12" price="35">
     <name>katibah bt sulaiman</name>
 	<jawi>کتيبه بنت سُليمان</jawi>
     <death>2013-03-14</death>
     <deathm>1434-05-02</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2014-05-05" delivered="" price="35">
+  <order soldto="ADI" date="2014-05-05" delivered="2014-05-12" price="35">
     <name>kamalruddin bin mohamad kassim</name>
 	<jawi>قمرلدين بن محمد قاسيم</jawi>
     <death>2014-04-10</death>
     <deathm>1435-06-10</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2014-05-05" delivered="" price="35">
+  <order soldto="ADI" date="2014-05-05" delivered="2014-05-12" price="35">
     <name>asmat bin kunchong</name>
 	<jawi>اسمات بن کونچوڠ</jawi>
     <death>1992-05-03</death>
     <deathm>1412-11-02</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2014-05-05" delivered="" price="35">
+  <order soldto="ADI" date="2014-05-05" delivered="2014-05-12" price="35">
     <name>hj jalal bin hj makrof</name>
 	<jawi>حاج جالال بن حاج مکروف</jawi>
     <death>1953</death>
@@ -13207,7 +13207,7 @@
     <item>PV Egg</item>
 	<remarks>jawi saja</remarks>
   </order>
-  <order soldto="ADI" date="2014-05-05" delivered="" price="35">
+  <order soldto="ADI" date="2014-05-05" delivered="2014-05-12" price="35">
     <name>hajah ensoon bt mijan</name>
 	<jawi>حجه اينسون بنت ميجن</jawi>
 	<born>1941-12-10</born>
@@ -13216,7 +13216,7 @@
     <item>PV</item>
 	<remarks>hari jumaat</remarks>
   </order>
-  <order soldto="SEM" date="2014-05-08" delivered="" price="230">
+  <order soldto="SEM" date="2014-05-08" delivered="2014-05-11" price="230">
     <name>halimah bt abdullah</name>
 	<jawi>حليمه بنت عبدالله</jawi>
     <death>2014-04-26</death>
@@ -13277,7 +13277,7 @@
     <deathm>1435-03-15</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2014-05-09" delivered="" price="70">
+  <order soldto="ADI" date="2014-05-09" delivered="2014-05-12" price="70">
     <name>yusof bin shari</name>
 	<jawi>يوسوف بن شاري</jawi>
     <death>1999-06-25</death>
