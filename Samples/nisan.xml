@@ -13290,13 +13290,13 @@
     <item>PV 6"x12"</item>
 	<remarks>EF19667198MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-05-09" delivered="2014-05-19" price="35">
+  <order soldto="ADI" date="2014-05-09" delivered="" price="35">
     <name>abd hadi bin mansur</name>
 	<jawi>عبدالهادي بن منصور</jawi>
 	<born>1973-04-08</born>
     <death>2011-05-10</death>
     <deathm>1432-06-06</deathm>
-    <item>PV</item>
+    <item>PV Egg</item>
   </order>
   <order soldto="HAM" date="2014-05-13" delivered="2014-05-19" price="12">
     <name>saleha bt othman</name>
@@ -13398,17 +13398,48 @@
     <item>2' Batu Batik(P)</item>
   </order>
   <order soldto="SEM" date="2014-05-21" delivered="" price="230">
-    <name>Halimah bt abdullah</name>
-	<jawi>حليمه بنت عبدالله</jawi>
-    <death>2014-04-26</death>
-    <deathm>1435-06-26</deathm>
-    <item>2' Batu Batik(P)</item>
-  </order>
-  <order soldto="SEM" date="2014-05-21" delivered="" price="230">
     <name>Zainal abidin bin saari</name>
 	<jawi>زاينل ابيدين بن سعاري</jawi>
     <death>2014-01-16</death>
     <deathm>1435-03-14</deathm>
     <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2014-05-18" delivered="" price="35">
+    <name>sa'edah bt nusi</name>
+	<jawi>ساءعدە بنت نوسي</jawi>
+    <death>1991-05-13</death>
+    <deathm>1411-10-29</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2014-05-18" delivered="" price="35">
+    <name>jabar bin abd raub</name>
+	<jawi>جابر بن عبد راوب</jawi>
+    <death>1967</death>
+    <deathm></deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-05-18" delivered="" price="35">
+    <name>abu bin md saman</name>
+	<jawi>ابو بن مد سامن</jawi>
+	<born>1973-09-22</born>
+    <death>2014-05-10</death>
+    <deathm>1435-07-10</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-05-18" delivered="" price="35">
+    <name>Rajiah bt raheman</name>
+	<jawi>راجيه بنت رحايمن</jawi>
+	<born>1944-02-15</born>
+    <death>2013-10-08</death>
+    <deathm>1434-12-03</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="ADI" date="2014-05-18" delivered="" price="35">
+    <name>Termezi bin bajuri</name>
+	<jawi>ترميزي بن باجوري</jawi>
+	<born>1961-10-09</born>
+    <death>2012-09-15</death>
+    <deathm>1433-10-28</deathm>
+    <item>2' Batu Hitam(L)</item>
   </order>
 </nisan>
