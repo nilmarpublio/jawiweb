@@ -1263,7 +1263,7 @@
   <rootname>
     <rumi>asin</rumi>
     <jawi>اسين</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>askiah</rumi>
@@ -13475,8 +13475,8 @@
   </rootname>
   <rootname>
     <rumi>semah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>سيمه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>semail</rumi>

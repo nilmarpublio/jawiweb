@@ -13171,7 +13171,7 @@
     <deathm>1418-12-21</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="ADI" date="2014-05-03" delivered="2014-05-12" price="35">
+  <order soldto="ADI" date="2014-05-03" delivered="2014-05-12" price="70">
     <name>Mohamad kassim bin alang</name>
 	<jawi>محمد قاسيم بن الڠ</jawi>
     <death>2004-06-20</death>
@@ -13598,5 +13598,33 @@
     <deathm>1435-05-26</deathm>
 	<age>44</age>
     <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="PAS" date="2014-06-05" delivered="" price="260">
+    <name>halimah bt ab majid</name>
+	<jawi>حليمه بنت عبدالمجيد</jawi>
+    <death>2013-12-17</death>
+    <deathm>1435-02-14</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="ADI" date="2014-06-05" delivered="" price="35">
+    <name>mohd mahayudin bin mohd abas</name>
+	<jawi>محمد مهايودين بن محمد عابس</jawi>
+    <death>2013-10-29</death>
+    <deathm>1434-12-24</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-06-05" delivered="" price="35">
+    <name>yahya bin hj johari</name>
+	<jawi>يحيى بن حاج جوهاري</jawi>
+    <death>2013-10-26</death>
+    <deathm>1434-12-21</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-06-05" delivered="" price="260">
+    <name>semah bt mat asin</name>
+	<jawi>سيمه بنت مت اسين</jawi>
+    <death>2014-05-11</death>
+    <deathm>1435-07-11</deathm>
+    <item>2' Batu Batik(P)</item>
   </order>
 </nisan>
