@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" standalone="yes"?>
 <?xml-stylesheet type="text/xsl" href="index.xsl"?>
-<!-- 0=uni sex, 1=male, 2=female -->
+<!-- 0=common, 1=male, 2=female -->
 <jawiname>
   <character>
     <english>a</english>
@@ -13266,8 +13266,8 @@
   </rootname>
   <rootname>
     <rumi>sarimah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>صاريمه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>sarintan</rumi>
