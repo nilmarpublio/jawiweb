@@ -13620,7 +13620,7 @@
     <deathm>1434-12-21</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2014-06-05" delivered="" price="260">
+  <order soldto="ADI" date="2014-06-05" delivered="2014-06-16" price="260">
     <name>semah bt mat asin</name>
 	<jawi>سيمه بنت مت اسين</jawi>
     <death>2014-05-11</death>
@@ -13641,14 +13641,14 @@
     <deathm>1435-06-06</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2014-06-08" delivered="" price="230">
+  <order soldto="SEM" date="2014-06-08" delivered="2014-06-15" price="230">
     <name>mohd kasim bin desa</name>
 	<jawi>محمد قاسيم بن ديسا</jawi>
     <death>2014-05-01</death>
     <deathm>1435-07-01</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2014-06-08" delivered="" price="230">
+  <order soldto="SEM" date="2014-06-08" delivered="2014-06-15" price="230">
     <name>bahatim bin yunus</name>
 	<jawi>بهتيم بن يونوس</jawi>
     <death>2013-12-27</death>
@@ -13662,11 +13662,71 @@
     <deathm>1435-06-17</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2014-06-08" delivered="" price="230">
+  <order soldto="SEM" date="2014-06-08" delivered="2014-06-15" price="230">
     <name>hashim bin yahya</name>
 	<jawi>هاشم بن يحيى</jawi>
     <death>2014-05-15</death>
     <deathm>1435-07-15</deathm>
     <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2014-06-11" delivered="" price="280">
+    <name>hj alang tek bin abdul rahman</name>
+	<jawi>حاج الڠ تيف بن عبدولرحمن</jawi>
+    <death>1982-11-12</death>
+    <deathm>1403-01-26</deathm>
+    <item>2' Batu Putih(L)</item>
+  </order>
+  <order soldto="ADI" date="2014-06-11" delivered="2014-06-16" price="35">
+    <name>ismatul hasnida bt hj isa</name>
+	<jawi>اسماتول هسنيدا بنت حاج عيسى</jawi>
+    <death>1986-05-14</death>
+    <deathm>1406-09-06</deathm>
+    <item>PV Budak</item>
+	<remarks>EF352468052MY</remarks>
+  </order>
+  <order soldto="ADI" date="2014-06-11" delivered="2014-06-16" price="35">
+    <name>hj samingin bin hj kemin</name>
+	<jawi>حاج ساميڠين بن حاج كمين</jawi>
+	<born>1935-09-04</born>
+    <death>2014-03-11</death>
+    <deathm>1435-05-09</deathm>
+    <item>PV Egg</item>
+	<remarks>EF352468052MY</remarks>
+  </order>
+  <order soldto="ADI" date="2014-06-11" delivered="2014-06-16" price="35">
+    <name>mohd rosli bin hj abdul rahman</name>
+	<jawi>محمد روسلي بن حاج عبدولرحمن</jawi>
+    <death>2013-05-11</death>
+    <deathm>1434-07-01</deathm>
+    <item>PV Egg</item>
+	<remarks>EF352468052MY</remarks>
+  </order>
+  <order soldto="KEN" date="2014-06-13" delivered="" price="230">
+    <name>hj ayob bin salleh</name>
+	<jawi>حاج أيوب بن صالح</jawi>
+    <death>1998-12-21</death>
+    <deathm>1419-09-03</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="KEN" date="2014-06-13" delivered="" price="230">
+    <name>hjh rahmah bt salleh</name>
+	<jawi>حجه رحمه بنت صالح</jawi>
+    <death>1991-06-19</death>
+    <deathm>1411-12-07</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="KEN" date="2014-06-13" delivered="" price="230">
+    <name>mhd syahri bin munarjo</name>
+	<jawi>محمد شهري بن مونرجو</jawi>
+    <death>2014-03-09</death>
+    <deathm>1435-05-07</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="PAS" date="2014-06-14" delivered="" price="260">
+    <name>aminah bt abdullah</name>
+	<jawi>أمينة بنت عبدالله</jawi>
+    <death>2014-04-19</death>
+    <deathm>1435-06-19</deathm>
+    <item>2' Batu Batik(P)</item>
   </order>
 </nisan>
