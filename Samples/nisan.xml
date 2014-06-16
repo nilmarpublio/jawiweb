@@ -13729,4 +13729,18 @@
     <deathm>1435-06-19</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
+  <order soldto="SEM" date="2014-06-16" delivered="" price="380">
+    <name>HASNAH BT LAZIM</name>
+	<jawi>حسنه بنت لازيم</jawi>
+    <death>2014-04-24</death>
+    <deathm>1435-06-24</deathm>
+    <item>2' Batu Hitam(P)</item>
+  </order>
+  <order soldto="SEM" date="2014-06-16" delivered="" price="380">
+    <name>MOHD SHAHRUL BIN MOHD AINEE</name>
+	<jawi>محمد شاهول بن محمد عيني</jawi>
+    <death>2008-03-22</death>
+    <deathm>1429-03-14</deathm>
+    <item>2' Batu Hitam(L)</item>
+  </order>
 </nisan>
