@@ -13791,4 +13791,26 @@
 	<age>64</age>
     <item>2' Tarazo(L)</item>
   </order>
+  <order soldto="ADI" date="2014-06-16" delivered="" price="35">
+    <name>hj maseri bin hj abd gafar</name>
+	<jawi> حاج ماسيري بن حاج عبد ݢفر</jawi>
+    <death>2013-05-27</death>
+    <deathm>1434-07-17</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-06-16" delivered="" price="35">
+    <name>hj sanusi bin hj hassan</name>
+	<jawi> حاج سنوسي بن حاج حسن</jawi>
+	<born>1922-07-05</born>
+    <death>2007-03-01</death>
+    <deathm>1428-02-11</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-06-16" delivered="" price="35">
+    <name>jamal bin ayit</name>
+	<jawi> جمال بن اييت</jawi>
+    <death>1984-07-17</death>
+    <deathm>1404-10-19</deathm>
+    <item>PV Budak</item>
+  </order>
 </nisan>
