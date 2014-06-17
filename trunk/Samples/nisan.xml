@@ -13743,4 +13743,52 @@
     <deathm>1429-03-14</deathm>
     <item>2' Batu Hitam(L)</item>
   </order>
+  <order soldto="HAM" date="2014-06-17" delivered="" price="12">
+    <name>khalif imran bin mohd zafry</name>
+	<jawi>خليف امران بن محمد زافري</jawi>
+    <death>2012-06-15</death>
+    <deathm>1433-07-25</deathm>
+	<age>1</age>
+    <item>1½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-17" delivered="" price="12">
+    <name>ruslia bt ali</name>
+	<jawi>روسليا بنت علي</jawi>
+    <death>2014-06-01</death>
+    <deathm>1435-08-03</deathm>
+	<age>55</age>
+    <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-17" delivered="" price="12">
+    <name>mohd zulkali bin mohd daud</name>
+	<jawi>محمد زولكاليبن محمد داود</jawi>
+    <death>2014-05-05</death>
+    <deathm>1435-07-05</deathm>
+	<age>56</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-17" delivered="" price="12">
+    <name>asmadi bin abd rashid</name>
+	<jawi>اسمادي بن عبدالراشد</jawi>
+    <death>2014-03-26</death>
+    <deathm>1435-05-24</deathm>
+	<age>42</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-17" delivered="" price="12">
+    <name>osman bin abd hamid</name>
+	<jawi>عسمن بن عبدالحميد</jawi>
+    <death>2014-03-09</death>
+    <deathm>1435-05-07</deathm>
+	<age>61</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-17" delivered="" price="12">
+    <name>serajudin bin mydin pitchay</name>
+	<jawi>سثراجودين بن مايدين فييڅي</jawi>
+    <death>2014-06-10</death>
+    <deathm>1435-08-12</deathm>
+	<age>64</age>
+    <item>2' Tarazo(L)</item>
+  </order>
 </nisan>
