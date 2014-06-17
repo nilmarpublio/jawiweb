@@ -56,20 +56,20 @@
       </head>
       <body>
         <div class="headerLeft">
-          To:<br />
+          <br/>To:<br />
       	  <div id="address">
         	<xsl:if test="$customer = 'HAM'">
         		<b>En. Hamid</b> 012-469 0249<br/>
       	  		Kampung Dodol<br/>
-				Jelutong 11600<br/>
-				Penang, Malaysia
+				11600 Jelutong, Penang<br/>
+				<a href="mailto:shameer9103@yahoo.com">shameer9103@yahoo.com</a>
       	  	</xsl:if>
         	<xsl:if test="$customer = 'ADI'">
         		<b>Addin Marble</b> 013-362 4363<br/>
       	  		F78 Parit 18<br/>
       	  		Kampung Baru<br/>
-      	  		36400 Hutan Melintang<br/>
-      	  		Perak
+      	  		36400 Hutan Melintang, Perak<br/>
+      	  		<a href="mailto:naim6167@yahoo.com">naim6167@yahoo.com</a>
       	  	</xsl:if>
           </div>
         </div>
@@ -77,12 +77,10 @@
           Date: <span id="date"></span><br/>
           From:
           <br></br>
-          <b>THEN YEANG SHING</b>
-          <br />963 Jalan 6
-          <br />Machang Bubok 14020
-          <br />Bukit Mertajam, <u>Penang</u>
-          <br />Hp: 012-4711134 Fax: 04-5521 696
-          <br />Email: <a href="mailto:yancyn@hotmail.com">yancyn@hotmail.com</a>
+          012-4711134 <b>THEN YEANG SHING</b>
+          <br />963 Jalan 6, Machang Bubok
+		  <br/>14020 Bukit Mertajam, Penang
+          <br /><a href="mailto:yancyn@hotmail.com">yancyn@hotmail.com</a>
           <br />
           <p/>
         </div>
