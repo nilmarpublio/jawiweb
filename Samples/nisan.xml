@@ -13743,7 +13743,7 @@
     <deathm>1429-03-14</deathm>
     <item>2' Batu Hitam(L)</item>
   </order>
-  <order soldto="HAM" date="2014-06-17" delivered="" price="12">
+  <order soldto="HAM" date="2014-06-17" delivered="2014-06-20" price="12">
     <name>khalif imran bin mohd zafry</name>
 	<jawi>خليف امران بن محمد زافري</jawi>
     <death>2012-06-15</death>
@@ -13751,7 +13751,7 @@
 	<age>1</age>
     <item>1½' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-06-17" delivered="" price="12">
+  <order soldto="HAM" date="2014-06-17" delivered="2014-06-20" price="12">
     <name>ruslia bt ali</name>
 	<jawi>روسليا بنت علي</jawi>
     <death>2014-06-01</death>
@@ -13759,7 +13759,7 @@
 	<age>55</age>
     <item>2½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-06-17" delivered="" price="12">
+  <order soldto="HAM" date="2014-06-17" delivered="2014-06-20" price="12">
     <name>mohd zulkali bin mohd daud</name>
 	<jawi>محمد زولكاليبن محمد داود</jawi>
     <death>2014-05-05</death>
@@ -13767,7 +13767,7 @@
 	<age>56</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-06-17" delivered="" price="12">
+  <order soldto="HAM" date="2014-06-17" delivered="2014-06-20" price="12">
     <name>asmadi bin abd rashid</name>
 	<jawi>اسمادي بن عبدالراشد</jawi>
     <death>2014-03-26</death>
@@ -13775,7 +13775,7 @@
 	<age>42</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-06-17" delivered="" price="12">
+  <order soldto="HAM" date="2014-06-17" delivered="2014-06-20" price="12">
     <name>osman bin abd hamid</name>
 	<jawi>عسمن بن عبدالحميد</jawi>
     <death>2014-03-09</death>
@@ -13783,7 +13783,7 @@
 	<age>61</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-06-17" delivered="" price="12">
+  <order soldto="HAM" date="2014-06-17" delivered="2014-06-20" price="12">
     <name>serajudin bin mydin pitchay</name>
 	<jawi>سثراجودين بن مايدين فييڅي</jawi>
     <death>2014-06-10</death>
@@ -13812,5 +13812,77 @@
     <death>1984-07-17</death>
     <deathm>1404-10-19</deathm>
     <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2014-06-19" delivered="" price="35">
+    <name>mohammed shafie bin wagimin</name>
+	<jawi>محمد شافعي بن واكيمين</jawi>
+    <born>1939-07-14</born>
+	<death>2014-03-09</death>
+    <deathm>1435-05-07</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2014-06-19" delivered="" price="280">
+    <name>shaari bin ahmad</name>
+	<jawi>شعري بن أحمد</jawi>
+    <death>2012-08-18</death>
+    <deathm>1433-09-30</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-21" delivered="2014-06-23" price="12">
+    <name>bakri bin ismaun</name>
+	<jawi>بكري بن اسمأون</jawi>
+    <death>1978-09-13</death>
+    <deathm>1398-10-11</deathm>
+	<age>52</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-21" delivered="" price="12">
+    <name>hjh raieda bt hj yusof</name>
+	<jawi>حجه رأيدا بنت حاج يوسوف</jawi>
+    <death>2014-03-12</death>
+    <deathm>1435-05-10</deathm>
+	<age>63</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-21" delivered="2014-06-23" price="12">
+    <name>md naseer merican bin md yusoff merican</name>
+	<jawi>مد ناصير مريكن بن مد يوسوف مريكن</jawi>
+    <death>2014-05-26</death>
+    <deathm>1435-07-26</deathm>
+	<age>57</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-21" delivered="" price="12">
+    <name>haroon bin munshir ali</name>
+	<jawi>هارون بن مونشير علي</jawi>
+    <death>2014-05-01</death>
+    <deathm>1435-07-01</deathm>
+	<age>74</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-21" delivered="" price="12">
+    <name>mohd amin bin haniff</name>
+	<jawi>محمد أمين بن هانف</jawi>
+    <death>2014-06-15</death>
+    <deathm>1435-08-17</deathm>
+	<age>54</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-21" delivered="" price="12">
+    <name>subida bt s.ahmamed</name>
+	<jawi>سوبندا بنت ايس أحمد</jawi>
+    <death>2014-06-07</death>
+    <deathm>1435-08-09</deathm>
+	<age>51</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-21" delivered="" price="12">
+    <name>subida bt s.ahmamed</name>
+	<jawi>سوبندا بنت ايس أحمد</jawi>
+    <death>2014-06-07</death>
+    <deathm>1435-08-09</deathm>
+	<age>51</age>
+    <item>2' Sticker(P)</item>
+	<remarks>rumi</remarks>
   </order>
 </nisan>
