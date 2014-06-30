@@ -13627,14 +13627,14 @@
     <deathm>1435-07-11</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEL" date="2014-06-04" delivered="" price="260">
+  <order soldto="SEL" date="2014-06-04" delivered="2014-06-22" price="230">
     <name>mat yusuf bin mat</name>
 	<jawi>مت يوسف بن مت</jawi>
     <death>2014-05-04</death>
     <deathm>1435-07-04</deathm>
     <item>2' Batu Putih(L)</item>
   </order>
-  <order soldto="SEL" date="2014-06-04" delivered="" price="260">
+  <order soldto="SEL" date="2014-06-04" delivered="2014-06-22" price="230">
     <name>sarimah bt ramli</name>
 	<jawi>صاريمه بنت رماي</jawi>
     <death>2014-04-06</death>
@@ -13655,7 +13655,7 @@
     <deathm>1435-02-24</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2014-06-08" delivered="" price="230">
+  <order soldto="SEM" date="2014-06-08" delivered="2014-06-22" price="250">
     <name>zaini bin ajid</name>
 	<jawi>زايني بن أجد</jawi>
     <death>2014-04-17</death>
@@ -13669,7 +13669,7 @@
     <deathm>1435-07-15</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2014-06-11" delivered="" price="280">
+  <order soldto="ADI" date="2014-06-11" delivered="2014-06-24" price="280">
     <name>hj alang tek bin abdul rahman</name>
 	<jawi>حاج الڠ تيف بن عبدولرحمن</jawi>
     <death>1982-11-12</death>
@@ -13701,21 +13701,21 @@
     <item>PV Egg</item>
 	<remarks>EF352468052MY</remarks>
   </order>
-  <order soldto="KEN" date="2014-06-13" delivered="" price="230">
+  <order soldto="KEN" date="2014-06-13" delivered="2014-06-22" price="230">
     <name>hj ayob bin salleh</name>
 	<jawi>حاج أيوب بن صالح</jawi>
     <death>1998-12-21</death>
     <deathm>1419-09-03</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="KEN" date="2014-06-13" delivered="" price="230">
+  <order soldto="KEN" date="2014-06-13" delivered="2014-06-22" price="230">
     <name>hjh rahmah bt salleh</name>
 	<jawi>حجه رحمه بنت صالح</jawi>
     <death>1991-06-19</death>
     <deathm>1411-12-07</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="KEN" date="2014-06-13" delivered="" price="230">
+  <order soldto="KEN" date="2014-06-13" delivered="2014-06-22" price="230">
     <name>mhd syahri bin munarjo</name>
 	<jawi>محمد شهري بن مونرجو</jawi>
     <death>2014-03-09</death>
@@ -13729,7 +13729,7 @@
     <deathm>1435-06-19</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2014-06-16" delivered="" price="380">
+  <order soldto="SEM" date="2014-06-16" delivered="2014-06-22" price="380">
     <name>HASNAH BT LAZIM</name>
 	<jawi>حسنه بنت لازيم</jawi>
     <death>2014-04-24</death>
@@ -13791,44 +13791,48 @@
 	<age>64</age>
     <item>2' Tarazo(L)</item>
   </order>
-  <order soldto="ADI" date="2014-06-16" delivered="" price="35">
+  <order soldto="ADI" date="2014-06-16" delivered="2014-06-24" price="35">
     <name>hj maseri bin hj abd gafar</name>
 	<jawi> حاج ماسيري بن حاج عبد ݢفر</jawi>
     <death>2013-05-27</death>
     <deathm>1434-07-17</deathm>
     <item>PV Egg</item>
+	<remarks>EF352469353MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-06-16" delivered="" price="35">
+  <order soldto="ADI" date="2014-06-16" delivered="2014-06-24" price="35">
     <name>hj sanusi bin hj hassan</name>
 	<jawi> حاج سنوسي بن حاج حسن</jawi>
 	<born>1922-07-05</born>
     <death>2007-03-01</death>
     <deathm>1428-02-11</deathm>
     <item>PV Egg</item>
+	<remarks>EF352469353MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-06-16" delivered="" price="35">
+  <order soldto="ADI" date="2014-06-16" delivered="2014-06-24" price="35">
     <name>jamal bin ayit</name>
 	<jawi> جمال بن اييت</jawi>
     <death>1984-07-17</death>
     <deathm>1404-10-19</deathm>
     <item>PV Budak</item>
+	<remarks>EF352469353MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-06-19" delivered="" price="35">
+  <order soldto="ADI" date="2014-06-19" delivered="2014-06-24" price="35">
     <name>mohammed shafie bin wagimin</name>
 	<jawi>محمد شافعي بن واكيمين</jawi>
     <born>1939-07-14</born>
 	<death>2014-03-09</death>
     <deathm>1435-05-07</deathm>
     <item>PV</item>
+	<remarks>EF352469353MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-06-19" delivered="" price="280">
+  <order soldto="ADI" date="2014-06-19" delivered="2014-06-24" price="280">
     <name>shaari bin ahmad</name>
 	<jawi>شعري بن أحمد</jawi>
     <death>2012-08-18</death>
     <deathm>1433-09-30</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2014-06-21" delivered="2014-06-23" price="12">
+  <order soldto="HAM" date="2014-06-21" delivered="2014-06-27" price="12">
     <name>bakri bin ismaun</name>
 	<jawi>بكري بن اسمأون</jawi>
     <death>1978-09-13</death>
@@ -13836,7 +13840,7 @@
 	<age>52</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-06-21" delivered="" price="12">
+  <order soldto="HAM" date="2014-06-21" delivered="2014-06-27" price="12">
     <name>hjh raieda bt hj yusof</name>
 	<jawi>حجه رأيدا بنت حاج يوسوف</jawi>
     <death>2014-03-12</death>
@@ -13844,7 +13848,7 @@
 	<age>63</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-06-21" delivered="2014-06-23" price="12">
+  <order soldto="HAM" date="2014-06-21" delivered="2014-06-27" price="12">
     <name>md naseer merican bin md yusoff merican</name>
 	<jawi>مد ناصير مريكن بن مد يوسوف مريكن</jawi>
     <death>2014-05-26</death>
@@ -13852,7 +13856,7 @@
 	<age>57</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-06-21" delivered="" price="12">
+  <order soldto="HAM" date="2014-06-21" delivered="2014-06-27" price="12">
     <name>haroon bin munshir ali</name>
 	<jawi>هارون بن مونشير علي</jawi>
     <death>2014-05-01</death>
@@ -13860,7 +13864,7 @@
 	<age>74</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-06-21" delivered="" price="12">
+  <order soldto="HAM" date="2014-06-21" delivered="2014-06-27" price="12">
     <name>mohd amin bin haniff</name>
 	<jawi>محمد أمين بن هانف</jawi>
     <death>2014-06-15</death>
@@ -13868,7 +13872,7 @@
 	<age>54</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-06-21" delivered="" price="12">
+  <order soldto="HAM" date="2014-06-21" delivered="2014-06-27" price="12">
     <name>subida bt s.ahmamed</name>
 	<jawi>سوبندا بنت ايس أحمد</jawi>
     <death>2014-06-07</death>
@@ -13876,7 +13880,7 @@
 	<age>51</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-06-21" delivered="" price="12">
+  <order soldto="HAM" date="2014-06-21" delivered="2014-06-27" price="12">
     <name>subida bt s.ahmamed</name>
 	<jawi>سوبندا بنت ايس أحمد</jawi>
     <death>2014-06-07</death>
@@ -13884,5 +13888,216 @@
 	<age>51</age>
     <item>2' Sticker(P)</item>
 	<remarks>rumi</remarks>
+  </order>
+  <order soldto="HAM" date="2014-06-23" delivered="2014-06-30" price="12">
+    <name>mohamed bin zachariah</name>
+	<jawi>محمد بن زكريا</jawi>
+    <death>2014-04-13</death>
+    <deathm>1435-06-13</deathm>
+	<age>48</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-23" delivered="2014-06-30" price="12">
+    <name>hj hussain bin mydin pithchey</name>
+	<jawi>حاج حُسين بن مَيدين فييڅي</jawi>
+    <death>2014-04-08</death>
+    <deathm>1435-06-08</deathm>
+	<age>87</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-23" delivered="2014-06-30" price="12">
+    <name>abu rahim bin abu bakar</name>
+	<jawi>أبو رحيم بن أبو بكر</jawi>
+    <death>2014-06-05</death>
+    <deathm>1435-08-07</deathm>
+	<age>67</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-23" delivered="2014-06-30" price="12">
+    <name>hj bazal ahmad bin noor mohd</name>
+	<jawi>حاج بزال أحمد بن نور محمد</jawi>
+    <death>2014-03-07</death>
+    <deathm>1435-05-05</deathm>
+	<age>66</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-23" delivered="2014-06-30" price="12">
+    <name>hjh safarbi bt rahim</name>
+	<jawi>حجه صفربي بنت رحيم</jawi>
+    <death>2014-06-17</death>
+    <deathm>1435-08-19</deathm>
+	<age>84</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-23" delivered="2014-06-30" price="12">
+    <name>shaik said bin shaik awab</name>
+	<jawi>شيك سعيد بن شيك اواب</jawi>
+    <death>1979-03-20</death>
+    <deathm>1399-04-21</deathm>
+	<age>69</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-23" delivered="2014-06-30" price="12">
+    <name>che wa bt ismail</name>
+	<jawi>چئ وا بنت إسماعيل</jawi>
+    <death>2014-05-08</death>
+    <deathm>1435-07-08</deathm>
+	<age>91</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-23" delivered="2014-06-30" price="12">
+    <name>abd malik bin haidea mansor</name>
+	<jawi>عبدالماليك بن حيديا منصور</jawi>
+    <death>1999-09-19</death>
+    <deathm>1420-06-09</deathm>
+	<age>52</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-23" delivered="2014-06-30" price="12">
+    <name>kalsom bee bt naina sahib</name>
+	<jawi>كلسوم بي بنت نينا ساهيب</jawi>
+    <death>1990-05-06</death>
+    <deathm>1410-10-11</deathm>
+	<age>57</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-23" delivered="2014-06-30" price="12">
+    <name>abdullah bin naina sahib</name>
+	<jawi>عبدالله بن ناينا ساهيب</jawi>
+    <death>2011-02-11</death>
+    <deathm>1432-03-08</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="ADI" date="2014-06-23" delivered="2014-06-30" price="35">
+    <name>al-halimi bin jenal</name>
+	<jawi>الحاليما بن جنال</jawi>
+	<born>1971-07-29</born>
+	<death>2014-03-17</death>
+    <deathm>1435-05-15</deathm>
+    <item>PV Egg</item>
+	<remarks>EF398050109MY</remarks>
+  </order>
+  <order soldto="ADI" date="2014-06-23" delivered="2014-06-30" price="35">
+    <name>mohd shahrizal bin mohd noor</name>
+	<jawi>محمد شاهريزال بن محمد نور</jawi>
+	<born>1986-03-11</born>
+	<death>2014-05-04</death>
+    <deathm>1435-07-04</deathm>
+    <item>PV Egg</item>
+	<remarks>EF398050109MY</remarks>
+  </order>
+  <order soldto="ADI" date="2014-06-24" delivered="2014-06-30" price="35">
+    <name>salmiah bt yeop</name>
+	<jawi>ساميه بنت يوف</jawi>
+	<born>1936-06-11</born>
+	<death>2013-07-08</death>
+    <deathm>1434-08-29</deathm>
+    <item>PV</item>
+	<remarks>EF398050109MY</remarks>
+  </order>
+  <order soldto="ADI" date="2014-06-24" delivered="2014-06-30" price="35">
+    <name>adauyah bt hassan</name>
+	<jawi>اداويه بنت حسن</jawi>
+	<death>2014-02-01</death>
+    <deathm>1435-04-01</deathm>
+    <item>PV</item>
+	<remarks>EF398050109MY</remarks>
+  </order>
+  <order soldto="HAM" date="2014-06-25" delivered="2014-06-27" price="12">
+    <name>ahmad nizar bin mohd yusoff</name>
+	<jawi>أحمد نيزار بن محمد يوسوف</jawi>
+    <death>2014-02-22</death>
+    <deathm>1435-04-22</deathm>
+	<age>22</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-25" delivered="2014-06-27" price="12">
+    <name>zunaidah bt mydin pitchay</name>
+	<jawi>زونيده بنت مايدين فييڅي</jawi>
+    <death>2014-01-21</death>
+    <deathm>1435-04-19</deathm>
+	<age>44</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-25" delivered="2014-06-27" price="12">
+    <name>sabariah bt ismail</name>
+	<jawi>سباريه بنت إسماعيل</jawi>
+    <death>2013-10-06</death>
+    <deathm>1434-12-01</deathm>
+	<age>74</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="ADI" date="2014-06-28" delivered="2014-06-30" price="35">
+    <name>hjh napisah bt hj siraj</name>
+	<jawi>حجه نافيسه بنت حاج سيراج</jawi>
+	<born>1935-08-15</born>
+	<death>2014-06-07</death>
+    <deathm>1435-08-09</deathm>
+    <item>PV</item>
+	<remarks>EF398050109MY</remarks>
+  </order>
+  <order soldto="ADI" date="2014-06-28" delivered="2014-06-30" price="35">
+    <name>nur nazirah bt mohd shamsuddin</name>
+	<jawi>نور ناظره بنت محمد شامسوددين</jawi>
+	<born>2003-04-23</born>
+	<death>2003-07-01</death>
+    <deathm>1424-05-02</deathm>
+    <item>PV Budak</item>
+	<remarks>EF398050109MY</remarks>
+  </order>
+  <order soldto="ADI" date="2014-06-28" delivered="2014-06-30" price="35">
+    <name>sanuah bt katiman</name>
+	<jawi>سانوه بنت كتيمن</jawi>
+	<born>1963-01-01</born>
+	<death>1998-02-13</death>
+    <deathm>1418-10-16</deathm>
+    <item>PV</item>
+	<remarks>EF398050109MY</remarks>
+  </order>
+  <order soldto="ADI" date="2014-06-28" delivered="" price="280">
+    <name>abdul aziz bin saadin</name>
+	<jawi>عبدولعزيز بن سعدين</jawi>
+	<death>2014-05-01</death>
+    <deathm>1435-07-01</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2014-06-28" delivered="" price="280">
+    <name>sabariah bt yakin</name>
+	<jawi>سباريه بنت يقين</jawi>
+	<death>2013-10-13</death>
+    <deathm>1434-12-08</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-30" delivered="" price="12">
+    <name>katijah begum bt shaik dawood</name>
+	<jawi>خطيجه بڬوم بنت شيك داؤد</jawi>
+    <death>2014-06-22</death>
+    <deathm>1435-08-24</deathm>
+	<age>60</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-30" delivered="" price="12">
+    <name>habibah bt mohd ibrahimsah</name>
+	<jawi>حبيبه بنت محمد إبرامسه</jawi>
+    <death>2014-06-23</death>
+    <deathm>1435-08-25</deathm>
+	<age>70</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-30" delivered="" price="12">
+    <name>muhd ali imran bin abd rahim</name>
+	<jawi>محمد علي عمران بن عبدالرحيم</jawi>
+    <death>2014-04-18</death>
+    <deathm>1435-06-18</deathm>
+	<age>16</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-06-30" delivered="" price="12">
+    <name>hj jaafar bin hj tahir</name>
+	<jawi>حاج جعفر بن حاج طاهر</jawi>
+    <death>2014-06-02</death>
+    <deathm>1435-08-04</deathm>
+	<age>91</age>
+    <item>2½' Sticker(L)</item>
   </order>
 </nisan>
