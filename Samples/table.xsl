@@ -96,7 +96,7 @@
                                 <td>
                                     <xsl:value-of select="item"/>
                                 </td>
-                                <td>
+                                <td class="right">
                                     <xsl:value-of select="@price"/>
                                 </td>
                             </tr>
