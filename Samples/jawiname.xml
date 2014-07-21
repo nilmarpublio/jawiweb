@@ -1873,11 +1873,13 @@
   </rootname>
   <rootname>
     <rumi>badaruddin</rumi>
+	<jawi>بدرالدين</jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>badarudin</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>بدرالدين</jawi>
+	<sex>1</sex>
   </rootname>
   <rootname>
     <rumi>badiah</rumi>
@@ -7770,8 +7772,8 @@
   </rootname>
   <rootname>
     <rumi>lijah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ليجه</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>lim</rumi>
@@ -9937,8 +9939,8 @@
   </rootname>
   <rootname>
     <rumi>nazirah</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>ناظره</jawi>
+    <sex>2</sex>
   </rootname>
   <rootname>
     <rumi>nazli</rumi>
@@ -16218,8 +16220,8 @@
   </rootname>
   <rootname>
     <rumi>yusoh</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>يوسوف</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>yusok</rumi>
