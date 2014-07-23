@@ -14487,7 +14487,7 @@
     <deathm>1435-06-23</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2014-07-19" delivered="" price="12">
+  <order soldto="HAM" date="2014-07-19" delivered="2014-07-23" price="12">
     <name>tahabin abdullah bin shaik abu bakar</name>
 	<jawi>تاحاين علبدالله بن شيخ ابوبكر</jawi>
 	<death>2014-06-10</death>
@@ -14496,7 +14496,7 @@
     <item>2' Sticker(L)</item>
 	<remarks>jawi saja</remarks>
   </order>
-  <order soldto="HAM" date="2014-07-19" delivered="" price="12">
+  <order soldto="HAM" date="2014-07-19" delivered="2014-07-23" price="12">
     <name>hjh che zainab bt hj hassan</name>
 	<jawi>حجه چئ زاينب بنت حاج حسن</jawi>
 	<death>2014-06-01</death>
@@ -14504,7 +14504,7 @@
 	<age>92</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-07-19" delivered="" price="12">
+  <order soldto="HAM" date="2014-07-19" delivered="2014-07-23" price="12">
     <name>mohd rahmathullah bin sahul hamid</name>
 	<jawi>محمد رحماتولله بن ساهول حميد</jawi>
 	<death>2014-06-25</death>
@@ -14512,7 +14512,7 @@
 	<age>80</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-07-19" delivered="" price="12">
+  <order soldto="HAM" date="2014-07-19" delivered="2014-07-23" price="12">
     <name>hjh salbiah bt ismail</name>
 	<jawi>حجه سلبيه بنت إسماعيل</jawi>
 	<death>2014-06-16</death>
@@ -14520,11 +14520,20 @@
 	<age>73</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-07-19" delivered="" price="12">
+  <order soldto="HAM" date="2014-07-19" delivered="2014-07-23" price="12">
     <name>hjh sharifah bt mohd ali</name>
 	<jawi>حجه شريفه بنت محمد علي</jawi>
 	<death>2013-02-11</death>
     <deathm>1434-03-30</deathm>
     <item>2½' Sticker(P)</item>
+	<remarks>الله اغفر لها وارحمها وعافها واعف عنها</remarks>
+  </order>
+  <order soldto="ADI" date="2014-07-22" delivered="" price="35">
+    <name>muzakir bin mohd hanapi</name>
+	<jawi>موذاكير بن محمد حنافي</jawi>
+	<born>1934-01-21</born>
+	<death>2013-09-19</death>
+    <deathm>1434-11-13</deathm>
+    <item>PV</item>
   </order>
 </nisan>
