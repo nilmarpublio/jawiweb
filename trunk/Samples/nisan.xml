@@ -14563,7 +14563,7 @@
     <deathm>1435-09-09</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2014-07-30" delivered="" price="12">
+  <order soldto="HAM" date="2014-07-30" delivered="2014-08-08" price="12">
     <name>che nor siah bt noor</name>
 	<jawi>چئ نور سيه بنت نور</jawi>
 	<death>2014-06-18</death>
@@ -14608,7 +14608,7 @@
 	<jawi>محمد إبراهيم بن ميسكين</jawi>
 	<death>2002-02-20</death>
     <deathm>1422-12-07</deathm>
-	<age>66</age>
+	<age>80</age>
     <item>2' Tarazo(L)</item>
   </order>
   <order soldto="HAM" date="2014-08-05" delivered="" price="12">
@@ -14624,5 +14624,60 @@
 	<death>1939-06-15</death>
     <deathm>1358-06-27</deathm>
     <item>2' Tarazo(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-08-05" delivered="" price="12">
+    <name>MOHD TASNIM BIN MARZUKI</name>
+	<jawi>محمد تسنيم بن مرزوقي</jawi>
+	<death>2014-07-22</death>
+    <deathm>1435-09-24</deathm>
+	<age>27</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="ADI" date="2014-08-05" delivered="" price="35">
+    <name>harun bin hamzah</name>
+	<jawi>هارون بن حمزة</jawi>
+	<born>1929-10-06</born>
+	<death>2013-09-19</death>
+    <deathm>1434-11-13</deathm>
+    <item>PV</item>
+	<remarks>jawi saja</remarks>
+  </order>
+  <order soldto="ADI" date="2014-08-05" delivered="" price="35">
+    <name>urip bt hj said</name>
+	<jawi>اوريف بنت حاج سعيد</jawi>
+	<death>2014-06-19 khamis</death>
+    <deathm>1435-08-21</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2014-08-05" delivered="" price="35">
+    <name>manisah bt kromo</name>
+	<jawi>مانيسه بنت کرومو</jawi>
+	<born>1940-11-05</born>
+	<death>2008-04-14</death>
+    <deathm>1429-04-07</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2014-08-05" delivered="" price="35">
+    <name>mat dani bin haji anuar</name>
+	<jawi>مت داني بن حاج انوار</jawi>
+	<born>1923-05-21</born>
+	<death>1998-01-07</death>
+    <deathm>1418-09-09</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-08-05" delivered="" price="280">
+    <name>lon alawiah bt yeop ahmad</name>
+	<jawi>لون الاويه بنت يوف أحمد</jawi>
+	<born>1928-12-11</born>
+	<death>2014-06-22</death>
+    <deathm>1435-08-24</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="ADI" date="2014-08-05" delivered="" price="280">
+    <name>hjh hamidah bt hj abdullah</name>
+	<jawi>حجه هاميه بنت حاج عبدالله</jawi>
+	<death>2014-07-22</death>
+    <deathm>1435-09-24</deathm>
+    <item>2' Batu Hitam(P)</item>
   </order>
 </nisan>
