@@ -15011,4 +15011,11 @@
 	<age>77</age>
     <item>2' Sticker(P)</item>
   </order>
+  <order soldto="KEN" date="2014-08-27" delivered="" price="250">
+    <name>salmah bt hasshim</name>
+	<jawi>سلمه بنت هاشم</jawi>
+	<death>2014-08-05</death>
+    <deathm>1435-10-09</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
 </nisan>
