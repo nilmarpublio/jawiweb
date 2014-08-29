@@ -14761,14 +14761,14 @@
 	<age>79</age>
     <item>2½' Sticker(L)</item>
   </order>
-  <order soldto="KEN" date="2014-08-11" delivered="" price="250">
+  <order soldto="KEN" date="2014-08-11" delivered="2014-08-18" price="250">
     <name>Fatimah Bt Junus</name>
 	<jawi>فطمة بنت جونوس</jawi>
 	<death>2014-07-29</death>
     <deathm>1435-10-02</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2014-08-12" delivered="" price="250">
+  <order soldto="SEM" date="2014-08-12" delivered="2014-08-24" price="250">
     <name>zaharah bt ahmad</name>
 	<jawi>زاحاره بنت أحمد</jawi>
 	<born>1932-08-24</born>
@@ -14776,7 +14776,7 @@
     <deathm>1435-02-12</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEM" date="2014-08-12" delivered="" price="250">
+  <order soldto="SEM" date="2014-08-12" delivered="2014-08-24" price="250">
     <name>said bin tahir</name>
 	<jawi>سعيد بن طاهر</jawi>
 	<born>1934</born>
@@ -14784,7 +14784,7 @@
     <deathm>1435-07-21</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2014-08-12" delivered="" price="250">
+  <order soldto="SEM" date="2014-08-12" delivered="2014-08-24" price="250">
     <name>abu hassan bin sabran</name>
 	<jawi>أبو حسن بن سبرن</jawi>
 	<death>2014-08-04</death>
@@ -14872,7 +14872,7 @@
     <deathm>1435-09-18</deathm>
     <item>2' Batu Putih(L)</item>
   </order>
-  <order soldto="SEL" date="2014-08-16" delivered="" price="250">
+  <order soldto="SEL" date="2014-08-16" delivered="2014-08-24" price="250">
     <name>Rosli bin kamaruddin</name>
 	<jawi>روسلي بن قمرلدين</jawi>
 	<death>2014-06-07</death>
@@ -14893,7 +14893,7 @@
     <deathm>1415-05-08</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEL" date="2014-08-16" delivered="" price="250">
+  <order soldto="SEL" date="2014-08-16" delivered="2014-08-24" price="250">
     <name>mohd dali bin darus</name>
 	<jawi>محمد دالي بن داروس</jawi>
 	<born>1951-08-16</born>
@@ -14915,7 +14915,7 @@
     <deathm>1435-10-08</deathm>
     <item>2' Batu Putih(P)</item>
   </order>
-  <order soldto="SEL" date="2014-08-16" delivered="" price="250">
+  <order soldto="SEL" date="2014-08-16" delivered="2014-08-24" price="250">
     <name>norliazlan bin Abd rahman</name>
 	<jawi>نورليازلن بن عبدال رحمن</jawi>
 	<death>2014-06-21</death>
@@ -14957,5 +14957,58 @@
 	<death>2014-08-08</death>
     <deathm>1435-10-12</deathm>
     <item>PV</item>
+  </order>
+  <order soldto="HAM" date="2014-08-25" delivered="2014-08-28" price="12">
+    <name>mohd bin abu bakar</name>
+	<jawi>محمد بن أبو بكر</jawi>
+	<death>2014-08-15</death>
+	<deathm>1435-10-19</deathm>
+	<age>67</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-08-25" delivered="2014-08-28" price="12">
+    <name>hussain bin hj jabar</name>
+	<jawi>حُسين بن حاج جابر</jawi>
+	<death>2014-06-19</death>
+	<deathm>1435-08-21</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-08-25" delivered="2014-08-28" price="12">
+    <name>mohd noor bin kechik</name>
+	<jawi>محمد نور بن كچيك</jawi>
+	<death>1982-10-11 21:25</death>
+	<deathm>1402-12-23</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-08-25" delivered="2014-08-28" price="12">
+    <name>kechik bin shaik daud</name>
+	<jawi>كچيك بن شيك داود</jawi>
+	<death>1961-04-21 15:45</death>
+	<deathm>1380-11-06</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-08-25" delivered="2014-08-28" price="12">
+    <name>jorabee bt shikander</name>
+	<jawi>جورابي بنت شيكندار</jawi>
+	<death>2014-07-29</death>
+	<deathm>1435-10-02</deathm>
+	<age>65</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-08-25" delivered="2014-08-28" price="12">
+    <name>tengku muhammad aisy bin tengku ainuddin</name>
+	<jawi>تڠكوعبد محمد ايش بن تڠكوعبد عينوالدين</jawi>
+	<born>2014-08-17</born>
+	<death>2014-08-17</death>
+	<deathm>1435-10-21</deathm>
+    <item>1½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-08-25" delivered="2014-08-28" price="12">
+    <name>bebe jan bt ali akbar khan</name>
+	<jawi>بيبي جن بنت علي اكبر خان</jawi>
+	<death>2014-08-02</death>
+	<deathm>1435-10-06</deathm>
+	<age>77</age>
+    <item>2' Sticker(P)</item>
   </order>
 </nisan>
