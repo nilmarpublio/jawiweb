@@ -14864,12 +14864,54 @@
     <item>PV</item>
 	<remarks>EF367840637MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-08-15" delivered="" price="280">
+  <order soldto="ADI" date="2014-08-15" delivered="2014-08-30" price="280">
     <name>cha bin hamid</name>
 	<jawi>چئ بن حميد</jawi>
 	<born>1934-08-30</born>
 	<death>2014-07-16</death>
     <deathm>1435-09-18</deathm>
+    <item>2' Batu Putih(L)</item>
+  </order>
+    <order soldto="ADI" date="2014-08-18" delivered="2014-09-02" price="35">
+    <name>ruminah bt mangon</name>
+	<jawi>رومينه بنت منڬون</jawi>
+	<death>1981-06-14</death>
+    <deathm>1401-08-11</deathm>
+    <item>PV</item>
+	<remarks>EF517827899MY</remarks>
+  </order>
+  <order soldto="ADI" date="2014-08-18" delivered="2014-09-02" price="35">
+    <name>semah bt mat sah</name>
+	<jawi>سيمه بنت مت سه</jawi>
+	<death>2012-06-06</death>
+    <deathm>1433-07-16</deathm>
+    <item>PV</item>
+	<remarks>EF517827899MY</remarks>
+  </order>
+  <order soldto="ADI" date="2014-08-18" delivered="2014-09-02" price="35">
+    <name>mohd kamil bin jamaluddin</name>
+	<jawi>محمد كميل بن جملادين</jawi>
+	<born>1990-09-21</born>
+	<death>2014-05-19</death>
+    <deathm>1435-07-19</deathm>
+    <item>PV Egg</item>
+	<remarks>EF517827899MY</remarks>
+  </order>
+  <order soldto="ADI" date="2014-08-18" delivered="2014-09-02" price="35">
+    <name>zaleha bt zakaria</name>
+	<jawi>زاليحا بنت زكريا</jawi>
+	<born>1966-08-03</born>
+	<death>2013-10-22</death>
+    <deathm>1434-12-17</deathm>
+    <item>PV</item>
+	<remarks>EF517827899MY</remarks>
+  </order>
+  <order soldto="ADI" date="2014-08-18" delivered="" price="35">
+    <name>hj demin bin hj sarban</name>
+	<jawi>حاج دمين بن حاج سربن</jawi>
+	<born>1942-10-29</born>
+	<death>2014-07-27</death>
+    <deathm>1435-09-29</deathm>
     <item>2' Batu Putih(L)</item>
   </order>
   <order soldto="SEL" date="2014-08-16" delivered="2014-08-24" price="250">
@@ -14929,13 +14971,13 @@
     <deathm>1435-10-18</deathm>
     <item>2' Batu Putih(L)</item>
   </order>
-  <order soldto="ADI" date="2014-08-22" delivered="" price="280">
-    <name>eshah binti buntak</name>
+  <!--<order soldto="ADI" date="2014-08-22" delivered="" price="280">
+    <name>eshah bt buntak</name>
 	<jawi>يشه بنت بونتق</jawi>
 	<death>2014-07-24</death>
     <deathm>1435-09-26</deathm>
     <item>2' Batu Batik(P)</item>
-  </order>
+  </order>-->
   <order soldto="ADI" date="2014-08-22" delivered="" price="280">
     <name>mohamed suyut@mokhtar bin abd jalil</name>
 	<jawi>محمدسويوت/مختار بن عبدالجليل</jawi>
@@ -14950,7 +14992,7 @@
     <deathm>1435-08-15</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2014-08-22" delivered="" price="35">
+  <order soldto="ADI" date="2014-08-22" delivered="2014-08-30" price="35">
     <name>AMINAH bt SHAFIAI</name>
 	<jawi>أمينة بنت شافياي</jawi>
 	<born>1944-04-20</born>
@@ -15011,11 +15053,33 @@
 	<age>77</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="KEN" date="2014-08-27" delivered="" price="250">
+  <order soldto="KEN" date="2014-08-27" delivered="2014-09-02" price="250">
     <name>salmah bt hasshim</name>
 	<jawi>سلمه بنت هاشم</jawi>
 	<death>2014-08-05</death>
     <deathm>1435-10-09</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-08-30" delivered="2014-09-02" price="12">
+    <name>anuar@md yusoff bin mohd hussain</name>
+	<jawi>انوار/مد يوسوف بن محمد حُسين</jawi>
+	<death>2014-07-29</death>
+	<deathm>1435-10-02</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-08-30" delivered="2014-09-02" price="12">
+    <name>che tom bt che meh</name>
+	<jawi>چئ توم بنت چئ ميه</jawi>
+	<death>1999-01-08</death>
+	<deathm>1419-09-20</deathm>
+	<age>68</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="KEN" date="2014-09-01" delivered="" price="250">
+    <name>Dohayah bt Ismail</name>
+	<jawi>دوحيه بنت إسماعيل</jawi>
+	<death>2014-08-27</death>
+    <deathm>1435-11-01</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
 </nisan>
