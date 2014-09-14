@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO.Ports;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -14,6 +15,10 @@ namespace SvgCut
         public Form1()
         {
             InitializeComponent();
+
+            // initial layout
+            foreach (string port in SerialPort.GetPortNames())
+                comboBox1.Items.Add(port);
         }
 
         private void button2_Click(object sender, EventArgs e)
