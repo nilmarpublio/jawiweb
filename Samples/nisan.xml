@@ -15224,7 +15224,7 @@
 	<age>66</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="SEM" date="2014-09-07" delivered="" price="250">
+  <order soldto="SEM" date="2014-09-07" delivered="2014-09-14" price="250">
     <name>mohamad bin ismail</name>
 	<jawi>محمد بن إسماعيل</jawi>
 	<death>2013-08-11</death>
@@ -15238,14 +15238,14 @@
     <deathm>1435-10-19</deathm>
     <item>2' Batu Hitam(L)</item>
   </order>
-  <order soldto="SEM" date="2014-09-07" delivered="" price="250">
+  <order soldto="SEM" date="2014-09-07" delivered="2014-09-14" price="250">
     <name>mat desa bin musa</name>
 	<jawi>مت ديسا بن موسا</jawi>
 	<death>2014-08-26</death>
     <deathm>1435-10-30</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2014-09-12" delivered="" price="12">
+  <order soldto="HAM" date="2014-09-12" delivered="2014-09-17" price="12">
     <name>noriah bt bajar khan</name>
 	<jawi>نوريه بنت باجرخان</jawi>
 	<death>2014-09-05</death>
@@ -15253,7 +15253,7 @@
 	<age>65</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-09-12" delivered="" price="12">
+  <order soldto="HAM" date="2014-09-12" delivered="2014-09-17" price="12">
     <name>che din bin junus</name>
 	<jawi>چئ دين بن جونوس</jawi>
 	<death>2014-08-16</death>
@@ -15261,7 +15261,7 @@
 	<age>70</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-09-12" delivered="" price="12">
+  <order soldto="HAM" date="2014-09-12" delivered="2014-09-17" price="12">
     <name>shaari bin ali</name>
 	<jawi>شعريبن علي</jawi>
 	<death>2014-08-03</death>
@@ -15269,7 +15269,7 @@
 	<age>62</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-09-12" delivered="" price="12">
+  <order soldto="HAM" date="2014-09-12" delivered="2014-09-17" price="12">
     <name>kasiman bin abdullah</name>
 	<jawi>كاسيمان بن عبدالله</jawi>
 	<death>1976-07-23</death>
@@ -15277,7 +15277,7 @@
 	<age>42</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="ADI" date="2014-09-09" delivered="" price="35">
+  <order soldto="ADI" date="2014-09-09" delivered="2014-09-15" price="35">
     <name>halimah bt abdul rani</name>
 	<jawi>حليمه بنت عبدولراني</jawi>
 	<born>1944-06-30</born>
@@ -15285,7 +15285,7 @@
     <deathm>1435-06-30</deathm>
     <item>PV</item>
   </order>
-  <order soldto="ADI" date="2014-09-09" delivered="" price="35">
+  <order soldto="ADI" date="2014-09-09" delivered="2014-09-15" price="35">
     <name>nur saukina hanani bt ahmad masduqi</name>
 	<jawi>نور ساءوکين هناني بنت أحمد مصدق</jawi>
 	<death>2013-12-01</death>
