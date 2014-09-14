@@ -25,5 +25,11 @@ namespace SvgCut
             if (dialog.ShowDialog() == DialogResult.OK)
                 textBox1.Text = dialog.FileName;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // TODO: Convert svg to plt
+            // Send to plotter at com1
+        }
     }
 }
