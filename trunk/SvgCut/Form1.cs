@@ -52,6 +52,10 @@ namespace SvgCut
             // add parity
             foreach (string parity in System.Enum.GetNames(typeof(System.IO.Ports.Parity)))
                 comboBox4.Items.Add(parity);
+
+            // add stop bits
+            foreach (string bit in System.Enum.GetNames(typeof(System.IO.Ports.StopBits)))
+                comboBox5.Items.Add(bit);
         }
         private void BindBraudRates(string portName)
         {
