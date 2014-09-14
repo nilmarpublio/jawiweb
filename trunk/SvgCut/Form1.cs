@@ -18,10 +18,7 @@ namespace SvgCut
         public Form1()
         {
             InitializeComponent();
-
-            // initial layout
-            foreach (string port in SerialPort.GetPortNames())
-                comboBox1.Items.Add(port);
+            Initial();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -33,18 +30,29 @@ namespace SvgCut
             if (dialog.ShowDialog() == DialogResult.OK)
                 textBox1.Text = dialog.FileName;
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             // TODO: Convert svg to plt
             // Send to plotter at com1
         }
-
         private void comboBox1_SelectionChangeCommitted(object sender, EventArgs e)
         {
             BindBraudRates((sender as ComboBox).Text);
         }
 
+        /// <summary>
+        /// Initial layout.
+        /// </summary>
+        private void Initial()
+        {
+            // define available ports in this computer
+            foreach (string port in SerialPort.GetPortNames())
+                comboBox1.Items.Add(port);
+
+            // add parity
+            foreach (string parity in System.Enum.GetNames(typeof(System.IO.Ports.Parity)))
+                comboBox4.Items.Add(parity);
+        }
         private void BindBraudRates(string portName)
         {
             // bind braud rate
