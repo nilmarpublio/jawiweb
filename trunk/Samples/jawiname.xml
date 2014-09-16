@@ -5293,8 +5293,8 @@
   </rootname>
   <rootname>
     <rumi>hitam</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>هيتم</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>hizam</rumi>
@@ -11235,7 +11235,7 @@
   <rootname>
     <rumi>radzuan</rumi>
     <jawi>رضوان</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>rafeah</rumi>
@@ -12341,8 +12341,8 @@
   </rootname>
   <rootname>
     <rumi>rusli</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>روسلي</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>ruslin</rumi>
