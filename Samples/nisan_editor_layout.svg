@@ -2996,14 +2996,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.93369857"
-     inkscape:cx="478.24409"
-     inkscape:cy="-117.0919"
+     inkscape:zoom="1.0629713"
+     inkscape:cx="492.85956"
+     inkscape:cy="-84.516557"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="796"
+     inkscape:window-width="1280"
+     inkscape:window-height="920"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -5691,6 +5691,25 @@
          sodipodi:role="line"><tspan
    id="tspan4186"
    style="font-style:italic">123 items</tspan> RM 1,230</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri Bold"
+       x="230.006"
+       y="730.74103"
+       id="text4062"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="230.006"
+         y="730.74103"
+         style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Segoe UI;-inkscape-font-specification:Segoe UI"
+         id="tspan4064">Create</tspan></text>
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4066"
+       width="22.42263"
+       height="0.81254435"
+       x="232.15887"
+       y="732.45807" />
   </g>
   <g
      inkscape:groupmode="layer"
