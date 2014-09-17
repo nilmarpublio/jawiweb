@@ -32,5 +32,7 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.14.917.968")]
-[assembly: AssemblyFileVersion("0.14.917.968")]
+// modified from http://www.codeproject.com/Tips/584560/Visual-Studio-Reading-SVN
+// SubWCRev http://tortoisesvn.net/docs/nightly/TortoiseSVN_en/tsvn-subwcrev.html
+[assembly: AssemblyVersion("0.14.917.969")]
+[assembly: AssemblyFileVersion("0.14.917.969")]
