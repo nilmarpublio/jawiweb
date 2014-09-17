@@ -34,6 +34,9 @@ namespace SvgCut
         /// </summary>
         private void Initial()
         {
+            // show version at title
+            this.Text += " v" + Assembly.GetEntryAssembly().GetName().Version;
+
             // define available ports in this computer
             foreach (string p in SerialPort.GetPortNames())
                 comboBox1.Items.Add(p);
