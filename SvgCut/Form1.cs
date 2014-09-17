@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.IO.Ports;
 using System.Linq;
 using System.Reflection;
@@ -13,6 +14,10 @@ using System.Windows.Forms;
 
 namespace SvgCut
 {
+    /// <summary>
+    /// Dependency: Exceute Uniconvertor command.
+    /// see http://sk1project.org/modules.php?name=products&product=uniconvertor
+    /// </summary>
     public partial class Form1 : Form
     {
         private SerialPort port;
@@ -259,7 +264,6 @@ namespace SvgCut
                 NewSerialDataRecieved(this, new SerialDataEventArgs(data));
         }
 
-
         private void comboBox1_SelectionChangeCommitted(object sender, EventArgs e)
         {
             BindBraudRates((sender as ComboBox).Text);
@@ -281,7 +285,8 @@ namespace SvgCut
         {
             // Convert svg to plt
             string source = textBox1.Text;
-            string target = source.Replace(".svg", "." + comboBox6.Text.ToLower());
+            FileInfo fileInfo = new FileInfo(source);
+            string target = source.Replace(fileInfo.Extension, "." + comboBox6.Text.ToLower());
             string commandString = String.Format("\"{0}\" \"{1}\"", source, target);
             System.Diagnostics.Debug.WriteLine("uniconvertor " + commandString);
 
