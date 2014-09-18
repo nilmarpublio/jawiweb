@@ -11,9 +11,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Microsoft.Windows.Controls;
+using NisanWPF.BusinessLogic;
 
-namespace NisanEntry
+namespace NisanWPF
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,12 +23,11 @@ namespace NisanEntry
         public MainWindow()
         {
             InitializeComponent();
-        }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            Soldto.Focus();
-            Order.SelectedDate = DateTime.Now;
+            //nisan nisan;
+            //nisan.LoadFromFile("nisan.xml", out nisan);
+            //int count = nisan.Items.Count;
+            //System.Diagnostics.Debug.WriteLine(count);
         }
     }
 }
