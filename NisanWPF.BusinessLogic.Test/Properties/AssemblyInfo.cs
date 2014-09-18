@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NisanWPF.BusinessLogic")]
+[assembly: AssemblyTitle("NisanWPF.BusinessLogic.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Plexus Corp")]
-[assembly: AssemblyProduct("NisanWPF.BusinessLogic")]
+[assembly: AssemblyProduct("NisanWPF.BusinessLogic.Test")]
 [assembly: AssemblyCopyright("Copyright © Plexus Corp 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("885b4615-74f2-42be-8e8f-21f75356e213")]
+[assembly: Guid("359254f0-8fad-46d1-8995-285cbb58b5ad")]
 
 // Version information for an assembly consists of the following four values:
 //
