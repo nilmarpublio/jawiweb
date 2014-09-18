@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.IO;
-//using System.Drawing;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Xml.Linq;
@@ -184,6 +184,53 @@ namespace HLGranite.Jawi
         {
             this.sourceFile = this.outputLocation + System.IO.Path.DirectorySeparatorChar + fileName;
             if (File.Exists(this.sourceFile)) fileExist = true;
+        }
+
+        public SvgWriter(nisanOrder order, ref MemoryStream stream)
+        {
+            this.order = order;
+            this.templatePath = ConfigurationManager.AppSettings[order.item].ToString();
+            this.action = Action.None;
+            this.tolerance = new Point();
+
+            //initialize position for new muslim month template suppose to located.
+            this.relativeMonthCoordinates = new Dictionary<string, Point>();
+            for (int i = 0; i < 12; i++)
+                this.relativeMonthCoordinates.Add(muslimMonths[i], monthCoordinates[i]);
+
+            /**
+             * If only maintain death date use 'nisan_L.svg' (for male) or 'nisan_P.svg' (for female).
+             * If maintain born use 'nisan_L2.svg'.
+             * If maintain age as well use 'nisan_L3.svg'.
+             */
+            string file = string.Empty;
+            if (!string.IsNullOrEmpty(order.death))
+                file = templatePath.Replace(".svg", "0.svg");
+            else if (!string.IsNullOrEmpty(order.age) && !string.IsNullOrEmpty(order.born))
+            {
+                //tolerance for born template
+                file = templatePath.Replace(".svg", "4.svg");
+                this.tolerance = new Point(0, -20.00);
+            }
+            if (!string.IsNullOrEmpty(order.age))
+            {
+                //tolerance for age template
+                file = templatePath.Replace(".svg", "3.svg");
+                this.tolerance = new Point(0, -4.00);
+            }
+            else if (!string.IsNullOrEmpty(order.born))
+            {
+                //tolerance for born template
+                file = templatePath.Replace(".svg", "2.svg");
+                this.tolerance = new Point(0, -20.00);
+            }
+            else
+                file = templatePath;
+
+            //this is a female template with need to move on top a little bit
+            if (order.item.Contains("(P)")) this.tolerance = new Point(0, -20.00);
+
+            this.writer = new StreamWriter(stream);
         }
 
         #region Methods
