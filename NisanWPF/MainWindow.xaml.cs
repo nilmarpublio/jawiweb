@@ -28,6 +28,7 @@ namespace NisanWPF
             nisan.LoadFromFile("nisan.xml", out nisan);
             nisan.Initialize(nisan);
 
+            // start bind nisan order
             this.DataContext = nisan;
         }
     }
