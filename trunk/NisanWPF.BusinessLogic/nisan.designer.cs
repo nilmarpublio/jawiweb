@@ -29,14 +29,6 @@ namespace NisanWPF.BusinessLogic
 
         private static System.Xml.Serialization.XmlSerializer serializer;
 
-        /// <summary>
-        /// nisan class constructor
-        /// </summary>
-        public nisan()
-        {
-            this.itemsField = new ObservableCollection<object>();
-        }
-
         [System.Xml.Serialization.XmlElementAttribute("invoice", typeof(nisanInvoice))]
         [System.Xml.Serialization.XmlElementAttribute("order", typeof(nisanOrder))]
         [System.Xml.Serialization.XmlElementAttribute("purchase", typeof(nisanPurchase))]

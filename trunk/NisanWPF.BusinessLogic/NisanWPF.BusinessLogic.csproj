@@ -39,6 +39,9 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="nisan.cs">
+      <DependentUpon>nisan.xsd</DependentUpon>
+    </Compile>
     <Compile Include="nisan.designer.cs" />
     <Compile Include="nisanOrder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
