@@ -24,10 +24,11 @@ namespace NisanWPF
         {
             InitializeComponent();
 
-            //nisan nisan;
-            //nisan.LoadFromFile("nisan.xml", out nisan);
-            //int count = nisan.Items.Count;
-            //System.Diagnostics.Debug.WriteLine(count);
+            nisan nisan;
+            nisan.LoadFromFile("nisan.xml", out nisan);
+            nisan.Initialize(nisan);
+
+            this.DataContext = nisan;
         }
     }
 }
