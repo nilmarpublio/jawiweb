@@ -7,6 +7,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <!-- Must follow sequence each has dependency -->
                 <ResourceDictionary Source="Resources/Generic.xaml" />
+                <ResourceDictionary Source="Resources/DataTemplates.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

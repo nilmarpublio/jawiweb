@@ -17,11 +17,6 @@
                 <StackPanel DockPanel.Dock="Top"></StackPanel>
                 <ScrollViewer VerticalScrollBarVisibility="Auto"  HorizontalScrollBarVisibility="Disabled">
                     <ItemsControl ItemsSource="{Binding Orders}">
-                        <ItemsControl.ItemTemplate>
-                            <DataTemplate>
-                                <TextBlock Text="{Binding name}"/>
-                            </DataTemplate>
-                        </ItemsControl.ItemTemplate>
                     </ItemsControl>
                 </ScrollViewer>
             </DockPanel>
