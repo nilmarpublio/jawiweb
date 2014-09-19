@@ -10,21 +10,32 @@
         </Grid.ColumnDefinitions>
 
         <DockPanel Grid.Column="0" LastChildFill="True">
-            <StackPanel Orientation="Vertical" DockPanel.Dock="Left">
-                
-            </StackPanel>
+            <DockPanel DockPanel.Dock="Left" LastChildFill="True">
+                <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                </StackPanel>
+                <DockPanel />
+            </DockPanel>
             <DockPanel>
-                <StackPanel DockPanel.Dock="Top"></StackPanel>
+                <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                </StackPanel>
                 <ScrollViewer VerticalScrollBarVisibility="Auto"  HorizontalScrollBarVisibility="Disabled">
-                    <ItemsControl ItemsSource="{Binding Orders}">
-                    </ItemsControl>
+                    <ItemsControl ItemsSource="{Binding Orders}" />
                 </ScrollViewer>
             </DockPanel>
         </DockPanel>
 
         <DockPanel Grid.Column="1" LastChildFill="True">
             <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Right">
-
+                <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                <Button Content="" Style="{StaticResource MetroButtonStyle}" />
             </StackPanel>
             <WrapPanel></WrapPanel>
         </DockPanel>
