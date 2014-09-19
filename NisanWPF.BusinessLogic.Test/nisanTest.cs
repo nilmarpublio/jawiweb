@@ -47,5 +47,16 @@ namespace NisanWPF.BusinessLogic.Test
             System.Diagnostics.Debug.WriteLine("After: " + after);
             Assert.AreEqual(1, after - before);
         }
+
+        [Test]
+        public void InitializeOrderTest()
+        {
+            nisan nisan;
+            nisan.LoadFromFile("nisan.xml", out nisan);
+            nisan.Initialize(nisan);
+            System.Diagnostics.Debug.WriteLine("All: " + nisan.Items.Count + " Order: " + nisan.Orders.Count);
+            Assert.IsTrue(nisan.Orders.Count > 0);
+            Assert.IsTrue(nisan.Items.Count >= nisan.Orders.Count);
+        }
     }
 }
