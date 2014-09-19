@@ -2,6 +2,13 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:n="clr-namespace:NisanWPF.BusinessLogic;assembly=NisanWPF.BusinessLogic">
     <DataTemplate DataType="{x:Type n:nisanOrder}">
-        <TextBlock Text="{Binding name}"/>
+        <DockPanel LastChildFill="True">
+            <WrapPanel DockPanel.Dock="Left">
+                <Button Content="{Binding abbrev}" />
+            </WrapPanel>
+            <StackPanel>
+                <TextBlock Text="{Binding name}"/>
+            </StackPanel>
+        </DockPanel>
     </DataTemplate>
 </ResourceDictionary>
