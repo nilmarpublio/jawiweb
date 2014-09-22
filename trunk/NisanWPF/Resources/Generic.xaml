@@ -76,5 +76,24 @@
         <Setter Property="FontStyle" Value="Italic" />
         <Setter Property="Margin" Value="0 0 2 0" />
     </Style>
+    
+    <Style x:Key="KnifeStyle" TargetType="{x:Type CheckBox}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type CheckBox}">
+                    <Grid Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                        <Path x:Name="cut" Stretch="None" Stroke="{StaticResource DefaultColor}" Data="m 0.48706478,5.1511221 11.02587022,0 m -8.5302769,-4.66405732 6.0346837,0 0,8.92310472 -6.0346837,4.4581615 z" />
+                        <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="cut" Property="Data" Value="m 0.58770019,3.7456829 10.82459981,0 0,1.968105 -10.82459981,0 z m 2.35907991,-3.31798501 0,2.82916501 6.088845,0 0,-2.82916501 -6.088845,0 z m 0,5.78131501 0,7.7186851 6.088845,-4.4897551 0,-3.22893 -6.088845,0 z" />
+                            <Setter TargetName="cut" Property="Fill" Value="#808080" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
 
 </ResourceDictionary>
