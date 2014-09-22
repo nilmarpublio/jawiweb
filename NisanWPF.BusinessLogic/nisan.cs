@@ -9,8 +9,11 @@ namespace NisanWPF.BusinessLogic
 {
     public partial class nisan
     {
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
         public ObservableCollection<nisanOrder> Orders { get; set; }
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
         public ObservableCollection<nisanInvoice> Invoices { get; set; }
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
         public ObservableCollection<nisanPurchase> Purchases { get; set; }
 
         /// <summary>
@@ -42,7 +45,9 @@ namespace NisanWPF.BusinessLogic
         public CreateOrderCommand CreateOrderCommand { get { return this.createOrderCommand; } }
         public void CreateOrder()
         {
-            this.Orders.Add(new nisanOrder());
+            nisanOrder order = new nisanOrder();
+            this.itemsField.Add(order);
+            this.Orders.Add(order);
         }
 
         /// <summary>
