@@ -2,13 +2,36 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:n="clr-namespace:NisanWPF.BusinessLogic;assembly=NisanWPF.BusinessLogic">
     <DataTemplate DataType="{x:Type n:nisanOrder}">
-        <DockPanel LastChildFill="True" Margin="5">
-            <WrapPanel DockPanel.Dock="Left" Margin="5">
+        <DockPanel LastChildFill="True" Margin="2">
+            <WrapPanel DockPanel.Dock="Left" Margin="2">
                 <Button Content="{Binding abbrev}" Background="{Binding soldtoColor}" Style="{StaticResource SoldtoButtonStyle}" />
             </WrapPanel>
-            <StackPanel Margin="5">
-                <TextBlock Text="{Binding name}"/>
-            </StackPanel>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <DockPanel Grid.Row="0">
+                    <WrapPanel DockPanel.Dock="Right">
+                        <TextBlock Text="{Binding aging}" Style="{StaticResource AgingStyle}" />
+                        <TextBlock Text=" days ago" Style="{StaticResource AgingStyle}" />
+                        <CheckBox />
+                    </WrapPanel>
+                    <TextBox Foreground="{Binding stockColor}" Style="{StaticResource StockTextBoxStyle}" Text="{Binding item}" />
+                </DockPanel>
+                <DockPanel Grid.Row="1">
+                    <TextBox DockPanel.Dock="Right" Text="{Binding jawi}" />
+                    <TextBox Text="{Binding name}" />
+                </DockPanel>
+                <DockPanel Grid.Row="2" Margin="0 0 0 4">
+                    <TextBox DockPanel.Dock="Right" Text="{Binding deathm}" />
+                    <WrapPanel>
+                        <TextBox Text="{Binding born}" />
+                        <TextBox Text="{Binding death}" />
+                    </WrapPanel>
+                </DockPanel>
+            </Grid>
         </DockPanel>
     </DataTemplate>
 </ResourceDictionary>
