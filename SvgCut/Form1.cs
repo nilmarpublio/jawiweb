@@ -307,6 +307,7 @@ namespace SvgCut
                 Connect();
                 Send(target);
                 Disconnect();
+                return; // only cut for once
             }
             // TODO: how about fail to convert?
         }
