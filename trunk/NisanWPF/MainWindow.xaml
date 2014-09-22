@@ -24,6 +24,16 @@
                     <Button Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button Content="" Style="{StaticResource MetroButtonStyle}" />
                 </StackPanel>
+                <DockPanel DockPanel.Dock="Bottom">
+                    <WrapPanel DockPanel.Dock="Right">
+                        <TextBlock Text="Total " />
+                        <TextBlock Text="{Binding totalSales}" />
+                    </WrapPanel>
+                    <WrapPanel>
+                        <TextBlock Text="{Binding Orders.Count}" />
+                        <TextBlock Text=" items found" />
+                    </WrapPanel>
+                </DockPanel>
                 <ScrollViewer VerticalScrollBarVisibility="Auto"  HorizontalScrollBarVisibility="Disabled">
                     <ItemsControl ItemsSource="{Binding Orders}" />
                 </ScrollViewer>
