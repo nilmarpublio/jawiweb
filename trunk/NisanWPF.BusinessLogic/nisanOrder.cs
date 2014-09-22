@@ -17,6 +17,7 @@ namespace NisanWPF.BusinessLogic
         /// <remarks>
         /// TODO: Move abbrev setting to configuration.
         /// </remarks>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
         public string abbrev
         {
             get
@@ -35,6 +36,7 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
         public System.Windows.Media.Brush soldtoColor
         {
             get
@@ -56,6 +58,7 @@ namespace NisanWPF.BusinessLogic
         /// <summary>
         /// Gets represented stock color.
         /// </summary>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
         public System.Windows.Media.Brush stockColor
         {
             get
@@ -77,6 +80,7 @@ namespace NisanWPF.BusinessLogic
         /// <summary>
         /// Gets total days since accepted order.
         /// </summary>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
         public int aging
         {
             get
@@ -90,6 +94,7 @@ namespace NisanWPF.BusinessLogic
         /// <summary>
         /// Gets this order has been delivered.
         /// </summary>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool hasDeliver
         {
             get

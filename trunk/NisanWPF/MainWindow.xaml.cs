@@ -20,16 +20,21 @@ namespace NisanWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        private nisan nisan;
         public MainWindow()
         {
             InitializeComponent();
 
-            nisan nisan;
             nisan.LoadFromFile("nisan.xml", out nisan);
             nisan.Initialize(nisan);
 
             // start bind nisan order
             this.DataContext = nisan;
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            nisan.SaveToFile("nisan.xml");
         }
     }
 }
