@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
+using System.Windows.Input;
 
 namespace NisanWPF.BusinessLogic
 {
@@ -21,6 +22,7 @@ namespace NisanWPF.BusinessLogic
             this.Orders = new ObservableCollection<nisanOrder>();
             this.Invoices = new ObservableCollection<nisanInvoice>();
             this.Purchases = new ObservableCollection<nisanPurchase>();
+            this.createOrderCommand = new CreateOrderCommand(this);
         }
         
         public static void Initialize(nisan nisan)
@@ -36,6 +38,13 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
+        private CreateOrderCommand createOrderCommand;
+        public CreateOrderCommand CreateOrderCommand { get { return this.createOrderCommand; } }
+        public void CreateOrder()
+        {
+            this.Orders.Add(new nisanOrder());
+        }
+
         /// <summary>
         /// Gets total amount of nisan orders.
         /// </summary>
@@ -45,6 +54,27 @@ namespace NisanWPF.BusinessLogic
             {
                 return this.Orders.Sum(o => o.price);
             }
+        }
+    }
+
+    public class CreateOrderCommand : ICommand
+    {
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public event EventHandler CanExecuteChanged;
+
+        public void Execute(object parameter)
+        {
+            manager.CreateOrder();
+        }
+
+        private nisan manager;
+        public CreateOrderCommand(nisan nisan)
+        {
+            this.manager = nisan;
         }
     }
 }

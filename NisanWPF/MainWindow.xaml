@@ -18,7 +18,7 @@
             </DockPanel>
             <DockPanel>
                 <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
-                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button Command="{Binding CreateOrderCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button Width="24" Height="24" BorderThickness="0" BorderBrush="Transparent" Background="{StaticResource KnifeIcon}" />
