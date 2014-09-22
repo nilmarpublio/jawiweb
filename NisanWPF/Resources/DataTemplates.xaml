@@ -16,6 +16,7 @@
                     <WrapPanel DockPanel.Dock="Right">
                         <TextBlock Text="{Binding aging}" Style="{StaticResource AgingStyle}" />
                         <TextBlock Text=" days ago" Style="{StaticResource AgingStyle}" />
+                        <TextBlock FontFamily="iconFont" Text="" Margin="0 0 2 0" Visibility="{Binding hasDeliver,Converter={StaticResource VisibilityConverter}, UpdateSourceTrigger=PropertyChanged}" />
                         <CheckBox />
                     </WrapPanel>
                     <TextBox Foreground="{Binding stockColor}" Style="{StaticResource StockTextBoxStyle}" Text="{Binding item}" />
