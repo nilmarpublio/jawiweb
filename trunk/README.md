@@ -13,15 +13,9 @@ UI Automation
 cmd > uniconvertor "bidah bt mat.svg" "bidah bt mat.plt"
 
 
-
-
 WPF
 -------
-
-[Ribbon Control](http://msdn.microsoft.com/en-us/library/ff799534.aspx)
---------------------
+- [Ribbon Control](http://msdn.microsoft.com/en-us/library/ff799534.aspx)
 - [Guideline](http://msdn.microsoft.com/en-us/library/cc872782.aspx)
-
-Examples
--------------
+- [MahApps.Metro](http://mahapps.com/)
 - [Family.Show](http://familyshow.codeplex.com/)

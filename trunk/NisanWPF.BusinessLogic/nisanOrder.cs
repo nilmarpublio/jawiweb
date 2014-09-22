@@ -21,6 +21,7 @@ namespace NisanWPF.BusinessLogic
         {
             get
             {
+                if (this.soldto == null) return "";
                 switch (this.soldto)
                 {
                     case "ADI": return "A";
@@ -38,6 +39,7 @@ namespace NisanWPF.BusinessLogic
         {
             get
             {
+                if (this.soldto == null) return Brushes.Gray;
                 switch (this.soldto)
                 {
                     case "ADI": return (Brush)brushConverter.ConvertFromString("#008080");
@@ -58,6 +60,7 @@ namespace NisanWPF.BusinessLogic
         {
             get
             {
+                if (this.item == null) return Brushes.Black;
                 if (this.item.ToLower().Contains("hijau"))
                     return Brushes.LightGreen;
                 else if (this.item.ToLower().Contains("batik"))
@@ -78,6 +81,7 @@ namespace NisanWPF.BusinessLogic
         {
             get
             {
+                if (this.date == null) return 0;
                 TimeSpan diff = DateTime.Now - Convert.ToDateTime(this.date);
                 return (int)diff.TotalDays;
             }
@@ -90,6 +94,7 @@ namespace NisanWPF.BusinessLogic
         {
             get
             {
+                if(this.delivered == null) return false;
                 return (this.delivered.Length > 0);
             }
         }
