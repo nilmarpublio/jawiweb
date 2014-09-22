@@ -83,5 +83,16 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
+        /// <summary>
+        /// Gets this order has been delivered.
+        /// </summary>
+        public bool hasDeliver
+        {
+            get
+            {
+                return (this.delivered.Length > 0);
+            }
+        }
+
     }
 }

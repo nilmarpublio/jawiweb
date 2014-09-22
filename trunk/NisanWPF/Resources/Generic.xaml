@@ -74,6 +74,7 @@
     <Style x:Key="AgingStyle" TargetType="{x:Type TextBlock}">
         <Setter Property="Foreground" Value="LIghtGray" />
         <Setter Property="FontStyle" Value="Italic" />
+        <Setter Property="Margin" Value="0 0 2 0" />
     </Style>
 
 </ResourceDictionary>
