@@ -96,4 +96,14 @@
         </Setter>
     </Style>
 
+    <DrawingBrush x:Key="KnifeIcon" Stretch="None">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <DrawingGroup.Children>
+                    <GeometryDrawing Brush="Gray" Geometry="m 0,3.37175 11.000003,0 0,2 L 0,5.37175 z M 2.39731,0 l 0,2.875 6.187503,0 0,-2.875 -6.187503,0 z m 0,5.875 0,7.84375 6.187503,-4.5625 0,-3.28125 -6.187503,0 z" />
+                </DrawingGroup.Children>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
+
 </ResourceDictionary>

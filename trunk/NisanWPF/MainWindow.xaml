@@ -21,6 +21,7 @@
                     <Button Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button Width="24" Height="24" BorderThickness="0" BorderBrush="Transparent" Background="{StaticResource KnifeIcon}" />
                     <Button Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button Content="" Style="{StaticResource MetroButtonStyle}" />
                 </StackPanel>
