@@ -19,7 +19,7 @@
             <DockPanel>
                 <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
                     <Button Content="" Style="{StaticResource MetroButtonStyle}" />
-                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button Content="" Style="{StaticResource MetroButtonStyle}" />
