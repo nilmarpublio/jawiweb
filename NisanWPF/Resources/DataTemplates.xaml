@@ -2,11 +2,11 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:n="clr-namespace:NisanWPF.BusinessLogic;assembly=NisanWPF.BusinessLogic">
     <DataTemplate DataType="{x:Type n:nisanOrder}">
-        <DockPanel LastChildFill="True">
-            <WrapPanel DockPanel.Dock="Left">
+        <DockPanel LastChildFill="True" Margin="5">
+            <WrapPanel DockPanel.Dock="Left" Margin="5">
                 <Button Content="{Binding abbrev}" Background="{Binding soldtoColor}" Style="{StaticResource SoldtoButtonStyle}" />
             </WrapPanel>
-            <StackPanel>
+            <StackPanel Margin="5">
                 <TextBlock Text="{Binding name}"/>
             </StackPanel>
         </DockPanel>
