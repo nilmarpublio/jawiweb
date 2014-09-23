@@ -102,4 +102,36 @@ namespace NisanWPF
             throw new ArgumentException("Not supported type of " + targetType);
         }
     }
+
+    /// <summary>
+    /// Gets abbreviation of soldto customer.
+    /// </summary>
+    /// <remarks>
+    /// TODO: Move soldto color setting to configuration.
+    /// </remarks>
+    public class SoldToColorConverter : IValueConverter
+    {
+        private BrushConverter brushConverter = new BrushConverter();
+        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            if (value == null) return Brushes.Gray;
+            switch (value.ToString())
+            {
+                case "ADI": return (Brush)brushConverter.ConvertFromString("#008080");
+                case "HAM": return (Brush)brushConverter.ConvertFromString("#00ff00");
+                case "KEN": return Brushes.Khaki;
+                case "PAS": return Brushes.PaleVioletRed;
+                case "SEM": return (Brush)brushConverter.ConvertFromString("#ff5555");
+                case "SEL": return (Brush)brushConverter.ConvertFromString("#808000");
+                default: return Brushes.Gray;
+            }
+
+            throw new ArgumentException("Not supported type of " + value.GetType());
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

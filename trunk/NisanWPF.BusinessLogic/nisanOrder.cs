@@ -9,27 +9,6 @@ namespace NisanWPF.BusinessLogic
 {
     public partial class nisanOrder
     {
-        private BrushConverter brushConverter = new BrushConverter();
-
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public System.Windows.Media.Brush soldtoColor
-        {
-            get
-            {
-                if (this.soldto == null) return Brushes.Gray;
-                switch (this.soldto)
-                {
-                    case "ADI": return (Brush)brushConverter.ConvertFromString("#008080");
-                    case "HAM": return (Brush)brushConverter.ConvertFromString("#00ff00");
-                    case "KEN": return Brushes.Khaki;
-                    case "PAS": return Brushes.PaleVioletRed;
-                    case "SEM": return (Brush)brushConverter.ConvertFromString("#ff5555");
-                    case "SEL": return (Brush)brushConverter.ConvertFromString("#808000");
-                    default: return Brushes.Gray;
-                }
-            }
-        }
-
         /// <summary>
         /// Gets represented stock color.
         /// </summary>
@@ -74,7 +53,7 @@ namespace NisanWPF.BusinessLogic
         {
             get
             {
-                if(this.delivered == null) return false;
+                if (this.delivered == null) return false;
                 return (this.delivered.Length > 0);
             }
         }
