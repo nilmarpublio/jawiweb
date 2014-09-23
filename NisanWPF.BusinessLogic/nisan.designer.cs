@@ -633,8 +633,6 @@ namespace NisanWPF.BusinessLogic
 
         private decimal priceField;
 
-        private bool priceFieldSpecified;
-
         private static System.Xml.Serialization.XmlSerializer serializer;
 
         public string name
@@ -1178,23 +1176,6 @@ namespace NisanWPF.BusinessLogic
                 {
                     this.priceField = value;
                     this.OnPropertyChanged("price");
-                }
-            }
-        }
-
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool priceSpecified
-        {
-            get
-            {
-                return this.priceFieldSpecified;
-            }
-            set
-            {
-                if ((priceFieldSpecified.Equals(value) != true))
-                {
-                    this.priceFieldSpecified = value;
-                    this.OnPropertyChanged("priceSpecified");
                 }
             }
         }
