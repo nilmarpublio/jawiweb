@@ -45,14 +45,17 @@
     </Compile>
     <Compile Include="nisan.designer.cs" />
     <Compile Include="nisanOrder.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="nisan.xsd">
       <SubType>Designer</SubType>
     </None>
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>"C:\Program Files\TortoiseSVN\bin\SubWCRev" $(ProjectDir) "$(ProjectDir)Properties\AssemblyInfo.tmpl" "$(ProjectDir)Properties\AssemblyInfo.cs"</PreBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
