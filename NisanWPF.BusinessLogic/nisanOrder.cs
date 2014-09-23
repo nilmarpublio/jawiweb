@@ -11,31 +11,6 @@ namespace NisanWPF.BusinessLogic
     {
         private BrushConverter brushConverter = new BrushConverter();
 
-        /// <summary>
-        /// Gets abbreviation of soldto customer.
-        /// </summary>
-        /// <remarks>
-        /// TODO: Move abbrev setting to configuration.
-        /// </remarks>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public string abbrev
-        {
-            get
-            {
-                if (this.soldto == null) return "";
-                switch (this.soldto)
-                {
-                    case "ADI": return "A";
-                    case "HAM": return "H";
-                    case "KEN": return "K";
-                    case "PAS": return "P";
-                    case "SEM": return "M";
-                    case "SEL": return "S";
-                    default: return this.soldto.Substring(0, 1);
-                }
-            }
-        }
-
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public System.Windows.Media.Brush soldtoColor
         {
