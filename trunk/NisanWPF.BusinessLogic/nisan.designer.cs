@@ -733,30 +733,6 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
-        public string death
-        {
-            get
-            {
-                return this.deathField;
-            }
-            set
-            {
-                if ((this.deathField != null))
-                {
-                    if ((deathField.Equals(value) != true))
-                    {
-                        this.deathField = value;
-                        this.OnPropertyChanged("death");
-                    }
-                }
-                else
-                {
-                    this.deathField = value;
-                    this.OnPropertyChanged("death");
-                }
-            }
-        }
-
         public string deathm
         {
             get

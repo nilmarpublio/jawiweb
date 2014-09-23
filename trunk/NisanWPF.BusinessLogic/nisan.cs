@@ -1,14 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Input;
+using HLGranite.Jawi;
 
 namespace NisanWPF.BusinessLogic
 {
     public partial class nisan
     {
+        public static MuslimCalendar Calendar;
+
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public ObservableCollection<nisanOrder> Orders { get; set; }
         [System.Xml.Serialization.XmlIgnoreAttribute()]
@@ -27,6 +31,30 @@ namespace NisanWPF.BusinessLogic
             this.Purchases = new ObservableCollection<nisanPurchase>();
             this.createOrderCommand = new CreateOrderCommand(this);
             this.removeOrderCommand = new RemoveOrderCommand(this);
+            Calendar = new MuslimCalendar(ReadXml("muslimcal.xml"));
+        }
+
+        // TODO: Create a new constructor for MuslimCalendar to direct read xml.
+        private DataTable ReadXml(string fileName)
+        {
+            DataTable table = new DataTable();
+            DataSet dataset = new DataSet();
+
+            try
+            {
+                if (System.IO.File.Exists(fileName))
+                    dataset.ReadXml(fileName);
+                if (dataset.Tables.Count > 0)
+                    table = dataset.Tables[0].Copy();
+
+                return table;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine(ex);
+                return table;
+            }
+            finally { dataset.Dispose(); }
         }
         
         public static void Initialize(nisan nisan)
