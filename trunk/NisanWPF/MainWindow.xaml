@@ -19,7 +19,7 @@
             <DockPanel>
                 <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
                     <Button ToolTip="Add" Command="{Binding CreateOrderCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
-                    <Button ToolTip="Delete" Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button ToolTip="Delete" Command="{Binding RemoveOrderCommand}" CommandParameter="{Binding Path=SelectedItem,ElementName=listView}" Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button ToolTip="Save" Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button ToolTip="Generate" Style="{StaticResource InkscapeMetroButton}" />
                     <Button ToolTip="Cut" Style="{StaticResource KnifeMetroButton}" />
@@ -36,7 +36,7 @@
                         <TextBlock Text=" items found" />
                     </WrapPanel>
                 </DockPanel>
-                <ListView ItemsSource="{Binding Orders}" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                <ListView x:Name="listView" ItemsSource="{Binding Orders}" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
                     <ListView.ItemContainerStyle>
                         <Style TargetType="ListViewItem">
                             <Setter Property="HorizontalContentAlignment" Value="Stretch" />

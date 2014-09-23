@@ -6,4 +6,8 @@
     <w:SoldToColorConverter x:Key="SoldToColorConverter" />
     <w:StockColorConverter x:Key="StockColorConverter" />
     <SolidColorBrush x:Key="DefaultColor" Color="#58595b" />
+
+    <!--<Style TargetType="{x:Type TextBox}">
+        <Setter Property="BorderThickness" Value="0" />
+    </Style>-->
 </ResourceDictionary>

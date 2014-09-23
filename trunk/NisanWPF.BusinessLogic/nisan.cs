@@ -26,6 +26,7 @@ namespace NisanWPF.BusinessLogic
             this.Invoices = new ObservableCollection<nisanInvoice>();
             this.Purchases = new ObservableCollection<nisanPurchase>();
             this.createOrderCommand = new CreateOrderCommand(this);
+            this.removeOrderCommand = new RemoveOrderCommand(this);
         }
         
         public static void Initialize(nisan nisan)
@@ -46,8 +47,17 @@ namespace NisanWPF.BusinessLogic
         public void CreateOrder()
         {
             nisanOrder order = new nisanOrder();
+            order.date = DateTime.Today.ToString("yyyy-MM-dd");
             this.itemsField.Add(order);
             this.Orders.Add(order);
+        }
+
+        private RemoveOrderCommand removeOrderCommand;
+        public RemoveOrderCommand RemoveOrderCommand { get { return this.removeOrderCommand; } }
+        public void RemoveOrder(nisanOrder order)
+        {
+            this.itemsField.Remove(order);
+            this.Orders.Remove(order);
         }
 
         /// <summary>
@@ -70,7 +80,6 @@ namespace NisanWPF.BusinessLogic
         }
 
         public event EventHandler CanExecuteChanged;
-
         public void Execute(object parameter)
         {
             manager.CreateOrder();
@@ -78,6 +87,26 @@ namespace NisanWPF.BusinessLogic
 
         private nisan manager;
         public CreateOrderCommand(nisan nisan)
+        {
+            this.manager = nisan;
+        }
+    }
+
+    public class RemoveOrderCommand : ICommand
+    {
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public event EventHandler CanExecuteChanged;
+        public void Execute(object parameter)
+        {
+            this.manager.RemoveOrder((nisanOrder)parameter);
+        }
+
+        private nisan manager;
+        public RemoveOrderCommand(nisan nisan)
         {
             this.manager = nisan;
         }
