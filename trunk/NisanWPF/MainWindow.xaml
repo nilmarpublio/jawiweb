@@ -21,6 +21,7 @@
                     <Button ToolTip="Add" Command="{Binding CreateOrderCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button ToolTip="Delete" Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button ToolTip="Save" Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button ToolTip="Generate" Style="{StaticResource InkscapeMetroButton}" />
                     <Button ToolTip="Cut" Style="{StaticResource KnifeMetroButton}" />
                     <Button ToolTip="Mark done" Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button ToolTip="Print" Content="" Style="{StaticResource MetroButtonStyle}" />
@@ -43,10 +44,10 @@
 
         <DockPanel Grid.Column="1" LastChildFill="True">
             <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Right">
-                <Button Content="" Style="{StaticResource MetroButtonStyle}" />
-                <Button Content="" Style="{StaticResource MetroButtonStyle}" />
-                <Button Content="" Style="{StaticResource MetroButtonStyle}" />
-                <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                <Button ToolTip="Sort by customer" Content="" Style="{StaticResource MetroButtonStyle}" />
+                <Button ToolTip="Sort by created date" Content="" Style="{StaticResource MetroButtonStyle}" />
+                <Button ToolTip="Sort by stock" Content="" Style="{StaticResource MetroButtonStyle}" />
+                <Button ToolTip="Settings" Content="" Style="{StaticResource MetroButtonStyle}" />
             </StackPanel>
             <WrapPanel></WrapPanel>
         </DockPanel>
