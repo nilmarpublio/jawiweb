@@ -52,6 +52,12 @@
     </None>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HLGranite.Jawi\HLGranite.Jawi.csproj">
+      <Project>{6fb0c4f0-ee8a-4033-8f67-eab40f661782}</Project>
+      <Name>HLGranite.Jawi</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>"C:\Program Files\TortoiseSVN\bin\SubWCRev" $(ProjectDir) "$(ProjectDir)Properties\AssemblyInfo.tmpl" "$(ProjectDir)Properties\AssemblyInfo.cs"</PreBuildEvent>
