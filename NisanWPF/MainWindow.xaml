@@ -36,9 +36,13 @@
                         <TextBlock Text=" items found" />
                     </WrapPanel>
                 </DockPanel>
-                <ScrollViewer VerticalScrollBarVisibility="Auto"  HorizontalScrollBarVisibility="Disabled">
-                    <ItemsControl ItemsSource="{Binding Orders}" />
-                </ScrollViewer>
+                <ListView ItemsSource="{Binding Orders}" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                </ListView>
             </DockPanel>
         </DockPanel>
 
