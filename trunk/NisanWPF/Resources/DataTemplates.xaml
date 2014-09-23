@@ -4,7 +4,7 @@
     <DataTemplate DataType="{x:Type n:nisanOrder}">
         <DockPanel LastChildFill="True" Margin="2">
             <WrapPanel DockPanel.Dock="Left" Margin="2">
-                <Button Content="{Binding abbrev}" Background="{Binding soldtoColor}" Style="{StaticResource SoldtoButtonStyle}" />
+                <Button Content="{Binding soldto,Converter={StaticResource SoldToAbbrevConverter},UpdateSourceTrigger=PropertyChanged}" Background="{Binding soldtoColor}" Style="{StaticResource SoldtoButtonStyle}" />
             </WrapPanel>
             <Grid>
                 <Grid.RowDefinitions>

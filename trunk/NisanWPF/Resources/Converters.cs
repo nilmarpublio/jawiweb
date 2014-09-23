@@ -54,4 +54,52 @@ namespace NisanWPF
         }
         #endregion
     }
+
+    /// <summary>
+    /// Gets abbreviation of soldto customer.
+    /// </summary>
+    /// <remarks>
+    /// TODO: Move abbrev setting to configuration.
+    /// </remarks>
+    public class SoldToAbbrevConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            if (value == null) return "";
+            if (value is string)
+            {
+                switch (value.ToString())
+                {
+                    case "ADI": return "A";
+                    case "HAM": return "H";
+                    case "KEN": return "K";
+                    case "PAS": return "P";
+                    case "SEM": return "M";
+                    case "SEL": return "S";
+                    default: return value.ToString().Substring(0, 1);
+                }
+            }
+
+            throw new ArgumentException("Not supported type of " + value.GetType());
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            if (targetType == typeof(string))
+            {
+                switch (value.ToString())
+                {
+                    case "A": return "ADI";
+                    case "H": return "HAM";
+                    case "K": return "KEN";
+                    case "P": return "PAS";
+                    case "M": return "SEM";
+                    case "S": return "SEL";
+                    default: return value.ToString();
+                }
+            }
+
+            throw new ArgumentException("Not supported type of " + targetType);
+        }
+    }
 }
