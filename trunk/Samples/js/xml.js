@@ -73,6 +73,8 @@ function isValidate(name, item) {
 		return false;
 	if (name.toLowerCase().indexOf(' bt ') >= 0 && item.toUpperCase().indexOf('(L)') >= 0)
         return false;
+	if (name.toLowerCase().indexOf(' binti ') >= 0 && item.toUpperCase().indexOf('(L)') >= 0)
+        return false;
 
 	return true;
 }
