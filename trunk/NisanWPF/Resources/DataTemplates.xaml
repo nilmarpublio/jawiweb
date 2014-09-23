@@ -19,7 +19,7 @@
                         <TextBlock Text="{Binding aging}" Style="{StaticResource AgingStyle}" />
                         <TextBlock Text=" days ago" Style="{StaticResource AgingStyle}" />
                         <TextBlock FontFamily="iconFont" Text="" Margin="0 0 2 0" Visibility="{Binding hasDeliver,Converter={StaticResource VisibilityConverter}, UpdateSourceTrigger=PropertyChanged}" />
-                        <CheckBox Style="{StaticResource KnifeStyle}" />
+                        <CheckBox IsChecked="{Binding hasCut}"  Style="{StaticResource KnifeStyle}" />
                     </WrapPanel>
                     <TextBox Foreground="{Binding item,Converter={StaticResource StockColorConverter},UpdateSourceTrigger=PropertyChanged}"
                              Text="{Binding item}"
