@@ -3,6 +3,7 @@
                     xmlns:w="clr-namespace:NisanWPF">    
     <w:VisibilityConverter x:Key="VisibilityConverter" />
     <w:SoldToAbbrevConverter x:Key="SoldToAbbrevConverter" />
-    <w:SoldToColorConverter x:Key="SoldToColorConverter" />    
+    <w:SoldToColorConverter x:Key="SoldToColorConverter" />
+    <w:StockColorConverter x:Key="StockColorConverter" />
     <SolidColorBrush x:Key="DefaultColor" Color="#58595b" />
 </ResourceDictionary>
