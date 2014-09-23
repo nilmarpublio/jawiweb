@@ -37,6 +37,7 @@ namespace NisanWPF.BusinessLogic.Test
             order.item = "2' Batu Batik(L)";
             order.soldto = "ADI";
             order.name = "Ali bin Test";
+            order.price = 250;
 
             nisan.Items.Add(order);
             nisan.SaveToFile("nisan.xml");

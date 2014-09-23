@@ -70,36 +70,6 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
-        public string death
-        {
-            get
-            {
-                return this.deathField;
-            }
-            set
-            {
-                if ((this.deathField != null))
-                {
-                    if ((deathField.Equals(value) != true))
-                    {
-                        this.deathField = value;
-                        this.OnPropertyChanged("death");
-                    }
-
-                    // set muslim date
-                    if (this.deathField.Length == 10)
-                    {
-                        ConvertToMuslimDate();
-                    }
-                }
-                else
-                {
-                    this.deathField = value;
-                    this.OnPropertyChanged("death");
-                }
-            }
-        }
-
         /// <summary>
         /// Convert Gregorian date value to Muslim date.
         /// </summary>
@@ -113,6 +83,34 @@ namespace NisanWPF.BusinessLogic
             this.deathmField = nisan.Calendar.Value.ToString("yyyy-MM-dd");
             this.OnPropertyChanged("deathm");
         }
+        private bool ValidateStock()
+        {
+            System.Diagnostics.Debug.WriteLine("ValidateStock");
+            if (this.item != null && this.name != null)
+            {
+                if (this.name.Contains("bin") && this.item.ToString().Contains("(P)"))
+                    return false;
+                if (this.name.Contains("bt") && this.item.ToString().Contains("(L)"))
+                    return false;
+                if (this.name.Contains("binti") && this.item.ToString().Contains("(L)"))
+                    return false;
+            }
+
+            return true;
+        }
+        private void SetPrice()
+        {
+            System.Diagnostics.Debug.WriteLine("SetPrice");
+            if (this.itemField.Contains("PV")) this.priceField = 35;
+            if (this.itemField.Contains("PA")) this.priceField = 35;
+            if (this.itemField.ToLower().Contains("sticker")) this.priceField = 12;
+            if (this.itemField.ToLower().Contains("batik")) this.priceField = 250;
+            if (this.itemField.ToLower().Contains("putih")) this.priceField = 250;
+            if (this.itemField.ToLower().Contains("hitam")) this.priceField = 350;
+            if (this.itemField.ToLower().Contains("hijau")) this.priceField = 350;
+
+            this.OnPropertyChanged("price");
+        }
 
         #region IDataErrorInfo members
         private string error;
@@ -122,24 +120,31 @@ namespace NisanWPF.BusinessLogic
             get
             {
                 this.error = null;
-                if ("item" == columnName)
-                {
-                    // TODO: Validate wrong gender on stock.
-                    //if(this.name
-                    //this.error = "Please make sure you pick a right stock!";
-                }
-
                 if ("death" == columnName)
                 {
-                    if (this.death.Length >= 10)
+                    if (this.death != null)
                     {
-                        int year = Convert.ToInt16(this.deathField.Substring(0, 4));
-                        int month = Convert.ToInt16(this.deathField.Substring(5, 2));
-                        int day = Convert.ToInt16(this.deathField.Substring(8, 2));
-                        DateTime date = new DateTime(year, month, day);
-                        if (date > DateTime.Today)
+                        if (this.death.Length >= 10)
                         {
-                            this.error = "Are you cursing people to die?";
+                            int year = Convert.ToInt16(this.deathField.Substring(0, 4));
+                            int month = Convert.ToInt16(this.deathField.Substring(5, 2));
+                            int day = Convert.ToInt16(this.deathField.Substring(8, 2));
+                            DateTime date = new DateTime(year, month, day);
+                            if (date > DateTime.Today)
+                            {
+                                this.error = "Are you cursing people to die?";
+                            }
+                        }
+                    }
+                }
+
+                if ("age" == columnName)
+                {
+                    if (this.age != null)
+                    {
+                        if (Convert.ToDecimal(this.age) > 130)
+                        {
+                            this.error = "Are you sure human can live so long?";
                         }
                     }
                 }
