@@ -18,12 +18,12 @@
             </DockPanel>
             <DockPanel>
                 <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
-                    <Button Command="{Binding CreateOrderCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
-                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
-                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
-                    <Button Width="24" Height="24" BorderThickness="0" BorderBrush="Transparent" Background="{StaticResource KnifeIcon}" />
-                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
-                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button ToolTip="Add" Command="{Binding CreateOrderCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button ToolTip="Delete" Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button ToolTip="Save" Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button ToolTip="Cut" Style="{StaticResource KnifeMetroButton}" />
+                    <Button ToolTip="Mark done" Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button ToolTip="Print" Content="" Style="{StaticResource MetroButtonStyle}" />
                 </StackPanel>
                 <DockPanel DockPanel.Dock="Bottom">
                     <WrapPanel DockPanel.Dock="Right">

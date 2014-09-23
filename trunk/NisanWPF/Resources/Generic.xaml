@@ -35,7 +35,7 @@
                     </Grid>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Background" TargetName="body" Value="#007acc" />
+                            <Setter TargetName="body" Property="Background" Value="#007acc" />
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
@@ -105,5 +105,34 @@
             </DrawingGroup>
         </DrawingBrush.Drawing>
     </DrawingBrush>
+
+    <Style x:Key="KnifeMetroButton" TargetType="{x:Type Button}">
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontFamily" Value="iconFont" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="body" Padding="10">
+                        <Grid>
+                            <Path x:Name="icon" Stretch="None" Fill="Gray" Data="m 0,5.8986424 19.243736,0 0,3.498861 -19.243736,0 z M 4.1939273,0 l 0,5.0296128 10.8246017,0 L 15.018529,0 4.1939273,0 z m 0,10.277904 0,13.722096 10.8246017,-7.981777 0,-5.740319 -10.8246017,0 z" />
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="{TemplateBinding Content}"/>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="body" Property="Background" Value="#007acc" />
+                            <Setter TargetName="icon" Property="Fill" Value="White" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="White" />
+                <Setter Property="Background" Value="White" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
 
 </ResourceDictionary>
