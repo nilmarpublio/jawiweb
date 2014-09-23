@@ -134,4 +134,35 @@ namespace NisanWPF
             throw new NotImplementedException();
         }
     }
+
+    /// <summary>
+    /// Convert to represented stock color.
+    /// </summary>
+    public class StockColorConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            if (value == null) return Brushes.Black;
+            if (value is string)
+            {
+                if (value.ToString().ToLower().Contains("hijau"))
+                    return Brushes.LightGreen;
+                else if (value.ToString().ToLower().Contains("batik"))
+                    return Brushes.Blue;
+                else if (value.ToString().ToLower().Contains("putih"))
+                    return Brushes.LightGray;
+                else if (value.ToString().ToLower().Contains("marble"))
+                    return Brushes.LightGray;
+                else
+                    return Brushes.Black;
+            }
+
+            throw new ArgumentException("Not supported type of " + value.GetType());
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

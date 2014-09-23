@@ -10,28 +10,6 @@ namespace NisanWPF.BusinessLogic
     public partial class nisanOrder
     {
         /// <summary>
-        /// Gets represented stock color.
-        /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public System.Windows.Media.Brush stockColor
-        {
-            get
-            {
-                if (this.item == null) return Brushes.Black;
-                if (this.item.ToLower().Contains("hijau"))
-                    return Brushes.LightGreen;
-                else if (this.item.ToLower().Contains("batik"))
-                    return Brushes.Blue;
-                else if (this.item.ToLower().Contains("putih"))
-                    return Brushes.LightGray;
-                else if (this.item.ToLower().Contains("marble"))
-                    return Brushes.LightGray;
-                else
-                    return Brushes.Black;
-            }
-        }
-
-        /// <summary>
         /// Gets total days since accepted order.
         /// </summary>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
