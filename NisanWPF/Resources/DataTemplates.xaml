@@ -6,7 +6,7 @@
             <WrapPanel DockPanel.Dock="Left" Margin="2">
                 <TextBox Text="{Binding soldto,Converter={StaticResource SoldToAbbrevConverter},UpdateSourceTrigger=PropertyChanged}"
                         Background="{Binding soldto,Converter={StaticResource SoldToColorConverter},UpdateSourceTrigger=PropertyChanged}"
-                        Style="{StaticResource SoldtoTextBoxStyle}" />
+                        Style="{StaticResource SoldtoTextBoxStyle}" TabIndex="1" />
             </WrapPanel>
             <Grid>
                 <Grid.RowDefinitions>
@@ -19,21 +19,23 @@
                         <TextBlock Text="{Binding aging}" Style="{StaticResource AgingStyle}" />
                         <TextBlock Text=" days ago" Style="{StaticResource AgingStyle}" />
                         <TextBlock FontFamily="iconFont" Text="" Margin="0 0 2 0" Visibility="{Binding hasDeliver,Converter={StaticResource VisibilityConverter}, UpdateSourceTrigger=PropertyChanged}" />
-                        <CheckBox IsChecked="{Binding hasCut}"  Style="{StaticResource KnifeStyle}" />
+                        <CheckBox IsChecked="{Binding hasCut,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource KnifeStyle}" />
                     </WrapPanel>
                     <TextBox Text="{Binding item}"
-                             Foreground="{Binding item,Converter={StaticResource StockColorConverter},UpdateSourceTrigger=PropertyChanged}"
-                             Style="{StaticResource StockTextBoxStyle}"/>
+                             Foreground="{Binding item,Converter={StaticResource StockColorConverter},UpdateSourceTrigger=LostFocus}"
+                             Style="{StaticResource StockTextBoxStyle}" TabIndex="2"/>
                 </DockPanel>
                 <DockPanel Grid.Row="1">
-                    <TextBox DockPanel.Dock="Right" Text="{Binding jawi}" />
-                    <TextBox Text="{Binding name,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}" />
+                    <TextBox DockPanel.Dock="Right" Text="{Binding jawi}" TabIndex="4" />
+                    <TextBox Text="{Binding name,ValidatesOnDataErrors=True,UpdateSourceTrigger=LostFocus}" TabIndex="3" />
                 </DockPanel>
                 <DockPanel Grid.Row="2" Margin="0 0 0 4">
-                    <TextBox DockPanel.Dock="Right" Text="{Binding deathm}" />
+                    <TextBox DockPanel.Dock="Right" Text="{Binding deathm}" TabIndex="8" />
                     <WrapPanel>
-                        <TextBox Text="{Binding born}" />
-                        <TextBox Text="{Binding death,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox Text="{Binding born}" TabIndex="5" />
+                        <TextBox Text="{Binding death,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}" TabIndex="6" />
+                        <TextBlock Text="age " />
+                        <TextBox Text="{Binding age,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}" TabIndex="7" />
                     </WrapPanel>
                 </DockPanel>
             </Grid>

@@ -76,6 +76,8 @@ namespace NisanWPF.BusinessLogic
         {
             nisanOrder order = new nisanOrder();
             order.date = DateTime.Today.ToString("yyyy-MM-dd");
+            order.delivered = "";
+            order.price = 0m;
             this.itemsField.Add(order);
             this.Orders.Add(order);
         }
