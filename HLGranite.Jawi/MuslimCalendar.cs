@@ -23,6 +23,15 @@ namespace HLGranite.Jawi
             DataSource = table;
             GetDate(DateTime.Now);
         }
+        /// <summary>
+        /// Provide calendar source file name constructor.
+        /// </summary>
+        /// <param name="fileName"></param>
+        public MuslimCalendar(string fileName)
+        {
+            DataSource = ReadXml(fileName);
+            GetDate(DateTime.Now);
+        }
 
         #region Properties
         private int year;
@@ -70,6 +79,27 @@ namespace HLGranite.Jawi
         #endregion
 
         #region Methods
+        private DataTable ReadXml(string fileName)
+        {
+            DataTable table = new DataTable();
+            DataSet dataset = new DataSet();
+
+            try
+            {
+                if (System.IO.File.Exists(fileName))
+                    dataset.ReadXml(fileName);
+                if (dataset.Tables.Count > 0)
+                    table = dataset.Tables[0].Copy();
+
+                return table;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine(ex);
+                return table;
+            }
+            finally { dataset.Dispose(); }
+        }
         /// <summary>
         /// Convert Gregorian month to islamic month in english spelling.
         /// </summary>

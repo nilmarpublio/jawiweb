@@ -31,30 +31,7 @@ namespace NisanWPF.BusinessLogic
             this.Purchases = new ObservableCollection<nisanPurchase>();
             this.createOrderCommand = new CreateOrderCommand(this);
             this.removeOrderCommand = new RemoveOrderCommand(this);
-            Calendar = new MuslimCalendar(ReadXml("muslimcal.xml"));
-        }
-
-        // TODO: Create a new constructor for MuslimCalendar to direct read xml.
-        private DataTable ReadXml(string fileName)
-        {
-            DataTable table = new DataTable();
-            DataSet dataset = new DataSet();
-
-            try
-            {
-                if (System.IO.File.Exists(fileName))
-                    dataset.ReadXml(fileName);
-                if (dataset.Tables.Count > 0)
-                    table = dataset.Tables[0].Copy();
-
-                return table;
-            }
-            catch (Exception ex)
-            {
-                System.Diagnostics.Debug.WriteLine(ex);
-                return table;
-            }
-            finally { dataset.Dispose(); }
+            Calendar = new MuslimCalendar("muslimcal.xml");
         }
         
         public static void Initialize(nisan nisan)
