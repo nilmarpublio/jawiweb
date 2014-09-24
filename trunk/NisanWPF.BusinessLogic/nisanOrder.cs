@@ -109,7 +109,6 @@ namespace NisanWPF.BusinessLogic
             // Translate word by word
             string output = string.Empty;
             JawiLookup localTranslator = new JawiLookup();
-            // TODO: Handle no internet access
             JawiTranslator webTranslator = new JawiTranslator();
             string[] words = this.nameField.Split(new char[] { ' ' });
             foreach (string word in words)
@@ -169,7 +168,7 @@ namespace NisanWPF.BusinessLogic
 
                 if ("age" == columnName)
                 {
-                    if (this.age != null)
+                    if (!string.IsNullOrEmpty(this.age))
                     {
                         if (Convert.ToDecimal(this.age) > 130)
                         {
