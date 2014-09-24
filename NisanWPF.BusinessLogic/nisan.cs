@@ -26,6 +26,9 @@ namespace NisanWPF.BusinessLogic
                 return this.ordersView;
             }
         }
+
+        private FilterPendingOrderCommand filterPendingOrderCommand;
+        public FilterPendingOrderCommand FilterPendingOrderCommand { get { return this.filterPendingOrderCommand; } }
         public void FilterPendingOrder()
         {
             System.Diagnostics.Debug.WriteLine("FilterPendingOrder");
@@ -36,6 +39,9 @@ namespace NisanWPF.BusinessLogic
             this.OnPropertyChanged("totalSales");
             this.OnPropertyChanged("totalFound");
         }
+
+        private ResetFilterCommand resetFilterCommand;
+        public ResetFilterCommand ResetFilterCommand { get { return this.resetFilterCommand; } }
         public void ResetFilter()
         {
             System.Diagnostics.Debug.WriteLine("ResetFilter");
@@ -92,6 +98,8 @@ namespace NisanWPF.BusinessLogic
             this.Purchases = new ObservableCollection<nisanPurchase>();
             this.createOrderCommand = new CreateOrderCommand(this);
             this.removeOrderCommand = new RemoveOrderCommand(this);
+            this.resetFilterCommand = new ResetFilterCommand(this);
+            this.filterPendingOrderCommand = new FilterPendingOrderCommand(this);
             Calendar = new MuslimCalendar("muslimcal.xml");
         }
         
@@ -176,6 +184,65 @@ namespace NisanWPF.BusinessLogic
 
         private nisan manager;
         public RemoveOrderCommand(nisan nisan)
+        {
+            this.manager = nisan;
+        }
+    }
+
+    public class FilterPendingOrderCommand : ICommand
+    {
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public event EventHandler CanExecuteChanged;
+
+        public void Execute(object parameter)
+        {
+            if (parameter is bool)
+            {
+                if (Convert.ToBoolean(parameter) == true)
+                {
+                    manager.FilterPendingOrder();
+                }
+            }
+            
+        }
+        private nisan manager;
+        public FilterPendingOrderCommand(nisan nisan)
+        {
+            this.manager = nisan;
+        }
+    }
+
+    public class ResetFilterCommand : ICommand
+    {
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public event EventHandler CanExecuteChanged;
+
+        public void Execute(object parameter)
+        {
+            // bind to checkbox use
+            if (parameter is bool)
+            {
+                if (Convert.ToBoolean(parameter) == true)
+                {
+                    manager.ResetFilter();
+                }
+
+                return;
+            }
+
+            // bind to button use
+            manager.ResetFilter();
+        }
+        private nisan manager;
+        public ResetFilterCommand(nisan nisan)
         {
             this.manager = nisan;
         }

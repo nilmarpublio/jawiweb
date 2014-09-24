@@ -16,9 +16,12 @@
         <DockPanel Grid.Column="0" LastChildFill="True">
             <DockPanel DockPanel.Dock="Left" LastChildFill="True">
                 <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
-                    <Button ToolTip="Reset" Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button ToolTip="Reset" Command="{Binding ResetFilterCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
                 </StackPanel>
-                <DockPanel />
+                <StackPanel Margin="10,0,10,0">
+                    <CheckBox Content="Pending" Command="{Binding FilterPendingOrderCommand}" CommandParameter="{Binding RelativeSource={RelativeSource Self},Path=IsChecked}" />
+                    <CheckBox Content="All"  Command="{Binding ResetFilterCommand}" CommandParameter="{Binding RelativeSource={RelativeSource Self},Path=IsChecked}" />
+                </StackPanel>
             </DockPanel>
             <DockPanel>
                 <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
