@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Media;
 
+using HLGranite.Jawi;
+
 namespace NisanWPF.BusinessLogic
 {
     public partial class nisanOrder : IDataErrorInfo
@@ -98,6 +100,32 @@ namespace NisanWPF.BusinessLogic
 
             this.OnPropertyChanged("price");
         }
+
+        /// <summary>
+        /// Automate convert to jawi when provide rumi name.
+        /// </summary>
+        private void ConvertToJawi()
+        {
+            // Translate word by word
+            string output = string.Empty;
+            JawiLookup localTranslator = new JawiLookup();
+            // TODO: Handle no internet access
+            JawiTranslator webTranslator = new JawiTranslator();
+            string[] words = this.nameField.Split(new char[] { ' ' });
+            foreach (string word in words)
+            {
+                string jawi = localTranslator.Lookup(word);
+                if (string.IsNullOrEmpty(jawi))
+                    jawi = webTranslator.Translate(this.nameField);
+
+                if (output.Length > 0) output += " ";
+                output += jawi;
+            }
+
+            this.jawiField = output;
+            this.OnPropertyChanged("jawi");
+        }
+
         /// <summary>
         /// Convert Gregorian date value to Muslim date.
         /// </summary>

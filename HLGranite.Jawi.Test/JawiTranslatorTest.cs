@@ -15,11 +15,23 @@ namespace HLGranite.Jawi.Test
         ///A test for Translate
         ///</summary>
         [Test]
-        public void TranslateTest()
+        public void TranslatePagiTest()
         {
             JawiTranslator target = new JawiTranslator();
             string rumi = "pagi";
             string expected = "ڤاݢي";
+            string actual = target.Translate(rumi);
+            Assert.AreEqual(expected, actual);
+        }
+        /// <summary>
+        ///A test for Translate
+        ///</summary>
+        [Test]
+        public void TranslateMohdTest()
+        {
+            JawiTranslator target = new JawiTranslator();
+            string rumi = "mohd";
+            string expected = "محمد";
             string actual = target.Translate(rumi);
             Assert.AreEqual(expected, actual);
         }

@@ -51,6 +51,7 @@ namespace NisanWPF.BusinessLogic
         public CreateOrderCommand CreateOrderCommand { get { return this.createOrderCommand; } }
         public void CreateOrder()
         {
+            // TODO: Use last nisanOrder stock object. Mostly new orders are in same stock bulk to a customer.
             nisanOrder order = new nisanOrder();
             order.soldto = "";
             order.item = "";
