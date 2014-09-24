@@ -40,6 +40,9 @@
                     </WrapPanel>
                 </DockPanel>
                 <ListView x:Name="listView" ItemsSource="{Binding Orders}" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                    <ListView.InputBindings>
+                        <KeyBinding Key="Delete" Command="{Binding RemoveOrderCommand}" CommandParameter="{Binding Path=SelectedItem,ElementName=listView}" />
+                    </ListView.InputBindings>
                     <ListView.ItemContainerStyle>
                         <Style TargetType="ListViewItem">
                             <Setter Property="HorizontalContentAlignment" Value="Stretch" />
