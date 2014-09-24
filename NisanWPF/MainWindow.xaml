@@ -12,7 +12,7 @@
         <DockPanel Grid.Column="0" LastChildFill="True">
             <DockPanel DockPanel.Dock="Left" LastChildFill="True">
                 <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
-                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button ToolTip="Reset" Content="" Style="{StaticResource MetroButtonStyle}" />
                 </StackPanel>
                 <DockPanel />
             </DockPanel>

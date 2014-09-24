@@ -70,19 +70,6 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
-        /// <summary>
-        /// Convert Gregorian date value to Muslim date.
-        /// </summary>
-        private void ConvertToMuslimDate()
-        {
-            int year = Convert.ToInt16(this.deathField.Substring(0, 4));
-            int month = Convert.ToInt16(this.deathField.Substring(5, 2));
-            int day = Convert.ToInt16(this.deathField.Substring(8, 2));
-            DateTime date = new DateTime(year, month, day);
-            nisan.Calendar.GetDate(date);
-            this.deathmField = nisan.Calendar.Value.ToString("yyyy-MM-dd");
-            this.OnPropertyChanged("deathm");
-        }
         private bool ValidateStock()
         {
             System.Diagnostics.Debug.WriteLine("ValidateStock");
@@ -110,6 +97,20 @@ namespace NisanWPF.BusinessLogic
             if (this.itemField.ToLower().Contains("hijau")) this.priceField = 350;
 
             this.OnPropertyChanged("price");
+        }
+        /// <summary>
+        /// Convert Gregorian date value to Muslim date.
+        /// </summary>
+        private void ConvertToMuslimDate()
+        {
+            System.Diagnostics.Debug.WriteLine("ConvertToMuslimDate");
+            int year = Convert.ToInt16(this.deathField.Substring(0, 4));
+            int month = Convert.ToInt16(this.deathField.Substring(5, 2));
+            int day = Convert.ToInt16(this.deathField.Substring(8, 2));
+            DateTime date = new DateTime(year, month, day);
+            nisan.Calendar.GetDate(date);
+            this.deathmField = nisan.Calendar.Value.ToString("yyyy-MM-dd");
+            this.OnPropertyChanged("deathm");
         }
 
         #region IDataErrorInfo members

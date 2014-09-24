@@ -21,8 +21,8 @@
                         <TextBlock FontFamily="iconFont" Text="" Margin="0 0 2 0" Visibility="{Binding hasDeliver,Converter={StaticResource VisibilityConverter}, UpdateSourceTrigger=PropertyChanged}" />
                         <CheckBox IsChecked="{Binding hasCut,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource KnifeStyle}" />
                     </WrapPanel>
-                    <TextBox Text="{Binding item}"
-                             Foreground="{Binding item,Converter={StaticResource StockColorConverter},UpdateSourceTrigger=LostFocus}"
+                    <TextBox Text="{Binding item,ValidatesOnDataErrors=True,UpdateSourceTrigger=LostFocus}"
+                             Foreground="{Binding item,Converter={StaticResource StockColorConverter},UpdateSourceTrigger=PropertyChanged}"
                              Style="{StaticResource StockTextBoxStyle}" TabIndex="2"/>
                 </DockPanel>
                 <DockPanel Grid.Row="1">
