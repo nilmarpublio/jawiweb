@@ -36,11 +36,13 @@
                         <TextBlock Text="{Binding totalSales}" />
                     </WrapPanel>
                     <WrapPanel>
-                        <TextBlock Text="{Binding Orders.Count}" />
+                        <!--<TextBlock Text="{Binding Orders.Count}" />-->
+                        <TextBlock Text="{Binding totalFound}" />
                         <TextBlock Text=" items found" />
                     </WrapPanel>
                 </DockPanel>
-                <ListView x:Name="listView" ItemsSource="{Binding Orders}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderThickness="0">
+                <ListView x:Name="listView" ItemsSource="{Binding OrdersView}" IsSynchronizedWithCurrentItem="True"
+                          ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderThickness="0">
                     <ListView.InputBindings>
                         <KeyBinding Key="Delete" Command="{Binding RemoveOrderCommand}" CommandParameter="{Binding Path=SelectedItem,ElementName=listView}" />
                     </ListView.InputBindings>

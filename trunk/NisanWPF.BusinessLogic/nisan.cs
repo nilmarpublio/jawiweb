@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Data;
 using System.Linq;
 using System.Text;
+using System.Windows.Data;
 using System.Windows.Input;
 using HLGranite.Jawi;
 
@@ -15,10 +17,69 @@ namespace NisanWPF.BusinessLogic
 
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public ObservableCollection<nisanOrder> Orders { get; set; }
+        private ICollectionView ordersView;
+        public ICollectionView OrdersView
+        {
+            get
+            {
+                this.ordersView = CollectionViewSource.GetDefaultView(this.Orders);
+                return this.ordersView;
+            }
+        }
+        public void FilterPendingOrder()
+        {
+            System.Diagnostics.Debug.WriteLine("FilterPendingOrder");
+            this.ordersView.Filter = item =>
+                {
+                    return string.IsNullOrEmpty((item as nisanOrder).delivered);
+                };
+            this.OnPropertyChanged("totalSales");
+            this.OnPropertyChanged("totalFound");
+        }
+        public void ResetFilter()
+        {
+            System.Diagnostics.Debug.WriteLine("ResetFilter");
+            // didn't work
+            //this.ordersView.Refresh();
+            this.ordersView.Filter = item => { return true; };
+            this.OnPropertyChanged("totalSales");
+            this.OnPropertyChanged("totalFound");
+        }
+
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public ObservableCollection<nisanInvoice> Invoices { get; set; }
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public ObservableCollection<nisanPurchase> Purchases { get; set; }
+
+        /// <summary>
+        /// Gets total amount of nisan orders.
+        /// </summary>
+        [System.Xml.Serialization.XmlIgnore()]
+        public decimal totalSales
+        {
+            get
+            {
+                if (this.ordersView == null)
+                    return this.Orders.Sum(o => o.price);
+                else
+                    return this.ordersView.Cast<nisanOrder>().Sum(o => o.price);
+            }
+        }
+
+        /// <summary>
+        /// Get total found based on filter peformed.
+        /// </summary>
+        [System.Xml.Serialization.XmlIgnore()]
+        public int totalFound
+        {
+            get
+            {
+                if (this.ordersView == null)
+                    return this.Orders.Count;
+                else
+                    return this.ordersView.Cast<nisanOrder>().Count();
+            }
+        }
 
         /// <summary>
         /// nisan class constructor
@@ -73,14 +134,10 @@ namespace NisanWPF.BusinessLogic
         }
 
         /// <summary>
-        /// Gets total amount of nisan orders.
+        /// TODO: Commit nisan.xml to svn repo.
         /// </summary>
-        public decimal totalSales
+        public void Commit()
         {
-            get
-            {
-                return this.Orders.Sum(o => o.price);
-            }
         }
     }
 
@@ -123,4 +180,5 @@ namespace NisanWPF.BusinessLogic
             this.manager = nisan;
         }
     }
+
 }
