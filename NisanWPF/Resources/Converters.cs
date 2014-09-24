@@ -66,6 +66,7 @@ namespace NisanWPF
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             if (value == null) return "";
+            if (value == "") return "";
             if (value is string)
             {
                 switch (value.ToString())
