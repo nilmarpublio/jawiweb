@@ -24,6 +24,8 @@
     <Style x:Key="MetroWindowButtonStyle" TargetType="{x:Type Button}">
         <Setter Property="Foreground" Value="Gray"/>
         <Setter Property="FontSize" Value="12" />
+        <Setter Property="Height" Value="24" />
+        <Setter Property="Width" Value="24" />
         <Setter Property="FontFamily" Value="iconFont" />
         <Setter Property="Template">
             <Setter.Value>

@@ -22,6 +22,8 @@
                             </Grid.RowDefinitions>
                             <StackPanel Background="Transparent" MouseLeftButtonDown="TitleBar_MouseLeftButtonDown">
                                 <WrapPanel HorizontalAlignment="Right">
+                                    <Button Content="" Style="{StaticResource MetroButtonStyle}" />
+                                    <TextBox Height="24" Width="150" />
                                     <Button Content="_" Style="{StaticResource MetroWindowButtonStyle}" Click="MinimizeButton_Click" />
                                     <Button Content="" Style="{StaticResource MetroWindowButtonStyle}" Click="MaximizeButton_Click" />
                                     <Button Content="" Style="{StaticResource MetroWindowCloseStyle}" Click="CloseButton_Click" />
