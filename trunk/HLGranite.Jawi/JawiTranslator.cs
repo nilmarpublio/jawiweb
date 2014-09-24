@@ -16,6 +16,9 @@ namespace HLGranite.Jawi
         /// <summary>
         /// Default constructor.
         /// </summary>
+        /// <remarks>
+        /// TODO: Lookup Google translate.
+        /// </remarks>
         public JawiTranslator()
         {
         }

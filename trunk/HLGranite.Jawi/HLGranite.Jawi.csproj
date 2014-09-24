@@ -63,6 +63,7 @@
     <Compile Include="ArabicCharacterCollection.cs" />
     <Compile Include="CharacterCollection.cs" />
     <Compile Include="Counter.cs" />
+    <Compile Include="JawiLookup.cs" />
     <Compile Include="JawiTranslator.cs" />
     <Compile Include="MuslimCalendar.cs" />
     <Compile Include="NisanWriter.cs" />
