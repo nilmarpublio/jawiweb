@@ -1,6 +1,7 @@
 ﻿<Window x:Class="NisanWPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Style="{StaticResource BorderlessWindow}"
         WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="600" Width="800" Closing="Window_Closing">
     <Window.InputBindings>
