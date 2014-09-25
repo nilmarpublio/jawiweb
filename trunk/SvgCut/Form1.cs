@@ -18,6 +18,10 @@ namespace SvgCut
     /// Dependency: Exceute Uniconvertor command.
     /// see http://sk1project.org/modules.php?name=products&product=uniconvertor
     /// </summary>
+	/// <remarks>
+	/// TODO: Add flow control: Hardware, XOn/XOff, None.
+	/// TODO: Add hardwires: DTR, DSR, RTS, CTS, DCD.
+	/// </remarks>
     public partial class Form1 : Form
     {
         private SerialPort port;
@@ -38,6 +42,7 @@ namespace SvgCut
             this.Text += " v" + Assembly.GetEntryAssembly().GetName().Version;
 
             // define available ports in this computer
+			// TODO: Failed to retrieve USB to serial virtual ports.
             foreach (string p in SerialPort.GetPortNames())
                 comboBox1.Items.Add(p);
 
