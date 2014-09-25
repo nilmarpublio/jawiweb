@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Windows.Data;
@@ -122,6 +123,7 @@ namespace NisanWPF.BusinessLogic
             this.Purchases = new ObservableCollection<nisanPurchase>();
             this.createOrderCommand = new CreateOrderCommand(this);
             this.removeOrderCommand = new RemoveOrderCommand(this);
+            this.generateSvgCommand = new GenerateSvgCommand(this);
             this.resetFilterCommand = new ResetFilterCommand(this);
             this.filterPendingOrderCommand = new FilterPendingOrderCommand(this);
             this.filterNameCommand = new FilterNameCommand(this);
@@ -166,6 +168,154 @@ namespace NisanWPF.BusinessLogic
             this.Orders.Remove(order);
         }
 
+        private GenerateSvgCommand generateSvgCommand;
+        public GenerateSvgCommand GenerateSvgCommand { get { return this.generateSvgCommand; } }
+        public void GenerateSvg(nisanOrder order)
+        {
+            System.Diagnostics.Debug.WriteLine("Generating svg for " + order.name);
+
+            // check file exist if not only write
+            string file = "Output" + System.IO.Path.DirectorySeparatorChar + order.name + ".svg";
+            if (System.IO.File.Exists(file))
+            {
+                string appPath = "\"C:\\Program Files (x86)\\Inkscape\\inkscape\"";
+                Process process = new Process();
+                ProcessStartInfo startInfo = new ProcessStartInfo();
+                startInfo.WindowStyle = ProcessWindowStyle.Hidden;
+                startInfo.FileName = appPath;
+                startInfo.Arguments = "\"" + file + "\"";
+                process.StartInfo = startInfo;
+                process.Start();
+                System.Diagnostics.Debug.WriteLine(appPath + " " + startInfo.Arguments);
+            }
+            else
+            {
+                string template = GetSvgTemplate(order.item);
+                HLGranite.Jawi.nisanOrder jOrder = CloneOrder(order);
+                SvgWriter writer = new SvgWriter(jOrder, template);
+                writer.Write();
+            }
+        }
+        private string GetSvgTemplate(string item)
+        {
+            string template = string.Empty;
+            switch (item)
+            {
+                case "PV":
+                    template = "tile_arabic.svg";
+                    break;
+                case "PV Budak":
+                    template = "tile_arabic_budak.svg";
+                    break;
+                case "PV Egg":
+                    template = "title_arabic_egg.svg";
+                    break;
+                case "BA":
+                case "PA":
+                    template = "tile_andalus.svg";
+                    break;
+
+                case "1½' Batu Batik(L)":
+                case "1½' Batu Putih(L)":
+                case "1½' Batu Hijau(L)":
+                case "1½' Batu Hitam(L)":
+                    template = "nisan_15L.svg";
+                    break;
+                case "1½' Batu Batik(P)":
+                case "1½' Batu Putih(P)":
+                case "1½' Batu Hijau(P)":
+                case "1½' Batu Hitam(P)":
+                    template = "nisan_15P.svg";
+                    break;
+                case "2' Batu Batik(L)":
+                case "2' Batu Putih(L)":
+                case "2' Batu Hijau(L)":
+                case "2' Batu Hitam(L)":
+                    template = "nisan_20L.svg";
+                    break;
+                case "2' Batu Batik(P)":
+                case "2' Batu Putih(P)":
+                case "2' Batu Hijau(P)":
+                case "2' Batu Hitam(P)":
+                    template = "nisan_20P.svg";
+                    break;
+                case "2½' Batu Batik(L)":
+                case "2½' Batu Putih(L)":
+                case "2½' Batu Hijau(L)":
+                case "2½' Batu Hitam(L)":
+                    template = "nisan_25L.svg";
+                    break;
+                case "2½' Batu Batik(P)":
+                case "2½' Batu Putih(P)":
+                case "2½' Batu Hijau(P)":
+                case "2½' Batu Hitam(P)":
+                    template = "nisan_25P.svg";
+                    break;
+
+                case "1½' Sticker(L)":
+                    template = "sticker_15L.svg";
+                    break;
+                case "1½' Sticker(P)":
+                    template = "sticker_15P.svg";
+                    break;
+                case "2' Sticker(L)":
+                    template = "sticker_20L.svg";
+                    break;
+                case "2' Sticker(P)":
+                    template = "sticker_20P.svg";
+                    break;
+                case "2½' Sticker(L)":
+                    template = "sticker_25L.svg";
+                    break;
+                case "2½' Sticker(P)":
+                    template = "sticker_25P.svg";
+                    break;
+
+                case "2' Tarazo(L)":
+                    template = "tarazo_20L.svg";
+                    break;
+                case "2' Tarazo(P)":
+                    template = "tarazo_20P.svg";
+                    break;
+
+                default:
+                    template = "nisan_20L.svg";
+                    break;
+            }
+            return template;
+        }
+        /// <summary>
+        /// Clone nisanOrder to HLGranite.Jawi.nisanOrder.
+        /// </summary>
+        /// <remarks>
+        /// TODO: Actually two classes are identical. Plan to unify these two.
+        /// </remarks>
+        /// <param name="source"></param>
+        /// <returns></returns>
+        private HLGranite.Jawi.nisanOrder CloneOrder(NisanWPF.BusinessLogic.nisanOrder source)
+        {
+            HLGranite.Jawi.nisanOrder target = new HLGranite.Jawi.nisanOrder();
+
+            target.item = source.item;
+            target.remarks = source.remarks;
+            target.tags = source.tags;
+
+            target.soldto = source.soldto;
+            target.date = source.date;
+            target.delivered = source.delivered;
+            target.bill = source.bill;
+            target.price = source.price;
+
+            target.name = source.name;
+            target.jawi = source.jawi;
+            target.born = source.born;
+            target.bornm = source.bornm;
+            target.death = source.death;
+            target.deathm = source.deathm;
+            target.age = source.age;
+
+            return target;
+        }
         /// <summary>
         /// TODO: Commit nisan.xml to svn repo.
         /// </summary>
@@ -218,6 +368,35 @@ namespace NisanWPF.BusinessLogic
 
         private nisan manager;
         public RemoveOrderCommand(nisan nisan)
+        {
+            this.manager = nisan;
+        }
+    }
+
+    public class GenerateSvgCommand : ICommand
+    {
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public event EventHandler CanExecuteChanged;
+        public void Execute(object parameter)
+        {
+            if (parameter is nisanOrder)
+                this.manager.GenerateSvg((nisanOrder)parameter);
+            else if (parameter is ObservableCollection<object>)
+            {
+                for (int i = (parameter as ObservableCollection<object>).Count - 1; i >= 0; i--)
+                {
+                    nisanOrder order = (parameter as ObservableCollection<object>)[i] as nisanOrder;
+                    this.manager.GenerateSvg(order);
+                }
+            }
+        }
+
+        private nisan manager;
+        public GenerateSvgCommand(nisan nisan)
         {
             this.manager = nisan;
         }
