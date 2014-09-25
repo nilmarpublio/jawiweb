@@ -8,7 +8,7 @@
                         Background="{Binding soldto,Converter={StaticResource SoldToColorConverter},UpdateSourceTrigger=PropertyChanged}"
                         Style="{StaticResource SoldtoTextBoxStyle}" TabIndex="1" />
             </WrapPanel>
-            <Grid>
+            <Grid Opacity="{Binding hasCut,Converter={StaticResource FadeOffConverter},UpdateSourceTrigger=PropertyChanged}">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />

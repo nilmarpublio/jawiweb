@@ -3,6 +3,7 @@
                     xmlns:w="clr-namespace:NisanWPF">    
     <w:VisibilityConverter x:Key="VisibilityConverter" />
     <w:InvisibilityConverter x:Key="InvisibilityConverter" />
+    <w:FadeOffConverter x:Key="FadeOffConverter" />
     <w:SoldToAbbrevConverter x:Key="SoldToAbbrevConverter" />
     <w:SoldToColorConverter x:Key="SoldToColorConverter" />
     <w:StockColorConverter x:Key="StockColorConverter" />

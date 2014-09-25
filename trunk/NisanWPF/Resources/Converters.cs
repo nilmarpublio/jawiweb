@@ -54,6 +54,7 @@ namespace NisanWPF
         }
         #endregion
     }
+
     /// <summary>
     /// If true then invisible otherwise visible.
     /// </summary>
@@ -93,6 +94,53 @@ namespace NisanWPF
             else if (value == null)
             {
                 return Visibility.Collapsed;
+            }
+
+            throw new ArgumentException("Not supported type of " + value.GetType());
+        }
+        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+        #endregion
+    }
+
+    /// <summary>
+    /// Fade off background if true otherwise do nothing.
+    /// </summary>
+    public class FadeOffConverter : IValueConverter
+    {
+        #region IValueConverter Members
+        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            if (value is bool)
+            {
+                return (bool)value ? 0.5d : 1d;
+            }
+            else if (value is Boolean)
+            {
+                return (Boolean)value ? 0.5d : 1d;
+            }
+            else if (value is int)
+            {
+                return ((int)value) > 0 ? 0.5d : 1d;
+            }
+            else if (value is Int32)
+            {
+                return System.Convert.ToInt32(value) > 0 ? 0.5d : 1d;
+            }
+            else if (value is decimal)
+            {
+                return System.Convert.ToDecimal(value);
+            }
+            else if (value is float)
+            {
+                float money = (float)value;
+                return (money > 0) ? 0.5d : 1d;
+            }
+            else if (value == null)
+            {
+                return 0.5d;
             }
 
             throw new ArgumentException("Not supported type of " + value.GetType());
