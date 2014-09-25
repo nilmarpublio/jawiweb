@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Windows;
@@ -253,6 +254,76 @@ namespace NisanWPF
                     return Brushes.LightGray;
                 else
                     return Brushes.Black;
+            }
+
+            throw new ArgumentException("Not supported type of " + value.GetType());
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    /// <summary>
+    /// Convert to local display format.
+    /// </summary>
+    public class LocalizationConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            if (value is int)
+            {
+                return System.Convert.ToInt32(value).ToString("###,###,###,###");
+            }
+            else if (value is Int16)
+            {
+                return System.Convert.ToInt16(value).ToString("###,###,###,###");
+            }
+            else if (value is Int32)
+            {
+                return System.Convert.ToInt32(value).ToString("###,###,###,###");
+            }
+            else if (value is decimal)
+            {
+                return System.Convert.ToDecimal(value).ToString("###,###,###,##0.00");
+            }
+            else
+                return value.ToString();
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    /// <summary>
+    /// Convert to display value with local currency.
+    /// </summary>
+    public class LocalCurrencyConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            if (value is int)
+            {
+                return CultureInfo.CurrentCulture.NumberFormat.CurrencySymbol + System.Convert.ToInt32(value).ToString("###,###,###,###");
+            }
+            else if (value is Int16)
+            {
+                return CultureInfo.CurrentCulture.NumberFormat.CurrencySymbol + System.Convert.ToInt16(value).ToString("###,###,###,###");
+            }
+            else if (value is Int32)
+            {
+                return CultureInfo.CurrentCulture.NumberFormat.CurrencySymbol + System.Convert.ToInt32(value).ToString("###,###,###,###");
+            }
+            else if (value is decimal)
+            {
+                return CultureInfo.CurrentCulture.NumberFormat.CurrencySymbol + System.Convert.ToDecimal(value).ToString("###,###,###,##0.00");
+            }
+            else if (value is double)
+            {
+                return CultureInfo.CurrentCulture.NumberFormat.CurrencySymbol + System.Convert.ToDouble(value).ToString("###,###,###,##0.00");
             }
 
             throw new ArgumentException("Not supported type of " + value.GetType());

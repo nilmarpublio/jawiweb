@@ -7,6 +7,8 @@
     <w:SoldToAbbrevConverter x:Key="SoldToAbbrevConverter" />
     <w:SoldToColorConverter x:Key="SoldToColorConverter" />
     <w:StockColorConverter x:Key="StockColorConverter" />
+    <w:LocalizationConverter x:Key="LocalizationConverter" />
+    <w:LocalCurrencyConverter x:Key="LocalCurrencyConverter" />
     <SolidColorBrush x:Key="DefaultColor" Color="#58595b" />
 
     <!-- Global behavior -->

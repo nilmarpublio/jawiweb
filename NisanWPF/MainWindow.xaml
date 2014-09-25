@@ -36,10 +36,10 @@
                 <DockPanel DockPanel.Dock="Bottom">
                     <WrapPanel DockPanel.Dock="Right">
                         <TextBlock Text="Total " />
-                        <TextBlock Text="{Binding totalSales}" />
+                        <TextBlock Text="{Binding totalSales,Converter={StaticResource LocalCurrencyConverter},UpdateSourceTrigger=PropertyChanged}" />
                     </WrapPanel>
                     <WrapPanel>
-                        <TextBlock Text="{Binding totalFound}" />
+                        <TextBlock Text="{Binding totalFound,Converter={StaticResource LocalizationConverter},UpdateSourceTrigger=PropertyChanged}" />
                         <TextBlock Text=" items found" />
                     </WrapPanel>
                 </DockPanel>
