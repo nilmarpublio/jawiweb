@@ -28,7 +28,7 @@
                     <Button ToolTip="Add" Command="{Binding CreateOrderCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button ToolTip="Delete" Command="{Binding RemoveOrderCommand}" CommandParameter="{Binding Path=SelectedItems,ElementName=listView}" Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button ToolTip="Save" Content="" Style="{StaticResource MetroButtonStyle}" />
-                    <Button ToolTip="Generate" Style="{StaticResource InkscapeMetroButton}" />
+                    <Button ToolTip="Generate" Command="{Binding GenerateSvgCommand}" CommandParameter="{Binding Path=SelectedItems,ElementName=listView}" Style="{StaticResource InkscapeMetroButton}" />
                     <Button ToolTip="Cut" Style="{StaticResource KnifeMetroButton}" />
                     <Button ToolTip="Mark done" Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button ToolTip="Print" Content="" Style="{StaticResource MetroButtonStyle}" />
@@ -39,7 +39,6 @@
                         <TextBlock Text="{Binding totalSales}" />
                     </WrapPanel>
                     <WrapPanel>
-                        <!--<TextBlock Text="{Binding Orders.Count}" />-->
                         <TextBlock Text="{Binding totalFound}" />
                         <TextBlock Text=" items found" />
                     </WrapPanel>
