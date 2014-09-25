@@ -15,48 +15,6 @@ namespace NisanWPF.BusinessLogic
     {
         public static MuslimCalendar Calendar;
 
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public ObservableCollection<nisanOrder> Orders { get; set; }
-        private ICollectionView ordersView;
-        public ICollectionView OrdersView
-        {
-            get
-            {
-                this.ordersView = CollectionViewSource.GetDefaultView(this.Orders);
-                return this.ordersView;
-            }
-        }
-
-        private FilterPendingOrderCommand filterPendingOrderCommand;
-        public FilterPendingOrderCommand FilterPendingOrderCommand { get { return this.filterPendingOrderCommand; } }
-        public void FilterPendingOrder()
-        {
-            System.Diagnostics.Debug.WriteLine("FilterPendingOrder");
-            this.ordersView.Filter = item =>
-                {
-                    return string.IsNullOrEmpty((item as nisanOrder).delivered);
-                };
-            this.OnPropertyChanged("totalSales");
-            this.OnPropertyChanged("totalFound");
-        }
-
-        private ResetFilterCommand resetFilterCommand;
-        public ResetFilterCommand ResetFilterCommand { get { return this.resetFilterCommand; } }
-        public void ResetFilter()
-        {
-            System.Diagnostics.Debug.WriteLine("ResetFilter");
-            // didn't work
-            //this.ordersView.Refresh();
-            this.ordersView.Filter = item => { return true; };
-            this.OnPropertyChanged("totalSales");
-            this.OnPropertyChanged("totalFound");
-        }
-
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public ObservableCollection<nisanInvoice> Invoices { get; set; }
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public ObservableCollection<nisanPurchase> Purchases { get; set; }
-
         /// <summary>
         /// Gets total amount of nisan orders.
         /// </summary>
@@ -87,6 +45,72 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public ObservableCollection<nisanOrder> Orders { get; set; }
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public ObservableCollection<nisanInvoice> Invoices { get; set; }
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public ObservableCollection<nisanPurchase> Purchases { get; set; }
+
+        private ICollectionView ordersView;
+        public ICollectionView OrdersView
+        {
+            get
+            {
+                this.ordersView = CollectionViewSource.GetDefaultView(this.Orders);
+                return this.ordersView;
+            }
+        }
+
+        private FilterPendingOrderCommand filterPendingOrderCommand;
+        public FilterPendingOrderCommand FilterPendingOrderCommand { get { return this.filterPendingOrderCommand; } }
+        public void FilterPendingOrder()
+        {
+            System.Diagnostics.Debug.WriteLine("FilterPendingOrder");
+            this.ordersView.Filter = item =>
+                {
+                    return string.IsNullOrEmpty((item as nisanOrder).delivered);
+                };
+            this.OnPropertyChanged("totalSales");
+            this.OnPropertyChanged("totalFound");
+        }
+
+        private FilterNameCommand filterNameCommand;
+        public FilterNameCommand FilterNameCommand { get { return this.filterNameCommand; } }
+        /// <summary>
+        /// Search on nisan name.
+        /// </summary>
+        /// <param name="name"></param>
+        public void FilterName(string name)
+        {
+            System.Diagnostics.Debug.WriteLine("FilterName(" + name + ")");
+            if (string.IsNullOrEmpty(name))
+            {
+                ResetFilter();
+            }
+            else
+            {
+                this.ordersView.Filter = item =>
+                    {
+                        return (item as nisanOrder).name.ToLower().Contains(name);
+                    };
+                this.OnPropertyChanged("totalSales");
+                this.OnPropertyChanged("totalFound");
+            }
+        }
+
+        private ResetFilterCommand resetFilterCommand;
+        public ResetFilterCommand ResetFilterCommand { get { return this.resetFilterCommand; } }
+        public void ResetFilter()
+        {
+            System.Diagnostics.Debug.WriteLine("ResetFilter");
+            // didn't work
+            //this.ordersView.Refresh();
+            this.ordersView.Filter = item => { return true; };
+            this.OnPropertyChanged("totalSales");
+            this.OnPropertyChanged("totalFound");
+        }
+
         /// <summary>
         /// nisan class constructor
         /// </summary>
@@ -100,6 +124,7 @@ namespace NisanWPF.BusinessLogic
             this.removeOrderCommand = new RemoveOrderCommand(this);
             this.resetFilterCommand = new ResetFilterCommand(this);
             this.filterPendingOrderCommand = new FilterPendingOrderCommand(this);
+            this.filterNameCommand = new FilterNameCommand(this);
             Calendar = new MuslimCalendar("muslimcal.xml");
         }
         
@@ -211,6 +236,27 @@ namespace NisanWPF.BusinessLogic
         }
         private nisan manager;
         public FilterPendingOrderCommand(nisan nisan)
+        {
+            this.manager = nisan;
+        }
+    }
+
+    public class FilterNameCommand : ICommand
+    {
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public event EventHandler CanExecuteChanged;
+
+        public void Execute(object parameter)
+        {
+            manager.FilterName(parameter.ToString());
+        }
+
+        private nisan manager;
+        public FilterNameCommand(nisan nisan)
         {
             this.manager = nisan;
         }
