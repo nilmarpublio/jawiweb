@@ -100,6 +100,18 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
+        public void Filtering(Filter filter)
+        {
+            // TODO: Based on filter flag define the filter rules
+            if (filter.IsPending)
+            {
+                FilterPendingOrder();
+            }
+            else
+            {
+            }
+        }
+
         private ResetFilterCommand resetFilterCommand;
         public ResetFilterCommand ResetFilterCommand { get { return this.resetFilterCommand; } }
         public void ResetFilter()
@@ -111,6 +123,9 @@ namespace NisanWPF.BusinessLogic
             this.OnPropertyChanged("totalSales");
             this.OnPropertyChanged("totalFound");
         }
+
+        //private Filter filter;
+        //public Filter Filter { get { return this.filter; } set { this.filter = value; } }
 
         /// <summary>
         /// nisan class constructor
@@ -129,8 +144,8 @@ namespace NisanWPF.BusinessLogic
             this.filterNameCommand = new FilterNameCommand(this);
             Calendar = new MuslimCalendar("muslimcal.xml");
         }
-        
-        public static void Initialize(nisan nisan)
+
+        public void Initialize(nisan nisan)
         {
             foreach (object obj in nisan.Items)
             {
@@ -141,6 +156,7 @@ namespace NisanWPF.BusinessLogic
                 else if (obj is nisanPurchase)
                     nisan.Purchases.Add(obj as nisanPurchase);
             }
+            //this.filter = new Filter(nisan);
         }
 
         private CreateOrderCommand createOrderCommand;
@@ -316,11 +332,26 @@ namespace NisanWPF.BusinessLogic
 
             return target;
         }
+
         /// <summary>
         /// TODO: Commit nisan.xml to svn repo.
         /// </summary>
         public void Commit()
         {
+        }
+
+        /// <summary>
+        /// Gets a list of sold to customer name.
+        /// </summary>
+        /// <returns></returns>
+        public string[] GetSoldToList()
+        {
+            List<string> output = new List<string>();
+            var customers = this.Orders.GroupBy(o => o.soldto).Select(group => group.First()).OrderBy(o => o.soldto);
+            List<nisanOrder> collection = customers.ToList<nisanOrder>();
+            foreach (nisanOrder o in collection)
+                output.Add(o.soldto);
+            return output.ToArray();
         }
     }
 

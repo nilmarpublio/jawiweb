@@ -59,5 +59,27 @@ namespace NisanWPF.BusinessLogic.Test
             Assert.IsTrue(nisan.Orders.Count > 0);
             Assert.IsTrue(nisan.Items.Count >= nisan.Orders.Count);
         }
+
+        [Test]
+        public void GetSoldToListTest()
+        {
+            nisan nisan;
+            nisan.LoadFromFile("nisan.xml", out nisan);
+            nisan.Initialize(nisan);
+
+            int counter = 0;
+            string[] customers = nisan.GetSoldToList();
+            foreach (string customer in customers)
+            {
+                System.Diagnostics.Debug.WriteLine(customer);
+                if (customer == "ADI") counter++;
+                if (customer == "HAM") counter++;
+                if (customer == "SEM") counter++;
+                if (customer == "SEL") counter++;
+                if (customer == "KEN") counter++;
+                if (customer == "PAS") counter++;
+            }
+            Assert.AreEqual(6, counter);
+        }
     }
 }

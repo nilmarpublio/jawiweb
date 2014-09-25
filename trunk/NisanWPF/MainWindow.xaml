@@ -19,8 +19,9 @@
                     <Button ToolTip="Reset" Command="{Binding ResetFilterCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
                 </StackPanel>
                 <StackPanel Margin="10,0,10,0">
-                    <CheckBox Content="Pending" Command="{Binding FilterPendingOrderCommand}" CommandParameter="{Binding Path=IsChecked,RelativeSource={RelativeSource Self}}" />
-                    <CheckBox Content="All"  Command="{Binding ResetFilterCommand}" CommandParameter="{Binding Path=IsChecked,RelativeSource={RelativeSource Self}}" />
+                    <!--<CheckBox Content="Pending" Command="{Binding FilterPendingOrderCommand}" CommandParameter="{Binding Path=IsChecked,RelativeSource={RelativeSource Self}}" />-->
+                    <!--<CheckBox Content="All"  Command="{Binding ResetFilterCommand}" CommandParameter="{Binding Path=IsChecked,RelativeSource={RelativeSource Self}}" />-->
+                    <ItemsControl x:Name="filterList" Margin="-16 0 0 0" />
                 </StackPanel>
             </DockPanel>
             <DockPanel>

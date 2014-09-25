@@ -30,6 +30,7 @@ namespace NisanWPF
 
             // bind nisan order
             this.DataContext = nisan;
+            this.filterList.ItemsSource = new Filter(nisan).Rules;
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
