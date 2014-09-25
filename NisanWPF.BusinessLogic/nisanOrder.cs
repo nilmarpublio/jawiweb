@@ -47,6 +47,7 @@ namespace NisanWPF.BusinessLogic
                         this.hasCutField = false;
                 }
 
+                this.OnPropertyChanged("hasCut");
                 return (this.delivered.Length > 0);
             }
         }
