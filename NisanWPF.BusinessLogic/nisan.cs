@@ -204,7 +204,16 @@ namespace NisanWPF.BusinessLogic
         public event EventHandler CanExecuteChanged;
         public void Execute(object parameter)
         {
-            this.manager.RemoveOrder((nisanOrder)parameter);
+            if (parameter is nisanOrder)
+                this.manager.RemoveOrder((nisanOrder)parameter);
+            else if (parameter is ObservableCollection<object>)
+            {
+                for (int i = (parameter as ObservableCollection<object>).Count - 1; i >= 0; i--)
+                {
+                    nisanOrder order = (parameter as ObservableCollection<object>)[i] as nisanOrder;
+                    this.manager.RemoveOrder(order);
+                }
+            }
         }
 
         private nisan manager;
