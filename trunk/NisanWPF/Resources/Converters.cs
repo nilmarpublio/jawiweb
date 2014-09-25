@@ -305,25 +305,26 @@ namespace NisanWPF
     {
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
+            //CultureInfo.CurrentCulture.NumberFormat.CurrencySymbol
             if (value is int)
             {
-                return CultureInfo.CurrentCulture.NumberFormat.CurrencySymbol + System.Convert.ToInt32(value).ToString("###,###,###,###");
+                return String.Format("{0:c}", System.Convert.ToInt32(value));
             }
             else if (value is Int16)
             {
-                return CultureInfo.CurrentCulture.NumberFormat.CurrencySymbol + System.Convert.ToInt16(value).ToString("###,###,###,###");
+                return String.Format("{0:c}", System.Convert.ToInt16(value));
             }
             else if (value is Int32)
             {
-                return CultureInfo.CurrentCulture.NumberFormat.CurrencySymbol + System.Convert.ToInt32(value).ToString("###,###,###,###");
+                return String.Format("{0:c}", System.Convert.ToInt32(value));
             }
             else if (value is decimal)
             {
-                return CultureInfo.CurrentCulture.NumberFormat.CurrencySymbol + System.Convert.ToDecimal(value).ToString("###,###,###,##0.00");
+                return String.Format("{0:c}", System.Convert.ToDecimal(value));
             }
             else if (value is double)
             {
-                return CultureInfo.CurrentCulture.NumberFormat.CurrencySymbol + System.Convert.ToDouble(value).ToString("###,###,###,##0.00");
+                return String.Format("{0:c}", System.Convert.ToDouble(value));
             }
 
             throw new ArgumentException("Not supported type of " + value.GetType());
