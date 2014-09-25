@@ -43,4 +43,12 @@
             </Grid>
         </DockPanel>
     </DataTemplate>
+    
+    <DataTemplate DataType="{x:Type n:FilterRule}">
+        <StackPanel Margin="16 0 0 0">
+            <CheckBox Content="{Binding Name}" />
+            <ItemsControl ItemsSource="{Binding Children}" />
+        </StackPanel>
+    </DataTemplate>
+    
 </ResourceDictionary>
