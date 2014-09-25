@@ -67,7 +67,6 @@ namespace NisanWPF.BusinessLogic
         public FilterPendingOrderCommand FilterPendingOrderCommand { get { return this.filterPendingOrderCommand; } }
         public void FilterPendingOrder()
         {
-            System.Diagnostics.Debug.WriteLine("FilterPendingOrder");
             this.ordersView.Filter = item =>
                 {
                     return string.IsNullOrEmpty((item as nisanOrder).delivered);
@@ -102,6 +101,7 @@ namespace NisanWPF.BusinessLogic
 
         public void Filtering(Filter filter)
         {
+            System.Diagnostics.Debug.WriteLine("Apply filtering");
             // TODO: Based on filter flag define the filter rules
             if (filter.IsPending)
             {
@@ -109,6 +109,8 @@ namespace NisanWPF.BusinessLogic
             }
             else
             {
+				// TODO: Refine customer selection filter
+                ResetFilter();
             }
         }
 
@@ -116,7 +118,6 @@ namespace NisanWPF.BusinessLogic
         public ResetFilterCommand ResetFilterCommand { get { return this.resetFilterCommand; } }
         public void ResetFilter()
         {
-            System.Diagnostics.Debug.WriteLine("ResetFilter");
             // didn't work
             //this.ordersView.Refresh();
             this.ordersView.Filter = item => { return true; };
@@ -156,7 +157,6 @@ namespace NisanWPF.BusinessLogic
                 else if (obj is nisanPurchase)
                     nisan.Purchases.Add(obj as nisanPurchase);
             }
-            //this.filter = new Filter(nisan);
         }
 
         private CreateOrderCommand createOrderCommand;

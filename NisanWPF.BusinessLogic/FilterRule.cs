@@ -7,7 +7,7 @@ using System.Collections.ObjectModel;
 
 namespace NisanWPF.BusinessLogic
 {
-    public class FilterRule
+    public class FilterRule : System.ComponentModel.INotifyPropertyChanged
     {
         private string name;
         /// <summary>
@@ -43,13 +43,62 @@ namespace NisanWPF.BusinessLogic
             get { return this.value; }
             set
             {
+                // when only happen check change
+                //if (this.value.Equals(value) != true)
+
                 this.value = value;
-                if (this.name == "Pending" && value == true)
-                {
-                }
                 this.OnPropertyChanged("Value");
+
+                if (this.name == "Pending")
+                {
+                    if (value == true)
+                    {
+                        this.parent.IsPending = true;
+                        foreach (FilterRule child in this.parent.Rules)
+                            SetAllFalse(child, "Pending");
+                    }
+                }
+                else if (this.name == "All")
+                {
+                    if (value == true)
+                    {
+                        this.parent.IsPending = false;
+                        foreach (FilterRule child in this.parent.Rules)
+                            SetAllFalse(child, "All");
+                        foreach (FilterRule child in this.children)
+                            child.Value = true;
+                    }
+                    else
+                    {
+                        //foreach (FilterRule child in this.parent.Rules)
+                        //    SetAllFalse(child, "All");
+                        //foreach (FilterRule child in this.children)
+                        //    child.Value = false;
+                    }
+                }
+                else
+                {
+                    // uncheck pending option
+                    if (value == true)
+                    {
+                        this.parent.IsPending = false;
+                        this.parent.Rules[0].Value = false;
+                    }
+                }
+
+                this.parent.Execute();
             }
         }
+
+        private void SetAllFalse(FilterRule rule, string except)
+        {
+            if (rule.Name != except) rule.Value = false;
+            foreach (FilterRule child in rule.Children)
+                SetAllFalse(child, except);
+        }
+
+        private Filter parent;
+        public Filter Parent { get { return this.parent; } set { this.parent = value; } }
 
         private ObservableCollection<FilterRule> children;
         /// <summary>

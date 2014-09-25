@@ -11,33 +11,31 @@ namespace NisanWPF.BusinessLogic
         public bool IsPending { get; set; }
         public bool IsAllDate { get; set; }
         public ObservableCollection<FilterRule> Rules { get; set; }
-        private nisan nisan;
+        protected nisan target;
         public Filter(nisan nisan)
         {
-            this.nisan = nisan;
+            this.target = nisan;
             this.IsPending = true;
             this.IsAllDate = false;
 
             this.Rules = new ObservableCollection<FilterRule>();
             FilterRule pending = new FilterRule { Name = "Pending" };
+            pending.Parent = this;
             this.Rules.Add(pending);
 
             FilterRule all = new FilterRule { Name = "All" };
-            foreach (string customer in nisan.GetSoldToList())
-                all.Children.Add(new FilterRule { Name = customer });
+            all.Parent = this;
+            foreach (string customer in target.GetSoldToList())
+            {
+                FilterRule child = new FilterRule { Name = customer };
+                child.Parent = this;
+                all.Children.Add(child);
+            }
             this.Rules.Add(all);
-            this.Rules.CollectionChanged += Rules_CollectionChanged;
         }
-
-        private void Rules_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+        public void Execute()
         {
-            System.Diagnostics.Debug.WriteLine("Rules_CollectionChanged");
-            //foreach (FilterRule rule in this.Rules)
-            //{
-            //    if (rule.Name == "Pending" && rule.Value == true)
-            //    {
-            //    }
-            //}
+            target.Filtering(this);
         }
     }
 }
