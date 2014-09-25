@@ -43,8 +43,6 @@ namespace NisanWPF.BusinessLogic
                 {
                     if (this.delivered.Length > 0)
                         this.hasCutField = true;
-                    else
-                        this.hasCutField = false;
                 }
 
                 this.OnPropertyChanged("hasCut");
