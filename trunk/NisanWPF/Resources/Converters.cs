@@ -337,4 +337,27 @@ namespace NisanWPF
             throw new NotImplementedException();
         }
     }
+
+    /// <summary>
+    /// Return tooltip for nisanOrder by mixed of creation date and remarks.
+    /// </summary>
+    public class NisanToolTipConverter : IMultiValueConverter
+    {
+        public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (values.Count() == 2)
+            {
+                string date = (values[0] == null) ? string.Empty : values[0].ToString();
+                string remarks = (values[1] == null) ? string.Empty : values[1].ToString();
+                return "since " + date + " " + remarks;
+            }
+
+            throw new ArgumentException("Not supported");
+        }
+
+        public object[] ConvertBack(object value, Type[] targetTypes, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
