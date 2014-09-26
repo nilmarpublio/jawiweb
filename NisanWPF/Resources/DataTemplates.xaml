@@ -21,18 +21,26 @@
                         Background="{Binding soldto,Converter={StaticResource SoldToColorConverter},UpdateSourceTrigger=PropertyChanged}"
                         Style="{StaticResource SoldtoTextBoxStyle}" TabIndex="1" />
             </WrapPanel>
-            <Grid Opacity="{Binding hasCut,Converter={StaticResource FadeOffConverter},UpdateSourceTrigger=PropertyChanged}"
-                  ToolTip="{Binding remarks,UpdateSourceTrigger=PropertyChanged}">
+            <Grid Opacity="{Binding hasCut,Converter={StaticResource FadeOffConverter},UpdateSourceTrigger=PropertyChanged}">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
+                
+                <Grid.ToolTip>
+                    <MultiBinding Converter="{StaticResource NisanToolTipConverter}">
+                        <Binding Path="date" />
+                        <Binding Path="remarks" />
+                    </MultiBinding>
+                </Grid.ToolTip>
                 <DockPanel Grid.Row="0">
                     <WrapPanel DockPanel.Dock="Right">
                         <TextBlock Text="{Binding aging}" Style="{StaticResource AgingStyle}" />
                         <TextBlock Text=" days ago" Style="{StaticResource AgingStyle}" />
-                        <TextBlock FontFamily="iconFont" Text="" Margin="0 0 2 0" Visibility="{Binding hasDeliver,Converter={StaticResource VisibilityConverter}, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBlock FontFamily="iconFont" Text="" Margin="0 0 2 0"
+                                   ToolTip="{Binding delivered}"
+                                   Visibility="{Binding hasDeliver,Converter={StaticResource VisibilityConverter}, UpdateSourceTrigger=PropertyChanged}" />
                         <CheckBox IsChecked="{Binding hasCut,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
                                   Visibility="{Binding hasDeliver,Converter={StaticResource InvisibilityConverter}, UpdateSourceTrigger=PropertyChanged}"
                                   Style="{StaticResource KnifeStyle}" />
@@ -77,10 +85,8 @@
 
     <DataTemplate DataType="{x:Type n:FilterDateRule}">
         <StackPanel Margin="16 0 0 0">
-            <WrapPanel>
-                <CheckBox IsChecked="{Binding IsChecked,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
-                <TextBox Text="{Binding From}" Width="70" />
-            </WrapPanel>
+            <CheckBox Content="{Binding Name}" IsChecked="{Binding IsChecked,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Text="{Binding From}" Margin="16 0 0 0" Width="70" />
             <TextBox Text="{Binding To}" Margin="16 0 0 0" Width="70" />
         </StackPanel>
     </DataTemplate>

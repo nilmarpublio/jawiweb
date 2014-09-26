@@ -9,8 +9,9 @@
     <w:StockColorConverter x:Key="StockColorConverter" />
     <w:LocalizationConverter x:Key="LocalizationConverter" />
     <w:LocalCurrencyConverter x:Key="LocalCurrencyConverter" />
+    <w:NisanToolTipConverter x:Key="NisanToolTipConverter" />
     <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
-    
+
     <SolidColorBrush x:Key="DefaultColor" Color="#58595b" />
     <SolidColorBrush x:Key="WatermarkBackgroundBrush" Color="White" />
     <SolidColorBrush x:Key="WatermarkForegroundBrush" Color="LightSteelBlue" />
