@@ -15444,4 +15444,12 @@
     <deathm>1435-10-22</deathm>
     <item>PA</item>
   </order>
+  <order soldto="ADI" date="2014-09-26" delivered="" price="250">
+    <name>hjh fatimah bt hamzah</name>
+    <jawi>حجه فطمة بنت حمزة</jawi>
+    <born>1931-08-17</born>
+    <death>2014-05-19</death>
+    <deathm>1435-07-19</deathm>
+    <item>2' Batu Putih(P)</item>
+  </order>
 </nisan>
