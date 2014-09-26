@@ -31,6 +31,8 @@ namespace NisanWPF
 
             // bind nisan order
             this.DataContext = nisan;
+
+            // bind filtering options
             this.filterList.ItemsSource = new Filter(nisan).Rules;
         }
 

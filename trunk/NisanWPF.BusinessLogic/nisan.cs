@@ -67,6 +67,7 @@ namespace NisanWPF.BusinessLogic
         public FilterPendingOrderCommand FilterPendingOrderCommand { get { return this.filterPendingOrderCommand; } }
         public void FilterPendingOrder()
         {
+            System.Diagnostics.Debug.WriteLine("FilterPendingOrder");
             this.ordersView.Filter = item =>
                 {
                     return string.IsNullOrEmpty((item as nisanOrder).delivered);
@@ -99,18 +100,43 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
+        public void FilterCustomer(string[] customers)
+        {
+            System.Diagnostics.Debug.WriteLine("FilterCustomer");
+            this.ordersView.Filter = item =>
+            {
+                return customers.Contains((item as nisanOrder).soldto);
+            };
+            this.OnPropertyChanged("totalSales");
+            this.OnPropertyChanged("totalFound");
+        }
+
+        /// <summary>
+        /// Custom filtering.
+        /// </summary>
+        /// <param name="filter"></param>
         public void Filtering(Filter filter)
         {
-            System.Diagnostics.Debug.WriteLine("Apply filtering");
-            // TODO: Based on filter flag define the filter rules
+            // Based on filter flag define the filter rules
             if (filter.IsPending)
             {
                 FilterPendingOrder();
             }
             else
             {
-				// TODO: Refine customer selection filter
-                ResetFilter();
+				// Refine customer selection filter
+                if (filter.Rules[1].Value)
+                    ResetFilter();
+                else
+                {
+                    List<string> selectedCustomers = new List<string>();
+                    foreach (FilterRule rule in filter.Rules[1].Children)
+                    {
+                        if (rule.Value)
+                            selectedCustomers.Add(rule.Name);
+                    }
+                    FilterCustomer(selectedCustomers.ToArray());
+                }
             }
         }
 
@@ -118,8 +144,8 @@ namespace NisanWPF.BusinessLogic
         public ResetFilterCommand ResetFilterCommand { get { return this.resetFilterCommand; } }
         public void ResetFilter()
         {
-            // didn't work
-            //this.ordersView.Refresh();
+            System.Diagnostics.Debug.WriteLine("ResetFilter");
+            //this.ordersView.Refresh(); // didn't work
             this.ordersView.Filter = item => { return true; };
             this.OnPropertyChanged("totalSales");
             this.OnPropertyChanged("totalFound");
