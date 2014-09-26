@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Style="{StaticResource BorderlessWindow}"
         WindowStartupLocation="CenterScreen"
-        Title="MainWindow" Height="600" Width="900" Closing="Window_Closing">
+        Title="Nisan Dashboard" Height="600" Width="900" Closing="Window_Closing">
     <Window.InputBindings>
         <KeyBinding Modifiers="Control" Key="N" Command="{Binding CreateOrderCommand}" />
     </Window.InputBindings>
@@ -65,7 +65,8 @@
                 <Button ToolTip="Sort by stock" Content="" Style="{StaticResource MetroButtonStyle}" />
                 <Button ToolTip="Settings" Content="" Style="{StaticResource MetroButtonStyle}" />
             </StackPanel>
-            <WrapPanel></WrapPanel>
+            <TextBlock DockPanel.Dock="Bottom" x:Name="versionLabel" TextAlignment="Right" Margin="0 0 15 0" />
+            <WrapPanel />
         </DockPanel>
 
     </Grid>
