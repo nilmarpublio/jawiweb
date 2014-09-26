@@ -20,7 +20,7 @@
                             ToolTip="Reset" Command="{Binding ResetFilterCommand}" Click="ResetButton_Click" />
                 </StackPanel>
                 <StackPanel Margin="10,0,10,0">
-                    <ItemsControl x:Name="filterList" Margin="-16 0 0 0" />
+                    <ItemsControl x:Name="filterList" ItemsSource="{Binding Rules}" Margin="-16 0 0 0" />
                 </StackPanel>
             </DockPanel>
             <DockPanel>
