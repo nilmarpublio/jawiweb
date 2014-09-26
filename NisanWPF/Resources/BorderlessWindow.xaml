@@ -25,13 +25,16 @@
                                     <Button Content="" Style="{StaticResource MetroButtonStyle}"
                                             Command="{Binding DataContext.FilterNameCommand,RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type Window}}}"
                                             CommandParameter="{Binding Path=Text,ElementName=searchBox}" />
-                                    <TextBox x:Name="searchBox" Height="24" Width="150">
-                                        <TextBox.InputBindings>
-                                            <KeyBinding Key="Return"
+                                    <Grid Background="{StaticResource WatermarkBackgroundBrush}">
+                                        <TextBlock Text="Search name" Margin="4 16 0 0" Style="{StaticResource WatermarkStyle}" Visibility="{Binding ElementName=searchBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
+                                        <TextBox x:Name="searchBox" Height="24" Width="150" Background="Transparent">
+                                            <TextBox.InputBindings>
+                                                <KeyBinding Key="Return"
                                                         Command="{Binding DataContext.FilterNameCommand,RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type Window}}}"
                                                         CommandParameter="{Binding Path=Text,ElementName=searchBox}" />
-                                        </TextBox.InputBindings>
-                                    </TextBox>
+                                            </TextBox.InputBindings>
+                                        </TextBox>
+                                    </Grid>
                                     <Button Content="_" Style="{StaticResource MetroWindowButtonStyle}" Click="MinimizeButton_Click" />
                                     <Button Content="" Style="{StaticResource MetroWindowButtonStyle}" Click="MaximizeButton_Click" />
                                     <Button Content="" Style="{StaticResource MetroWindowCloseStyle}" Click="CloseButton_Click" />

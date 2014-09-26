@@ -9,7 +9,12 @@
     <w:StockColorConverter x:Key="StockColorConverter" />
     <w:LocalizationConverter x:Key="LocalizationConverter" />
     <w:LocalCurrencyConverter x:Key="LocalCurrencyConverter" />
+    <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+    
     <SolidColorBrush x:Key="DefaultColor" Color="#58595b" />
+    <SolidColorBrush x:Key="WatermarkBackgroundBrush" Color="White" />
+    <SolidColorBrush x:Key="WatermarkForegroundBrush" Color="LightSteelBlue" />
+    <SolidColorBrush x:Key="WatermarkBorderBrush" Color="Indigo" />
 
     <!-- Global behavior -->
     <Style TargetType="{x:Type TextBox}">
@@ -19,7 +24,4 @@
             </Trigger>
         </Style.Triggers>
     </Style>
-    <!--<Style TargetType="{x:Type TextBox}">
-        <Setter Property="BorderThickness" Value="0" />
-    </Style>-->
 </ResourceDictionary>

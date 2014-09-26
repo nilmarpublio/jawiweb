@@ -206,5 +206,11 @@
             </Trigger>
         </Style.Triggers>
     </Style>
+    
+    <Style x:Key="WatermarkStyle" TargetType="{x:Type TextBlock}">
+        <Setter Property="FontStyle" Value="Italic" />
+        <Setter Property="Foreground" Value="{StaticResource WatermarkForegroundBrush}" />
+        <Setter Property="Margin" Value="4 0 0 0" />
+    </Style>
 
 </ResourceDictionary>
