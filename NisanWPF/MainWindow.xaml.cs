@@ -28,6 +28,8 @@ namespace NisanWPF
 
             nisan.LoadFromFile("nisan.xml", out nisan);
             nisan.Initialize(nisan);
+            // show pending order at startup
+            nisan.FilterPendingOrder();
 
             // bind nisan order
             this.DataContext = nisan;

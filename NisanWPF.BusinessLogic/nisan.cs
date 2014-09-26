@@ -54,14 +54,7 @@ namespace NisanWPF.BusinessLogic
         public ObservableCollection<nisanPurchase> Purchases { get; set; }
 
         private ICollectionView ordersView;
-        public ICollectionView OrdersView
-        {
-            get
-            {
-                this.ordersView = CollectionViewSource.GetDefaultView(this.Orders);
-                return this.ordersView;
-            }
-        }
+        public ICollectionView OrdersView { get { return this.ordersView; } }
 
         private FilterPendingOrderCommand filterPendingOrderCommand;
         public FilterPendingOrderCommand FilterPendingOrderCommand { get { return this.filterPendingOrderCommand; } }
@@ -242,6 +235,7 @@ namespace NisanWPF.BusinessLogic
             this.Orders = new ObservableCollection<nisanOrder>();
             this.Invoices = new ObservableCollection<nisanInvoice>();
             this.Purchases = new ObservableCollection<nisanPurchase>();
+
             this.createOrderCommand = new CreateOrderCommand(this);
             this.removeOrderCommand = new RemoveOrderCommand(this);
             this.generateSvgCommand = new GenerateSvgCommand(this);
@@ -266,6 +260,7 @@ namespace NisanWPF.BusinessLogic
                 else if (obj is nisanPurchase)
                     nisan.Purchases.Add(obj as nisanPurchase);
             }
+            this.ordersView = CollectionViewSource.GetDefaultView(this.Orders);
         }
 
         private CreateOrderCommand createOrderCommand;
