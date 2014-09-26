@@ -62,8 +62,11 @@
                             <TextBlock Text="Death date" Style="{StaticResource WatermarkStyle}" Visibility="{Binding ElementName=DeathTextBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
                             <TextBox x:Name="DeathTextBox" Text="{Binding death,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}" TabIndex="6" />
                         </Grid>
-                        <TextBlock Text="age " />
-                        <TextBox Text="{Binding age,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}" TabIndex="7" />
+                        <Grid Background="{StaticResource WatermarkBackgroundBrush}">
+                            <TextBlock Text="age" Style="{StaticResource WatermarkStyle}" Visibility="{Binding ElementName=AgeTextBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
+                            <TextBox x:Name="AgeTextBox" Text="{Binding age,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}" TabIndex="7" />
+                        </Grid>
+                        <TextBlock Text="years old" />
                     </WrapPanel>
                 </DockPanel>
             </Grid>
