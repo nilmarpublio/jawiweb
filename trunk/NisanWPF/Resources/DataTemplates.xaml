@@ -77,7 +77,7 @@
     
     <DataTemplate DataType="{x:Type n:FilterRule}">
         <StackPanel Margin="16 0 0 0">
-            <CheckBox Content="{Binding Name}" IsChecked="{Binding Value,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
+            <CheckBox Content="{Binding Name}" IsChecked="{Binding IsChecked,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
             <ItemsControl ItemsSource="{Binding Children}" />
         </StackPanel>
     </DataTemplate>

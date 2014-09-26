@@ -34,20 +34,20 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
-        private bool value;
+        private bool isChecked;
         /// <summary>
         /// Gets and sets value.
         /// </summary>
-        public bool Value
+        public bool IsChecked
         {
-            get { return this.value; }
+            get { return this.isChecked; }
             set
             {
                 // when only happen check change
                 //if (this.value.Equals(value) != true)
 
-                this.value = value;
-                this.OnPropertyChanged("Value");
+                this.isChecked = value;
+                this.OnPropertyChanged("IsChecked");
 
                 if (this.name == "Pending")
                 {
@@ -60,7 +60,7 @@ namespace NisanWPF.BusinessLogic
 
         private void SetAllFalse(FilterRule rule, string except)
         {
-            if (rule.Name != except) rule.Value = false;
+            if (rule.Name != except) rule.IsChecked = false;
             foreach (FilterRule child in rule.Children)
                 SetAllFalse(child, except);
         }
@@ -85,19 +85,19 @@ namespace NisanWPF.BusinessLogic
         public FilterRule()
         {
             this.name = "";
-            this.value = false;
+            this.isChecked = false;
             this.children = new ObservableCollection<FilterRule>();
         }
         public FilterRule(string name)
         {
             this.name = name;
-            this.value = false;
+            this.isChecked = false;
             this.children = new ObservableCollection<FilterRule>();
         }
-        public FilterRule(string name, bool value)
+        public FilterRule(string name, bool isChecked)
         {
             this.name = name;
-            this.value = value;
+            this.isChecked = isChecked;
             this.children = new ObservableCollection<FilterRule>();
         }
 

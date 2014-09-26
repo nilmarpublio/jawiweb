@@ -16,7 +16,8 @@
         <DockPanel Grid.Column="0" LastChildFill="True">
             <DockPanel DockPanel.Dock="Left" LastChildFill="True">
                 <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
-                    <Button ToolTip="Reset" Command="{Binding ResetFilterCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button Content="" Style="{StaticResource MetroButtonStyle}"
+                            ToolTip="Reset" Command="{Binding ResetFilterCommand}" Click="ResetButton_Click" />
                 </StackPanel>
                 <StackPanel Margin="10,0,10,0">
                     <ItemsControl x:Name="filterList" Margin="-16 0 0 0" />
