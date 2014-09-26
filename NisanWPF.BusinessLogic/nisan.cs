@@ -299,8 +299,6 @@ namespace NisanWPF.BusinessLogic
         public GenerateSvgCommand GenerateSvgCommand { get { return this.generateSvgCommand; } }
         public void GenerateSvg(nisanOrder order)
         {
-            System.Diagnostics.Debug.WriteLine("Generating svg for " + order.name);
-
             // check file exist if not only write
             string file = "Output" + System.IO.Path.DirectorySeparatorChar + order.name + ".svg";
             if (System.IO.File.Exists(file))
@@ -317,6 +315,7 @@ namespace NisanWPF.BusinessLogic
             }
             else
             {
+                System.Diagnostics.Debug.WriteLine("Generating svg for " + order.name);
                 string template = GetSvgTemplate(order.item);
                 HLGranite.Jawi.nisanOrder jOrder = CloneOrder(order);
                 SvgWriter writer = new SvgWriter(jOrder, template);

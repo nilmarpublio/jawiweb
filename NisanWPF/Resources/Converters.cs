@@ -270,23 +270,25 @@ namespace NisanWPF
     /// </summary>
     public class LocalizationConverter : IValueConverter
     {
+        private string integerFormat = "###,###,###,##0";
+        private string decimalFormat = "###,###,###,##0.00";
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             if (value is int)
             {
-                return System.Convert.ToInt32(value).ToString("###,###,###,###");
+                return System.Convert.ToInt32(value).ToString(integerFormat);
             }
             else if (value is Int16)
             {
-                return System.Convert.ToInt16(value).ToString("###,###,###,###");
+                return System.Convert.ToInt16(value).ToString(integerFormat);
             }
             else if (value is Int32)
             {
-                return System.Convert.ToInt32(value).ToString("###,###,###,###");
+                return System.Convert.ToInt32(value).ToString(integerFormat);
             }
             else if (value is decimal)
             {
-                return System.Convert.ToDecimal(value).ToString("###,###,###,##0.00");
+                return System.Convert.ToDecimal(value).ToString(decimalFormat);
             }
             else
                 return value.ToString();
