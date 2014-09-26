@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Windows;
@@ -43,6 +44,12 @@ namespace NisanWPF
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             nisan.SaveToFile("nisan.xml");
+        }
+
+        private void ResetButton_Click(object sender, RoutedEventArgs e)
+        {
+            foreach (FilterRule rule in (this.filterList.ItemsSource as ObservableCollection<FilterRule>))
+                rule.IsChecked = false;
         }
     }
 }

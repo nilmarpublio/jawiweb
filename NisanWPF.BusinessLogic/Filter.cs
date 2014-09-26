@@ -30,6 +30,12 @@ namespace NisanWPF.BusinessLogic
                 this.Rules.Add(child);
             }
         }
+        public void Reset()
+        {
+            System.Diagnostics.Debug.WriteLine("Reset filtering");
+            foreach (FilterRule rule in this.Rules)
+                rule.IsChecked = false;
+        }
         public void Execute()
         {
             target.Filtering(this);

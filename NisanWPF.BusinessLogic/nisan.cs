@@ -125,7 +125,7 @@ namespace NisanWPF.BusinessLogic
             List<string> selectedCustomers = new List<string>();
             for (int i = 1; i < filter.Rules.Count; i++)
             {
-                if (filter.Rules[i].Value)
+                if (filter.Rules[i].IsChecked)
                     selectedCustomers.Add(filter.Rules[i].Name);
             }
 
