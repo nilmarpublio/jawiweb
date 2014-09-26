@@ -157,7 +157,19 @@ namespace NisanWPF.BusinessLogic
         public void SortSoldTo()
         {
             System.Diagnostics.Debug.WriteLine("SortSoldTo");
+            this.ordersView.SortDescriptions.Clear();
             this.ordersView.SortDescriptions.Add(new SortDescription("soldto", ListSortDirection.Ascending));
+            this.OnPropertyChanged("totalSales");
+            this.OnPropertyChanged("totalFound");
+        }
+
+        private SortItemCommand sortItemCommand;
+        public SortItemCommand SortItemCommand { get { return this.sortItemCommand; } }
+        public void SortItem()
+        {
+            System.Diagnostics.Debug.WriteLine("SortItem");
+            this.ordersView.SortDescriptions.Clear();
+            this.ordersView.SortDescriptions.Add(new SortDescription("item", ListSortDirection.Ascending));
             this.OnPropertyChanged("totalSales");
             this.OnPropertyChanged("totalFound");
         }
@@ -181,6 +193,7 @@ namespace NisanWPF.BusinessLogic
             this.filterPendingOrderCommand = new FilterPendingOrderCommand(this);
             this.filterNameCommand = new FilterNameCommand(this);
             this.sortSoldToCommand = new SortSoldToCommand(this);
+            this.sortItemCommand = new SortItemCommand(this);
 
             Calendar = new MuslimCalendar("muslimcal.xml");
         }
@@ -567,6 +580,26 @@ namespace NisanWPF.BusinessLogic
         }
         private nisan manager;
         public SortSoldToCommand(nisan nisan)
+        {
+            this.manager = nisan;
+        }
+    }
+
+    public class SortItemCommand : ICommand
+    {
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public event EventHandler CanExecuteChanged;
+
+        public void Execute(object parameter)
+        {
+            manager.SortItem();
+        }
+        private nisan manager;
+        public SortItemCommand(nisan nisan)
         {
             this.manager = nisan;
         }

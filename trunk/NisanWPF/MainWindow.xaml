@@ -62,7 +62,7 @@
             <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Right">
                 <Button ToolTip="Sort by customer" Command="{Binding SortSoldToCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
                 <Button ToolTip="Sort by created date" Content="" Style="{StaticResource MetroButtonStyle}" />
-                <Button ToolTip="Sort by stock" Content="" Style="{StaticResource MetroButtonStyle}" />
+                <Button ToolTip="Sort by stock" Command="{Binding SortItemCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
                 <Button ToolTip="Settings" Content="" Style="{StaticResource MetroButtonStyle}" />
             </StackPanel>
             <TextBlock DockPanel.Dock="Bottom" x:Name="versionLabel" TextAlignment="Right" Margin="0 0 15 0" />
