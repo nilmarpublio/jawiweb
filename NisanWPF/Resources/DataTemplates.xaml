@@ -3,6 +3,19 @@
                     xmlns:n="clr-namespace:NisanWPF.BusinessLogic;assembly=NisanWPF.BusinessLogic">
     <DataTemplate DataType="{x:Type n:nisanOrder}">
         <DockPanel LastChildFill="True" Margin="2">
+            <DockPanel.Resources>
+                <!-- Make entry TextBox looks like borderless -->
+                <Style TargetType="{x:Type TextBox}">
+                    <Setter Property="Background" Value="Transparent" />
+                    <Setter Property="BorderThickness" Value="0" />
+                    <Style.Triggers>
+                        <Trigger Property="IsFocused" Value="True">
+                            <Setter Property="BorderThickness" Value="1" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DockPanel.Resources>
+            
             <WrapPanel DockPanel.Dock="Left" Margin="2">
                 <TextBox Text="{Binding soldto,Converter={StaticResource SoldToAbbrevConverter},UpdateSourceTrigger=PropertyChanged}"
                         Background="{Binding soldto,Converter={StaticResource SoldToColorConverter},UpdateSourceTrigger=PropertyChanged}"
@@ -24,19 +37,31 @@
                                   Visibility="{Binding hasDeliver,Converter={StaticResource InvisibilityConverter}, UpdateSourceTrigger=PropertyChanged}"
                                   Style="{StaticResource KnifeStyle}" />
                     </WrapPanel>
-                    <TextBox Text="{Binding item,ValidatesOnDataErrors=True,UpdateSourceTrigger=LostFocus}"
-                             Foreground="{Binding item,Converter={StaticResource StockColorConverter},UpdateSourceTrigger=PropertyChanged}"
-                             Style="{StaticResource StockTextBoxStyle}" TabIndex="2"/>
+                    <TextBox x:Name="ItemTextBox" Text="{Binding item,ValidatesOnDataErrors=True,UpdateSourceTrigger=LostFocus}"
+                            Foreground="{Binding item,Converter={StaticResource StockColorConverter},UpdateSourceTrigger=PropertyChanged}"
+                            Style="{StaticResource StockTextBoxStyle}" TabIndex="2"/>
                 </DockPanel>
                 <DockPanel Grid.Row="1">
-                    <TextBox DockPanel.Dock="Right" Text="{Binding jawi}" TabIndex="4" />
-                    <TextBox Text="{Binding name,ValidatesOnDataErrors=True,UpdateSourceTrigger=LostFocus}" TabIndex="3" />
+                    <Grid DockPanel.Dock="Right" Background="{StaticResource WatermarkBackgroundBrush}">
+                        <TextBlock Text="Enter jawi" Style="{StaticResource WatermarkStyle}" Visibility="{Binding ElementName=JawiTextBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox x:Name="JawiTextBox" Text="{Binding jawi}" TabIndex="4" />
+                    </Grid>
+                    <Grid Background="{StaticResource WatermarkBackgroundBrush}">
+                        <TextBlock Text="Enter name" Style="{StaticResource WatermarkStyle}" Visibility="{Binding ElementName=NameTextBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox x:Name="NameTextBox" Text="{Binding name,ValidatesOnDataErrors=True,Mode=TwoWay,UpdateSourceTrigger=LostFocus}" TabIndex="3" />
+                    </Grid>
                 </DockPanel>
                 <DockPanel Grid.Row="2" Margin="0 0 0 4">
                     <TextBox DockPanel.Dock="Right" Text="{Binding deathm}" TabIndex="8" />
                     <WrapPanel>
-                        <TextBox Text="{Binding born}" TabIndex="5" />
-                        <TextBox Text="{Binding death,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}" TabIndex="6" />
+                        <Grid Background="{StaticResource WatermarkBackgroundBrush}">
+                            <TextBlock Text="Born" Style="{StaticResource WatermarkStyle}" Visibility="{Binding ElementName=BornTextBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
+                            <TextBox x:Name="BornTextBox" Text="{Binding born}" TabIndex="5" />
+                        </Grid>
+                        <Grid Background="{StaticResource WatermarkBackgroundBrush}">
+                            <TextBlock Text="Death date" Style="{StaticResource WatermarkStyle}" Visibility="{Binding ElementName=DeathTextBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
+                            <TextBox x:Name="DeathTextBox" Text="{Binding death,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}" TabIndex="6" />
+                        </Grid>
                         <TextBlock Text="age " />
                         <TextBox Text="{Binding age,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}" TabIndex="7" />
                     </WrapPanel>
