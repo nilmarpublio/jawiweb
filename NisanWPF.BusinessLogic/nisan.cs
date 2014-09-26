@@ -233,6 +233,7 @@ namespace NisanWPF.BusinessLogic
         {
             this.itemsField = new ObservableCollection<object>();
             this.Orders = new ObservableCollection<nisanOrder>();
+            this.Orders.CollectionChanged += Orders_CollectionChanged;
             this.Invoices = new ObservableCollection<nisanInvoice>();
             this.Purchases = new ObservableCollection<nisanPurchase>();
 
@@ -247,6 +248,12 @@ namespace NisanWPF.BusinessLogic
             this.sortDateCommand = new SortDateCommand(this);
 
             Calendar = new MuslimCalendar("muslimcal.xml");
+        }
+
+        private void Orders_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+        {
+            this.OnPropertyChanged("totalSales");
+            this.OnPropertyChanged("totalFound");
         }
 
         public void Initialize(nisan nisan)
