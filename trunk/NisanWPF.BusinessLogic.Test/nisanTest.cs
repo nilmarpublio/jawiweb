@@ -81,5 +81,24 @@ namespace NisanWPF.BusinessLogic.Test
             }
             Assert.AreEqual(6, counter);
         }
+
+        /// <summary>
+        /// Svn api commit implementation test.
+        /// </summary>
+        /// <remarks>
+        /// Dependency: Must same version with version of TortoiseSvn use to checkout working copy.
+        /// For this application is using 1.6.
+        /// </remarks>
+        [Test]
+        public void CommitTest()
+        {
+            nisan nisan;
+            nisan.LoadFromFile("nisan.xml", out nisan);
+            nisan.Initialize(nisan);
+
+            bool expected = true;
+            bool actual = nisan.Commit();
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
