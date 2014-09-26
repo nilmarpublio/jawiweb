@@ -51,39 +51,7 @@ namespace NisanWPF.BusinessLogic
 
                 if (this.name == "Pending")
                 {
-                    if (value == true)
-                    {
-                        this.parent.IsPending = true;
-                        foreach (FilterRule child in this.parent.Rules)
-                            SetAllFalse(child, "Pending");
-                    }
-                }
-                else if (this.name == "All")
-                {
-                    if (value == true)
-                    {
-                        this.parent.IsPending = false;
-                        foreach (FilterRule child in this.parent.Rules)
-                            SetAllFalse(child, "All");
-                        foreach (FilterRule child in this.children)
-                            child.Value = true;
-                    }
-                    else
-                    {
-                        //foreach (FilterRule child in this.parent.Rules)
-                        //    SetAllFalse(child, "All");
-                        //foreach (FilterRule child in this.children)
-                        //    child.Value = false;
-                    }
-                }
-                else
-                {
-                    // uncheck pending option
-                    if (value == true)
-                    {
-                        this.parent.IsPending = false;
-                        this.parent.Rules[0].Value = false;
-                    }
+                    this.parent.IsPending = (value == true) ? true : false;
                 }
 
                 this.parent.Execute();
