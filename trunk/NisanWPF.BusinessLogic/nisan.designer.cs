@@ -182,6 +182,9 @@ namespace NisanWPF.BusinessLogic
             try
             {
                 string xmlString = Serialize();
+                xmlString = xmlString.Replace(
+                    "<?xml version=\"1.0\"?>\r\n<nisan xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">",
+                    "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<?xml-stylesheet type=\"text/xsl\" href=\"pending.xsl\"?>\r\n<nisan xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"nisan.xsd\">");
                 System.IO.FileInfo xmlFile = new System.IO.FileInfo(fileName);
                 streamWriter = xmlFile.CreateText();
                 streamWriter.WriteLine(xmlString);
