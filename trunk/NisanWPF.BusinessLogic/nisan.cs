@@ -58,12 +58,14 @@ namespace NisanWPF.BusinessLogic
 
         private FilterPendingOrderCommand filterPendingOrderCommand;
         public FilterPendingOrderCommand FilterPendingOrderCommand { get { return this.filterPendingOrderCommand; } }
-        public void FilterPendingOrder()
+        public void FilterPendingOrder(DateTime from, DateTime to)
         {
             System.Diagnostics.Debug.WriteLine("FilterPendingOrder");
             this.ordersView.Filter = item =>
                 {
-                    return string.IsNullOrEmpty((item as nisanOrder).delivered);
+                    return string.IsNullOrEmpty((item as nisanOrder).delivered)
+                        && ((item as nisanOrder).date.CompareTo(from.ToString("yyyy-MM-dd")) >= 0)
+                        && ((item as nisanOrder).date.CompareTo(to.ToString("yyyy-MM-dd")) <= 0);
                 };
             this.OnPropertyChanged("totalSales");
             this.OnPropertyChanged("totalFound");
@@ -93,14 +95,16 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
-        public void FilterSoldTo(string[] customers, bool isPending)
+        public void FilterSoldTo(string[] customers, bool isPending, DateTime from, DateTime to)
         {
             if (isPending)
             {
                 System.Diagnostics.Debug.WriteLine("Filter pending customer");
                 this.ordersView.Filter = item =>
                 {
-                    return customers.Contains((item as nisanOrder).soldto) && string.IsNullOrEmpty((item as nisanOrder).delivered);
+                    return customers.Contains((item as nisanOrder).soldto) && string.IsNullOrEmpty((item as nisanOrder).delivered)
+                        && ((item as nisanOrder).date.CompareTo(from.ToString("yyyy-MM-dd")) >= 0)
+                        && ((item as nisanOrder).date.CompareTo(to.ToString("yyyy-MM-dd")) <= 0);
                 };
             }
             else
@@ -108,7 +112,9 @@ namespace NisanWPF.BusinessLogic
                 System.Diagnostics.Debug.WriteLine("FilterCustomer");
                 this.ordersView.Filter = item =>
                 {
-                    return customers.Contains((item as nisanOrder).soldto);
+                    return customers.Contains((item as nisanOrder).soldto)
+                        && ((item as nisanOrder).date.CompareTo(from.ToString("yyyy-MM-dd")) >= 0)
+                        && ((item as nisanOrder).date.CompareTo(to.ToString("yyyy-MM-dd")) <= 0);
                 };
             }
             this.OnPropertyChanged("totalSales");
@@ -132,17 +138,37 @@ namespace NisanWPF.BusinessLogic
                     selectedCustomers.Add(filter.Rules[i].Name);
             }
 
-            // Based on filter flag define the filter rules
-            if (selectedCustomers.Count == 0)
+            if (filter.HasDateRange)
             {
-                if (filter.IsPending)
+                int last = filter.Rules.Count-1;
+                DateTime from = (filter.Rules[last] as FilterDateRule).From;
+                DateTime to = (filter.Rules[last] as FilterDateRule).To;
+                if (selectedCustomers.Count == 0)
                 {
-                    FilterPendingOrder();
+                    if (filter.IsPending)
+                    {
+                        FilterPendingOrder(from, to);
+                    }
+                }
+                else
+                {
+                    FilterSoldTo(selectedCustomers.ToArray(), filter.IsPending, from, to);
                 }
             }
             else
             {
-                FilterSoldTo(selectedCustomers.ToArray(), filter.IsPending);
+                // Based on filter flag define the filter rules
+                if (selectedCustomers.Count == 0)
+                {
+                    if (filter.IsPending)
+                    {
+                        FilterPendingOrder(DateTime.MinValue, DateTime.MaxValue);
+                    }
+                }
+                else
+                {
+                    FilterSoldTo(selectedCustomers.ToArray(), filter.IsPending, DateTime.MinValue, DateTime.MaxValue);
+                }
             }
         }
 
@@ -571,7 +597,7 @@ namespace NisanWPF.BusinessLogic
             {
                 if (Convert.ToBoolean(parameter) == true)
                 {
-                    manager.FilterPendingOrder();
+                    manager.FilterPendingOrder(DateTime.MinValue, DateTime.MaxValue);
                 }
             }
 

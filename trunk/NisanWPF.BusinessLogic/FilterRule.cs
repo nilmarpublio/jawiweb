@@ -50,9 +50,9 @@ namespace NisanWPF.BusinessLogic
                 this.OnPropertyChanged("IsChecked");
 
                 if (this.name == "Pending")
-                {
-                    this.parent.IsPending = (value == true) ? true : false;
-                }
+                    this.parent.IsPending = value;
+                if (this.name == "Date")
+                    this.parent.HasDateRange = value;
 
                 this.parent.Execute();
             }

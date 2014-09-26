@@ -32,15 +32,16 @@ namespace NisanWPF.BusinessLogic
         public FilterDateRule()
             : base()
         {
+            base.name = "Date";
             this.from = DateTime.MinValue;
             this.to = DateTime.MaxValue;
         }
 
-        public FilterDateRule(bool isChecked)
+        public FilterDateRule(string name, bool isChecked)
+            : base(name, isChecked)
         {
             this.from = DateTime.MinValue;
             this.to = DateTime.MaxValue;
-            base.isChecked = isChecked;
         }
     }
 }
