@@ -24,6 +24,7 @@ namespace NisanWPF
         public MainWindow()
         {
             InitializeComponent();
+            versionLabel.Text = "v" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
 
             nisan.LoadFromFile("nisan.xml", out nisan);
             nisan.Initialize(nisan);
