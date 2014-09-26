@@ -100,7 +100,7 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
-        public void FilterCustomer(string[] customers)
+        public void FilterSoldTo(string[] customers)
         {
             System.Diagnostics.Debug.WriteLine("FilterCustomer");
             this.ordersView.Filter = item =>
@@ -124,7 +124,7 @@ namespace NisanWPF.BusinessLogic
             }
             else
             {
-				// Refine customer selection filter
+                // Refine customer selection filter
                 if (filter.Rules[1].Value)
                     ResetFilter();
                 else
@@ -135,7 +135,7 @@ namespace NisanWPF.BusinessLogic
                         if (rule.Value)
                             selectedCustomers.Add(rule.Name);
                     }
-                    FilterCustomer(selectedCustomers.ToArray());
+                    FilterSoldTo(selectedCustomers.ToArray());
                 }
             }
         }
@@ -147,6 +147,17 @@ namespace NisanWPF.BusinessLogic
             System.Diagnostics.Debug.WriteLine("ResetFilter");
             //this.ordersView.Refresh(); // didn't work
             this.ordersView.Filter = item => { return true; };
+            this.ordersView.SortDescriptions.Clear();
+            this.OnPropertyChanged("totalSales");
+            this.OnPropertyChanged("totalFound");
+        }
+
+        private SortSoldToCommand sortSoldToCommand;
+        public SortSoldToCommand SortSoldToCommand { get { return this.sortSoldToCommand; } }
+        public void SortSoldTo()
+        {
+            System.Diagnostics.Debug.WriteLine("SortSoldTo");
+            this.ordersView.SortDescriptions.Add(new SortDescription("soldto", ListSortDirection.Ascending));
             this.OnPropertyChanged("totalSales");
             this.OnPropertyChanged("totalFound");
         }
@@ -169,6 +180,8 @@ namespace NisanWPF.BusinessLogic
             this.resetFilterCommand = new ResetFilterCommand(this);
             this.filterPendingOrderCommand = new FilterPendingOrderCommand(this);
             this.filterNameCommand = new FilterNameCommand(this);
+            this.sortSoldToCommand = new SortSoldToCommand(this);
+
             Calendar = new MuslimCalendar("muslimcal.xml");
         }
 
@@ -477,7 +490,7 @@ namespace NisanWPF.BusinessLogic
                     manager.FilterPendingOrder();
                 }
             }
-            
+
         }
         private nisan manager;
         public FilterPendingOrderCommand(nisan nisan)
@@ -534,6 +547,26 @@ namespace NisanWPF.BusinessLogic
         }
         private nisan manager;
         public ResetFilterCommand(nisan nisan)
+        {
+            this.manager = nisan;
+        }
+    }
+
+    public class SortSoldToCommand : ICommand
+    {
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public event EventHandler CanExecuteChanged;
+
+        public void Execute(object parameter)
+        {
+            manager.SortSoldTo();
+        }
+        private nisan manager;
+        public SortSoldToCommand(nisan nisan)
         {
             this.manager = nisan;
         }
