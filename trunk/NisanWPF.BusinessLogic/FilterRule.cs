@@ -116,6 +116,20 @@ namespace NisanWPF.BusinessLogic
 
         public FilterRule()
         {
+            this.name = "";
+            this.value = false;
+            this.children = new ObservableCollection<FilterRule>();
+        }
+        public FilterRule(string name)
+        {
+            this.name = name;
+            this.value = false;
+            this.children = new ObservableCollection<FilterRule>();
+        }
+        public FilterRule(string name, bool value)
+        {
+            this.name = name;
+            this.value = value;
             this.children = new ObservableCollection<FilterRule>();
         }
 
