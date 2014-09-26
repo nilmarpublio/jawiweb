@@ -60,7 +60,7 @@
 
         <DockPanel Grid.Column="1" LastChildFill="True">
             <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Right">
-                <Button ToolTip="Sort by customer" Content="" Style="{StaticResource MetroButtonStyle}" />
+                <Button ToolTip="Sort by customer" Command="{Binding SortSoldToCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
                 <Button ToolTip="Sort by created date" Content="" Style="{StaticResource MetroButtonStyle}" />
                 <Button ToolTip="Sort by stock" Content="" Style="{StaticResource MetroButtonStyle}" />
                 <Button ToolTip="Settings" Content="" Style="{StaticResource MetroButtonStyle}" />
