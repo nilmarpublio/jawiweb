@@ -23,15 +23,12 @@ namespace NisanWPF.BusinessLogic
             pending.Parent = this;
             this.Rules.Add(pending);
 
-            FilterRule all = new FilterRule("All");
-            all.Parent = this;
             foreach (string customer in target.GetSoldToList())
             {
                 FilterRule child = new FilterRule(customer);
                 child.Parent = this;
-                all.Children.Add(child);
+                this.Rules.Add(child);
             }
-            this.Rules.Add(all);
         }
         public void Execute()
         {

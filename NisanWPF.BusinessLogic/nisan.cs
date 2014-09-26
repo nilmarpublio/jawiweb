@@ -93,13 +93,24 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
-        public void FilterSoldTo(string[] customers)
+        public void FilterSoldTo(string[] customers, bool isPending)
         {
-            System.Diagnostics.Debug.WriteLine("FilterCustomer");
-            this.ordersView.Filter = item =>
+            if (isPending)
             {
-                return customers.Contains((item as nisanOrder).soldto);
-            };
+                System.Diagnostics.Debug.WriteLine("Filter pending customer");
+                this.ordersView.Filter = item =>
+                {
+                    return customers.Contains((item as nisanOrder).soldto) && string.IsNullOrEmpty((item as nisanOrder).delivered);
+                };
+            }
+            else
+            {
+                System.Diagnostics.Debug.WriteLine("FilterCustomer");
+                this.ordersView.Filter = item =>
+                {
+                    return customers.Contains((item as nisanOrder).soldto);
+                };
+            }
             this.OnPropertyChanged("totalSales");
             this.OnPropertyChanged("totalFound");
         }
@@ -110,26 +121,25 @@ namespace NisanWPF.BusinessLogic
         /// <param name="filter"></param>
         public void Filtering(Filter filter)
         {
-            // Based on filter flag define the filter rules
-            if (filter.IsPending)
+            // Refine customer selection filter
+            List<string> selectedCustomers = new List<string>();
+            for (int i = 1; i < filter.Rules.Count; i++)
             {
-                FilterPendingOrder();
+                if (filter.Rules[i].Value)
+                    selectedCustomers.Add(filter.Rules[i].Name);
+            }
+
+            // Based on filter flag define the filter rules
+            if (selectedCustomers.Count == 0)
+            {
+                if (filter.IsPending)
+                {
+                    FilterPendingOrder();
+                }
             }
             else
             {
-                // Refine customer selection filter
-                if (filter.Rules[1].Value)
-                    ResetFilter();
-                else
-                {
-                    List<string> selectedCustomers = new List<string>();
-                    foreach (FilterRule rule in filter.Rules[1].Children)
-                    {
-                        if (rule.Value)
-                            selectedCustomers.Add(rule.Name);
-                    }
-                    FilterSoldTo(selectedCustomers.ToArray());
-                }
+                FilterSoldTo(selectedCustomers.ToArray(), filter.IsPending);
             }
         }
 
