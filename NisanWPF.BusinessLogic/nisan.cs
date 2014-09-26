@@ -156,9 +156,24 @@ namespace NisanWPF.BusinessLogic
         public SortSoldToCommand SortSoldToCommand { get { return this.sortSoldToCommand; } }
         public void SortSoldTo()
         {
-            System.Diagnostics.Debug.WriteLine("SortSoldTo");
+            bool hasAscending = false;
+            foreach (SortDescription sortDesc in this.ordersView.SortDescriptions)
+            {
+                if (sortDesc.PropertyName == "soldto")
+                    hasAscending = (sortDesc.Direction == ListSortDirection.Ascending);
+            }
+
             this.ordersView.SortDescriptions.Clear();
-            this.ordersView.SortDescriptions.Add(new SortDescription("soldto", ListSortDirection.Ascending));
+            if (hasAscending)
+            {
+                System.Diagnostics.Debug.WriteLine("SortSoldTo desc");
+                this.ordersView.SortDescriptions.Add(new SortDescription("soldto", ListSortDirection.Descending));
+            }
+            else
+            {
+                System.Diagnostics.Debug.WriteLine("SortSoldTo asc");
+                this.ordersView.SortDescriptions.Add(new SortDescription("soldto", ListSortDirection.Ascending));
+            }
             this.OnPropertyChanged("totalSales");
             this.OnPropertyChanged("totalFound");
         }
@@ -167,9 +182,24 @@ namespace NisanWPF.BusinessLogic
         public SortItemCommand SortItemCommand { get { return this.sortItemCommand; } }
         public void SortItem()
         {
-            System.Diagnostics.Debug.WriteLine("SortItem");
+            bool hasAscending = false;
+            foreach (SortDescription sortDesc in this.ordersView.SortDescriptions)
+            {
+                if (sortDesc.PropertyName == "item")
+                    hasAscending = (sortDesc.Direction == ListSortDirection.Ascending);
+            }
+
             this.ordersView.SortDescriptions.Clear();
-            this.ordersView.SortDescriptions.Add(new SortDescription("item", ListSortDirection.Ascending));
+            if (hasAscending)
+            {
+                System.Diagnostics.Debug.WriteLine("SortItem desc");
+                this.ordersView.SortDescriptions.Add(new SortDescription("item", ListSortDirection.Descending));
+            }
+            else
+            {
+                System.Diagnostics.Debug.WriteLine("SortItem asc");
+                this.ordersView.SortDescriptions.Add(new SortDescription("item", ListSortDirection.Ascending));
+            }
             this.OnPropertyChanged("totalSales");
             this.OnPropertyChanged("totalFound");
         }
