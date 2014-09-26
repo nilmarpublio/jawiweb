@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Style="{StaticResource BorderlessWindow}"
         WindowStartupLocation="CenterScreen"
-        Title="Nisan Dashboard" Height="600" Width="900" Closing="Window_Closing">
+        Title="Nisan Dashboard" Height="600" Width="1000" Closing="Window_Closing">
     <Window.InputBindings>
         <KeyBinding Modifiers="Control" Key="N" Command="{Binding CreateOrderCommand}" />
     </Window.InputBindings>

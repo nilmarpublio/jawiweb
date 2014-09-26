@@ -9,14 +9,14 @@ namespace NisanWPF.BusinessLogic
     public class Filter
     {
         public bool IsPending { get; set; }
-        public bool IsAllDate { get; set; }
+        public bool HasDateRange { get; set; }
         public ObservableCollection<FilterRule> Rules { get; set; }
         protected nisan target;
         public Filter(nisan nisan)
         {
             this.target = nisan;
             this.IsPending = true;
-            this.IsAllDate = false;
+            this.HasDateRange = false;
 
             // adding pending option
             this.Rules = new ObservableCollection<FilterRule>();
