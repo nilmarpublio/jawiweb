@@ -19,3 +19,9 @@ WPF
 - [Guideline](http://msdn.microsoft.com/en-us/library/cc872782.aspx)
 - [MahApps.Metro](http://mahapps.com/)
 - [Family.Show](http://familyshow.codeplex.com/)
+
+
+NisanWPF
+======
+- [Font Awesome](http://fortawesome.github.io/Font-Awesome/) for Metro-like icon.
+- [SharpSvn](https://sharpsvn.open.collab.net/) as svn api - Must same with the working copy version. ie. 1.6, 1.7 or 1.8.

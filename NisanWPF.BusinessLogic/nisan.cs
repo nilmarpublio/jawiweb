@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Data;
 using System.Windows.Input;
+
+using SharpSvn;
 using HLGranite.Jawi;
 
 namespace NisanWPF.BusinessLogic
@@ -132,7 +134,7 @@ namespace NisanWPF.BusinessLogic
         {
             // Refine customer selection filter
             List<string> selectedCustomers = new List<string>();
-            for (int i = 1; i < filter.Rules.Count-1; i++)
+            for (int i = 1; i < filter.Rules.Count - 1; i++)
             {
                 if (filter.Rules[i].IsChecked)
                     selectedCustomers.Add(filter.Rules[i].Name);
@@ -140,7 +142,7 @@ namespace NisanWPF.BusinessLogic
 
             if (filter.HasDateRange)
             {
-                int last = filter.Rules.Count-1;
+                int last = filter.Rules.Count - 1;
                 DateTime from = (filter.Rules[last] as FilterDateRule).From;
                 DateTime to = (filter.Rules[last] as FilterDateRule).To;
                 if (selectedCustomers.Count == 0)
@@ -279,6 +281,7 @@ namespace NisanWPF.BusinessLogic
             this.createOrderCommand = new CreateOrderCommand(this);
             this.removeOrderCommand = new RemoveOrderCommand(this);
             this.generateSvgCommand = new GenerateSvgCommand(this);
+            this.commitSvnCommand = new CommitSvnCommand(this);
             this.resetFilterCommand = new ResetFilterCommand(this);
             this.filterPendingOrderCommand = new FilterPendingOrderCommand(this);
             this.filterNameCommand = new FilterNameCommand(this);
@@ -482,11 +485,25 @@ namespace NisanWPF.BusinessLogic
             return target;
         }
 
+        private CommitSvnCommand commitSvnCommand;
+        public CommitSvnCommand CommitSvnCommand { get { return this.commitSvnCommand; } }
         /// <summary>
-        /// TODO: Commit nisan.xml to svn repo.
+        /// Commit nisan.xml to svn repo based on working copy path and authentication.
         /// </summary>
-        public void Commit()
+        /// <remarks>
+        /// See https://sharpsvn.open.collab.net/ using ver 1.6.
+        /// </remarks>
+        public bool Commit()
         {
+            // save to file first
+            SaveToFile("nisan.xml");
+
+            System.Diagnostics.Debug.WriteLine("svn commit nisan.xml -m \"Updating nisan order by NisanWPF.\"");
+            //string url = "https://jawiweb.googlecode.com/svn/trunk/Samples";
+            SvnCommitArgs args = new SvnCommitArgs();
+            args.LogMessage = "Updating nisan order by NisanWPF.";
+            using (SvnClient client = new SvnClient())
+                return client.Commit("nisan.xml", args);//url, args);
         }
 
         /// <summary>
@@ -577,6 +594,26 @@ namespace NisanWPF.BusinessLogic
 
         private nisan manager;
         public GenerateSvgCommand(nisan nisan)
+        {
+            this.manager = nisan;
+        }
+    }
+
+    public class CommitSvnCommand : ICommand
+    {
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public event EventHandler CanExecuteChanged;
+
+        public void Execute(object parameter)
+        {
+            manager.Commit();
+        }
+        private nisan manager;
+        public CommitSvnCommand(nisan nisan)
         {
             this.manager = nisan;
         }
