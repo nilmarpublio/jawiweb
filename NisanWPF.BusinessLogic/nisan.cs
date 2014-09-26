@@ -204,6 +204,32 @@ namespace NisanWPF.BusinessLogic
             this.OnPropertyChanged("totalFound");
         }
 
+        private SortDateCommand sortDateCommand;
+        public SortDateCommand SortDateCommand { get { return this.sortDateCommand; } }
+        public void SortDate()
+        {
+            bool hasAscending = false;
+            foreach (SortDescription sortDesc in this.ordersView.SortDescriptions)
+            {
+                if (sortDesc.PropertyName == "date")
+                    hasAscending = (sortDesc.Direction == ListSortDirection.Ascending);
+            }
+
+            this.ordersView.SortDescriptions.Clear();
+            if (hasAscending)
+            {
+                System.Diagnostics.Debug.WriteLine("SortDate desc");
+                this.ordersView.SortDescriptions.Add(new SortDescription("date", ListSortDirection.Descending));
+            }
+            else
+            {
+                System.Diagnostics.Debug.WriteLine("SortDate asc");
+                this.ordersView.SortDescriptions.Add(new SortDescription("date", ListSortDirection.Ascending));
+            }
+            this.OnPropertyChanged("totalSales");
+            this.OnPropertyChanged("totalFound");
+        }
+
         //private Filter filter;
         //public Filter Filter { get { return this.filter; } set { this.filter = value; } }
 
@@ -224,6 +250,7 @@ namespace NisanWPF.BusinessLogic
             this.filterNameCommand = new FilterNameCommand(this);
             this.sortSoldToCommand = new SortSoldToCommand(this);
             this.sortItemCommand = new SortItemCommand(this);
+            this.sortDateCommand = new SortDateCommand(this);
 
             Calendar = new MuslimCalendar("muslimcal.xml");
         }
@@ -630,6 +657,26 @@ namespace NisanWPF.BusinessLogic
         }
         private nisan manager;
         public SortItemCommand(nisan nisan)
+        {
+            this.manager = nisan;
+        }
+    }
+
+    public class SortDateCommand : ICommand
+    {
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public event EventHandler CanExecuteChanged;
+
+        public void Execute(object parameter)
+        {
+            manager.SortDate();
+        }
+        private nisan manager;
+        public SortDateCommand(nisan nisan)
         {
             this.manager = nisan;
         }
