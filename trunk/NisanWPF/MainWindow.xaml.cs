@@ -37,19 +37,5 @@ namespace NisanWPF
         {
             nisan.SaveToFile("nisan.xml");
         }
-
-        private void CheckBox_Checked(object sender, RoutedEventArgs e)
-        {
-            //nisan.OrdersFilter();
-            if ((sender as CheckBox).IsChecked.Value)
-            {
-                nisan.FilterPendingOrder();
-            }
-        }
-
-        private void ResetButton_Click(object sender, RoutedEventArgs e)
-        {
-            nisan.ResetFilter();
-        }
     }
 }
