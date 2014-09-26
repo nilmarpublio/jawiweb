@@ -9,7 +9,7 @@ namespace NisanWPF.BusinessLogic
 {
     public class FilterRule : System.ComponentModel.INotifyPropertyChanged
     {
-        private string name;
+        protected string name;
         /// <summary>
         /// Gets and sets display name of filter.
         /// </summary>
@@ -34,7 +34,7 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
-        private bool isChecked;
+        protected bool isChecked;
         /// <summary>
         /// Gets and sets value.
         /// </summary>
@@ -65,10 +65,10 @@ namespace NisanWPF.BusinessLogic
                 SetAllFalse(child, except);
         }
 
-        private Filter parent;
+        protected Filter parent;
         public Filter Parent { get { return this.parent; } set { this.parent = value; } }
 
-        private ObservableCollection<FilterRule> children;
+        protected ObservableCollection<FilterRule> children;
         /// <summary>
         /// Gets or sets child rules if has.
         /// </summary>

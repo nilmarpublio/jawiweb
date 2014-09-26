@@ -38,7 +38,7 @@ namespace NisanWPF
             this.DataContext = nisan;
 
             // bind filtering options
-            this.filterList.ItemsSource = new Filter(nisan).Rules;
+            this.filterList.DataContext = new Filter(nisan);
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -48,8 +48,7 @@ namespace NisanWPF
 
         private void ResetButton_Click(object sender, RoutedEventArgs e)
         {
-            foreach (FilterRule rule in (this.filterList.ItemsSource as ObservableCollection<FilterRule>))
-                rule.IsChecked = false;
+            (this.filterList.DataContext as Filter).Reset();
         }
     }
 }

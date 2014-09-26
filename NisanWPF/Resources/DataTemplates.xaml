@@ -74,7 +74,17 @@
             </Grid>
         </DockPanel>
     </DataTemplate>
-    
+
+    <DataTemplate DataType="{x:Type n:FilterDateRule}">
+        <StackPanel Margin="16 0 0 0">
+            <WrapPanel>
+                <CheckBox IsChecked="{Binding IsChecked,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
+                <TextBox Text="{Binding From}" Width="70" />
+            </WrapPanel>
+            <TextBox Text="{Binding To}" Margin="16 0 0 0" Width="70" />
+        </StackPanel>
+    </DataTemplate>
+
     <DataTemplate DataType="{x:Type n:FilterRule}">
         <StackPanel Margin="16 0 0 0">
             <CheckBox Content="{Binding Name}" IsChecked="{Binding IsChecked,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />

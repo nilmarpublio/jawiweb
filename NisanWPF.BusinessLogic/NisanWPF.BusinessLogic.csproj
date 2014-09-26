@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Filter.cs" />
+    <Compile Include="FilterDateRule.cs" />
     <Compile Include="FilterRule.cs" />
     <Compile Include="nisan.cs">
       <DependentUpon>nisan.xsd</DependentUpon>

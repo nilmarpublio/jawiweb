@@ -119,11 +119,14 @@ namespace NisanWPF.BusinessLogic
         /// Custom filtering.
         /// </summary>
         /// <param name="filter"></param>
+        /// <remarks>
+        /// Dependent on Filter.
+        /// </remarks>
         public void Filtering(Filter filter)
         {
             // Refine customer selection filter
             List<string> selectedCustomers = new List<string>();
-            for (int i = 1; i < filter.Rules.Count; i++)
+            for (int i = 1; i < filter.Rules.Count-1; i++)
             {
                 if (filter.Rules[i].IsChecked)
                     selectedCustomers.Add(filter.Rules[i].Name);
