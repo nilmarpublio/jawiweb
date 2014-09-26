@@ -18,6 +18,9 @@ namespace NisanWPF
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// <remarks>
+    /// TODO: Redefine filtering algorithm. Change to combination of delivered, customer, and date range filtering.
+    /// </remarks>
     public partial class MainWindow : Window
     {
         private nisan nisan;
