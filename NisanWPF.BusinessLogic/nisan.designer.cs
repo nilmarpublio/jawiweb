@@ -634,9 +634,7 @@ namespace NisanWPF.BusinessLogic
                         this.nameField = value;
                         this.OnPropertyChanged("name");
                     }
-                    // TODO: Show message of wrong gender of stock
-                    if (!ValidateStock())
-                        this.error = "Please make sure you pick the right stock!";
+
                     ConvertToJawi();
                 }
                 else

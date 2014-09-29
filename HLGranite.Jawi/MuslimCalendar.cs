@@ -266,8 +266,7 @@ namespace HLGranite.Jawi
             }
         }
         /// <summary>
-        /// Convert Muslim date to gregorian date.
-        /// todo
+        /// TODO: Convert Muslim date to gregorian date.
         /// </summary>
         /// <returns></returns>
         public DateTime ReturnGregorianDate()

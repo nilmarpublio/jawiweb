@@ -26,3 +26,7 @@ NisanWPF
 - Requirements: .NET 4.0.
 - [Font Awesome](http://fortawesome.github.io/Font-Awesome/) for Metro-like icon.
 - [SharpSvn](https://sharpsvn.open.collab.net/) as svn api - Must same with the working copy version. ie. 1.6, 1.7 or 1.8.
+
+TODO
+----
+1. Validation tooltip failed to show after integrate watermark which target textbox must set to transparent background in order watermark to work then this cause tooltip failed to show.
