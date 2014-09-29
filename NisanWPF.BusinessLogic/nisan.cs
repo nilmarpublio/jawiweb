@@ -97,6 +97,16 @@ namespace NisanWPF.BusinessLogic
             }
         }
 
+        /// <summary>
+        /// Filter soldto customer.
+        /// </summary>
+        /// <param name="customers"></param>
+        /// <param name="isPending"></param>
+        /// <param name="from"></param>
+        /// <param name="to"></param>
+        /// <remarks>
+        /// TODO: Combine all filter methods into one.
+        /// </remarks>
         public void FilterSoldTo(string[] customers, bool isPending, DateTime from, DateTime to)
         {
             if (isPending)
@@ -264,9 +274,6 @@ namespace NisanWPF.BusinessLogic
             this.OnPropertyChanged("totalFound");
         }
 
-        //private Filter filter;
-        //public Filter Filter { get { return this.filter; } set { this.filter = value; } }
-
         /// <summary>
         /// nisan class constructor
         /// </summary>
@@ -345,15 +352,27 @@ namespace NisanWPF.BusinessLogic
             string file = "Output" + System.IO.Path.DirectorySeparatorChar + order.name + ".svg";
             if (System.IO.File.Exists(file))
             {
-                string appPath = "\"C:\\Program Files (x86)\\Inkscape\\inkscape\"";
+                // Inkscape installed path not same at different computer.
+                string filePath = @"C:\Program Files\Inkscape\inkscape.exe";
+                if (System.IO.File.Exists(filePath))
+                    filePath = "\"" + filePath + "\"";
+                else
+                {
+                    filePath = filePath.Replace("Program Files", "Program Files (x86)");
+                    if (System.IO.File.Exists(filePath))
+                        filePath = "\"" + filePath + "\"";
+                    else
+                        return;
+                }
+
                 Process process = new Process();
                 ProcessStartInfo startInfo = new ProcessStartInfo();
-                startInfo.WindowStyle = ProcessWindowStyle.Hidden;
-                startInfo.FileName = appPath;
+                //startInfo.WindowStyle = ProcessWindowStyle.Hidden;
+                startInfo.FileName = filePath;
                 startInfo.Arguments = "\"" + file + "\"";
                 process.StartInfo = startInfo;
                 process.Start();
-                System.Diagnostics.Debug.WriteLine(appPath + " " + startInfo.Arguments);
+                System.Diagnostics.Debug.WriteLine(filePath + " " + startInfo.Arguments);
             }
             else
             {
@@ -483,6 +502,13 @@ namespace NisanWPF.BusinessLogic
             target.age = source.age;
 
             return target;
+        }
+
+        /// <summary>
+        /// TODO: Mark done with delivery date or parcel no.
+        /// </summary>
+        public void MarkDone(DateTime delivery, string remarks)
+        {
         }
 
         private CommitSvnCommand commitSvnCommand;
