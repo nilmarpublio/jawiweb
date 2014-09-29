@@ -91,7 +91,8 @@ namespace NisanWPF.BusinessLogic
             System.Diagnostics.Debug.WriteLine("SetPrice");
             if (this.itemField.Contains("PV")) this.priceField = 35;
             if (this.itemField.Contains("PA")) this.priceField = 35;
-            if (this.itemField.ToLower().Contains("sticker")) this.priceField = 12;
+            if (this.itemField.ToLower().Contains("sticker(l)")) this.priceField = 12;
+            if (this.itemField.ToLower().Contains("sticker(p)")) this.priceField = 12;
             if (this.itemField.ToLower().Contains("batik")) this.priceField = 250;
             if (this.itemField.ToLower().Contains("putih")) this.priceField = 250;
             if (this.itemField.ToLower().Contains("hitam")) this.priceField = 350;
