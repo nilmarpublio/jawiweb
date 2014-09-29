@@ -30,8 +30,8 @@
                 
                 <Grid.ToolTip>
                     <MultiBinding Converter="{StaticResource NisanToolTipConverter}">
-                        <Binding Path="date" />
-                        <Binding Path="remarks" />
+                        <Binding Path="date" UpdateSourceTrigger="PropertyChanged" />
+                        <Binding Path="remarks" UpdateSourceTrigger="PropertyChanged" />
                     </MultiBinding>
                 </Grid.ToolTip>
                 <DockPanel Grid.Row="0">
