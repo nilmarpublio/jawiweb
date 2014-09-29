@@ -30,7 +30,7 @@
                     <Button ToolTip="Save" Command="{Binding CommitSvnCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button ToolTip="Generate" Command="{Binding GenerateSvgCommand}" CommandParameter="{Binding Path=SelectedItems,ElementName=listView}" Style="{StaticResource InkscapeMetroButton}" />
                     <Button ToolTip="Cut" Style="{StaticResource KnifeMetroButton}" />
-                    <Button ToolTip="Mark done" Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button ToolTip="Mark done" Content="" Style="{StaticResource MetroButtonStyle}" Click="DoneButton_Click" />
                     <Button ToolTip="Print" Content="" Style="{StaticResource MetroButtonStyle}" />
                 </StackPanel>
                 <DockPanel DockPanel.Dock="Bottom">

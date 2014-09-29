@@ -68,6 +68,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Resources\BorderlessDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoneDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Resources\BorderlessWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -91,6 +99,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Resources\BorderlessDialog.xaml.cs">
+      <DependentUpon>BorderlessDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoneDialog.xaml.cs">
+      <DependentUpon>DoneDialog.xaml</DependentUpon>
     </Compile>
     <Compile Include="Resources\BorderlessWindow.xaml.cs">
       <DependentUpon>BorderlessWindow.xaml</DependentUpon>

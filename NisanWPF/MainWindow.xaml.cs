@@ -50,5 +50,17 @@ namespace NisanWPF
         {
             (this.filterList.DataContext as Filter).Reset();
         }
+
+        private void DoneButton_Click(object sender, RoutedEventArgs e)
+        {
+            DoneDialog dialog = new DoneDialog();
+            dialog.Owner = this;
+
+            ObservableCollection<nisanOrder> orders = new ObservableCollection<nisanOrder>();
+            foreach (nisanOrder order in listView.SelectedItems)
+                orders.Add(order);
+            dialog.DataContext = orders;// listView.SelectedItems as ObservableCollection<nisanOrder>;
+            dialog.Show();
+        }
     }
 }
