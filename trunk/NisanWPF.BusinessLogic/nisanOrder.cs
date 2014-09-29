@@ -147,6 +147,13 @@ namespace NisanWPF.BusinessLogic
             get
             {
                 this.error = null;
+                if ("name" == columnName)
+                {
+                    // Show message of wrong gender of stock
+                    if (!ValidateStock())
+                        this.error = "Please make sure you pick the right stock!";
+                }
+
                 if ("death" == columnName)
                 {
                     if (this.death != null)
