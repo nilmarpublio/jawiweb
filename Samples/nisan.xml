@@ -15454,4 +15454,57 @@
     <deathm>1435-07-19</deathm>
     <item>2' Batu Putih(P)</item>
   </order>
+  <order soldto="HAM" date="2014-09-29" delivered="" price="12">
+    <name>lailee bt chain</name>
+    <jawi>ليلي بنت چين</jawi>
+    <death>2014-09-11</death>
+    <deathm>1435-11-16</deathm>
+    <age>63</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-09-29" delivered="" price="12">
+    <name>mohd yusuf bin m. ismail</name>
+    <jawi>محمد يوسف بن ايم،إسماعيل</jawi>
+    <death>2014-08-05</death>
+    <deathm>1435-10-09</deathm>
+    <age>61</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-09-29" delivered="" price="12">
+    <name>mohd said bin ali</name>
+    <jawi>محمد سعيد بن علي</jawi>
+    <death>1998-04-30</death>
+    <deathm>1419-01-03</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-09-29" delivered="" price="12">
+    <name>adrian bin mohd azhar</name>
+    <jawi>أدريان بن محمد ازهار</jawi>
+    <death>2014-03-02</death>
+    <deathm>1435-04-30</deathm>
+    <age>1</age>
+    <item>1½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-09-29" delivered="" price="12">
+    <name>hjh che piah bt ismail</name>
+    <jawi>حجه چئ فياه بنت إسماعيل</jawi>
+    <death>2014-09-16</death>
+    <deathm>1435-11-21</deathm>
+    <age>81</age>
+    <item>2½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-09-29" delivered="" price="12">
+    <name>osman bin abdullah</name>
+    <jawi>عسمن بن عبدالله</jawi>
+    <death>2014-09-22</death>
+    <deathm>1435-11-27</deathm>
+    <age>73</age>
+    <item>2½' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-09-29" delivered="" price="12">
+    <name>ayananda tersayang</name>
+    <jawi>ترسايڠ ترسايڠ</jawi>
+    <death />
+    <item>5½" Sticker</item>
+  </order>
 </nisan>
