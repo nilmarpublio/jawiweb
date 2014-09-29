@@ -505,10 +505,15 @@ namespace NisanWPF.BusinessLogic
         }
 
         /// <summary>
-        /// TODO: Mark done with delivery date or parcel no.
+        /// Mark done with delivery date or parcel no.
         /// </summary>
-        public void MarkDone(DateTime delivery, string remarks)
+        public void MarkDone(nisanOrder order, DateTime delivery, string remarks)
         {
+            System.Diagnostics.Debug.WriteLine("Marking done");
+            order.delivered = delivery.ToString("yyyy-MM-dd");
+            order.OnPropertyChanged("hasDeliver");
+            if (!string.IsNullOrEmpty(remarks))
+                order.remarks += remarks;
         }
 
         private CommitSvnCommand commitSvnCommand;
@@ -640,6 +645,35 @@ namespace NisanWPF.BusinessLogic
         }
         private nisan manager;
         public CommitSvnCommand(nisan nisan)
+        {
+            this.manager = nisan;
+        }
+    }
+
+    public class MarkDoneCommand : ICommand
+    {
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public event EventHandler CanExecuteChanged;
+        public void Execute(object parameter)
+        {
+            //if (parameter is nisanOrder)
+            //    this.manager.MarkDone((nisanOrder)parameter);
+            //else if (parameter is ObservableCollection<object>)
+            //{
+            //    for (int i = (parameter as ObservableCollection<object>).Count - 1; i >= 0; i--)
+            //    {
+            //        nisanOrder order = (parameter as ObservableCollection<object>)[i] as nisanOrder;
+            //        this.manager.MarkDone(order);
+            //    }
+            //}
+        }
+
+        private nisan manager;
+        public MarkDoneCommand(nisan nisan)
         {
             this.manager = nisan;
         }

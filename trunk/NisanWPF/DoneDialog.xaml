@@ -1,0 +1,27 @@
+﻿<Window x:Class="NisanWPF.DoneDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Style="{StaticResource BorderlessDialog}"
+        Title="Dialog" Height="300" Width="300" WindowStartupLocation="CenterOwner">
+    <DockPanel LastChildFill="True">
+        <WrapPanel DockPanel.Dock="Bottom" HorizontalAlignment="Center">
+            <Button Content="OK" Width="60" Style="{StaticResource MetroConfirmButtonStyle}" Click="ConfirmButton_Click" />
+        </WrapPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            
+            <TextBlock Text="Delivery" Grid.Row="0" Grid.Column="0" />
+            <TextBox x:Name="DeliveryDate" Margin="4 0 0 0" Grid.Row="0" Grid.Column="1" />
+            <TextBlock Text="Remarks" Grid.Row="1" Grid.Column="0" />
+            <TextBox x:Name="RemarksTextBox" Margin="4 0 0 0" Grid.Row="1" Grid.Column="1" />
+
+        </Grid>
+    </DockPanel>
+</Window>
