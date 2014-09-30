@@ -29,6 +29,7 @@ NisanWPF
 
 TODO
 ----
-1. Validation tooltip failed to show after integrate watermark which target textbox must set to transparent background in order watermark to work then this cause tooltip failed to show.
+1. [Bug] Validation tooltip failed to show after integrate watermark which target textbox must set to transparent background in order watermark to work then this cause tooltip failed to show.
 2. Right click to add specified remarks on single nisan order.
 3. Date picker for filtering date range.
+4. [Enhancement] Custom searchbox with cross and search button inside textbox.
