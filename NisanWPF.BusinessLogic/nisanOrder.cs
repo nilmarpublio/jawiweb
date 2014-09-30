@@ -86,6 +86,9 @@ namespace NisanWPF.BusinessLogic
 
             return true;
         }
+        /// <summary>
+        /// Automate price value after picked stock type.
+        /// </summary>
         private void SetPrice()
         {
             System.Diagnostics.Debug.WriteLine("SetPrice");
@@ -93,6 +96,8 @@ namespace NisanWPF.BusinessLogic
             if (this.itemField.Contains("PA")) this.priceField = 35;
             if (this.itemField.ToLower().Contains("sticker(l)")) this.priceField = 12;
             if (this.itemField.ToLower().Contains("sticker(p)")) this.priceField = 12;
+            if (this.itemField.ToLower().Contains("tarazo(l)")) this.priceField = 12; // rare case
+            if (this.itemField.ToLower().Contains("tarazo(p)")) this.priceField = 12;
             if (this.itemField.ToLower().Contains("batik")) this.priceField = 250;
             if (this.itemField.ToLower().Contains("putih")) this.priceField = 250;
             if (this.itemField.ToLower().Contains("hitam")) this.priceField = 350;
