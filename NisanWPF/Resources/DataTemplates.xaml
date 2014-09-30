@@ -48,7 +48,8 @@
                     <Grid Background="{StaticResource WatermarkBackgroundBrush}">
                         <TextBlock Text="item" FontSize="24" Style="{StaticResource WatermarkStyle}" Visibility="{Binding ElementName=ItemTextBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
                         <TextBox x:Name="ItemTextBox" FontSize="24" TabIndex="2" Text="{Binding item,ValidatesOnDataErrors=True,UpdateSourceTrigger=LostFocus}"
-                            Foreground="{Binding item,Converter={StaticResource StockColorConverter},UpdateSourceTrigger=PropertyChanged}" />
+                            Foreground="{Binding item,Converter={StaticResource StockColorConverter},UpdateSourceTrigger=PropertyChanged}"
+                            ToolTip="{Binding price,Converter={StaticResource LocalCurrencyConverter},UpdateSourceTrigger=PropertyChanged}" />
                     </Grid>
                 </DockPanel>
                 <DockPanel Grid.Row="1">
