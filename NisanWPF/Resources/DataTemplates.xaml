@@ -1,5 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:w="http://schemas.microsoft.com/wpf/2008/toolkit"
                     xmlns:n="clr-namespace:NisanWPF.BusinessLogic;assembly=NisanWPF.BusinessLogic">
     <DataTemplate DataType="{x:Type n:nisanOrder}">
         <DockPanel LastChildFill="True" Margin="2">
@@ -87,8 +88,8 @@
     <DataTemplate DataType="{x:Type n:FilterDateRule}">
         <StackPanel Margin="16 0 0 0">
             <CheckBox Content="{Binding Name}" IsChecked="{Binding IsChecked,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
-            <TextBox Text="{Binding From}" Margin="16 0 0 0" Width="70" />
-            <TextBox Text="{Binding To}" Margin="16 0 0 0" Width="70" />
+            <w:DatePicker Margin="16 0 0 0" Width="100" SelectedDate="{Binding From,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
+            <w:DatePicker Margin="16 0 0 0" Width="100" SelectedDate="{Binding To,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
         </StackPanel>
     </DataTemplate>
 
