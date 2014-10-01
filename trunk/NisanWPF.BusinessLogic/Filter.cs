@@ -34,6 +34,8 @@ namespace NisanWPF.BusinessLogic
 
             // add date selection
             FilterDateRule dateRule = new FilterDateRule();
+            DateTime from = new DateTime(DateTime.Today.Year, DateTime.Today.Month, 1);
+            dateRule.From = from;
             dateRule.Parent = this;
             this.Rules.Add(dateRule);
         }
