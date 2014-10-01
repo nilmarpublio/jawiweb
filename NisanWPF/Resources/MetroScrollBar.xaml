@@ -1,7 +1,8 @@
 ﻿<!-- Source from https://github.com/0xdeafcafe/MetroWPFTemplate/blob/master/Metro%20WPF%20Template/Metro/Controls/MetroScrollBar.xaml -->
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    
+
+    <SolidColorBrush x:Key="ApplicationAccentBrushSecondary" x:Name="ApplicationAccentBrushSecondary" Color="#1D98EB"/>
     <SolidColorBrush x:Key="StandardBorderBrush" Color="#888" />
     <SolidColorBrush x:Key="StandardBackgroundBrush" Color="#FFF" />
     <SolidColorBrush x:Key="HoverBorderBrush" Color="#DDD" />
