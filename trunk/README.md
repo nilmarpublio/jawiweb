@@ -35,3 +35,4 @@ TODO
 4. [Enhancement] Custom searchbox with cross and search button inside textbox.
 5. Add manual save button instead of exit only save. This to prevent data lost if hang.
 6. Windows size buttons align top or adjust to same height with search box to look better?
+7. Custom metro style scrollbar.
