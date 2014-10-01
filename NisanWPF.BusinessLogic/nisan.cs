@@ -288,6 +288,7 @@ namespace NisanWPF.BusinessLogic
             this.createOrderCommand = new CreateOrderCommand(this);
             this.removeOrderCommand = new RemoveOrderCommand(this);
             this.generateSvgCommand = new GenerateSvgCommand(this);
+            this.saveCommand = new SaveCommand(this);
             this.commitSvnCommand = new CommitSvnCommand(this);
             this.resetFilterCommand = new ResetFilterCommand(this);
             this.filterPendingOrderCommand = new FilterPendingOrderCommand(this);
@@ -516,6 +517,14 @@ namespace NisanWPF.BusinessLogic
                 order.remarks += remarks;
         }
 
+        private SaveCommand saveCommand;
+        public SaveCommand SaveCommand { get { return this.saveCommand; } }
+        public void Save()
+        {
+            System.Diagnostics.Debug.WriteLine("Save");
+            SaveToFile("nisan.xml");
+        }
+
         private CommitSvnCommand commitSvnCommand;
         public CommitSvnCommand CommitSvnCommand { get { return this.commitSvnCommand; } }
         /// <summary>
@@ -625,6 +634,26 @@ namespace NisanWPF.BusinessLogic
 
         private nisan manager;
         public GenerateSvgCommand(nisan nisan)
+        {
+            this.manager = nisan;
+        }
+    }
+
+    public class SaveCommand : ICommand
+    {
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public event EventHandler CanExecuteChanged;
+
+        public void Execute(object parameter)
+        {
+            manager.Save();
+        }
+        private nisan manager;
+        public SaveCommand(nisan nisan)
         {
             this.manager = nisan;
         }
