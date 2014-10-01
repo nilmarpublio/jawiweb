@@ -53,5 +53,12 @@ namespace NisanWPF
             Window window = (sender as FrameworkElement).TemplatedParent as Window;
             window.Close();
         }
+
+        private void CrossButton_Click(object sender, RoutedEventArgs e)
+        {
+            TextBox textBox = (((sender as FrameworkElement).Parent as WrapPanel).Parent as Grid)
+                .FindName("searchBox") as TextBox;
+            textBox.Text = string.Empty;
+        }
     }
 }
