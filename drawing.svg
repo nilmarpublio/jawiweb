@@ -181,9 +181,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.0141441"
-     inkscape:cx="128.74096"
-     inkscape:cy="985.654"
+     inkscape:zoom="1.635485"
+     inkscape:cx="210.01476"
+     inkscape:cy="938.23422"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -389,5 +389,29 @@
        style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m -68.112431,83.465963 30.359446,0 0,5.519891 -30.359446,0 z m 6.616462,-9.305854 0,7.93485 17.077191,0 0,-7.93485 -17.077191,0 z m 0,16.214695 0,21.648346 17.077191,-12.592276 0,-9.05607 -17.077191,0 z"
        inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:none"
+       id="path3038"
+       sodipodi:cx="125.61167"
+       sodipodi:cy="192.44357"
+       sodipodi:rx="36.243683"
+       sodipodi:ry="36.243683"
+       d="m 161.85535,192.44357 a 36.243683,36.243683 0 1 1 -72.487361,0 36.243683,36.243683 0 1 1 72.487361,0 z"
+       transform="matrix(0.88291248,0,0,0.88291248,-12.871098,-1.0269502)" />
+    <path
+       inkscape:export-ydpi="89.440002"
+       inkscape:export-xdpi="89.440002"
+       id="path3036"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 78.943262,156.77882 38.179508,0 0,6.94172 -38.179508,0 z m 8.320754,-11.70287 0,9.97872 21.475974,0 0,-9.97872 -21.475974,0 z m 0,20.39131 0,27.22456 21.475974,-15.83581 0,-11.38875 -21.475974,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 0,152.61359 51.316683,0 0,9.33029 -51.316683,0 z m 11.18384,-15.72971 0,13.41229 28.865635,0 0,-13.41229 -28.865635,0 z m 0,27.40775 0,36.59225 28.865635,-21.28475 0,-15.3075 -28.865635,0 z"
+       style="color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3808"
+       inkscape:export-xdpi="89.444595"
+       inkscape:export-ydpi="89.444595" />
   </g>
 </svg>
