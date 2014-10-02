@@ -36,3 +36,7 @@ TODO
 5. [Done] Add manual save button instead of exit only save. This to prevent data lost if hang.
 6. [Done] Windows size buttons align top or adjust to same height with search box to look better?
 7. [Done] Custom metro style scrollbar.
+
+Reference
+-----------
+- [Icoconverter](http://www.icoconverter.com/)
