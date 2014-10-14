@@ -15650,4 +15650,47 @@
     <deathm>1435-09-28</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
+  <order soldto="ADI" date="2014-10-06" delivered="" price="35">
+    <name>hj muhammad fasha bin md jaafar (along)</name>
+    <jawi>حاج جعفر جعفر بن مد جعفر</jawi>
+    <death>2013-11-02</death>
+    <deathm>1434-12-28</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="SEL" date="2014-10-14" delivered="" price="250">
+    <name>muhamad zawawi bin zabidi</name>
+    <jawi>زبيدي زاؤاوي بن زبيدي</jawi>
+    <born>1985-09-11</born>
+    <death>2014-08-17</death>
+    <deathm>1435-10-21</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEL" date="2014-10-14" delivered="" price="250">
+    <name>che dan bin che mat</name>
+    <jawi>چئ ضن بن چئ مت</jawi>
+    <born>1926-01-19</born>
+    <death>2013-07-07</death>
+    <deathm>1434-08-28</deathm>
+    <item>2' Batu Putih(L)</item>
+  </order>
+  <order soldto="SEL" date="2014-10-14" delivered="" price="250">
+    <name>norsitah bt yahaya</name>
+    <jawi>يحي بنت يحيي</jawi>
+    <death>2014-10-05</death>
+    <deathm>1435-12-10</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="SEL" date="2014-10-14" delivered="" price="250">
+    <name>choon bt Hariffin</name>
+    <jawi>هاريففين بنت هاريففين</jawi>
+    <born>1935-04-14</born>
+    <death>2014-07-17</death>
+    <deathm>1435-09-19</deathm>
+    <item>2' Batu Putih(P)</item>
+  </order>
+  <order soldto="SEL" date="2014-10-14" delivered="" price="150">
+    <name />
+    <death />
+    <item>2' Batu Putih(L)</item>
+  </order>
 </nisan>
