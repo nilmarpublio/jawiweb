@@ -15555,7 +15555,7 @@
     <item>PV</item>
     <remarks>EF435643735MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-10-07" delivered="2014-10-13" price="35">
+  <order soldto="ADI" date="2014-10-07" delivered="" price="35">
     <name>som bt ibrahim</name>
     <jawi>سوم بنت إبراهيم</jawi>
     <death />
@@ -15660,14 +15660,14 @@
   </order>
   <order soldto="SEL" date="2014-10-14" delivered="" price="250">
     <name>norsitah bt yahaya</name>
-    <jawi>يحي بنت يحيي</jawi>
+    <jawi>نورسطة بنت يحيي</jawi>
     <death>2014-10-05</death>
     <deathm>1435-12-10</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
   <order soldto="SEL" date="2014-10-14" delivered="" price="250">
     <name>choon bt Hariffin</name>
-    <jawi>هاريففين بنت هاريففين</jawi>
+    <jawi>چون بنت هاريففين</jawi>
     <born>1935-04-14</born>
     <death>2014-07-17</death>
     <deathm>1435-09-19</deathm>
@@ -15695,17 +15695,88 @@
   </order>
   <order soldto="ADI" date="2014-10-16" delivered="" price="35">
     <name> kesom bt bajuri</name>
-    <jawi>باجوري باجوري بنت باجُري</jawi>
+    <jawi>كسوم بنت باجُري</jawi>
     <death>2014-06-20</death>
     <deathm>1435-08-22</deathm>
     <item>PV</item>
   </order>
   <order soldto="ADI" date="2014-10-16" delivered="" price="35">
     <name>hapipah bt mat rawi</name>
-    <jawi>راوي بنت مت راوي</jawi>
+    <jawi>حفيفه بنت مت راوي</jawi>
     <born>1940-10-07</born>
     <death>2014-10-11</death>
     <deathm>1435-12-16</deathm>
     <item>PV</item>
+  </order>
+  <order soldto="HAM" date="2014-10-17" delivered="" price="12">
+    <name>pawan teh bin pawan chee</name>
+    <jawi>فاؤن تيه بن فاؤن چئ</jawi>
+    <death>2014-09-20</death>
+    <deathm>1435-11-25</deathm>
+    <age>71</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-10-17" delivered="" price="12">
+    <name>zainab bt ismail</name>
+    <jawi>زاينب بنت إسماعيل</jawi>
+    <death>2014-09-24</death>
+    <deathm>1435-11-29</deathm>
+    <age>62</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-10-17" delivered="" price="12">
+    <name>shaari bin mahmud</name>
+    <jawi>شعري بن محمود</jawi>
+    <death>1992-03-31</death>
+    <deathm>1412-09-26</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-10-17" delivered="" price="12">
+    <name>kechil bt awang</name>
+    <jawi>کچيل بنت أواڠ</jawi>
+    <death>2002-12-25</death>
+    <deathm>1423-10-21</deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-10-17" delivered="" price="12">
+    <name>hj aziz bin mohd ibrahim</name>
+    <jawi>حاج عزيز بن محمد إبراهيم</jawi>
+    <born>1922-12-01</born>
+    <death>1995-12-05</death>
+    <deathm>1416-07-12</deathm>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-10-17" delivered="" price="12">
+    <name>hjh wanchik bt hj s.m. zainul abidin</name>
+    <jawi>حجه وانچيك بنت حاج اس،ايم، زنيالعبدين</jawi>
+    <death>2014-09-27</death>
+    <deathm>1435-12-02</deathm>
+    <age>85</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-10-17" delivered="" price="12">
+    <name>putri nurfaiz bt megat ariffin</name>
+    <jawi>فوترنورفأيز بنت مگت عريفين</jawi>
+    <born>1990-12-14</born>
+    <death>2014-09-06</death>
+    <deathm>1435-11-11</deathm>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-10-17" delivered="" price="12">
+    <name>azman bin bahari</name>
+    <jawi>أزمان بن بهاري</jawi>
+    <death>2014-10-12</death>
+    <deathm>1435-12-17</deathm>
+    <age>43</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-10-17" delivered="" price="12">
+    <name>hj noordin bin mohammed</name>
+    <jawi>حاج نوردين بن محمد</jawi>
+    <born>1943-05-23</born>
+    <death>2014-10-15</death>
+    <deathm>1435-12-20</deathm>
+    <age>71</age>
+    <item>2' Sticker(L)</item>
   </order>
 </nisan>
