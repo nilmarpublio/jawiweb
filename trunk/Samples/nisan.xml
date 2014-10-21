@@ -15447,7 +15447,7 @@
     <item>PA</item>
     <remarks>EF531891805MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-09-26" delivered="2014-10-11" price="250">
+  <order soldto="ADI" date="2014-09-26" delivered="2014-10-11" price="280">
     <name>hjh fatimah bt hamzah</name>
     <jawi>حجه فطمة بنت حمزة</jawi>
     <born>1931-08-17</born>
@@ -15679,7 +15679,7 @@
     <death />
     <item>2' Batu Putih(L)</item>
   </order>
-  <order soldto="ADI" date="2014-10-16" delivered="" price="250">
+  <order soldto="ADI" date="2014-10-16" delivered="" price="280">
     <name>md lazim bin saad</name>
     <jawi>مد لازيم بن سعد</jawi>
     <death>2014-03-23</death>
@@ -15782,5 +15782,13 @@
     <deathm>1435-12-20</deathm>
     <age>71</age>
     <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="ADI" date="2014-10-21" delivered="" price="250">
+    <name>ramli bin abdul hamid</name>
+    <jawi>رماي بن عبدول حميد</jawi>
+    <born>1945-08-02</born>
+    <death>2014-09-03</death>
+    <deathm>1435-11-08</deathm>
+    <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
