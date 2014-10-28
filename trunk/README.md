@@ -38,6 +38,9 @@ TODO
 7. [DONE] Custom metro style scrollbar.
 8. [BUG] Jawi lookup local dictionary first then only search through web.
 9. [DONE] SvgCut logo stretched.
+10. [ENHANCE] Cut checkbox hard to tick.
+11. [BUG] Jawi translation compute wrongly. First and last word are same.
+12. [ENHANCE] Extract Muje.Windows.Controls.dll for all WPF style and controls.
 
 Reference
 -----------
