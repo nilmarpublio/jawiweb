@@ -11,7 +11,7 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Window}">
-                    <Border Background="White" BorderThickness="0" BorderBrush="Gray">
+                    <Border Background="White" BorderThickness="1" BorderBrush="Gray">
                         <Border.Effect>
                             <DropShadowEffect BlurRadius="50" Direction="-90" RenderingBias="Quality" ShadowDepth="0"/>
                         </Border.Effect>
@@ -25,7 +25,7 @@
                                     <Grid Background="{StaticResource WatermarkBackgroundBrush}">
                                         <TextBlock Text="Search name" Margin="4 8 0 0" Style="{StaticResource WatermarkStyle}"
                                                    Visibility="{Binding ElementName=searchBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
-                                        <TextBox x:Name="searchBox" Height="24" Width="150" Background="Transparent">
+                                        <TextBox x:Name="searchBox" Height="24" Width="150" Style="{StaticResource TransparentBox}">
                                             <TextBox.InputBindings>
                                                 <KeyBinding Key="Return"
                                                         Command="{Binding DataContext.FilterNameCommand,RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type Window}}}"
