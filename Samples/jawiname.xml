@@ -3440,8 +3440,8 @@
   </rootname>
   <rootname>
     <rumi>endon</rumi>
-    <jawi />
-    <sex>0</sex>
+    <jawi>اندون</jawi>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>endot</rumi>
@@ -5611,7 +5611,7 @@
   <rootname>
     <rumi>indon</rumi>
     <jawi>اندون</jawi>
-    <sex>0</sex>
+    <sex>1</sex>
   </rootname>
   <rootname>
     <rumi>indra</rumi>
