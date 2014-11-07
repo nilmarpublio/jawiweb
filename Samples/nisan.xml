@@ -15923,4 +15923,28 @@
     <deathm>1434-07-17</deathm>
     <item>PV</item>
   </order>
+  <order soldto="ADI" date="2014-11-07" delivered="" price="250">
+    <name>rokiah bt lambak</name>
+    <jawi>روكيه بنت لمبق</jawi>
+    <born>1956-10-23</born>
+    <death>2014-08-03</death>
+    <deathm>1435-10-07</deathm>
+    <item>2' Batu Putih(P)</item>
+  </order>
+  <order soldto="ADI" date="2014-11-07" delivered="" price="35">
+    <name>musa bin ichek</name>
+    <jawi>موسا بن عشق</jawi>
+    <born>1943-09-01</born>
+    <death>1995-12-10</death>
+    <deathm>1416-07-18</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-11-07" delivered="" price="35">
+    <name>norazni fariha bt musa</name>
+    <jawi>نورازني بنت موسا</jawi>
+    <born>1987-04-12</born>
+    <death>1999-10-23</death>
+    <deathm>1420-07-14</deathm>
+    <item>PV</item>
+  </order>
 </nisan>
