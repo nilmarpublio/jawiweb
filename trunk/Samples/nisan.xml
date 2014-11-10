@@ -15751,7 +15751,7 @@
     <deathm>1416-07-12</deathm>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-10-17" delivered="" price="12">
+  <order soldto="HAM" date="2014-10-17" delivered="2014-11-10" price="12">
     <name>hjh wanchik bt hj s.m. zainul abidin</name>
     <jawi>حجه وانچيك بنت حاج اس،ايم، زنيالعبدين</jawi>
     <death>2014-09-27</death>
@@ -15892,36 +15892,37 @@
     <age>68</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="ADI" date="2014-11-03" delivered="" price="35">
+  <order soldto="ADI" date="2014-11-03" delivered="2014-11-10" price="35">
     <name>asiah bt hamzah</name>
     <jawi>أسيه بنت حمزة</jawi>
     <death>2014-10-03</death>
     <deathm>1435-12-08</deathm>
     <item>PV</item>
-    <remarks>tulisan emas</remarks>
+    <remarks>tulisan emasEF578090395MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-11-03" delivered="" price="35">
+  <order soldto="ADI" date="2014-11-03" delivered="2014-11-10" price="35">
     <name>hatijah bt dahaman</name>
     <jawi>حاتيجه بنت دهامان</jawi>
     <death>1981-05-01</death>
     <deathm>1401-06-27</deathm>
     <item>PV</item>
-    <remarks>tulisan emas</remarks>
+    <remarks>tulisan emasEF578090395MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-11-03" delivered="" price="35">
+  <order soldto="ADI" date="2014-11-03" delivered="2014-11-10" price="35">
     <name>musa bin ibrahim</name>
     <jawi>موسا بن إبراهيم</jawi>
     <death>2004-07-11</death>
     <deathm>1425-05-23</deathm>
     <item>PV Egg</item>
-    <remarks>tulisan emas</remarks>
+    <remarks>tulisan emasEF578090395MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-11-03" delivered="" price="35">
+  <order soldto="ADI" date="2014-11-03" delivered="2014-11-10" price="35">
     <name>jamaliah bt mingan</name>
     <jawi>جمالية  بنت ميڠن</jawi>
     <death>2013-05-27</death>
     <deathm>1434-07-17</deathm>
     <item>PV</item>
+    <remarks>EF578090395MY</remarks>
   </order>
   <order soldto="ADI" date="2014-11-07" delivered="" price="250">
     <name>rokiah bt lambak</name>
@@ -15931,23 +15932,25 @@
     <deathm>1435-10-07</deathm>
     <item>2' Batu Putih(P)</item>
   </order>
-  <order soldto="ADI" date="2014-11-07" delivered="" price="35">
+  <order soldto="ADI" date="2014-11-07" delivered="2014-11-10" price="35">
     <name>musa bin ichek</name>
     <jawi>موسا بن عشق</jawi>
     <born>1943-09-01</born>
     <death>1995-12-10</death>
     <deathm>1416-07-18</deathm>
     <item>PV Egg</item>
+    <remarks>EF578090395MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-11-07" delivered="" price="35">
+  <order soldto="ADI" date="2014-11-07" delivered="2014-11-10" price="35">
     <name>norazni fariha bt musa</name>
-    <jawi>نورازني بنت موسا</jawi>
+    <jawi>نورازني فاريهابنت موسا</jawi>
     <born>1987-04-12</born>
     <death>1999-10-23</death>
     <deathm>1420-07-14</deathm>
     <item>PV</item>
+    <remarks>EF578090395MY</remarks>
   </order>
-  <order soldto="HAM" date="2014-11-07" delivered="" price="12">
+  <order soldto="HAM" date="2014-11-07" delivered="2014-11-10" price="12">
     <name>omar bin kassim</name>
     <jawi>عمر بن قاسيم</jawi>
     <death>2014-10-23</death>
@@ -15955,7 +15958,7 @@
     <age>56</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-11-07" delivered="" price="12">
+  <order soldto="HAM" date="2014-11-07" delivered="2014-11-10" price="12">
     <name>ramlah bt sulaiman</name>
     <jawi>رملة بنت سُليمان</jawi>
     <death>2014-10-01</death>
@@ -15963,7 +15966,7 @@
     <age>86</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-11-07" delivered="" price="12">
+  <order soldto="HAM" date="2014-11-07" delivered="2014-11-10" price="12">
     <name>hjh endon bt yahaya</name>
     <jawi>حجه اندون بنت يحيي</jawi>
     <death>2014-10-24</death>
@@ -15971,14 +15974,14 @@
     <age>79</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-11-07" delivered="" price="12">
-    <name>abd rashidin shaik mohd saleh bin shaik ahmad almakawi</name>
+  <order soldto="HAM" date="2014-11-07" delivered="2014-11-10" price="12">
+    <name>abd rashid shaik mohd saleh bin shaik ahmad almakawi</name>
     <jawi>عبدالراشيد ين شيخ محمد صالح بن شيخ احمد المكاوي</jawi>
     <death />
     <item>2' Sticker(L)</item>
-	<remarks>jawi saja</remarks>
+    <remarks>jawi saja</remarks>
   </order>
-  <order soldto="HAM" date="2014-11-07" delivered="" price="12">
+  <order soldto="HAM" date="2014-11-07" delivered="2014-11-10" price="12">
     <name>amir razif arief bin jamil abdullah</name>
     <jawi>أمير رازيف عريف بن جميل عبدالله</jawi>
     <death>2014-11-03</death>
