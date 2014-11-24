@@ -15636,7 +15636,7 @@
     <deathm>1435-10-24</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2014-10-13" delivered="" price="250">
+  <order soldto="SEM" date="2014-10-13" delivered="2014-11-23" price="250">
     <name>abd hamid bin hadaitullah</name>
     <jawi>عبدال حميد بن هادايت الله</jawi>
     <death>2014-07-26</death>
@@ -16052,21 +16052,21 @@
     <deathm>1407-08-11</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="KEN" date="2014-11-17" delivered="" price="250">
+  <order soldto="KEN" date="2014-11-17" delivered="2014-11-23" price="250">
     <name>SITI ESAH BT OTHMAN</name>
     <jawi>ستي ايسه بنت عثمان</jawi>
     <death>2014-11-08</death>
     <deathm>1436-01-15</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="HAM" date="2014-11-17" delivered="" price="12">
+  <order soldto="HAM" date="2014-11-17" delivered="2014-11-19" price="12">
     <name>sarah bee bt mohd ibrahim</name>
     <jawi>ساره بي بنت محمد إبراهيم</jawi>
     <death>1960-02-01 selasa</death>
     <deathm>1379-08-03</deathm>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-11-17" delivered="" price="12">
+  <order soldto="HAM" date="2014-11-17" delivered="2014-11-19" price="12">
     <name>aminah bee bt madar</name>
     <jawi>أمينة بي بنت مادر</jawi>
     <death>2014-10-26</death>
@@ -16074,7 +16074,7 @@
     <age>48</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-11-17" delivered="" price="12">
+  <order soldto="HAM" date="2014-11-17" delivered="2014-11-19" price="12">
     <name>syed zafar ali bin syed azam ali</name>
     <jawi>سيد ضافرعلي بن سيد ازام علي</jawi>
     <death>2014-09-20</death>
@@ -16082,7 +16082,7 @@
     <age>66</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-11-17" delivered="" price="12">
+  <order soldto="HAM" date="2014-11-17" delivered="2014-11-19" price="12">
     <name>syed azam ali bin syed yakinudin</name>
     <jawi>سيد ازام علي بن شيد ياكينودين</jawi>
     <death>1980-02-16</death>
@@ -16090,7 +16090,7 @@
     <age>74</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-11-17" delivered="" price="12">
+  <order soldto="HAM" date="2014-11-17" delivered="2014-11-19" price="12">
     <name>zainap bo bt mohamed</name>
     <jawi>زاينف بو بنت محمد</jawi>
     <death>2014-10-27</death>
@@ -16098,12 +16098,19 @@
     <age>78</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-11-17" delivered="" price="12">
+  <order soldto="HAM" date="2014-11-17" delivered="2014-11-24" price="12">
     <name>hazizah bt ismail</name>
     <jawi>هزيزه بنت إسماعيل</jawi>
     <death>2014-10-28</death>
     <deathm>1436-01-04</deathm>
     <age>67</age>
     <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="SEM" date="2014-11-24" delivered="" price="250">
+    <name>Hj Hashim bin mat</name>
+    <jawi>حاج هاشم بن مت</jawi>
+    <death>2014-11-07</death>
+    <deathm>1436-01-14</deathm>
+    <item>2' Batu Batik(L)</item>
   </order>
 </nisan>
