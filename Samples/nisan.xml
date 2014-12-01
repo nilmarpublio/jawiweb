@@ -16200,4 +16200,47 @@
     <deathm>1435-10-29</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
+  <order soldto="ADI" date="2014-12-01" delivered="" price="35">
+    <name>hajah rukaiyah bt hj marzuki</name>
+    <jawi>حجه مرزوقي بنت حاج مرزوقي</jawi>
+    <born>1933-07-28</born>
+    <death>2014-10-14</death>
+    <deathm>1435-12-19</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2014-12-01" delivered="" price="35">
+    <name>idris bin tahir</name>
+    <jawi>ادريس بن طاهر</jawi>
+    <death>2014-09-01</death>
+    <deathm>1435-11-06</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2014-12-01" delivered="" price="35">
+    <name>bee bt jaudin</name>
+    <jawi>بي بنت جاودين</jawi>
+    <death>2012</death>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2014-12-01" delivered="" price="35">
+    <name>wok bt abdul kadir</name>
+    <jawi>ووك بنت عبدول كادير</jawi>
+    <born>1927-12-12</born>
+    <death>2014-06-01</death>
+    <deathm>1435-08-03</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2014-12-01" delivered="" price="35">
+    <name>mohd hatta bin hj toha</name>
+    <jawi>محمد حتتا بن حاج طه</jawi>
+    <death>2014-08-24</death>
+    <deathm>1435-10-28</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-12-01" delivered="" price="250">
+    <name>hajjah siti murta fiah bt mat sum</name>
+    <jawi>حجه سيتي مورتا فيه بنت مت سوم</jawi>
+    <death>2014-08-28</death>
+    <deathm>1435-11-02</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
 </nisan>
