@@ -16179,4 +16179,25 @@
     <deathm>1435-12-23</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
+  <order soldto="SEM" date="2014-10-28" delivered="" price="350">
+    <name>Masrah bt hj sadri</name>
+    <jawi>مسرح بنت حاج سدري</jawi>
+    <death>2014-05-25</death>
+    <deathm>1435-07-25</deathm>
+    <item>2' Batu Hitam(P)</item>
+  </order>
+  <order soldto="SEM" date="2014-12-01" delivered="" price="250">
+    <name>mohd sarhan bin bakar</name>
+    <jawi>محمد باکر بن بكر</jawi>
+    <death>2014-09-02</death>
+    <deathm>1435-11-07</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2014-12-01" delivered="" price="250">
+    <name>aah bt mat isa</name>
+    <jawi>عيسى بنت مت عيسى</jawi>
+    <death>2014-08-25</death>
+    <deathm>1435-10-29</deathm>
+    <item>2' Batu Batik(P)</item>
+  </order>
 </nisan>
