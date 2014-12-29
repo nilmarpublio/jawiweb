@@ -15651,13 +15651,14 @@
     <item>PV</item>
     <remarks>EF531788635MY</remarks>
   </order>
-  <order soldto="SEL" date="2014-10-14" delivered="" price="250">
+  <order soldto="SEL" date="2014-10-14" delivered="2014-12-28" price="250">
     <name>che dan bin che mat</name>
     <jawi>چئ ضن بن چئ مت</jawi>
     <born>1926-01-19</born>
     <death>2013-07-07</death>
     <deathm>1434-08-28</deathm>
     <item>2' Batu Putih(L)</item>
+    <remarks>on hold</remarks>
   </order>
   <order soldto="SEL" date="2014-10-14" delivered="2014-10-25" price="250">
     <name>norsitah bt yahaya</name>
@@ -15666,18 +15667,20 @@
     <deathm>1435-12-10</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="SEL" date="2014-10-14" delivered="" price="250">
+  <order soldto="SEL" date="2014-10-14" delivered="2014-12-28" price="250">
     <name>choon bt Hariffin</name>
     <jawi>چون بنت هاريففين</jawi>
     <born>1935-04-14</born>
     <death>2014-07-17</death>
     <deathm>1435-09-19</deathm>
     <item>2' Batu Putih(P)</item>
+    <remarks>on hold</remarks>
   </order>
-  <order soldto="SEL" date="2014-10-14" delivered="" price="150">
+  <order soldto="SEL" date="2014-10-14" delivered="2014-12-28" price="150">
     <name />
     <death />
     <item>2' Batu Putih(L)</item>
+    <remarks>on hold</remarks>
   </order>
   <order soldto="ADI" date="2014-10-16" delivered="2014-10-23" price="280">
     <name>md lazim bin saad</name>
@@ -16362,7 +16365,7 @@
     <deathm>1435-12-15</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2014-12-20" delivered="" price="12">
+  <order soldto="HAM" date="2014-12-20" delivered="2014-12-29" price="12">
     <name>mohd razul bin mohamedsa</name>
     <jawi>محمد رازول بن محمدسا</jawi>
     <death>2014-11-16</death>
@@ -16370,7 +16373,7 @@
     <age>59</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-12-20" delivered="" price="12">
+  <order soldto="HAM" date="2014-12-20" delivered="2014-12-29" price="12">
     <name>mohd ismail bin rejab</name>
     <jawi>محمد إسماعيل بن رجب</jawi>
     <death>2014-11-25</death>
@@ -16378,7 +16381,7 @@
     <age>78</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-12-20" delivered="" price="12">
+  <order soldto="HAM" date="2014-12-20" delivered="2014-12-29" price="12">
     <name>ali bin hamzah</name>
     <jawi>علي بن حمزة</jawi>
     <death>2014-10-30</death>
@@ -16386,7 +16389,7 @@
     <age>69</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-12-20" delivered="" price="12">
+  <order soldto="HAM" date="2014-12-20" delivered="2014-12-29" price="12">
     <name>nora hasina bt ahmad</name>
     <jawi>نورا حاسينا بنت أحمد</jawi>
     <death>2014-11-14</death>
@@ -16394,7 +16397,7 @@
     <age>33</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-12-20" delivered="" price="12">
+  <order soldto="HAM" date="2014-12-20" delivered="2014-12-29" price="12">
     <name>roslan bin ghazali</name>
     <jawi>روسلن بن غزالي</jawi>
     <death>2014-08-31</death>
@@ -16402,14 +16405,15 @@
     <age>53</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-12-20" delivered="" price="12">
+  <order soldto="HAM" date="2014-12-20" delivered="2014-12-29" price="12">
     <name>mohd abdullah bin bachtiar</name>
     <jawi>محمد عبدالله بن بكتيار</jawi>
     <death>2004-12-05</death>
     <deathm>1425-10-22</deathm>
     <item>1½' Sticker(L)</item>
+    <remarks>aceh</remarks>
   </order>
-  <order soldto="HAM" date="2014-12-20" delivered="" price="12">
+  <order soldto="HAM" date="2014-12-20" delivered="2014-12-29" price="12">
     <name>mohd saiful bin rahim</name>
     <jawi>محمد سيفعل بن رحيم</jawi>
     <death>2014-09-20</death>
@@ -16417,7 +16421,7 @@
     <age>31</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-12-20" delivered="" price="12">
+  <order soldto="HAM" date="2014-12-20" delivered="2014-12-29" price="12">
     <name>rahim bin yaacobe</name>
     <jawi>رحيم بن يعقوب</jawi>
     <death>2009-09-24</death>
@@ -16425,7 +16429,7 @@
     <age>55</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2014-12-20" delivered="" price="12">
+  <order soldto="HAM" date="2014-12-20" delivered="2014-12-29" price="12">
     <name>zainab bt ismail</name>
     <jawi>زاينب بنت إسماعيل</jawi>
     <death>2014-12-12</death>
@@ -16433,12 +16437,28 @@
     <age>81</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2014-12-20" delivered="" price="12">
+  <order soldto="HAM" date="2014-12-20" delivered="2014-12-29" price="12">
     <name>n.m. amena bt n.m. mohamad</name>
     <jawi>عين،ايم،امينا بنت عين،ايم، محمد</jawi>
     <death>2014-10-22</death>
     <deathm>1435-12-27</deathm>
     <age>80</age>
     <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="ADI" date="2014-12-28" delivered="" price="350">
+    <name>fatimah bt mintol</name>
+    <jawi>فطمة بنت مينتول</jawi>
+    <born />
+    <death>2014-12-02</death>
+    <deathm>1436-02-09</deathm>
+    <item>2' Batu Hitam(P)</item>
+  </order>
+  <order soldto="ADI" date="2014-12-28" delivered="" price="35">
+    <name>aniah bt samaluddin</name>
+    <jawi>انيه بنت ساملوددين</jawi>
+    <born>1968-05-30</born>
+    <death>2014-10-01</death>
+    <deathm>1435-12-06</deathm>
+    <item>PV</item>
   </order>
 </nisan>
