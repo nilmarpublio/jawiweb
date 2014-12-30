@@ -218,6 +218,8 @@ namespace NisanWPF.BusinessLogic
                 System.Diagnostics.Debug.WriteLine("SortSoldTo asc");
                 this.ordersView.SortDescriptions.Add(new SortDescription("soldto", ListSortDirection.Ascending));
             }
+            this.ordersView.SortDescriptions.Add(new SortDescription("date", ListSortDirection.Ascending));
+
             this.OnPropertyChanged("totalSales");
             this.OnPropertyChanged("totalFound");
         }
@@ -244,6 +246,8 @@ namespace NisanWPF.BusinessLogic
                 System.Diagnostics.Debug.WriteLine("SortItem asc");
                 this.ordersView.SortDescriptions.Add(new SortDescription("item", ListSortDirection.Ascending));
             }
+            this.ordersView.SortDescriptions.Add(new SortDescription("date", ListSortDirection.Ascending));
+
             this.OnPropertyChanged("totalSales");
             this.OnPropertyChanged("totalFound");
         }
