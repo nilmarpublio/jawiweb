@@ -168,11 +168,11 @@
     </Style>
     
     <Style x:Key="AgingStyle" TargetType="{x:Type TextBlock}">
-        <Setter Property="Foreground" Value="LIghtGray" />
+        <Setter Property="Foreground" Value="{Binding Tag, RelativeSource={RelativeSource Self}, Converter={StaticResource AgingConverter}}" />
         <Setter Property="FontStyle" Value="Italic" />
         <Setter Property="Margin" Value="0 0 2 0" />
     </Style>
-    
+
     <Style x:Key="KnifeStyle" TargetType="{x:Type CheckBox}">
         <Setter Property="Template">
             <Setter.Value>

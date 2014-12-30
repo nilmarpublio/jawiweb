@@ -37,8 +37,8 @@
                 </Grid.ToolTip>
                 <DockPanel Grid.Row="0">
                     <WrapPanel DockPanel.Dock="Right">
-                        <TextBlock Text="{Binding aging}" Style="{StaticResource AgingStyle}" />
-                        <TextBlock Text=" days ago" Style="{StaticResource AgingStyle}" />
+                        <TextBlock Text="{Binding aging}" Tag="{Binding aging}" Style="{StaticResource AgingStyle}" />
+                        <TextBlock Text=" days ago" Tag="{Binding aging}" Style="{StaticResource AgingStyle}" />
                         <TextBlock FontFamily="iconFont" Text="" Margin="0 0 2 0"
                                    ToolTip="{Binding delivered}"
                                    Visibility="{Binding hasDeliver,Converter={StaticResource VisibilityConverter}, UpdateSourceTrigger=PropertyChanged}" />

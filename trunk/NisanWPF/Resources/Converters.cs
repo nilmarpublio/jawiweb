@@ -266,6 +266,44 @@ namespace NisanWPF
     }
 
     /// <summary>
+    /// Set foreground as red when stock more than two weeks aging.
+    /// </summary>
+    public class AgingConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            if (value == null) return Brushes.LightGray;
+            if (value is int)
+            {
+                if (System.Convert.ToInt32(value) > 13) return Brushes.Red;
+                return Brushes.LightGray;
+            }
+            else if (value is Int16)
+            {
+                if (System.Convert.ToInt16(value) > 13) return Brushes.Red;
+                return Brushes.LightGray;
+            }
+            else if (value is Int32)
+            {
+                if (System.Convert.ToInt32(value) > 13) return Brushes.Red;
+                return Brushes.LightGray;
+            }
+            else if (value is decimal)
+            {
+                if (System.Convert.ToDecimal(value) > 13) return Brushes.Red;
+                return Brushes.LightGray;
+            }
+
+            throw new ArgumentException("Not supported type of " + value.GetType());
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    /// <summary>
     /// Convert to local display format.
     /// </summary>
     public class LocalizationConverter : IValueConverter
