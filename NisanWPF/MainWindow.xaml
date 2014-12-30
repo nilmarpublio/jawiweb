@@ -6,6 +6,7 @@
         Title="Nisan Dashboard" Height="600" Width="1000" Closing="Window_Closing">
     <Window.InputBindings>
         <KeyBinding Modifiers="Control" Key="N" Command="{Binding CreateOrderCommand}" />
+        <KeyBinding Modifiers="Control" Key="S" Command="{Binding SaveCommand}" />
     </Window.InputBindings>
     <Grid>
         <Grid.ColumnDefinitions>
