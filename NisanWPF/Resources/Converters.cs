@@ -214,6 +214,7 @@ namespace NisanWPF
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             if (value == null) return Brushes.Gray;
+            if (value.ToString() == string.Empty) return Brushes.Gray;
             switch (value.ToString())
             {
                 case "ADI": return (Brush)brushConverter.ConvertFromString("#008080");
@@ -222,7 +223,9 @@ namespace NisanWPF
                 case "PAS": return Brushes.PaleVioletRed;
                 case "SEM": return (Brush)brushConverter.ConvertFromString("#ff5555");
                 case "SEL": return (Brush)brushConverter.ConvertFromString("#808000");
-                default: return Brushes.Gray;
+                default:
+                    string firstCharacter = value.ToString().Substring(0, 1);
+                    return ColorConverter.Colors[firstCharacter]; //return Brushes.Gray;
             }
 
             throw new ArgumentException("Not supported type of " + value.GetType());
@@ -231,6 +234,50 @@ namespace NisanWPF
         public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             throw new NotImplementedException();
+        }
+    }
+
+    /// <summary>
+    /// Define color for first customer character randomly.
+    /// TODO: Enhance algorithm with simple incremental loop.
+    /// </summary>
+    public class ColorConverter
+    {
+
+        public static Dictionary<string, Brush> Colors
+        {
+            get
+            {
+                BrushConverter brushConverter = new BrushConverter();
+                Dictionary<string,Brush>colors = new Dictionary<string, Brush>();
+                colors.Add("A", (Brush)brushConverter.ConvertFrom("#800000"));
+                colors.Add("B", (Brush)brushConverter.ConvertFrom("#ff0000"));
+                colors.Add("C", (Brush)brushConverter.ConvertFrom("#808000"));
+                colors.Add("D", (Brush)brushConverter.ConvertFrom("#ffff00"));
+                colors.Add("E", (Brush)brushConverter.ConvertFrom("#008000"));
+                colors.Add("F", (Brush)brushConverter.ConvertFrom("#00ff00"));
+                colors.Add("G", (Brush)brushConverter.ConvertFrom("#008080"));
+                colors.Add("H", (Brush)brushConverter.ConvertFrom("#00ffff"));
+                colors.Add("I", (Brush)brushConverter.ConvertFrom("#000080"));
+                colors.Add("J", (Brush)brushConverter.ConvertFrom("#0000ff"));
+                colors.Add("K", (Brush)brushConverter.ConvertFrom("#800080"));
+                colors.Add("L", (Brush)brushConverter.ConvertFrom("#ff00ff"));
+                colors.Add("M", (Brush)brushConverter.ConvertFrom("#ff5555"));
+                colors.Add("N", (Brush)brushConverter.ConvertFrom("#ff9955"));
+                colors.Add("O", (Brush)brushConverter.ConvertFrom("#ffcc00"));
+                colors.Add("P", (Brush)brushConverter.ConvertFrom("#d3bc5f"));
+                colors.Add("Q", (Brush)brushConverter.ConvertFrom("#88aa00"));
+                colors.Add("R", (Brush)brushConverter.ConvertFrom("#55d400"));
+                colors.Add("S", (Brush)brushConverter.ConvertFrom("#00aa88"));
+                colors.Add("T", (Brush)brushConverter.ConvertFrom("#37c8ab"));
+                colors.Add("U", (Brush)brushConverter.ConvertFrom("#00aad4"));
+                colors.Add("V", (Brush)brushConverter.ConvertFrom("#0055d4"));
+                colors.Add("W", (Brush)brushConverter.ConvertFrom("#5f5fd3"));
+                colors.Add("X", (Brush)brushConverter.ConvertFrom("#6600ff"));
+                colors.Add("Y", (Brush)brushConverter.ConvertFrom("#cc00ff"));
+                colors.Add("Z", (Brush)brushConverter.ConvertFrom("#ff0066"));
+                return colors;
+            }
         }
     }
 
