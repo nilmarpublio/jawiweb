@@ -16461,4 +16461,99 @@
     <deathm>1435-12-06</deathm>
     <item>PV</item>
   </order>
+  <order soldto="HAM" date="2014-12-30" delivered="" price="12">
+    <name>noor ali bin bahari</name>
+    <jawi>نور علي بن بهاري</jawi>
+    <born />
+    <death>1971-12-09</death>
+    <deathm>1391-10-21</deathm>
+    <age>1</age>
+    <item>1½' Sticker(L)</item>
+    <remarks>1 bulan</remarks>
+  </order>
+  <order soldto="HAM" date="2014-12-30" delivered="" price="12">
+    <name>ensoon bt mat isa</name>
+    <jawi>اينسون بنت مت عيسى</jawi>
+    <death>2014-12-06</death>
+    <deathm>1436-02-13</deathm>
+    <age>73</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2014-12-30" delivered="" price="12">
+    <name>shamsol bin bahari</name>
+    <jawi>شمسول بن بهاري</jawi>
+    <death>1992-04-20</death>
+    <deathm>1412-10-18</deathm>
+    <age>18</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-12-30" delivered="" price="12">
+    <name>bahari bin mamu</name>
+    <jawi>بهاري بن مامو</jawi>
+    <death>1996-10-21</death>
+    <deathm>1417-06-09</deathm>
+    <age>58</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-12-30" delivered="" price="12">
+    <name>abd majid bin t. rahman</name>
+    <jawi>عبدالمجيد بن بي، رحمن</jawi>
+    <death>2014-11-14</death>
+    <deathm>1436-01-21</deathm>
+    <age>62</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-12-30" delivered="" price="12">
+    <name>abd shukor bin abd salam</name>
+    <jawi>عبدالشكور بن عبدالسالم</jawi>
+    <death>2014-11-16</death>
+    <deathm>1436-01-23</deathm>
+    <age>62</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2014-12-30" delivered="" price="12">
+    <name>a. rahim bin ishak</name>
+    <jawi>عبدالرحيم بن اسحاق</jawi>
+    <death>2014-12-23</death>
+    <deathm>1436-03-01</deathm>
+    <age>63</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="ADI" date="2014-12-30" delivered="" price="35">
+    <name>mohd sharif bin hj shafie</name>
+    <jawi>محمد شريف بن حاج شافعي</jawi>
+    <born>1952-03-01</born>
+    <death>2014-09-11</death>
+    <deathm>1435-11-16</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-12-30" delivered="" price="35">
+    <name>hj mohd shuhif bin hj sallah</name>
+    <jawi>حاج محمد سلله بن حاج صالح</jawi>
+    <born>1963-01-22</born>
+    <death>2014-11-15</death>
+    <deathm>1436-01-22</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2014-12-30" delivered="" price="35">
+    <name>jaliah bt bakri</name>
+    <jawi>بکري بنت بكري</jawi>
+    <death>2006-06-26</death>
+    <deathm>1427-05-29</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2014-12-30" delivered="" price="35">
+    <name>ahmad hasim bin samot</name>
+    <jawi>أحمد هاسيم بن ساموت</jawi>
+    <death>2014-09-17</death>
+    <deathm>1435-11-22</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2014-12-30" delivered="" price="35">
+    <name>hajah sorep bt hj sukimi</name>
+    <jawi>حجه سوکيمي بنت حاج سوکيمي</jawi>
+    <death>2014-12-02</death>
+    <deathm>1436-02-09</deathm>
+    <item>PV</item>
+  </order>
 </nisan>
