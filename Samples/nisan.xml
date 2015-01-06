@@ -16445,7 +16445,7 @@
     <age>80</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="ADI" date="2014-12-28" delivered="" price="350">
+  <order soldto="ADI" date="2014-12-28" delivered="2015-01-04" price="350">
     <name>fatimah bt mintol</name>
     <jawi>فطمة بنت مينتول</jawi>
     <born />
