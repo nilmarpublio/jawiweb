@@ -1,13 +1,13 @@
 /**
- * Sales array through the 12 months.
+ * Sales array through the 12 months plus append total at the end of row.
  */
-var sales = [0,0,0,0,0,0,0,0,0,0,0,0];
+var sales = [0,0,0,0,0,0,0,0,0,0,0,0,0];
 
-var hamids = [0,0,0,0,0,0,0,0,0,0,0,0];//#71c73e
-var addins = [0,0,0,0,0,0,0,0,0,0,0,0];//#944117
-var selamas = [0,0,0,0,0,0,0,0,0,0,0,0];//#77b7c5
-var semanggols = [0,0,0,0,0,0,0,0,0,0,0,0];//#E47C47
-var etc = [0,0,0,0,0,0,0,0,0,0,0,0];//#d2ec72
+var hamids = [0,0,0,0,0,0,0,0,0,0,0,0,0];//#71c73e
+var addins = [0,0,0,0,0,0,0,0,0,0,0,0,0];//#944117
+var selamas = [0,0,0,0,0,0,0,0,0,0,0,0,0];//#77b7c5
+var semanggols = [0,0,0,0,0,0,0,0,0,0,0,0,0];//#E47C47
+var etc = [0,0,0,0,0,0,0,0,0,0,0,0,0];//#d2ec72
 	
 /**
  * Process data into months dimension.
@@ -17,12 +17,12 @@ function processData(year) {
 	console.log("processData("+year+")");
 	
 	//reset
-	sales = [0,0,0,0,0,0,0,0,0,0,0,0];
-	hamids = [0,0,0,0,0,0,0,0,0,0,0,0];//#71c73e
-	addins = [0,0,0,0,0,0,0,0,0,0,0,0];//#944117
-	selamas = [0,0,0,0,0,0,0,0,0,0,0,0];//#77b7c5
-	semanggols = [0,0,0,0,0,0,0,0,0,0,0,0];//#E47C47
-	etc = [0,0,0,0,0,0,0,0,0,0,0,0];//#d2ec72
+	sales = [0,0,0,0,0,0,0,0,0,0,0,0,0];
+	hamids = [0,0,0,0,0,0,0,0,0,0,0,0,0];//#71c73e
+	addins = [0,0,0,0,0,0,0,0,0,0,0,0,0];//#944117
+	selamas = [0,0,0,0,0,0,0,0,0,0,0,0,0];//#77b7c5
+	semanggols = [0,0,0,0,0,0,0,0,0,0,0,0,0];//#E47C47
+	etc = [0,0,0,0,0,0,0,0,0,0,0,0,0];//#d2ec72
 	
 	$.ajax({
 		type: "GET",
@@ -35,26 +35,32 @@ function processData(year) {
 				var	month = parseFloat(date.substring(5,7));
 				var customer = $(this).attr("soldto");
 				if(date.substring(0,4) == year) {
-					sales[month-1] += parseFloat($(this).attr("price"));
+				    sales[month - 1] += parseFloat($(this).attr("price"));
+				    sales[12] += parseFloat($(this).attr("price"));
 					switch(customer) {
 						case "HAM":
-							hamids[month-1] += parseFloat($(this).attr("price"));
+						    hamids[month - 1] += parseFloat($(this).attr("price"));
+						    hamids[12] += parseFloat($(this).attr("price"));
 						break;
 						
 						case "ADI":
-							addins[month-1] += parseFloat($(this).attr("price"));
+						    addins[month - 1] += parseFloat($(this).attr("price"));
+						    addins[12] += parseFloat($(this).attr("price"));
 						break;
 						
 						case "SEL":
-							selamas[month-1] += parseFloat($(this).attr("price"));
+						    selamas[month - 1] += parseFloat($(this).attr("price"));
+						    selamas[12] += parseFloat($(this).attr("price"));
 						break;
 						
 						case "SEM":
-							semanggols[month-1] += parseFloat($(this).attr("price"));
+						    semanggols[month - 1] += parseFloat($(this).attr("price"));
+						    semanggols[12] += parseFloat($(this).attr("price"));
 						break;
 						
 						default:
-							etc[month-1] += parseFloat($(this).attr("price"));
+						    etc[month - 1] += parseFloat($(this).attr("price"));
+						    etc[12] += parseFloat($(this).attr("price"));
 						break;
 					}
 				}
@@ -73,7 +79,7 @@ function showTable() {
 	$("#results").empty();
 	
 	var row = "<tr>";
-	row += "<td></td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td><td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td><td>Nov</td><td>Dec</td>";
+	row += "<td></td><td>Jan</td><td>Feb</td><td>Mar</td><td>Apr</td><td>May</td><td>Jun</td><td>Jul</td><td>Aug</td><td>Sep</td><td>Oct</td><td>Nov</td><td>Dec</td><td>Total</td>";
 	row += "</tr>";
 	$("#results").append(row);	
 	
@@ -126,31 +132,31 @@ function showTable() {
 function showGraph() {
 	//y axis must be in number. fail after change to "Jan"
   	var hpoints = [];
-  	for(var i=0;i<hamids.length;i++) {
+  	for(var i=0;i<hamids.length-1;i++) {
   		hpoints[i] = [i+1, hamids[i]];
   	}
   	//alert("HAM: "+hpoints);
   	
   	var apoints = [];
-  	for(var i=0;i<addins.length;i++) {
+  	for(var i=0;i<addins.length-1;i++) {
   		apoints[i] = [i+1, addins[i]];
   	}
   	//alert("ADI: "+apoints);
   	
   	var spoints = [];
-  	for(var i=0;i<selamas.length;i++) {
+  	for(var i=0;i<selamas.length-1;i++) {
   		spoints[i] = [i+1, selamas[i]];
   	}
   	//alert("SEL: "+spoints);
   	
   	var mpoints = [];
-  	for(var i=0;i<semanggols.length;i++) {
+  	for(var i=0;i<semanggols.length-1;i++) {
   		mpoints[i] = [i+1, semanggols[i]];
   	}
   	//alert("SEM: "+mpoints);
   	
   	var epoints = [];
-  	for(var i=0;i<etc.length;i++) {
+  	for(var i=0;i<etc.length-1;i++) {
   		epoints[i] = [i+1, etc[i]];
   	}
   	//alert("other: "+epoints);
