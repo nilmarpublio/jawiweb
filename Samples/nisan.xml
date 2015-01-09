@@ -16529,9 +16529,9 @@
     <item>PV Egg</item>
     <remarks>EF621717645MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-12-30" delivered="2015-01-05" price="35">
+  <order soldto="ADI" date="2014-12-30" delivered="" price="35">
     <name>hj mohd shuhif bin hj sallah</name>
-    <jawi>حاج محمد سلله بن حاج صالح</jawi>
+    <jawi>حاج محمد شوهيف بن حاج صالح</jawi>
     <born>1963-01-22</born>
     <death>2014-11-15</death>
     <deathm>1436-01-22</deathm>
@@ -16554,12 +16554,49 @@
     <item>PV Egg</item>
     <remarks>EF621717645MY</remarks>
   </order>
-  <order soldto="ADI" date="2014-12-30" delivered="2015-01-05" price="35">
+  <order soldto="ADI" date="2014-12-30" delivered="" price="35">
     <name>hajah sorep bt hj sukimi</name>
-    <jawi>حجه سوکيمي بنت حاج سوکيمي</jawi>
+    <jawi>حجه سوريف بنت حاج سوکيمي</jawi>
     <death>2014-12-02</death>
     <deathm>1436-02-09</deathm>
     <item>PV</item>
     <remarks>EF621717645MY</remarks>
+  </order>
+  <order soldto="ADI" date="2015-01-09" delivered="" price="35">
+    <name>mohamed saleh bin abdullah</name>
+    <jawi>محمد صالح بن عبدالله</jawi>
+    <death>2014-02-18</death>
+    <deathm>1435-04-18</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2015-01-09" delivered="" price="35">
+    <name>nafsiah bt jali</name>
+    <jawi>نفسيه بنت جالي</jawi>
+    <death>2014-10-03</death>
+    <deathm>1435-12-08</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-01-09" delivered="" price="35">
+    <name>hamidah bt ismail</name>
+    <jawi>هاميه بنت إسماعيل</jawi>
+    <death>2007-11-28</death>
+    <deathm>1428-11-18</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-01-09" delivered="" price="35">
+    <name>musa bin mujin</name>
+    <jawi>موسا بن موجين</jawi>
+    <born>1938-10-09</born>
+    <death>2014-11-22</death>
+    <deathm>1436-01-29</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-01-09" delivered="" price="35">
+    <name>hj mujil bin kasan wirono</name>
+    <jawi>حاج موجيل بن كاسن ويرونو</jawi>
+    <born>1936-05-19</born>
+    <death>2014-11-03</death>
+    <deathm>1436-01-10</deathm>
+    <item>PV Egg</item>
   </order>
 </nisan>
