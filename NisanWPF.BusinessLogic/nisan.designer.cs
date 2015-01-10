@@ -635,7 +635,7 @@ namespace NisanWPF.BusinessLogic
                         this.OnPropertyChanged("name");
                     }
 
-                    ConvertToJawi();
+                    ConvertToJawi(this.nameField);
                 }
                 else
                 {
