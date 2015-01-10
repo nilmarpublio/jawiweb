@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="miscTest.cs" />
+    <Compile Include="nisanOrderTest.cs" />
     <Compile Include="nisanTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

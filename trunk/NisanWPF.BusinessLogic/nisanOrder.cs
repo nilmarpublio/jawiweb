@@ -109,18 +109,19 @@ namespace NisanWPF.BusinessLogic
         /// <summary>
         /// Automate convert to jawi when provide rumi name.
         /// </summary>
-        private void ConvertToJawi()
+        /// <param name="rumi">Rumi word.</param>
+        public string ConvertToJawi(string rumi)
         {
             // Translate word by word
             string output = string.Empty;
             JawiLookup localTranslator = new JawiLookup();
             JawiTranslator webTranslator = new JawiTranslator();
-            string[] words = this.nameField.Split(new char[] { ' ' });
+            string[] words = rumi.Split(new char[] { ' ' });
             foreach (string word in words)
             {
                 string jawi = localTranslator.Lookup(word);
                 if (string.IsNullOrEmpty(jawi))
-                    jawi = webTranslator.Translate(this.nameField);
+                    jawi = webTranslator.Translate(word);
 
                 if (output.Length > 0) output += " ";
                 output += jawi;
@@ -128,6 +129,7 @@ namespace NisanWPF.BusinessLogic
 
             this.jawiField = output;
             this.OnPropertyChanged("jawi");
+            return output;
         }
 
         /// <summary>
