@@ -16599,4 +16599,26 @@
     <deathm>1436-01-10</deathm>
     <item>PV Egg</item>
   </order>
+  <order soldto="SEM" date="2015-01-10" delivered="" price="250">
+    <name>MAHMUD BIN TAIB</name>
+    <jawi>محمود بن طيب</jawi>
+    <death>2014-10-28</death>
+    <deathm>1436-01-04</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2015-01-10" delivered="" price="250">
+    <name>AHMAD FARIQ BIN ABD HAMID</name>
+    <jawi>أحمد فريق بن عبدال حميد</jawi>
+    <death>2014-10-27</death>
+    <deathm>1436-01-03</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="SEM" date="2015-01-10" delivered="" price="250">
+    <name>JEMAIN BIN TAIB</name>
+    <jawi>جيماين بن طيب</jawi>
+    <born>1933-05-12</born>
+    <death>2014-12-10</death>
+    <deathm>1436-02-17</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
 </nisan>
