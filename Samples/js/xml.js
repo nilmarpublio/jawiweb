@@ -442,7 +442,6 @@ function parse(wrapper) {
             $('#counter').text(xml_no);
 
             // show total amount of filter result
-            console.log("Total amount: " + total);
             $('#total').text(total);
 
             // add filter by customer
@@ -550,7 +549,6 @@ function parse(wrapper) {
                 $('#counter').text(xml_no);
 
                 // show total amount of filter result
-                console.log("Total amount: " + total);
                 $('#total').text(total);
 
             }); // end click soldto
@@ -760,7 +758,6 @@ function parse(wrapper) {
                 $('#counter').text(xml_no);
 
                 // show total amount of filter result
-                console.log("Total amount: " + total);
                 $('#total').text(total);
 
             }); // end click on month
