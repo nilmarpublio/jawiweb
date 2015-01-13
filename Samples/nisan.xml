@@ -16597,7 +16597,7 @@
   </order>
   <order soldto="ADI" date="2015-01-09" delivered="" price="35">
     <name>hj mujilan bin kasan wirono</name>
-    <jawi>حاج موجيل بن كاسن ويرونو</jawi>
+    <jawi>حاج موجيلن بن كاسن ويرونو</jawi>
     <born>1936-05-19</born>
     <death>2014-11-03</death>
     <deathm>1436-01-10</deathm>
@@ -16624,5 +16624,29 @@
     <death>2014-12-10</death>
     <deathm>1436-02-17</deathm>
     <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-13" delivered="" price="12">
+    <name>zainab bt omar</name>
+    <jawi>زاينب بنت عمر</jawi>
+    <death>2015-01-05</death>
+    <deathm>1436-03-14</deathm>
+    <age>78</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-13" delivered="" price="12">
+    <name>mahmood bin alang mohd</name>
+    <jawi>محمود بن الڠ محمد</jawi>
+    <death>2015-01-08</death>
+    <deathm>1436-03-17</deathm>
+    <age>70</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-13" delivered="" price="12">
+    <name>roslan bin abd rahim</name>
+    <jawi>روسلن بن عبدال رحيم</jawi>
+    <death>2014-12-22</death>
+    <deathm>1436-02-29</deathm>
+    <age>57</age>
+    <item>2' Sticker(L)</item>
   </order>
 </nisan>
