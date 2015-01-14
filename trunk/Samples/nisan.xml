@@ -16625,7 +16625,7 @@
     <deathm>1436-02-17</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2015-01-13" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-13" delivered="2015-01-15" price="12">
     <name>zainab bt omar</name>
     <jawi>زاينب بنت عمر</jawi>
     <death>2015-01-05</death>
@@ -16633,7 +16633,7 @@
     <age>78</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2015-01-13" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-13" delivered="2015-01-15" price="12">
     <name>mahmood bin alang mohd</name>
     <jawi>محمود بن الڠ محمد</jawi>
     <death>2015-01-08</death>
@@ -16641,7 +16641,7 @@
     <age>70</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2015-01-13" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-13" delivered="2015-01-15" price="12">
     <name>roslan bin abd rahim</name>
     <jawi>روسلن بن عبدال رحيم</jawi>
     <death>2014-12-22</death>
