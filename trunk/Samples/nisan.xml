@@ -16703,4 +16703,54 @@
     <deathm>1436-02-06</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
+  <order soldto="HAM" date="2015-01-19" delivered="" price="12">
+    <name>othman bin hj tahir</name>
+    <jawi>عثمان بن حاج طاهر</jawi>
+    <death>1960</death>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-19" delivered="" price="12">
+    <name>rokiah bee bt md sultan</name>
+    <jawi>روفيه بي بنت مد سلطان</jawi>
+    <death>2015-01-12</death>
+    <deathm>1436-03-21</deathm>
+    <age>66</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-19" delivered="" price="12">
+    <name>hjh che amah bt puteh</name>
+    <jawi>حجه چئ عامه بنت فوتيه</jawi>
+    <death>2014-11-16</death>
+    <deathm>1436-01-23</deathm>
+    <age>85</age>
+    <item>1½' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-19" delivered="" price="12">
+    <name>jasni bin ishak</name>
+    <jawi>جسني بن اسحاق</jawi>
+    <death>2014-12-30</death>
+    <deathm>1436-03-08</deathm>
+    <age>53</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-19" delivered="" price="12">
+    <name>mariam bt mohd taher</name>
+    <jawi>ماريم بنت محمد تاهير</jawi>
+    <death>2014-12-10</death>
+    <deathm>1436-02-17</deathm>
+    <age>74</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-19" delivered="" price="40">
+    <name>IM Global</name>
+    <jawi>ايم ݢلوبل</jawi>
+    <death />
+    <item>10"x16"</item>
+  </order>
+  <order soldto="HAM" date="2015-01-19" delivered="" price="40">
+    <name>IM Global II - Waqaf</name>
+    <jawi>ايم ݢلوبل اا  واقف</jawi>
+    <death />
+    <item>10"x16"</item>
+  </order>
 </nisan>
