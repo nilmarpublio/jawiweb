@@ -16681,7 +16681,7 @@
     <item>PV Egg</item>
     <remarks>EF637850545MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-01-17" delivered="" price="350">
+  <order soldto="ADI" date="2015-01-17" delivered="" price="380">
     <name>zaiton bt menan</name>
     <jawi>زيتون بنت مينان</jawi>
     <born>1961-08-11</born>
@@ -16689,14 +16689,14 @@
     <deathm>1435-08-20</deathm>
     <item>2' Batu Hitam(P)</item>
   </order>
-  <order soldto="ADI" date="2015-01-17" delivered="" price="250">
+  <order soldto="ADI" date="2015-01-17" delivered="" price="280">
     <name>mustaffar bin hussin</name>
     <jawi>مُسطعفى بن حُسين</jawi>
     <death>1993-02-14</death>
     <deathm>1413-08-22</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2015-01-17" delivered="" price="250">
+  <order soldto="ADI" date="2015-01-17" delivered="" price="280">
     <name>abu bakar bin ahmad</name>
     <jawi>أبو بكر بن أحمد</jawi>
     <death>2014-11-29</death>
@@ -16752,5 +16752,44 @@
     <jawi>ايم ݢلوبل اا  واقف</jawi>
     <death />
     <item>10"x16"</item>
+  </order>
+  <order soldto="ADI" date="2015-01-22" delivered="" price="35">
+    <name>jariah bt hj ahmad zaini</name>
+    <jawi>جرياح بنت حاج أحمد زايني</jawi>
+    <death>2014-01-10 jumaat</death>
+    <deathm>1435-03-08</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-01-22" delivered="" price="35">
+    <name>ujud bin safar</name>
+    <jawi>اوجود بن صفر</jawi>
+    <born>1944-12-11</born>
+    <death>2014-05-08</death>
+    <deathm>1435-07-08</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2015-01-22" delivered="" price="35">
+    <name>muhammad fauzan bin kharul faiq</name>
+    <jawi>محمد فوزا بن خرال فائق</jawi>
+    <born>2014-10-24</born>
+    <death>2014-10-27</death>
+    <deathm>1436-01-03</deathm>
+    <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2015-01-22" delivered="" price="35">
+    <name>muhammad bin nizam</name>
+    <jawi>محمد بن نيزام</jawi>
+    <death>2014-09-30</death>
+    <deathm>1435-12-05</deathm>
+    <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2015-01-22" delivered="" price="35">
+    <name>tajuddin bin mohamad</name>
+    <jawi>تجدين بن محمد</jawi>
+    <born>1963-06-10</born>
+    <death>2014-09-18</death>
+    <deathm>1435-11-23</deathm>
+    <age>51</age>
+    <item>PV Egg</item>
   </order>
 </nisan>
