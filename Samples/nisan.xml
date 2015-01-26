@@ -16703,13 +16703,13 @@
     <deathm>1436-02-06</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2015-01-19" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-19" delivered="2015-01-26" price="12">
     <name>othman bin hj tahir</name>
     <jawi>عثمان بن حاج طاهر</jawi>
     <death>1960</death>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2015-01-19" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-19" delivered="2015-01-26" price="12">
     <name>rokiah bee bt md sultan</name>
     <jawi>روفيه بي بنت مد سلطان</jawi>
     <death>2015-01-12</death>
@@ -16717,7 +16717,7 @@
     <age>66</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2015-01-19" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-19" delivered="2015-01-26" price="12">
     <name>hjh che amah bt puteh</name>
     <jawi>حجه چئ عامه بنت فوتيه</jawi>
     <death>2014-11-16</death>
@@ -16725,7 +16725,7 @@
     <age>85</age>
     <item>1½' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2015-01-19" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-19" delivered="2015-01-26" price="12">
     <name>jasni bin ishak</name>
     <jawi>جسني بن اسحاق</jawi>
     <death>2014-12-30</death>
@@ -16733,7 +16733,7 @@
     <age>53</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2015-01-19" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-19" delivered="2015-01-26" price="12">
     <name>mariam bt mohd taher</name>
     <jawi>ماريم بنت محمد تاهير</jawi>
     <death>2014-12-10</death>
@@ -16753,37 +16753,41 @@
     <death />
     <item>10"x16"</item>
   </order>
-  <order soldto="ADI" date="2015-01-22" delivered="" price="35">
+  <order soldto="ADI" date="2015-01-22" delivered="2015-01-26" price="35">
     <name>jariah bt hj ahmad zaini</name>
     <jawi>جرياح بنت حاج أحمد زايني</jawi>
     <death>2014-01-10 jumaat</death>
     <deathm>1435-03-08</deathm>
     <item>PV</item>
+    <remarks>EF690173343MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-01-22" delivered="" price="35">
+  <order soldto="ADI" date="2015-01-22" delivered="2015-01-26" price="35">
     <name>ujud bin safar</name>
     <jawi>اوجود بن صفر</jawi>
     <born>1944-12-11</born>
     <death>2014-05-08</death>
     <deathm>1435-07-08</deathm>
     <item>PV Egg</item>
+    <remarks>EF690173343MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-01-22" delivered="" price="35">
+  <order soldto="ADI" date="2015-01-22" delivered="2015-01-26" price="35">
     <name>muhammad fauzan bin kharul faiq</name>
     <jawi>محمد فوزا بن خرال فائق</jawi>
     <born>2014-10-24</born>
     <death>2014-10-27</death>
     <deathm>1436-01-03</deathm>
     <item>PV Budak</item>
+    <remarks>EF690173343MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-01-22" delivered="" price="35">
+  <order soldto="ADI" date="2015-01-22" delivered="2015-01-26" price="35">
     <name>muhammad bin nizam</name>
     <jawi>محمد بن نيزام</jawi>
     <death>2014-09-30</death>
     <deathm>1435-12-05</deathm>
     <item>PV Budak</item>
+    <remarks>EF690173343MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-01-22" delivered="" price="35">
+  <order soldto="ADI" date="2015-01-22" delivered="2015-01-26" price="35">
     <name>tajuddin bin mohamad</name>
     <jawi>تجدين بن محمد</jawi>
     <born>1963-06-10</born>
@@ -16791,5 +16795,22 @@
     <deathm>1435-11-23</deathm>
     <age>51</age>
     <item>PV Egg</item>
+    <remarks>EF690173343MY</remarks>
+  </order>
+  <order soldto="ADI" date="2015-01-25" delivered="" price="250">
+    <name>yusfitri bin mohd bani</name>
+    <jawi>يوسفطري بن محمد باني</jawi>
+    <born>1984-06-27</born>
+    <death>2014-12-09</death>
+    <deathm>1436-02-16</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2015-01-25" delivered="" price="250">
+    <name>ahmad zulhairi bin noor zairi</name>
+    <jawi>أحمد ذولهايري بن نورزايري</jawi>
+    <born>2002-11-15</born>
+    <death>2002-11-16</death>
+    <deathm>1423-09-12</deathm>
+    <item>1½' Batu Batik(L)</item>
   </order>
 </nisan>
