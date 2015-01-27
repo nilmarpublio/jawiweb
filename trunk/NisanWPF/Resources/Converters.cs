@@ -243,13 +243,12 @@ namespace NisanWPF
     /// </summary>
     public class ColorConverter
     {
-
         public static Dictionary<string, Brush> Colors
         {
             get
             {
                 BrushConverter brushConverter = new BrushConverter();
-                Dictionary<string,Brush>colors = new Dictionary<string, Brush>();
+                Dictionary<string, Brush> colors = new Dictionary<string, Brush>();
                 colors.Add("A", (Brush)brushConverter.ConvertFrom("#800000"));
                 colors.Add("B", (Brush)brushConverter.ConvertFrom("#ff0000"));
                 colors.Add("C", (Brush)brushConverter.ConvertFrom("#808000"));

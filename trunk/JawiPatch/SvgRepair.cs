@@ -12,6 +12,9 @@ using System.Configuration;
 using System.Linq;
 using System.Text.RegularExpressions;
 
+/**
+ * TODO: This whole solution can be replace by https://github.com/svg/svgo
+ */
 namespace JawiPatch
 {
     /// <summary>
