@@ -16837,4 +16837,60 @@
     <deathm>1435-10-02</deathm>
     <item>PV Egg</item>
   </order>
+  <order soldto="HAM" date="2015-01-27" delivered="" price="12">
+    <name>syed noh bin syed abd rahman</name>
+    <jawi>سيد نوح بن سيد عبدال رحمن</jawi>
+    <death>2014-07-12</death>
+    <deathm>1435-09-14</deathm>
+    <age>69</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-27" delivered="" price="12">
+    <name>hjh zainap bt baba</name>
+    <jawi>حجه زينب بنت نانا</jawi>
+    <death>2014-06-17</death>
+    <deathm>1435-08-19</deathm>
+    <age>65</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-27" delivered="" price="12">
+    <name>hjh zainap bt baba</name>
+    <jawi>حجه زينب بنت نانا</jawi>
+    <death>2014-06-17</death>
+    <deathm>1435-08-19</deathm>
+    <age>65</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-27" delivered="" price="12">
+    <name>khalid bin che din</name>
+    <jawi>خاليد بن چئ دين</jawi>
+    <death>1990-02-09</death>
+    <deathm>1410-07-14</deathm>
+    <age>59</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-27" delivered="" price="12">
+    <name>adam asyraff bin faisal ahmad</name>
+    <jawi>ادام أشرا ف بن فيرال أحمد</jawi>
+    <death>2014-10-16</death>
+    <deathm>1435-12-21</deathm>
+    <age>16</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-27" delivered="" price="12">
+    <name>pathimah bee bt noor mohd</name>
+    <jawi>فطمة بي بنت نور محمد</jawi>
+    <death>2015-01-15</death>
+    <deathm>1436-03-24</deathm>
+    <age>71</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-27" delivered="" price="12">
+    <name>azmi bin kassim</name>
+    <jawi>عزمي بن قاسيم</jawi>
+    <death>2014-09-05</death>
+    <deathm>1435-11-10</deathm>
+    <age>46</age>
+    <item>2' Sticker(L)</item>
+  </order>
 </nisan>
