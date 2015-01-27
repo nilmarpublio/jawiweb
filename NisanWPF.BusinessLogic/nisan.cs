@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Data;
@@ -16,6 +17,7 @@ namespace NisanWPF.BusinessLogic
 {
     public partial class nisan
     {
+        private const string FILENAME = "nisan.xml";
         public static MuslimCalendar Calendar;
 
         /// <summary>
@@ -286,6 +288,7 @@ namespace NisanWPF.BusinessLogic
             this.itemsField = new ObservableCollection<object>();
             this.Orders = new ObservableCollection<nisanOrder>();
             this.Orders.CollectionChanged += Orders_CollectionChanged;
+            this.NewItems = new ObservableCollection<nisanOrder>();
             this.Invoices = new ObservableCollection<nisanInvoice>();
             this.Purchases = new ObservableCollection<nisanPurchase>();
 
@@ -322,7 +325,51 @@ namespace NisanWPF.BusinessLogic
                     nisan.Purchases.Add(obj as nisanPurchase);
             }
             this.ordersView = CollectionViewSource.GetDefaultView(this.Orders);
+
+            try
+            {
+                // get last updated date
+                string oldFile = ".svn" + Path.DirectorySeparatorChar + "text-base" + Path.DirectorySeparatorChar + FILENAME + ".svn-base";
+                GetLastUpdated(oldFile);
+
+                // create empty new item compare to last svn commit
+                nisan old;
+                nisan.LoadFromFile(oldFile, out old);
+                //for (int i = nisan.Items.Count - 1; i < nisan.Items.Count - old.Items.Count; i--)
+                //{
+                //    if (nisan.Items[i] is nisanOrder)
+                //        this.NewItems.Add(nisan.Items[i] as nisanOrder);
+                //}
+                int i = this.Orders.Count;
+                while (this.NewItems.Count < nisan.Items.Count - old.Items.Count)
+                {
+                    this.NewItems.Add(this.Orders[i - 1]);
+                    i--;
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine(ex);
+                return;
+            }
         }
+
+        /// <summary>
+        /// Return last updated date.
+        /// </summary>
+        private void GetLastUpdated(string fileName)
+        {
+            FileInfo fileInfo = new FileInfo(fileName);
+            this.lastUpdated = fileInfo.LastWriteTime;
+        }
+
+        /// <summary>
+        /// Collection of new nisanOrder.
+        /// </summary>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public ObservableCollection<nisanOrder> NewItems { get; set; }
+        private DateTime lastUpdated;
+        public DateTime LastUpdated { get { return this.lastUpdated; } }
 
         private CreateOrderCommand createOrderCommand;
         public CreateOrderCommand CreateOrderCommand { get { return this.createOrderCommand; } }
@@ -339,6 +386,7 @@ namespace NisanWPF.BusinessLogic
             order.name = "";
             this.itemsField.Add(order);
             this.Orders.Add(order);
+            this.NewItems.Add(order);
         }
 
         private RemoveOrderCommand removeOrderCommand;
@@ -347,6 +395,7 @@ namespace NisanWPF.BusinessLogic
         {
             this.itemsField.Remove(order);
             this.Orders.Remove(order);
+            this.NewItems.Remove(order);
         }
 
         private GenerateSvgCommand generateSvgCommand;
