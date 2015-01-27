@@ -157,10 +157,22 @@
     </Style>
 
     <Style x:Key="NotificationStyle" TargetType="{x:Type Label}">
-        <Setter Property="FontSize" Value="10" />
-        <Setter Property="Foreground" Value="Red" />
+        <Setter Property="FontSize" Value="9" />
+        <Setter Property="Foreground" Value="Gray" />
+        <Setter Property="FontFamily" Value="Arial" />
         <Setter Property="FontWeight" Value="Bold" />
         <Setter Property="HorizontalAlignment" Value="Right" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Label}">
+                    <Grid>
+                        <Ellipse x:Name="body" Height="15" Width="15" Fill="{TemplateBinding Background}" Stroke="Gray" StrokeThickness="2" />
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" Content="{TemplateBinding Content}" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
     </Style>
     
     <Style x:Key="MetroNotifyButtonStyle" TargetType="{x:Type Button}">
@@ -171,7 +183,7 @@
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Grid>
-                        <Label Content="{TemplateBinding Tag}" Style="{StaticResource NotificationStyle}" Padding="0 8 8 0"
+                        <Label x:Name="counter" Content="{TemplateBinding Tag}" Style="{StaticResource NotificationStyle}" Padding="0 8 8 0"
                                Visibility="{Binding Content,RelativeSource={RelativeSource Self},Converter={StaticResource VisibilityConverter}}" />
                         <Border x:Name="body" Padding="10">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="{TemplateBinding Content}" />
