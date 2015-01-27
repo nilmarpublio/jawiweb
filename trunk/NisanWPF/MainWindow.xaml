@@ -30,7 +30,7 @@
                     <Button ToolTip="Add" Command="{Binding CreateOrderCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button ToolTip="Delete" Command="{Binding RemoveOrderCommand}" CommandParameter="{Binding Path=SelectedItems,ElementName=listView}" Content="" Style="{StaticResource MetroButtonStyle}" />
                     <Button ToolTip="Save" Command="{Binding SaveCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
-                    <Button ToolTip="Upload" Command="{Binding CommitSvnCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button ToolTip="{Binding LastUpdated}" Command="{Binding CommitSvnCommand}" Content="" Tag="{Binding NewItems.Count}" Style="{StaticResource MetroNotifyButtonStyle}" />
                     <Button ToolTip="Generate" Command="{Binding GenerateSvgCommand}" CommandParameter="{Binding Path=SelectedItems,ElementName=listView}" Style="{StaticResource InkscapeMetroButton}" />
                     <Button ToolTip="Cut" Style="{StaticResource KnifeMetroButton}" />
                     <Button ToolTip="Mark done" Content="" Style="{StaticResource MetroButtonStyle}" Click="DoneButton_Click" />
