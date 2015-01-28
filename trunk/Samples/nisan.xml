@@ -16703,10 +16703,12 @@
     <deathm>1436-02-06</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2015-01-19" delivered="2015-01-26" price="12">
-    <name>othman bin hj tahir</name>
-    <jawi>عثمان بن حاج طاهر</jawi>
-    <death>1960</death>
+  <order soldto="HAM" date="2015-01-19" delivered="" price="12">
+    <name>osman bin hj tahir</name>
+    <jawi>عسمن بن حاج طاهر</jawi>
+    <death>1960-12-31</death>
+    <deathm>1380-07-13</deathm>
+    <age>40</age>
     <item>2' Sticker(L)</item>
   </order>
   <order soldto="HAM" date="2015-01-19" delivered="2015-01-26" price="12">
@@ -16743,13 +16745,13 @@
   </order>
   <order soldto="HAM" date="2015-01-19" delivered="" price="40">
     <name>IM Global</name>
-    <jawi>ايم ݢلوبل</jawi>
+    <jawi />
     <death />
     <item>10"x16"</item>
   </order>
   <order soldto="HAM" date="2015-01-19" delivered="" price="40">
     <name>IM Global II - Waqaf</name>
-    <jawi>ايم ݢلوبل اا  واقف</jawi>
+    <jawi />
     <death />
     <item>10"x16"</item>
   </order>
@@ -16797,7 +16799,7 @@
     <item>PV Egg</item>
     <remarks>EF690173343MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-01-25" delivered="" price="250">
+  <order soldto="ADI" date="2015-01-25" delivered="" price="280">
     <name>yusfitri bin mohd bani</name>
     <jawi>يوسفطري بن محمد باني</jawi>
     <born>1984-06-27</born>
@@ -16892,5 +16894,13 @@
     <deathm>1435-11-10</deathm>
     <age>46</age>
     <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-28" delivered="" price="12">
+    <name>HJH SITI AZIMAH BT HJ ABDUL AZIZ</name>
+    <jawi>حجه ستي عظيمه بنت حاج عبدول عزيز</jawi>
+    <death>2014-12-08</death>
+    <deathm>1436-02-15</deathm>
+    <age>68</age>
+    <item>2' Sticker(P)</item>
   </order>
 </nisan>
