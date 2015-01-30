@@ -16681,7 +16681,7 @@
     <item>PV Egg</item>
     <remarks>EF637850545MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-01-17" delivered="" price="380">
+  <order soldto="ADI" date="2015-01-17" delivered="2015-01-29" price="380">
     <name>zaiton bt menan</name>
     <jawi>زيتون بنت مينان</jawi>
     <born>1961-08-11</born>
@@ -16689,21 +16689,21 @@
     <deathm>1435-08-20</deathm>
     <item>2' Batu Hitam(P)</item>
   </order>
-  <order soldto="ADI" date="2015-01-17" delivered="" price="280">
+  <order soldto="ADI" date="2015-01-17" delivered="2015-01-29" price="280">
     <name>mustaffar bin hussin</name>
     <jawi>مُسطعفى بن حُسين</jawi>
     <death>1993-02-14</death>
     <deathm>1413-08-22</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2015-01-17" delivered="" price="280">
+  <order soldto="ADI" date="2015-01-17" delivered="2015-01-29" price="280">
     <name>abu bakar bin ahmad</name>
     <jawi>أبو بكر بن أحمد</jawi>
     <death>2014-11-29</death>
     <deathm>1436-02-06</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2015-01-19" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-19" delivered="2015-01-30" price="12">
     <name>osman bin hj tahir</name>
     <jawi>عسمن بن حاج طاهر</jawi>
     <death>1960-12-31</death>
@@ -16798,7 +16798,7 @@
     <item>PV Egg</item>
     <remarks>EF690173343MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-01-25" delivered="" price="280">
+  <order soldto="ADI" date="2015-01-25" delivered="2015-01-29" price="280">
     <name>yusfitri bin mohd bani</name>
     <jawi>يوسفطري بن محمد باني</jawi>
     <born>1984-06-27</born>
@@ -16806,7 +16806,7 @@
     <deathm>1436-02-16</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2015-01-25" delivered="" price="250">
+  <order soldto="ADI" date="2015-01-25" delivered="2015-01-29" price="250">
     <name>ahmad zulhairi bin noor zairi</name>
     <jawi>أحمد ذولهايري بن نورزايري</jawi>
     <born>2002-11-15</born>
@@ -16838,7 +16838,7 @@
     <deathm>1435-10-02</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="HAM" date="2015-01-27" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-27" delivered="2015-01-30" price="12">
     <name>syed noh bin syed abd rahman</name>
     <jawi>سيد نوح بن سيد عبدال رحمن</jawi>
     <death>2014-07-12</death>
@@ -16846,7 +16846,7 @@
     <age>69</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2015-01-27" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-27" delivered="2015-01-30" price="12">
     <name>hjh zainap bt baba</name>
     <jawi>حجه زينب بنت نانا</jawi>
     <death>2014-06-17</death>
@@ -16854,7 +16854,7 @@
     <age>65</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2015-01-27" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-27" delivered="2015-01-30" price="12">
     <name>hjh zainap bt baba</name>
     <jawi>حجه زينب بنت نانا</jawi>
     <death>2014-06-17</death>
@@ -16862,7 +16862,7 @@
     <age>65</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2015-01-27" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-27" delivered="2015-01-30" price="12">
     <name>khalid bin che din</name>
     <jawi>خاليد بن چئ دين</jawi>
     <death>1990-02-09</death>
@@ -16870,7 +16870,7 @@
     <age>59</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2015-01-27" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-27" delivered="2015-01-30" price="12">
     <name>adam asyraff bin faisal ahmad</name>
     <jawi>ادام أشرا ف بن فيرال أحمد</jawi>
     <death>2014-10-16</death>
@@ -16878,7 +16878,7 @@
     <age>16</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2015-01-27" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-27" delivered="2015-01-30" price="12">
     <name>pathimah bee bt noor mohd</name>
     <jawi>فطمة بي بنت نور محمد</jawi>
     <death>2015-01-15</death>
@@ -16886,7 +16886,7 @@
     <age>71</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2015-01-27" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-27" delivered="2015-01-30" price="12">
     <name>azmi bin kassim</name>
     <jawi>عزمي بن قاسيم</jawi>
     <death>2014-09-05</death>
@@ -16894,7 +16894,7 @@
     <age>46</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2015-01-28" delivered="" price="12">
+  <order soldto="HAM" date="2015-01-19" delivered="2015-01-30" price="12">
     <name>HJH SITI AZIMAH BT HJ ABDUL AZIZ</name>
     <jawi>حجه ستي عظيمه بنت حاج عبدول عزيز</jawi>
     <death>2014-12-08</death>
