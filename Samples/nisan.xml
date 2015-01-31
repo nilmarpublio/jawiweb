@@ -16681,11 +16681,11 @@
     <item>PV Egg</item>
     <remarks>EF637850545MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-01-17" delivered="2015-01-29" price="380">
+  <order soldto="ADI" date="2015-01-17" delivered="" price="380">
     <name>zaiton bt menan</name>
     <jawi>زيتون بنت مينان</jawi>
     <born>1961-08-11</born>
-    <death>2014-06-18</death>
+    <death>2014-06-28</death>
     <deathm>1435-08-20</deathm>
     <item>2' Batu Hitam(P)</item>
   </order>
@@ -16743,13 +16743,13 @@
     <age>74</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2015-01-19" delivered="" price="40">
+  <order soldto="HAM" date="2015-01-19" delivered="2015-02-02" price="40">
     <name>IM Global</name>
     <jawi />
     <death />
     <item>10"x16"</item>
   </order>
-  <order soldto="HAM" date="2015-01-19" delivered="" price="40">
+  <order soldto="HAM" date="2015-01-19" delivered="2015-02-02" price="40">
     <name>IM Global II - Waqaf</name>
     <jawi />
     <death />
@@ -16872,7 +16872,7 @@
   </order>
   <order soldto="HAM" date="2015-01-27" delivered="2015-01-30" price="12">
     <name>adam asyraff bin faisal ahmad</name>
-    <jawi>ادام أشرا ف بن فيرال أحمد</jawi>
+    <jawi>ادام أشرا ف بن فيصل أحمد</jawi>
     <death>2014-10-16</death>
     <deathm>1435-12-21</deathm>
     <age>16</age>
@@ -16931,5 +16931,49 @@
     <death>2014-10-20</death>
     <deathm>1435-12-25</deathm>
     <item>PV Egg</item>
+  </order>
+  <order soldto="HAM" date="2015-01-31" delivered="" price="12">
+    <name>sarah bt mat akim</name>
+    <jawi>ساره بنت مت اکيم</jawi>
+    <death>2000-02-28</death>
+    <deathm>1420-11-24</deathm>
+    <age>62</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-31" delivered="" price="12">
+    <name>omar bin mohd shariff</name>
+    <jawi>عمر بن محمد شريف</jawi>
+    <death>2014-11-30</death>
+    <deathm>1436-02-07</deathm>
+    <age>63</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-01-31" delivered="" price="12">
+    <name>al ashraff shazwan bin al imran</name>
+    <jawi>ال اشراف شزوان بن ال امران</jawi>
+    <born>1998-05-31</born>
+    <death>2014-12-03</death>
+    <deathm>1436-02-10</deathm>
+    <age>16</age>
+    <item>2' Sticker(L)</item>
+    <remarks>rumi saja</remarks>
+  </order>
+  <order soldto="HAM" date="2015-01-31" delivered="" price="12">
+    <name>al ashraff shazwan bin al imran</name>
+    <jawi>ال اشراف شزوان بن ال امران</jawi>
+    <born>1998-05-31</born>
+    <death>2014-12-03</death>
+    <deathm>1436-02-10</deathm>
+    <age>16</age>
+    <item>2' Sticker(L)</item>
+    <remarks>jawi saja</remarks>
+  </order>
+  <order soldto="HAM" date="2015-01-31" delivered="" price="12">
+    <name>siti aishah bt ramlah</name>
+    <jawi>ستي عيشه بنت رملة</jawi>
+    <death>2014-12-28</death>
+    <deathm>1436-03-06</deathm>
+    <age>75</age>
+    <item>2' Sticker(P)</item>
   </order>
 </nisan>
