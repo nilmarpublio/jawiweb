@@ -17061,4 +17061,18 @@
     <age>71</age>
     <item>PV</item>
   </order>
+  <order soldto="ADI" date="2015-02-05" delivered="" price="35">
+    <name>mokminah bt ahmad@said</name>
+    <jawi>موکميناه بنت أحمد سعيد</jawi>
+    <death>2014-12-23</death>
+    <deathm>1436-03-01</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-02-05" delivered="" price="35">
+    <name>zaliha bt abdullah</name>
+    <jawi>زاليحا بنت عبدالله</jawi>
+    <death>2014-11-14</death>
+    <deathm>1436-01-21</deathm>
+    <item>PV</item>
+  </order>
 </nisan>
