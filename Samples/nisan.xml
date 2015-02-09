@@ -16984,7 +16984,7 @@
     <age>75</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2015-02-04" delivered="" price="12">
+  <order soldto="HAM" date="2015-02-04" delivered="2015-02-06" price="12">
     <name>MOHD RAZMAN BIN ABDULLAH</name>
     <jawi>محمد رزمن بن عبدالله</jawi>
     <death>1999-04-15</death>
@@ -16992,14 +16992,14 @@
     <age>43</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="SEM" date="2015-02-04" delivered="" price="250">
+  <order soldto="SEM" date="2015-02-04" delivered="2015-02-08" price="250">
     <name>JAMALUDDIN BIN BASRI</name>
     <jawi>جملادين بن بصري</jawi>
     <death>2014-09-29</death>
     <deathm>1435-12-04</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2015-02-04" delivered="" price="250">
+  <order soldto="SEM" date="2015-02-04" delivered="2015-02-08" price="250">
     <name>HJ SAARANI BIN MANSOR</name>
     <jawi>حاج ساعراني بن منصور</jawi>
     <born>1936-08-01</born>
@@ -17007,7 +17007,7 @@
     <deathm>1436-03-12</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="SEM" date="2015-02-04" delivered="" price="250">
+  <order soldto="SEM" date="2015-02-04" delivered="2015-02-08" price="250">
     <name>NOOR FAZLI BIN MAT NOOR</name>
     <jawi>نور فزلي بن مت نور</jawi>
     <death>2014-12-09</death>
@@ -17073,6 +17073,21 @@
     <jawi>زاليحا بنت عبدالله</jawi>
     <death>2014-11-14</death>
     <deathm>1436-01-21</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="KEN" date="2015-02-07" delivered="2015-02-08" price="250">
+    <name>doyah bt hashim</name>
+    <jawi>دويه بنت هاشم</jawi>
+    <death>2014-07-31</death>
+    <deathm>1435-10-04</deathm>
+    <age>70</age>
+    <item>2' Batu Batik(P)</item>
+  </order>
+  <order soldto="ADI" date="2015-02-07" delivered="" price="35">
+    <name>jama'yah bt hj kamaruddin</name>
+    <jawi>جاميه بنت حاج قمرلدين</jawi>
+    <death>2015-01-08</death>
+    <deathm>1436-03-17</deathm>
     <item>PV</item>
   </order>
 </nisan>
