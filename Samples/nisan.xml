@@ -17014,7 +17014,7 @@
     <deathm>1436-02-16</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2015-02-04" delivered="" price="350">
+  <order soldto="ADI" date="2015-02-04" delivered="" price="380">
     <name>norhayati bt mohd nasuka</name>
     <jawi>نورهاياتي بنت محمد نساوکا</jawi>
     <born>1965-01-18</born>
@@ -17022,7 +17022,7 @@
     <deathm>1436-03-30</deathm>
     <item>2' Batu Hitam(P)</item>
   </order>
-  <order soldto="ADI" date="2015-02-04" delivered="" price="250">
+  <order soldto="ADI" date="2015-02-04" delivered="" price="280">
     <name>abdul rahman bin abdullah</name>
     <jawi>عبدول رحمن بن عبدالله</jawi>
     <death>2015-01-06</death>
@@ -17030,29 +17030,31 @@
     <age>74</age>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2015-02-04" delivered="" price="250">
+  <order soldto="ADI" date="2015-02-04" delivered="" price="280">
     <name>hjh salamiah bt hj mohd bakir</name>
     <jawi>حجه سلامايه بنت حاج محمد باکير</jawi>
     <death>2014-12-07</death>
     <deathm>1436-02-14</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="ADI" date="2015-02-04" delivered="" price="35">
+  <order soldto="ADI" date="2015-02-04" delivered="2015-02-11" price="35">
     <name>khuzaimi bin jedel</name>
     <jawi>خزعيما بن جيديل</jawi>
     <born>1968-02-12</born>
     <death>2015-01-15</death>
     <deathm>1436-03-24</deathm>
     <item>PV Egg</item>
+    <remarks>EF563320716MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-02-04" delivered="" price="35">
+  <order soldto="ADI" date="2015-02-04" delivered="2015-02-11" price="35">
     <name>hjh muntayah bt ahmad</name>
     <jawi>حجه مونتايه بنت أحمد</jawi>
     <death>2014-12-15</death>
     <deathm>1436-02-22</deathm>
     <item>PV</item>
+    <remarks>EF563320716MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-02-04" delivered="" price="35">
+  <order soldto="ADI" date="2015-02-04" delivered="2015-02-11" price="35">
     <name>hj mohd nur bin hj hasan</name>
     <jawi>حاج محمد نور بن حاج حسن</jawi>
     <born>1943-09-25</born>
@@ -17060,20 +17062,23 @@
     <deathm>1436-01-09</deathm>
     <age>71</age>
     <item>PV</item>
+    <remarks>EF563320716MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-02-05" delivered="" price="35">
+  <order soldto="ADI" date="2015-02-05" delivered="2015-02-11" price="35">
     <name>mokminah bt ahmad@said</name>
     <jawi>موکميناه بنت أحمد سعيد</jawi>
     <death>2014-12-23</death>
     <deathm>1436-03-01</deathm>
     <item>PV</item>
+    <remarks>EF563320716MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-02-05" delivered="" price="35">
+  <order soldto="ADI" date="2015-02-05" delivered="2015-02-11" price="35">
     <name>zaliha bt abdullah</name>
     <jawi>زاليحا بنت عبدالله</jawi>
     <death>2014-11-14</death>
     <deathm>1436-01-21</deathm>
     <item>PV</item>
+    <remarks>EF563320716MY</remarks>
   </order>
   <order soldto="KEN" date="2015-02-07" delivered="2015-02-08" price="250">
     <name>doyah bt hashim</name>
@@ -17083,11 +17088,41 @@
     <age>70</age>
     <item>2' Batu Batik(P)</item>
   </order>
-  <order soldto="ADI" date="2015-02-07" delivered="" price="35">
+  <order soldto="ADI" date="2015-02-07" delivered="2015-02-11" price="35">
     <name>jama'yah bt hj kamaruddin</name>
     <jawi>جاميه بنت حاج قمرلدين</jawi>
     <death>2015-01-08</death>
     <deathm>1436-03-17</deathm>
+    <item>PV</item>
+    <remarks>EF563320716MY</remarks>
+  </order>
+  <order soldto="SEM" date="2015-02-11" delivered="" price="250">
+    <name>MOHAMAD YUSNI BIN MOHD YUSOF</name>
+    <jawi>محمد يوسني بن محمد يوسوف</jawi>
+    <death>2014-11-21</death>
+    <deathm>1436-01-28</deathm>
+    <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="ADI" date="2015-02-11" delivered="" price="35">
+    <name>ainon bt mahadi</name>
+    <jawi>عينون بنت مهاد</jawi>
+    <death>2014-08-20</death>
+    <deathm>1435-10-24</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-02-11" delivered="" price="35">
+    <name>mahadi bin satar</name>
+    <jawi>مهاد بن ستار</jawi>
+    <born>1963-02-25</born>
+    <death>2013-12-12</death>
+    <deathm>1435-02-09</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2015-02-11" delivered="" price="35">
+    <name>siti bariah bt maasom</name>
+    <jawi>ستي باريه بنت معسوم</jawi>
+    <death>2014-11-03</death>
+    <deathm>1436-01-10</deathm>
     <item>PV</item>
   </order>
 </nisan>
