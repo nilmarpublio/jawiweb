@@ -17125,4 +17125,28 @@
     <deathm>1436-01-10</deathm>
     <item>PV</item>
   </order>
+  <order soldto="HAM" date="2015-02-11" delivered="" price="12">
+    <name>MUHAMMAD TAN BIN ABDULLAH</name>
+    <jawi>محمد تان بن عبدالله</jawi>
+    <death>2014-11-28</death>
+    <deathm>1436-02-05</deathm>
+    <item>2' Sticker(L)</item>
+    <remarks>故考陳銀根之墓卒于2014年11月28日</remarks>
+  </order>
+  <order soldto="HAM" date="2015-02-11" delivered="" price="12">
+    <name>HJH MAIMOON BEE BT J.SYED MURAD</name>
+    <jawi>حجه ماءيمواون بي بنت ج.سيد مراد</jawi>
+    <death>2015-01-11</death>
+    <deathm>1436-03-20</deathm>
+    <age>91</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-02-11" delivered="" price="12">
+    <name>HJ RAMLI BIN HJ OMAR</name>
+    <jawi>حاج رماي بن حاج عمر</jawi>
+    <death>2015-01-12</death>
+    <deathm>1436-03-21</deathm>
+    <age>76</age>
+    <item>2' Sticker(L)</item>
+  </order>
 </nisan>
