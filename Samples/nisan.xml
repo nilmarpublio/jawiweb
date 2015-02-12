@@ -17149,4 +17149,26 @@
     <age>76</age>
     <item>2' Sticker(L)</item>
   </order>
+  <order soldto="ADI" date="2015-02-12" delivered="" price="35">
+    <name>jurini bin hj abdullah</name>
+    <jawi>جوريني بن حاج عبدالله</jawi>
+    <born>1935-07-30</born>
+    <death>2015-02-06</death>
+    <deathm>1436-04-16</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2015-02-12" delivered="" price="35">
+    <name>ishak bin ahmad</name>
+    <jawi>اسحاق بن أحمد</jawi>
+    <death>2014-05-28</death>
+    <deathm>1435-07-28</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2015-02-12" delivered="" price="35">
+    <name>jailani bin tamri</name>
+    <jawi>جايلاني بن تمري</jawi>
+    <death>2014-06-01</death>
+    <deathm>1435-08-03</deathm>
+    <item>PV Egg</item>
+  </order>
 </nisan>
