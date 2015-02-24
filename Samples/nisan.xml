@@ -17180,7 +17180,7 @@
     <age>71</age>
     <item>PV Egg</item>
   </order>
-  <order soldto="HAM" date="2015-02-14" delivered="" price="12">
+  <order soldto="HAM" date="2015-02-14" delivered="2015-02-17" price="12">
     <name>SHAIK IBRAHIM BIN MOHD</name>
     <jawi>شيك إبراهيم بن محمد</jawi>
     <death>1956-12-27</death>
@@ -17188,7 +17188,7 @@
     <age>50</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2015-02-14" delivered="" price="12">
+  <order soldto="HAM" date="2015-02-14" delivered="2015-02-17" price="12">
     <name>ZAINAB BT ISMAIL</name>
     <jawi>زاينب بنت إسماعيل</jawi>
     <death>2014-12-30</death>
@@ -17196,7 +17196,7 @@
     <age>86</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2015-02-14" delivered="" price="12">
+  <order soldto="HAM" date="2015-02-14" delivered="2015-02-17" price="12">
     <name>MAIMUNAH BT MOHAMAD</name>
     <jawi>مايمونه بنت محمد</jawi>
     <death>2015-02-06</death>
@@ -17204,12 +17204,53 @@
     <age>91</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2015-02-14" delivered="" price="12">
+  <order soldto="HAM" date="2015-02-14" delivered="2015-02-17" price="12">
     <name>SABUDIN BIN OSMAN</name>
     <jawi>سابودين بن عسمن</jawi>
     <death>2015-01-22</death>
     <deathm>1436-04-01</deathm>
     <age>51</age>
     <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-02-24" delivered="" price="12">
+    <name>zaliha bee bt shaik daud</name>
+    <jawi>زاليحا بي بنت شيك داود</jawi>
+    <death>2015-02-13</death>
+    <deathm>1436-04-23</deathm>
+    <age>70</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-02-24" delivered="" price="12">
+    <name>hjh rohani bt ahmad</name>
+    <jawi>حجه روحني بنت أحمد</jawi>
+    <death>2015-01-22</death>
+    <deathm>1436-04-01</deathm>
+    <age>60</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-02-24" delivered="" price="12">
+    <name>kader mydin bin pakir bramsa</name>
+    <jawi>كادير مَيدين بن فقير برامسا</jawi>
+    <death>1996-07-19</death>
+    <deathm>1417-02-23</deathm>
+    <age>78</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-02-24" delivered="" price="12">
+    <name>azmi bin noor</name>
+    <jawi>عزمي بن نور</jawi>
+    <death>2014-11-03</death>
+    <deathm>1436-01-10</deathm>
+    <age>55</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-02-24" delivered="" price="12">
+    <name>sarah bt mat akim</name>
+    <jawi>ساره بنت مت اکيم</jawi>
+    <born>1952-07-30</born>
+    <death>2000-02-28</death>
+    <deathm>1420-11-24</deathm>
+    <age>48</age>
+    <item>2' Sticker(P)</item>
   </order>
 </nisan>
