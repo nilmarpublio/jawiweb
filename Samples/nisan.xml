@@ -17253,4 +17253,35 @@
     <age>48</age>
     <item>2' Sticker(P)</item>
   </order>
+  <order soldto="ADI" date="2015-02-25" delivered="" price="35">
+    <name>zabidah bt itam ahmad</name>
+    <jawi>زبيده بنت اتم أحمد</jawi>
+    <born>1931-12-10</born>
+    <death>2015-01-22</death>
+    <deathm>1436-04-01</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-02-25" delivered="" price="35">
+    <name>latifah bt lamsah</name>
+    <jawi>لاتيفه بنت لمسه</jawi>
+    <death>2014-12-28</death>
+    <deathm>1436-03-06</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-02-25" delivered="" price="35">
+    <name>nurul nadhah bt othman</name>
+    <jawi>نورول نضه بنت عثمان</jawi>
+    <death>1990-01-02</death>
+    <deathm>1410-06-05</deathm>
+    <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2015-02-25" delivered="" price="250">
+    <name>saary bin mohamed</name>
+    <jawi>سعاري بن محمد</jawi>
+    <born>1957-01-13</born>
+    <death>2014-12-01</death>
+    <deathm>1436-02-08</deathm>
+    <age>57</age>
+    <item>2' Batu Batik(L)</item>
+  </order>
 </nisan>
