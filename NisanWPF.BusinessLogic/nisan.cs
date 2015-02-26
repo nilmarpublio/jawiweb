@@ -724,6 +724,9 @@ namespace NisanWPF.BusinessLogic
         public void Execute(object parameter)
         {
             manager.Commit();
+
+            // reset new item collection
+            manager.NewItems.Clear();
         }
         private nisan manager;
         public CommitSvnCommand(nisan nisan)
