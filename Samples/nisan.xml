@@ -17212,7 +17212,7 @@
     <age>51</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2015-02-24" delivered="" price="12">
+  <order soldto="HAM" date="2015-02-24" delivered="2015-02-26" price="12">
     <name>zaliha bee bt shaik daud</name>
     <jawi>زاليحا بي بنت شيك داود</jawi>
     <death>2015-02-13</death>
@@ -17220,7 +17220,7 @@
     <age>70</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2015-02-24" delivered="" price="12">
+  <order soldto="HAM" date="2015-02-24" delivered="2015-02-26" price="12">
     <name>hjh rohani bt ahmad</name>
     <jawi>حجه روحني بنت أحمد</jawi>
     <death>2015-01-22</death>
@@ -17228,7 +17228,7 @@
     <age>60</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="HAM" date="2015-02-24" delivered="" price="12">
+  <order soldto="HAM" date="2015-02-24" delivered="2015-02-26" price="12">
     <name>kader mydin bin pakir bramsa</name>
     <jawi>كادير مَيدين بن فقير برامسا</jawi>
     <death>1996-07-19</death>
@@ -17236,7 +17236,7 @@
     <age>78</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2015-02-24" delivered="" price="12">
+  <order soldto="HAM" date="2015-02-24" delivered="2015-02-26" price="12">
     <name>azmi bin noor</name>
     <jawi>عزمي بن نور</jawi>
     <death>2014-11-03</death>
@@ -17244,7 +17244,7 @@
     <age>55</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2015-02-24" delivered="" price="12">
+  <order soldto="HAM" date="2015-02-24" delivered="2015-02-26" price="12">
     <name>sarah bt mat akim</name>
     <jawi>ساره بنت مت اکيم</jawi>
     <born>1952-07-30</born>
@@ -17283,5 +17283,41 @@
     <deathm>1436-02-08</deathm>
     <age>57</age>
     <item>2' Batu Batik(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-02-26" delivered="" price="12">
+    <name>sari bin manan</name>
+    <jawi>ساري بن مانن</jawi>
+    <death>1988-09-04 ahad</death>
+    <deathm>1409-01-24</deathm>
+    <age>84</age>
+    <item>2' Tarazo(L)</item>
+    <remarks>jawi sahaja</remarks>
+  </order>
+  <order soldto="HAM" date="2015-02-26" delivered="" price="12">
+    <name>sari bin manan</name>
+    <jawi>ساري بن مانن</jawi>
+    <death>1988-09-04 ahad</death>
+    <deathm>1409-01-24</deathm>
+    <age>84</age>
+    <item>2' Tarazo(L)</item>
+    <remarks>rumi sahaja</remarks>
+  </order>
+  <order soldto="HAM" date="2015-02-26" delivered="" price="12">
+    <name>kasiani bt yahya</name>
+    <jawi>كاسينا بنت يحيى</jawi>
+    <death>1972-10-27 Jumaat</death>
+    <deathm>1392-09-19</deathm>
+    <age>59</age>
+    <item>2' Tarazo(L)</item>
+    <remarks>jawi sahaja</remarks>
+  </order>
+  <order soldto="HAM" date="2015-02-26" delivered="" price="12">
+    <name>kasiani bt yahya</name>
+    <jawi>كاسينا بنت يحيى</jawi>
+    <death>1972-10-27 Jumaat</death>
+    <deathm>1392-09-19</deathm>
+    <age>59</age>
+    <item>2' Tarazo(L)</item>
+    <remarks>rumi sahaja</remarks>
   </order>
 </nisan>
