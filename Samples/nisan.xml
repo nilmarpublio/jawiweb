@@ -17014,7 +17014,7 @@
     <deathm>1436-02-16</deathm>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="ADI" date="2015-02-04" delivered="" price="380">
+  <order soldto="ADI" date="2015-02-04" delivered="2015-03-01" price="380">
     <name>norhayati bt mohd nasuka</name>
     <jawi>نورهاياتي بنت محمد نساوکا</jawi>
     <born>1965-01-18</born>
@@ -17253,29 +17253,32 @@
     <age>48</age>
     <item>2' Sticker(P)</item>
   </order>
-  <order soldto="ADI" date="2015-02-25" delivered="" price="35">
+  <order soldto="ADI" date="2015-02-25" delivered="2015-03-03" price="35">
     <name>zabidah bt itam ahmad</name>
     <jawi>زبيده بنت اتم أحمد</jawi>
     <born>1931-12-10</born>
     <death>2015-01-22</death>
     <deathm>1436-04-01</deathm>
     <item>PV</item>
+    <remarks>EF703550690MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-02-25" delivered="" price="35">
+  <order soldto="ADI" date="2015-02-25" delivered="2015-03-03" price="35">
     <name>latifah bt lamsah</name>
     <jawi>لاتيفه بنت لمسه</jawi>
     <death>2014-12-28</death>
     <deathm>1436-03-06</deathm>
     <item>PV</item>
+    <remarks>EF703550690MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-02-25" delivered="" price="35">
+  <order soldto="ADI" date="2015-02-25" delivered="2015-03-03" price="35">
     <name>nurul nadhah bt othman</name>
     <jawi>نورول نضه بنت عثمان</jawi>
     <death>1990-01-02</death>
     <deathm>1410-06-05</deathm>
     <item>PV Budak</item>
+    <remarks>EF703550690MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-02-25" delivered="" price="250">
+  <order soldto="ADI" date="2015-02-25" delivered="2015-03-05" price="250">
     <name>saary bin mohamed</name>
     <jawi>سعاري بن محمد</jawi>
     <born>1957-01-13</born>
@@ -17284,7 +17287,7 @@
     <age>57</age>
     <item>2' Batu Batik(L)</item>
   </order>
-  <order soldto="HAM" date="2015-02-26" delivered="" price="12">
+  <order soldto="HAM" date="2015-02-26" delivered="2015-03-02" price="12">
     <name>sari bin manan</name>
     <jawi>ساري بن مانن</jawi>
     <death>1988-09-04 ahad</death>
@@ -17293,7 +17296,7 @@
     <item>2' Tarazo(L)</item>
     <remarks>jawi sahaja</remarks>
   </order>
-  <order soldto="HAM" date="2015-02-26" delivered="" price="12">
+  <order soldto="HAM" date="2015-02-26" delivered="2015-03-02" price="12">
     <name>sari bin manan</name>
     <jawi>ساري بن مانن</jawi>
     <death>1988-09-04 ahad</death>
@@ -17302,22 +17305,46 @@
     <item>2' Tarazo(L)</item>
     <remarks>rumi sahaja</remarks>
   </order>
-  <order soldto="HAM" date="2015-02-26" delivered="" price="12">
+  <order soldto="HAM" date="2015-02-26" delivered="2015-03-02" price="12">
     <name>kasiani bt yahya</name>
     <jawi>كاسينا بنت يحيى</jawi>
     <death>1972-10-27 Jumaat</death>
     <deathm>1392-09-19</deathm>
     <age>59</age>
-    <item>2' Tarazo(L)</item>
+    <item>2' Tarazo(P)</item>
     <remarks>jawi sahaja</remarks>
   </order>
-  <order soldto="HAM" date="2015-02-26" delivered="" price="12">
+  <order soldto="HAM" date="2015-02-26" delivered="2015-03-02" price="12">
     <name>kasiani bt yahya</name>
     <jawi>كاسينا بنت يحيى</jawi>
     <death>1972-10-27 Jumaat</death>
     <deathm>1392-09-19</deathm>
     <age>59</age>
-    <item>2' Tarazo(L)</item>
+    <item>2' Tarazo(P)</item>
     <remarks>rumi sahaja</remarks>
+  </order>
+  <order soldto="ADI" date="2015-03-01" delivered="2015-03-03" price="35">
+    <name>muhamad samsul bin amir hamzah</name>
+    <jawi>محمد شمشل بن أمير حمزة</jawi>
+    <death>2013-12-10</death>
+    <deathm>1435-02-07</deathm>
+    <item>PV Egg</item>
+    <remarks>EF703550690MY</remarks>
+  </order>
+  <order soldto="ADI" date="2015-03-02" delivered="2015-03-05" price="200">
+    <name>norhayati bt mohd nasuka</name>
+    <jawi>نورهاياتي بنت محمد نساوکا</jawi>
+    <born>1965-10-18</born>
+    <death>2015-01-21</death>
+    <deathm>1436-03-30</deathm>
+    <item>2' Batu Hitam(P)</item>
+    <remarks>pembetulan</remarks>
+  </order>
+  <order soldto="SEM" date="2015-03-06" delivered="" price="250">
+    <name>NAJIBAH BT DAUT</name>
+    <jawi>نجيبه بنت داوت</jawi>
+    <death>1977-08-23</death>
+    <deathm>1397-09-09</deathm>
+    <item>2' Batu Batik(P)</item>
   </order>
 </nisan>
