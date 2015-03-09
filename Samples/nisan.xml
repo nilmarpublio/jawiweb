@@ -17347,4 +17347,39 @@
     <deathm>1397-09-09</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
+  <order soldto="ADI" date="2015-03-09" delivered="" price="35">
+    <name>hj nawawi bin hj abdul rahman</name>
+    <jawi>حاج نووي بن حاج عبدول رحمن</jawi>
+    <death>1973</death>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-03-09" delivered="" price="35">
+    <name>hjh hamidah bt hj abdul majid</name>
+    <jawi>حجه هاميه بنت حاج عبدول مجيد</jawi>
+    <death>1993-05-28</death>
+    <deathm>1413-12-08</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-03-09" delivered="" price="35">
+    <name>addina imani bt ahmad syarizal</name>
+    <jawi>ا الدينا ايماني بنت أحمد شريذال</jawi>
+    <born>2014-05-19</born>
+    <death>2015-03-02</death>
+    <deathm>1436-05-11</deathm>
+    <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2015-03-09" delivered="" price="35">
+    <name>razali bin din</name>
+    <jawi>رازالي بن دين</jawi>
+    <death>2008-12-07</death>
+    <deathm>1429-12-09</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-03-09" delivered="" price="35">
+    <name>dikon bin kasimin</name>
+    <jawi>دکون بن کاسيمين</jawi>
+    <death>2015-01-19</death>
+    <deathm>1436-03-28</deathm>
+    <item>PV Egg</item>
+  </order>
 </nisan>
