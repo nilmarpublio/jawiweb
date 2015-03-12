@@ -17382,4 +17382,76 @@
     <deathm>1436-03-28</deathm>
     <item>PV Egg</item>
   </order>
+  <order soldto="HAM" date="2015-03-12" delivered="" price="12">
+    <name>noor mohd bin yatim</name>
+    <jawi>نور محمد بن ياتم</jawi>
+    <death>2014-12-28</death>
+    <deathm>1436-03-06</deathm>
+    <age>63</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-03-12" delivered="" price="12">
+    <name>abd rahman bin lazim</name>
+    <jawi>عبدال رحمن بن لازيم</jawi>
+    <death>2015-02-17</death>
+    <deathm>1436-04-27</deathm>
+    <age>81</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-03-12" delivered="" price="12">
+    <name>mahmuzah bt madar mohideen</name>
+    <jawi>مهموزه بنت مادر موهيديين</jawi>
+    <death>2014-12-19</death>
+    <deathm>1436-02-26</deathm>
+    <age>82</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-03-12" delivered="" price="12">
+    <name>radzi bin ahmad</name>
+    <jawi>راضي بن أحمد</jawi>
+    <death>2014-12-08</death>
+    <deathm>1436-02-15</deathm>
+    <age>66</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-03-12" delivered="" price="12">
+    <name>kamariah bt abd hamid</name>
+    <jawi>قمريه بنت عبدال حميد</jawi>
+    <death>2015-02-04</death>
+    <deathm>1436-04-14</deathm>
+    <age>76</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-03-12" delivered="" price="12">
+    <name>siti aishah bt ahmad</name>
+    <jawi>ستي عيشه بنت أحمد</jawi>
+    <death>2015-02-26</death>
+    <deathm>1436-05-07</deathm>
+    <age>80</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-03-12" delivered="" price="12">
+    <name>hjh abadah bt saadom</name>
+    <jawi>حجه اباده بنت سعداوم</jawi>
+    <death>2014-12-06</death>
+    <deathm>1436-02-13</deathm>
+    <age>57</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-03-12" delivered="" price="12">
+    <name>ahmad bin ibrahim</name>
+    <jawi>أحمد بن إبراهيم</jawi>
+    <death>2015-03-02</death>
+    <deathm>1436-05-11</deathm>
+    <age>83</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-03-12" delivered="" price="12">
+    <name>noor bin hussain</name>
+    <jawi>نور بن حُسين</jawi>
+    <death>2015-03-09</death>
+    <deathm>1436-05-18</deathm>
+    <age>88</age>
+    <item>2' Sticker(L)</item>
+  </order>
 </nisan>
