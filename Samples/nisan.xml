@@ -17475,4 +17475,25 @@
     <item>PV Egg</item>
     <remarks>EF708473725MY</remarks>
   </order>
+  <order soldto="SEM" date="2015-03-16" delivered="" price="350">
+    <name>wan bt mat</name>
+    <jawi>وان بنت مت</jawi>
+    <death>2014-09-18</death>
+    <deathm>1435-11-23</deathm>
+    <item>2' Batu Hitam(P)</item>
+  </order>
+  <order soldto="SEM" date="2015-03-16" delivered="" price="350">
+    <name>Siti salmiah bt Hj saad</name>
+    <jawi>ستي ساميه بنت حاج سعد</jawi>
+    <death>2015-02-23</death>
+    <deathm>1436-05-04</deathm>
+    <item>2' Batu Hitam(P)</item>
+  </order>
+  <order soldto="SEM" date="2015-03-16" delivered="" price="350">
+    <name>Azizah bt sarif</name>
+    <jawi>عزيزه بنت صرف</jawi>
+    <death>2015-02-26</death>
+    <deathm>1436-05-07</deathm>
+    <item>2' Batu Hitam(P)</item>
+  </order>
 </nisan>
