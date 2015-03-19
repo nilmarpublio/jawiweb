@@ -17387,7 +17387,7 @@
     <item>PV Egg</item>
     <remarks>EF708473725MY</remarks>
   </order>
-  <order soldto="HAM" date="2015-03-12" delivered="2015-03-16" price="12">
+  <order soldto="HAM" date="2015-03-12" delivered="" price="12">
     <name>noor mohd bin yatim</name>
     <jawi>نور محمد بن ياتم</jawi>
     <death>2014-12-28</death>
@@ -17403,7 +17403,7 @@
     <age>81</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2015-03-12" delivered="2015-03-16" price="12">
+  <order soldto="HAM" date="2015-03-12" delivered="" price="12">
     <name>mahmuzah bt madar mohideen</name>
     <jawi>مهموزه بنت مادر موهيديين</jawi>
     <death>2014-12-19</death>
@@ -17419,7 +17419,7 @@
     <age>66</age>
     <item>2' Sticker(L)</item>
   </order>
-  <order soldto="HAM" date="2015-03-12" delivered="2015-03-16" price="12">
+  <order soldto="HAM" date="2015-03-12" delivered="" price="12">
     <name>kamariah bt abd hamid</name>
     <jawi>قمريه بنت عبدال حميد</jawi>
     <death>2015-02-04</death>
@@ -17495,5 +17495,45 @@
     <death>2015-02-26</death>
     <deathm>1436-05-07</deathm>
     <item>2' Batu Hitam(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-03-19" delivered="" price="12">
+    <name>che fauzi bt ahmed</name>
+    <jawi>چئ فوزي بنت همد</jawi>
+    <death>2015-01-27</death>
+    <deathm>1436-04-06</deathm>
+    <age>43</age>
+    <item>2' Sticker(P)</item>
+  </order>
+  <order soldto="HAM" date="2015-03-19" delivered="" price="12">
+    <name>hassan bin jabar</name>
+    <jawi>حسن بن جابر</jawi>
+    <death>2014-11-24</death>
+    <deathm>1436-02-01</deathm>
+    <age>56</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-03-19" delivered="" price="12">
+    <name>jamal mohd bin seeni mohd</name>
+    <jawi>جمال محمد بن سيني محمد</jawi>
+    <death>2014-12-08</death>
+    <deathm>1436-02-15</deathm>
+    <age>73</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-03-19" delivered="" price="12">
+    <name>mohamen noor bin dali</name>
+    <jawi>محمد نور بن دالي</jawi>
+    <death>2015-02-14</death>
+    <deathm>1436-04-24</deathm>
+    <age>70</age>
+    <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="HAM" date="2015-03-19" delivered="" price="12">
+    <name>mohd noor bin othman</name>
+    <jawi>محمد نور بن عثمان</jawi>
+    <death>2014-12-13</death>
+    <deathm>1436-02-20</deathm>
+    <age>49</age>
+    <item>2' Sticker(L)</item>
   </order>
 </nisan>
