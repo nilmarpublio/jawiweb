@@ -17278,7 +17278,7 @@
     <item>PV Budak</item>
     <remarks>EF703550690MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-02-25" delivered="2015-03-05" price="250">
+  <order soldto="ADI" date="2015-02-25" delivered="2015-03-05" price="280">
     <name>saary bin mohamed</name>
     <jawi>سعاري بن محمد</jawi>
     <born>1957-01-13</born>
@@ -17535,5 +17535,57 @@
     <deathm>1436-02-20</deathm>
     <age>49</age>
     <item>2' Sticker(L)</item>
+  </order>
+  <order soldto="ADI" date="2015-03-20" delivered="" price="35">
+    <name>md ismail bin atan</name>
+    <jawi>مد إسماعيل بن اتن</jawi>
+    <death>2014-09-26</death>
+    <deathm>1435-12-01</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2015-03-20" delivered="" price="35">
+    <name>nazura bt idris</name>
+    <jawi>نازورا بنت ادريس</jawi>
+    <born>1988-05-25</born>
+    <death>2015-03-12</death>
+    <deathm>1436-05-21</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-03-20" delivered="" price="35">
+    <name>hjh salbiah bt hashim</name>
+    <jawi>حجه سلبيه بنت هاشم</jawi>
+    <death>2014-02-26</death>
+    <deathm>1435-04-26</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-03-20" delivered="" price="35">
+    <name>hjh musirah bt saikon</name>
+    <jawi>حجه موسيرح بنت ساءيکون</jawi>
+    <death>2015-02-08</death>
+    <deathm>1436-04-18</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-03-20" delivered="" price="35">
+    <name>hj sedin bin muhammad</name>
+    <jawi>حاج سدين بن محمد</jawi>
+    <death>2015-03-12</death>
+    <deathm>1436-05-21</deathm>
+    <item>PV Egg</item>
+  </order>
+  <order soldto="ADI" date="2015-03-20" delivered="" price="35">
+    <name>muhammad nur fitri bin mohd azhar</name>
+    <jawi>محمد نور فطري بن محمد ازهار</jawi>
+    <born>2006-10-24</born>
+    <death>2013-04-21</death>
+    <deathm>1434-06-10</deathm>
+    <item>PV Budak</item>
+  </order>
+  <order soldto="ADI" date="2015-03-20" delivered="" price="35">
+    <name>teh bt nordin</name>
+    <jawi>تيه بنت نوردين</jawi>
+    <born>1928-05-31</born>
+    <death>2014-12-12</death>
+    <deathm>1436-02-19</deathm>
+    <item>PV</item>
   </order>
 </nisan>
