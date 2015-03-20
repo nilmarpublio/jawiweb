@@ -54,7 +54,12 @@
 		
 		var date = new Date();
 		var y = date.getFullYear();
+		var m = date.getMonth();
+		console.log("Current month:"+m);
 		for(var i=1;i<=12;i++) {
+			if(i == m+2) {
+				y --;
+			}
 			$('#'+i).fullCalendar({
 				header: {right: ''},
 				titleFormat: {month: 'MMM yyyy'},
@@ -68,9 +73,7 @@
 		// only view past 6 months
 		var today = new Date();
 		var current = today.getMonth();//+1;
-		//console.log("Current: "+current);
 		var j=0;
-		// TODO: Year wrong when it is crossing year happened at Jan.
 		for(var i=current+1;i<current+13;i++) {
 			if(j<6) {
 				$('#'+(i%12+1)).hide();
