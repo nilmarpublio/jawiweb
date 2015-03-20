@@ -79,7 +79,7 @@
           <br></br>
           012-4711134 <b>THEN YEANG SHING</b>
           <br />963 Jalan 6, Machang Bubok
-		  <br/>14020 Bukit Mertajam, Penang
+		  <br />14020 Bukit Mertajam, Penang
           <br /><a href="mailto:yancyn@hotmail.com">yancyn@hotmail.com</a>
           <br />
           <p/>
@@ -212,7 +212,7 @@
             </xsl:if>
           </div>
           Cari bulan Melayu di
-          <a href="http://www.hlgranite.com/nisan/calendar.aspx">http://www.hlgranite.com/nisan/calendar.aspx</a>
+          <a href="http://hlgranite.apphb.com/Nisan/Calendar/">http://hlgranite.apphb.com/Nisan/Calendar/</a>
         </div>
         <br />
         <div class="footer">
@@ -253,7 +253,7 @@
           </span>
         </div>
 		<div id="calendar" style="float:left;width:500px;margin-left:30px;"></div>
-		<!-- TODO: Embed svg in xsl stylesheet -->
+		<!-- TODO: Embedded svg in xsl stylesheet -->
 		<!-- embed src="G:\My Works\Hamid\AHLAWAHSAHLAYARAMADAN.svg" width="300" height="100" type="image/svg+xml" pluginspage="http://www.adobe.com/svg/viewer/install/" -->
       </body>
     </html>
