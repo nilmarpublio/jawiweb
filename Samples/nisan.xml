@@ -17475,21 +17475,21 @@
     <item>PV Egg</item>
     <remarks>EF708473725MY</remarks>
   </order>
-  <order soldto="SEM" date="2015-03-16" delivered="" price="350">
+  <order soldto="SEM" date="2015-03-16" delivered="2015-03-24" price="350">
     <name>wan bt mat</name>
     <jawi>وان بنت مت</jawi>
     <death>2014-09-18</death>
     <deathm>1435-11-23</deathm>
     <item>2' Batu Hitam(P)</item>
   </order>
-  <order soldto="SEM" date="2015-03-16" delivered="" price="350">
+  <order soldto="SEM" date="2015-03-16" delivered="2015-03-24" price="350">
     <name>Siti salmiah bt Hj saad</name>
     <jawi>ستي ساميه بنت حاج سعد</jawi>
     <death>2015-02-23</death>
     <deathm>1436-05-04</deathm>
     <item>2' Batu Hitam(P)</item>
   </order>
-  <order soldto="SEM" date="2015-03-16" delivered="" price="350">
+  <order soldto="SEM" date="2015-03-16" delivered="2015-03-24" price="350">
     <name>Azizah bt sarif</name>
     <jawi>عزيزه بنت صرف</jawi>
     <death>2015-02-26</death>
@@ -17537,55 +17537,68 @@
     <item>2' Sticker(L)</item>
   </order>
   <order soldto="ADI" date="2015-03-20" delivered="" price="35">
-    <name>md ismail bin atan</name>
-    <jawi>مد إسماعيل بن اتن</jawi>
+    <name>mohd ismail bin atan</name>
+    <jawi>محمد إسماعيل بن اتن</jawi>
     <death>2014-09-26</death>
     <deathm>1435-12-01</deathm>
     <item>PV Egg</item>
   </order>
-  <order soldto="ADI" date="2015-03-20" delivered="" price="35">
+  <order soldto="ADI" date="2015-03-20" delivered="2015-03-23" price="35">
     <name>nazura bt idris</name>
     <jawi>نازورا بنت ادريس</jawi>
     <born>1988-05-25</born>
     <death>2015-03-12</death>
     <deathm>1436-05-21</deathm>
     <item>PV</item>
+    <remarks>EF392450103MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-03-20" delivered="" price="35">
+  <order soldto="ADI" date="2015-03-20" delivered="2015-03-23" price="35">
     <name>hjh salbiah bt hashim</name>
     <jawi>حجه سلبيه بنت هاشم</jawi>
     <death>2014-02-26</death>
     <deathm>1435-04-26</deathm>
     <item>PV</item>
+    <remarks>EF392450103MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-03-20" delivered="" price="35">
+  <order soldto="ADI" date="2015-03-20" delivered="2015-03-23" price="35">
     <name>hjh musirah bt saikon</name>
     <jawi>حجه موسيرح بنت ساءيکون</jawi>
     <death>2015-02-08</death>
     <deathm>1436-04-18</deathm>
     <item>PV</item>
+    <remarks>EF392450103MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-03-20" delivered="" price="35">
+  <order soldto="ADI" date="2015-03-20" delivered="2015-03-23" price="35">
     <name>hj sedin bin muhammad</name>
     <jawi>حاج سدين بن محمد</jawi>
     <death>2015-03-12</death>
     <deathm>1436-05-21</deathm>
     <item>PV Egg</item>
+    <remarks>EF392450103MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-03-20" delivered="" price="35">
+  <order soldto="ADI" date="2015-03-20" delivered="2015-03-23" price="35">
     <name>muhammad nur fitri bin mohd azhar</name>
     <jawi>محمد نور فطري بن محمد ازهار</jawi>
     <born>2006-10-24</born>
     <death>2013-04-21</death>
     <deathm>1434-06-10</deathm>
     <item>PV Budak</item>
+    <remarks>EF392450103MY</remarks>
   </order>
-  <order soldto="ADI" date="2015-03-20" delivered="" price="35">
+  <order soldto="ADI" date="2015-03-20" delivered="2015-03-23" price="35">
     <name>teh bt nordin</name>
     <jawi>تيه بنت نوردين</jawi>
     <born>1928-05-31</born>
     <death>2014-12-12</death>
     <deathm>1436-02-19</deathm>
     <item>PV</item>
+    <remarks>EF392450103MY</remarks>
+  </order>
+  <order soldto="SEM" date="2015-03-22" delivered="2015-03-24" price="250">
+    <name>hjh salamah bt hj osman</name>
+    <jawi>حجه سلامه بنت حاج عسمن</jawi>
+    <death>2014-09-23</death>
+    <deathm>1435-11-28</deathm>
+    <item>2' Batu Batik(P)</item>
   </order>
 </nisan>
