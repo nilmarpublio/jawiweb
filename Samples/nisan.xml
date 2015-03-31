@@ -17601,4 +17601,26 @@
     <deathm>1435-11-28</deathm>
     <item>2' Batu Batik(P)</item>
   </order>
+  <order soldto="ADI" date="2015-03-31" delivered="" price="35">
+    <name>Hashim bin bador</name>
+    <jawi>هاشم بن بادور</jawi>
+    <death>2014-12-22</death>
+    <deathm>1436-02-29</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-03-31" delivered="" price="35">
+    <name>Salasiah bt yahya</name>
+    <jawi>سلاسيه بنت يحيى</jawi>
+    <death>2015-03-04</death>
+    <deathm>1436-05-13</deathm>
+    <item>PV</item>
+  </order>
+  <order soldto="ADI" date="2015-03-31" delivered="" price="35">
+    <name>Md rasid bin yatim</name>
+    <jawi>مد راصد بن ياتم</jawi>
+    <death>2014-02-09 17:50</death>
+    <deathm>1435-04-09</deathm>
+    <age>63</age>
+    <item>PV</item>
+  </order>
 </nisan>
