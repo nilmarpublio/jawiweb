@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Data;
 using System.Windows.Input;
-
+using LibGit2Sharp;
 using SharpSvn;
 using HLGranite.Jawi;
 
@@ -17,6 +17,9 @@ namespace NisanWPF.BusinessLogic
 {
     public partial class nisan
     {
+        /// <summary>
+        /// nisan.xml.
+        /// </summary>
         private const string FILENAME = "nisan.xml";
         public static MuslimCalendar Calendar;
 
@@ -297,6 +300,7 @@ namespace NisanWPF.BusinessLogic
             this.generateSvgCommand = new GenerateSvgCommand(this);
             this.saveCommand = new SaveCommand(this);
             this.commitSvnCommand = new CommitSvnCommand(this);
+            this.commitGitCommand = new CommitGitCommand(this);
             this.resetFilterCommand = new ResetFilterCommand(this);
             this.filterPendingOrderCommand = new FilterPendingOrderCommand(this);
             this.filterNameCommand = new FilterNameCommand(this);
@@ -335,11 +339,6 @@ namespace NisanWPF.BusinessLogic
                 // create empty new item compare to last svn commit
                 nisan old;
                 nisan.LoadFromFile(oldFile, out old);
-                //for (int i = nisan.Items.Count - 1; i < nisan.Items.Count - old.Items.Count; i--)
-                //{
-                //    if (nisan.Items[i] is nisanOrder)
-                //        this.NewItems.Add(nisan.Items[i] as nisanOrder);
-                //}
                 int i = this.Orders.Count;
                 while (this.NewItems.Count < nisan.Items.Count - old.Items.Count)
                 {
@@ -575,7 +574,7 @@ namespace NisanWPF.BusinessLogic
         public void Save()
         {
             System.Diagnostics.Debug.WriteLine("Save");
-            SaveToFile("nisan.xml");
+            SaveToFile(FILENAME);
         }
 
         private CommitSvnCommand commitSvnCommand;
@@ -588,15 +587,51 @@ namespace NisanWPF.BusinessLogic
         /// </remarks>
         public bool Commit()
         {
-            // save to file first
-            SaveToFile("nisan.xml");
+            // ensure changes is save if forgot to press save button
+            Save();
 
             System.Diagnostics.Debug.WriteLine("svn commit nisan.xml -m \"Updating nisan order by NisanWPF.\"");
             //string url = "https://jawiweb.googlecode.com/svn/trunk/Samples";
             SvnCommitArgs args = new SvnCommitArgs();
             args.LogMessage = "Updating nisan order by NisanWPF.";
             using (SvnClient client = new SvnClient())
-                return client.Commit("nisan.xml", args);//url, args);
+                return client.Commit(FILENAME, args);
+        }
+
+        private CommitGitCommand commitGitCommand;
+        public CommitGitCommand CommitGitCommand { get { return this.commitGitCommand; } }
+        /// <summary>
+        /// Commit nisan.xml to git repo based on working copy path and authentication.
+        /// </summary>
+        public bool CommitGit()
+        {
+            // ensure changes is save if forgot to press save button
+            Save();
+
+            System.Diagnostics.Debug.WriteLine("git commit nisan.xml -m \"Update nisan order by NisanWPF\"");
+            string workingPath = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            System.Diagnostics.Debug.WriteLine("Working path: " + workingPath);
+            using (var repo = new Repository(workingPath))
+            {
+                // if got changes only commit
+                bool isDiff = (repo.Diff.Compare<TreeChanges>().Count() > 0) ? true : false;
+                if (isDiff)
+                {
+                    repo.Index.Stage(FILENAME);
+                    Signature author = new Signature("yancyn", "yancyn@gmail.com", DateTime.Now);
+                    Signature committer = author;
+                    // commit to the repo
+                    Commit commit = repo.Commit("Update nisan order by NisanWPF", author, committer);
+                }
+
+                // push to repo
+                PushOptions options = new PushOptions();
+                options.Credentials = new UsernamePasswordCredentials() { Username = "yancyn", Password = "1project1month" };
+                repo.Network.Push(repo.Head, options);
+            }
+
+            this.NewItems.Clear();
+            return true;
         }
 
         /// <summary>
@@ -724,12 +759,30 @@ namespace NisanWPF.BusinessLogic
         public void Execute(object parameter)
         {
             manager.Commit();
-
-            // reset new item collection
             manager.NewItems.Clear();
         }
         private nisan manager;
         public CommitSvnCommand(nisan nisan)
+        {
+            this.manager = nisan;
+        }
+    }
+
+    public class CommitGitCommand : ICommand
+    {
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public event EventHandler CanExecuteChanged;
+
+        public void Execute(object parameter)
+        {
+            manager.CommitGit();
+        }
+        private nisan manager;
+        public CommitGitCommand(nisan nisan)
         {
             this.manager = nisan;
         }
