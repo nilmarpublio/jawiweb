@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using LibGit2Sharp;
 using NisanWPF.BusinessLogic;
 
 namespace NisanWPF
@@ -28,6 +29,20 @@ namespace NisanWPF
         {
             InitializeComponent();
             versionLabel.Text = "v" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+
+            // TODO: Move to NisanWPF.BusinessLogic
+            // pull latest from git
+            string workingPath = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            System.Diagnostics.Debug.WriteLine("Working path: " + workingPath);
+            using (var repo = new Repository(workingPath))
+            {
+                Signature signature = new Signature("yancyn", "yancyn@gmail.com", DateTime.Now);
+                PullOptions options = new PullOptions
+                {
+                    MergeOptions = new MergeOptions() {FastForwardStrategy = FastForwardStrategy.FastForwardOnly}
+                };
+                repo.Network.Pull(signature, options);
+            }
 
             nisan.LoadFromFile("nisan.xml", out nisan);
             nisan.Initialize(nisan);
