@@ -1,0 +1,161 @@
+﻿/**
+ * @see http://colorschemedesigner.com/#2c61TowoHw0w0
+ */
+html, body, h1, form, fieldset, legend, ol, li {margin: 0;padding: 0;}
+h1 {text-transform: uppercase;clear: both;}
+body {
+    background: #ffffff;
+    color: #111111;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding : 20px;
+}
+
+.box,
+form {
+    background: #9cbc2c;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px 20px 40px;
+    width: auto;
+    height: auto;
+}
+
+.box fieldset,
+form fieldset {border: none;margin-bottom: 10px;}
+
+.box fieldset:last-of-type,
+form fieldset:last-of-type {margin-bottom: 0;}
+
+.box legend,
+form legend {
+    color: #384313;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.box > fieldset > legend:before,
+form > fieldset > legend:before {
+    /* content: "Step " counter(fieldsets) ": "; */
+    counter-increment: fieldsets;
+}
+
+.box fieldset fieldset legend,
+form fieldset fieldset legend {
+    color: #111111;
+    font-size: 13px;
+    font-weight: normal;
+    padding-bottom: 0;
+}
+
+.box ol li,
+form ol li {
+    background: #b9cf6a;
+    background: rgba(255,255,255,.3);
+    border-color: #e3ebc3;
+    border-color: rgba(255,255,255,.6);
+    border-style: solid;
+    border-width: 2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    line-height: 30px;
+    list-style: none;
+    padding: 5px 10px;
+    margin-bottom: 2px;
+}
+
+.box ol ol li,
+form ol ol li {background: none;border: none;float: left;}
+
+.box label,
+form label {float: left;font-size: 13px;width: 110px;}
+
+.box fieldset fieldset label,
+form fieldset fieldset label {
+    background:none no-repeat left 50%;
+    line-height: 20px;
+    padding: 0 0 0 30px;
+    width: auto;
+}
+
+.box fieldset fieldset label:hover,
+form fieldset fieldset label:hover {cursor: pointer;}
+
+.box textarea,
+form textarea {
+    background: #ffffff;
+    border: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    font: italic 13px Georgia, "Times New Roman", Times, serif;
+    outline: none;
+    padding: 5px;
+    width: 200px;
+}
+
+.box input:not([type=submit]):focus,
+form input:not([type=submit]):focus,
+.box textarea:focus,
+form textarea:focus {background: #eaeaea;}
+
+button,
+.box button,
+#results button,
+form button {
+    background: #384313;
+    border: none;
+    float:left;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    display: block;
+    font: 14px Georgia, "Times New Roman", Times, serif;
+    letter-spacing: 1px;
+    margin: 7px 0 0 5px;
+    padding: 7px 20px;
+    text-shadow: 0 1px 1px #000000;
+    text-transform: uppercase;
+}
+
+button:hover,
+.box button:hover,
+form button:hover {background: #1e2506;cursor: pointer;}
+
+/**
+ * Make input like a label for those readonly attribute.
+ */
+input[readonly="readonly"],
+.box input[readonly="readonly"],
+form input[readonly="readonly"] {border: none;background: transparent;}
+
+#results li {
+	list-style-type: decimal;
+	height: 50px;
+	clear: both;
+	vertical-align: bottom;
+}
+
+/**
+ * Make alternative row different colors.
+ */
+#results li:nth-child(even) { background: #CCC;}
+#results li:nth-child(odd) {background: #FFF;}
+
+img:hover {cursor: hand;}
+
+/**
+ * Apply to numeric input.
+ */
+.numberBox {text-align: right;width: 60px;}
+
+/** Apply to date control */
+.dateBox {text-align: right;}
+
+#summary {position: absolute;top: 50px;left: 630px;}
+table tr td {text-align: right;}
+
+#results tr:nth-child(odd) {background: #C5BB2E; }
+#results tr:nth-child(even) {background: white;}

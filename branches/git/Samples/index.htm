@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Nisan List</title>
+        <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+        <script type="text/javascript" src="js/xml.js"></script>
+        <script type="text/javascript" src="js/table_sort.js"></script>
+        <style type="text/css">
+            html {font-family:Tahoma,Calibri,Verdana,Arial;font-size:9pt;}
+            h3 {font-variant:small-caps;text-align:center;}
+            th {background:lightgrey;}
+            
+            .blue {color:blue;}
+            .red {color:red;text-decoration:blink;}
+            .green {color:green;}
+            .white {color:gray;}
+            .italic {font-style: italic;}
+            .highlight {background:lightgrey;}
+            .strikethrough {text-decoration:line-through;}
+            
+            h3 ol,ul {margin:0;padding:0;list-style-type:none;display:inline;}
+            ul li {list-style-type:none;display:inline;}
+            ul li a {color:Black;}            
+            #xml_wrapper ul {margin-left:0;}            
+            
+            #xml_wrapper table th {
+                font-weight:normal;
+                text-align: left;
+	            background: lightgrey;
+	            cursor: pointer;
+            }
+            #xml_wrapper table th:first-child { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px }
+            #xml_wrapper table th:last-child { -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px }
+            #xml_wrapper table tbody td {margin-right:10px;}
+            
+            .th_hover { color: #ccc}  
+            .headerSortDown,.headerSortUp { font-weight: bold !important }
+            
+            /*For zebra stiping in table*/		
+            /* NOTE: This does not work as intended with filtering */	
+            .odd {}
+            .even {}
+            .stripe { background: gainsboro !important}
+            
+			.footer { float:left;bottom:10px;font-size:10px;}
+			.footer ul li { list-style:none;display:inline;}
+          	.left {float:left;}
+          	.right {float:right;}
+        </style>
+</head>
+<body>
+    <div id="xml_wrapper">
+    <h3>nisan list</h3>
+        Filter by Sold to:
+        <ul id="xml_nav">
+            <li><a class="filter_adi" href="javascript:void(0)">ADI</a></li>
+            <li><a class="filter_ali" href="javascript:void(0)">ALI</a></li>
+            <li><a class="filter_ham" href="javascript:void(0)">HAM</a></li>
+            <li><a class="filter_ken" href="javascript:void(0)">KEN</a></li>
+            <li><a class="filter_sel" href="javascript:void(0)">SEL</a></li>
+            <li><a class="filter_sem" href="javascript:void(0)">SEM</a></li>
+            <li><a class="filter_all" href="javascript:void(0)">ALL</a></li>
+        </ul>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        Filter by Month:
+        <ul id="xml_month">
+            <li><a class="filter_01" href="javascript:void(0)">1</a></li>
+            <li><a class="filter_02" href="javascript:void(0)">2</a></li>
+            <li><a class="filter_03" href="javascript:void(0)">3</a></li>
+            <li><a class="filter_04" href="javascript:void(0)">4</a></li>
+            <li><a class="filter_05" href="javascript:void(0)">5</a></li>
+            <li><a class="filter_06" href="javascript:void(0)">6</a></li>
+            <li><a class="filter_07" href="javascript:void(0)">7</a></li>
+            <li><a class="filter_08" href="javascript:void(0)">8</a></li>
+            <li><a class="filter_09" href="javascript:void(0)">9</a></li>
+            <li><a class="filter_10" href="javascript:void(0)">10</a></li>
+            <li><a class="filter_11" href="javascript:void(0)">11</a></li>
+            <li><a class="filter_12" href="javascript:void(0)">12</a></li>
+        </ul>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        Total: <span id="counter"></span> items
+
+        <table cellpadding="2" border="0" cellspacing="1">
+            <thead>
+                <tr>
+                  <th class="header">No</th>
+                  <th class="header">Sold</th>
+                  <th class="header">Order</th>
+                  <th class="header">Name</th>
+                  <th class="header" width="100px">Item</th>
+                  <th />
+                  <th class="header">Age</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr style="height:16px;"><th colspan="7"></th></tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="footer">
+       <ul>
+         <li>ADI - Addin | </li>
+         <li>HAM - Hamid | </li>
+         <li>KEN - Tmn Kenari | </li>
+         <li>SEL - Selama | </li>
+         <li>SEM - Semanggol</li>
+       </ul>
+       <br/><br/>
+       <span class="left">
+         Bulan Melayu:
+         <ol>
+           <li>Muharram</li>
+           <li>Safar</li>
+           <li>Rabiulawal</li>
+           <li>Rabiulakhir</li>
+           <li>Jamadilawal</li>
+           <li>Jamadilakhir</li>
+           <li>Rejab</li>
+           <li>Syaaban</li>
+           <li>Ramadhan</li>
+           <li>Syawal</li>
+           <li>Zulkaedah</li>
+           <li>Zulhijjah</li>
+         </ol>
+       </span>
+       <span class="left">
+         <br/>
+         <ol>
+           <li>محرّم</li>
+           <li>صفر</li>
+           <li>ربيع الاول</li>
+           <li>ربيع الاخير</li>
+           <li>جمادالاول</li>
+           <li>جمادالاخير</li>
+           <li>رجب</li>
+           <li>شعبان</li>
+           <li>رمضان</li>
+           <li>شوال</li>
+           <li>ذوالقعده</li>
+           <li>ذوالحجه</li>
+         </ol>
+       </span>
+     </div>
+</body>
+</html>

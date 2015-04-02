@@ -1,0 +1,60 @@
+﻿<Window x:Class="FindLiandui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:w="http://schemas.microsoft.com/wpf/2008/toolkit"
+        Title="联对索寻" Height="350" Width="525">
+    <Window.Resources>
+        <Style x:Key="BorderlessButton" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid Width="Auto">
+                            <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" RecognizesAccessKey="True" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <!-- @see http://apocryph.org/2007/08/26/rendering_disabled_grayed_out_image_buttons_wpf/ -->
+        <Style TargetType="{x:Type Image}" x:Key="toolbarImageStyle">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType={x:Type Button}, AncestorLevel=1}, Path=IsEnabled}" Value="False">
+                    <Setter Property="Opacity" Value="0.50"></Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    
+    <DockPanel LastChildFill="True">
+        <DockPanel DockPanel.Dock="Top" Height="24" LastChildFill="True">
+            <WrapPanel DockPanel.Dock="Right">
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton x:Name="FirstRadio" GroupName="IsFirst" IsChecked="True">First</RadioButton>
+                    <RadioButton x:Name="AllRadio" GroupName="IsFirst">All</RadioButton>
+                </StackPanel>
+                <Button x:Name="SearchButton" Click="SearchButton_Click" ToolTip="Search" DockPanel.Dock="Right" Width="24" Margin="10,0,0,0" Style="{StaticResource BorderlessButton}">
+                    <Image Source="Images\magnifier.png" Cursor="Hand"/>
+                </Button>
+                <Button Click="RefreshButton_Click" ToolTip="Reset" DockPanel.Dock="Right" Width="24" Margin="10,0,0,0" Style="{StaticResource BorderlessButton}">
+                    <Image Source="Images\arrow_refresh.png"/>
+                </Button>
+                <Button x:Name="SaveButton" ToolTip="Save" Click="SaveButton_Click" DockPanel.Dock="Right" Width="24" Margin="10,0,0,0" Style="{StaticResource BorderlessButton}">
+                    <Image Source="Images\disk.png" Style="{StaticResource toolbarImageStyle}"/>
+                </Button>
+            </WrapPanel>
+            <TextBox x:Name="TextBox1" KeyDown="TextBox1_KeyDown" />
+        </DockPanel>
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <Label x:Name="WordCount" Grid.Column="0"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <Hyperlink x:Name="Hyperlink1" NavigateUri="https://docs.google.com/spreadsheet/ccc?key=0Aq0kmppfSN8KdEY2M1ZSUUZXNTZGWk9haUdLdUpFSVE&amp;hl=en_US#gid=0" RequestNavigate="Hyperlink_RequestNavigate">
+                    <TextBlock Text="GDocs"/>
+                </Hyperlink>
+            </StatusBarItem>
+        </StatusBar>
+        <w:DataGrid x:Name="DataGrid1" AutoGenerateColumns="True"
+            ItemsSource="{Binding Liandui,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}"/>
+    </DockPanel>
+</Window>

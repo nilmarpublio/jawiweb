@@ -1,0 +1,77 @@
+﻿<Window x:Class="NisanWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Style="{StaticResource BorderlessWindow}"
+        WindowStartupLocation="CenterScreen"
+        Title="Nisan Dashboard" Height="600" Width="1000" Closing="Window_Closing">
+    <Window.InputBindings>
+        <KeyBinding Modifiers="Control" Key="N" Command="{Binding CreateOrderCommand}" />
+        <KeyBinding Modifiers="Control" Key="S" Command="{Binding SaveCommand}" />
+    </Window.InputBindings>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <DockPanel Grid.Column="0" LastChildFill="True">
+            <DockPanel DockPanel.Dock="Left" LastChildFill="True">
+                <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+                    <Button Content="" Style="{StaticResource MetroButtonStyle}"
+                            ToolTip="Reset" Command="{Binding ResetFilterCommand}" Click="ResetButton_Click" />
+                </StackPanel>
+                <StackPanel Margin="10,0,10,0">
+                    <ItemsControl x:Name="filterList" ItemsSource="{Binding Rules}" Margin="-16 0 0 0" />
+                </StackPanel>
+            </DockPanel>
+            <DockPanel>
+                <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+                    <Button ToolTip="Add" Command="{Binding CreateOrderCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button ToolTip="Delete" Command="{Binding RemoveOrderCommand}" CommandParameter="{Binding Path=SelectedItems,ElementName=listView}" Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button ToolTip="Save" Command="{Binding SaveCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
+                    <Button ToolTip="{Binding LastUpdated}" Command="{Binding CommitSvnCommand}" Content="" Tag="{Binding NewItems.Count}" Style="{StaticResource MetroNotifyButtonStyle}" />
+                    <Button ToolTip="Generate" Command="{Binding GenerateSvgCommand}" CommandParameter="{Binding Path=SelectedItems,ElementName=listView}" Style="{StaticResource InkscapeMetroButton}" />
+                    <Button ToolTip="Cut" Style="{StaticResource KnifeMetroButton}" />
+                    <Button ToolTip="Mark done" Content="" Style="{StaticResource MetroButtonStyle}" Click="DoneButton_Click" />
+                    <Button ToolTip="Print" Content="" Style="{StaticResource MetroButtonStyle}" />
+                </StackPanel>
+                <DockPanel DockPanel.Dock="Bottom">
+                    <WrapPanel DockPanel.Dock="Right">
+                        <TextBlock Text="Total " />
+                        <TextBlock Text="{Binding totalSales,Converter={StaticResource LocalCurrencyConverter},UpdateSourceTrigger=PropertyChanged}" />
+                    </WrapPanel>
+                    <WrapPanel>
+                        <TextBlock Text="{Binding totalFound,Converter={StaticResource LocalizationConverter},UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBlock Text=" items found" />
+                    </WrapPanel>
+                </DockPanel>
+                <ListView x:Name="listView" ItemsSource="{Binding OrdersView}" IsSynchronizedWithCurrentItem="True"
+                          ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderThickness="0">
+                    <ListView.InputBindings>
+                        <KeyBinding Key="Delete" Command="{Binding RemoveOrderCommand}" CommandParameter="{Binding Path=SelectedItem,ElementName=listView}" />
+                    </ListView.InputBindings>
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                </ListView>
+            </DockPanel>
+        </DockPanel>
+        
+        <GridSplitter Background="Transparent" Grid.Column="1" Width="5" HorizontalAlignment="Stretch" />
+
+        <DockPanel Grid.Column="2" LastChildFill="True">
+            <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button ToolTip="Sort by created date" Command="{Binding SortDateCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
+                <Button ToolTip="Sort by customer" Command="{Binding SortSoldToCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
+                <Button ToolTip="Sort by stock" Command="{Binding SortItemCommand}" Content="" Style="{StaticResource MetroButtonStyle}" />
+                <Button ToolTip="Settings" Content="" Style="{StaticResource MetroButtonStyle}" />
+            </StackPanel>
+            <TextBlock DockPanel.Dock="Bottom" x:Name="versionLabel" TextAlignment="Right" Margin="0 0 15 0" />
+            <WrapPanel />
+        </DockPanel>
+
+    </Grid>
+</Window>

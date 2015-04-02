@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Customer Export List</title>
+        <link rel="stylesheet" type="text/css" href="style/common.css"/>
+        <link rel="stylesheet" type="text/css" href="style/jquery-ui.css"/>
+
+        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="jquery-ui.js"></script>
+        <script type="text/javascript" src="js/sarissa/sarissa-compressed.js"></script>
+        <script type="text/javascript" src="js/sarissa/sarissa_ieemu_xpath-compressed.js"></script>
+        <script type="text/javascript" src="js/jquery.xslTransform.packed.js"></script>        
+        <script type="text/javascript">
+            $(function() {
+
+                $("#datepicker").datepicker({dateFormat: "yy-mm-dd"});
+
+                /**
+                 * Generate xml output with xslt on the fly.
+                 * @see http://stackoverflow.com/questions/6578154/can-you-use-jquery-to-transfrom-xml-to-xml-via-xslt
+                 */
+                $("#submit").click(function() {
+                    console.log("export for " + $("#soldto").val() + " from " + $("#datepicker").val());
+
+                    $("#content").getTransform(
+                            'table.xsl',
+                            'nisan.xml', {
+                        params: {
+                            customer: $("#soldto").val(),
+                            last: $("#datepicker").val()}
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="filter">
+            To:<select id="soldto">
+                <option>ADI</option>
+                <option>HAM</option>
+                <option>KEN</option>
+                <option>SEL</option>
+                <option>SEM</option>
+                <option>PAS</option>
+            </select>
+            Since: <input type="text" id="datepicker"/>
+            <button id="submit">Submit</button>
+        </div>
+        <br/>
+        <div id="content"></div>
+    </body>
+</html>

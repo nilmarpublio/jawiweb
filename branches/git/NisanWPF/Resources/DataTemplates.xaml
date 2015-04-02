@@ -1,0 +1,103 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:w="http://schemas.microsoft.com/wpf/2008/toolkit"
+                    xmlns:n="clr-namespace:NisanWPF.BusinessLogic;assembly=NisanWPF.BusinessLogic">
+    <DataTemplate DataType="{x:Type n:nisanOrder}">
+        <DockPanel LastChildFill="True" Margin="2">
+            <DockPanel.Resources>
+                <!-- Make entry TextBox looks like borderless -->
+                <Style TargetType="{x:Type TextBox}">
+                    <Setter Property="Background" Value="Transparent" />
+                    <Setter Property="BorderThickness" Value="0" />
+                    <Style.Triggers>
+                        <Trigger Property="IsFocused" Value="True">
+                            <Setter Property="BorderThickness" Value="1" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DockPanel.Resources>
+            
+            <WrapPanel DockPanel.Dock="Left" Margin="2">
+                <TextBox Text="{Binding soldto,Converter={StaticResource SoldToAbbrevConverter},UpdateSourceTrigger=PropertyChanged}"
+                        Background="{Binding soldto,Converter={StaticResource SoldToColorConverter},UpdateSourceTrigger=PropertyChanged}"
+                        Style="{StaticResource SoldtoTextBoxStyle}" TabIndex="1" />
+            </WrapPanel>
+            <Grid Opacity="{Binding hasCut,Converter={StaticResource FadeOffConverter},UpdateSourceTrigger=PropertyChanged}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                
+                <Grid.ToolTip>
+                    <MultiBinding Converter="{StaticResource NisanToolTipConverter}">
+                        <Binding Path="date" UpdateSourceTrigger="PropertyChanged" />
+                        <Binding Path="remarks" UpdateSourceTrigger="PropertyChanged" />
+                    </MultiBinding>
+                </Grid.ToolTip>
+                <DockPanel Grid.Row="0">
+                    <WrapPanel DockPanel.Dock="Right">
+                        <TextBlock Text="{Binding aging}" Tag="{Binding aging}" Style="{StaticResource AgingStyle}" />
+                        <TextBlock Text=" days ago" Tag="{Binding aging}" Style="{StaticResource AgingStyle}" />
+                        <TextBlock FontFamily="iconFont" Text="" Margin="0 0 2 0"
+                                   ToolTip="{Binding delivered}"
+                                   Visibility="{Binding hasDeliver,Converter={StaticResource VisibilityConverter}, UpdateSourceTrigger=PropertyChanged}" />
+                        <CheckBox IsChecked="{Binding hasCut,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                                  Visibility="{Binding hasDeliver,Converter={StaticResource InvisibilityConverter}, UpdateSourceTrigger=PropertyChanged}"
+                                  Style="{StaticResource KnifeStyle}" />
+                    </WrapPanel>
+                    <Grid Background="{StaticResource WatermarkBackgroundBrush}">
+                        <TextBlock Text="item" FontSize="24" Style="{StaticResource WatermarkStyle}" Visibility="{Binding ElementName=ItemTextBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox x:Name="ItemTextBox" FontSize="24" TabIndex="2" Text="{Binding item,ValidatesOnDataErrors=True,UpdateSourceTrigger=LostFocus}"
+                            Foreground="{Binding item,Converter={StaticResource StockColorConverter},UpdateSourceTrigger=PropertyChanged}"
+                            ToolTip="{Binding price,Converter={StaticResource LocalCurrencyConverter},UpdateSourceTrigger=PropertyChanged}" />
+                    </Grid>
+                </DockPanel>
+                <DockPanel Grid.Row="1">
+                    <Grid DockPanel.Dock="Right" Background="{StaticResource WatermarkBackgroundBrush}">
+                        <TextBlock Text="Enter jawi" Style="{StaticResource WatermarkStyle}" Visibility="{Binding ElementName=JawiTextBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox x:Name="JawiTextBox" Text="{Binding jawi}" TabIndex="4" />
+                    </Grid>
+                    <Grid Background="{StaticResource WatermarkBackgroundBrush}">
+                        <TextBlock Text="Enter name" Style="{StaticResource WatermarkStyle}" Visibility="{Binding ElementName=NameTextBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox x:Name="NameTextBox" Text="{Binding name,ValidatesOnDataErrors=True,Mode=TwoWay,UpdateSourceTrigger=LostFocus}" TabIndex="3" />
+                    </Grid>
+                </DockPanel>
+                <DockPanel Grid.Row="2" Margin="0 0 0 4">
+                    <TextBox DockPanel.Dock="Right" Text="{Binding deathm}" TabIndex="8" />
+                    <WrapPanel>
+                        <Grid Background="{StaticResource WatermarkBackgroundBrush}">
+                            <TextBlock Text="Born" Style="{StaticResource WatermarkStyle}" Visibility="{Binding ElementName=BornTextBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
+                            <TextBox x:Name="BornTextBox" Text="{Binding born}" TabIndex="5" />
+                        </Grid>
+                        <Grid Background="{StaticResource WatermarkBackgroundBrush}">
+                            <TextBlock Text="Death date" Style="{StaticResource WatermarkStyle}" Visibility="{Binding ElementName=DeathTextBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
+                            <TextBox x:Name="DeathTextBox" Text="{Binding death,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}" TabIndex="6" />
+                        </Grid>
+                        <Grid Background="{StaticResource WatermarkBackgroundBrush}">
+                            <TextBlock Text="age" Style="{StaticResource WatermarkStyle}" Visibility="{Binding ElementName=AgeTextBox, Path=Text.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter},UpdateSourceTrigger=PropertyChanged}" />
+                            <TextBox x:Name="AgeTextBox" Text="{Binding age,ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged}" TabIndex="7" />
+                        </Grid>
+                        <TextBlock Text="years old" />
+                    </WrapPanel>
+                </DockPanel>
+            </Grid>
+        </DockPanel>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type n:FilterDateRule}">
+        <StackPanel Margin="16 0 0 0">
+            <CheckBox Content="{Binding Name}" IsChecked="{Binding IsChecked,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
+            <w:DatePicker Margin="16 0 0 0" Width="100" SelectedDate="{Binding From,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
+            <w:DatePicker Margin="16 0 0 0" Width="100" SelectedDate="{Binding To,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type n:FilterRule}">
+        <StackPanel Margin="16 0 0 0">
+            <CheckBox Content="{Binding Name}" IsChecked="{Binding IsChecked,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" />
+            <ItemsControl ItemsSource="{Binding Children}" />
+        </StackPanel>
+    </DataTemplate>
+    
+</ResourceDictionary>

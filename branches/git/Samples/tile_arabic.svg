@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1;"
+     id="frame"
+     d="M 0,0 L 0,0.9375 L 45.45,404.03117 L 45.45,404.99997 L 45.45,404.99997 L 247.05,404.99997 L 247.05,404.99997 L 247.05,404.03117 L 292.5,0.9375 L 292.5,0 L 291.53125,0 L 0.96875,0 L 0,0 z" />
+  <text
+     style="font-size:54px;text-align:center;text-anchor:middle;font-family:Traditional Arabic;font-weight:bold"
+     id="alfatihah"
+     y="44.908669"
+     x="148.62946">الفاتحة</text>
+  <text
+     style="font-size:62px;text-align:center;text-anchor:middle;font-family:Traditional Arabic;font-weight:bold"
+     id="jawi"
+     y="88.04332"
+     x="146.25">سافتيه بنت عبدالله</text>
+  <text
+     style="font-size:28px;text-align:center;text-anchor:middle;font-family:Arial;font-weight:bold"
+     id="name"
+     y="131.98267"
+     x="204.60916">SAFTIAH BT ABDULLAH</text>
+  <text
+     style="font-size:56px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+     id="back"
+     y="188.49055"
+     x="109.53712"
+     dx="0 0 0 0 0 0 0 25.3 0 12.7">كمبالي كرحمةاللة</text>
+  <text
+     id="deathmuslim"
+     style="font-size:36px;font-weight:bold;text-align:start;text-anchor:start;font-family:Traditional Arabic"
+     y="238.30972"
+     x="41.529198"
+     dx="0 0 0 0 100">143130</text>
+  <text
+     style="font-size:54px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+     id="deathmonth"
+     y="236.11072"
+     x="162">ربيع الاخير</text>
+  <text
+     style="font-size:54px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+     id="equals"
+     y="292.22461"
+     x="149.10406">برسمأن</text>
+  <text
+     style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+     id="death"
+     y="336.30972"
+     x="146.53125">15.4.2010</text>
+  <text
+     style="font-size:54px;text-align:center;text-anchor:middle;font-family:Traditional Arabic;font-weight:bold"
+     id="amin"
+     y="382.30203"
+     x="148.47125">أمين</text>
+</svg>

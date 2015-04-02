@@ -1,0 +1,324 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Style x:Key="BorderlessWindowStyle" TargetType="{x:Type Window}">
+        <Setter Property="WindowStyle" Value="None" />
+        <Setter Property="ResizeMode" Value="NoResize" />
+        <Setter Property="AllowsTransparency" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Window}">
+                    <Border BorderThickness="2" BorderBrush="Gray">
+                        <Border.Effect>
+                            <DropShadowEffect BlurRadius="50" Direction="-90" RenderingBias="Quality" ShadowDepth="0"/>
+                        </Border.Effect>
+                        <Grid Background="White">
+                            <ContentPresenter Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" ContentTemplate="{TemplateBinding ContentTemplate}"/>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="MetroWindowButtonStyle" TargetType="{x:Type Button}">
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="FontFamily" Value="iconFont" />
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="Height" Value="24" />
+        <Setter Property="Width" Value="24" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Border x:Name="body" Padding="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="{TemplateBinding Content}"/>
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="body" Property="Background" Value="#007acc" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="White" />
+                <Setter Property="Background" Value="White" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="MetroConfirmButtonStyle" TargetType="{x:Type Button}">
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="Height" Value="24" />
+        <Setter Property="Width" Value="24" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid Background="LightGray">
+                        <Border x:Name="body" Padding="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="{TemplateBinding Content}"/>
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="body" Property="Background" Value="#007acc" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="White" />
+                <Setter Property="Background" Value="White" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="MetroInnerButtonStyle" TargetType="{x:Type Button}">
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="FontFamily" Value="iconFont" />
+        <Setter Property="Height" Value="24" />
+        <!--<Setter Property="Width" Value="24" />-->
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Border x:Name="body" Padding="2">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="{TemplateBinding Content}"/>
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="body" Property="Background" Value="#ddd" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="White" />
+                <Setter Property="Background" Value="White" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="MetroWindowCloseStyle" TargetType="{x:Type Button}" BasedOn="{StaticResource MetroWindowButtonStyle}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Border x:Name="body" Padding="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="{TemplateBinding Content}"/>
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="body" Property="Background" Value="red" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="MetroButtonStyle" TargetType="{x:Type Button}">
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontFamily" Value="iconFont" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Border x:Name="body" Padding="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="{TemplateBinding Content}"/>
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="body" Property="Background" Value="#007acc" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="White" />
+                <Setter Property="Background" Value="White" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="NotificationStyle" TargetType="{x:Type Label}">
+        <Setter Property="FontSize" Value="9" />
+        <Setter Property="Foreground" Value="Gray" />
+        <Setter Property="FontFamily" Value="Arial" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="HorizontalAlignment" Value="Right" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Label}">
+                    <Grid>
+                        <Ellipse x:Name="body" Height="15" Width="15" Fill="{TemplateBinding Background}" Stroke="Gray" StrokeThickness="2" />
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" Content="{TemplateBinding Content}" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <Style x:Key="MetroNotifyButtonStyle" TargetType="{x:Type Button}">
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontFamily" Value="iconFont" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Label x:Name="counter" Content="{TemplateBinding Tag}" Style="{StaticResource NotificationStyle}" Padding="0 8 8 0"
+                               Visibility="{Binding Content,RelativeSource={RelativeSource Self},Converter={StaticResource VisibilityConverter}}" />
+                        <Border x:Name="body" Padding="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="{TemplateBinding Content}" />
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="body" Property="Background" Value="#007acc" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="White" />
+                <Setter Property="Background" Value="White" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="SoldtoTextBoxStyle" TargetType="{x:Type TextBox}">
+        <Setter Property="Width" Value="50" />
+        <Setter Property="Height" Value="50" />
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="TextAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="FontSize" Value="42" />
+        <Setter Property="Foreground" Value="White" />
+        <!--<Setter Property="BorderThickness" Value="0" />-->
+    </Style>
+    
+    <Style x:Key="AgingStyle" TargetType="{x:Type TextBlock}">
+        <Setter Property="Foreground" Value="{Binding Tag, RelativeSource={RelativeSource Self}, Converter={StaticResource AgingConverter}}" />
+        <Setter Property="FontStyle" Value="Italic" />
+        <Setter Property="Margin" Value="0 0 2 0" />
+    </Style>
+
+    <Style x:Key="KnifeStyle" TargetType="{x:Type CheckBox}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type CheckBox}">
+                    <Grid Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                        <Path x:Name="cut" Stretch="None" Stroke="{StaticResource DefaultColor}" Data="m 0.48706478,5.1511221 11.02587022,0 m -8.5302769,-4.66405732 6.0346837,0 0,8.92310472 -6.0346837,4.4581615 z" />
+                        <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="cut" Property="Data" Value="m 0.58770019,3.7456829 10.82459981,0 0,1.968105 -10.82459981,0 z m 2.35907991,-3.31798501 0,2.82916501 6.088845,0 0,-2.82916501 -6.088845,0 z m 0,5.78131501 0,7.7186851 6.088845,-4.4897551 0,-3.22893 -6.088845,0 z" />
+                            <Setter TargetName="cut" Property="Fill" Value="#808080" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <DrawingBrush x:Key="KnifeIcon" Stretch="None">
+        <DrawingBrush.Drawing>
+            <DrawingGroup>
+                <DrawingGroup.Children>
+                    <GeometryDrawing Brush="Gray" Geometry="m 0,3.37175 11.000003,0 0,2 L 0,5.37175 z M 2.39731,0 l 0,2.875 6.187503,0 0,-2.875 -6.187503,0 z m 0,5.875 0,7.84375 6.187503,-4.5625 0,-3.28125 -6.187503,0 z" />
+                </DrawingGroup.Children>
+            </DrawingGroup>
+        </DrawingBrush.Drawing>
+    </DrawingBrush>
+
+    <Style x:Key="KnifeMetroButton" TargetType="{x:Type Button}">
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontFamily" Value="iconFont" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="body" Padding="10">
+                        <Grid>
+                            <Path x:Name="icon" Stretch="None" Fill="Gray" Data="m 0,5.8986424 19.243736,0 0,3.498861 -19.243736,0 z M 4.1939273,0 l 0,5.0296128 10.8246017,0 L 15.018529,0 4.1939273,0 z m 0,10.277904 0,13.722096 10.8246017,-7.981777 0,-5.740319 -10.8246017,0 z" />
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="{TemplateBinding Content}"/>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="body" Property="Background" Value="#007acc" />
+                            <Setter TargetName="icon" Property="Fill" Value="White" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="White" />
+                <Setter Property="Background" Value="White" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="InkscapeMetroButton" TargetType="{x:Type Button}">
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontFamily" Value="iconFont" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="body" Padding="10">
+                        <Grid>
+                            <Path x:Name="icon" Stretch="None" Fill="Gray" Data="m 7.2319497,14.740713 c 0.47815,0.351194 1.42181,0.139326 1.98854,0.394578 1.3602903,0.61255 3.0324903,1.295142 2.7247703,0.08673 0,0 -0.34616,0.287514 -0.34616,0.287514 0,0 -0.007,-0.547905 -0.007,-0.547905 0,0 -0.80379,0.196298 -0.80379,0.196298 0,0 -0.62261,-0.499762 -0.9080503,-0.664556 -0.0597,-0.03449 -0.36585,0.276961 -0.36585,0.276961 0,0 -0.055,-0.330743 -0.055,-0.330743 -0.39792,-0.04225 -0.79184,-0.06104 -1.13869,-0.05828 -0.83144,0.0069 -1.39233,0.136567 -1.08897,0.359419 z M 13.39286,1.2368548 16.8849,4.7931588 c 0.32135,0.321345 0.32135,0.98547 0.12846,1.178284 l -1.73529,-1.413948 -0.34278,2.078072 -1.43538,-0.771239 -2.33515,1.478213 -0.77124,-3.106409 -1.2425703,2.699365 -3.10641,-0.02138 c -0.59986,0 -0.51416,-0.621292 0.10708,-1.242567 1.22115,-1.349682 3.59915,-3.641985 4.3489803,-4.434658 0.77124,-0.79267305 2.12092,-0.77124005 2.89216,0 z M 9.8794097,0.80337675 1.0529397,9.8440908 c -3.34205,3.3420562 2.16377,3.0635602 4.15615,4.3275432 0.92122,0.599859 -2.95643,1.371098 -2.16377,2.163771 0.77125,0.792656 4.6489,1.521062 5.42014,2.292301 0.77124,0.792673 -1.56391,1.628198 -0.79267,2.420852 0.74982,0.792673 2.5494003,0.04276 2.8707403,1.842426 0.23567,1.328248 3.29923,0.664124 4.67033,-0.471311 0.85693,-0.728407 -1.47822,-0.728407 -0.70698,-1.52108 1.92811,-1.949524 3.642,-0.878355 4.34898,-2.677931 0.38561,-0.964054 -2.9136,-1.64961 -2.03524,-2.270885 2.0995,-1.478214 9.81195,-2.228037 6.25565,-5.78434 L 13.92846,0.80337675 c -1.13546,-1.071169 -2.9993,-1.071169 -4.0490503,0 z M 20.01273,18.220662 c 0,0.449896 3.49202,0.706975 3.2992,-0.107081 -0.27849,-1.371098 -2.91359,-1.263983 -3.2992,0.107081 z M 5.1234097,20.598665 c 0.79267,0.685558 1.99237,-0.150016 2.378,-1.114018 -0.77124,-1.006904 -3.62057,0.06432 -2.378,1.114018 z M 19.58425,19.163299 c -0.98549,0.899789 0.1714,1.842411 1.13545,1.221136 0.25708,-0.171398 -0.0214,-1.006903 -1.13545,-1.221136 z" />
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="{TemplateBinding Content}"/>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="body" Property="Background" Value="#007acc" />
+                            <Setter TargetName="icon" Property="Fill" Value="White" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="White" />
+                <Setter Property="Background" Value="White" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    
+    <Style x:Key="WatermarkStyle" TargetType="{x:Type TextBlock}">
+        <Setter Property="FontStyle" Value="Italic" />
+        <Setter Property="Foreground" Value="{StaticResource WatermarkForegroundBrush}" />
+        <Setter Property="Margin" Value="4 0 0 0" />
+    </Style>
+    
+    <Style x:Key="TransparentBox" TargetType="{x:Type TextBox}">
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Padding" Value="0 5 0 0" />
+    </Style>
+
+</ResourceDictionary>

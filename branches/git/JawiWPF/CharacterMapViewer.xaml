@@ -1,0 +1,48 @@
+﻿<Window x:Class="JawiWPF.CharacterMapViewer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:j="clr-namespace:HLGranite.Jawi;assembly=HLGranite.Jawi"
+    Title="Character Map" Height="400" Width="400"
+    Loaded="Window_Loaded" Closed="Window_Closed">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type j:CharacterViewModel}">
+            <Border BorderThickness="1" BorderBrush="Black" CornerRadius="5">
+                <StackPanel>
+                    <!-- FontFamily="{Binding Path=DataContext.Font,RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type Window}}}" -->
+                    <TextBlock
+                        Text="{Binding Character}"
+                        FontSize="{Binding FontSize}"
+                        Width="{Binding FontSize}"
+                        FontFamily="Traditional Arabic" FontWeight="Bold" />
+                    <TextBlock Text="{Binding Code}"/>
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+    </Window.Resources>
+    <DockPanel LastChildFill="True">
+        <!--<TextBlock Text="ي" FontSize="72" FontFamily="Traditional Arabic" FontWeight="Bold"/>-->
+        <WrapPanel DockPanel.Dock="Top">
+            <ComboBox x:Name="familyName"></ComboBox>
+            <ComboBox x:Name="fontSize" SelectionChanged="fontSize_SelectionChanged">
+                <ComboBoxItem>36</ComboBoxItem>
+                <ComboBoxItem IsSelected="true">72</ComboBoxItem>
+                <ComboBoxItem>120</ComboBoxItem>
+            </ComboBox>
+            <Button x:Name="copy">Copy</Button>
+        </WrapPanel>
+        <ScrollViewer DataContext="{Binding}"><!--IsDeferredScrollingEnabled="True"-->
+            <!-- @see http://www.dev102.com/2009/01/16/things-to-notice-when-binding-to-large-collection/ -->
+            <ItemsControl
+                x:Name="mapSpace" ItemsSource="{Binding Items}"
+                VirtualizingStackPanel.IsVirtualizing="True"
+                VirtualizingStackPanel.VirtualizationMode="Recycling"
+                Loaded="mapSpace_Loaded">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+        </ScrollViewer>
+    </DockPanel>
+</Window>

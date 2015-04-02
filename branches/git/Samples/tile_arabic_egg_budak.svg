@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
+  <g transform="scale(0.846154,0.846154)">
+    <path
+       id="frame"
+       sodipodi:type="arc"
+       sodipodi:cx="-127.15165"
+       sodipodi:cy="220.57848"
+       sodipodi:rx="114.43649"
+       sodipodi:ry="179.07191"
+       d="m -12.715157,220.57848 a 114.43649,179.07191 0 1 1 -228.872983,0 114.43649,179.07191 0 1 1 228.872983,0 z"
+       transform="matrix(1.2780014,0,0,1.1308306,308.74998,-46.93689)"
+     style="fill:none;stroke:#000000;stroke-width:1;" />
+    <text
+       id="alfatihah"
+       style="font-size:54px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+       y="51.50975"
+       x="147.49709">الفاتحة</text>
+    <text
+       id="allahyarham"
+       style="font-size:54px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+       x="137.74548"
+       y="96.226677"
+       dx="0 0 0 0 0 1.6252667 0 0 0 8.1263332">اللهماغفرله</text>
+    <text
+       id="jawi"
+       style="font-size:62px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+       x="146.44678"
+       y="149.44493">جرياح بنت عبدالله</text>
+    <text
+       id="name"
+       style="font-size:28px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+       y="193.45303"
+       x="148.23926">JARIAH BT ABDULLAH</text>
+    <text
+       id="back"
+       style="font-size:59.97682571000000000px;font-weight:bold;text-align:center;text-anchor:middle;fill:#000000;font-family:Traditional Arabic"
+       y="255.84845"
+       x="114.85903"
+       dx="0 0 0 0 0 0 0 12.852177 0 8.5681181"
+       transform="scale(1.0710147,0.933694)">كمبالي كرحمةاللة</text>
+    <text
+       id="deathmuslim"
+       style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+       y="290.30972"
+       x="146.02148"
+       dx="0 0 0 0 142.38895 0 100">143121</text>
+    <text
+       id="deathmonth"
+       style="font-size:54px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+       y="292.59335"
+       x="165.97685">ذوالقعده</text>
+    <text
+       id="death"
+       style="font-size:36px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+       x="146.3501"
+       y="332.30972">10.10.2010</text>
+    <text
+       id="amin"
+       style="font-size:54px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Traditional Arabic"
+       y="376.90311"
+       x="146.31056">أمين</text>
+  </g>
+</svg>

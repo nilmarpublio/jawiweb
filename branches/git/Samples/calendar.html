@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- source: http://arshaw.com/fullcalendar/ -->
+<html>
+<head>
+<link href='style/fullcalendar.css' rel='stylesheet' />
+<link href='style/fullcalendar.print.css' rel='stylesheet' media='print' />
+<style>
+	#calendar ul {list-style-type:none;}
+	#calendar ul li {width: 150px;float:left;margin-right:10px;}
+</style>
+<!-- Included in parent html -->
+<!--<script src='js/jquery-1.10.2.min.js'></script>-->
+<script src='js/jquery-ui-1.10.3.custom.min.js'></script>
+<script src='js/fullcalendar.min.js'></script>
+<script>
+
+	$(document).ready(function() {
+		var json = {"events" : [
+				{title: '9', start: new Date(2013,7-1,10)},
+				{title: '10', start: new Date(2013,8-1,8)},
+				{title: '11', start: new Date(2013,9-1,7)},
+				{title: '12', start: new Date(2013,10-1,6)},
+				
+				{title: '1', start: new Date(2013,11-1,5)},
+				{title: '2', start: new Date(2013,12-1,4)},
+				{title: '3', start: new Date(2014,1-1,3)},
+				{title: '4', start: new Date(2014,2-1,1)},
+				{title: '5', start: new Date(2014,3-1,3)},
+				{title: '6', start: new Date(2014,4-1,1)},
+				{title: '7', start: new Date(2014,5-1,1)},
+				{title: '8', start: new Date(2014,5-1,30)},
+				{title: '9', start: new Date(2014,6-1,29)},
+				{title: '10', start: new Date(2014,7-1,28)},
+				{title: '11', start: new Date(2014,8-1,27)},
+				{title: '12', start: new Date(2014,9-1,26)},
+				
+				{title: '1', start: new Date(2014,10-1,25)},
+				{title: '2', start: new Date(2014,11-1,24)},
+				{title: '3', start: new Date(2014,12-1,23)},				
+				{title: '4', start: new Date(2015,1-1,22)},
+				{title: '5', start: new Date(2015,2-1,20)},
+				{title: '6', start: new Date(2015,3-1,22)},
+				{title: '7', start: new Date(2015,4-1,20)},
+				{title: '8', start: new Date(2015,5-1,19)},
+				{title: '9', start: new Date(2015,6-1,18)},
+				{title: '10', start: new Date(2015,7-1,17)},
+				{title: '11', start: new Date(2015,8-1,16)},
+				{title: '12', start: new Date(2015,9-1,15)},
+				
+				{title: '1', start: new Date(2015,10-1,14)},
+				{title: '2', start: new Date(2015,11-1,13)},
+				{title: '3', start: new Date(2015,12-1,13)},
+		]};
+		
+		var date = new Date();
+		var y = date.getFullYear();
+		for(var i=1;i<=12;i++) {
+			$('#'+i).fullCalendar({
+				header: {right: ''},
+				titleFormat: {month: 'MMM yyyy'},
+				year: y,
+				month: i-1,
+				dayNamesShort: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+				events: json.events,
+			});
+		}
+		
+		// only view past 6 months
+		var today = new Date();
+		var current = today.getMonth();//+1;
+		//console.log("Current: "+current);
+		var j=0;
+		// TODO: Year wrong when it is crossing year happened at Jan.
+		for(var i=current+1;i<current+13;i++) {
+			if(j<6) {
+				$('#'+(i%12+1)).hide();
+			} else {
+				//console.log("show month: "+(i%12+1));
+			}
+			j++;
+		}
+		
+	});
+
+</script>
+</head>
+<body>
+<div id="calendar">
+	<ul>
+		<li><div id='1'></div><li>
+		<li><div id='2'></div><li>
+		<li><div id='3'></div><li>
+		<li><div id='4'></div><li>
+		<li><div id='5'></div><li>
+		<li><div id='6'></div><li>
+		<li><div id='7'></div><li>
+		<li><div id='8'></div><li>
+		<li><div id='9'></div><li>
+		<li><div id='10'></div><li>
+		<li><div id='11'></div><li>
+		<li><div id='12'></div><li>
+	</ul>
+</div>
+</body>
+</html>

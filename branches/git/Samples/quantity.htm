@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Quantity Sold</title>	
+	<link rel="stylesheet" type="text/css" href="style/sales.css" />
+	<link rel="stylesheet" type="text/css" href="style/graph.css" />
+	
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jshashtable-2.1.js"></script>
+	<script type="text/javascript" src="js/jquery.numberformatter-1.2.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flot.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flot.stack.min.js"></script>
+	<script type="text/javascript" src="js/quantity.js"></script>
+</head>
+<body>
+	<h1>Quantity Report</h1>
+	<!-- Graph HTML -->
+	<div id="graph-wrapper">
+		<div class="graph-info">
+		<a href="javascript:void(0)" class="hamid">Sticker</a>
+			<a href="javascript:void(0)" class="addin">PV</a>
+			<a href="javascript:void(0)" class="selama">Nisan</a>
+			<a href="javascript:void(0)" class="semanggol">Rehal</a>
+			<a href="javascript:void(0)" class="etc">etc</a>
+			<a href="#" id="bars" title="show bars"><span></span></a>
+      		<a href="#" id="lines" class="active" title="show lines"><span></span></a>
+		</div>
+		
+		<div class="graph-container">
+		<div id="graph-lines"></div>
+		<div id="graph-bars"></div>
+		</div>
+	</div>
+	<br/>
+	<!-- end Graph HTML-->
+	
+	<div id="summary">
+		<!--  @todo: how to handle json lookup for multiple xml or combine several xml into one for filter previous data -->
+		<h2>Summary</h2>
+		Year
+		<select id="year">
+			<option>2008</option>
+			<option>2009</option>
+			<option>2010</option>
+			<option>2011</option>
+			<option>2012</option>
+			<option>2013</option>
+			<option>2014</option>
+			<option>2015</option>
+			<option>2016</option>
+		</select>
+		<table id="results" cellpadding="3">
+		</table>
+	</div>
+	
+</body>
+</html>

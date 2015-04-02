@@ -1,0 +1,60 @@
+html {font-family:Tahoma,Calibri,Verdana,Arial;font-size:9pt;}
+body {}
+h3 {font-variant:small-caps;text-align:center;}
+h3 ol,ul {margin:0;padding:0;list-style-type:none;display:inline;}
+
+.footer { float:left;bottom:10px;font-size:10px;}
+.footer ul li { list-style:none;display:inline;}
+.left {float:left;}
+.right {float:right;}
+.tab {display:inline-table;width:20px; }
+.wait {color:red;}
+
+/** Pending list use */
+.headerLeft {float:left;margin:0 0 10px 80px;font-size:10px;}
+.headerRight {float:right;margin: 0 0 10px 80px;font-size:10px;text-align:right;}
+.content { clear:both;font-size:9pt;}
+.content h3 {font-variant:small-caps;text-align:center;}
+.content h4 {font-family:Cambria;font-variant:small-caps;}
+.content ol li {text-transform: capitalize;}
+.headline { background-color: lightgrey; clear:both;font-size:12px;}
+.orderHead {display:inline-table;padding:0 4px 0 0;text-align:right;}
+
+.soldto {display:inline-table;width:30px;padding:0 6px 0 0;text-align:right;}
+.order {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
+.deliver {display:inline-table;width:70px;padding:0 6px 0 0;text-align:right;}
+.name { display:inline-table;width:420px;padding:0 6px 0 0; }
+.item {display:inline-table;width:100px;padding:0 6px 0 0;}
+.jawi { }
+
+.price {display:inline-table;width:40px;text-align:right;}
+.sum {display:inline-table;width:580px;text-align:right;font-weight:bold}
+
+/** Formatting style */
+.blue {color:blue;}
+.red {color:red;text-decoration:blink;}
+.green {color:green;}
+.white {color:gray;}
+.italic {font-style: italic;}
+.highlight {background:lightgrey;}
+.strikethrough {text-decoration:line-through;}
+
+/** Table sorting use */
+#xml_wrapper ul {margin-left:0;}
+#xml_wrapper ul li {list-style-type:none;display:inline;}
+#xml_wrapper ul li a {color:Black;}
+#xml_wrapper table th {font-weight:normal;text-align: left;background: lightgrey;cursor: pointer;}
+#xml_wrapper table th:first-child { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px }
+#xml_wrapper table th:last-child { -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px }
+#xml_wrapper table tbody td {margin-right:10px;}
+
+th {background:lightgrey;}
+.th_hover { color: #ccc}  
+.headerSortDown,.headerSortUp { font-weight: bold !important }
+
+/** For zebra stiping in table*/		
+/** NOTE: This does not work as intended with filtering */	
+.odd {}
+.even {}
+.stripe { background: gainsboro !important}
+
