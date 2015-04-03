@@ -10,7 +10,6 @@ using System.Text;
 using System.Windows.Data;
 using System.Windows.Input;
 using LibGit2Sharp;
-using SharpSvn;
 using HLGranite.Jawi;
 
 namespace NisanWPF.BusinessLogic
@@ -299,7 +298,6 @@ namespace NisanWPF.BusinessLogic
             this.removeOrderCommand = new RemoveOrderCommand(this);
             this.generateSvgCommand = new GenerateSvgCommand(this);
             this.saveCommand = new SaveCommand(this);
-            this.commitSvnCommand = new CommitSvnCommand(this);
             this.commitGitCommand = new CommitGitCommand(this);
             this.resetFilterCommand = new ResetFilterCommand(this);
             this.filterPendingOrderCommand = new FilterPendingOrderCommand(this);
@@ -577,27 +575,6 @@ namespace NisanWPF.BusinessLogic
             SaveToFile(FILENAME);
         }
 
-        private CommitSvnCommand commitSvnCommand;
-        public CommitSvnCommand CommitSvnCommand { get { return this.commitSvnCommand; } }
-        /// <summary>
-        /// Commit nisan.xml to svn repo based on working copy path and authentication.
-        /// </summary>
-        /// <remarks>
-        /// See https://sharpsvn.open.collab.net/ using ver 1.6.
-        /// </remarks>
-        public bool Commit()
-        {
-            // ensure changes is save if forgot to press save button
-            Save();
-
-            System.Diagnostics.Debug.WriteLine("svn commit nisan.xml -m \"Updating nisan order by NisanWPF.\"");
-            //string url = "https://jawiweb.googlecode.com/svn/trunk/Samples";
-            SvnCommitArgs args = new SvnCommitArgs();
-            args.LogMessage = "Updating nisan order by NisanWPF.";
-            using (SvnClient client = new SvnClient())
-                return client.Commit(FILENAME, args);
-        }
-
         private CommitGitCommand commitGitCommand;
         public CommitGitCommand CommitGitCommand { get { return this.commitGitCommand; } }
         /// <summary>
@@ -626,7 +603,7 @@ namespace NisanWPF.BusinessLogic
 
                 // push to repo
                 PushOptions options = new PushOptions();
-                options.Credentials = new UsernamePasswordCredentials() { Username = "yancyn", Password = "1project1month" };
+                options.Credentials = new UsernamePasswordCredentials() { Username = "yancyn", Password = "1project1month" }; // TODO: Move credential to config
                 repo.Network.Push(repo.Head, options);
             }
 
@@ -742,27 +719,6 @@ namespace NisanWPF.BusinessLogic
         }
         private nisan manager;
         public SaveCommand(nisan nisan)
-        {
-            this.manager = nisan;
-        }
-    }
-
-    public class CommitSvnCommand : ICommand
-    {
-        public bool CanExecute(object parameter)
-        {
-            return true;
-        }
-
-        public event EventHandler CanExecuteChanged;
-
-        public void Execute(object parameter)
-        {
-            manager.Commit();
-            manager.NewItems.Clear();
-        }
-        private nisan manager;
-        public CommitSvnCommand(nisan nisan)
         {
             this.manager = nisan;
         }
