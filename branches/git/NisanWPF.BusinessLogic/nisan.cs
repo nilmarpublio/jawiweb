@@ -19,7 +19,7 @@ namespace NisanWPF.BusinessLogic
         /// <summary>
         /// nisan.xml.
         /// </summary>
-        private const string FILENAME = "nisan.xml";
+        public const string FILENAME = "nisan.xml";
         public static MuslimCalendar Calendar;
 
         /// <summary>

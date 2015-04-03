@@ -44,7 +44,7 @@ namespace NisanWPF
                 repo.Network.Pull(signature, options);
             }
 
-            nisan.LoadFromFile("nisan.xml", out nisan);
+            nisan.LoadFromFile(nisan.FILENAME, out nisan);
             nisan.Initialize(nisan);
             // show pending order at startup
             nisan.FilterPendingOrder(DateTime.MinValue, DateTime.MaxValue);
@@ -58,7 +58,7 @@ namespace NisanWPF
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            nisan.SaveToFile("nisan.xml");
+            nisan.SaveToFile(nisan.FILENAME);
         }
 
         private void ResetButton_Click(object sender, RoutedEventArgs e)
@@ -74,7 +74,7 @@ namespace NisanWPF
             ObservableCollection<nisanOrder> orders = new ObservableCollection<nisanOrder>();
             foreach (nisanOrder order in listView.SelectedItems)
                 orders.Add(order);
-            dialog.DataContext = orders;// listView.SelectedItems as ObservableCollection<nisanOrder>;
+            dialog.DataContext = orders;
             dialog.Show();
         }
     }
